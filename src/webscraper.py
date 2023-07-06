@@ -70,6 +70,9 @@ def drop_duplicate_product_urls(brand_data: pd.DataFrame):
 
 def get_brand_products(url):
     """
+    Brand pages display products in a grid. Products past initial load of data are loaded by scrolling down the page.
+    Once "show more" button is found, click to load more products in page. Product links are added to a set. 
+    TO DO -> product URLS can be parsed here to remove duplicate products 
     """
     product_urls = []
     driver = webdriver.Chrome(options=options, executable_path=DRIVER_PATH)
@@ -77,6 +80,7 @@ def get_brand_products(url):
     soup = BeautifulSoup(driver.page_source, 'html.parser')
     
     #https://stackoverflow.com/questions/20986631/how-can-i-scroll-a-web-page-using-selenium-webdriver-in-python
+    # Initially tried to scroll to bottom of page but this did not load products.
     # at top of webpage
     y_height=0
     expected_products = soup.find("p", attrs={'data-at':'number_of_products'}).getText()
@@ -85,7 +89,6 @@ def get_brand_products(url):
     products_on_load = soup.find_all('a', attrs={'data-comp':"ProductTile "}, href=True)
     product_urls.extend([prod['href'].split(" ")[0] for prod in products_on_load])
     
-    # last_height = driver.execute_script("return document.body.scrollHeight")
     # while there is still page left to scroll and "see more" buttons to click
     while True:
         lazy_products = driver.find_elements_by_xpath('//a[@data-comp="LazyLoad ProductTile "]')
@@ -107,3 +110,172 @@ def get_brand_products(url):
                 break
     driver.quit()
     return list(set(product_urls))
+
+
+def get_sku(soup) -> str:
+    """
+    Returns sku code from product page in format 'Item #######'
+    SKU can also be found in product url 
+    """
+    try:
+        return soup.find('p', attrs={'data-at':'item-sku'}).text
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+
+def get_breadcrumb_categories(soup) -> List:
+    """
+    Returns list of categorical values used to describe product in header of product page
+        for ex. ['Skincare','Moisturizer',...] at time of web scraping there are max of three levels in breadcrumbs
+    """
+    try:
+        return [x.text for x in soup.find('nav', attrs={'data-comp':"ProductBreadCrumbs BreadCrumbs BreadCrumbs "}).findAll('li')]
+    except Exception as e:
+        print(f"An error occurred: {e}")
+       
+        
+
+def get_brand_name(soup) -> str:
+    """
+    Returns product brand name from product page
+    """
+    try:
+        a_tag = soup.find("a", attrs={'data-at':"brand_name"})
+        return a_tag.text
+    except Exception as e:
+        print(f"An error occurred: {e}")
+       
+
+def get_product_name(soup) -> str:
+    """
+    Returns product name as written on product page
+    """
+    try:
+        span_tag = soup.find("span", attrs={'data-at':"product_name"})
+        return span_tag.text
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+
+def get_num_loves(soup) -> str:
+    """
+    Returns number of 'love' votes for product
+        loves seem to be used to track product frequently repurchased
+    """
+    try:
+        span_tag = soup.find("div", attrs={"data-comp": "LovesCount "}).span
+        return span_tag.text
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+
+def get_ingredients(soup) -> str:
+    """
+    Returns full ingredient list as blob of text
+    """
+    try:
+        div_ig = soup.find("div", {"id": "ingredients"})
+        if div_ig is not None:
+            return div_ig.text
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+
+def get_rating_data(soup) -> Tuple[str, str]:
+    """
+        Sephora product page displays a 1-5 bar histogram of votes but it is difficult to retrieve the histogram data
+        ******might be able to figure this out later
+        Returns star rating and number of reviews as tuple
+    """
+    try:
+        rr_container = soup.find("a", {"href": "#ratings-reviews-container"})
+        star_rating = rr_container.find('span', attrs={'data-at':'star_rating_style'})['style']
+        num_reviews = rr_container.text
+        return star_rating, num_reviews
+    except Exception as e:
+        print(f"An error occurred: {e}")
+    
+
+def get_product_buttons(driver, click_delay=0.5) -> Dict:
+    """
+    Products can have size and colour variations on product pages. Each product option available must be clicked
+    on product page to update price.
+    The data produced by this function are messy because product volume formats can look very different depending on brand.
+    Additionally, this function needs to be improved to capture both original and sale prices if a product is on sale.
+
+    """
+    product_options = []
+    for x in driver.find_elements(By.XPATH, "//div[@data-comp='SwatchGroup ']"):
+        buttons = x.find_elements(By.TAG_NAME, "button")
+        for button in buttons:
+            time.sleep(click_delay)
+            try:
+                button.click()
+            except Exception as e:
+                print(f"An error occurred: {e}")
+                print('reached nonclickable web element')
+                return product_options
+                
+            product_info = {}
+            product_info['swatch_group'] = x.find_element(By.TAG_NAME, "p").text
+            try:
+                product_info['size'] = driver.find_element(By.XPATH, "//span[@data-at='sku_size_label']").text
+            except Exception as e:
+                print(f"An error occurred: {e}")
+                product_info['size'] = None
+            try:
+                product_info['name'] = driver.find_element(By.XPATH, "//div[@data-at='sku_name_label']").text
+            except Exception as e:
+                print(f"An error occurred: {e}")
+                product_info['name'] = None
+            product_info['price'] = driver.find_element(By.XPATH, "//p[@data-comp='Price ']//b").text
+            product_info['sku'] = driver.find_element(By.XPATH, "//p[@data-at='item_sku']").text
+            product_options.append(product_info)
+    return product_options
+
+
+def get_product_page():
+    """
+    need to update this go just take single product url
+    need to add wrapper function
+    """
+
+    # value kits will need to be separate or excluded...
+    crawl_delay = 5
+    offset = 227
+
+    for i, brand in enumerate(brand_data[offset:]):
+        print("brand # ", str(i+offset) + brand["name"])
+        product_data = []    
+        for url in brand["products"]:
+            time.sleep(crawl_delay)
+            product = {}
+            product["url"] = url
+            # get class names of buttons and grab prices with selenium 
+            driver = webdriver.Chrome(options=options, executable_path=DRIVER_PATH)
+            driver.get(url)
+            soup = BeautifulSoup(driver.page_source, 'html.parser')
+            print(product)
+            try:
+                h1 = soup.find('h1').text
+            except:
+                product_data.append(product)
+                driver.quit()
+                pass
+                
+            if h1 != 'Sorry, this product is not available.' and h1!='Sorry! The page you’re looking for cannot be found.':
+                product["product_name"] = get_product_name(soup)
+                product["brand_name"] = get_brand_name(soup)
+                product["options"] = get_product_buttons(driver)
+                product["rating"], product["product_reviews"] = get_rating_data(soup)
+                product["ingredients"] = get_ingredients(soup)
+                product["n_loves"] = get_num_loves(soup)
+                product["categories"] = get_breadcrumb_categories(soup)
+            product_data.append(product)
+            driver.quit()
+        fname = 'data/products/'+brand["name"].replace("/","")+".json"
+        
+        print("Saving ", fname)
+        with open(fname, "w") as outfile:
+            outfile.write(json.dumps(product_data, indent=4))
+
