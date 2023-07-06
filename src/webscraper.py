@@ -4,14 +4,16 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
-
+from selenium.common.exceptions import InvalidArgumentException
 from urllib.parse import urlsplit, parse_qs
 import pandas as pd
+from typing import List, Tuple, Dict
+import time
 
 BASE_URL = 'https://www.sephora.com'
 CRAWL_DELAY=5
 SCROLL_PAUSE_TIME = 0.5
-DRIVER_PATH = '../../chromedriver_mac64/chromedriver'
+DRIVER_PATH = '../../../chromedriver_mac64/chromedriver'
 DATA_DIR = "data/"
 
 options = Options()
@@ -32,10 +34,14 @@ def get_brand_list(url):
     Returns:
     """
     driver = webdriver.Chrome(options=options, executable_path=DRIVER_PATH)
-    driver.get(url)
+    brand_data = []
+    try:
+        driver.get(url)
+    except InvalidArgumentException as e:
+        print(f"An error occurred: {e}")
+
     soup = BeautifulSoup(driver.page_source, 'html.parser')
     driver.quit()
-    brand_data = []
     for brand_link in soup.findAll('a', attrs={"data-at": "brand_link"}):
         brand = {}
         brand['name'] = brand_link.span.text
@@ -74,16 +80,23 @@ def get_brand_products(url):
     Once "show more" button is found, click to load more products in page. Product links are added to a set. 
     TO DO -> product URLS can be parsed here to remove duplicate products 
     """
+    brand_info = {}
     product_urls = []
     driver = webdriver.Chrome(options=options, executable_path=DRIVER_PATH)
-    driver.get(url)
+    try:
+        driver.get(url)
+    except InvalidArgumentException as e:
+        print(f"An error occurred: {e}")
+        return product_urls
+
     soup = BeautifulSoup(driver.page_source, 'html.parser')
     
     #https://stackoverflow.com/questions/20986631/how-can-i-scroll-a-web-page-using-selenium-webdriver-in-python
     # Initially tried to scroll to bottom of page but this did not load products.
     # at top of webpage
     y_height=0
-    expected_products = soup.find("p", attrs={'data-at':'number_of_products'}).getText()
+
+    #brand_info['expected_n_products'] = soup.find("p", attrs={'data-at':'number_of_products'}).getText()
     
     # initial products on grid when page is opened
     products_on_load = soup.find_all('a', attrs={'data-comp':"ProductTile "}, href=True)
@@ -94,16 +107,17 @@ def get_brand_products(url):
         lazy_products = driver.find_elements_by_xpath('//a[@data-comp="LazyLoad ProductTile "]')
         product_urls.extend([prod.get_attribute('href') for prod in lazy_products])
         
-        driver.execute_script("window.scrollTo(0, "+str(y)+");")
-        y+=1000
+        driver.execute_script("window.scrollTo(0, "+str(y_height)+");")
+        y_height+=1000
         time.sleep(SCROLL_PAUSE_TIME)
         # Calculate new scroll height and compare with last scroll height
         new_height = driver.execute_script("return document.body.scrollHeight")
-        if new_height<y:
+        if new_height<y_height:
             try:
                 # End of page if 'show more' button exists
                 driver.find_element(By.XPATH, "//button[@class='css-bk5oor eanm77i0']").click()
-            except:
+            except Exception as e:
+                print(f"An error occurred: {e}")
                 # End of page
                 lazy_products = driver.find_elements_by_xpath('//a[@data-comp="LazyLoad ProductTile "]')
                 product_urls.extend([prod.get_attribute('href') for prod in lazy_products])
@@ -279,3 +293,12 @@ def get_product_page():
         with open(fname, "w") as outfile:
             outfile.write(json.dumps(product_data, indent=4))
 
+if __name__ == "__main__":
+    # res = get_brand_list('https://www.sephora.com/ca/en/brands-list')
+    # print(res)
+    product_urls = []
+    for url in get_brand_products("https://www.sephora.com/ca/en/brand/olaplex"):
+        parsed_url = parse_url_info(url)
+        #"sku:url"
+        product_urls.append({'sku':parsed_url[1], 'url':parsed_url[0]})
+    print(product_urls)
