@@ -248,57 +248,57 @@ def get_product_buttons(driver, click_delay=0.5) -> Dict:
     return product_options
 
 
-def get_product_page():
+def get_product_page(product_url):
     """
     need to update this go just take single product url
     need to add wrapper function
     """
+    url = BASE_URL+product_url
+    print(url)
+    time.sleep(CRAWL_DELAY)
+    product = {}
+    product["url"] = url
+    product["error"] = False
+    # get class names of buttons and grab prices with selenium 
+    driver = webdriver.Chrome(options=options, executable_path=DRIVER_PATH)
+    driver.get(url)
+    soup = BeautifulSoup(driver.page_source, 'html.parser')
+    try:
+        h1 = soup.find('h1').text
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        driver.quit()
+        product["error"] = e
+        return product
+    if h1 != 'Sorry, this product is not available.' and h1!='Sorry! The page you’re looking for cannot be found.':
+        product["product_name"] = get_product_name(soup)
+        product["brand_name"] = get_brand_name(soup)
+        product["options"] = get_product_buttons(driver)
+        product["rating"], product["product_reviews"] = get_rating_data(soup)
+        product["ingredients"] = get_ingredients(soup)
+        product["n_loves"] = get_num_loves(soup)
+        product["categories"] = get_breadcrumb_categories(soup)
+    else:
+        product['error'] = "Product not available"
+    driver.quit()
+    return product 
 
-    # value kits will need to be separate or excluded...
-    crawl_delay = 5
-    offset = 227
-
-    for i, brand in enumerate(brand_data[offset:]):
-        print("brand # ", str(i+offset) + brand["name"])
-        product_data = []    
-        for url in brand["products"]:
-            time.sleep(crawl_delay)
-            product = {}
-            product["url"] = url
-            # get class names of buttons and grab prices with selenium 
-            driver = webdriver.Chrome(options=options, executable_path=DRIVER_PATH)
-            driver.get(url)
-            soup = BeautifulSoup(driver.page_source, 'html.parser')
-            print(product)
-            try:
-                h1 = soup.find('h1').text
-            except:
-                product_data.append(product)
-                driver.quit()
-                pass
-                
-            if h1 != 'Sorry, this product is not available.' and h1!='Sorry! The page you’re looking for cannot be found.':
-                product["product_name"] = get_product_name(soup)
-                product["brand_name"] = get_brand_name(soup)
-                product["options"] = get_product_buttons(driver)
-                product["rating"], product["product_reviews"] = get_rating_data(soup)
-                product["ingredients"] = get_ingredients(soup)
-                product["n_loves"] = get_num_loves(soup)
-                product["categories"] = get_breadcrumb_categories(soup)
-            product_data.append(product)
-            driver.quit()
-        fname = 'data/products/'+brand["name"].replace("/","")+".json"
-        
-        print("Saving ", fname)
-        with open(fname, "w") as outfile:
-            outfile.write(json.dumps(product_data, indent=4))
 
 if __name__ == "__main__":
+
     # res = get_brand_list('https://www.sephora.com/ca/en/brands-list')
     # print(res)
-    product_urls = []
+    product_urls = {}
     for url in get_brand_products("https://www.sephora.com/ca/en/brand/olaplex"):
         parsed_url = parse_url_info(url)
         #"sku:url"
-        product_urls.append({'sku':parsed_url[1], 'url':parsed_url[0]})
+        if parsed_url[0] not in product_urls.values():
+            product_urls[parsed_url[1]] = parsed_url[0]
     print(product_urls)
+    print(product_urls['2450104'])
+    print(get_product_page(product_urls['2450104']))
+    #     # fname = 'data/products/'+brand["name"].replace("/","")+".json"
+    
+    # print("Saving ", fname)
+    # with open(fname, "w") as outfile:
+    #     outfile.write(json.dumps(product_data, indent=4))
