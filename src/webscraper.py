@@ -248,7 +248,8 @@ def get_product_buttons(driver, click_delay=0.5) -> Dict:
             except Exception as e:
                 print(f"An error occurred: {e}")
                 product_info['name'] = None
-            product_info['price'] = driver.find_element(By.XPATH, "//p[@data-comp='Price ']//b").text
+            # if item is on sale, there will be two b tags, first is sale, second is original price
+            product_info['price'] = [b.text for b in driver.find_elements(By.XPATH, "//p[@data-comp='Price ']//b")]
             product_info['sku'] = driver.find_element(By.XPATH, "//p[@data-at='item_sku']").text
             product_options.append(product_info)
     return product_options
