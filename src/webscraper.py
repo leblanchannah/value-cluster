@@ -182,6 +182,12 @@ def get_num_loves(soup) -> str:
     except Exception as e:
         print(f"An error occurred: {e}")
 
+def get_product_flag_label(soup):
+    try:
+        flag_label = soup.find("span", {"data-at":"product_flag_label"})
+        return flag_label.text
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 def get_ingredients(soup) -> str:
     """
@@ -273,6 +279,8 @@ def get_product_page(product_url):
     if h1 != 'Sorry, this product is not available.' and h1!='Sorry! The page you’re looking for cannot be found.':
         product["product_name"] = get_product_name(soup)
         product["brand_name"] = get_brand_name(soup)
+        product["flag_label"] = get_product_flag_label(soup)
+        # assert product["flag_label"] == "Sale"
         product["options"] = get_product_buttons(driver)
         product["rating"], product["product_reviews"] = get_rating_data(soup)
         product["ingredients"] = get_ingredients(soup)
