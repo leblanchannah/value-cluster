@@ -128,7 +128,13 @@ def get_brand_products(url):
                 product_urls.extend([prod.get_attribute('href') for prod in lazy_products])
                 break
     driver.quit()
-    return list(set(product_urls))
+    parsed_urls = {}
+    for url in set(product_urls):
+        parsed_url = parse_url_info(url)
+        #"sku:url"
+        if parsed_url[0] not in parsed_urls.values():
+            parsed_urls[parsed_url[1]] = parsed_url[0]
+    return parsed_urls
 
 
 def get_sku(soup) -> str:
@@ -151,7 +157,6 @@ def get_breadcrumb_categories(soup) -> List:
         return [x.text for x in soup.find('nav', attrs={'data-comp':"ProductBreadCrumbs BreadCrumbs BreadCrumbs "}).findAll('li')]
     except Exception as e:
         print(f"An error occurred: {e}")
-       
         
 
 def get_brand_name(soup) -> str:
@@ -234,7 +239,7 @@ def get_rating_data(soup) -> Tuple[str, str]:
 #     return None
 
 
-def get_product_buttons(driver, click_delay=CLICK_DELAY) -> Dict:
+def get_product_buttons(driver, click_delay=0.1) -> Dict:
     """
     Products can have size and colour variations on product pages. Each product option available must be clicked
     on product page to update price.
@@ -285,7 +290,7 @@ def get_product_page(product_url):
     product = {}
     product["url"] = url
     product["error"] = ""
-    product['scrape_date'] = datetime.now()
+    product['scrape_date'] = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
     # get class names of buttons and grab prices with selenium 
     driver = webdriver.Chrome(options=options, executable_path=DRIVER_PATH)
     driver.get(url)
@@ -315,18 +320,15 @@ def get_product_page(product_url):
 if __name__ == "__main__":
 
     # res = get_brand_list('https://www.sephora.com/ca/en/brands-list')
-    # print(res)
-    # product_urls = {}
-    # for url in get_brand_products("https://www.sephora.com/ca/en/brand/tower-28"):
-    #     parsed_url = parse_url_info(url)
-    #     #"sku:url"
-    #     if parsed_url[0] not in product_urls.values():
-    #         product_urls[parsed_url[1]] = parsed_url[0]
-    # print(product_urls)
-    # https://www.sephora.com?skuId=2031375&icid2=products%20grid:p427419:product
-    print(get_product_page('/ca/en/product/the-ordinary-deciem-hyaluronic-acid-2-b5-P427419'))
+    import time
+    start_time = time.time()
+    tower_28_product_urls = get_brand_products("https://www.sephora.com/ca/en/brand/tower-28")
+    print(len(tower_28_product_urls.values()))
+    for url in tower_28_product_urls.values():
+        print(get_product_page(url))
     #     # fname = 'data/products/'+brand["name"].replace("/","")+".json"
-    
+    print("--- %s seconds ---" % (time.time() - start_time))
+
     # print("Saving ", fname)
     # with open(fname, "w") as outfile:
     #     outfile.write(json.dumps(product_data, indent=4))
