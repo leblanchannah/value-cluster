@@ -5,14 +5,19 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import InvalidArgumentException
+from selenium.webdriver.common.action_chains import ActionChains
+
+
 from urllib.parse import urlsplit, parse_qs
 import pandas as pd
+from datetime import datetime
 from typing import List, Tuple, Dict
 import time
 
 BASE_URL = 'https://www.sephora.com'
 CRAWL_DELAY=5
 SCROLL_PAUSE_TIME = 0.5
+CLICK_DELAY = 0.2
 DRIVER_PATH = '../../../chromedriver_mac64/chromedriver'
 DATA_DIR = "data/"
 
@@ -182,12 +187,14 @@ def get_num_loves(soup) -> str:
     except Exception as e:
         print(f"An error occurred: {e}")
 
-def get_product_flag_label(soup):
+
+def get_product_flag_label(driver):
     try:
-        flag_label = soup.find("span", {"data-at":"product_flag_label"})
+        flag_label = driver.find_element(By.XPATH, "//span[@data-at='product_flag_label']")
         return flag_label.text
     except Exception as e:
         print(f"An error occurred: {e}")
+
 
 def get_ingredients(soup) -> str:
     """
@@ -216,7 +223,18 @@ def get_rating_data(soup) -> Tuple[str, str]:
         print(f"An error occurred: {e}")
     
 
-def get_product_buttons(driver, click_delay=0.5) -> Dict:
+# def get_rating_histogram(driver):
+#     """data-comp="HistogramChart " data-at="histogram_rating_option"
+#     """
+#     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+#     iframe = driver.find_element(By.ID,"ratings-reviews-container") #ratings-reviews-container
+#     ActionChains(driver)\
+#         .move_to_element(iframe)
+#     print(driver.find_element(By.XPATH, "//button[@data-at='histogram_rating_option']"))#'button', attrs={'data-at':'histogram_rating_option'}))
+#     return None
+
+
+def get_product_buttons(driver, click_delay=CLICK_DELAY) -> Dict:
     """
     Products can have size and colour variations on product pages. Each product option available must be clicked
     on product page to update price.
@@ -225,26 +243,27 @@ def get_product_buttons(driver, click_delay=0.5) -> Dict:
 
     """
     product_options = []
-    for x in driver.find_elements(By.XPATH, "//div[@data-comp='SwatchGroup ']"):
-        buttons = x.find_elements(By.TAG_NAME, "button")
+    # swatch group shows product options within category
+    for swatch_grp in driver.find_elements(By.XPATH, "//div[@data-comp='SwatchGroup ']"):
+        buttons = swatch_grp.find_elements(By.TAG_NAME, "button")
         for button in buttons:
             time.sleep(click_delay)
             try:
                 button.click()
             except Exception as e:
                 print(f"An error occurred: {e}")
-                print('reached nonclickable web element')
+                print('reached non-clickable web element')
                 return product_options
-                
             product_info = {}
-            product_info['swatch_group'] = x.find_element(By.TAG_NAME, "p").text
+            product_info['swatch_group'] = swatch_grp.find_element(By.TAG_NAME, "p").text
+            product_info["flag_label"] = get_product_flag_label(driver)
             try:
                 product_info['size'] = driver.find_element(By.XPATH, "//span[@data-at='sku_size_label']").text
             except Exception as e:
                 print(f"An error occurred: {e}")
                 product_info['size'] = None
             try:
-                product_info['name'] = driver.find_element(By.XPATH, "//div[@data-at='sku_name_label']").text
+                product_info['name'] = [x.text for x in driver.find_elements_by_xpath("//div[@data-at='sku_name_label']//span")]
             except Exception as e:
                 print(f"An error occurred: {e}")
                 product_info['name'] = None
@@ -265,11 +284,13 @@ def get_product_page(product_url):
     time.sleep(CRAWL_DELAY)
     product = {}
     product["url"] = url
-    product["error"] = False
+    product["error"] = ""
+    product['scrape_date'] = datetime.now()
     # get class names of buttons and grab prices with selenium 
     driver = webdriver.Chrome(options=options, executable_path=DRIVER_PATH)
     driver.get(url)
     soup = BeautifulSoup(driver.page_source, 'html.parser')
+    # get_rating_histogram(driver)
     try:
         h1 = soup.find('h1').text
     except Exception as e:
@@ -280,8 +301,6 @@ def get_product_page(product_url):
     if h1 != 'Sorry, this product is not available.' and h1!='Sorry! The page you’re looking for cannot be found.':
         product["product_name"] = get_product_name(soup)
         product["brand_name"] = get_brand_name(soup)
-        product["flag_label"] = get_product_flag_label(soup)
-        # assert product["flag_label"] == "Sale"
         product["options"] = get_product_buttons(driver)
         product["rating"], product["product_reviews"] = get_rating_data(soup)
         product["ingredients"] = get_ingredients(soup)
@@ -297,15 +316,15 @@ if __name__ == "__main__":
 
     # res = get_brand_list('https://www.sephora.com/ca/en/brands-list')
     # print(res)
-    product_urls = {}
-    for url in get_brand_products("https://www.sephora.com/ca/en/brand/olaplex"):
-        parsed_url = parse_url_info(url)
-        #"sku:url"
-        if parsed_url[0] not in product_urls.values():
-            product_urls[parsed_url[1]] = parsed_url[0]
-    print(product_urls)
-    print(product_urls['2450104'])
-    print(get_product_page(product_urls['2450104']))
+    # product_urls = {}
+    # for url in get_brand_products("https://www.sephora.com/ca/en/brand/tower-28"):
+    #     parsed_url = parse_url_info(url)
+    #     #"sku:url"
+    #     if parsed_url[0] not in product_urls.values():
+    #         product_urls[parsed_url[1]] = parsed_url[0]
+    # print(product_urls)
+    # https://www.sephora.com?skuId=2031375&icid2=products%20grid:p427419:product
+    print(get_product_page('/ca/en/product/the-ordinary-deciem-hyaluronic-acid-2-b5-P427419'))
     #     # fname = 'data/products/'+brand["name"].replace("/","")+".json"
     
     # print("Saving ", fname)
