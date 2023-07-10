@@ -13,10 +13,11 @@ import pandas as pd
 from datetime import datetime
 from typing import List, Tuple, Dict
 import time
+import json
 
 BASE_URL = 'https://www.sephora.com'
 CRAWL_DELAY=5
-SCROLL_PAUSE_TIME = 0.5
+SCROLL_PAUSE_TIME = 0.2
 CLICK_DELAY = 0.2
 DRIVER_PATH = '../../../chromedriver_mac64/chromedriver'
 DATA_DIR = "data/"
@@ -239,7 +240,7 @@ def get_rating_data(soup) -> Tuple[str, str]:
 #     return None
 
 
-def get_product_buttons(driver, click_delay=0.1) -> Dict:
+def get_product_buttons(driver, click_delay=CLICK_DELAY) -> Dict:
     """
     Products can have size and colour variations on product pages. Each product option available must be clicked
     on product page to update price.
@@ -320,15 +321,17 @@ def get_product_page(product_url):
 if __name__ == "__main__":
 
     # res = get_brand_list('https://www.sephora.com/ca/en/brands-list')
-    import time
+
     start_time = time.time()
     tower_28_product_urls = get_brand_products("https://www.sephora.com/ca/en/brand/tower-28")
     print(len(tower_28_product_urls.values()))
+    brand_products = []
     for url in tower_28_product_urls.values():
-        print(get_product_page(url))
-    #     # fname = 'data/products/'+brand["name"].replace("/","")+".json"
+        product_data = get_product_page(url)
+        brand_products.append(product_data)
+    
     print("--- %s seconds ---" % (time.time() - start_time))
-
-    # print("Saving ", fname)
-    # with open(fname, "w") as outfile:
-    #     outfile.write(json.dumps(product_data, indent=4))
+    fname = '../data/products_format_v2/'+"tower-28".replace("/","")+".json"
+    print("Saving ", fname)
+    with open(fname, "w") as outfile:
+        outfile.write(json.dumps(brand_products, indent=4))
