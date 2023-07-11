@@ -45,7 +45,6 @@ def get_brand_list(url):
         driver.get(url)
     except InvalidArgumentException as e:
         print(f"An error occurred: {e}")
-
     soup = BeautifulSoup(driver.page_source, 'html.parser')
     driver.quit()
     for brand_link in soup.findAll('a', attrs={"data-at": "brand_link"}):
@@ -319,19 +318,22 @@ def get_product_page(product_url):
 
 
 if __name__ == "__main__":
-
-    # res = get_brand_list('https://www.sephora.com/ca/en/brands-list')
-
     start_time = time.time()
-    tower_28_product_urls = get_brand_products("https://www.sephora.com/ca/en/brand/tower-28")
-    print(len(tower_28_product_urls.values()))
-    brand_products = []
-    for url in tower_28_product_urls.values():
-        product_data = get_product_page(url)
-        brand_products.append(product_data)
-    
+    brands = get_brand_list('https://www.sephora.com/ca/en/brands-list')
+
+    for brand in brands:
+        brand['products'] = get_brand_products(BASE_URL+brand['link'])
+        brand['n_products'] = len(brand['products'])
+        brand['scrape_date'] = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+        brand_products = []
+        print(brand)
+        for url in brand['products'].values():
+            product_data = get_product_page(url)
+            brand_products.append(product_data)
+        print(brand_products)
+        break
     print("--- %s seconds ---" % (time.time() - start_time))
-    fname = '../data/products_format_v2/'+"tower-28".replace("/","")+".json"
-    print("Saving ", fname)
-    with open(fname, "w") as outfile:
-        outfile.write(json.dumps(brand_products, indent=4))
+    # fname = '../data/products_format_v2/'+"tower-28".replace("/","")+".json"
+    # print("Saving ", fname)
+    # with open(fname, "w") as outfile:
+    #     outfile.write(json.dumps(brand_products, indent=4))
