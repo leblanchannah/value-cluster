@@ -4,8 +4,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
-from selenium.common.exceptions import InvalidArgumentException
+from selenium.common.exceptions import InvalidArgumentException, NoSuchElementException, TimeoutException
 from selenium.webdriver.common.action_chains import ActionChains
+
 
 
 from urllib.parse import urlsplit, parse_qs
@@ -32,8 +33,9 @@ options.add_experimental_option('useAutomationExtension', False)
 user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36'
 options.add_argument('user-agent={0}'.format(user_agent))
 
+import logging
 
-
+logger = logging.getLogger(__name__)
 
 
 def parse_url_info(url):
@@ -127,8 +129,8 @@ def get_sku(soup) -> str:
         sku_element = soup.find('p', attrs={'data-at': 'item-sku'})
         if sku_element is not None:
             return sku_element.text
-    except (AttributeError, TypeError) as e:
-        raise ValueError(f"Error retrieving SKU code: {e}")
+    except Exception as e:
+        logger.error(f"An error occurred: {e}")
     
     return "No SKU Found"
 
@@ -141,7 +143,8 @@ def get_breadcrumb_categories(soup) -> List:
     try:
         return [x.text for x in soup.find('nav', attrs={'data-comp':"ProductBreadCrumbs BreadCrumbs BreadCrumbs "}).findAll('li')]
     except Exception as e:
-        print(f"An error occurred: {e}")
+        logger.error(f"An error occurred: {e}")
+
         
 
 def get_brand_name(soup) -> str:
@@ -152,9 +155,8 @@ def get_brand_name(soup) -> str:
         a_tag = soup.find("a", attrs={'data-at':"brand_name"})
         if a_tag is not None:
             return a_tag.text
-    except (AttributeError, TypeError) as e:
-        raise ValueError(f"Error retrieving brand name: {e}")
-
+    except Exception as e:
+        logger.error(f"An error occurred: {e}")
     return "Unknown Brand"
 
        
@@ -166,9 +168,8 @@ def get_product_name(soup) -> str:
         span_tag = soup.find("span", attrs={'data-at': "product_name"})
         if span_tag is not None:
             return span_tag.text
-    except (AttributeError, TypeError) as e:
-        raise ValueError(f"Error retrieving product name: {e}")
-    
+    except Exception as e:
+        logger.error(f"An error occurred: {e}")
     return "Unknown Product Name"
 
 
@@ -181,39 +182,31 @@ def get_num_loves(soup) -> str:
         span_tag = soup.find("div", attrs={"data-comp": "LovesCount "}).span
         if span_tag is not None:
             return span_tag.text
-    except (AttributeError, TypeError) as e:
-        raise ValueError(f"Error retrieving number of loves: {e}")
-    
-    return "Unknown Loves Count"
-
-
-def get_product_flag_label(driver):
-    try:
-        flag_label = driver.find_element(By.XPATH, "//span[@data-at='product_flag_label']")
-        return flag_label.text
     except Exception as e:
-        print(f"An error occurred: {e}")
+        logger.error(f"An error occurred: {e}")
+    return "Unknown Loves Count"
 
 
 def get_product_flag_label(driver) -> str:
     try:
         flag_label = driver.find_element(By.XPATH, "//span[@data-at='product_flag_label']")
         return flag_label.text
-    except (NoSuchElementException, TimeoutException) as e:
-        raise ValueError(f"Error retrieving product flag label: {e}")
-    finally:
-        return ""
+    except Exception as e:
+        logger.error(f"An error occurred: {e}")
+
+
 
 def get_ingredients(soup) -> str:
     """
-    Returns full ingredient list as blob of text
+    Returns full ingredient list as a blob of text
     """
     try:
         div_ig = soup.find("div", {"id": "ingredients"})
         if div_ig is not None:
             return div_ig.text
     except Exception as e:
-        print(f"An error occurred: {e}")
+        logger.error(f"An error occurred: {e}")
+    return "Unknown Ingredients"
 
 
 def get_rating_data(soup) -> Tuple[str, str]:
@@ -228,22 +221,10 @@ def get_rating_data(soup) -> Tuple[str, str]:
             star_rating = rr_container.find('span', attrs={'data-at': 'star_rating_style'})['style']
             num_reviews = rr_container.text
             return star_rating, num_reviews
-    except (AttributeError, TypeError) as e:
-            raise ValueError(f"Error retrieving rating data: {e}")
-    finally:
-        return "Unknown Star Rating", "Unknown Number of Reviews"
+    except Exception as e:
+        logger.error(f"An error occurred: {e}")
+    return "", ""
     
-
-# def get_rating_histogram(driver):
-#     """data-comp="HistogramChart " data-at="histogram_rating_option"
-#     """
-#     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-#     iframe = driver.find_element(By.ID,"ratings-reviews-container") #ratings-reviews-container
-#     ActionChains(driver)\
-#         .move_to_element(iframe)
-#     print(driver.find_element(By.XPATH, "//button[@data-at='histogram_rating_option']"))#'button', attrs={'data-at':'histogram_rating_option'}))
-#     return None
-
 
 def get_product_buttons(driver, click_delay=CLICK_DELAY) -> Dict:
     """
@@ -345,9 +326,9 @@ def get_brand_list(url):
 def main():
     start_time = time.time()
     brands = get_brand_list('https://www.sephora.com/ca/en/brands-list')
-    
+    url = 'https://www.sephora.com/ca/en/brand/tower-28'
     for brand in brands:
-        brand['products'] = get_brand_products(BASE_URL+brand['link'])
+        brand['products'] = get_brand_products(url)#get_brand_products(BASE_URL+brand['link'])
         brand['n_products'] = len(brand['products'])
         brand['scrape_timestamp'] = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
         brand_products = []
