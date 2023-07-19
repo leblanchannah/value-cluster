@@ -33,26 +33,7 @@ user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Ge
 options.add_argument('user-agent={0}'.format(user_agent))
 
 
-def get_brand_list(url):
-    """ collecting brand names and links from brand list page
-    url -> "https://www.sephora.com/ca/en/brands-list"
-    Args:
-    Returns:
-    """
-    driver = webdriver.Chrome(options=options, executable_path=DRIVER_PATH)
-    brand_data = []
-    try:
-        driver.get(url)
-    except InvalidArgumentException as e:
-        print(f"An error occurred: {e}")
-    soup = BeautifulSoup(driver.page_source, 'html.parser')
-    driver.quit()
-    for brand_link in soup.findAll('a', attrs={"data-at": "brand_link"}):
-        brand = {}
-        brand['name'] = brand_link.span.text
-        brand['link'] = brand_link.get('href') 
-        brand_data.append(brand)
-    return brand_data
+
 
 
 def parse_url_info(url):
@@ -140,12 +121,16 @@ def get_brand_products(url):
 def get_sku(soup) -> str:
     """
     Returns sku code from product page in format 'Item #######'
-    SKU can also be found in product url 
+    SKU can also be found in product URL 
     """
     try:
-        return soup.find('p', attrs={'data-at':'item-sku'}).text
-    except Exception as e:
-        print(f"An error occurred: {e}")
+        sku_element = soup.find('p', attrs={'data-at': 'item-sku'})
+        if sku_element is not None:
+            return sku_element.text
+    except (AttributeError, TypeError) as e:
+        raise ValueError(f"Error retrieving SKU code: {e}")
+    
+    return "No SKU Found"
 
 
 def get_breadcrumb_categories(soup) -> List:
@@ -165,20 +150,26 @@ def get_brand_name(soup) -> str:
     """
     try:
         a_tag = soup.find("a", attrs={'data-at':"brand_name"})
-        return a_tag.text
-    except Exception as e:
-        print(f"An error occurred: {e}")
-       
+        if a_tag is not None:
+            return a_tag.text
+    except (AttributeError, TypeError) as e:
+        raise ValueError(f"Error retrieving brand name: {e}")
 
+    return "Unknown Brand"
+
+       
 def get_product_name(soup) -> str:
     """
     Returns product name as written on product page
     """
     try:
-        span_tag = soup.find("span", attrs={'data-at':"product_name"})
-        return span_tag.text
-    except Exception as e:
-        print(f"An error occurred: {e}")
+        span_tag = soup.find("span", attrs={'data-at': "product_name"})
+        if span_tag is not None:
+            return span_tag.text
+    except (AttributeError, TypeError) as e:
+        raise ValueError(f"Error retrieving product name: {e}")
+    
+    return "Unknown Product Name"
 
 
 def get_num_loves(soup) -> str:
@@ -188,9 +179,12 @@ def get_num_loves(soup) -> str:
     """
     try:
         span_tag = soup.find("div", attrs={"data-comp": "LovesCount "}).span
-        return span_tag.text
-    except Exception as e:
-        print(f"An error occurred: {e}")
+        if span_tag is not None:
+            return span_tag.text
+    except (AttributeError, TypeError) as e:
+        raise ValueError(f"Error retrieving number of loves: {e}")
+    
+    return "Unknown Loves Count"
 
 
 def get_product_flag_label(driver):
@@ -200,6 +194,15 @@ def get_product_flag_label(driver):
     except Exception as e:
         print(f"An error occurred: {e}")
 
+
+def get_product_flag_label(driver) -> str:
+    try:
+        flag_label = driver.find_element(By.XPATH, "//span[@data-at='product_flag_label']")
+        return flag_label.text
+    except (NoSuchElementException, TimeoutException) as e:
+        raise ValueError(f"Error retrieving product flag label: {e}")
+    finally:
+        return ""
 
 def get_ingredients(soup) -> str:
     """
@@ -221,11 +224,14 @@ def get_rating_data(soup) -> Tuple[str, str]:
     """
     try:
         rr_container = soup.find("a", {"href": "#ratings-reviews-container"})
-        star_rating = rr_container.find('span', attrs={'data-at':'star_rating_style'})['style']
-        num_reviews = rr_container.text
-        return star_rating, num_reviews
-    except Exception as e:
-        print(f"An error occurred: {e}")
+        if rr_container is not None:
+            star_rating = rr_container.find('span', attrs={'data-at': 'star_rating_style'})['style']
+            num_reviews = rr_container.text
+            return star_rating, num_reviews
+    except (AttributeError, TypeError) as e:
+            raise ValueError(f"Error retrieving rating data: {e}")
+    finally:
+        return "Unknown Star Rating", "Unknown Number of Reviews"
     
 
 # def get_rating_histogram(driver):
@@ -290,7 +296,7 @@ def get_product_page(product_url):
     product = {}
     product["url"] = url
     product["error"] = ""
-    product['scrape_date'] = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+    product['scrape_timestamp'] = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
     # get class names of buttons and grab prices with selenium 
     driver = webdriver.Chrome(options=options, executable_path=DRIVER_PATH)
     driver.get(url)
@@ -317,14 +323,33 @@ def get_product_page(product_url):
     return product 
 
 
-if __name__ == "__main__":
+def get_brand_list(url):
+    """ collecting brand names and links from brand list page
+    url -> "https://www.sephora.com/ca/en/brands-list"
+    Args:
+    Returns:
+    """
+    brand_data = []
+    with webdriver.Chrome(options=options, executable_path=DRIVER_PATH) as driver:
+        driver.get(url)
+        soup = BeautifulSoup(driver.page_source, 'html.parser')
+        driver.quit()
+        for brand_link in soup.findAll('a', attrs={"data-at": "brand_link"}):
+            brand = {}
+            brand['name'] = brand_link.span.text
+            brand['link'] = brand_link.get('href') 
+            brand_data.append(brand)
+    return brand_data
+
+
+def main():
     start_time = time.time()
     brands = get_brand_list('https://www.sephora.com/ca/en/brands-list')
-
+    
     for brand in brands:
         brand['products'] = get_brand_products(BASE_URL+brand['link'])
         brand['n_products'] = len(brand['products'])
-        brand['scrape_date'] = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+        brand['scrape_timestamp'] = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
         brand_products = []
         print(brand)
         for url in brand['products'].values():
@@ -337,3 +362,7 @@ if __name__ == "__main__":
     # print("Saving ", fname)
     # with open(fname, "w") as outfile:
     #     outfile.write(json.dumps(brand_products, indent=4))
+    
+
+if __name__ == "__main__":
+    main()
