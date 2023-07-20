@@ -6,15 +6,15 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import InvalidArgumentException, NoSuchElementException, TimeoutException
 from selenium.webdriver.common.action_chains import ActionChains
-
-
-
 from urllib.parse import urlsplit, parse_qs
 import pandas as pd
 from datetime import datetime
 from typing import List, Tuple, Dict
 import time
 import json
+
+import logging
+logger = logging.getLogger(__name__)
 
 BASE_URL = 'https://www.sephora.com'
 CRAWL_DELAY=5
@@ -32,10 +32,6 @@ options.add_experimental_option("excludeSwitches", ["enable-automation"])
 options.add_experimental_option('useAutomationExtension', False)
 user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36'
 options.add_argument('user-agent={0}'.format(user_agent))
-
-import logging
-
-logger = logging.getLogger(__name__)
 
 
 def parse_url_info(url):
@@ -63,6 +59,8 @@ def drop_duplicate_product_urls(brand_data: pd.DataFrame):
     
 
 def scroll_webpage(driver, y_height, scroll_amt=1000):
+    """
+    """
     new_height = y_height+scroll_amt
     driver.execute_script("window.scrollTo(0, "+str(new_height)+");")
     time.sleep(SCROLL_PAUSE_TIME)
@@ -70,63 +68,11 @@ def scroll_webpage(driver, y_height, scroll_amt=1000):
 
 
 def get_lazy_products_on_grid(driver):
+    """
+    """
     lazy_products = driver.find_elements_by_xpath('//a[@data-comp="LazyLoad ProductTile "]')
     return [prod.get_attribute('href') for prod in lazy_products]
     
-
-def get_brand_products(url):
-    """
-    Brand pages display products in a grid. Products past initial load of data are loaded by scrolling down the page.
-    Once "show more" button is found, click to load more products in page. Product links are added to a set. 
-    TO DO -> product URLS can be parsed here to remove duplicate products 
-    """
-    brand_info = {}
-    product_urls = []
-    with webdriver.Chrome(options=options, executable_path=DRIVER_PATH) as driver:
-        driver.get(url)
-        soup = BeautifulSoup(driver.page_source, 'html.parser')
-        try:
-            expected_n_products = soup.find("p", attrs={'data-at':'number_of_products'}).getText()
-            print(f'Brand has {expected_n_products} products.')
-        except Exception as e:
-            logger.error(f"An error occurred: {e}")
-
-        #https://stackoverflow.com/questions/20986631/how-can-i-scroll-a-web-page-using-selenium-webdriver-in-python
-        # Initially tried to scroll to bottom of page but this did not load products.
-        # at top of webpage
-        y_height=0
-        # initial products on grid when page is opened
-        products_on_load = soup.find_all('a', attrs={'data-comp':"ProductTile "}, href=True)
-        product_urls.extend([prod['href'].split(" ")[0] for prod in products_on_load])
-        # while there is still page left to scroll and "see more" buttons to click
-        while True:
-            product_urls.extend(get_lazy_products_on_grid(driver))
-            
-            y_height = scroll_webpage(driver, y_height)
-            # Calculate new scroll height and compare with last scroll height
-            new_height = driver.execute_script("return document.body.scrollHeight")
-            if new_height<y_height:
-                try:
-                    # End of page if 'show more' button exists
-                    driver.find_element(By.XPATH, "//button[@class='css-bk5oor eanm77i0']").click()
-                except Exception as e:
-                    print(f"An error occurred: {e}")
-                    # End of page
-                    product_urls.extend(get_lazy_products_on_grid(driver))
-                    break
-        driver.quit()
-
-    parsed_urls = {}
-    for url in set(product_urls):
-        parsed_url = parse_url_info(url)
-        #"sku:url"
-        if parsed_url[0] not in parsed_urls.values():
-            parsed_urls[parsed_url[1]] = parsed_url[0]
-    
-    print('Found '+ str(len(parsed_urls)))
-
-    return parsed_urls
-
 
 def get_sku(soup) -> str:
     """
@@ -152,8 +98,7 @@ def get_breadcrumb_categories(soup) -> List:
         return [x.text for x in soup.find('nav', attrs={'data-comp':"ProductBreadCrumbs BreadCrumbs BreadCrumbs "}).findAll('li')]
     except Exception as e:
         logger.error(f"An error occurred: {e}")
-
-        
+   
 
 def get_brand_name(soup) -> str:
     """
@@ -201,7 +146,6 @@ def get_product_flag_label(driver) -> str:
         return flag_label.text
     except Exception as e:
         logger.error(f"An error occurred: {e}")
-
 
 
 def get_ingredients(soup) -> str:
@@ -312,6 +256,59 @@ def get_product_page(product_url):
     return product 
 
 
+def get_brand_products(url):
+    """
+    Brand pages display products in a grid. Products past initial load of data are loaded by scrolling down the page.
+    Once "show more" button is found, click to load more products in page. Product links are added to a set. 
+    TO DO -> product URLS can be parsed here to remove duplicate products 
+    """
+    brand_info = {}
+    product_urls = []
+    with webdriver.Chrome(options=options, executable_path=DRIVER_PATH) as driver:
+        driver.get(url)
+        soup = BeautifulSoup(driver.page_source, 'html.parser')
+        try:
+            expected_n_products = soup.find("p", attrs={'data-at':'number_of_products'}).getText()
+            print(f'Brand has {expected_n_products} products.')
+        except Exception as e:
+            logger.error(f"An error occurred: {e}")
+
+        #https://stackoverflow.com/questions/20986631/how-can-i-scroll-a-web-page-using-selenium-webdriver-in-python
+        # Initially tried to scroll to bottom of page but this did not load products.
+        # at top of webpage
+        y_height=0
+        # initial products on grid when page is opened
+        products_on_load = soup.find_all('a', attrs={'data-comp':"ProductTile "}, href=True)
+        product_urls.extend([prod['href'].split(" ")[0] for prod in products_on_load])
+        # while there is still page left to scroll and "see more" buttons to click
+        while True:
+            product_urls.extend(get_lazy_products_on_grid(driver))
+            
+            y_height = scroll_webpage(driver, y_height)
+            # Calculate new scroll height and compare with last scroll height
+            new_height = driver.execute_script("return document.body.scrollHeight")
+            if new_height<y_height:
+                try:
+                    # End of page if 'show more' button exists
+                    driver.find_element(By.XPATH, "//button[@class='css-bk5oor eanm77i0']").click()
+                except Exception as e:
+                    logger.error(f"An error occurred: {e}")
+                    # End of page
+                    product_urls.extend(get_lazy_products_on_grid(driver))
+                    break
+        driver.quit()
+
+    parsed_urls = {}
+    for url in set(product_urls):
+        parsed_url = parse_url_info(url)
+        #"sku:url"
+        if parsed_url[0] not in parsed_urls.values():
+            parsed_urls[parsed_url[1]] = parsed_url[0]
+    
+    print('Found '+ str(len(parsed_urls)))
+    return parsed_urls
+
+
 def get_brand_list(url):
     """ collecting brand names and links from brand list page
     url -> "https://www.sephora.com/ca/en/brands-list"
@@ -333,25 +330,39 @@ def get_brand_list(url):
 
 def main():
     start_time = time.time()
+
     brands = get_brand_list('https://www.sephora.com/ca/en/brands-list')
-    url = 'https://www.sephora.com/ca/en/brand/tower-28'
-    for brand in brands:
-        brand['products'] = get_brand_products(url)#get_brand_products(BASE_URL+brand['link'])
+    # save brand list
+    with open("brand_list.json", "w") as outfile:
+        outfile.write(json.dumps(brands, indent=4))
+
+    n_brands = len(brands)
+    # get products links for each brand 
+    for i, brand in enumerate(brands):
+        if i%10==0:
+            print(f'{i}/{n_brands} brand pages scraped')
+            print("--- %s seconds ---" % (time.time() - start_time))
+        brand['products'] = get_brand_products(BASE_URL+brand['link'])
         brand['n_products'] = len(brand['products'])
         brand['scrape_timestamp'] = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
-        brand_products = []
-        print(brand)
-        for url in brand['products'].values():
-            product_data = get_product_page(url)
-            brand_products.append(product_data)
-        print(brand_products)
-        break
+    
+    # with open("brand_product_links.json", "w") as outfile:
+    #     outfile.write(json.dumps(brands, indent=4))
+
+
+    #     brand_products = []
+    #     print(brand)
+    #     for url in brand['products'].values():
+    #         product_data = get_product_page(url)
+    #         brand_products.append(product_data)
+    #     print(brand_products)
+    #     break
     print("--- %s seconds ---" % (time.time() - start_time))
     # fname = '../data/products_format_v2/'+"tower-28".replace("/","")+".json"
     # print("Saving ", fname)
     # with open(fname, "w") as outfile:
     #     outfile.write(json.dumps(brand_products, indent=4))
-    
+
 
 if __name__ == "__main__":
     main()
