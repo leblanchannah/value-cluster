@@ -1,6 +1,9 @@
-import dash
-import dash_core_components as dcc
-import dash_html_components as html
+# import dash
+
+from dash import Dash, html, dcc, Input, Output, callback
+
+# import dash_core_components as dcc
+# import dash_html_components as html
 import pandas as pd
 import plotly.express as px
 
@@ -24,12 +27,13 @@ df = df_products.groupby(['product_id','product_name', 'brand_name', 'swatch_gro
 
 df['unit_price'] = df['price']/df['amount_a']
 
+dropdown_options = {x:x for x in df['lvl_0_cat'].unique() if x!=' '}
 
-df = df[df['lvl_2_cat']=='Eyebrow']
+# df = df[df['lvl_2_cat']=='Eyebrow']
 
 
 # Initialize the Dash app
-app = dash.Dash(__name__)
+app = Dash(__name__)
 
 # Define the layout of the app\
 app.layout = html.Div([
@@ -41,6 +45,11 @@ app.layout = html.Div([
     
     # First div with the scatterplot and filters
     html.Div([
+        dcc.Dropdown(
+            options=dropdown_options,
+            value=next(iter(dropdown_options)),
+            id='crossfilter-dataframe',
+            ),
         dcc.Graph(
             id='scatterplot',
             figure=px.scatter(df, x='amount_a', y='price', color='swatch_group', hover_data=['brand_name', 'product_name'])
@@ -52,6 +61,17 @@ app.layout = html.Div([
     # Second div (empty)
     html.Div([], style={'padding': '20px'}),
 ])
+
+@callback(
+    Output('scatterplot', 'figure'),
+    Input('crossfilter-dataframe', 'value'))
+def update_graph(value):
+    dff = df[df['lvl_0_cat'] == value]
+
+    
+    fig = px.scatter(dff, x='amount_a', y='price', color='swatch_group', hover_data=['brand_name', 'product_name'])
+    return fig
+
 
 # Run the app
 if __name__ == '__main__':
