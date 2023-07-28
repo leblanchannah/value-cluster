@@ -31,6 +31,8 @@ dropdown_options = {x:x for x in df['lvl_0_cat'].unique() if x!=' '}
 
 # df = df[df['lvl_2_cat']=='Eyebrow']
 
+df_placeholder = px.data.medals_long()
+
 
 # Initialize the Dash app
 app = Dash(__name__)
@@ -52,14 +54,37 @@ app.layout = html.Div([
             ),
         dcc.Graph(
             id='scatterplot',
-            figure=px.scatter(df, x='amount_a', y='price', color='swatch_group', hover_data=['brand_name', 'product_name'])
+            figure=px.scatter(
+                df,
+                x='amount_a',
+                y='price',
+                color='swatch_group',
+                hover_data=['brand_name', 'product_name'],
+                labels={ # replaces default labels by column name
+                    'amount_a': "Product Size (oz*)",  'price': "Price (CAD)", "swatch_group": "Size Category"
+                },
+                template="simple_white"
+            ),
+            
         ),
         # Add filters or any other controls here
         # For example: dcc.Dropdown, dcc.RangeSlider, etc.
     ], style={'padding': '20px'}),
     
     # Second div (empty)
-    html.Div([], style={'padding': '20px'}),
+    html.Div([
+        dcc.Graph(
+            id='pt_plot',
+            figure=px.scatter(
+                df_placeholder,
+                y="nation",
+                x="count",
+                color="medal",
+                symbol="medal"
+                )
+
+            )
+    ], style={'padding': '20px'}),
 ])
 
 @callback(
@@ -69,7 +94,16 @@ def update_graph(value):
     dff = df[df['lvl_0_cat'] == value]
 
     
-    fig = px.scatter(dff, x='amount_a', y='price', color='swatch_group', hover_data=['brand_name', 'product_name'])
+    fig = px.scatter(
+        dff,
+        x='amount_a',
+        y='price',
+        color='swatch_group',
+        hover_data=['brand_name', 'product_name'],
+        labels={ # replaces default labels by column name
+            'amount_a': "Product Size (oz.)*",  'price': "Price (CAD)", "swatch_group": "Size Category"
+        },
+        template="simple_white")
     return fig
 
 
