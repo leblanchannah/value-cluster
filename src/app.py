@@ -77,8 +77,8 @@ app.layout = html.Div([
             id='pt_plot',
             figure=px.scatter(
                 df_placeholder,
-                y="nation",
-                x="count",
+                y="count",
+                x="nation",
                 color="medal",
                 symbol="medal"
                 )
