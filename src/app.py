@@ -27,11 +27,40 @@ df = df_products.groupby(['product_id','product_name', 'brand_name', 'swatch_gro
 
 df['unit_price'] = df['price']/df['amount_a']
 
+eligible_products = df[df['swatch_group'].isin(['standard size','mini size'])].groupby(['product_id'], as_index=False)['swatch_group'].count()
+df = df.sort_values(by='amount_a',ascending=True)
+
+eligible_products = df[df['swatch_group'].isin(['standard size','mini size'])].groupby(['product_id'], as_index=False)['swatch_group'].count()
+eligible_products = eligible_products[eligible_products['swatch_group']==2]['product_id'].values
+target_comp_df = df[(df['product_id'].isin(eligible_products)) & (df['swatch_group'].isin(['standard size','mini size']))]
+target_comp_df['full_product'] = target_comp_df['brand_name']+' '+ target_comp_df['product_name']
+
+target_comp_df = target_comp_df[target_comp_df.groupby(['brand_name','product_name'])['swatch_group'].transform(lambda x : x.nunique()>1)]
+
+
+target_comp_df = target_comp_df.pivot(index=['brand_name','product_name'], columns='swatch_group', values='unit_price')
+target_comp_df = target_comp_df.reset_index()
+target_comp_df['size_diff'] = target_comp_df['standard size'] - target_comp_df['mini size']
+target_comp_df = target_comp_df.set_index(['brand_name','product_name']).stack('swatch_group').reset_index().rename(columns={0:'unit_price'})
+
+filtered_df = target_comp_df[(target_comp_df['swatch_group']!='size_diff') & (target_comp_df['brand_name']=='hourglass')]
+
+fig = px.line(
+                filtered_df,
+                y="unit_price",
+                x="swatch_group",
+                color="product_name",
+                template="simple_white",
+                markers=True
+                )
+
+fig.update_xaxes({'autorange': False})
+
 dropdown_options = {x:x for x in df['lvl_0_cat'].unique() if x!=' '}
 
 # df = df[df['lvl_2_cat']=='Eyebrow']
 
-df_placeholder = px.data.medals_long()
+
 
 
 # Initialize the Dash app
@@ -70,20 +99,18 @@ app.layout = html.Div([
         # Add filters or any other controls here
         # For example: dcc.Dropdown, dcc.RangeSlider, etc.
     ], style={'padding': '20px'}),
-    
+    # Draw a pointplot to show pulse as a function of three categorical factors
+# g = sns.catplot(
+#     data=filtered_df, x="swatch_group", y="unit_price", hue="product_name",
+#     capsize=.2, #palette="YlGnBu_d",
+#     kind="point", height=6, aspect=.75,
+# )
+# g.despine(left=True)
     # Second div (empty)
     html.Div([
         dcc.Graph(
             id='pt_plot',
-            figure=px.scatter(
-                df_placeholder,
-                y="count",
-                x="nation",
-                color="medal",
-                symbol="medal"
-                )
-
-            )
+            figure=fig)
     ], style={'padding': '20px'}),
 ])
 
