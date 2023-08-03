@@ -166,10 +166,13 @@ def main():
     df_products['size'] = df_products['size'].str.replace("fl oz"," floz", regex=False)
     df_products['size'] = df_products['size'].str.replace("fl. oz"," floz", regex=False)
 
-    df_products.loc[df_products['size'].str.contains('x'),'product_multiplier'] = df_products['size'].apply(lambda x : x.split("x"))
+    df_products.loc[df_products['size'].str.contains(' x ', regex=False),'product_multiplier'] = df_products['size'].apply(lambda x : x.split(" x "))
     df_products.loc[df_products['product_multiplier'].notnull(), 'multiplier'] = df_products['product_multiplier'].str[0]
     df_products.loc[df_products['product_multiplier'].notnull(), 'size'] = df_products['product_multiplier'].str[1]
-    df_products['product_multiplier'] = df_products['product_multiplier'].fillna(1)
+    df_products['product_multiplier'] = df_products['multiplier']
+    df_products['product_multiplier'] = pd.to_numeric(df_products['product_multiplier'],errors='coerce')
+    df_products['product_multiplier'] = df_products['product_multiplier'].fillna(1.0)
+    df_products = df_products.drop(['multiplier'],axis=1)
 
     df_products['amount_a'], df_products['unit_a'], df_products['amount_b'], df_products['unit_b'], df_products['misc_info'] = df_products['size'].apply(parse_volume_string).str
     df_products[['amount_a','amount_b']] = df_products[['amount_a','amount_b']].astype(float)
@@ -183,7 +186,7 @@ def main():
 
     # only allow products in formats floz, oz, g, ml
     df_products = df_products[df_products['unit_a'].isin(['floz','oz'])]
-    df_products = df_products[df_products['unit_b'].isin(['g','ml'])]
+    df_products = df_products[df_products['unit_b'].isin(['g','ml','mg','l','kg'])]
     df_products.loc[(df_products['unit_a']=='fl'),'unit_a']='floz'
 
     # swatch_group, additional info parsed into column 'swatch_details'
