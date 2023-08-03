@@ -14,7 +14,13 @@ from clean_product_data import parse_volume_string, pre_parse_product_size_clean
     ("0.5 oz  15 ml", ("0.5", "oz", "15", "ml", "")),
     ("0.5 oz  0.5 ml", ("0.5", "oz", "0.5", "ml", "")),
     ("1 floz 30ml", ("1","floz","30","ml","")),
-    ("1 floz 30ml trailing text", ("1","floz","30","ml","trailing text"))
+    ("1 floz 30ml trailing text", ("1","floz","30","ml","trailing text")),
+    ("not proper pattern", None),
+    ("not proper pattern but fivewords", None),
+    ("10 dollars 9.0 rupis", ("10","dollars","9.0","rupis","")),
+    ('1.0 floz 30 mg', ("1.0", "floz", "30", "mg", "")),
+    ('1.0 oz 30 kg', ("1.0", "oz", "30", "kg", "")),
+    ('1.0 floz 30 l', ("1.0", "floz", "30", "l", "")),
 ])
 def test_parse_volume_string(size_value, parsed_size_data):
     assert parse_volume_string(size_value) == parsed_size_data
