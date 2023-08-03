@@ -169,6 +169,7 @@ def main():
     df_products.loc[df_products['size'].str.contains('x'),'product_multiplier'] = df_products['size'].apply(lambda x : x.split("x"))
     df_products.loc[df_products['product_multiplier'].notnull(), 'multiplier'] = df_products['product_multiplier'].str[0]
     df_products.loc[df_products['product_multiplier'].notnull(), 'size'] = df_products['product_multiplier'].str[1]
+    df_products['product_multiplier'] = df_products['product_multiplier'].fillna(1)
 
     df_products['amount_a'], df_products['unit_a'], df_products['amount_b'], df_products['unit_b'], df_products['misc_info'] = df_products['size'].apply(parse_volume_string).str
     df_products[['amount_a','amount_b']] = df_products[['amount_a','amount_b']].astype(float)
@@ -190,7 +191,7 @@ def main():
     df_products['swatch_details'] = df_products['swatch_group'].str.split(" - ").str[0]
     df_products['swatch_group'] = df_products['swatch_group'].str.split(" - ").str[-1]
 
-    df_products['unit_price'] = df_products['price'] / df_products['amount_a']
+    df_products[['url_path','product_id']] = df_products['url_path'].str.split("-P",expand=True)
 
     df_products.to_csv('../data/processed_prod_data.csv', index=False)
 
