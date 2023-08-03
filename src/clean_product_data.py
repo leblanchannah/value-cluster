@@ -57,21 +57,24 @@ def clean_product_rating(rating):
         rating = float(rating)/100*5
     return rating
 
+def pre_parse_product_size_clean(input_string):
+    '''
+    '''
+    input_string = input_string.strip()
+    if input_string[0] == '.':
+        input_string = "0"+input_string
+    input_string = input_string.replace(" .","0.")
+    input_string = input_string.replace("fl oz","floz")
+    input_string = input_string.replace("fl. oz","floz")
+    input_string = input_string.replace("oz.","oz")
+    return input_string
+
 
 def parse_volume_string(input_string):
     
     '''
     volume formatted like "misc string amount_a unit_a \ amount_b unit_b misc text"
     '''
-    
-    
-    if input_string[0] == '.':
-        input_string = "0"+input_string
-    input_string = input_string.replace(" ."," 0.")
-    input_string = input_string.replace("fl oz"," floz")
-    input_string = input_string.replace("fl. oz"," floz")
-    input_string = input_string.replace("oz.","oz")
-
     pattern = r'(\d+(\.\d+)?)\s*(\w+)\s+(\d+(\.\d+)?)\s*(\w+)\s*(.*)'
     matches = re.search(pattern, input_string)
     if matches:
@@ -85,7 +88,7 @@ def parse_volume_string(input_string):
 
 def parse_single_volume(input_string):
     '''
-    case where volumne is only shown in one measurement system
+    case where volume is only shown in one measurement system
     '''
     pattern = r'\s*(\d+(\.\d*)?|\.\d+)\s*(\w+)\s*'
     matches = re.match(pattern, input_string)
@@ -168,13 +171,14 @@ def main():
     }
 
     df_products = series_replace(df_products, misc_text)
-
     df_products['size'] = df_products['size'].fillna("")
-    df_products['size'] = df_products['size'].str.strip()
-    df_products.loc[df_products['size'].str[0]=='.', 'size'] = "0"+df_products['size']
-    df_products['size'] = df_products['size'].str.replace(" ."," 0.", regex=False)
-    df_products['size'] = df_products['size'].str.replace("fl oz"," floz", regex=False)
-    df_products['size'] = df_products['size'].str.replace("fl. oz"," floz", regex=False)
+    df_products['size'] = df_products['size'].apply(pre_parse_product_size_clean)
+    
+    # df_products['size'] = df_products['size'].str.strip()
+    # df_products.loc[df_products['size'].str[0]=='.', 'size'] = "0"+df_products['size']
+    # df_products['size'] = df_products['size'].str.replace(" ."," 0.", regex=False)
+    # df_products['size'] = df_products['size'].str.replace("fl oz"," floz", regex=False)
+    # df_products['size'] = df_products['size'].str.replace("fl. oz"," floz", regex=False)
 
     df_products.loc[df_products['size'].str.contains(' x ', regex=False),'product_multiplier'] = df_products['size'].apply(lambda x : x.split(" x "))
     df_products.loc[df_products['product_multiplier'].notnull(), 'multiplier'] = df_products['product_multiplier'].str[0]
