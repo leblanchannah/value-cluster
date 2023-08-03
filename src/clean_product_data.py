@@ -59,9 +59,19 @@ def clean_product_rating(rating):
 
 
 def parse_volume_string(input_string):
+    
     '''
     volume formatted like "misc string amount_a unit_a \ amount_b unit_b misc text"
     '''
+    
+    
+    if input_string[0] == '.':
+        input_string = "0"+input_string
+    input_string = input_string.replace(" ."," 0.")
+    input_string = input_string.replace("fl oz"," floz")
+    input_string = input_string.replace("fl. oz"," floz")
+    input_string = input_string.replace("oz.","oz")
+
     pattern = r'(\d+(\.\d+)?)\s*(\w+)\s+(\d+(\.\d+)?)\s*(\w+)\s*(.*)'
     matches = re.search(pattern, input_string)
     if matches:
