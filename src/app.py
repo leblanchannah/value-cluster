@@ -1,15 +1,9 @@
-# import dash
-
 from dash import Dash, html, dcc, Input, Output, callback
-
-# import dash_core_components as dcc
-# import dash_html_components as html
+import dash_bootstrap_components as dbc
 import pandas as pd
 import plotly.express as px
 
-
 df_products = pd.read_csv('../data/processed_prod_data.csv')
-df_products[['url_path','product_id']] = df_products['url_path'].str.split("-P",expand=True)
 
 df = df_products.groupby(['product_id','product_name', 'brand_name', 'swatch_group','amount_a'], as_index=False).agg({
     'price':'max',
@@ -22,13 +16,13 @@ df = df_products.groupby(['product_id','product_name', 'brand_name', 'swatch_gro
     'lvl_2_cat':'first',
     'sku':'unique',
     'amount_b':'first',
-    'unit_b':'first'
+    'unit_b':'first',
+    'product_multiplier':'first'
 })
 
-df['unit_price'] = df['price']/df['amount_a']
+df['amount_a_adjusted'] = df['amount_a'] * df['product_multiplier'].astype('float')
+df['unit_price'] = df['price']/df['amount_a_adjusted']
 
-eligible_products = df[df['swatch_group'].isin(['standard size','mini size'])].groupby(['product_id'], as_index=False)['swatch_group'].count()
-df = df.sort_values(by='amount_a',ascending=True)
 
 eligible_products = df[df['swatch_group'].isin(['standard size','mini size'])].groupby(['product_id'], as_index=False)['swatch_group'].count()
 eligible_products = eligible_products[eligible_products['swatch_group']==2]['product_id'].values
@@ -37,13 +31,16 @@ target_comp_df['full_product'] = target_comp_df['brand_name']+' '+ target_comp_d
 
 target_comp_df = target_comp_df[target_comp_df.groupby(['brand_name','product_name'])['swatch_group'].transform(lambda x : x.nunique()>1)]
 
-
 target_comp_df = target_comp_df.pivot(index=['brand_name','product_name'], columns='swatch_group', values='unit_price')
 target_comp_df = target_comp_df.reset_index()
 target_comp_df['size_diff'] = target_comp_df['standard size'] - target_comp_df['mini size']
-target_comp_df = target_comp_df.set_index(['brand_name','product_name']).stack('swatch_group').reset_index().rename(columns={0:'unit_price'})
+target_comp_df['ratio_mini_to_standard'] = target_comp_df['mini size'] / target_comp_df['standard size']
 
-filtered_df = target_comp_df[(target_comp_df['swatch_group']!='size_diff') & (target_comp_df['brand_name']=='hourglass')]
+fig_hist = px.histogram(target_comp_df, x="ratio_mini_to_standard")
+
+target_comp_df = target_comp_df.set_index(['brand_name','product_name']).stack('swatch_group').reset_index().rename(columns={0:'unit_price'})
+target_comp_df = target_comp_df[target_comp_df.groupby(['brand_name','product_name'])['swatch_group'].transform(lambda x : x.nunique()>1)]
+filtered_df = target_comp_df[(~target_comp_df['swatch_group'].isin(['size_diff','ratio_mini_to_standard'])) & (target_comp_df['brand_name']=='hourglass')]
 
 fig = px.line(
                 filtered_df,
@@ -58,24 +55,41 @@ fig.update_xaxes({'autorange': False})
 
 dropdown_options = {x:x for x in df['lvl_0_cat'].unique() if x!=' '}
 
-# df = df[df['lvl_2_cat']=='Eyebrow']
 
 
 
 
 # Initialize the Dash app
-app = Dash(__name__)
-
+app = Dash(__name__, external_stylesheets=[dbc.themes.LUX], suppress_callback_exceptions=True)
 # Define the layout of the app\
 app.layout = html.Div([
     # Header section
-    html.Div([
+    dbc.Row([
         html.H1('Sephora Savings Visualizer'),
         html.H3('subtitle.'),
     ], style={'textAlign': 'center', 'padding': '20px', 'backgroundColor': '#f2f2f2'}),
+    dbc.Row([
+        dbc.Col([
+            html.Div([
+            
+                dcc.Graph(
+                    id='pt_plot',
+                    figure=fig)
+            ]),
+        ], width=6),
+        dbc.Col([
+            html.Div([
+                dcc.Graph(
+                    id='ratio_unit_price_hist',
+                    figure=fig_hist
+                )
+            ]),
+        ], width=6)
+    ]),
     
     # First div with the scatterplot and filters
-    html.Div([
+    dbc.Row([
+        dbc.Col([
         dcc.Dropdown(
             options=dropdown_options,
             value=next(iter(dropdown_options)),
@@ -94,26 +108,12 @@ app.layout = html.Div([
                 },
                 template="simple_white"
             ),
-            
         ),
         # Add filters or any other controls here
         # For example: dcc.Dropdown, dcc.RangeSlider, etc.
-    ], style={'padding': '20px'}),
-    # Draw a pointplot to show pulse as a function of three categorical factors
-# g = sns.catplot(
-#     data=filtered_df, x="swatch_group", y="unit_price", hue="product_name",
-#     capsize=.2, #palette="YlGnBu_d",
-#     kind="point", height=6, aspect=.75,
-# )
-# g.despine(left=True)
-    # Second div (empty)
-    html.Div([
-        dcc.Graph(
-            id='pt_plot',
-            figure=fig)
-    ], style={'padding': '20px'}),
-])
+    ], style={'padding': '20px'})])
 
+])
 @callback(
     Output('scatterplot', 'figure'),
     Input('crossfilter-dataframe', 'value'))
