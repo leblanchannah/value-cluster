@@ -1,7 +1,7 @@
 import pytest
 import sys
 sys.path.insert(0,'../src')
-from clean_product_data import parse_volume_string, pre_parse_product_size_clean
+from clean_product_data import parse_volume_string, pre_parse_product_size_clean, split_product_multiplier
 
 # amount1, unit1, amount2, unit2, trailing_text
 @pytest.mark.parametrize("size_value, parsed_size_data", [
@@ -28,6 +28,8 @@ def test_parse_volume_string(size_value, parsed_size_data):
 @pytest.mark.parametrize("size_value, cleaned_size_data", [
     ("helo", "helo"),
     ('1.0 oz 30 ml', "1.0 oz 30 ml"),
+    ('1 x 1 oz 30 ml', "1 x 1 oz 30 ml"),
+    ('4 x .25 oz 30 ml', "4 x0.25 oz 30 ml"),
     ('      1.0 oz 30 ml', "1.0 oz 30 ml"),
     ('1.0 oz 30 ml      ', "1.0 oz 30 ml"),
     ('1.0 oz    30 ml      ', "1.0 oz    30 ml"),
@@ -43,3 +45,15 @@ def test_parse_volume_string(size_value, parsed_size_data):
 ])
 def test_pre_parse_product_size_clean(size_value, cleaned_size_data):
     assert pre_parse_product_size_clean(size_value) == cleaned_size_data
+
+
+@pytest.mark.parametrize("size_value, cleaned_size_data", [
+    ('1 x 1 oz 30 ml', ["1"," 1 oz 30 ml"]),
+    ('4 x .25 oz 30 ml', ["4", " .25 oz 30 ml"]),
+    ('4 x.25 oz 30 ml', ["4",".25 oz 30 ml"]),
+    ('4 x 0.25 ml', ['4',' 0.25 ml']),
+    ('1 x2ml', ['1','2ml']),
+    ('10 ml', [None,'10 ml'])
+])
+def test_split_product_multiplier(size_value, cleaned_size_data):
+    assert split_product_multiplier(size_value) == cleaned_size_data

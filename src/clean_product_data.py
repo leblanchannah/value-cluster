@@ -86,6 +86,7 @@ def parse_volume_string(input_string):
         return amount1, unit1, amount2, unit2, trailing_text
     return None
 
+
 def parse_single_volume(input_string):
     '''
     case where volume is only shown in one measurement system
@@ -97,6 +98,16 @@ def parse_single_volume(input_string):
         unit = matches.group(3)
         return amount, unit
     return None
+
+
+def split_product_multiplier(input_string):
+    '''
+    '''
+    input_string = input_string.split(" x")
+    if len(input_string)==1:
+        input_string = [None] + input_string
+    return input_string
+
 
 
 def main():
@@ -173,20 +184,15 @@ def main():
     df_products = series_replace(df_products, misc_text)
     df_products['size'] = df_products['size'].fillna("")
     df_products['size'] = df_products['size'].apply(pre_parse_product_size_clean)
-    
-    # df_products['size'] = df_products['size'].str.strip()
-    # df_products.loc[df_products['size'].str[0]=='.', 'size'] = "0"+df_products['size']
-    # df_products['size'] = df_products['size'].str.replace(" ."," 0.", regex=False)
-    # df_products['size'] = df_products['size'].str.replace("fl oz"," floz", regex=False)
-    # df_products['size'] = df_products['size'].str.replace("fl. oz"," floz", regex=False)
 
-    df_products.loc[df_products['size'].str.contains(' x ', regex=False),'product_multiplier'] = df_products['size'].apply(lambda x : x.split(" x "))
-    df_products.loc[df_products['product_multiplier'].notnull(), 'multiplier'] = df_products['product_multiplier'].str[0]
-    df_products.loc[df_products['product_multiplier'].notnull(), 'size'] = df_products['product_multiplier'].str[1]
-    df_products['product_multiplier'] = df_products['multiplier']
+    df_products['product_multiplier'] = df_products['size'].apply(split_product_multiplier)
+    df_products = pd.concat([df_products, pd.DataFrame(df_products['product_multiplier'].tolist(), columns=['multiplier','m_size'])], axis=1)
+    df_products.loc[df['multiplier'].notnull(), 'size']= df_products['m_size']
+    df_products.loc[:,'product_multiplier']= df_products['multiplier']
+    
+    df_products = df_products.drop(['multiplier','m_size'], axis=1)
     df_products['product_multiplier'] = pd.to_numeric(df_products['product_multiplier'],errors='coerce')
     df_products['product_multiplier'] = df_products['product_multiplier'].fillna(1.0)
-    df_products = df_products.drop(['multiplier'],axis=1)
 
     df_products['amount_a'], df_products['unit_a'], df_products['amount_b'], df_products['unit_b'], df_products['misc_info'] = df_products['size'].apply(parse_volume_string).str
     df_products[['amount_a','amount_b']] = df_products[['amount_a','amount_b']].astype(float)
