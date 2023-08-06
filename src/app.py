@@ -69,23 +69,30 @@ app.layout = html.Div([
         html.H3('subtitle.'),
     ], style={'textAlign': 'center', 'padding': '20px', 'backgroundColor': '#f2f2f2'}),
     dbc.Row([
-        dbc.Col([
-            html.Div([
-            
-                dcc.Graph(
-                    id='pt_plot',
-                    figure=fig)
-            ]),
-        ], width=6),
-        dbc.Col([
-            html.Div([
-                dcc.Graph(
-                    id='ratio_unit_price_hist',
-                    figure=fig_hist
-                )
-            ]),
-        ], width=6)
+        dbc.Row([
+            dbc.Col([
+                dcc.Input(id='range', type='number', min=5, max=20, step=5)
+            ], width=3)
+        ]),
+        dbc.Row([
+            dbc.Col([
+                html.Div([
+                    dcc.Graph(
+                        id='pt_plot',
+                        figure=fig)
+                    ]),
+                ], width=6),
+            dbc.Col([
+                html.Div([
+                    dcc.Graph(
+                        id='ratio_unit_price_hist',
+                        figure=fig_hist
+                    )
+                ]),
+            ], width=6)
+        ])
     ]),
+        
     
     # First div with the scatterplot and filters
     dbc.Row([
