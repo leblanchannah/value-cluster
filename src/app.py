@@ -3,50 +3,39 @@ import dash_bootstrap_components as dbc
 import pandas as pd
 import plotly.express as px
 
-df_products = pd.read_csv('../data/processed_prod_data.csv')
 
-df = df_products.groupby(['product_id','product_name', 'brand_name', 'swatch_group','amount_a'], as_index=False).agg({
-    'price':'max',
-    'internal_product_id':'nunique',
-    'rating':'max',
-    'product_reviews':'max',
-    'n_loves':'max',
-    'lvl_0_cat':'first',
-    'lvl_1_cat':'first',
-    'lvl_2_cat':'first',
-    'sku':'unique',
-    'amount_b':'first',
-    'unit_b':'first',
-    'product_multiplier':'first'
-})
-
-df['amount_a_adjusted'] = df['amount_a'] * df['product_multiplier'].astype('float')
-df['unit_price'] = df['price']/df['amount_a_adjusted']
+def filter_product_comparison_data(df, col, asc=True, lim=10):
+    return df.sort_values(by=col, ascending=asc).head(lim)
 
 
-eligible_products = df[df['swatch_group'].isin(['standard size','mini size'])].groupby(['product_id'], as_index=False)['swatch_group'].count()
-eligible_products = eligible_products[eligible_products['swatch_group']==2]['product_id'].values
-target_comp_df = df[(df['product_id'].isin(eligible_products)) & (df['swatch_group'].isin(['standard size','mini size']))]
-target_comp_df['full_product'] = target_comp_df['brand_name']+' '+ target_comp_df['product_name']
+df = pd.read_csv('../data/agg_prod_data.csv')
 
-target_comp_df = target_comp_df[target_comp_df.groupby(['brand_name','product_name'])['swatch_group'].transform(lambda x : x.nunique()>1)]
 
-target_comp_df = target_comp_df.pivot(index=['brand_name','product_name'], columns='swatch_group', values='unit_price')
-target_comp_df = target_comp_df.reset_index()
-target_comp_df['size_diff'] = target_comp_df['standard size'] - target_comp_df['mini size']
-target_comp_df['ratio_mini_to_standard'] = target_comp_df['mini size'] / target_comp_df['standard size']
+# for each product, compare all mini size to standard using cross join
+df_compare = df[df['swatch_group']=='mini size'].merge(
+    df[df['swatch_group']=='standard size'],
+    on=['product_id','product_name','brand_name'],
+    suffixes=('_mini','_standard')
+)
+# only calculate ratio in one direction 
+df_compare = df_compare[df_compare['amount_adj_mini']<df_compare['amount_adj_standard']]
+# if ratio < 1, mini is better value per oz, if ratio > 1, standard is better value
+df_compare['mini_to_standard_ratio'] = df_compare['unit_price_mini'] / df_compare['unit_price_standard']
 
-fig_hist = px.histogram(target_comp_df, x="ratio_mini_to_standard")
+fig_hist = px.histogram(df_compare, x="mini_to_standard_ratio")
+# sort by ratio, best value mini
+df_compare = filter_product_comparison_data(df_compare, 'mini_to_standard_ratio', asc=True, lim=10)
+df_compare = df_compare.reset_index()
+df_compare = df_compare.melt(['product_id','brand_name','product_name','index','amount_adj_mini'])
+df_compare = df_compare[df_compare['variable'].isin(['unit_price_mini','unit_price_standard'])]
+print(df_compare)
 
-target_comp_df = target_comp_df.set_index(['brand_name','product_name']).stack('swatch_group').reset_index().rename(columns={0:'unit_price'})
-target_comp_df = target_comp_df[target_comp_df.groupby(['brand_name','product_name'])['swatch_group'].transform(lambda x : x.nunique()>1)]
-filtered_df = target_comp_df[(~target_comp_df['swatch_group'].isin(['size_diff','ratio_mini_to_standard'])) & (target_comp_df['brand_name']=='hourglass')]
-
+# add tooltip
 fig = px.line(
-                filtered_df,
-                y="unit_price",
-                x="swatch_group",
-                color="product_name",
+                df_compare,
+                y="value",
+                x="variable",
+                color="index",
                 template="simple_white",
                 markers=True
                 )
@@ -54,9 +43,6 @@ fig = px.line(
 fig.update_xaxes({'autorange': False})
 
 dropdown_options = {x:x for x in df['lvl_0_cat'].unique() if x!=' '}
-
-
-
 
 
 # Initialize the Dash app

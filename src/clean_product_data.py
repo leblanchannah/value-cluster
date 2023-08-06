@@ -223,6 +223,31 @@ def main():
 
     df_products.to_csv('../data/processed_prod_data.csv', index=False)
 
+    df = df_products.groupby(['product_id','product_name', 'brand_name', 'swatch_group','amount_a'], as_index=False).agg({
+        'price':'max',
+        'internal_product_id':'nunique',
+        'rating':'max',
+        'product_reviews':'max',
+        'n_loves':'max',
+        'lvl_0_cat':'first',
+        'lvl_1_cat':'first',
+        'lvl_2_cat':'first',
+        'sku':'unique',
+        'amount_b':'first',
+        'unit_b':'first',
+        'product_multiplier':'first'
+    })
+
+    df['amount_adj'] = df['amount_a'] * df['product_multiplier'].astype('float')
+    df['unit_price'] = df['price']/df['amount_adj']
+
+    df = df[df['swatch_group']!='refill size']
+    df = df.sort_values(by=['product_id', 'amount_adj'], ascending=True)
+    df = df.drop_duplicates(subset=['product_id', 'price', 'swatch_group'], keep='last')
+
+    df['prod_size_rank'] = df['amount_adj'].rank(method='first')
+
+    df.to_csv('../data/agg_prod_data.csv', index=False)
 
 if __name__ == "__main__":
     main()
