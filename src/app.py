@@ -3,11 +3,10 @@ import dash_bootstrap_components as dbc
 import pandas as pd
 import plotly.express as px
 
-
 # Initialize the Dash app
 app = Dash(
     __name__,
-    external_stylesheets=[dbc.themes.SLATE],#dbc.themes.LUX],
+    external_stylesheets=[dbc.themes.SLATE],
     suppress_callback_exceptions=True
 )
 
@@ -28,12 +27,88 @@ sidebar_text = [
         html.Br(),
         html.A("link to github", href="https://github.com/leblanchannah/value-cluster")
     ])
-
 ]
 
+##### Plotly figures 
+def unit_price_pair_plot(df):
+    '''
+    Returns:
+        plotly figure
+    '''
+    
+    fig = px.line(
+                df,
+                y="value",
+                x="variable",
+                color="prod_rank",
+                template="simple_white",
+                hover_data={
+                    "brand_name":True,
+                    "product_name":True,
+                    "amount_adj_mini":True,
+                    "amount_adj_standard":True,
+                    "mini_to_standard_ratio":True,
+                    "prod_rank":False,
+                    
+                }
+                ,
+                markers=True
+    )
+    fig.update_yaxes(
+        title='Unit price ($/oz.)'
+    )
+    fig.update_xaxes(
+        title='Product size',
+        type='category'
+    )
+    fig.update_layout(
+        xaxis = dict(
+            tickmode = 'array',
+            tickvals = ['unit_price_mini', 'unit_price_standard'],
+            ticktext= ['Mini','Full']
+        ),
+        hoverlabel = dict(
+        
+        )
+    )
+    legend_name_map = {row['prod_rank']:row['display_name'] for index, row in df.iterrows()}
+    fig.for_each_trace(lambda t: t.update(name = legend_name_map[int(t.name)]))
+
+    return fig 
 
 
-# Define the layout of the app
+def filter_product_comparison_data(df, col, asc=True, lim=10):
+    '''
+    '''
+    return df.sort_values(by=col, ascending=asc).head(lim)
+
+##### Data
+# product data, aggregated to single row per product  
+df = pd.read_csv('../data/agg_prod_data.csv')
+
+# for each product, compare all mini size to standard using cross join
+df_compare = df[df['swatch_group']=='mini size'].merge(
+    df[df['swatch_group']=='standard size'],
+    on=['product_id','product_name','brand_name'],
+    suffixes=('_mini','_standard')
+)
+# only calculate ratio in one direction 
+df_compare = df_compare[df_compare['amount_adj_mini']<df_compare['amount_adj_standard']]
+# if ratio < 1, mini is better value per oz, if ratio > 1, standard is better value
+df_compare['mini_to_standard_ratio'] = df_compare['unit_price_mini'] / df_compare['unit_price_standard']
+
+df_compare = filter_product_comparison_data(df_compare, 'mini_to_standard_ratio', asc=True, lim=10)
+df_compare = df_compare.reset_index().rename(columns={'index':'prod_rank'})
+df_compare = df_compare.melt(['product_id','brand_name','product_name',
+                              'prod_rank','amount_adj_mini', 'amount_adj_standard',
+                              'mini_to_standard_ratio'])
+df_compare = df_compare[df_compare['variable'].isin(['unit_price_mini','unit_price_standard'])]
+df_compare = df_compare.merge(df, 
+                 on=['product_id','brand_name','product_name'],
+                 how='left')
+df_compare['display_name'] = df_compare['brand_name']+", "+df_compare['lvl_2_cat'].str.lower()
+
+###### App 
 app.layout = dbc.Container([
     html.Br(),
     dbc.Row([
@@ -49,19 +124,26 @@ app.layout = dbc.Container([
             dbc.Row([
                 # pair plot (mini vs standard)
                 dbc.Col([
-                    dbc.Card(dbc.CardBody([]))
-                ], width=5),
+                    dbc.Card(
+                        dbc.CardBody([
+                            dcc.Graph(
+                                id='pt_plot',
+                                figure=unit_price_pair_plot(df_compare)
+                            )
+                        ])
+                    )
+                ], width=8),
                 # placeholder for now...
                 dbc.Col([
                     dbc.Card(dbc.CardBody([]))
-                ], width=5)
+                ], width=4)
             ]),
             html.Br(),
             # exploratory
             dbc.Row([
                 dbc.Col([
                     dbc.Card(dbc.CardBody([]))
-                ], width=10)
+                ], width=12)
             ])
         ], width=10)
     ]),
@@ -69,9 +151,6 @@ app.layout = dbc.Container([
 ], fluid=True)
 
 
-
-# def filter_product_comparison_data(df, col, asc=True, lim=10):
-#     return df.sort_values(by=col, ascending=asc).head(lim)
 
 
 # df = pd.read_csv('../data/agg_prod_data.csv')
