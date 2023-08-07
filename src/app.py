@@ -9,7 +9,8 @@ df = pd.read_csv('../data/agg_prod_data.csv')
 # Initialize the Dash app
 app = Dash(
     __name__,
-    external_stylesheets=[dbc.themes.SLATE],
+    external_stylesheets=[dbc.themes.MINTY],
+    title='Sephora Product Analysis',
     suppress_callback_exceptions=True
 )
 
@@ -178,7 +179,7 @@ app.layout = dbc.Container([
             dbc.Col([
                 dbc.Card(
                     dbc.CardBody([
-                        html.H3("Title placeholder"),
+                        html.H3("Sephora product analysis"),
                         sidebar_text,
                         html.H4("Sort by:"),
                         sorting_dropdown,
