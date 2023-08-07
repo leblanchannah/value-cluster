@@ -1,7 +1,9 @@
-from dash import Dash, html, dcc, Input, Output, callback
+from dash import Dash, html, dcc, Input, Output, callback, ctx
 import dash_bootstrap_components as dbc
 import pandas as pd
 import plotly.express as px
+
+PLOT_TEMPLATE_THEME = 'plotly'
 
 # product data, aggregated to single row per product  
 df = pd.read_csv('../data/agg_prod_data.csv')
@@ -44,20 +46,32 @@ sorting_dropdown = dcc.Dropdown(
                     )
 
 brand_filter_global = dcc.Dropdown(
-                        #options = [x for x in df.brand_name.unique()]
+                        options = [x for x in df.brand_name.unique()],
+                        id='brand_dropdown'
                     )
 product_category_l0_global = dcc.Dropdown(
                                 options = [x for x in df.lvl_0_cat.unique() if x!=' ' and x!='Mini Size' and x!='Men'],
-                                id='category_l0'
+                                id='category_l0_dropdown'
                             )
 
 @callback(
     Output('scatter_products', 'figure'),
-    Input('category_l0', 'value'))
-def update_product_unit_price_v_size_scatter(value):
-    if not value:
-        return product_unit_price_v_size_scatter(df)
-    return product_unit_price_v_size_scatter(df[df['lvl_0_cat']==value])
+    Input('category_l0_dropdown', 'value'),
+    Input('brand_dropdown', 'value'),
+    prevent_initial_call=True)
+def update_product_scatter(category_val, brand_val):
+    print(category_val)
+    print(brand_val)
+    triggered_id = ctx.triggered_id 
+    df_filtered = df.copy()
+    if triggered_id=='category_l0_dropdown':
+        df_filtered = df_filtered[df_filtered['lvl_0_cat']==category_val]
+    if triggered_id=='brand_dropdown':
+        df_filtered = df_filtered[df_filtered['brand_name']==brand_val]
+    # if not value:
+    #     return product_unit_price_v_size_scatter(df)
+    return product_unit_price_v_size_scatter(df_filtered)
+
 
 ##### Plotly figures and callbacks
 def product_unit_price_v_size_scatter(df):
@@ -66,14 +80,20 @@ def product_unit_price_v_size_scatter(df):
                     x='amount_adj',
                     y='price',
                     color='swatch_group',
+                    title='Product size and price explorer',
+                    template=PLOT_TEMPLATE_THEME,
                     hover_data=['brand_name', 'product_name'],
                     labels={ # replaces default labels by column name
                         'amount_adj': "Product size (oz.)",  'price': "Price ($)", "swatch_group": "Product category"
                     },
-                    template="simple_white"
     )
     return fig
 
+# @callback(
+#     Output('size_line_plot', 'figure'),
+#     Input('category_l0_dropdown', 'value'))
+# def update_unit_price_pair_plot_category(value):
+#     return unit_price_pair_plot(get_unit_price_comparison_data(df[df['lvl_0_cat']==value]))
 
 @callback(
     Output('size_line_plot', 'figure'),
@@ -92,8 +112,8 @@ def unit_price_pair_plot(df):
                 y="value",
                 x="variable",
                 color="prod_rank",
-                title="Unit price comparison of Sephora product size options",
-                template='simple_white',
+                title="Unit price comparison of product size options",
+                template=PLOT_TEMPLATE_THEME,
                 hover_data={
                     "brand_name":True,
                     "product_name":True,
@@ -184,8 +204,15 @@ app.layout = dbc.Container([
                         html.H4("Sort by:"),
                         sorting_dropdown,
                         html.Br(),
-                        html.H4("Filter:"),
-                        product_category_l0_global
+                        html.H4("Filters:"),
+                        "Product category: ",
+                        product_category_l0_global,
+                        html.Br(),
+                        "Brand: ",
+                        brand_filter_global,
+                        # html.Button(id='submit-button-state', n_clicks=0, children='Submit'),
+                        # html.Button(id='reset-button-state', n_clicks=0, children='Reset'),
+
                     ])
                 )
             ], width=3),
