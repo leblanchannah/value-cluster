@@ -49,26 +49,22 @@ def unit_price_pair_plot(df):
                     "amount_adj_standard":True,
                     "mini_to_standard_ratio":True,
                     "prod_rank":False,
-                    
-                }
-                ,
+                },
                 markers=True
     )
-    fig.update_yaxes(
-        title='Unit price ($/oz.)'
-    )
-    fig.update_xaxes(
-        title='Product size',
-        type='category'
-    )
     fig.update_layout(
+        yaxis = dict(
+            title='Unit price ($/oz.)'
+        ),
         xaxis = dict(
+            title='Product size',
+            type='category',
             tickmode = 'array',
             tickvals = ['unit_price_mini', 'unit_price_standard'],
             ticktext= ['Mini','Full']
         ),
         hoverlabel = dict(
-        
+        # option to change text in hoverlabel
         )
     )
     legend_name_map = {row['prod_rank']:row['display_name'] for index, row in df.iterrows()}
