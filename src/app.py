@@ -40,7 +40,9 @@ def unit_price_pair_plot(df):
                 df,
                 y="value",
                 x="variable",
+                width=20,
                 color="prod_rank",
+                title="Unit price comparison of Sephora product size options",
                 template="simple_white",
                 hover_data={
                     "brand_name":True,
@@ -52,16 +54,19 @@ def unit_price_pair_plot(df):
                 },
                 markers=True
     )
+
     fig.update_layout(
+        # margin = dict(l=120, r=120), #t=100, b=100),
         yaxis = dict(
             title='Unit price ($/oz.)'
         ),
         xaxis = dict(
             title='Product size',
             type='category',
-            tickmode = 'array',
-            tickvals = ['unit_price_mini', 'unit_price_standard'],
-            ticktext= ['Mini','Full']
+            tickmode='array',
+            tickvals=['unit_price_mini', 'unit_price_standard'],
+            ticktext=['Mini','Full'],
+            range=[-0.5, 2 - 0.5]
         ),
         hoverlabel = dict(
         # option to change text in hoverlabel
@@ -69,6 +74,8 @@ def unit_price_pair_plot(df):
     )
     legend_name_map = {row['prod_rank']:row['display_name'] for index, row in df.iterrows()}
     fig.for_each_trace(lambda t: t.update(name = legend_name_map[int(t.name)]))
+    fig.update_traces(line=dict(width=3))
+
 
     return fig 
 
