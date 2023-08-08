@@ -3,7 +3,7 @@ import dash_bootstrap_components as dbc
 import pandas as pd
 import plotly.express as px
 
-PLOT_TEMPLATE_THEME = 'plotly'
+PLOT_TEMPLATE_THEME = 'simple_white'
 
 # product data, aggregated to single row per product  
 df = pd.read_csv('../data/agg_prod_data.csv')
@@ -89,6 +89,12 @@ def product_unit_price_v_size_scatter(df, title='Explore products by size and pr
                         'amount_adj': "Product size (oz.)",  'price': "Price ($)", "swatch_group": "Product category"
                     },
     )
+    fig.update_layout(
+        legend=dict(
+            yanchor='top',
+            xanchor='right'
+        )
+    )
     return fig
 
 @callback(
@@ -133,7 +139,8 @@ def unit_price_pair_plot(df):
             range=[-0.4, 2 - 0.6]
         ),
         legend=dict(
-            title="Top 10 products"
+            title="Top 10 products",
+            font_size=12
         ),
         hoverlabel = dict(
         # option to change text in hoverlabel
@@ -188,6 +195,7 @@ def get_unit_price_comparison_data(df, sorting_value='ratio_mini_lt_full'):
                     on=['product_id','brand_name','product_name'],
                     how='left')
     df_compare['display_name'] = df_compare['brand_name']+", "+df_compare['lvl_2_cat'].str.lower()
+    #df_compare['brand_name']+", <br>"+df_compare['lvl_2_cat'].str.lower()
     return df_compare
 
 ###### App 
@@ -209,9 +217,6 @@ app.layout = dbc.Container([
                         html.Br(),
                         "Brand: ",
                         brand_filter_global,
-                        # html.Button(id='submit-button-state', n_clicks=0, children='Submit'),
-                        # html.Button(id='reset-button-state', n_clicks=0, children='Reset'),
-
                     ])
                 )
             ], width=3),
@@ -244,7 +249,26 @@ app.layout = dbc.Container([
                     ], width=6),
                     
                 ]),
-                html.Br()
+                html.Br(),
+                dbc.Row([
+                    dbc.Col([
+                         dbc.Card(
+                            dbc.CardBody([
+                                dbc.Row([
+                                    dbc.Col([
+                                        '''fill with product details on load'''
+                                    ], width=4),
+                                    dbc.Col([
+                                        '''histogram comparing single product to others in same category, unit price'''
+                                    ], width=4),
+                                    dbc.Col([
+                                        '''datatable for reccomendations'''
+                                    ], width=4),
+                                ])
+                            ]))
+                    ],width=12)
+
+                ])
             ], width=9)
         ]),
         html.Br(),

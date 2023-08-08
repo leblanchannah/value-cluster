@@ -241,7 +241,6 @@ def main():
     df['amount_adj'] = df['amount_a'] * df['product_multiplier'].astype('float')
     df['unit_price'] = df['price']/df['amount_adj']
 
-    df = df[df['swatch_group']!='refill size']
     df = df.sort_values(by=['product_id', 'amount_adj'], ascending=True)
     df = df.drop_duplicates(subset=['product_id', 'price', 'swatch_group'], keep='last')
 
