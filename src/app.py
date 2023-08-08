@@ -19,17 +19,22 @@ app = Dash(
 sidebar_text = html.P([
         html.Br(),
         """
-            Short description of data collection and mini to standard ratio
+            Comparison of products at Sephora by value, product type, and brand.
         """,
-        html.Br(),
         html.Br(),
         """
-            tiktok credit
+            This dashboard is inspired by Tiktok user
         """,
-        html.A("user _____", href="www.google.com"),
+        html.A("@michaelamakeup02's", href="https://www.tiktok.com/@michaelamakeup92/video/7237211338618047787"),
+        """
+            "Sephora Minis Math" video. 
+        """,
         html.Br(),
+        # """
+        #     Data collected from Sephora on ______. 
+        # """,
         html.Br(),
-        html.A("link to github", href="https://github.com/leblanchannah/value-cluster"),
+        html.A("github", href="https://github.com/leblanchannah/value-cluster"),
         html.Br(),
         html.Br(),
 ])
@@ -60,27 +65,24 @@ product_category_l0_global = dcc.Dropdown(
     Input('brand_dropdown', 'value'),
     prevent_initial_call=True)
 def update_product_scatter(category_val, brand_val):
-    print(category_val)
-    print(brand_val)
     triggered_id = ctx.triggered_id 
     df_filtered = df.copy()
-    if triggered_id=='category_l0_dropdown':
+    title = f'Explore{" "+brand_val if brand_val else ""}{" "+category_val.lower() if category_val else ""} products by size and price'
+    if category_val:
         df_filtered = df_filtered[df_filtered['lvl_0_cat']==category_val]
-    if triggered_id=='brand_dropdown':
+    if brand_val:
         df_filtered = df_filtered[df_filtered['brand_name']==brand_val]
-    # if not value:
-    #     return product_unit_price_v_size_scatter(df)
-    return product_unit_price_v_size_scatter(df_filtered)
+    return product_unit_price_v_size_scatter(df_filtered, title)
 
 
 ##### Plotly figures and callbacks
-def product_unit_price_v_size_scatter(df):
+def product_unit_price_v_size_scatter(df, title='Explore products by size and price'):
     fig = px.scatter(
                     df,
                     x='amount_adj',
                     y='price',
                     color='swatch_group',
-                    title='Product size and price explorer',
+                    title=title,
                     template=PLOT_TEMPLATE_THEME,
                     hover_data=['brand_name', 'product_name'],
                     labels={ # replaces default labels by column name
@@ -88,12 +90,6 @@ def product_unit_price_v_size_scatter(df):
                     },
     )
     return fig
-
-# @callback(
-#     Output('size_line_plot', 'figure'),
-#     Input('category_l0_dropdown', 'value'))
-# def update_unit_price_pair_plot_category(value):
-#     return unit_price_pair_plot(get_unit_price_comparison_data(df[df['lvl_0_cat']==value]))
 
 @callback(
     Output('size_line_plot', 'figure'),
@@ -135,6 +131,9 @@ def unit_price_pair_plot(df):
             tickvals=['unit_price_mini', 'unit_price_standard'],
             ticktext=['Mini','Full'],
             range=[-0.4, 2 - 0.6]
+        ),
+        legend=dict(
+            title="Top 10 products"
         ),
         hoverlabel = dict(
         # option to change text in hoverlabel
