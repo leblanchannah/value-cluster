@@ -104,15 +104,15 @@ def product_unit_price_v_size_scatter(df, title='Explore products by size and pr
     Input('brand_dropdown', 'value'))
 def update_unit_price_pair_plot(sort_val, category_val, brand_val):
     df_filtered = df.copy()
-    #title = f'Explore{" "+brand_val if brand_val else ""}{" "+category_val.lower() if category_val else ""} products by size and price'
+    title = f'Unit price comparison of{" "+brand_val if brand_val else ""}{" "+category_val.lower() if category_val else ""} products'
     if category_val:
         df_filtered = df_filtered[df_filtered['lvl_0_cat']==category_val]
     if brand_val:
         df_filtered = df_filtered[df_filtered['brand_name']==brand_val]
-    return unit_price_pair_plot(get_unit_price_comparison_data(df_filtered, sort_val))
+    return unit_price_pair_plot(get_unit_price_comparison_data(df_filtered, sort_val), title)
 
 
-def unit_price_pair_plot(df):
+def unit_price_pair_plot(df, title="Unit price comparison of products"):
     '''
     Returns:
         plotly figure
@@ -122,7 +122,7 @@ def unit_price_pair_plot(df):
                 y="value",
                 x="variable",
                 color="prod_rank",
-                title="Unit price comparison of product size options",
+                title=title,
                 template=PLOT_TEMPLATE_THEME,
                 hover_data={
                     "brand_name":True,
@@ -159,6 +159,33 @@ def unit_price_pair_plot(df):
     fig.for_each_trace(lambda t: t.update(name = legend_name_map[int(t.name)]))
     fig.update_traces(line=dict(width=3))
     return fig 
+
+
+def single_product_info_box(df_poi):
+
+    cheaper = df[(df['unit_price']<df_poi['unit_price'].values[0]) 
+                 & (df['amount_adj']==df_poi['amount_adj'].values[0])].shape[0]
+    #df.loc[(df.product_name=='soleil brulant') & (df['amount_adj']==1.0)
+
+    return [
+        html.H5('Product details'),
+        f"Product: {df_poi['product_name'].values[0]}, {df_poi['swatch_group'].values[0]}",
+        html.Br(),
+        f"Brand: {df_poi['brand_name'].values[0]}",
+        html.Br(),
+        f"Price: ${df_poi['price'].values[0]}",
+        html.Br(),
+        f"Size: {df_poi['amount_adj'].values[0]} {df_poi['unit_a'].values[0]}", 
+        html.Br(),
+        # f"Unit price: {df_poi['unit_price'].values[0]} $/{df_poi['unit_a'].values[0]}",
+        html.Br(),
+        f"There are {cheaper} {df_poi['amount_adj'].values[0]} {df_poi['unit_a'].values[0]} {df_poi['lvl_2_cat'].values[0].lower()} products at Sephora with unit price less than {df_poi['unit_price'].values[0]} $/{df_poi['unit_a'].values[0]}"
+        # str(df['amount_adj'].values[0]),# +" "+ df['unit_a'].values[0],
+        # str(df['unit_price'].values[0]),# +" $/"+ df['unit_a'].values[0],
+        # str(df['rating'].values[0]),
+        # str(df['product_reviews'].values[0]),
+        # str(df['sku'].values[0])
+    ]
 
 
 def basic_df_sort(df, col, asc=True, limit=10):
@@ -263,9 +290,7 @@ app.layout = dbc.Container([
                          dbc.Card(
                             dbc.CardBody([
                                 dbc.Row([
-                                    dbc.Col([
-                                        '''fill with product details on load'''
-                                    ], width=4),
+                                    dbc.Col(single_product_info_box(df[(df.product_name=='soleil brulant') & (df['amount_adj']==1.0)]), width=4),
                                     dbc.Col([
                                         '''histogram comparing single product to others in same category, unit price'''
                                     ], width=4),
