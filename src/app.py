@@ -99,9 +99,17 @@ def product_unit_price_v_size_scatter(df, title='Explore products by size and pr
 
 @callback(
     Output('size_line_plot', 'figure'),
-    Input('sorting_dropdown', 'value'))
-def update_unit_price_pair_plot(value):
-    return unit_price_pair_plot(get_unit_price_comparison_data(df, value))
+    Input('sorting_dropdown', 'value'),
+    Input('category_l0_dropdown', 'value'),
+    Input('brand_dropdown', 'value'))
+def update_unit_price_pair_plot(sort_val, category_val, brand_val):
+    df_filtered = df.copy()
+    #title = f'Explore{" "+brand_val if brand_val else ""}{" "+category_val.lower() if category_val else ""} products by size and price'
+    if category_val:
+        df_filtered = df_filtered[df_filtered['lvl_0_cat']==category_val]
+    if brand_val:
+        df_filtered = df_filtered[df_filtered['brand_name']==brand_val]
+    return unit_price_pair_plot(get_unit_price_comparison_data(df_filtered, sort_val))
 
 
 def unit_price_pair_plot(df):
