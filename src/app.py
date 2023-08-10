@@ -161,6 +161,19 @@ def unit_price_pair_plot(df, title="Unit price comparison of products"):
     return fig 
 
 
+def unit_price_histogram(df, poi_unit_price, unit_price_col):
+    '''
+    '''
+    fig = px.histogram(
+            df,
+            x=unit_price_col,
+            template=PLOT_TEMPLATE_THEME,
+            height=300,
+            
+        )
+    return fig
+
+
 def single_product_info_box(df_poi):
 
     cheaper = df[(df['unit_price']<df_poi['unit_price'].values[0]) 
@@ -290,13 +303,18 @@ app.layout = dbc.Container([
                          dbc.Card(
                             dbc.CardBody([
                                 dbc.Row([
-                                    dbc.Col(single_product_info_box(df[(df.product_name=='soleil brulant') & (df['amount_adj']==1.0)]), width=4),
+                                    dbc.Col(
+                                        single_product_info_box(df[(df.product_name=='soleil brulant') & (df['amount_adj']==1.0)]),
+                                        width=3),
                                     dbc.Col([
-                                        '''histogram comparing single product to others in same category, unit price'''
-                                    ], width=4),
+                                        dcc.Graph(
+                                            id='unit_price_hist_plot',
+                                            figure=unit_price_histogram(df[(df['amount_adj']==1.0) & (df['lvl_2_cat']=='Perfume')], 310, 'unit_price')
+                                        )
+                                    ], width=6),
                                     dbc.Col([
-                                        '''datatable for reccomendations'''
-                                    ], width=4),
+                                        '''datatable for recs'''
+                                    ], width=3),
                                 ])
                             ]))
                     ],width=12)

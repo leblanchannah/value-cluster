@@ -224,6 +224,7 @@ def main():
     df_products.to_csv('../data/processed_prod_data.csv', index=False)
 
     df = df_products.groupby(['product_id','product_name', 'brand_name', 'swatch_group','amount_a'], as_index=False).agg({
+        'unit_a':'first',
         'price':'max',
         'internal_product_id':'nunique',
         'rating':'max',
