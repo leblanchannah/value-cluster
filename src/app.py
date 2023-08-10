@@ -1,4 +1,4 @@
-from dash import Dash, html, dcc, Input, Output, callback, ctx
+from dash import Dash, html, dcc, Input, Output, callback, ctx, dash_table
 import dash_bootstrap_components as dbc
 import pandas as pd
 import plotly.express as px
@@ -171,6 +171,9 @@ def unit_price_histogram(df, poi_unit_price, unit_price_col):
             height=300,
             
         )
+    fig.update_layout(
+        margin=dict(l=20, r=20, t=20, b=20),
+    )
     return fig
 
 
@@ -305,16 +308,34 @@ app.layout = dbc.Container([
                                 dbc.Row([
                                     dbc.Col(
                                         single_product_info_box(df[(df.product_name=='soleil brulant') & (df['amount_adj']==1.0)]),
-                                        width=3),
+                                        width=2),
                                     dbc.Col([
                                         dcc.Graph(
                                             id='unit_price_hist_plot',
                                             figure=unit_price_histogram(df[(df['amount_adj']==1.0) & (df['lvl_2_cat']=='Perfume')], 310, 'unit_price')
                                         )
-                                    ], width=6),
+                                    ], width=5),
                                     dbc.Col([
-                                        '''datatable for recs'''
-                                    ], width=3),
+                                        dash_table.DataTable(
+                                            df[(df['amount_adj']==1.0) 
+                                               & (df['lvl_2_cat']=='Perfume') 
+                                               & (df['unit_price']<310)].sort_values(by='unit_price', ascending=True)[['brand_name','product_name','unit_price']].to_dict("records"),
+                                            [{"name": i, "id": i} for i in df[['brand_name','product_name','unit_price']].columns],
+                                            page_size=5,
+                                            style_cell={'textAlign': 'left',
+                                                        'padding': '1px',
+                                                        'fontSize':12},
+                                            style_header={
+                                                'backgroundColor': 'white',
+                                                'fontWeight': 'bold'
+                                            },
+                                            style_data={
+                                                'whiteSpace': 'normal',
+                                                'height': 'auto',
+                                            },
+                                            # style_as_list_view=True,
+                                            style_table={"overflowX": "auto"})
+                                    ], width=5),
                                 ])
                             ]))
                     ],width=12)
