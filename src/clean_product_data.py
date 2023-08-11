@@ -246,6 +246,7 @@ def main():
     df = df.drop_duplicates(subset=['product_id', 'price', 'swatch_group'], keep='last')
 
     df['prod_size_rank'] = df['amount_adj'].rank(method='first')
+    df = df.reset_index()
 
     df.to_csv('../data/agg_prod_data.csv', index=False)
 

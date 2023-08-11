@@ -59,6 +59,50 @@ product_category_l0_global = dcc.Dropdown(
                                 id='category_l0_dropdown'
                             )
 
+
+def single_product_info_box(df_poi):
+
+    cheaper = df[(df['unit_price']<df_poi['unit_price'].values[0]) 
+                 & (df['amount_adj']==df_poi['amount_adj'].values[0])].shape[0]
+    #df.loc[(df.product_name=='soleil brulant') & (df['amount_adj']==1.0)
+
+    return [
+        html.H5('Product details'),
+        f"Product: {df_poi['product_name'].values[0]}, {df_poi['swatch_group'].values[0]}",
+        html.Br(),
+        f"Brand: {df_poi['brand_name'].values[0]}",
+        html.Br(),
+        f"Price: ${df_poi['price'].values[0]}",
+        html.Br(),
+        f"Size: {df_poi['amount_adj'].values[0]} {df_poi['unit_a'].values[0]}", 
+        html.Br(),
+        # f"Unit price: {df_poi['unit_price'].values[0]} $/{df_poi['unit_a'].values[0]}",
+        html.Br(),
+        f"There are {cheaper} {df_poi['amount_adj'].values[0]} {df_poi['unit_a'].values[0]} {df_poi['lvl_2_cat'].values[0].lower()} products at Sephora with unit price less than {df_poi['unit_price'].values[0]} $/{df_poi['unit_a'].values[0]}"
+    ]
+
+# click events from either pairplot or scatter must update single product details section
+# {'points': [{'curveNumber': 0, 'pointNumber': 1, 'pointIndex': 1, 'x': 'unit_price_mini', 'y': 27500, 'bbox': {'x0': 161.22, 'x1': 167.22, 'y0': 199.74, 'y1': 205.74}, 'customdata': ['hourglass', 'arch brow micro sculpting pencil', 0.0008, 0.001, 0.7051282051282052, 426]}]}
+None
+# {'points': [{'curveNumber': 0, 'pointNumber': 3, 'pointIndex': 3, 'x': 'unit_price_standard', 'y': 39000, 'bbox': {'x0': 331.78, 'x1': 337.78, 'y0': 130.25, 'y1': 136.25}, 'customdata': ['hourglass', 'arch brow micro sculpting pencil', 0.0008, 0.001, 0.7051282051282052, 426]}]}
+# {'points': [{'curveNumber': 0, 'pointNumber': 740, 'pointIndex': 740, 'x': 8.4, 'y': 985, 'bbox': {'x0': 158.59, 'x1': 160.59, 'y0': 220.51999999999998, 'y1': 222.51999999999998}, 'customdata': ['tom ford', 'soleil blanc']}]}
+# {'points': [{'curveNumber': 0, 'pointNumber': 3, 'pointIndex': 3, 'x': 'unit_price_standard', 'y': 39000, 'bbox': {'x0': 331.78, 'x1': 337.78, 'y0': 130.25, 'y1': 136.25}, 'customdata': ['hourglass', 'arch brow micro sculpting pencil', 0.0008, 0.001, 0.7051282051282052, 426]}]}
+@callback(
+    Output('product_details_text', 'children'),
+    Input('scatter_products', 'clickData'),
+    Input('size_line_plot', 'clickData'))
+def update_product_details(scatter_click_value, slope_click_value):
+    print(scatter_click_value)
+    print(slope_click_value)
+    return None
+
+
+def get_single_product_data(df, row_id):
+    # must return single row of data as dictionary
+
+    return None
+
+
 @callback(
     Output('scatter_products', 'figure'),
     Input('category_l0_dropdown', 'value'),
@@ -84,7 +128,7 @@ def product_unit_price_v_size_scatter(df, title='Explore products by size and pr
                     color='swatch_group',
                     title=title,
                     template=PLOT_TEMPLATE_THEME,
-                    hover_data=['brand_name', 'product_name'],
+                    hover_data=['brand_name', 'product_name', 'index'],
                     labels={ # replaces default labels by column name
                         'amount_adj': "Product size (oz.)",  'price': "Price ($)", "swatch_group": "Product category"
                     },
@@ -93,8 +137,10 @@ def product_unit_price_v_size_scatter(df, title='Explore products by size and pr
         legend=dict(
             yanchor='top',
             xanchor='right'
-        )
+        ),
+        margin=dict(l=100, r=20, t=100, b=20),
     )
+
     return fig
 
 @callback(
@@ -146,18 +192,18 @@ def unit_price_pair_plot(df, title="Unit price comparison of products"):
             ticktext=['Mini','Full'],
             range=[-0.4, 2 - 0.6]
         ),
-        legend=dict(
-            title="Top 10 products",
-            font_size=12
-        ),
+        # legend=dict(
+        #     title="Top 10 products",
+        #     font_size=12
+        # ),
         hoverlabel = dict(
         # option to change text in hoverlabel
         )
     )
     # map line index to brand+category label
-    legend_name_map = {row['prod_rank']:row['display_name'] for index, row in df.iterrows()}
-    fig.for_each_trace(lambda t: t.update(name = legend_name_map[int(t.name)]))
-    fig.update_traces(line=dict(width=3))
+    # legend_name_map = {row['prod_rank']:row['product_name'] for index, row in df.iterrows()}
+    # fig.for_each_trace(lambda t: t.update(name = legend_name_map[int(t.name)]))
+    # fig.update_traces(line=dict(width=3))
     return fig 
 
 
@@ -175,33 +221,6 @@ def unit_price_histogram(df, poi_unit_price, unit_price_col):
         margin=dict(l=20, r=20, t=20, b=20),
     )
     return fig
-
-
-def single_product_info_box(df_poi):
-
-    cheaper = df[(df['unit_price']<df_poi['unit_price'].values[0]) 
-                 & (df['amount_adj']==df_poi['amount_adj'].values[0])].shape[0]
-    #df.loc[(df.product_name=='soleil brulant') & (df['amount_adj']==1.0)
-
-    return [
-        html.H5('Product details'),
-        f"Product: {df_poi['product_name'].values[0]}, {df_poi['swatch_group'].values[0]}",
-        html.Br(),
-        f"Brand: {df_poi['brand_name'].values[0]}",
-        html.Br(),
-        f"Price: ${df_poi['price'].values[0]}",
-        html.Br(),
-        f"Size: {df_poi['amount_adj'].values[0]} {df_poi['unit_a'].values[0]}", 
-        html.Br(),
-        # f"Unit price: {df_poi['unit_price'].values[0]} $/{df_poi['unit_a'].values[0]}",
-        html.Br(),
-        f"There are {cheaper} {df_poi['amount_adj'].values[0]} {df_poi['unit_a'].values[0]} {df_poi['lvl_2_cat'].values[0].lower()} products at Sephora with unit price less than {df_poi['unit_price'].values[0]} $/{df_poi['unit_a'].values[0]}"
-        # str(df['amount_adj'].values[0]),# +" "+ df['unit_a'].values[0],
-        # str(df['unit_price'].values[0]),# +" $/"+ df['unit_a'].values[0],
-        # str(df['rating'].values[0]),
-        # str(df['product_reviews'].values[0]),
-        # str(df['sku'].values[0])
-    ]
 
 
 def basic_df_sort(df, col, asc=True, limit=10):
@@ -306,9 +325,12 @@ app.layout = dbc.Container([
                          dbc.Card(
                             dbc.CardBody([
                                 dbc.Row([
-                                    dbc.Col(
-                                        single_product_info_box(df[(df.product_name=='soleil brulant') & (df['amount_adj']==1.0)]),
-                                        width=2),
+                                    dbc.Col([
+                                        html.Div(
+                                            single_product_info_box(df[(df.product_name=='soleil brulant') & (df['amount_adj']==1.0)]),
+                                            id='product_details_text'
+                                        )
+                                    ], width=2),
                                     dbc.Col([
                                         dcc.Graph(
                                             id='unit_price_hist_plot',
