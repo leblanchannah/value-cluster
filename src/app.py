@@ -60,47 +60,53 @@ product_category_l0_global = dcc.Dropdown(
                             )
 
 
-def single_product_info_box(df_poi):
+def single_product_info_box(df, data):
+    print(data)
 
-    cheaper = df[(df['unit_price']<df_poi['unit_price'].values[0]) 
-                 & (df['amount_adj']==df_poi['amount_adj'].values[0])].shape[0]
-    #df.loc[(df.product_name=='soleil brulant') & (df['amount_adj']==1.0)
+    # cheaper products must have better unit price, lower price and same amount
 
+    unit_price = (df['unit_price']<data['unit_price']) 
+    l2_type = (df['lvl_2_cat']==data['lvl_2_cat']) 
+    num_cheaper_products = df[unit_price & l2_type].shape[0]
+
+    print(num_cheaper_products)
     return [
         html.H5('Product details'),
-        f"Product: {df_poi['product_name'].values[0]}, {df_poi['swatch_group'].values[0]}",
+        f"Product: {data['product_name']}, {data['swatch_group']}",
         html.Br(),
-        f"Brand: {df_poi['brand_name'].values[0]}",
+        f"Brand: {data['brand_name']}",
         html.Br(),
-        f"Price: ${df_poi['price'].values[0]}",
+        f"Price: ${data['price']}",
         html.Br(),
-        f"Size: {df_poi['amount_adj'].values[0]} {df_poi['unit_a'].values[0]}", 
+        f"Size: {data['amount_adj']} {data['unit_a']}", 
         html.Br(),
         # f"Unit price: {df_poi['unit_price'].values[0]} $/{df_poi['unit_a'].values[0]}",
         html.Br(),
-        f"There are {cheaper} {df_poi['amount_adj'].values[0]} {df_poi['unit_a'].values[0]} {df_poi['lvl_2_cat'].values[0].lower()} products at Sephora with unit price less than {df_poi['unit_price'].values[0]} $/{df_poi['unit_a'].values[0]}"
+        f"There are {num_cheaper_products} {data['lvl_2_cat'].lower()} products at Sephora with unit price less than {data['unit_price']} $/{data['unit_a']}"
     ]
 
-# click events from either pairplot or scatter must update single product details section
-# {'points': [{'curveNumber': 0, 'pointNumber': 1, 'pointIndex': 1, 'x': 'unit_price_mini', 'y': 27500, 'bbox': {'x0': 161.22, 'x1': 167.22, 'y0': 199.74, 'y1': 205.74}, 'customdata': ['hourglass', 'arch brow micro sculpting pencil', 0.0008, 0.001, 0.7051282051282052, 426]}]}
-None
-# {'points': [{'curveNumber': 0, 'pointNumber': 3, 'pointIndex': 3, 'x': 'unit_price_standard', 'y': 39000, 'bbox': {'x0': 331.78, 'x1': 337.78, 'y0': 130.25, 'y1': 136.25}, 'customdata': ['hourglass', 'arch brow micro sculpting pencil', 0.0008, 0.001, 0.7051282051282052, 426]}]}
-# {'points': [{'curveNumber': 0, 'pointNumber': 740, 'pointIndex': 740, 'x': 8.4, 'y': 985, 'bbox': {'x0': 158.59, 'x1': 160.59, 'y0': 220.51999999999998, 'y1': 222.51999999999998}, 'customdata': ['tom ford', 'soleil blanc']}]}
-# {'points': [{'curveNumber': 0, 'pointNumber': 3, 'pointIndex': 3, 'x': 'unit_price_standard', 'y': 39000, 'bbox': {'x0': 331.78, 'x1': 337.78, 'y0': 130.25, 'y1': 136.25}, 'customdata': ['hourglass', 'arch brow micro sculpting pencil', 0.0008, 0.001, 0.7051282051282052, 426]}]}
+
 @callback(
     Output('product_details_text', 'children'),
     Input('scatter_products', 'clickData'),
     Input('size_line_plot', 'clickData'))
 def update_product_details(scatter_click_value, slope_click_value):
-    print(scatter_click_value)
-    print(slope_click_value)
+    # sequential clicks show data in both scatter value and slope value - making it difficult to tell what is most recent
+    # print(scatter_click_value)
+    # print(slope_click_value)
+    # ctx triggered gives most recent and all the same data under customdata key
+    click_data = ctx.triggered[0]
+    if click_data['value'] is not None:
+        # either scatterplot or slope plot has been clicked
+        # index must always be last item in custom_data, regardless of what plot it came from 
+        product_row_id = click_data['value']['points'][0]['customdata'][-1]
+        return single_product_info_box(df, get_single_product_data(df, product_row_id))
     return None
 
 
-def get_single_product_data(df, row_id):
+def get_single_product_data(df, row_id, index_col='index'):
     # must return single row of data as dictionary
-
-    return None
+    return df[df[index_col]==row_id].to_dict('records')[0]
 
 
 @callback(
@@ -327,7 +333,7 @@ app.layout = dbc.Container([
                                 dbc.Row([
                                     dbc.Col([
                                         html.Div(
-                                            single_product_info_box(df[(df.product_name=='soleil brulant') & (df['amount_adj']==1.0)]),
+                                            single_product_info_box(df, get_single_product_data(df, 1)),
                                             id='product_details_text'
                                         )
                                     ], width=2),
