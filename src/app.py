@@ -61,15 +61,11 @@ product_category_l0_global = dcc.Dropdown(
 
 
 def single_product_info_box(df, data):
-    print(data)
-
     # cheaper products must have better unit price, lower price and same amount
 
     unit_price = (df['unit_price']<data['unit_price']) 
     l2_type = (df['lvl_2_cat']==data['lvl_2_cat']) 
     num_cheaper_products = df[unit_price & l2_type].shape[0]
-
-    print(num_cheaper_products)
     return [
         html.H5('Product details'),
         f"Product: {data['product_name']}, {data['swatch_group']}",
@@ -80,7 +76,6 @@ def single_product_info_box(df, data):
         html.Br(),
         f"Size: {data['amount_adj']} {data['unit_a']}", 
         html.Br(),
-        # f"Unit price: {df_poi['unit_price'].values[0]} $/{df_poi['unit_a'].values[0]}",
         html.Br(),
         f"There are {num_cheaper_products} {data['lvl_2_cat'].lower()} products at Sephora with unit price less than {data['unit_price']} $/{data['unit_a']}"
     ]
@@ -101,7 +96,7 @@ def update_product_details(scatter_click_value, slope_click_value):
         # index must always be last item in custom_data, regardless of what plot it came from 
         product_row_id = click_data['value']['points'][0]['customdata'][-1]
         return single_product_info_box(df, get_single_product_data(df, product_row_id))
-    return None
+    return single_product_info_box(df, get_single_product_data(df, 4))
 
 
 def get_single_product_data(df, row_id, index_col='index'):
@@ -154,17 +149,17 @@ def product_unit_price_v_size_scatter(df, title='Explore products by size and pr
     Input('sorting_dropdown', 'value'),
     Input('category_l0_dropdown', 'value'),
     Input('brand_dropdown', 'value'))
-def update_unit_price_pair_plot(sort_val, category_val, brand_val):
+def update_unit_price_slope_plot(sort_val, category_val, brand_val):
     df_filtered = df.copy()
     title = f'Unit price comparison of{" "+brand_val if brand_val else ""}{" "+category_val.lower() if category_val else ""} products'
     if category_val:
         df_filtered = df_filtered[df_filtered['lvl_0_cat']==category_val]
     if brand_val:
         df_filtered = df_filtered[df_filtered['brand_name']==brand_val]
-    return unit_price_pair_plot(get_unit_price_comparison_data(df_filtered, sort_val), title)
+    return unit_price_slope_plot(get_unit_price_comparison_data(df_filtered, sort_val), title)
 
 
-def unit_price_pair_plot(df, title="Unit price comparison of products"):
+def unit_price_slope_plot(df, title="Unit price comparison of products"):
     '''
     Returns:
         plotly figure
@@ -183,6 +178,7 @@ def unit_price_pair_plot(df, title="Unit price comparison of products"):
                     "amount_adj_standard":True,
                     "mini_to_standard_ratio":True,
                     "prod_rank":False,
+                    "index":True
                 },
                 markers=True
     )
@@ -213,7 +209,7 @@ def unit_price_pair_plot(df, title="Unit price comparison of products"):
     return fig 
 
 
-def unit_price_histogram(df, poi_unit_price, unit_price_col):
+def unit_price_histogram(df, position_, unit_price_col):
     '''
     '''
     fig = px.histogram(
@@ -300,13 +296,13 @@ app.layout = dbc.Container([
             dbc.Col([
                 # explanatory
                 dbc.Row([
-                    # pair plot (mini vs standard)
+                    # slope plot (mini vs standard)
                     dbc.Col([
                         dbc.Card(
                             dbc.CardBody([
                                 dcc.Graph(
                                     id='size_line_plot',
-                                    figure=unit_price_pair_plot(get_unit_price_comparison_data(df))
+                                    figure=unit_price_slope_plot(get_unit_price_comparison_data(df))
                                 )
                             ])
                         )
@@ -333,7 +329,7 @@ app.layout = dbc.Container([
                                 dbc.Row([
                                     dbc.Col([
                                         html.Div(
-                                            single_product_info_box(df, get_single_product_data(df, 1)),
+                                            "",#single_product_info_box(df, get_single_product_data(df,2)),
                                             id='product_details_text'
                                         )
                                     ], width=2),
