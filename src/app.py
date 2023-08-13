@@ -88,8 +88,6 @@ def single_product_info_box(df, data):
     Input('size_line_plot', 'clickData'))
 def update_product_details(scatter_click_value, slope_click_value):
     # sequential clicks show data in both scatter value and slope value - making it difficult to tell what is most recent
-    # print(scatter_click_value)
-    # print(slope_click_value)
     # ctx triggered gives most recent and all the same data under customdata key
     click_data = ctx.triggered[0]
     if click_data['value'] is not None:
@@ -98,11 +96,15 @@ def update_product_details(scatter_click_value, slope_click_value):
         product_row_id = click_data['value']['points'][0]['customdata'][-1]
         data = get_single_product_data(df, product_row_id)
         df_filtered = df[df['lvl_2_cat']==data['lvl_2_cat']]
-        return single_product_info_box(df, data), unit_price_histogram(df_filtered, 0, 'unit_price')
+        title = f'Unit price distribution, {data["lvl_2_cat"].lower()}'
+        fig = unit_price_histogram(df_filtered, 0, 'unit_price', title=title )
+        text = single_product_info_box(df, data)
+        # table = 
+        return  text, fig
     return single_product_info_box(df, get_single_product_data(df, 4)), unit_price_histogram(df, 0, 'unit_price')
 
 
-def unit_price_histogram(data, position_, unit_price_col):
+def unit_price_histogram(data, position_, unit_price_col, title='Unit price distribution'):
     '''
     '''
     fig = px.histogram(
@@ -110,10 +112,11 @@ def unit_price_histogram(data, position_, unit_price_col):
             x=unit_price_col,
             template=PLOT_TEMPLATE_THEME,
             height=300,
-            
+            title=title,
+            labels={'unit_price': "Unit price ($/oz.)"}
         )
     fig.update_layout(
-        margin=dict(l=20, r=20, t=20, b=20),
+        margin=dict(l=20, r=20, t=40, b=20),
         yaxis=dict(
             autorange=True
         ),
