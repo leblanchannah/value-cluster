@@ -83,6 +83,7 @@ def single_product_info_box(df, data):
 
 @callback(
     Output('product_details_text', 'children'),
+    Output('unit_price_hist_plot', 'figure'),
     Input('scatter_products', 'clickData'),
     Input('size_line_plot', 'clickData'))
 def update_product_details(scatter_click_value, slope_click_value):
@@ -95,8 +96,32 @@ def update_product_details(scatter_click_value, slope_click_value):
         # either scatterplot or slope plot has been clicked
         # index must always be last item in custom_data, regardless of what plot it came from 
         product_row_id = click_data['value']['points'][0]['customdata'][-1]
-        return single_product_info_box(df, get_single_product_data(df, product_row_id))
-    return single_product_info_box(df, get_single_product_data(df, 4))
+        data = get_single_product_data(df, product_row_id)
+        df_filtered = df[df['lvl_2_cat']==data['lvl_2_cat']]
+        return single_product_info_box(df, data), unit_price_histogram(df_filtered, 0, 'unit_price')
+    return single_product_info_box(df, get_single_product_data(df, 4)), unit_price_histogram(df, 0, 'unit_price')
+
+
+def unit_price_histogram(data, position_, unit_price_col):
+    '''
+    '''
+    fig = px.histogram(
+            data,
+            x=unit_price_col,
+            template=PLOT_TEMPLATE_THEME,
+            height=300,
+            
+        )
+    fig.update_layout(
+        margin=dict(l=20, r=20, t=20, b=20),
+        yaxis=dict(
+            autorange=True
+        ),
+        xaxis=dict(
+            autorange=True
+        )
+    )
+    return fig
 
 
 def get_single_product_data(df, row_id, index_col='index'):
@@ -194,35 +219,19 @@ def unit_price_slope_plot(df, title="Unit price comparison of products"):
             ticktext=['Mini','Full'],
             range=[-0.4, 2 - 0.6]
         ),
-        # legend=dict(
-        #     title="Top 10 products",
-        #     font_size=12
-        # ),
+        legend=dict(
+            title="Top 10 products",
+            font_size=12
+        ),
         hoverlabel = dict(
         # option to change text in hoverlabel
         )
     )
     # map line index to brand+category label
-    # legend_name_map = {row['prod_rank']:row['product_name'] for index, row in df.iterrows()}
-    # fig.for_each_trace(lambda t: t.update(name = legend_name_map[int(t.name)]))
-    # fig.update_traces(line=dict(width=3))
+    legend_name_map = {row['prod_rank']:row['display_name'] for index, row in df.iterrows()}
+    fig.for_each_trace(lambda t: t.update(name = legend_name_map[int(t.name)]))
+    fig.update_traces(line=dict(width=3))
     return fig 
-
-
-def unit_price_histogram(df, position_, unit_price_col):
-    '''
-    '''
-    fig = px.histogram(
-            df,
-            x=unit_price_col,
-            template=PLOT_TEMPLATE_THEME,
-            height=300,
-            
-        )
-    fig.update_layout(
-        margin=dict(l=20, r=20, t=20, b=20),
-    )
-    return fig
 
 
 def basic_df_sort(df, col, asc=True, limit=10):
@@ -329,14 +338,14 @@ app.layout = dbc.Container([
                                 dbc.Row([
                                     dbc.Col([
                                         html.Div(
-                                            "",#single_product_info_box(df, get_single_product_data(df,2)),
+                                            "",
                                             id='product_details_text'
                                         )
                                     ], width=2),
                                     dbc.Col([
                                         dcc.Graph(
                                             id='unit_price_hist_plot',
-                                            figure=unit_price_histogram(df[(df['amount_adj']==1.0) & (df['lvl_2_cat']=='Perfume')], 310, 'unit_price')
+                                            figure=unit_price_histogram(df[df['lvl_2_cat']=='Mascaras'], 310, 'unit_price')
                                         )
                                     ], width=5),
                                     dbc.Col([
