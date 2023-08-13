@@ -84,6 +84,7 @@ def single_product_info_box(df, data):
 @callback(
     Output('product_details_text', 'children'),
     Output('unit_price_hist_plot', 'figure'),
+    Output('cheaper_product_table','data'),
     Input('scatter_products', 'clickData'),
     Input('size_line_plot', 'clickData'))
 def update_product_details(scatter_click_value, slope_click_value):
@@ -95,13 +96,16 @@ def update_product_details(scatter_click_value, slope_click_value):
         # index must always be last item in custom_data, regardless of what plot it came from 
         product_row_id = click_data['value']['points'][0]['customdata'][-1]
         data = get_single_product_data(df, product_row_id)
-        df_filtered = df[df['lvl_2_cat']==data['lvl_2_cat']]
+        df_filtered_hist = df[df['lvl_2_cat']==data['lvl_2_cat']]
+        df_filtered_table = df_filtered_hist[df_filtered_hist['unit_price']<data['unit_price']]
+
         title = f'Unit price distribution, {data["lvl_2_cat"].lower()}'
-        fig = unit_price_histogram(df_filtered, 0, 'unit_price', title=title )
+        fig = unit_price_histogram(df_filtered_hist, 0, 'unit_price', title=title)
+
         text = single_product_info_box(df, data)
-        # table = 
-        return  text, fig
-    return single_product_info_box(df, get_single_product_data(df, 4)), unit_price_histogram(df, 0, 'unit_price')
+        table = df_filtered_table.sort_values(by='unit_price', ascending=True)[['brand_name','product_name','unit_price']].to_dict("records")
+        return  text, fig, table
+    return single_product_info_box(df, get_single_product_data(df, 4)), unit_price_histogram(df, 0, 'unit_price'), None
 
 
 def unit_price_histogram(data, position_, unit_price_col, title='Unit price distribution'):
@@ -353,10 +357,11 @@ app.layout = dbc.Container([
                                     ], width=5),
                                     dbc.Col([
                                         dash_table.DataTable(
-                                            df[(df['amount_adj']==1.0) 
+                                            id='cheaper_product_table',
+                                            data=df[(df['amount_adj']==1.0) 
                                                & (df['lvl_2_cat']=='Perfume') 
                                                & (df['unit_price']<310)].sort_values(by='unit_price', ascending=True)[['brand_name','product_name','unit_price']].to_dict("records"),
-                                            [{"name": i, "id": i} for i in df[['brand_name','product_name','unit_price']].columns],
+                                            columns=[{"name": i, "id": i} for i in df[['brand_name','product_name','unit_price']].columns],
                                             page_size=5,
                                             style_cell={'textAlign': 'left',
                                                         'padding': '1px',
