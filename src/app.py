@@ -61,8 +61,22 @@ product_category_l0_global = dcc.Dropdown(
 
 
 def single_product_info_box(df, data):
-    # cheaper products must have better unit price, lower price and same amount
+    ''' 
+        Product details box outlines features for a product selected on the slope plot or scatter plot.
+        Example text returned 
+            Product: prep + prime highlighter, standard size
+            Brand: mac cosmetics
+            Price: $37.0
+            Size: 0.12 oz
 
+            There are 79 highlighter products at Sephora with unit price less than 308.33 $/oz
+        Args:
+            df - product dataset as pd dataframe
+            data - dictionary of data describing product selected
+        Returns:
+    '''
+    # identify number of products with lower unit price within the same product category
+    # note: sephora product categories came from breadcrumbs on product pages, l2 is most specific level 
     unit_price = (df['unit_price']<data['unit_price']) 
     l2_type = (df['lvl_2_cat']==data['lvl_2_cat']) 
     num_cheaper_products = df[unit_price & l2_type].shape[0]
@@ -77,7 +91,7 @@ def single_product_info_box(df, data):
         f"Size: {data['amount_adj']} {data['unit_a']}", 
         html.Br(),
         html.Br(),
-        f"There are {num_cheaper_products} {data['lvl_2_cat'].lower()} products at Sephora with unit price less than {data['unit_price']} $/{data['unit_a']}"
+        f"There are {num_cheaper_products} {data['lvl_2_cat'].lower()} products at Sephora with unit price less than {data['unit_price']:.2f} $/{data['unit_a']}"
     ]
 
 
@@ -88,6 +102,21 @@ def single_product_info_box(df, data):
     Input('scatter_products', 'clickData'),
     Input('size_line_plot', 'clickData'))
 def update_product_details(scatter_click_value, slope_click_value):
+    '''
+        When a data point is clicked on the slope pair plot OR the product scatter plot, the product details section is updated
+        to show information on the selected product. 
+        Args:
+            scatter_click_value - callback info
+            slope_click_value - callback info
+                although callback info is provided, it is easier for me to use callback context -> ctx when determining what was
+                most recently clicked on the dashboard. 
+        Returns:
+            Tuple of updates 
+            - updates div children (id=product_details_text) with text describing produce selected, along with recommendation 
+            - updates histogram figure (id=unit_price_hist_plot) with unit prices of products in same l2 category as selected product
+            - updates table data (id=cheaper_product_table) with better value products than the selected product
+
+    '''
     # sequential clicks show data in both scatter value and slope value - making it difficult to tell what is most recent
     # ctx triggered gives most recent and all the same data under customdata key
     click_data = ctx.triggered[0]
@@ -95,17 +124,19 @@ def update_product_details(scatter_click_value, slope_click_value):
         # either scatterplot or slope plot has been clicked
         # index must always be last item in custom_data, regardless of what plot it came from 
         product_row_id = click_data['value']['points'][0]['customdata'][-1]
-        data = get_single_product_data(df, product_row_id)
-        df_filtered_hist = df[df['lvl_2_cat']==data['lvl_2_cat']]
-        df_filtered_table = df_filtered_hist[df_filtered_hist['unit_price']<data['unit_price']]
+    else:
+        product_row_id = 4
+    data = get_single_product_data(df, product_row_id)
+    
+    df_filtered_hist = df[df['lvl_2_cat']==data['lvl_2_cat']]
+    title = f'Unit price distribution, {data["lvl_2_cat"].lower()}'
+    fig = unit_price_histogram(df_filtered_hist, 0, 'unit_price', title=title)
+    
+    text = single_product_info_box(df, data)
 
-        title = f'Unit price distribution, {data["lvl_2_cat"].lower()}'
-        fig = unit_price_histogram(df_filtered_hist, 0, 'unit_price', title=title)
-
-        text = single_product_info_box(df, data)
-        table = df_filtered_table.sort_values(by='unit_price', ascending=True)[['brand_name','product_name','unit_price']].to_dict("records")
-        return  text, fig, table
-    return single_product_info_box(df, get_single_product_data(df, 4)), unit_price_histogram(df, 0, 'unit_price'), None
+    df_filtered_table = df_filtered_hist[df_filtered_hist['unit_price']<data['unit_price']]
+    table = df_filtered_table.sort_values(by='unit_price', ascending=True)[['brand_name','product_name','unit_price']].to_dict("records")
+    return  text, fig, table
 
 
 def unit_price_histogram(data, position_, unit_price_col, title='Unit price distribution'):
@@ -358,9 +389,7 @@ app.layout = dbc.Container([
                                     dbc.Col([
                                         dash_table.DataTable(
                                             id='cheaper_product_table',
-                                            data=df[(df['amount_adj']==1.0) 
-                                               & (df['lvl_2_cat']=='Perfume') 
-                                               & (df['unit_price']<310)].sort_values(by='unit_price', ascending=True)[['brand_name','product_name','unit_price']].to_dict("records"),
+                                            data=df.sort_values(by='unit_price', ascending=True)[['brand_name','product_name','unit_price']].to_dict("records"),
                                             columns=[{"name": i, "id": i} for i in df[['brand_name','product_name','unit_price']].columns],
                                             page_size=5,
                                             style_cell={'textAlign': 'left',
