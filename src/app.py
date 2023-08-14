@@ -65,6 +65,40 @@ product_category_l0_global = dcc.Dropdown(
                             )
 
 
+def price_min_max_filter(df, price_col):
+    '''
+    '''
+    max_price = int(df[price_col].max())
+    return html.Div(
+        children = [
+            html.Div([
+                dcc.Dropdown(
+                    options = [{'label':f'$ {x:.2f}', 'value':x} for x in range(0, 200, 10)],
+                    placeholder='Minimum',
+                    searchable=False,
+                    clearable=False,
+                    id='min_price_dropdown'
+                )],
+                style={"width": "35%"},
+            ),
+            # html.P([" - "],style={"width": "40%"}),
+            html.Div([
+                dcc.Dropdown(
+                    options = [{'label': f'$ {x:.2f}', 'value': x} for x in range(1500, 0, -100)],
+                    placeholder='Maximum',
+                    searchable=False,
+                    clearable=False,
+                    id='max_price_dropdown'
+                )],
+                style={"width": "35%"}
+            )
+        ],
+        id='price_filters'
+    )
+
+
+
+
 def single_product_info_box(df, data):
     ''' 
         Product details box outlines features for a product selected on the slope plot or scatter plot.
@@ -341,6 +375,9 @@ app.layout = dbc.Container([
                         html.Br(),
                         "Brand: ",
                         brand_filter_global,
+                        html.Br(),
+                        "Product price:",
+                        price_min_max_filter(df, 'price')
                     ])
                 )
             ], width=3),
