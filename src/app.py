@@ -16,6 +16,7 @@ app = Dash(
     suppress_callback_exceptions=True
 )
 
+# 
 sidebar_text = html.P([
         html.Br(),
         """
@@ -39,21 +40,25 @@ sidebar_text = html.P([
         html.Br(),
 ])
 
+# Drop down used to sort slope plot
 sorting_dropdown = dcc.Dropdown(
                         options=[
-                            {'label':'Best mini compared to full size','value':'ratio_mini_lt_full'},
-                            {'label':'Best full compared to mini size','value':'ratio_full_lt_mini'},
-                            {'label':'Best value mini size','value':'unit_price_mini'},
-                            {'label':'Best value full size','value':'unit_price_full'},
+                            {'label':'Mini to full unit price ratio','value':'ratio_mini_lt_full'},
+                            {'label':'Full to mini unit price ratio','value':'ratio_full_lt_mini'},
+                            {'label':'Best value mini sizes','value':'unit_price_mini'},
+                            {'label':'Best value full sizes','value':'unit_price_full'},
                         ],
                         value='ratio_mini_lt_full',
                         id='sorting_dropdown'
                     )
 
+# Drop down used to filter both slope and scatter plots by brand
 brand_filter_global = dcc.Dropdown(
                         options = [x for x in df.brand_name.unique()],
                         id='brand_dropdown'
                     )
+
+# Drop down used to filter both slope and scatter plots by product category
 product_category_l0_global = dcc.Dropdown(
                                 options = [x for x in df.lvl_0_cat.unique() if x!=' ' and x!='Mini Size' and x!='Men'],
                                 id='category_l0_dropdown'
