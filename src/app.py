@@ -49,19 +49,22 @@ sorting_dropdown = dcc.Dropdown(
                             {'label':'Best value full sizes','value':'unit_price_full'},
                         ],
                         value='ratio_mini_lt_full',
-                        id='sorting_dropdown'
+                        id='sorting_dropdown',
+                        style=dict(width='80%')
                     )
 
 # Drop down used to filter both slope and scatter plots by brand
 brand_filter_global = dcc.Dropdown(
                         options = [x for x in df.brand_name.unique()],
-                        id='brand_dropdown'
+                        id='brand_dropdown',
+                        style=dict(width='80%')
                     )
 
 # Drop down used to filter both slope and scatter plots by product category
 product_category_l0_global = dcc.Dropdown(
                                 options = [x for x in df.lvl_0_cat.unique() if x!=' ' and x!='Mini Size' and x!='Men'],
-                                id='category_l0_dropdown'
+                                id='category_l0_dropdown',
+                                style=dict(width='80%')
                             )
 
 
@@ -169,7 +172,7 @@ def update_product_details(scatter_click_value, slope_click_value):
     
     df_filtered_hist = df[df['lvl_2_cat']==data['lvl_2_cat']]
     title = f'Unit price distribution, {data["lvl_2_cat"].lower()}'
-    fig = unit_price_histogram(df_filtered_hist, 0, 'unit_price', title=title)
+    fig = unit_price_histogram(df_filtered_hist, data['unit_price'], 'unit_price', title=title)
     
     text = single_product_info_box(df, data)
 
@@ -178,16 +181,20 @@ def update_product_details(scatter_click_value, slope_click_value):
     return  text, fig, table
 
 
-def unit_price_histogram(data, position_, unit_price_col, title='Unit price distribution'):
+def unit_price_histogram(data, position, unit_price_col, title='Unit price distribution'):
     '''
     '''
+    data['value'] = 'more expensive'
+    data.loc[data[unit_price_col]<position, 'value'] = 'cheaper'
+
     fig = px.histogram(
             data,
             x=unit_price_col,
+            color='value',
             template=PLOT_TEMPLATE_THEME,
             height=300,
             title=title,
-            labels={'unit_price': "Unit price ($/oz.)"}
+            labels={'unit_price': "Unit price ($/oz.)", "value":"Unit price compared to selected product"},
         )
     fig.update_layout(
         margin=dict(l=20, r=20, t=40, b=20),
@@ -196,6 +203,10 @@ def unit_price_histogram(data, position_, unit_price_col, title='Unit price dist
         ),
         xaxis=dict(
             autorange=True
+        ),
+        legend=dict(
+            yanchor='top',
+            xanchor='right'
         )
     )
     return fig
@@ -247,7 +258,7 @@ def product_unit_price_v_size_scatter(df, title='Explore products by size and pr
             yanchor='top',
             xanchor='right'
         ),
-        margin=dict(l=100, r=20, t=100, b=20),
+        margin=dict(l=80, r=20, t=50, b=20),
     )
 
     return fig
@@ -297,6 +308,7 @@ def unit_price_slope_plot(df, title="Unit price comparison of products"):
                 markers=True
     )
     fig.update_layout(
+        margin=dict(l=80, r=20, t=50, b=20),
         yaxis = dict(
             title='Unit price ($/oz.)'
         ),
@@ -310,7 +322,8 @@ def unit_price_slope_plot(df, title="Unit price comparison of products"):
         ),
         legend=dict(
             title="Top 10 products",
-            font_size=12
+            font_size=10,
+            yanchor='top'
         ),
         hoverlabel = dict(
         # option to change text in hoverlabel
@@ -364,7 +377,7 @@ def get_unit_price_comparison_data(df, sorting_value='ratio_mini_lt_full'):
     df_compare = df_compare.merge(df, 
                     on=['product_id','brand_name','product_name'],
                     how='left')
-    df_compare['display_name'] = df_compare['brand_name']+", "+df_compare['lvl_2_cat'].str.lower()
+    df_compare['display_name'] = df_compare['brand_name']+",<br>"+df_compare['lvl_2_cat'].str.lower()
     #df_compare['brand_name']+", <br>"+df_compare['lvl_2_cat'].str.lower()
     return df_compare
 
@@ -384,10 +397,8 @@ app.layout = dbc.Container([
                         html.H4("Filters:"),
                         "Product category: ",
                         product_category_l0_global,
-                        html.Br(),
                         "Brand: ",
                         brand_filter_global,
-                        html.Br(),
                         "Product price:",
                         price_min_max_filter(df, 'price')
                     ])
@@ -403,7 +414,10 @@ app.layout = dbc.Container([
                             dbc.CardBody([
                                 dcc.Graph(
                                     id='size_line_plot',
-                                    figure=unit_price_slope_plot(get_unit_price_comparison_data(df))
+                                    figure=unit_price_slope_plot(get_unit_price_comparison_data(df)),
+                                    config={
+                                        'displayModeBar': False
+                                    }
                                 )
                             ])
                         )
@@ -437,7 +451,10 @@ app.layout = dbc.Container([
                                     dbc.Col([
                                         dcc.Graph(
                                             id='unit_price_hist_plot',
-                                            figure=unit_price_histogram(df[df['lvl_2_cat']=='Mascaras'], 310, 'unit_price')
+                                            figure=unit_price_histogram(df[df['lvl_2_cat']=='Mascaras'], 310, 'unit_price'),
+                                            config={
+                                                'displayModeBar': False
+                                            }
                                         )
                                     ], width=5),
                                     dbc.Col([
