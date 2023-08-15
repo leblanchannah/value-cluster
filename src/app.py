@@ -52,7 +52,7 @@ sorting_dropdown = dcc.Dropdown(
                             {'label':'Best value mini sizes','value':'unit_price_mini'},
                             {'label':'Best value full sizes','value':'unit_price_full'},
                         ],
-                        value='ratio_mini_lt_full',
+                        value='unit_price_mini',
                         id='sorting_dropdown',
                         style=dict(width='80%')
                     )
@@ -67,6 +67,7 @@ brand_filter_global = dcc.Dropdown(
 # Drop down used to filter both slope and scatter plots by product category
 product_category_l0_global = dcc.Dropdown(
                                 options = [x for x in df.lvl_0_cat.unique() if x!=' ' and x!='Mini Size' and x!='Men'],
+                                value='Skincare',
                                 id='category_l0_dropdown',
                                 style=dict(width='80%')
                             )
@@ -225,8 +226,7 @@ def get_single_product_data(df, row_id, index_col='index'):
     Input('category_l0_dropdown', 'value'),
     Input('brand_dropdown', 'value'),
     Input('min_price_dropdown', 'value'),
-    Input('max_price_dropdown', 'value'),
-    prevent_initial_call=True)
+    Input('max_price_dropdown', 'value'))
 def update_product_scatter(category_val, brand_val, min_price_dropdown, max_price_dropdown):
     triggered_id = ctx.triggered_id 
     df_filtered = df.copy()
