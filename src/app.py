@@ -76,10 +76,10 @@ def price_min_max_filter(df, price_col):
                     options = [{'label':f'$ {x:.2f}', 'value':x} for x in range(0, 200, 10)],
                     placeholder='Minimum',
                     searchable=False,
-                    clearable=False,
+                    clearable=True,
                     id='min_price_dropdown'
                 )],
-                style={"width": "35%"},
+                style={"width": "40%"},
             ),
             # need more space here
             html.Div([
@@ -87,11 +87,11 @@ def price_min_max_filter(df, price_col):
                     options = [{'label': f'$ {x:.2f}', 'value': x} for x in range(1500, 0, -100)],
                     placeholder='Maximum',
                     searchable=False,
-                    clearable=False,
+                    clearable=True,
                     id='max_price_dropdown'
                 )],
                 
-                style={"width": "35%"}
+                style={"width": "40%"}
             )
         ],
         id='price_filters',
