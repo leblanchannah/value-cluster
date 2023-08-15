@@ -3,6 +3,10 @@ import dash_bootstrap_components as dbc
 import pandas as pd
 import plotly.express as px
 
+
+app = Dash(__name__)
+
+
 PLOT_TEMPLATE_THEME = 'simple_white'
 
 # product data, aggregated to single row per product  
@@ -132,8 +136,7 @@ def single_product_info_box(df, data):
         html.Br(),
         f"Size: {data['amount_adj']} {data['unit_a']}", 
         html.Br(),
-        html.Br(),
-        f"There are {num_cheaper_products} {data['lvl_2_cat'].lower()} at Sephora with unit price less than {data['unit_price']:.2f} $/{data['unit_a']}"
+        f"There are {num_cheaper_products} {data['lvl_2_cat'].lower()} at Sephora with unit price less than ${data['unit_price']:.2f} /{data['unit_a']}."
     ]
 
 
@@ -461,7 +464,11 @@ app.layout = dbc.Container([
                                         dash_table.DataTable(
                                             id='cheaper_product_table',
                                             data=df.sort_values(by='unit_price', ascending=True)[['brand_name','product_name','unit_price']].to_dict("records"),
-                                            columns=[{"name": i, "id": i} for i in df[['brand_name','product_name','unit_price']].columns],
+                                            columns=[
+                                                {"name": 'Brand', "id": 'brand_name'},
+                                                {"name": 'Product', "id": 'product_name'},
+                                                {"name": 'Unit price ($/oz.)', "id": 'unit_price', 'type':'numeric', 'format':dash_table.Format.Format(precision=2, scheme=dash_table.Format.Scheme.fixed)}
+                                            ],
                                             page_size=5,
                                             style_cell={'textAlign': 'left',
                                                         'padding': '1px',
