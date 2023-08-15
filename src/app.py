@@ -82,7 +82,6 @@ def price_min_max_filter(df, price_col):
                 style={"width": "35%"},
             ),
             # need more space here
-            " - ",
             html.Div([
                 dcc.Dropdown(
                     options = [{'label': f'$ {x:.2f}', 'value': x} for x in range(1500, 0, -100)],
@@ -98,8 +97,6 @@ def price_min_max_filter(df, price_col):
         id='price_filters',
         style=dict(display='flex')
     )
-
-
 
 
 def single_product_info_box(df, data):
@@ -213,8 +210,10 @@ def get_single_product_data(df, row_id, index_col='index'):
     Output('scatter_products', 'figure'),
     Input('category_l0_dropdown', 'value'),
     Input('brand_dropdown', 'value'),
+    Input('min_price_dropdown', 'value'),
+    Input('max_price_dropdown', 'value'),
     prevent_initial_call=True)
-def update_product_scatter(category_val, brand_val):
+def update_product_scatter(category_val, brand_val, min_price_dropdown, max_price_dropdown):
     triggered_id = ctx.triggered_id 
     df_filtered = df.copy()
     title = f'Explore{" "+brand_val if brand_val else ""}{" "+category_val.lower() if category_val else ""} products by size and price'
@@ -222,6 +221,10 @@ def update_product_scatter(category_val, brand_val):
         df_filtered = df_filtered[df_filtered['lvl_0_cat']==category_val]
     if brand_val:
         df_filtered = df_filtered[df_filtered['brand_name']==brand_val]
+    if min_price_dropdown:
+        df_filtered = df_filtered[df_filtered['price']>=min_price_dropdown]
+    if max_price_dropdown:
+        df_filtered = df_filtered[df_filtered['price']<max_price_dropdown]
     return product_unit_price_v_size_scatter(df_filtered, title)
 
 
@@ -253,14 +256,20 @@ def product_unit_price_v_size_scatter(df, title='Explore products by size and pr
     Output('size_line_plot', 'figure'),
     Input('sorting_dropdown', 'value'),
     Input('category_l0_dropdown', 'value'),
-    Input('brand_dropdown', 'value'))
-def update_unit_price_slope_plot(sort_val, category_val, brand_val):
+    Input('brand_dropdown', 'value'),
+    Input('min_price_dropdown', 'value'),
+    Input('max_price_dropdown', 'value'))
+def update_unit_price_slope_plot(sort_val, category_val, brand_val, min_price_dropdown, max_price_dropdown):
     df_filtered = df.copy()
     title = f'Unit price comparison of{" "+brand_val if brand_val else ""}{" "+category_val.lower() if category_val else ""} products'
     if category_val:
         df_filtered = df_filtered[df_filtered['lvl_0_cat']==category_val]
     if brand_val:
         df_filtered = df_filtered[df_filtered['brand_name']==brand_val]
+    if min_price_dropdown:
+        df_filtered = df_filtered[df_filtered['price']>=min_price_dropdown]
+    if max_price_dropdown:
+        df_filtered = df_filtered[df_filtered['price']<max_price_dropdown]
     return unit_price_slope_plot(get_unit_price_comparison_data(df_filtered, sort_val), title)
 
 
