@@ -81,7 +81,8 @@ def price_min_max_filter(df, price_col):
                 )],
                 style={"width": "35%"},
             ),
-            # html.P([" - "],style={"width": "40%"}),
+            # need more space here
+            " - ",
             html.Div([
                 dcc.Dropdown(
                     options = [{'label': f'$ {x:.2f}', 'value': x} for x in range(1500, 0, -100)],
@@ -90,10 +91,12 @@ def price_min_max_filter(df, price_col):
                     clearable=False,
                     id='max_price_dropdown'
                 )],
+                
                 style={"width": "35%"}
             )
         ],
-        id='price_filters'
+        id='price_filters',
+        style=dict(display='flex')
     )
 
 
@@ -130,7 +133,7 @@ def single_product_info_box(df, data):
         f"Size: {data['amount_adj']} {data['unit_a']}", 
         html.Br(),
         html.Br(),
-        f"There are {num_cheaper_products} {data['lvl_2_cat'].lower()} products at Sephora with unit price less than {data['unit_price']:.2f} $/{data['unit_a']}"
+        f"There are {num_cheaper_products} {data['lvl_2_cat'].lower()} at Sephora with unit price less than {data['unit_price']:.2f} $/{data['unit_a']}"
     ]
 
 
