@@ -123,8 +123,8 @@ def main():
 
     df_products = expand_product_options(df_products)
 
-    # string col to lower
-    cols_to_lower = ['product_name', 'brand_name', 'swatch_group', 'size', 'name']
+    # string col to lower removed 'product_name', and brand_nme
+    cols_to_lower = [ 'swatch_group', 'size', 'name']
     df_products[cols_to_lower] = df_products[cols_to_lower].apply(lambda x: x.str.lower())
 
     df_products['rating'] = df_products['rating'].apply(clean_product_rating)

@@ -8,6 +8,7 @@ app = Dash(__name__)
 
 
 PLOT_TEMPLATE_THEME = 'simple_white'
+MARKER_COLOURS = px.colors.qualitative.Safe
 
 # product data, aggregated to single row per product  
 df = pd.read_csv('../data/agg_prod_data.csv')
@@ -22,27 +23,14 @@ app = Dash(
 
 # 
 sidebar_text = html.P([
-        html.Br(),
-        """
-            Comparison of products at Sephora by value, product type, and brand.
-        """,
-        html.Br(),
-        """
-            This dashboard is inspired by Tiktok user
-        """,
-        html.A("@michaelamakeup02's", href="https://www.tiktok.com/@michaelamakeup92/video/7237211338618047787"),
-        """
-            "Sephora Minis Math" video. 
-        """,
-        html.Br(),
-        # """
-        #     Data collected from Sephora on ______. 
-        # """,
-        html.Br(),
         html.A("github", href="https://github.com/leblanchannah/value-cluster"),
         html.Br(),
-        html.Br(),
-])
+        """
+            This dashboard is inspired by the "Sephora Minis Math" TikTok by
+        """,
+        html.A("@michaelamakeup02's", href="https://www.tiktok.com/@michaelamakeup92/video/7237211338618047787"),
+        html.Br()
+], style={'font-size':14})
 
 # Drop down used to sort slope plot
 sorting_dropdown = dcc.Dropdown(
@@ -128,7 +116,7 @@ def single_product_info_box(df, data):
     l2_type = (df['lvl_2_cat']==data['lvl_2_cat']) 
     num_cheaper_products = df[unit_price & l2_type].shape[0]
     return [
-        html.H5('Product details'),
+        html.H6('Product Details'),
         f"Product: {data['product_name']}, {data['swatch_group']}",
         html.Br(),
         f"Brand: {data['brand_name']}",
@@ -171,11 +159,11 @@ def update_product_details(scatter_click_value, slope_click_value):
         # index must always be last item in custom_data, regardless of what plot it came from 
         product_row_id = click_data['value']['points'][0]['customdata'][-1]
     else:
-        product_row_id = 4
+        product_row_id = 2843
     data = get_single_product_data(df, product_row_id)
     
     df_filtered_hist = df[df['lvl_2_cat']==data['lvl_2_cat']]
-    title = f'Unit price distribution, {data["lvl_2_cat"].lower()}'
+    title = f'Unit Price Distribution, {data["lvl_2_cat"].title()}'
     fig = unit_price_histogram(df_filtered_hist, data['unit_price'], 'unit_price', title=title)
     
     text = single_product_info_box(df, data)
@@ -185,7 +173,7 @@ def update_product_details(scatter_click_value, slope_click_value):
     return  text, fig, table
 
 
-def unit_price_histogram(data, position, unit_price_col, title='Unit price distribution'):
+def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distribution'):
     '''
     '''
     data['value'] = 'more expensive'
@@ -194,11 +182,12 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit price distr
     fig = px.histogram(
             data,
             x=unit_price_col,
-            color='value',
+            # color='value',
             template=PLOT_TEMPLATE_THEME,
+            color_discrete_sequence=MARKER_COLOURS,
             height=300,
             title=title,
-            labels={'unit_price': "Unit price ($/oz.)", "value":"Unit price compared to selected product"},
+            labels={'unit_price': "Unit Price ($/oz.)", "value":"Unit Price Distribution"}#Compared To Selected Product"},
         )
     fig.update_layout(
         margin=dict(l=20, r=20, t=40, b=20),
@@ -230,7 +219,7 @@ def get_single_product_data(df, row_id, index_col='index'):
 def update_product_scatter(category_val, brand_val, min_price_dropdown, max_price_dropdown):
     triggered_id = ctx.triggered_id 
     df_filtered = df.copy()
-    title = f'Explore{" "+brand_val if brand_val else ""}{" "+category_val.lower() if category_val else ""} products by size and price'
+    title = f'Explore{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Products By Size And Price'
     if category_val:
         df_filtered = df_filtered[df_filtered['lvl_0_cat']==category_val]
     if brand_val:
@@ -243,7 +232,8 @@ def update_product_scatter(category_val, brand_val, min_price_dropdown, max_pric
 
 
 ##### Plotly figures and callbacks
-def product_unit_price_v_size_scatter(df, title='Explore products by size and price'):
+def product_unit_price_v_size_scatter(df, title='Explore Products By Size And Price'):
+    
     fig = px.scatter(
                     df,
                     x='amount_adj',
@@ -251,9 +241,11 @@ def product_unit_price_v_size_scatter(df, title='Explore products by size and pr
                     color='swatch_group',
                     title=title,
                     template=PLOT_TEMPLATE_THEME,
+                    # order_by='swatch_group',
+                    color_discrete_sequence=MARKER_COLOURS,
                     hover_data=['brand_name', 'product_name', 'index'],
                     labels={ # replaces default labels by column name
-                        'amount_adj': "Product size (oz.)",  'price': "Price ($)", "swatch_group": "Product category"
+                        'amount_adj': "Product size (oz.)",  'price': "Price ($)", "swatch_group": "Product Category"
                     },
     )
     fig.update_layout(
@@ -275,7 +267,7 @@ def product_unit_price_v_size_scatter(df, title='Explore products by size and pr
     Input('max_price_dropdown', 'value'))
 def update_unit_price_slope_plot(sort_val, category_val, brand_val, min_price_dropdown, max_price_dropdown):
     df_filtered = df.copy()
-    title = f'Unit price comparison of{" "+brand_val if brand_val else ""}{" "+category_val.lower() if category_val else ""} products'
+    title = f'Unit Price Comparison Of{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Products'
     if category_val:
         df_filtered = df_filtered[df_filtered['lvl_0_cat']==category_val]
     if brand_val:
@@ -287,7 +279,7 @@ def update_unit_price_slope_plot(sort_val, category_val, brand_val, min_price_dr
     return unit_price_slope_plot(get_unit_price_comparison_data(df_filtered, sort_val), title)
 
 
-def unit_price_slope_plot(df, title="Unit price comparison of products"):
+def unit_price_slope_plot(df, title="Unit Price Comparison Of Products"):
     '''
     Returns:
         plotly figure
@@ -299,6 +291,7 @@ def unit_price_slope_plot(df, title="Unit price comparison of products"):
                 color="prod_rank",
                 title=title,
                 template=PLOT_TEMPLATE_THEME,
+                color_discrete_sequence=MARKER_COLOURS,
                 hover_data={
                     "brand_name":True,
                     "product_name":True,
@@ -313,10 +306,10 @@ def unit_price_slope_plot(df, title="Unit price comparison of products"):
     fig.update_layout(
         margin=dict(l=80, r=20, t=50, b=20),
         yaxis = dict(
-            title='Unit price ($/oz.)'
+            title='Unit Price ($/oz.)'
         ),
         xaxis = dict(
-            title='Product size',
+            title='Product Size',
             type='category',
             tickmode='array',
             tickvals=['unit_price_mini', 'unit_price_standard'],
@@ -324,7 +317,7 @@ def unit_price_slope_plot(df, title="Unit price comparison of products"):
             range=[-0.4, 2 - 0.6]
         ),
         legend=dict(
-            title="Top 10 products",
+            title="Top 10 Products",
             font_size=10,
             yanchor='top'
         ),
@@ -380,8 +373,7 @@ def get_unit_price_comparison_data(df, sorting_value='ratio_mini_lt_full'):
     df_compare = df_compare.merge(df, 
                     on=['product_id','brand_name','product_name'],
                     how='left')
-    df_compare['display_name'] = df_compare['brand_name']+",<br>"+df_compare['lvl_2_cat'].str.lower()
-    #df_compare['brand_name']+", <br>"+df_compare['lvl_2_cat'].str.lower()
+    df_compare['display_name'] = df_compare['brand_name']+",<br>"+df_compare['lvl_2_cat']
     return df_compare
 
 ###### App 
@@ -392,24 +384,23 @@ app.layout = dbc.Container([
             dbc.Col([
                 dbc.Card(
                     dbc.CardBody([
-                        html.H3("Sephora product analysis"),
+                        html.H3("Sephora Product Analysis"),
                         sidebar_text,
-                        html.H4("Sort by:"),
+                        html.H5("Sort By:"),
                         sorting_dropdown,
                         html.Br(),
-                        html.H4("Filters:"),
-                        "Product category: ",
+                        html.H5("Filter:"),
+                        "Product Category: ",
                         product_category_l0_global,
                         "Brand: ",
                         brand_filter_global,
-                        "Product price:",
+                        "Product Price:",
                         price_min_max_filter(df, 'price')
                     ])
                 )
             ], width=3),
             # data viz col
             dbc.Col([
-                # explanatory
                 dbc.Row([
                     # slope plot (mini vs standard)
                     dbc.Col([
@@ -425,7 +416,6 @@ app.layout = dbc.Container([
                             ])
                         )
                     ], width=6),
-                    # placeholder for now...
                     dbc.Col([
                         dbc.Card(
                             dbc.CardBody([
@@ -437,7 +427,6 @@ app.layout = dbc.Container([
                             ])
                         )
                     ], width=6),
-                    
                 ]),
                 html.Br(),
                 dbc.Row([
@@ -448,7 +437,8 @@ app.layout = dbc.Container([
                                     dbc.Col([
                                         html.Div(
                                             "",
-                                            id='product_details_text'
+                                            id='product_details_text',
+                                            style={'font-size':14}
                                         )
                                     ], width=2),
                                     dbc.Col([
@@ -467,12 +457,16 @@ app.layout = dbc.Container([
                                             columns=[
                                                 {"name": 'Brand', "id": 'brand_name'},
                                                 {"name": 'Product', "id": 'product_name'},
-                                                {"name": 'Unit price ($/oz.)', "id": 'unit_price', 'type':'numeric', 'format':dash_table.Format.Format(precision=2, scheme=dash_table.Format.Scheme.fixed)}
+                                                {"name": 'Unit Price ($/oz.)', "id": 'unit_price', 'type':'numeric', 'format':dash_table.Format.Format(precision=2, scheme=dash_table.Format.Scheme.fixed)}
                                             ],
                                             page_size=5,
-                                            style_cell={'textAlign': 'left',
-                                                        'padding': '1px',
-                                                        'fontSize':12},
+                                            style_cell={
+                                                'textAlign': 'left',
+                                                # 'padding': '1px',
+                                                'fontSize':12,
+                                                'overflow': 'hidden',
+                                                'textOverflow': 'ellipsis',
+                                            },
                                             style_header={
                                                 'backgroundColor': 'white',
                                                 'fontWeight': 'bold'
@@ -480,9 +474,11 @@ app.layout = dbc.Container([
                                             style_data={
                                                 'whiteSpace': 'normal',
                                                 'height': 'auto',
+                                                'lineHeight': '15px'
                                             },
-                                            # style_as_list_view=True,
-                                            style_table={"overflowX": "auto"})
+                                            style_table={
+                                                "overflowX": "auto"
+                                            })
                                     ], width=5),
                                 ])
                             ]))
