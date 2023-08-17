@@ -17,14 +17,14 @@ df = pd.read_csv('../data/agg_prod_data.csv')
 # Initialize the Dash app
 app = Dash(
     __name__,
-    external_stylesheets=[dbc.themes.MINTY],
+    external_stylesheets=[dbc.themes.FLATLY],
     title='Sephora Product Analysis',
     suppress_callback_exceptions=True
 )
 
 # 
 sidebar_text = html.P([
-        html.A("github", href="https://github.com/leblanchannah/value-cluster"),
+        html.A("GitHub Repo", href="https://github.com/leblanchannah/value-cluster"),
         html.Br(),
         """
             This dashboard is inspired by the "Sephora Minis Math" TikTok by
@@ -43,14 +43,14 @@ sorting_dropdown = dcc.Dropdown(
                         ],
                         value='unit_price_mini',
                         id='sorting_dropdown',
-                        style=dict(width='90%')
+                        style=dict(width='100%')
                     )
 
 # Drop down used to filter both slope and scatter plots by brand
 brand_filter_global = dcc.Dropdown(
                         options = [x for x in df.brand_name.unique()],
                         id='brand_dropdown',
-                        style=dict(width='90%')
+                        style=dict(width='100%')
                     )
 
 # Drop down used to filter both slope and scatter plots by product category
@@ -58,7 +58,7 @@ product_category_l0_global = dcc.Dropdown(
                                 options = [x for x in df.lvl_0_cat.unique() if x!=' ' and x!='Mini Size' and x!='Men'],
                                 value='Skincare',
                                 id='category_l0_dropdown',
-                                style=dict(width='90%')
+                                style=dict(width='100%')
                             )
 
 
@@ -76,7 +76,7 @@ def price_min_max_filter(df, price_col):
                     clearable=True,
                     id='min_price_dropdown'
                 )],
-                style={"width": "90%"},
+                style={"width": "100%"},
             ),
             # need more space here
             html.Div([
@@ -88,7 +88,7 @@ def price_min_max_filter(df, price_col):
                     id='max_price_dropdown'
                 )],
                 
-                style={"width": "90%"}
+                style={"width": "100%"}
             )
         ],
         id='price_filters',
@@ -117,7 +117,7 @@ def single_product_info_box(df, data):
     l2_type = (df['lvl_2_cat']==data['lvl_2_cat']) 
     num_cheaper_products = df[unit_price & l2_type].shape[0]
     return [
-        html.H5('Product Details'),
+        html.H4('Selected Product Details'),
         f"Product: {data['product_name']}, {data['swatch_group']}",
         html.Br(),
         f"Brand: {data['brand_name']}",
@@ -176,17 +176,18 @@ def update_product_details(scatter_click_value, slope_click_value):
 
 def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distribution'):
     '''
+    https://stackoverflow.com/questions/71778342/highlight-one-specific-bar-in-plotly-bar-chart-python
     '''
-    data['value'] = 'more expensive'
-    data.loc[data[unit_price_col]<position, 'value'] = 'cheaper'
+    data['value'] = ''
+    data.loc[data[unit_price_col]<position, 'value'] = 'Cheaper than selected product'
 
     fig = px.histogram(
             data,
             x=unit_price_col,
-            # color='value',
+            color='value',
             template=PLOT_TEMPLATE_THEME,
-            color_discrete_sequence=['rgb(207, 28, 144)'],
-            height=300,
+            color_discrete_sequence=['rgb(242, 183, 1)','rgb(207, 28, 144)'],
+            height=250,
             title=title,
             labels={'unit_price': "Unit Price ($/oz.)", "value":"Unit Price Distribution"}#Compared To Selected Product"},
         )
@@ -203,6 +204,9 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distr
             yanchor='top',
             xanchor='right'
         )
+    )
+    fig.update_traces(
+        showlegend=False
     )
     return fig
 
@@ -442,7 +446,7 @@ app.layout = dbc.Container([
                                         html.Div(
                                             "",
                                             id='product_details_text',
-                                            style={'font-size':14}
+                                            style={'font-size':16}
                                         )
                                     ], width=3),
                                     dbc.Col([
@@ -492,7 +496,10 @@ app.layout = dbc.Container([
             ], width=10),  html.Br(),
         ]),
 
-], fluid=True)
+], 
+fluid=True,
+className="dbc bg-light"
+)
 
 # Run the app
 if __name__ == '__main__':
