@@ -253,7 +253,7 @@ def product_unit_price_v_size_scatter(df, title='Explore Products By Size And Pr
                     color_discrete_sequence=MARKER_COLOURS,
                     hover_data=['brand_name', 'product_name', 'index'],
                     labels={ # replaces default labels by column name
-                        'amount_adj': "Product size (oz.)",  'price': "Price ($)", "swatch_group": "Product Category"
+                        'amount_adj': "Product Size (oz.)",  'price': "Price ($)", "swatch_group": "Product Category"
                     }
     )
     fig.update_layout(
