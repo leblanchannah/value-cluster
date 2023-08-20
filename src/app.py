@@ -3,6 +3,10 @@ import dash_bootstrap_components as dbc
 import pandas as pd
 import plotly.express as px
 
+# legend title size
+# legend item size 
+# plot title size
+# plot axis label size 
 
 app = Dash(__name__)
 
@@ -253,7 +257,7 @@ def product_unit_price_v_size_scatter(df, title='Explore Products By Size And Pr
                     color_discrete_sequence=MARKER_COLOURS,
                     hover_data=['brand_name', 'product_name', 'index'],
                     labels={ # replaces default labels by column name
-                        'amount_adj': "Product Size (oz.)",  'price': "Price ($)", "swatch_group": "Product Category"
+                        'amount_adj': "Product Size (oz.)",  'price': "Price ($)", "swatch_group": "Product Size"
                     }
     )
     fig.update_layout(
@@ -264,6 +268,18 @@ def product_unit_price_v_size_scatter(df, title='Explore Products By Size And Pr
         ),
         margin=dict(l=80, r=20, t=50, b=20),
     )
+
+    newnames = {
+        'standard size':'Standard',
+        'mini size': 'Mini',
+        'refill size':'Refill',
+        'value size':'Value'
+    }
+    fig.for_each_trace(lambda t: t.update(name = newnames[t.name],
+                                        legendgroup = newnames[t.name],
+                                        hovertemplate = t.hovertemplate.replace(t.name, newnames[t.name])
+                                        )
+                    )
     fig.update_traces(marker=dict(size=10,opacity=0.8))
     return fig
 
@@ -323,7 +339,7 @@ def unit_price_slope_plot(df, title="Unit Price Comparison Of Products"):
             type='category',
             tickmode='array',
             tickvals=['unit_price_mini', 'unit_price_standard'],
-            ticktext=['Mini','Full'],
+            ticktext=['Mini','Standard'],
             range=[-0.3, 2 - 0.7]
         ),
         legend=dict(
