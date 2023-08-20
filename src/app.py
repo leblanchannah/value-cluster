@@ -19,7 +19,8 @@ app = Dash(
     __name__,
     external_stylesheets=[dbc.themes.FLATLY],
     title='Sephora Product Analysis',
-    suppress_callback_exceptions=True
+    suppress_callback_exceptions=True,
+    meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
 )
 
 # 
@@ -189,13 +190,14 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distr
             color_discrete_sequence=['rgb(242, 183, 1)','rgb(207, 28, 144)'],
             height=250,
             title=title,
-            labels={'unit_price': "Unit Price ($/oz.)", "value":"Unit Price Distribution"}#Compared To Selected Product"},
+            labels={'unit_price': "Unit Price ($/oz.)", "value":"Unit Price Distribution"}
         )
     fig.update_layout(
         margin=dict(l=20, r=20, t=40, b=20),
         yaxis=dict(
-            autorange=True
+            autorange=True,
         ),
+        yaxis_title="Product Count",
         xaxis=dict(
             autorange=True
         ),
@@ -386,7 +388,6 @@ def get_unit_price_comparison_data(df, sorting_value='ratio_mini_lt_full'):
 
 ###### App 
 app.layout = dbc.Container([
-        html.Br(),
         dbc.Row([
             # side panel col, with title, description etc 
             dbc.Col([
@@ -397,11 +398,11 @@ app.layout = dbc.Container([
                         sorting_dropdown,
                         html.Br(),
                         html.H5("Filter:"),
-                        "Product Category: ",
+                        html.B("Product Category"),
                         product_category_l0_global,
-                        "Brand: ",
+                        html.B("Brand"),
                         brand_filter_global,
-                        "Product Price:",
+                        html.B("Product Price"),
                         price_min_max_filter(df, 'price'),
                         sidebar_text,
                     ])
