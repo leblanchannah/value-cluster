@@ -281,7 +281,11 @@ def get_brand_products(url):
         # initial products on grid when page is opened
         regex = re.compile('ProductTile')
         products_on_load = [x.a for x in soup.find_all("div", attrs={"data-comp":regex})]
-        product_urls.extend([prod['href'].split(" ")[0] for prod in products_on_load])
+        try:
+            product_urls.extend([prod.get('href') for prod in products_on_load])
+        except Exception as e:
+                logger.error(f"An error occurred: {e}")
+
         # while there is still page left to scroll and "see more" buttons to click
         while True:
             product_urls.extend(get_lazy_products_on_grid(driver))
@@ -292,7 +296,8 @@ def get_brand_products(url):
             if new_height<y_height:
                 try:
                     # End of page if 'show more' button exists
-                    driver.find_element(By.XPATH, "//button[@class='css-bk5oor eanm77i0']").click()
+                    driver.find_element(By.XPATH, '//button[text()="Show More Products"]').click()
+                    print("SHOWING MORE PRODUCTS")
                 except Exception as e:
                     logger.error(f"An error occurred: {e}")
                     # End of page
@@ -341,7 +346,7 @@ def main():
     n_brands = len(brands)
     # get products links for each brand 
     for i, brand in enumerate(brands):
-        time.sleep(CRAWL_DELAY)
+        time.sleep(5)
         if i%10==0:
             print(f'{i}/{n_brands} brand pages scraped')
             print("--- %s seconds ---" % (time.time() - start_time))
@@ -351,7 +356,7 @@ def main():
         brand['scrape_timestamp'] = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
 
 
-        with open("../data/brand_product_links.json", "w") as outfile:
+        with open("../data/brand_product_links2.json", "w") as outfile:
             outfile.write(json.dumps(brands, indent=4))
 
 
