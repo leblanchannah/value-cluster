@@ -12,6 +12,7 @@ from datetime import datetime
 from typing import List, Tuple, Dict
 import time
 import json
+import re
 
 import logging
 logger = logging.getLogger(__name__)
@@ -70,7 +71,7 @@ def scroll_webpage(driver, y_height, scroll_amt=1000):
 def get_lazy_products_on_grid(driver):
     """
     """
-    lazy_products = driver.find_elements_by_xpath('//a[@data-comp="LazyLoad ProductTile "]')
+    lazy_products = driver.find_elements_by_xpath('//div[contains(@data-comp,"LazyLoad")]/a')
     return [prod.get_attribute('href') for prod in lazy_products]
     
 
@@ -278,7 +279,8 @@ def get_brand_products(url):
         # at top of webpage
         y_height=0
         # initial products on grid when page is opened
-        products_on_load = soup.find_all('a', attrs={'data-comp':"ProductTile "}, href=True)
+        regex = re.compile('ProductTile')
+        products_on_load = [x.a for x in soup.find_all("div", attrs={"data-comp":regex})]
         product_urls.extend([prod['href'].split(" ")[0] for prod in products_on_load])
         # while there is still page left to scroll and "see more" buttons to click
         while True:
@@ -306,7 +308,7 @@ def get_brand_products(url):
             parsed_urls[parsed_url[1]] = parsed_url[0]
     
     print('Found '+ str(len(parsed_urls)))
-    return parsed_urls
+    return product_urls, parsed_urls
 
 
 def get_brand_list(url):
@@ -333,21 +335,24 @@ def main():
 
     brands = get_brand_list('https://www.sephora.com/ca/en/brands-list')
     # save brand list
-    with open("brand_list.json", "w") as outfile:
+    with open("../data/brand_list.json", "w") as outfile:
         outfile.write(json.dumps(brands, indent=4))
 
     n_brands = len(brands)
     # get products links for each brand 
     for i, brand in enumerate(brands):
+        time.sleep(CRAWL_DELAY)
         if i%10==0:
             print(f'{i}/{n_brands} brand pages scraped')
             print("--- %s seconds ---" % (time.time() - start_time))
-        brand['products'] = get_brand_products(BASE_URL+brand['link'])
+        print(BASE_URL+brand['link'])
+        brand['all_urls'], brand['products'] = get_brand_products(BASE_URL+brand['link'])
         brand['n_products'] = len(brand['products'])
         brand['scrape_timestamp'] = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
-    
-    # with open("brand_product_links.json", "w") as outfile:
-    #     outfile.write(json.dumps(brands, indent=4))
+
+
+        with open("../data/brand_product_links.json", "w") as outfile:
+            outfile.write(json.dumps(brands, indent=4))
 
 
     #     brand_products = []
