@@ -237,13 +237,15 @@ def get_product_page(product_url):
     soup = BeautifulSoup(driver.page_source, 'html.parser')
     # get_rating_histogram(driver)
     try:
-        h1 = soup.find('h1').text
+        h1 = soup.h1.text
     except Exception as e:
         print(f"An error occurred: {e}")
         driver.quit()
         product["error"] = e
         return product
-    if h1 != 'Sorry, this product is not available.' and h1!='Sorry! The page you’re looking for cannot be found.':
+    if h1=='Sorry, this product is not available.' or h1=='Sorry! The page you’re looking for cannot be found.':
+        product['error'] = "Product not available"  
+    else:
         product["product_name"] = get_product_name(soup)
         product["brand_name"] = get_brand_name(soup)
         product["options"] = get_product_buttons(driver)
@@ -251,8 +253,7 @@ def get_product_page(product_url):
         product["ingredients"] = get_ingredients(soup)
         product["n_loves"] = get_num_loves(soup)
         product["categories"] = get_breadcrumb_categories(soup)
-    else:
-        product['error'] = "Product not available"
+        
     driver.quit()
     return product 
 
@@ -338,26 +339,26 @@ def get_brand_list(url):
 def main():
     start_time = time.time()
 
-    brands = get_brand_list('https://www.sephora.com/ca/en/brands-list')
-    # save brand list
-    with open("../data/brand_list.json", "w") as outfile:
-        outfile.write(json.dumps(brands, indent=4))
+    # brands = get_brand_list('https://www.sephora.com/ca/en/brands-list')
+    # # save brand list
+    # with open("../data/brand_list.json", "w") as outfile:
+    #     outfile.write(json.dumps(brands, indent=4))
 
-    n_brands = len(brands)
-    # get products links for each brand 
-    for i, brand in enumerate(brands):
-        time.sleep(5)
-        if i%10==0:
-            print(f'{i}/{n_brands} brand pages scraped')
-            print("--- %s seconds ---" % (time.time() - start_time))
-        print(BASE_URL+brand['link'])
-        brand['all_urls'], brand['products'] = get_brand_products(BASE_URL+brand['link'])
-        brand['n_products'] = len(brand['products'])
-        brand['scrape_timestamp'] = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+    # n_brands = len(brands)
+    # # get products links for each brand 
+    # for i, brand in enumerate(brands):
+    #     time.sleep(5)
+    #     if i%10==0:
+    #         print(f'{i}/{n_brands} brand pages scraped')
+    #         print("--- %s seconds ---" % (time.time() - start_time))
+    #     print(BASE_URL+brand['link'])
+    #     brand['all_urls'], brand['products'] = get_brand_products(BASE_URL+brand['link'])
+    #     brand['n_products'] = len(brand['products'])
+    #     brand['scrape_timestamp'] = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
 
 
-        with open("../data/brand_product_links2.json", "w") as outfile:
-            outfile.write(json.dumps(brands, indent=4))
+    #     with open("../data/brand_product_links2.json", "w") as outfile:
+    #         outfile.write(json.dumps(brands, indent=4))
 
 
     #     brand_products = []
@@ -367,11 +368,30 @@ def main():
     #         brand_products.append(product_data)
     #     print(brand_products)
     #     break
-    print("--- %s seconds ---" % (time.time() - start_time))
+    # print("--- %s seconds ---" % (time.time() - start_time))
     # fname = '../data/products_format_v2/'+"tower-28".replace("/","")+".json"
     # print("Saving ", fname)
     # with open(fname, "w") as outfile:
     #     outfile.write(json.dumps(brand_products, indent=4))
+
+    with open('../data/brand_product_links.json', 'r') as f:
+        data = json.load(f)
+    
+    for i, brand in enumerate(data):
+        print(f"Brand # {i+1}")
+        print(brand['name'])
+        brand_products = []
+        total_products = len(brand['products'])
+        for j, url in enumerate(brand['products'].values()):
+            print(f"Product # {j+1} / {total_products}")
+            product_data = get_product_page(url)
+            brand_products.append(product_data)
+        fname = '../data/products_format_v2/'+brand["name"].replace("/","")+".json"
+        print("Saving ", fname)
+        with open(fname, "w") as outfile:
+            outfile.write(json.dumps(brand_products, indent=4))
+        print("--- %s seconds ---" % (time.time() - start_time))
+        break
 
 
 if __name__ == "__main__":
