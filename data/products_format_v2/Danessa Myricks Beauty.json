@@ -1,0 +1,3544 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/yummy-skin-brush-P506673",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:18:58",
+        "product_name": "Yummy Face 1.0 All Over Complexion Brush - For Foundation, Blush, Bronzer & Powder",
+        "brand_name": "Danessa Myricks Beauty",
+        "options": [],
+        "rating": "width:100%",
+        "product_reviews": "7",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "3.4K",
+        "categories": [
+            "Makeup",
+            "Brushes & Applicators",
+            "Face Brushes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/danessa-myricks-beauty-yummy-skin-blurring-balm-powder-flushed-P504051",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:19:08",
+        "product_name": "Yummy Skin Blurring Balm Powder Flushed - Matte Color for Cheek & Lip",
+        "brand_name": "Danessa Myricks Beauty",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.21 oz / 6 g",
+                "name": [
+                    "Color: Ros\u00e9 N Brunch - neutral rosey pink"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2654010"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.21 oz / 6 g",
+                "name": [
+                    "Color: Jubilee - soft terracotta"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2654028"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.21 oz / 6 g",
+                "name": [
+                    "Color: Primadonna - vibrant hot pink"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2654051"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.21 oz / 6 g",
+                "name": [
+                    "Color: Golden Hour - vivid orange nectar"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2654044"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.21 oz / 6 g",
+                "name": [
+                    "Color: Bellini - poppy golden peach"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2654036"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.21 oz / 6 g",
+                "name": [
+                    "Color: Dancing Queen - vivid plum"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2654069"
+            }
+        ],
+        "rating": "width:97.078%",
+        "product_reviews": "1.1K",
+        "ingredients": "-Upsalite: Supports and absorbs excess sebum and sweat while maintaining skin hydration.-Olive-Derived Squalane: Known to support oil production and diminish visible signs of aging.-Hyaluronic Acid: Promotes skin hydration.Magnesium Carbonate, Isohexadecane, C13-15 Alkane, Isododecane, Dimethicone, Squalane, Synthetic Wax, Synthetic Candelilla Wax, Kaolin, Tocopheryl Acetate, Linum Usitatissimum (Linseed) Seed Oil, Zingiber Officinale (Ginger) Root Oil, Hydrolyzed Sodium Hyaluronate, Glyceryl Behenate, Limnanthes Alba (Meadowfoam) Seed Oil, Microcrystalline Wax/Cera Microcristallina/Cire Microcristalline, Polyethylene, Stearoxy Dimethicone, (+/-): Titanium Dioxide (Ci 77891),  Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Yellow 5 (Ci 19140), Red 6 (Ci 15850), Red 28 (Ci 45410), Blue 1 (Ci 42090).",
+        "n_loves": "67.3K",
+        "categories": [
+            "Makeup",
+            "Cheek",
+            "Blush"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/danessa-myricks-illuminating-veil-liquid-highlighter-P469457",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:19:24",
+        "product_name": "Illuminating Veil Liquid Highlighter",
+        "brand_name": "Danessa Myricks Beauty",
+        "options": [
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: Synergy - muted pearl pink",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2439909"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: Serenity - muted peach"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2439891"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: Luna - light golden brown"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2439875"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: Goddess - warm copper",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2439867"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: Radiance - deep golden brown",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2439883"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: Tempest - golden chocolate",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2439917"
+            }
+        ],
+        "rating": "width:78.948%",
+        "product_reviews": "38",
+        "ingredients": "-Avena Sativa Kernel Extract: Antioxidant skin-conditioning agent.Water (Aqua), Propylene Glycol, Butylene Glycol Dicaprylate/Dicaprate, Mica, Glycerin, Hydrogenated Lecithin, Sorbitan Stearate, Isododecane, Polyester/Dimethicone/IPDI Copolymer, Cetearyl Alcohol, PEG-100 Stearate, Glyceryl Stearate, Xanthan Gum, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Isohexadecane, Disodium EDTA, Polysorbate 80, Pentylene Glycol, Caprylhydroxamic Acid, Methicone, Glyceryl Caprylate, Avena Sativa Kernel Extract, Hydroxyphenyl Propamidobenzoic Acid, (+/-):  Titanium Dioxide (CI 77891).",
+        "n_loves": "9.7K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Highlighter"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/colorfix-nudes-eye-face-lip-cream-pigment-P505883",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:19:40",
+        "product_name": "Colorfix Eye, Cheek & Lip Cream Pigment - Nudes Collection",
+        "brand_name": "Danessa Myricks Beauty",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Nude 1 - cool ivory matte"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2677268"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Nude 2 - golden porcelain"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2677276"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Nude 3 - neutral vanilla"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2677284"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Nude 4 - warm beige matte",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2686434"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Nude 5 - warm sand",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2686442"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Nude 6 - neutral dusk matte",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2686459"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Nude 7 - golden caramel matte",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2686467"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Nude 8 - warm coco matte"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2677292"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Nude 9 - taupe sandbar matte",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2686475"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Nude 10 - neutral toffee",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2686483"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Nude 11 - warm pecan matte",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2686491"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Nude 12 - deep espresso matte"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2677300"
+            }
+        ],
+        "rating": "width:90%",
+        "product_reviews": "48",
+        "ingredients": "Isododecane, Isononyl Isononanoate, Mica, [+/- (May contain): Titanium Dioxide (CI77891), Iron Oxide(CI77491, CI77492, CI77499), Red 7 Lake (CI 15850), Red 27 Lake (CI45410), Red 22 Lake (CI45380), Yellow 6 Lake (CI 15985)], Cyclopentasiloxane, Copernicia Cerifera (Carnauba)Wax/ Cire de carnauba, C30-45 Alkyl Methicone, Trimethylsiloxysilicate, Ozokerite, Dimethiconol.",
+        "n_loves": "17K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyeshadow"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/yummy-skin-serum-tint-P506512",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:20:01",
+        "product_name": "Yummy Skin Soothing Serum Skin Tint Foundation with Peptides + Ceramides",
+        "brand_name": "Danessa Myricks Beauty",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.58 oz / 45 mL",
+                "name": [
+                    "Color: 16 - very deep with neutral undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2682805"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.58 oz / 45 mL",
+                "name": [
+                    "Color: 15 - deep skin with warm undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2682797"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.58 oz / 45 mL",
+                "name": [
+                    "Color: 14 - deep skin with warm golden undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2682789"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.58 oz / 45 mL",
+                "name": [
+                    "Color: 13 - dark skin with warm golden undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2682771"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.58 oz / 45 mL",
+                "name": [
+                    "Color: 12 - dark skin with golden undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2682763"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.58 oz / 45 mL",
+                "name": [
+                    "Color: 11 - tan to dark skin with neutral olive undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2682755"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.58 oz / 45 mL",
+                "name": [
+                    "Color: 10 - tan skin with neutral olive undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2682748"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.58 oz / 45 mL",
+                "name": [
+                    "Color: 9 - medium to tan skin with neutral olive undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2682730"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.58 oz / 45 mL",
+                "name": [
+                    "Color: 8 - medium to tan skin with golden peach undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2682722"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.58 oz / 45 mL",
+                "name": [
+                    "Color: 7 - medium skin with golden undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2682714"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.58 oz / 45 mL",
+                "name": [
+                    "Color: 6 - medium skin with neutral undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2682706"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.58 oz / 45 mL",
+                "name": [
+                    "Color: 5 - light to medium skin with neutral undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2682698"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.58 oz / 45 mL",
+                "name": [
+                    "Color: 4 - light skin with neutral undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2682680"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.58 oz / 45 mL",
+                "name": [
+                    "Color: 3 - fair to light skin with golden yellow undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2682672"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.58 oz / 45 mL",
+                "name": [
+                    "Color: 2 - fair skin with neutral undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2682664"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.58 oz / 45 mL",
+                "name": [
+                    "Color: 1 - very fair skin with golden yellow undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2682656"
+            }
+        ],
+        "rating": "width:96.678%",
+        "product_reviews": "626",
+        "ingredients": "-Vegan Collagen Peptides: Visibly smooth skin texture and plump fine lines.-Ceramides: Strengthen, care for, and protect the skin barrier.-Cactus Extract: An antioxidant booster that hydrates and soothes.Water/Aqua/Eau, Glycerin, Isododecane, Dimethicone, Propylene Glycol, Calcium Sodium Borosilicate, Caprylic/Capric Triglyceride, Hydrogenated Polyisobutene, Squalane, Xylitylglucoside, Anhydroxylitol, Sr-Hydrozoan Polypeptide-1, Sodium Hyaluronate, Ceramide Np, Phytosterols, Cactus (Opuntia Dillenii) Extract, Xylitol, Caprylhydroxamic Acid, Saccharide Isomerate, Sodium Stearoyl Glutamate, Tocopheryl Acetate, Stearalkonium Hectorite, Propylene Carbonate, Coco Caprylate/Caprate, Glycerin Stearate, Betaine, Magnesium Sulfate, Glyceryl Caprylate, Pentylene Glycol, Polyglyceryl-4 Diisostearate/Polyhydroxystearate/Sebacate, Sorbitan Isostearate, Butylene Glycol, Phosphatidylcholine, Hydroxyacetophenone, Ethylhexyl Hydroxystearate, Cetyl Peg/Ppg-10/1 Dimethicone, Triethoxycaprylylsilane, Aluminum Hydroxide, Potassium Sorbate, Phenoxyethanol, (+/-): Bismuth Oxychloride (Ci 77163), Titanium Dioxide (77891), Iron Oxides (Ci 77491, Ci 77492, Ci 77499).",
+        "n_loves": "34.3K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Tinted Moisturizer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/danessa-myricks-beauty-yummy-skin-glow-serum-primer-P481696",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:20:24",
+        "product_name": "Yummy Skin Glow Serum with Hyaluronic Acid",
+        "brand_name": "Danessa Myricks Beauty",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.1 oz/ 32.5mL",
+                "name": [
+                    "Color: Main Squeeze - champagne gold for all skin types"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2575322"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.1 oz/ 32.5mL",
+                "name": [
+                    "Color: Juice Boost - warm copper/bronze for all skin types"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2575330"
+            }
+        ],
+        "rating": "width:86.66600000000001%",
+        "product_reviews": "126",
+        "ingredients": "-Vitamin C: Visibly brightens dullness and protects skin from free radicals.-Niacinamide: Minimizes the appearance of pores.-Hyaluronic Acid: Hydrates and visibly plumps fine lines and wrinkles.Aqua/Water/Eau, Glycerin, Propylene Glycol, 1,3-Butanediol, Glycereth-26, Olive Squalane, Niacinamide, 1,2-Hexanediol, Cetyl Ethylhexanoate, Ficus Carica (Fig) Fruit Extract, Punica Granatum Fruit Extract, Hylocereus Undatus Fruit Extract, Actinidia Chinensis (Kiwi) Fruit Extract, Fragaria Chiloensis (Strawberry) Fruit Extract, Zingiber Officinale (Ginger) Root Oil, Curcuma Longa (Turmeric) Root Oil, Curcumin, Linum Usitatissimum (Linseed) Seed Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Chicory Root Extract, Sodium Hyaluronate, 3-O-Ethyl-Ascorbic Acid, Ammonium Acryloyldimethyltaurate/Beheneth-25 Methacrylate Crosspolymer, Butylene Glycol, Ethylhexylglycerin, Fragrance, Glycerin Stearate, Glyceryl Acrylate/Acrylic Acid Copolymer, Hydroxyacetophenone, Isohexadecane, Mica (Ci 77019), Phenoxyethanol, Polysorbate 80, Pvm/Ma Copolymer, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Sorbitan Oleate, Titanium Dioxide (Ci 77891), Tocopheryl Acetate, Xanthan Gum.",
+        "n_loves": "30.6K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Face Primer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/danessa-myricks-beauty-twin-flames-liquid-eyeshadow-P479311",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:20:36",
+        "product_name": "Twin Flames Liquid Eyeshadow",
+        "brand_name": "Danessa Myricks Beauty",
+        "options": [
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size .085 oz",
+                "name": [
+                    "Color: True Luv - berry blue + plum purple"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2553071"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size .085 oz",
+                "name": [
+                    "Color: Mystic Fire - plum + forest green"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2553089"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size .085 oz",
+                "name": [
+                    "Color: Crazy 4 U - coastal green + chardonnay"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2553097"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .085 oz",
+                "name": [
+                    "Color: Olivine - chartreuse + mulberry",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2553105"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .085 oz",
+                "name": [
+                    "Color: Lover - copper red + cinnamon",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2553113"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size .085 oz",
+                "name": [
+                    "Color: Soulmate - opal green + hazelnut"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2553121"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.85 oz / 25 g",
+                "name": [
+                    "Color: Sweetheart - an olive green with a walnut shift",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2568897"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size .085 oz",
+                "name": [
+                    "Color: Angel Heart - rose quartz with a lavender shift"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2575355"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Lust - fiery Mango Orange + Lemon Gold shift"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2575363"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Bae - icy seafoam green with a dazzling dusty rose shift",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2575348"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Star Ruby - rose quartz with a lemon gold shift"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2586279"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Midnight Pearl - glistening gunmetal with smoky amethyst shift"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2586287"
+            }
+        ],
+        "rating": "width:84.572%",
+        "product_reviews": "140",
+        "ingredients": "Isododecane, Silica, Ethylene/Propylene/Styrene Copolymer, Trimethylsiloxysilicate, Triacontanyl PVP, Ozokerite, Microcrystalline Wax/Cera Microcristallina/Cire Microcristalline, Silica Dimethyl Silylate, PEG-30 Dipolyhydroxystearate, Phenoxyethanol, Ethylhexylglycerin, Tocopheryl Acetate, (+/-): Iron Oxides (CI77491), Titanium Dioxide (CI77891)",
+        "n_loves": "78.1K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyeshadow"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/danessa-myricks-beauty-colorfix-eye-cheek-lip-cream-pigment-rose-dream-set-P475525",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:20:55",
+        "product_name": "Colorfix Eye, Cheek & Lip Cream Pigment Rose Dream Set",
+        "brand_name": "Danessa Myricks Beauty",
+        "options": [],
+        "rating": "width:89.032%",
+        "product_reviews": "31",
+        "ingredients": "Isododecane, Isononyl Isononanoate, Mica, [+/- (May contain): Titanium Dioxide (CI 77891), Iron Oxide (CI 77491, CI 77492, CI 77499), Red 7 Lake (CI 15850), Red 27 Lake (CI 45410), Red 22 Lake (CI 45380), Yellow 6 Lake (CI 15985)], Cyclopentasiloxane, Copernicia Cerifera (Carnauba) Wax / Cire de carnauba, C30-45 Alkyl Methicone, Trimethylsiloxysilicate, Ozokerite, Dimethiconol.",
+        "n_loves": "13.4K",
+        "categories": [
+            "Makeup",
+            "Value & Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/danessa-myricks-colorfix-24-hour-cream-color-P468353",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:21:05",
+        "product_name": "Colorfix - Multi-Use Eye, Cheek & Lip Waterproof Liquid Pigment",
+        "brand_name": "Danessa Myricks Beauty",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: Lift - snow white matte"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2439636"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: Exposed - nude beige matte"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2439610"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: Cr\u00e8me Brulee - muted mauve matte"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2439594"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: Latte - sweet pink matte"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2439628"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: Rustic - burnt umber matte",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2439677"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: Desert Rose - dusty rose matte"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2439602"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: Plum Wine - deep berry matte"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2439644"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: Chocolate - berry brown matte"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2439586"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: Blackout - true black matte"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2439560"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: Primary Red - classic red matte",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2439651"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: Valentine - hot pink matte"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2439685"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: Carrot Top - vivid orange matte"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2439578"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: Primary Yellow - sun yellow matte"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2439669"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Nude 1 - cool ivory matte"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2677268"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Nude 9 - taupe sandbar matte",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2686475"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Nude 11 - warm pecan matte",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2686491"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Nude 7 - golden caramel matte",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2686467"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Nude 6 - neutral dusk matte",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2686459"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Nude 4 - warm beige matte",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2686434"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Nude 5 - warm sand",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2686442"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Nude 10 - neutral toffee",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2686483"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Nude 12 - deep espresso matte"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2677300"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Nude 8 - warm coco matte"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2677292"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Nude 2 - golden porcelain"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2677276"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Nude 3 - neutral vanilla"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2677284"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: Milky Way - sandy beige foil"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2439776"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: Goldmine - light golden brown metallic",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2439719"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: Celebration - chestnut brown metallic",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2439701"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: Ballerina - pink satin metallic"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2439693"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: Alien - rosy gold foil",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2439768"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: Blossom - plum violet with blue foil"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2497675"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: Venus - honey pink foil"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2439800"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: Rocket - muted plum foil"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2439792"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: Wild Orchid - dark plum purple metallic",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2439750"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: Magnetic - vivid cerulean metallic"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2439727"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: Titanium - gunmetal metallic",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2439743"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Jewelz - mint green with coral pink duo-chrome foil",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2576015"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Nightcap - gilded bronze with gold duo-chrome foil",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2576023"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": "NEW",
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Gilded - bronzed gold metal",
+                    "NEW"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2703551"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": "NEW",
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Spark - copper orange metal",
+                    "NEW"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2703536"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": "NEW",
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: 24K - vivid yellow gold metal",
+                    "NEW"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2703510"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": "NEW",
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Platinum - frosted silver metal",
+                    "NEW"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2703528"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": "NEW",
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Hot Fire - red orange metal",
+                    "NEW"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2703544"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": "NEW",
+                "size": "Size 0.34 oz / 10 mL",
+                "name": [
+                    "Color: Lilac Flame - cool lilac silver metal",
+                    "NEW"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2703569"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: Clear - crystal clear glaze"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2439537"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: Cupcake - soft mauve glaze"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2439818"
+            }
+        ],
+        "rating": "width:88.15799999999999%",
+        "product_reviews": "939",
+        "ingredients": "Isododecane, Caprylic/Capric Triglyceride, Hydrogenated Styrene/Isoprene Copolymer, Synthetic Fluorphlogopite, C30-45 Alkyl Dimethicone, Vp/Hexadecene Copolymer, Mica, Acrylates/Dimethicone Copolymer, Tocopheryl Acetate, Stearalkonium Hectorite, Propylene Carbonate, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Tin Oxide, (+/-): Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491), Red 40 (Ci 16035), Blue 1 (Ci 42090)",
+        "n_loves": "222K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyeshadow"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/danessa-myricks-vision-cream-cover-2-in-1-foundation-concealer-P469460",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:21:52",
+        "product_name": "Vision Cream Cover Adjustable Foundation & Concealer",
+        "brand_name": "Danessa Myricks Beauty",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: N01 - very fair skin with netural undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2443778"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: W01 - fair to medium skin with golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2443901"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: N02 - fair skin with neutral undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2443786"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: W02 - tan skin with golden undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2443919"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: N2.75 - fair to medium skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2443885"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: N03 - fair to medium skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2443794"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: W03 - medium to tan skin with golden undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2443927"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: N04 - light to medium skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2443802"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: W04 - tan with golden undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2443935"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: N4.5 - light to medium skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2443893"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: N05 - medium skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2443810"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: W05 - tan to deep skin with golden undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2443943"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: N06 - medium skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2443828"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: W06 - deep skin with warm undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2443950"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: N07 - medium tan with neutral undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2443836"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: W07 - deep skin with warm undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2443968"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: N08 - tan skin with neutral undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2443844"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: W08 - deep skin with warm undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2443976"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: N09 - deep skin with neutral undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2443851"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: W09 - very deep skin with warm undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2443984"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: N10 - deep skin with neutral undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2443869"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: W10 - very deep skin with warm undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2443760"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.34 oz/ 10 mL",
+                "name": [
+                    "Color: N11 - deep skin with neutral undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2443877"
+            }
+        ],
+        "rating": "width:84.48%",
+        "product_reviews": "183",
+        "ingredients": "Titanium Dioxide, Hydrogenated Polyisobutene, Silica, Ethylhexyl Palmitate, Phenyl Trimethicone, Ozokerite, Microcrystalline Wax/Cera Microcristallina/Cire Microcristalline, Isododecane, Ethylene/Propylene/Styrene Copolymer, Tocopheryl Acetate, Fragrance/Parfum, Linalool (+/-): Iron Oxides (CI 77492, CI 77491, CI 77499).",
+        "n_loves": "21.6K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Foundation"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/danessa-myricks-beauty-vision-flush-glow-hyper-radiant-liquid-highlighter-P504669",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:22:19",
+        "product_name": "Vision Flush Glow - Hyper Radiant Liquid Highlighter",
+        "brand_name": "Danessa Myricks Beauty",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.21 oz / 6 mL",
+                "name": [
+                    "Color: Crave - Warm copper glow"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2654002"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.21 oz / 6 mL",
+                "name": [
+                    "Color: Legendary - Golden chocolate glow"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2654119"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.21 oz / 6 mL",
+                "name": [
+                    "Color: Electric Love - Rosy mauve glow"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2654093"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.21 oz / 6 mL",
+                "name": [
+                    "Color: Majesty - Burnished bronze glow"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2654101"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.21 oz / 6 mL",
+                "name": [
+                    "Color: Femme - Lilac pink opalescent glow"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2654085"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.21 oz / 6 mL",
+                "name": [
+                    "Color: Tiara - Champagne Glow"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2440253"
+            }
+        ],
+        "rating": "width:94.32199999999999%",
+        "product_reviews": "155",
+        "ingredients": "Isododecane, Mica, Dimethicone/Vinyl Dimethicone Crosspolymer, Isononyl Isononanoate, Polymethylsilsesquioxane, Ethylene/Propylene/Styrene Copolymer, Ethylhexyl Palmitate, Dimethicone, Calcium Aluminum Borosilicate, Bis-Diglyceryl Polyacyladipate-2, Tocopheryl Acetate, Methicone, Tin Oxide, (+/-): Titanium Dioxide (CI 77891), Iron Oxides (CI 77491).",
+        "n_loves": "17.2K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Highlighter"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/danessa-myricks-beauty-yummy-skin-serum-foundation-P481694",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:22:35",
+        "product_name": "Yummy Skin Serum Foundation",
+        "brand_name": "Danessa Myricks Beauty",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 1P - very fair skin with pink undertones"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2574861"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 2G - very fair skin with golden yellow undertones"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2574879"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 3P - fair skin with pink undertones"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2574887"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 4N - fair skin with neutral undertones"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2574895"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 5G - fair to light skin with golden yellow undertones"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2574903"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 6N - light skin with neutral undertones"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2574911"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 7N - light to medium skin with neutral undertones"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2574929"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 8P - light to medium skin with peach undertones"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2574937"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 9N - medium skin with neutral undertones"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2574945"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 10G - medium skin with golden undertones"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2574952"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 11G - medium skin with golden olive undertones"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2574960"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 12W - medium to tan skin with golden peach undertones"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2574978"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 13N - medium to tan skin with neutral olive undertones"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2574986"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 14W - tan skin with golden peach undertones"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2574994"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 15N - tan skin with neutral olive undertones"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2575009"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 16N - tan to dark skin with neutral olive undertones"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2575017"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 17W - tan to dark skin with golden peach undertones"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2575025"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 18G - dark skin with golden undertones"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2575033"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 19G - dark skin with golden olive undertones"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2575041"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 20W - dark skin with warm golden undertones"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2575058"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 21N - dark to deep skin with neutral undertones"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2575066"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 22N - dark to deep skin with neutral olive undertones"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2575074"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 23W - deep skin with warm golden undertones"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2575082"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 24W - deep skin with red undertones"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2575090"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 25W - very deep skin with warm golden undertones"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2575108"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 26N - very deep skin with neutral undertones"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2575116"
+            },
+            {
+                "swatch_group": "Radiant finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 1P - very fair skin with pink undertones"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2575926"
+            },
+            {
+                "swatch_group": "Radiant finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 2G - very fair skin with golden yellow undertones"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2575934"
+            },
+            {
+                "swatch_group": "Radiant finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 3P - fair skin with pink undertones"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2575942"
+            },
+            {
+                "swatch_group": "Radiant finish - Refill size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 4N - fair skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2575959"
+            },
+            {
+                "swatch_group": "Radiant finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 5G - fair to light skiin with golden yellow undertones"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2575967"
+            },
+            {
+                "swatch_group": "Radiant finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 6N - light skin with neutral undertones"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2575975"
+            },
+            {
+                "swatch_group": "Radiant finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 7N - light to medium skin with neutral undertones"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2575983"
+            },
+            {
+                "swatch_group": "Radiant finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 8P - light to medium skin with pinky peach undertones"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2575991"
+            },
+            {
+                "swatch_group": "Radiant finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 9N - medium skin with neutral undertones"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2576007"
+            },
+            {
+                "swatch_group": "Radiant finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 10G - medium skin with golden undertones"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2575751"
+            },
+            {
+                "swatch_group": "Radiant finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 11G - medium skin with golden olive undertones"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2575769"
+            },
+            {
+                "swatch_group": "Radiant finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 12W - medium to tan skin with golden peach undertones"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2575777"
+            },
+            {
+                "swatch_group": "Radiant finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 13N - medium to tan skin with neutral olive undertones"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2575785"
+            },
+            {
+                "swatch_group": "Radiant finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 14W - tan skin with golden peach undertones"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2575793"
+            },
+            {
+                "swatch_group": "Radiant finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 15N - tan skin with neutral olive undertones"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2575801"
+            },
+            {
+                "swatch_group": "Radiant finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 16N - tan to dark skin with neutral olive undertones"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2575819"
+            },
+            {
+                "swatch_group": "Radiant finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 17W - tan to dark skin with golden peach undertones"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2575827"
+            },
+            {
+                "swatch_group": "Radiant finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 18G - dark skin with golden undertones"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2575835"
+            },
+            {
+                "swatch_group": "Radiant finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 19G - dark skin with golden olive undertones"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2575843"
+            },
+            {
+                "swatch_group": "Radiant finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 20W - dark skin with warm golden undertones"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2575850"
+            },
+            {
+                "swatch_group": "Radiant finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 21N - dark to deep skin with neutral undertones"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2575868"
+            },
+            {
+                "swatch_group": "Radiant finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 22N - dark to deep skin with neutral olive undertones"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2575876"
+            },
+            {
+                "swatch_group": "Radiant finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 23W - deep skin with warm golden undertones"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2575884"
+            },
+            {
+                "swatch_group": "Radiant finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 24W - deep skin with red undertones"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2575892"
+            },
+            {
+                "swatch_group": "Radiant finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 25W - very deep skin with warm golden undertones"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2575900"
+            },
+            {
+                "swatch_group": "Radiant finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.85 oz/ 25mL",
+                "name": [
+                    "Color: 26N - very deep skin with neutral undertones"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2575918"
+            }
+        ],
+        "rating": "width:77.462%",
+        "product_reviews": "260",
+        "ingredients": "-Jojoba Oil: Intensely moisturizes and softens skin.-Hyaluronic Acid: Hydrates and plumps the look of fine lines and wrinkles.-Olive-Derived Squalane: Known to balance oil production and diminish visible signs of aging.Hydrogenated Polyisobutene, Ethylhexyl Palmitate, Phenyl Trimethicone, Tridecyl Trimellitate, Diisostearyl Malate, Simmondsia Chinensis (Jojoba) Seed Oil, Olive Squalane, Silica Dimethyl Silylate, Ethylene/ Propylene/ Styrene Copolymer, Isododecane, Linum Usitatissimum (Linseed) Seed Oil, Passiflora Edulis Seed Oil, Salvia Hispanica Seed Oil, Tocopheryl Acetate, Hydrolyzed Sodium Hyaluronate, Limnanthes Alba (Meadowfoam) Seed Oil, Curcuma Longa (Turmeric) Root Oil, Curcumin, Zingiber Officinale (Ginger) Root Extract, Bentonite, Glyceryl Behenate, Alcohol, Parfum, May Contain/ Peut Contenir (+/-): Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Yellow 5 (Ci 19140).",
+        "n_loves": "40.9K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Foundation"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/danessa-myricks-beauty-dewy-cheek-lip-palette-P479949",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:23:23",
+        "product_name": "Dewy Cheek & Lip Palette",
+        "brand_name": "Danessa Myricks Beauty",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Dew It Flirty"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2541308"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Dew It Undercover"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2541316"
+            }
+        ],
+        "rating": "width:83.81%",
+        "product_reviews": "42",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "22.4K",
+        "categories": [
+            "Makeup",
+            "Value & Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/danessa-myricks-evolution-powder-setting-powder-P469456",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:23:36",
+        "product_name": "Evolution Setting & Blurring Loose Powder",
+        "brand_name": "Danessa Myricks Beauty",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.39 oz/ 11 g",
+                "name": [
+                    "Color: 1 - pure white",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2439420"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.39 oz / 11 g",
+                "name": [
+                    "Color: Pink - Translucent brightening pink",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2703577"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.39 oz/ 11 g",
+                "name": [
+                    "Color: 2 - light beige",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2439438"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.39 oz/ 11 g",
+                "name": [
+                    "Color: 2.5 - light brown"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2439446"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.39 oz/ 11 g",
+                "name": [
+                    "Color: Yellow - soft cream"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2439487"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.39 oz/ 11 g",
+                "name": [
+                    "Color: 3 - warm peach",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2439453"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.39 oz/ 11 g",
+                "name": [
+                    "Color: 4 - reddish brown",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2439461"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.39 oz/ 11 g",
+                "name": [
+                    "Color: 5 - deep brown"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2439479"
+            }
+        ],
+        "rating": "width:86.086%",
+        "product_reviews": "46",
+        "ingredients": "Corn Starch Modified, Silica, Talc, Magnesium Myristate, Dimethicone, Phenoxyethanol, Ethylhexylglycerin, Triethoxycaprylylsilane (+/-): Iron Oxides (CI 77492, CI 77491, CI 77499), Yellow 5 (CI 19140).",
+        "n_loves": "16.5K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Setting Spray & Powder"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/danessa-myricks-beauty-infinite-chrome-flakes-multichrome-gel-for-eyes-face-P481968",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:23:52",
+        "product_name": "Infinite Chrome Flakes Multichrome Gel for Eyes & Face",
+        "brand_name": "Danessa Myricks Beauty",
+        "options": [
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.13 oz / 3.8 g",
+                "name": [
+                    "Color: Monarch - grapefruit pink with sunset yellow shift"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2585974"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.13 / 3.8",
+                "name": [
+                    "Color: Hot Lava - blood orange with tuscan yellow shift"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2575561"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.13 / 3.8",
+                "name": [
+                    "Color: Sweet Tooth - platinum with baby pink shift"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2583417"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size .13 oz / 3.8 g",
+                "name": [
+                    "Color: Cupid - lilac pink with rose shift"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2602548"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size  0.13 / 3.8",
+                "name": [
+                    "Color: Super Star - amethyst purple with fuchsia shift"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2575504"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": "LIMITED EDITION",
+                "size": "Size 0.13 oz / 3.8 g",
+                "name": [
+                    "Color: Pride - vibrant fuchsia with rainbow shift",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2588192"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.13 / 3.8",
+                "name": [
+                    "Color: Strobe Light - winter white with opalescent purple shift"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2575538"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.13 / 3.8",
+                "name": [
+                    "Color: Moonlight - cerulean blue with periwinkle shift"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2575496"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.13 / 3.8",
+                "name": [
+                    "Color: Fire Ball - golden amber with lapis blue shift"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2575520"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.13 / 3.8",
+                "name": [
+                    "Color: Laser Beam - jade green with magenta shift"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2575488"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.13 / 3.8",
+                "name": [
+                    "Color: Lightning Bolt - chartreuse with gold shift"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2575512"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.13 oz / 3.8 g",
+                "name": [
+                    "Color: infinite chrome bi-pride - ocean blue with vivid amethyst shift"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2684884"
+            }
+        ],
+        "rating": "width:79.886%",
+        "product_reviews": "350",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "141.9K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyeshadow"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/danessa-myricks-beauty-yummy-skin-blurring-balm-powder-P484039",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:24:12",
+        "product_name": "Yummy Skin Blurring Balm Powder",
+        "brand_name": "Danessa Myricks Beauty",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.63 oz / 18 g",
+                "name": [
+                    "Color: Universal - translucent"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2576130"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.63 oz / 18 g",
+                "name": [
+                    "Color: 1 - fair skin with neutral undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2576148"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.63 oz / 18 g",
+                "name": [
+                    "Color: 3 - light-medium skin with neutral undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2576163"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.63 oz / 18 g",
+                "name": [
+                    "Color: 2 - light skin with golden undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2576155"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.63 oz / 18 g",
+                "name": [
+                    "Color: 3.5 - light-medium skin with neutral undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2694206"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.63 oz / 18 g",
+                "name": [
+                    "Color: 4 - medium skin with neutral undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2576171"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.63 oz / 18 g",
+                "name": [
+                    "Color: 5 - medium-tan skin with golden undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2576189"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.63 oz / 18 g",
+                "name": [
+                    "Color: 6 - tan skin with neutral undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2576197"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.63 oz / 18 g",
+                "name": [
+                    "Color: 7 - tan-dark skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2587806"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.63 oz / 18 g",
+                "name": [
+                    "Color: 8 - dark skin with golden undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2587814"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.63 oz / 18 g",
+                "name": [
+                    "Color: 8.5 - dark skin with neutral undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2694214"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.63 oz / 18 g",
+                "name": [
+                    "Color: 9 - dark-deep skin with golden undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2587822"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.63 oz / 18 g",
+                "name": [
+                    "Color: 10 - deep skin with golden undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2587830"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.63 oz / 18 g",
+                "name": [
+                    "Color: 11 - very deep skin with neutral undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2694222"
+            }
+        ],
+        "rating": "width:75.044%",
+        "product_reviews": "694",
+        "ingredients": "-Upsalite: Supports and absorbs excess sebum and sweat while maintaining skin\u2018s hydration.-Olive-Derived Squalane: Known to support oil production and diminish visible signs of aging.-Hyaluronic Acid: Promotes skin\u2018s hydration.Magnesium Carbonate, Isohexadecane, C13-15 Alkane, Isododecane, Dimethicone, Squalane, Synthetic Wax, Synthetic Candelilla Wax, Kaolin, Tocopheryl Acetate, Linum Usitatissimum (Linseed) Seed Oil, Zingiber Officinale (Ginger) Root Oil, Hydrolyzed Sodium Hyaluronate, Glyceryl Behenate, Limnanthes Alba (Meadowfoam) Seed Oil, Microcrystalline Wax/Cera Microcristallina/Cire Microcrystalline, Polyethylene, Stearoxy Dimethicone, May Contain/ Peut Contenir (+/-): Titanium Dioxide (Ci 77891),  Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Yellow 5 (Ci 19140).",
+        "n_loves": "148.7K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Setting Spray & Powder"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/danessa-myricks-vision-flush-cheek-eye-lip-color-P469461",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:24:34",
+        "product_name": "Vision Flush Blush, Eyeshadow and Lip Color",
+        "brand_name": "Danessa Myricks Beauty",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.21 oz/ 6 mL",
+                "name": [
+                    "Color: Tutu - vibrant fuscia"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2440279"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.21 oz/ 6 mL",
+                "name": [
+                    "Color: Sweet Nectar - bright coral"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2440246"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.21 oz/ 6 mL",
+                "name": [
+                    "Color: Bread 'n Butter - natural pink"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2440212"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.21 oz/ 6 mL",
+                "name": [
+                    "Color: Grape - berry purple"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2440220"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.21 oz/ 6 mL",
+                "name": [
+                    "Color: Toasted Almond - light mocha"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2440261"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.21 oz/ 6 mL",
+                "name": [
+                    "Color: Ballet Slippers - classic blush"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2440204"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.21 oz/ 6 mL",
+                "name": [
+                    "Color: Nutcracker - muted caramel"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2440238"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size 0.21 / 6",
+                "name": [
+                    "Color: Sugar Plum - violet orchid"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2575439"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size 0.21 / 6",
+                "name": [
+                    "Color: Cherry Bomb - candy apple red"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2575421"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size 0.21 / 6",
+                "name": [
+                    "Color: Black Cherry - bordeaux wine"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2575413"
+            }
+        ],
+        "rating": "width:80.60600000000001%",
+        "product_reviews": "99",
+        "ingredients": "Mica, Isododecane, Dimethicone/Vinyl Dimethicone Crosspolymer, Isononyl Isononanoate, Polymethylsilsesquioxane, Ethylene/Propylene/Styrene Copolymer, Ethylhexyl Palmitate, Titanium Dioxide, , Cyclohexasiloxane, Lanolin, Cyclopentasiloxane, Tocopheryl Acetate, Dimethicone, Fragrance (Parfum), Linalool, Butylphenyl Methylpropional, Limonene, Hydroxycitronellal, Benzyl Salicylate, Alpha-Isomethyl Ionone, (+/-): Iron Oxide (CI 77491, CI 77492, CI 77499), Red 6 (CI 15850), Ultramarines (CI 77007).",
+        "n_loves": "42K",
+        "categories": [
+            "Makeup",
+            "Cheek",
+            "Blush"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/danessa-myricks-beauty-oil-with-gold-leaf-P469454",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:24:52",
+        "product_name": "Beauty Oil with Gold Leaf",
+        "brand_name": "Danessa Myricks Beauty",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$40.50"
+                ],
+                "sku": "Item 2439495"
+            }
+        ],
+        "rating": "width:93.15%",
+        "product_reviews": "73",
+        "ingredients": "-Squalane: Hydrates.-Jojoba Oil: Moisturizes and targets sebum production.-Gold Leaf: Antioxidant that soothes redness.Caprylic/Capric Triglyceride, Simmondsia Chinensis (Jojoba) Seed Oil, Camellia Japonica Seed Oil, Juglans Regia (Walnut) Seed Oil, Helianthus Annuus (Sunflower) Seed Oil, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Vitis Vinifera (Grape) Sead Oil, Olea Europaea (Olive) Fruit Oil, Squalane, Rosa Multiflora Seed Oil.",
+        "n_loves": "12.4K",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Face Oils"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/danessa-myricks-beauty-infinite-chrome-waterproof-micropencil-P482522",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:25:04",
+        "product_name": "Infinite Chrome Waterproof Micropencil Eyeliner",
+        "brand_name": "Danessa Myricks Beauty",
+        "options": [
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.005 oz/ .15g",
+                "name": [
+                    "Color: Amethyst - muted magenta + olive"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2575637"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.005 oz/ .15g",
+                "name": [
+                    "Color: Bronzite - copper + rustic yellow"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2575660"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.005 oz/ .15g",
+                "name": [
+                    "Color: Charoite - royal purple + rosewood"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2575728"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.005 oz/ .15g",
+                "name": [
+                    "Color: Emerald - moss green + teal"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2575702"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.005 oz/ .15g",
+                "name": [
+                    "Color: Jade - seafoam green + periwinkle"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2575678"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.005 oz/ .15g",
+                "name": [
+                    "Color: Lemon Quartz - gold + lime green",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2575694"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.005 oz/ .15g",
+                "name": [
+                    "Color: Lilac Quartz - indigo + plum purple"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2575710"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.005 oz/ .15g",
+                "name": [
+                    "Color: Morganite - seashell pink + cream beige",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2575686"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.005 oz/ .15g",
+                "name": [
+                    "Color: Opal - champagne + pastel green",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2575652"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.005 oz/ .15g",
+                "name": [
+                    "Color: Rose Quartz - coral pink + muted yellow"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2575645"
+            }
+        ],
+        "rating": "width:81.294%",
+        "product_reviews": "170",
+        "ingredients": "Opal, Jade, Morganite, Rose Quartz, Lilac Quartz, Lemon Quartz: Dimethicone, Silica, Titanium Dioxide, Trimethylsiloxysilicate, Paraffin Wax, Petrolatum, Glycol Montanate, Microcrystalline Wax/Cera Microcristallina/Cire Microcristalline, Bis-Diglyceryl Polyacyladipate-2, Ethylhexyl Palmitate, Copernicia Cerifera (Carnauba) Wax, Paraffin, Synthetic Wax, Phenoxyethanol, Ethylhexylglycerin, Stearic Acid, Titanium Dioxide (CI77891), May Contain (+/-): Iron Oxides (CI77499)\nBronzite, Amethyst, Emerald, Charoite: Silica, Dimethicone, Titanium Dioxide, Trimethylsiloxysilicate, Paraffin Wax, Petrolatum, Glycol Montanate, Microcrystalline Wax/Cera Microcristallina/Cire Microcristalline, Bis-Diglyceryl Polyacyladipate-2, Ethylhexyl Palmitate, Copernicia Cerifera (Carnauba) Wax, Paraffin, Synthetic Wax, Phenoxyethanol, Ethylhexylglycerin, Stearic Acid, Titanium Dioxide (CI77891), May Contain (+/-):  Iron Oxide (CI77491), Iron Oxide (CI77499)",
+        "n_loves": "45.7K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyeliner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/danessa-myricks-dew-wet-balm-hydrating-highlighting-balm-P469455",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:25:22",
+        "product_name": "Dew Wet Hydrating and Highlighting Balm",
+        "brand_name": "Danessa Myricks Beauty",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.32 oz/ 9g",
+                "name": [
+                    "Color: Clear - transparent gloss"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2522852"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.32 oz/ 9g",
+                "name": [
+                    "Color: Morning Dew - champagne shimmer"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2522878"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Holy Water - icy lilac pink shimmer",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2575397"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.32 oz / 9 g",
+                "name": [
+                    "Color: Sweet Water - coral"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2604072"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Rose Water - cool toned rosy pink",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2575389"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.32 oz/ 9g",
+                "name": [
+                    "Color: Hot Water - bronze shimmer"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2522860"
+            }
+        ],
+        "rating": "width:79.666%",
+        "product_reviews": "120",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "34.6K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Highlighter"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/danessa-myricks-lightwork-highlighting-palette-P469458",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:25:38",
+        "product_name": "Lightwork Highlighting Palette",
+        "brand_name": "Danessa Myricks Beauty",
+        "options": [
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 6 x 0.28 oz/ 8 g",
+                "name": [
+                    "Color: Lightwork 1",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$57.00"
+                ],
+                "sku": "Item 2439933"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 6 x 0.28 oz/ 8 g",
+                "name": [
+                    "Color: Lightwork 2",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$57.00"
+                ],
+                "sku": "Item 2439925"
+            }
+        ],
+        "rating": "width:95.18599999999999%",
+        "product_reviews": "54",
+        "ingredients": "Mica, Phenyl Trimethicone, Polyglyceryl-2 Triisostearate, Dimethicone,  Boron Nitride, Magnesium Myristate, Silica, Polyethylene, Phenoxyethanol, Ethylhexylglycerin, Titanium Dioxide (CI 77891).",
+        "n_loves": "18.3K",
+        "categories": [
+            "Makeup",
+            "Makeup Palettes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/linework-paintbrush-fluid-eyeliner-P505886",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:25:50",
+        "product_name": "Linework Paintbrush Fluid Liquid Eyeliner",
+        "brand_name": "Danessa Myricks Beauty",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.034 oz / 1 ml - intense black"
+                ],
+                "price": [
+                    "$24.50"
+                ],
+                "sku": "Item 2654127"
+            }
+        ],
+        "rating": "width:90.496%",
+        "product_reviews": "101",
+        "ingredients": "Water/Aqua/Eau, Styrene/Acrylates Copolymer, Propylene Glycol, Laureth-21, Pentylene Glycol, Peg-40 Hydrogenated Castor Oil, Phenoxyethanol, Ammonium Acrylates Copolymer, Caprylyl Glycol, Ppg-2-Deceth-30, Sodium Dehydroacetate, Sodium Lauryl Sulfate, Disodium Laureth Sulfosuccinate, Carbon Black/Ci 77266 (Nano).",
+        "n_loves": "6.6K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyeliner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/danessa-myricks-beauty-balm-contour-P473701",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:26:02",
+        "product_name": "Balm Contour",
+        "brand_name": "Danessa Myricks Beauty",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 3 oz / 10 g",
+                "name": [
+                    "Color: Deep 3 - for dark \u2013 deep dark complexions"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2468585"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 3 oz / 10 g",
+                "name": [
+                    "Color: Deep 2 - for rich \u2013 dark complexions"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2468577"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 3 oz / 10 g",
+                "name": [
+                    "Color: Deep 1 - for tan \u2013 rich complexions"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2468569"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 3 oz / 10 g",
+                "name": [
+                    "Color: Medium 3 - for medium tan \u2013 tan complexions"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2468619"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 3 oz / 10 g",
+                "name": [
+                    "Color: Medium 2 - for medium \u2013 medium tan complexions"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2468601"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 3 oz / 10 g",
+                "name": [
+                    "Color: Medium 1 - for light medium \u2013 medium complexions"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2468593"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 3 oz / 10 g",
+                "name": [
+                    "Color: Light 2 - for fair light \u2013 light complexions"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2468551"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 3 oz / 10 g",
+                "name": [
+                    "Color: Light 1 - for fair \u2013 fair light complexions",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2468544"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 3 oz / 10 g",
+                "name": [
+                    "Color: Fair 1 - for sculpting \u2013 fair to light complexions"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2623197"
+            }
+        ],
+        "rating": "width:88.348%",
+        "product_reviews": "115",
+        "ingredients": "Tridecyl Trimellitate, Diisostearyl Malate, Phenyl Trimethicone, Polyisobutene, Polyglyceryl-2 Triisostearate, Titanium Dioxide, Isononyl Isononanoate, Ethylhexyl Palmitate, Microcrystalline Wax/Cera Microcristallina/Cire de candelilla, Polyethylene, Ozokerite, Copernicia Cerifera (Carnauba) Wax/Copernica Cerifera Cera/Cire de carnauba, Stearoxy Dimethicone, Tocopheryl Acetate, Paraffin, Caprylic/Capric Triglyceride, Limnanthes Alba (Meadowfoam) Seed Oil, Stearic Acid, Aluminum Hydroxide, Glyceryl Behenate, Hydrolyzed Sodium Hyaluronate, Spilanthes Acmella Flower Extract, Iron Oxides (CI 77492, CI 77491, CI 77499).",
+        "n_loves": "29.6K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Contour"
+        ]
+    }
+]

@@ -1,0 +1,2852 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/nutritious-2-in-1-foam-cleanser-P507114",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:16:05",
+        "product_name": "Nutritious 2-in-1 Foam Cleanser",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "NEW",
+                "size": null,
+                "name": [
+                    "Size: 4.2 oz / 125 ml",
+                    "NEW"
+                ],
+                "price": [
+                    "$36.50"
+                ],
+                "sku": "Item 2708584"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "-Sweet Kelp: Visibly minimizes pores. -Red Algae Ferment: Reduces the look of redness.-Coconut Water Ferment: Hydrates and nourishes.Water/Aqua/Eau, Myristic Acid, Glycerin, Behenic Acid, Palmitic Acid, Potassium Hydroxide, Sodium Methyl Cocoyl Taurate, Lauric Acid, Stearic Acid, Montmorillonite, Laminaria Saccharina Extract, Porphyridium Cruentum Extract, Lactobacillus Ferment, Niacinamide, Hydrolyzed Rice Extract, Punica Granatum (Pomegranate) Extract, Zinc PCA, Dipotassium Glycyrrhizate, Camellia Sinensis (Green Tea) Leaf Extract, Sodium Hyaluronate, Cucumis Sativus (Cucumber) Fruit Extract, Sodium Phytate, Potassium Sorbate, Glycol Distearate, Butylene Glycol, Disodium EDTA, Sodium Benzoate, Polyquaternium-7, Phenoxyethanol.",
+        "n_loves": "75",
+        "categories": [
+            "Skincare",
+            "Cleansers",
+            "Face Wash & Cleansers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/estee-lauder-double-wear-sheer-long-wear-makeup-spf-19-P475536",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:16:17",
+        "product_name": "Double Wear Sheer Long-Wear Makeup SPF 19",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 1N2 Ecru - light with neutral rosy undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2479491"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 2C0 Cool Vanilla - light Medium with cool pink undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2479475"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 2C3 Fresco - light Medium with cool rosy beige undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2479467"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 2N1 Desert Beige - light Medium with neutral undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2479459"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 2W1 Dawn - light Medium with warm peach undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2479442"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 3N1 Ivory Beige - medium with neutral undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2479426"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 3N2 Wheat - medium with neutral, subtle golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2479418"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 3W1 Tawny - medium with warm golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2479400"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 4N1 Shell Beige - medium Tan with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2479392"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 5W1 Bronze - deep with warm golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2479343"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 6N2 Truffle - very deep with neutral, subtle brown undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2479319"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 7N1 Deep Amber - extra deep with neutral brown undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2479293"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 8N1 Espresso - deepest with neutral, rich-brown undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2479269"
+            }
+        ],
+        "rating": "width:84.23%",
+        "product_reviews": "468",
+        "ingredients": "Octinoxate 2.0%, Titanium Dioxide 2.3%. Ingredients: Water/Aqua/Eau, Methyl Trimethicone, Phenyl Trimethicone, Dimethicone, Neopentyl Glycol Diheptanoate, Polymethylsilsesquioxane, Silica, Lauryl Peg-9 Polydimethylsiloxyethyl Dimethicone, C12-15 Alkyl Benzoate, Butylene Glycol, Butyloctyl Salicylate, Trimethylsiloxysilicate, Glycerin, Peg-10 Dimethicone, Polysilicone-11, Laminaria Saccharina Extract, Litchi Chinensis Seed Extract, Citrullus Lanatus (Watermelon) Fruit Extract, Pyrus Malus (Apple) Fruit Extract, Sodium Hyaluronate, Lens Esculenta (Lentil) Fruit Extract, Polyglutamic Acid, Methicone, Tocopheryl Acetate, Caprylyl Glycol, Triethyl Citrate, Thermus Thermophillus Ferment, Sodium Lactate, Sodium Pca, Tocopherol, Lecithin, Dimethicone/Peg-10/15 Crosspolymer, C24-28 Alkyl Methicone, Dimethicone Silylate, Disteardimonium Hectorite, Zinc Stearate, Sodium Chloride, Hexylene Glycol, Laureth-7, Magnesium Aluminum Silicate, Dextrin, Xanthan Gum, Dipropylene Glycol, Bht, Disodium Edta, Sodium Citrate, Potassium Sorbate, Sodium Dehydroacetate, Sodium Benzoate, Phenoxyethanol,  [+/- Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491), Iron Oxides (Ci 77492), Iron Oxides (Ci 77499)] .",
+        "n_loves": "29.4K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Foundation"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/take-it-away-total-makeup-remover-P380033",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:16:37",
+        "product_name": "Take It Away Makeup Remover Lotion",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [],
+        "rating": "width:63.076%",
+        "product_reviews": "13",
+        "ingredients": "Take It Away Makeup Remover Lotion   Division: El (Estee Lauder)Ingredients: Water , C11-12 Isoparaffin , Butylene Glycol , Cucumis Sativus (Cucumber) Fruit Extract , Triticum Vulgare (Wheat) Germ Extract , Squalane , Aloe Barbadensis Leaf Extract , Hordeum Vulgare (Barley) Extract/Extrait D'Orge , Simmondsia Chinensis (Jojoba) Seed Oil , Acrylates/C10-30 Alkyl Acrylate Crosspolymer , Peg-8 Dilaurate , Fragrance , Tromethamine , Phenoxyethanol , Green 5 (Ci 61570) , Yellow 5 (Ci 19140) ",
+        "n_loves": "260",
+        "categories": [
+            "Makeup",
+            "Accessories",
+            "Makeup Removers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/perfectionist-cp-r-wrinkle-lifting-firming-serum-P379995",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:16:47",
+        "product_name": "Perfectionist CP+R Wrinkle Lifting/Firming Serum",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL"
+                ],
+                "price": [
+                    "$162.00"
+                ],
+                "sku": "Item 1468230"
+            }
+        ],
+        "rating": "width:84.468%",
+        "product_reviews": "94",
+        "ingredients": "Dimethicone, Water, Polysilicone-11, Hdi/Trimethylol Hexyllactone Crosspolymer, Silica, Butylene Glycol, Caprylyl Methicone, Sigesbeckia Orientalis (St. Paul'S Wort) Extract, Salvia Sclarea (Clary) Extract, Coleus Forskohlii Root Extract, Chamomilla Recutita (Matricaria) Flower Extract, Peg-10 Dimethicone, Hydrolyzed Fish (Pisces) Collagen, Palmaria Palmata Extract, Glycyrrhiza Glabra (Licorice) Root Extract, Silybum Marianum (Lady'S Thistle) Extract, Hordeum Vulgare (Barley) Extract/Extrait D'Orge, Padina Pavonica Thallus Extract, Artemia Extract, Pantethine, Algae Extract, Chlorella Vulgaris Extract, Cholesterol, Squalane, Boswellia Serrata Extract, Zea Mays (Corn) Kernel Extract, Glycine Soja (Soybean) Protein, Caffeine, Whey Protein/Lactis Protein/Proteine Du Petit-Lait, Linoleic Acid, Lecithin, Fish (Pisces) Collagen, Acetyl Hexapeptide-8, Palmitoyl Oligopeptide, Glycerin, Yeast Extract/Faex/Extrait De Levure, Polyquaternium-51, Phytosphingosine, Triticum Vulgare (Wheat) Germ Oil, Decarboxy Carnosine Hcl, Polysorbate 40, Pentylene Glycol, Propanediol, Lauryl Peg-9 Polydimethylsiloxyethyl Dimethicone, Ethylhexylglycerin, Ammonium Acryloyldimethyltaurate/Vp Copolymer, Sodium Pca, Polymethylsilsesquioxane, Glyceryl Polymethacrylate, Zinc Pca, Propylene Glycol Dicaprate, Sodium Chondroitin Sulfate, Sodium Hyaluronate, Isohexadecane, Peg-8, Tocopheryl Acetate, Polysorbate 80, Disodium Distyrylbiphenyl Disulfonate, Laureth-12, Acrylamide/Sodium Acryloyldimethyltaurate Copolymer, Caprylyl Glycol, Aminopropyl Ascorbyl Phosphate, Xanthan Gum, Sodium Beta-Sitosteryl Sulfate, Sodium Chloride, Sodium Hydroxide, Fragrance, Disodium Edta, Bht, Phenoxyethanol, Mica, Titanium Dioxide (Ci 77891) .Please be aware that ingredient lists may change or vary from time to time. Please refer to the ingredient list on the product package you receive for the most up-to-date list of ingredients.",
+        "n_loves": "15K",
+        "categories": [
+            "Skincare",
+            "Treatments",
+            "Face Serums"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/resilience-lift-night-lifting-firming-fack-neck-creme-P422649",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:17:00",
+        "product_name": "Resilience Multi-Effect Night Tri-Peptide Face and Neck Moisturizer Creme",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$148.00"
+                ],
+                "sku": "Item 1991660"
+            }
+        ],
+        "rating": "width:83.70400000000001%",
+        "product_reviews": "27",
+        "ingredients": "Water\\Aqua\\Eau, Caprylic/Capric/Myristic/Stearic Triglyceride, Petrolatum, Hexyldecyl Stearate, Butylene Glycol, Dimethicone, Glycereth-26, Peg-100 Stearate, Cetearyl Alcohol, Glyceryl Stearate, Propanediol, Narcissus Tazetta Bulb Extract, Cucumis Sativus (Cucumber) Fruit Extract, Mimosa Tenuiflora Bark Extract, Hordeum Vulgare (Barley) Extract\\Extrait D'Orge, Cucumis Melo (Melon) Fruit Extract, Persea Gratissima (Avocado) Oil, Whey Protein\\Lactis Protein\\Proteine Du Petit-Lait, Caffeine, Thermus Thermophillus Ferment, Algae Extract, Laminaria Digitata Extract, Artemia Extract, Acetyl Hexapeptide-8, Polygonum Cuspidatum Root Extract, Ergothioneine, Trifluoroacetyl Tripeptide-2, Trehalose, Sorbitol, Glycerin, Decarboxy Carnosine Hcl, Cholesterol, Isohexadecane, Acetyl Glucosamine, Myristyl Myristate, Cetearyl Glucoside, Tetradecyl Aminobutyroylvalylaminobutyric Urea Trifluoroacetate, Propylene Glycol Dicaprylate, Aminopropyl Ascorbyl Phosphate, Caprylyl Glycol, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Caprylic/Capric Triglyceride, Tocopheryl Acetate, Linoleic Acid, Polysorbate 80, Yeast Extract\\Faex\\Extrait De Levure, Propylene Glycol Dicaprate, Zinc Pca, Helianthus Annuus (Sunflower) Seedcake, Hexylene Glycol, Acrylamide/Sodium Acryloyldimethyltaurate Copolymer, Sodium Hyaluronate, Myristyl Alcohol, Tromethamine, Stearic Acid, Potassium Sulfate, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Citric Acid, Maltodextrin, Aluminum Hydroxide, Fragrance (Parfum), Potassium Sorbate, Dextran, Disodium Edta, Bht, Phenoxyethanol, Blue 1 (Ci 42090), Red 33 (Ci 17200), Titanium Dioxide (Ci 77891).Please be aware that ingredient lists may change or vary from time to time. Please refer to the ingredient list on the product package you receive for the most up-to-date list of ingredients.",
+        "n_loves": "5K",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Moisturizers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/the-smoother-universal-protecting-primer-P422282",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:17:17",
+        "product_name": "The Smoother Universal Perfecting Primer",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$56.00"
+                ],
+                "sku": "Item 1930338"
+            }
+        ],
+        "rating": "width:78.37799999999999%",
+        "product_reviews": "37",
+        "ingredients": "Perfecting Smoothing Primer   Division: El (Estee Lauder)Ingredients: Dimethicone, Isododecane, Polysilicone-11, Silica, Ethylhexyl Stearate, Polymethylsilsesquioxane, Prunus Armeniaca (Apricot) Kernel Oil, Coco-Caprylate/Caprate, Tocopheryl Acetate, Fragrance (Parfum),  [+/- Mica, Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491), Iron Oxides (Ci 77492), Iron Oxides (Ci 77499), Bismuth Oxychloride (Ci 77163)] .Please be aware that ingredient lists may change or vary from time to time. Please refer to the ingredient list on the product package you receive for the most up-to-date list of ingredients.",
+        "n_loves": "5.1K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Face Primer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nutritious-radiant-essence-treatment-lotion-P507108",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:17:40",
+        "product_name": "Nutritious Radiant Essence Treatment Lotion",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "NEW",
+                "size": null,
+                "name": [
+                    "Size: 6.7 oz / 200 ml",
+                    "NEW"
+                ],
+                "price": [
+                    "$57.00"
+                ],
+                "sku": "Item 2708618"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "-Sweet Kelp: Visibly minimizes pores. -Red Algae Ferment: Reduces the look of redness.-Coconut Water Ferment: Hydrates and nourishes.Water/Aqua/Eau, Propanediol, Niacinamide, Glycerin, Butylene Glycol, Laminaria Saccharina Extract, Porphyridium Cruentum Extract, Lactobacillus Ferment, Hydrolyzed Rice Extract, Punica Granatum (Pomegranate) Extract, Zinc PCA, Dipotassium Glycyrrhizate, Camellia Sinensis (Green Tea) Leaf Extract, Sodium Hyaluronate, Caffeine, Narcissus Tazetta Bulb Extract, Cucumis Sativus (Cucumber) Fruit Extract, Sucrose (Organic Brown Sugar), Sodium Dilauramidoglutamide Lysine, Citric Acid, Sodium Citrate, Caprylyl Glycol, Sodium Hydroxide, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Phenoxyethanol.",
+        "n_loves": "63",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Moisturizers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/estee-lauder-advanced-night-repair-synchronized-multi-recovery-complex-duo-P461933",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:17:56",
+        "product_name": "Advanced Night Repair Synchronized Multi-Recovery Complex Duo",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Value size",
+                "flag_label": "LIMITED EDITION",
+                "size": null,
+                "name": [
+                    "Size: 2x 1.7 oz / 50 mL",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$270.00"
+                ],
+                "sku": "Item 2379659"
+            }
+        ],
+        "rating": "width:80.92599999999999%",
+        "product_reviews": "2.4K",
+        "ingredients": " -Hyaluronic Acid: Locks in moisture for up to 72 hours.Water\\Aqua\\Eau, Bifida Ferment Lysate, Peg-8, Propanediol, Bis-Peg-18 Methyl Ether Dimethyl Silane, Methyl Gluceth-20, Glycereth-26, Peg-75, Butylene Glycol, Adansonia Digitata Seed Extract, Tripeptide-32, Sodium Hyaluronate, Yeast Extract\\Faex\\Extrait De Levure, Lactobacillus Ferment, Cola Acuminata (Kola) Seed Extract, Anthemis Nobilis (Chamomile) Flower Extract, Hydrolyzed Algin, Pantethine, Caffeine, Lecithin, Sodium Rna, Bisabolol, Squalane, Glycerin, Oleth-3 Phosphate, Caprylyl Glycol, Oleth-3, Oleth-5, Choleth-24, Hydrogenated Lecithin, Jojoba Wax Peg-120 Esters, Ceteth-24, Tocopheryl Acetate, Carbomer, Triethanolamine, Tetrasodium Edta, Bht, Xanthan Gum, Potassium Sorbate, Disodium Edta, Phenoxyethanol, Red 4 (Ci 14700), Yellow 5 (Ci 19140).Please be aware that ingredient lists may change or vary from time to time. Please refer to the ingredient list on the product package for the most up to date list of ingredients.",
+        "n_loves": "12.7K",
+        "categories": [
+            "Skincare",
+            "Treatments",
+            "Face Serums"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/modern-muse-eau-de-parfum-P383535",
+        "error": "Product not available",
+        "scrape_timestamp": "08/21/2023, 15:18:08"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/estee-lauder-advanced-night-repair-rescue-solution-with-15-bifidus-ferment-P506381",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:18:18",
+        "product_name": "Advanced Night Repair Rescue Solution with 15% Bifidus Ferment",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "NEW",
+                "size": null,
+                "name": [
+                    "Size: 0.7 oz / 20 mL",
+                    "NEW"
+                ],
+                "price": [
+                    "$110.00"
+                ],
+                "sku": "Item 2696177"
+            }
+        ],
+        "rating": "width:78.97999999999999%",
+        "product_reviews": "843",
+        "ingredients": "-Bifidus Ferment: Fights the appearance of sensitivity.-Soothing Yeast Extract: Visibly reduces skin redness.-Exclusive Peptide and Antioxidant: Support skin's day and night rhythm of protection.Water/Aqua/Eau, Bifida Ferment Lysate, Peg-8, Butylene Glycol, Glycerin, Polysorbate 80, Bis-Peg-18 Methyl Ether Dimethyl Silane, Tripeptide-32, Hydrolyzed Yeast Protein, Lactobacillus Ferment, Sodium Hyaluronate, Caffeine, Hypnea Musciformis Extract, Citrullus Lanatus (Watermelon) Fruit Extract, Lens Esculenta (Lentil) Fruit Extract, Pyrus Malus (Apple) Fruit Extract, Magnolia Grandiflora Bark Extract, Polygonum Cuspidatum Root Extract, Poria Cocos Sclerotium Extract, Silybum Marianum (Lady'S Thistle) Extract, Sapindus Mukorossi Fruit Extract, Anthemis Nobilis (Chamomile) Flower Extract, Sodium Lactate, Ethylhexylglycerin, Potassium Gluconate, Sodium Pca, Caesalpinia Spinosa Gum, Sucrose, Caprylyl Glycol, Hexylene Glycol, Carbomer, Xanthan Gum, Ppg-6-Decyltetradeceth-30, Ppg-5-Ceteth-20, Bht, Disodium Edta, Sodium Hydroxide, Potassium Sorbate, Phenoxyethanol, Sodium Benzoate, Red 4 (Ci 14700), Yellow 5 (Ci 19140).",
+        "n_loves": "314",
+        "categories": [
+            "Skincare",
+            "Treatments",
+            "Face Serums"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/estee-lauder-advanced-night-repair-synchronized-multi-recovery-complex-P461159",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:18:32",
+        "product_name": "Estee Lauder Advanced Night Repair Synchronized Multi-Recovery Complex Serum",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL"
+                ],
+                "price": [
+                    "$108.00"
+                ],
+                "sku": "Item 2379675"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL"
+                ],
+                "price": [
+                    "$155.00"
+                ],
+                "sku": "Item 2379683"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "NEW",
+                "size": null,
+                "name": [
+                    "Size: 0.68 oz / 20 ml",
+                    "NEW"
+                ],
+                "price": [
+                    "$68.00"
+                ],
+                "sku": "Item 2706802"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.9 oz/ 115 mL"
+                ],
+                "price": [
+                    "$297.00"
+                ],
+                "sku": "Item 2379667"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": "LIMITED EDITION",
+                "size": null,
+                "name": [
+                    "Size: 2x 1.7 oz / 50 mL",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$270.00"
+                ],
+                "sku": "Item 2379659"
+            }
+        ],
+        "rating": "width:80.92599999999999%",
+        "product_reviews": "2.4K",
+        "ingredients": "Water\\Aqua\\Eau, Bifida Ferment Lysate, Peg-8, Propanediol, Bis-Peg-18 Methyl Ether Dimethyl Silane, Methyl Gluceth-20, Glycereth-26, Peg-75, Butylene Glycol, Adansonia Digitata Seed Extract, Tripeptide-32, Sodium Hyaluronate, Yeast Extract\\Faex\\Extrait De Levure, Lactobacillus Ferment, Cola Acuminata (Kola) Seed Extract, Anthemis Nobilis (Chamomile) Flower Extract, Hydrolyzed Algin, Pantethine, Caffeine, Lecithin, Sodium Rna, Bisabolol, Squalane, Glycerin, Oleth-3 Phosphate, Caprylyl Glycol, Oleth-3, Oleth-5, Choleth-24, Hydrogenated Lecithin, Jojoba Wax Peg-120 Esters, Ceteth-24, Tocopheryl Acetate, Carbomer, Triethanolamine, Tetrasodium Edta, Bht, Xanthan Gum, Potassium Sorbate, Disodium Edta, Phenoxyethanol, Red 4 (Ci 14700), Yellow 5 (Ci 19140).Please be aware that ingredient lists may change or vary from time to time. Please refer to the ingredient list on the product package you receive for the most up-to-date list of ingredients.",
+        "n_loves": "69K",
+        "categories": [
+            "Skincare",
+            "Treatments",
+            "Face Serums"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/estee-lauder-perfectionist-pro-rapid-brightening-treatment-with-ferment2-vitamin-c-P454939",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:18:51",
+        "product_name": "Perfectionist Pro Rapid Brightening Serum with Ferment\u00b2 + Vitamin C",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50mL"
+                ],
+                "price": [
+                    "$170.00"
+                ],
+                "sku": "Item 2334001"
+            }
+        ],
+        "rating": "width:83.334%",
+        "product_reviews": "24",
+        "ingredients": " -Vitamin C: Supports skin.  -Ferment\u00b2: Helps reduce the appearance of dark spots and improves the look of skin clarity.  Water\\Aqua\\Eau, Butylene Glycol, Glycerin, Glycereth-26, Isononyl Isononanoate, Dimethicone, Propanediol, Ascorbyl Glucoside, Algae Extract, Sucrose, Acetyl Glucosamine, Hydroxyethyl Urea, Lens Esculenta (Lentil) Fruit Extract, Citrullus Lanatus (Watermelon) Fruit Extract, Pyrus Malus (Apple) Fruit Extract, Molasses Extract\\Saccharum Officinarum\\Extrait De Melasse, Myrtus Communis Leaf Extract, Avena Sativa (Oat) Kernel Extract, Triticum Vulgare (Wheat) Germ Extract, Hordeum Vulgare (Barley) Extract\\Extrait D'Orge, Cladosiphon Okamuranus Extract, Salicylic Acid, Hydrolyzed Prunus Domestica, Caffeine, Sodium Lactate, Dipotassium Glycyrrhizate, Squalane, Oryzanol, Resveratrol, Sodium Hyaluronate, Sodium Pca, Ethylhexylglycerin, Bis-Peg-18 Methyl Ether Dimethyl Silane, Tocopheryl Acetate, Peg-75, Oleth-3 Phosphate, Sorbitol, Caprylyl Glycol, Oleth-3, Sodium Polyaspartate, Oleth-5, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Propylene Glycol Caprylate, Dextrin, Yeast Extract\\Faex\\Extrait De Levure, Choleth-24, Carbomer, Sodium Hydroxide, Ceteth-24, Xanthan Gum, Fragrance (Parfum), Glyceryl Acrylate/Acrylic Acid Copolymer, Citric Acid, Sodium Citrate, Disodium Edta, Bht, Potassium Sorbate, Sodium Benzoate, Phenoxyethanol. Please be aware that ingredient lists may change or vary from time to time. Please refer to the ingredient list on the product package you receive for the most up to date list of ingredients.",
+        "n_loves": "6.7K",
+        "categories": [
+            "Skincare",
+            "Treatments",
+            "Face Serums"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/advanced-night-repair-concentrated-recovery-powerfoil-mask-P406530",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:19:03",
+        "product_name": "Advanced Night Repair Concentrated Recovery PowerFoil Mask",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 4 sheets",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$126.00"
+                ],
+                "sku": "Item 1803378"
+            }
+        ],
+        "rating": "width:82%",
+        "product_reviews": "30",
+        "ingredients": "Advanced Night Rpr Powerfoil Mask   Division: El (Estee Lauder)Ingredients: Water , Methyl Gluceth-20 , Peg-75 , Butylene Glycol , Bis-Peg-18 Methyl Ether Dimethyl Silane , Propanediol , Glycereth-26 , Cladosiphon Okamuranus Extract , Garcinia Mangostana Peel Extract , Magnolia Officinalis Bark Extract , Silybum Marianum (Lady'S Thistle) Extract , Echinacea Purpurea (Coneflower) Extract , Limonium Vulgare Flower/Leaf/Stem Extract , Lactobacillus Ferment , Betula Alba (Birch) Extract , Hydrolyzed Algin , Acetyl Dipeptide-1 Cetyl Ester , Coffea Arabica (Coffee) Seed Extract , Hydrolyzed Rice Extract , Poria Cocos Sclerotium Extract , Algae Extract , Squalane , Yeast Extract/Faex/Extrait De Levure , Caffeine , Peg-8 Glyceryl Isostearate , Glycerin , Artemia Extract , Lecithin , Glycine , Anthemis Nobilis (Chamomile) , Sodium Hyaluronate , Oleth-3 Phosphate , Caprylyl Glycol , Tocopheryl Acetate , Carbomer , Dextrin , Sodium Hydroxide , Xanthan Gum , Laureth-3 , Hydroxyethylcellulose , Trisodium Edta , Phenoxyethanol.Please be aware that ingredient lists may change or vary from time to time. Please refer to the ingredient list on the product package you receive for the most up to date list of ingredients.",
+        "n_loves": "12.3K",
+        "categories": [
+            "Skincare",
+            "Masks",
+            "Sheet Masks"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/estee-lauder-micro-essence-treatment-lotion-fresh-with-sakura-ferment-P482528",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:19:20",
+        "product_name": "Micro Essence Treatment Lotion Fresh with Sakura Ferment",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 6.7 oz/ 200 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$165.00"
+                ],
+                "sku": "Item 2578482"
+            }
+        ],
+        "rating": "width:100%",
+        "product_reviews": "1",
+        "ingredients": "-Bifida Ferment Lysate: Postbiotic 12+ optimizes the skin\u2019s barrier.-Lactobacillus Ferment: Supports skin barrier.-Hyaluronic Acid: Hydrates.Water\\Aqua\\Eau, Bifida Ferment Lysate, Propanediol, Butylene Glycol, Lactobacillus Ferment, Oryza Sativa (Rice) Lees Extract, Prunus Lannesiana Flower Extract, Algae Extract, Laminaria Saccharina Extract, Acetyl Hexapeptide-8, Acetyl Glucosamine, Sodium Hyaluronate, Anthemis Nobilis (Chamomile) Flower Extract, Caffeine, Dipotassium Glycyrrhizate, Betaine, Maltodextrin, Carbomer, Tromethamine, Citric Acid, Trehalose, Caprylyl Glycol, Pentylene Glycol, Peg-75, Ppg-5-Ceteth-20, Disodium Edta, Sodium Citrate, Phenoxyethanol, Potassium Sorbate .Please be aware that ingredient lists may change or vary from time to time. Please refer to the ingredient list on the product package you receive for the most up-to-date list of ingredients.",
+        "n_loves": "607",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Mists & Essences"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/perfectionist-pro-rapid-firm-lift-treatment-P430132",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:19:33",
+        "product_name": "Perfectionist Pro Rapid Firm + Lift Treatment",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$164.00"
+                ],
+                "sku": "Item 2049583"
+            }
+        ],
+        "rating": "width:84.00000000000001%",
+        "product_reviews": "5",
+        "ingredients": "Perfectionist Pro Rpd Frm+Lift Trt   Division: El (Estee Lauder)Ingredients: Water, Dimethicone, Butylene Glycol, Caprylic/Capric Triglyceride, Glycerin, Bis-Peg-18 Methyl Ether Dimethyl Silane, Polysorbate 20, Lauryl Peg-9 Polydimethylsiloxyethyl Dimethicone, Polysilicone-11, Mangifera Indica (Mango) Seed Butter, Phoenix Dactylifera (Date) Fruit Extract, Pisum Sativum (Pea) Extract, Cucumis Sativus (Cucumber) Fruit Extract, Crithmum Maritimum Extract, Laminaria Ochroleuca Extract, Commiphora Mukul Resin Extract, Triticum Vulgare (Wheat) Germ Extract, Bambusa Vulgaris (Bamboo) Extract, Chlorella Vulgaris Extract, Laminaria Saccharina Extract, Brassica Campestris (Rapeseed) Sterols, Helianthus Annuus (Sunflower) Seed Extract, Algae Extract, Hypnea Musciformis (Algae) Extract, Sigesbeckia Orientalis (St. Paul'S Wort) Extract, Nymphaea Alba (Water Lily) Flower Extract, Acetyl Glucosamine, Caffeine, Gellidiella Acerosa Extract, Coffea Arabica (Coffee) Seed Extract, Sodium Hyaluronate, Lactic Acid, Propylene Glycol Dicaprate, Saccharide Isomerate, Methyl Gluceth-20, Ethylhexylglycerin, Acrylamide/Sodium Acryloyldimethyltaurate Copolymer, Helianthus Annuus (Sunflower) Seedcake, Caprylyl Glycol, Isohexadecane, Tocopheryl Acetate, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Glyceryl Polymethacrylate, Sodium Polyacrylate Starch, Squalane, Sodium Pca, Urea, Zea Mays (Corn) Kernel Extract, Whey Protein/Lactis Protein/Proteine Du Petit-Lait, Palmaria Palmata Extract, Polysorbate 80, Acetyl Hexapeptide-8, Triolein, Hydrolyzed Rice Extract, Linoleic Acid, Trehalose, Glycine Soja (Soybean) Protein, Glucosamine Hcl, Phospholipids, Laminaria Digitata Extract, Hordeum Vulgare (Barley) Extract/Extrait D'Orge, Polyquaternium-51, Palmitoyl Hexapeptide-12, Ergothioneine, Aminopropyl Ascorbyl Phosphate, Peg-8, Phytosteryl Canola Glycerides, Pentylene Glycol, Oleic Acid, Palmitic Acid, Xanthan Gum, Fragrance, Sodium Hydroxide, Citric Acid, Silica, Calcium Chloride, Stearic Acid, Dipropylene Glycol, Sodium Palmitoyl Proline, Disodium Edta, Bht, Potassium Sorbate, Phenoxyethanol, Mica, Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491, Ci 77492, Ci 77499) .Please be aware that ingredient lists may change or vary from time to time. Please refer to the ingredient list on the product package you receive for the most up-to-date list of ingredients.",
+        "n_loves": "2K",
+        "categories": [
+            "Skincare",
+            "Treatments",
+            "Face Serums"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/soft-clean-infusion-hydrating-treatment-lotion-P501176",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:19:45",
+        "product_name": "Soft Clean Infusion Hydrating Treatment Lotion",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Value size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 13.5 oz / 400 mL"
+                ],
+                "price": [
+                    "$63.00"
+                ],
+                "sku": "Item 2532984"
+            }
+        ],
+        "rating": "width:76.718%",
+        "product_reviews": "457",
+        "ingredients": "-Amino Acid15 Complex: Supports skin\u2019s natural amino acid levels.-Waterlily Flower Extract: Supports skin\u2019s own natural hydration within its surface over time.Water\\Aqua\\Eau, Glycereth-26, Bis-Peg-18 Methyl Ether Dimethyl Silane, Polysorbate 20, Sucrose, Nymphaea Alba (Water Lily) Flower Extract, Sodium Hyaluronate, Trehalose, Dipotassium Glycyrrhizate, Caffeine, Glutamic Acid, Aspartic Acid, Serine, Leucine, Alanine, Lysine, Arginine, Tyrosine, Phenylalanine, Proline, Threonine, Valine, Isoleucine, Histidine, Glycine, Squalane, Passiflora Incarnata Flower Extract, Leontopodium Alpinum Extract, Lythrum Salicaria Extract, Hordeum Vulgare Extract\\Extrait D'Orge, Triticum Vulgare (Wheat) Germ Extract, Tocopherol, Sodium Pca, Linoleic Acid, Glycerin, Butylene Glycol, Urea, Sodium Palmitoyl Proline, Cholesterol, Sodium Levulinate, Dipropylene Glycol, Citric Acid, Polyvinyl Acetate, Triacetin, Bht, Sodium Citrate, Sodium Benzoate, Potassium Sorbate, Chlorphenesin, Sorbic Acid, Disodium Edta, Polyquaternium-51, Tromethamine, Carbomer, Fragrance (Parfum), Phenoxyethanol, Ethylhexylglycerin.",
+        "n_loves": "1.4K",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Mists & Essences"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nutritious-melting-soft-cream-mask-moisturizer-P507096",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:19:57",
+        "product_name": "Nutritious Melting Soft Cream Mask Moisturizer",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "NEW",
+                "size": null,
+                "name": [
+                    "Size: 1.69 oz / 50 ml",
+                    "NEW"
+                ],
+                "price": [
+                    "$65.00"
+                ],
+                "sku": "Item 2708600"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "-Sweet Kelp: Visibly minimizes pores. -Red Algae Ferment: Reduces the look of redness.-Coconut Water Ferment: Hydrates and nourishes.Water/Aqua/Eau, Heptyl Undecylenate, Butylene Glycol, Glycerin, Polyglyceryl-6 Distearate, Trimethylolpropane Tricaprylate/Tricaprate, Butyrospermum Parkii (Shea) Butter, Cetyl Alcohol, Niacinamide, Laminaria Saccharina Extract, Porphyridium Cruentum Extract, Lactobacillus Ferment, Hydrolyzed Rice Extract, Punica Granatum (Pomegranate) Extract, Zinc PCA, Dipotassium Glycyrrhizate, Camellia Sinensis (Green Tea) Leaf Extract, Sodium Hyaluronate, Caffeine, Narcissus Tazetta Bulb Extract, Cucumis Sativus (Cucumber) Fruit Extract, Jojoba Esters, Helianthus Annuus (Sunflower) Seed Extract, Hordeum Vulgare Extract/Extrait D'Orge, Sucrose (Organic Brown Sugar), Saccharide Isomerate, Tocopheryl Acetate, Sodium Phytate, Sodium Citrate, Citric Acid, Pentylene Glycol, Sodium Dehydroacetate, Propylene Glycol Dicaprate, Xanthan Gum, Ethylhexylglycerin, Tocopherol, Potassium Cetyl Phosphate, Carbomer, Sodium Hydroxide, Ammonium Acryloyldimethyltaurate/VP Copolymer, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Phenoxyethanol.",
+        "n_loves": "57",
+        "categories": [
+            "Skincare",
+            "Masks",
+            "Face Masks"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/perfectly-clean-multi-action-creme-cleanser-moisture-mask-P380028",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:20:09",
+        "product_name": "Perfectly Clean Multi-Action Creme Cleanser/Moisture Mask",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 5 oz/ 150 mL"
+                ],
+                "price": [
+                    "$44.00"
+                ],
+                "sku": "Item 1520295"
+            }
+        ],
+        "rating": "width:83.52999999999999%",
+        "product_reviews": "17",
+        "ingredients": "Perfectly Clean Mlt-Act Cr Cl Mt M   Division: El (Estee Lauder)Ingredients: Water , Hydrogenated Polyisobutene , Isohexadecane , Glycerin , Hexyldecyl Stearate , Squalane , Petrolatum , Glyceryl Stearate , Silybum Marianum (Lady'S Thistle) Extract , Gentiana Lutea (Gentian) Root Extract , Algae Extract , Sorbitol , Caffeine , Isododecane , Sucrose , Hydrogenated Lecithin , Hydrogenated Polydecene , Peg-100 Stearate , Cetearyl Alcohol , Stearyl Alcohol , Ceteareth-20 , Carbomer , Dimethicone , Butylene Glycol , Caprylyl Glycol , Zinc Pca , Hexylene Glycol , Fragrance , Potassium Hydroxide , Disodium Edta , Phenoxyethanol.Please be aware that ingredient lists may change or vary from time to time. Please refer to the ingredient list on the product package you receive for the most up to date list of ingredients.",
+        "n_loves": "1.8K",
+        "categories": [
+            "Skincare",
+            "Cleansers",
+            "Face Wash & Cleansers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/daywear-advanced-multi-protection-anti-oxidant-creme-broad-spectrum-spf-15-normal-combination-P380000",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:20:20",
+        "product_name": "DayWear Advanced Multi-Protection Anti-Oxidant Moisturizer, Normal/Combination",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.6 oz / 50 mL"
+                ],
+                "price": [
+                    "$80.00"
+                ],
+                "sku": "Item 1468164"
+            }
+        ],
+        "rating": "width:86.226%",
+        "product_reviews": "302",
+        "ingredients": "-Sodium Hyaluronate: Hydrates.-Tri-Peptide: Reveals visible radiance.-Antioxidants: Fight collagen degradation. Water/Aqua/Eau, Ethylhexyl Salicylate, Dimethicone, Butyloctyl Salicylate, Butylene Glycol, Butyl Methoxydibenzoylmethane, Polyester-8, Cetyl Ricinoleate, Steareth-21, Steareth-2, Di-C12-15 Alkyl Fumarate, Caprylic/Capric/Myristic/Stearic Triglyceride, Polysilicone-11, Psidium Guajava (Guava) Fruit Extract, Gentiana Lutea (Gentian) Root Extract, Polygonum Cuspidatum Root Extract, Stearyl Alcohol, Hordeum Vulgare (Barley) Extract/Extrait D'Orge, Laminaria Ochroleuca Extract, Rosmarinus Officinalis (Rosemary) Leaf Extract, Triticum Vulgare (Wheat) Germ Extract, Artemia Extract, Fumaria Officinalis Flower/Leaf/Stem Extract, Caffeine, Pentylene Glycol, Citrus Medica Limonum (Lemon) Fruit Extract, Hydrolyzed Rice Extract, Vitis Vinifera (Grape) Seed Extract, Hydrolyzed Rice Bran Extract, Lauryl PEG-9 Polydimethylsiloxyethyl Dimethicone, Thermus Thermophillus Ferment, Behenyl Alcohol, Acrylic Acid/VP Crosspolymer, Triacontanyl PVP, Glycerin, C12-15 Alkyl Benzoate, Linoleic Acid, Cholesterol, Squalane, Sodium PCA, 1,2-Hexanediol, Urea, Caprylic/Capric Triglyceride, Dipropylene Glycol Dibenzoate, Tocopheryl Acetate, Acrylamide/Sodium Acryloyldimethyltaurate Copolymer, Tetrahexyldecyl Ascorbate, Sodium Hyaluronate, Ergothioneine, Isohexadecane, PPG-15 Stearyl Ether Benzoate, Glycyrrhetinic Acid, Trehalose, Polyquaternium-51, Polysorbate 80, Lecithin, Hydrogenated Lecithin, Fumaric Acid, Palmitoyl Hydroxypropyltrimonium Amylopectin/Glycerin Crosspolymer, Caprylyl Glycol, Cyclodextrin, Sodium Hydroxide, Nordihydroguaiaretic Acid, Sodium Chloride, Ascorbyl Tocopheryl Maleate, Fragrance (Parfum), Citric Acid, Ethylbisiminomethylguaiacol Manganese Chloride, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Disodium EDTA, BHT, Sodium Dehydroacetate, Phenoxyethanol, Blue 1 (CI 42090), Yellow 5 (CI 19140), Chromium Hydroxide Green (CI 77289).",
+        "n_loves": "6.7K",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Moisturizers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/estee-lauder-revitalizing-supreme-night-intensive-restorative-creme-P481081",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:20:34",
+        "product_name": "Revitalizing Supreme+ Night Intensive Restorative Cr\u00e8me",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.69 oz/ 50 mL"
+                ],
+                "price": [
+                    "$140.00"
+                ],
+                "sku": "Item 2532257"
+            }
+        ],
+        "rating": "width:80%",
+        "product_reviews": "5",
+        "ingredients": "-Hyaluronic Acid-Exclusive 2X Concentrated Moringa ExtractWater\\Aqua\\Eau, Glycine Soja (Soybean) Oil, Caprylic/Capric/Myristic/Stearic Triglyceride, Glycerin, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Dimethicone, Stearyl Alcohol, Butylene Glycol, Steareth-2, Cocos Nucifera (Coconut) Oil, Vitis Vinifera (Grape) Seed Oil, Glyceryl Stearate, Niacinamide, Propanediol, Steareth-21, Moringa Oleifera Seed Extract, Limonium Vulgare Flower/Leaf/Stem Extract, Sodium Hyaluronate, Acetyl Hexapeptide-8, Laminaria Digitata Extract, Whey Protein\\Lactis Protein\\Proteine Du Petit-Lait, Acetyl Glucosamine, Opuntia Tuna Extract, Tocopheryl Acetate, Citrullus Lanatus (Watermelon) Fruit Extract, Persea Gratissima (Avocado) Oil, Mangifera Indica (Mango) Seed Oil, Aminopropyl Ascorbyl Phosphate, Algae Extract, Caffeine, Cucumis Sativus (Cucumber) Fruit Extract, Pyrus Malus (Apple) Fruit Extract, Narcissus Tazetta Bulb Extract, Sigesbeckia Orientalis (St. Paul'S Wort) Extract, Butyrospermum Parkii (Shea Butter), Lens Esculenta (Lentil) Fruit Extract, Silybum Marianum Seed Oil, Limnanthes Alba (Meadowfoam) Seed Oil, Hordeum Vulgare (Barley) Extract\\Extrait D'Orge, Simmondsia Chinensis (Jojoba) Seed Oil, Macadamia Integrifolia Seed Oil, Olea Europaea (Olive) Fruit Oil, Dextrin Palmitate, Sodium Hydroxide, Carbomer, Behenyl Alcohol, Caprylyl Glycol, Hydroxyethyl Urea, Propylene Glycol Dicaprate, Cholesterol, Isoceteth-20, Lactoperoxidase, Helianthus Annuus (Sunflower) Seedcake, Sodium Polyaspartate, Sorbitol, Glucose, Cetyl Alcohol, Myristyl Alcohol, Sodium Lactate, Citric Acid, Sodium Pca, Glucose Oxidase, Potassium Phosphate, Sodium Chloride, Fragrance (Parfum), Disodium Edta, Bht, Potassium Sorbate, Sodium Benzoate, Phenoxyethanol, Yellow 5 (Ci 19140), Red 4 (Ci 14700), Iron Oxides (Ci 77491), Iron Oxides (Ci 77492). Please be aware that ingredient lists may change or vary from time to time. Please refer to the ingredient list on the product package you receive for the most up to date list of ingredients.",
+        "n_loves": "1.6K",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Moisturizers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/estee-lauder-revitalizing-supreme-youth-power-eye-balm-P481082",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:20:46",
+        "product_name": "Revitalizing Supreme+ Youth Power Eye Balm",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 0.5 oz/ 15 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$103.00"
+                ],
+                "sku": "Item 2532265"
+            }
+        ],
+        "rating": "width:76%",
+        "product_reviews": "5",
+        "ingredients": "-Cactus Stem Cell Extract and Hyaluronic Acid-Exclusive Hibiscus Morning Bloom Extract-Exclusive Moringa ExtractWater\\Aqua\\Eau, Methyl Trimethicone, Propanediol, Isododecane, Polyethylene, Dimethicone, Butylene Glycol, Hydrogenated Polyisobutene, Dimethicone/Vinyl Dimethicone Crosspolymer, Cetyl Peg/Ppg-10/1 Dimethicone, Stearyl Dimethicone, Nylon-12, Isononyl Isononanoate, Moringa Oleifera Seed Extract, Hibiscus Sinensis Flower Extract, Sodium Hyaluronate, Acetyl Hexapeptide-8, Laminaria Digitata Extract, Whey Protein\\Lactis Protein\\Proteine Du Petit-Lait, Opuntia Tuna Extract, Acetyl Glucosamine, Tocopheryl Acetate, Narcissus Tazetta Bulb Extract, Squalane, Hydrolyzed Rice Extract, Algae Extract, Limonium Vulgare Flower/Leaf/Stem Extract, Cucumis Sativus (Cucumber) Fruit Extract, Silybum Marianum (Lady'S Thistle) Extract, Mimosa Tenuiflora Bark Extract, Helianthus Annuus (Sunflower) Seed Extract, Sigesbeckia Orientalis (St. Paul'S Wort) Extract, Caffeine, Hordeum Vulgare (Barley) Extract\\Extrait D'Orge, Triticum Vulgare (Wheat) Germ Extract, Propylene Glycol Dicaprate, Glucose, Magnesium Sulfate, Sucrose, Glycerin, Pinanediol, Camphanediol, Hexylene Glycol, Caprylyl Glycol, Boron Nitride, Maltodextrin, Aminopropyl Ascorbyl Phosphate, Methicone, Artemia Extract, Polysilicone-11, Alumina, Isoceteth-20, Disteardimonium Hectorite, Peg-10 Dimethicone, Lauryl Peg-9 Polydimethylsiloxyethyl Dimethicone, Citric Acid, Octadecene, Triethoxycaprylylsilane, Disodium Edta, Bht, Potassium Sorbate, Chlorphenesin, Phenoxyethanol, Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491).Please be aware that ingredient lists may change or vary from time to time. Please refer to the ingredient list on the product package you receive for the most up to date list of ingredients.",
+        "n_loves": "1.4K",
+        "categories": [
+            "Skincare",
+            "Eye Care",
+            "Eye Creams & Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/estee-lauder-advanced-night-repair-eye-concentrate-matrix-synchronized-multi-recovery-complex-P473820",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:20:58",
+        "product_name": "Advanced Night Repair Eye Concentrate Matrix Synchronized Multi-Recovery Complex",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [],
+        "rating": "width:86.156%",
+        "product_reviews": "1.1K",
+        "ingredients": "-Hyaluronic AcidsWater/Aqua/Eau, Dimethicone, Bifida Ferment Lysate, Isohexadecane, Glycerin, Butylene Glycol, Bis-PEG-18 Methyl Ether Dimethyl Silane, PEG-10 Dimethicone, Disteardimonium Hectorite, Isopropyl Isostearate, PPG-15 Stearyl Ether, Sucrose, Trehalose, Adansonia Digitata Seed Extract, Tripeptide-32, Yeast Extract/Faex/Extrait De Levure, Sodium Hyaluronate, Lactobacillus Ferment, Algae Extract, Sodium RNA, Hydrolyzed Algin, Caffeine, Hydroxyethyl Urea, Aminopropyl Ascorbyl Phosphate, Cucumis Sativus (Cucumber) Fruit Extract, Anthemis Nobilis (Chamomile) Flower Extract, Hordeum Vulgare (Barley) Extract/Extrait D'Orge, Silybum Marianum (Lady's Thistle) Extract, Glycine Soja (Soybean) Seed Extract, Camelina Sativa Seed Oil, Sorbitol, Betula Alba (Birch) Extract, Scutellaria Baicalensis Root Extract, Morus Bombycis (Mulberry) Root Extract, Poria Cocos Sclerotium Extract, Tocopheryl Acetate, Propylene Glycol Dicaprate, Sodium Polyaspartate, Hydrogenated Lecithin, Phytosphingosine, Ethylhexylglycerin, Polysilicone-11, Isododecane, Helianthus Annuus (Sunflower) Seed Extract, Polyethylene, Propylene Carbonate, Polyacrylate Crosspolymer-6, Lecithin, Glucose, Fructose, T-Butyl Alcohol, Disodium EDTA, BHT, Hydroxyacetophenone, Sodium Dehydroacetate, Potassium Sorbate, Phenoxyethanol, Iron Oxides (CI 77491).Please be aware that ingredient lists may change or vary from time to time. Please refer to the ingredient list on the product package you receive for the most up-to-date list of ingredients.",
+        "n_loves": "6.1K",
+        "categories": [
+            "Skincare",
+            "Treatments",
+            "Face Serums"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/estee-lauder-futurist-aqua-brilliance-watery-glow-primer-P460732",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:21:08",
+        "product_name": "Futurist Aqua Brilliance Watery Glow Primer",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.35 oz/ 40 ml"
+                ],
+                "price": [
+                    "$59.50"
+                ],
+                "sku": "Item 2381051"
+            }
+        ],
+        "rating": "width:84.39399999999999%",
+        "product_reviews": "223",
+        "ingredients": "-Ion-Charged Water-Triple Moisture Complex Water\\Aqua\\Eau, Methyl Trimethicone, Butylene Glycol, Glycerin, Glycereth-26, Propanediol, Dimethicone, Sodium Hyaluronate, Tocopheryl Acetate, Squalane, Helianthus Annuus (Sunflower) Seed Extract, Propylene Glycol Dicaprate, Cucumis Sativus (Cucumber) Fruit Extract, Simmondsia Chinensis (Jojoba) Seed Oil, Haberlea Rhodopensis Leaf Extract, Beta Vulgaris (Beet) Root Extract\\Beta Vulgaris\\Extrait De Racine De Betterave, Palmitoyl Tripeptide-1, Artemia Extract, Nymphaea Alba Root Extract, Hordeum Vulgare (Barley) Extract\\Extrait D'Orge, Polygala Senega Root Extract, Berberis Vulgaris Extract, Caffeine, Phenyl Trimethicone, Ascorbyl Glucoside, Betaine, Trehalose, Ethylhexyl Palmitate, Cetyl Peg/Ppg-10/1 Dimethicone, Lauryl Peg-9 Polydimethylsiloxyethyl Dimethicone, Cholesterol, Methyldihydrojasmonate, Methicone, Caprylyl Glycol, Triticum Vulgare (Wheat) Germ Extract, Yeast Extract\\Faex\\Extrait De Levure, Tribehenin, Glucose, Sucrose, Tin Oxide, Dimethicone/Peg-10/15 Crosspolymer, Dipropylene Glycol, Peg-75, Silica Dimethyl Silylate, Sorbitan Isostearate, Polysilicone-11, Synthetic Fluorphlogopite, Xanthan Gum, Polyquaternium-51, Nylon-12, Citric Acid, Sodium Chloride, Disodium Edta, Sodium Citrate, Chlorphenesin, Potassium Sorbate, Phenoxyethanol, Mica, Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491), Bismuth Oxychloride (Ci 77163). Please be aware that ingredient lists may change or vary from time to time. Please refer to the ingredient list on the product package you receive for the most up to date list of ingredients. ",
+        "n_loves": "7.8K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Face Primer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/double-wear-stay-in-place-matte-powder-foundation-P441306",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:21:20",
+        "product_name": "Double Wear Stay-in-Place Matte Refillable Powder Foundation",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.42 oz/ 12 g",
+                "name": [
+                    "Color: 4N1 Shell Beige - medium tan with neutral undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2515526"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.42 oz/ 12 g",
+                "name": [
+                    "Color: 3N1 Ivory Beige - medium with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2515476"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.42 oz/ 12 g",
+                "name": [
+                    "Color: 2N1 Desert Beige - light medium with neutral undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2515419"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.42 oz/ 12 g",
+                "name": [
+                    "Color: 1N2 Ecru - light with neutral rosy undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2515377"
+            }
+        ],
+        "rating": "width:83.46600000000001%",
+        "product_reviews": "75",
+        "ingredients": "Boron Nitride , Polymethylsilsesquioxane , Octyldodecyl Stearoyl Stearate , Silica , Calcium Silicate , Isostearyl Neopentanoate , Tocopheryl Acetate , Dimethicone , Methicone , Phenyl Trimethicone , Talc , Triethoxycaprylylsilane , Trimethylsiloxysilicate , Methyl Methacrylate Crosspolymer , Sodium Lauroyl Aspartate , Caprylyl Glycol , Hexylene Glycol , Zinc Stearate , Isopropyl Titanium Triisostearate , Phenoxyethanol , [+/- Mica , Titanium Dioxide (Ci 77891) , Iron Oxides (Ci 77491) , Iron Oxides (Ci 77492) , Iron Oxides (Ci 77499) , Bismuth Oxychloride (Ci 77163) , Carmine (Ci 75470) , Chromium Hydroxide Green (Ci 77289) , Chromium Oxide Greens (Ci 77288)].\nPlease be aware that ingredient lists may change or vary from time to time. Please refer to the ingredient list on the product package you receive for the most up to date list of ingredients.",
+        "n_loves": "24.1K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Foundation"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/advanced-night-repair-supercharged-eye-gel-cream-P500701",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:21:34",
+        "product_name": "Advanced Night Repair Eye Gel-Cream",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.5 oz / 15 mL"
+                ],
+                "price": [
+                    "$97.00"
+                ],
+                "sku": "Item 2532976"
+            }
+        ],
+        "rating": "width:86.26400000000001%",
+        "product_reviews": "1.8K",
+        "ingredients": "-Hyaluronic Acid: Hydrates. -Vitamin E: Fights free radicals. -FR-Defense\u2122 Technology: Protects against environmental irritation. Water/Aqua/Eau, Dimethicone, Methyl Trimethicone, Bifida Ferment Lysate, Dimethicone/Vinyl Dimethicone Crosspolymer, Propanediol, Petrolatum, Sucrose, Glycerin, Butylene Glycol, Acrylamide/Sodium Acryloyldimethyltaurate Copolymer, Trehalose, Tripeptide-32, Adansonia Digitata Seed Extract, Lavandula Angustifolia (Lavender) Flower Extract, Sodium Hyaluronate, Lactobacillus Ferment, Tocopheryl Acetate, Yeast Extract/Faex/Extrait De Levure, Hypnea Musciformis Extract, Sodium RNA, Caffeine, Squalane, Anthemis Nobilis Flower Oil, Poria Cocos Sclerotium Extract, Citrullus Lanatus (Watermelon) Fruit Extract, Lens Esculenta (Lentil) Fruit Extract, Pyrus Malus (Apple) Fruit Extract, Ethylhexylglycerin, Sodium Pca, Phytosphingosine, Hydrolyzed Algin, Hordeum Distichon (Barley) Extract/Extrait D'Orge A Deux Rangs, Jojoba Esters, Triticum Vulgare (Wheat) Germ Oil, Hydrogenated Lecithin, Lecithin, Isohexadecane, Jojoba Alcohol, Isopropyl Jojobate, PEG/PPG-18/18 Dimethicone, Polysorbate 80, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Tromethamine, Sorbitan Oleate, Sodium Lactate, Polysorbate 40, Potassium Gluconate, Tocopherol, BHT, Phenoxyethanol, Potassium Sorbate, Sodium Benzoate, Iron Oxides (CI 77491), Iron Oxides (CI 77492).",
+        "n_loves": "14.5K",
+        "categories": [
+            "Skincare",
+            "Eye Care",
+            "Eye Creams & Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/double-wear-stay-in-place-flawless-wear-concealer-P379951",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:21:46",
+        "product_name": "Double Wear Stay-In-Place Flawless Wear Concealer",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.24 oz/ 7 mL",
+                "name": [
+                    "Color: 0.5N Ultra Light - lightest with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2228468"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.24 oz/ 7 mL",
+                "name": [
+                    "Color: 1C Light - light with cool pink undertones"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 1465012"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: 1N Light - light with neutral undertones"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 1607175"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: 1W Light - light with warm yellow undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 1607183"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.24 oz/ 7 mL",
+                "name": [
+                    "Color: 2C Light Medium - light medium with cool pink undertones"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 1465004"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.24 oz/ 7 mL",
+                "name": [
+                    "Color: 2N Light Medium - light medium with neutral undertones"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2228450"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.24 oz/ 7 mL",
+                "name": [
+                    "Color: 2W Light Medium - light medium with warm golden undertones"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 1464957"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.24 oz/ 7 mL",
+                "name": [
+                    "Color: 3C Medium - medium with cool, rosy undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 1464999"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.24 oz/ 7 mL",
+                "name": [
+                    "Color: 3N Medium - medium with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2228443"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.24 oz/ 7 mL",
+                "name": [
+                    "Color: 3W Medium - medium with warm golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 1464940"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.24 oz/ 7 mL",
+                "name": [
+                    "Color: 4N Medium Deep - medium deep with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 1464981"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.24 oz/ 7 mL",
+                "name": [
+                    "Color: 4W Medium Deep - medium deep with warm golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2228427"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.24 oz/ 7 mL",
+                "name": [
+                    "Color: 5N Deep - deep with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 1464973"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.24 oz/ 7 mL",
+                "name": [
+                    "Color: 5W Deep - deep with warm golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2228401"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.24 oz/ 7 mL",
+                "name": [
+                    "Color: 6N Extra Deep - extra deep with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 1464965"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.24 oz/ 7 mL",
+                "name": [
+                    "Color: 6W Extra Deep - extra deep with warm golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2228385"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 1814136"
+            }
+        ],
+        "rating": "width:84.81400000000001%",
+        "product_reviews": "378",
+        "ingredients": "Water\\Aqua\\Eau, Cyclopentasiloxane, Trimethylsiloxysilicate, Phenyl Trimethicone, Butylene Glycol, Boron Nitride, Sorbitan Sesquioleate, Peg/Ppg-18/18 Dimethicone, Tribehenin, Magnesium Sulfate, Tocopheryl Acetate, Sodium Hyaluronate, Ethylhexylglycerin, Dimethicone, Methicone, Laureth-7, Glycerin, Cetyl Peg/Ppg-10/1 Dimethicone, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Xanthan Gum, Alumina, Trisiloxane, Dimethicone Silylate, Sorbic Acid, Phenoxyethanol, Chlorphenesin, [+/- Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Titanium Dioxide (Ci 77891), Mica].\nPlease be aware that ingredient lists may change or vary from time to time. Please refer to the ingredient list on the product package you receive for the most up to date list of ingredients.",
+        "n_loves": "44.9K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Concealer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/advanced-night-cleansing-gelee-foam-with-15-amino-acids-P507328",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:22:12",
+        "product_name": "Advanced Night Cleansing Gel\u00e9e Foam with 15 Amino Acids",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 2.4 oz / 100 ml",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$45.00"
+                ],
+                "sku": "Item 2708576"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "-Sodium Hyaluronate: Hydrates.Water/Aqua/Eau, Sodium Laureth Sulfate, Acrylates Copolymer, Lauramidopropyl Betaine, Glycerin, Butylene Glycol, Sucrose, Lilium Tigrinum Extract, Sodium Hyaluronate, Arginine, Tyrosine, Glutamic Acid, Aspartic Acid, Histidine, Glycine, Lysine, Threonine, Valine, Proline, Leucine, Alanine, Isoleucine, Serine, Phenylalanine, Caffeine, Citrullus Lanatus (Watermelon) Fruit Extract, Lens Esculenta (Lentil) Fruit Extract, Pyrus Malus (Apple) Fruit Extract, Anthemis Nobilis (Chamomile) Flower Extract, Lavandula Angustifolia (Lavender) Oil, Laminaria Saccharina Extract, Sodium PCA, Caprylyl Glycol, Methyldihydrojasmonate, Glucose, Sodium Lactate, Glucose Oxidase, Lactoperoxidase, Disodium Cocoamphodiacetate, Sodium Chloride, Xanthan Gum, Potassium Hydroxide, Polysorbate 20, Citric Acid, Polyquaternium-7, Potassium Phosphate, Linalool, Disodium EDTA, Phenoxyethanol, Sodium Benzoate, Potassium Sorbate, Yellow 5 (CI 19140), Red 33 (CI 17200).",
+        "n_loves": "26",
+        "categories": [
+            "Skincare",
+            "Cleansers",
+            "Face Wash & Cleansers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/resilience-lift-firming-sculpting-face-neck-creme-broad-spectrum-spf-15-normal-combination-P380012",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:22:26",
+        "product_name": "Resilience Multi-Effect Tri-Peptide Face and Neck Cr\u00e8me",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [],
+        "rating": "width:67.19999999999999%",
+        "product_reviews": "25",
+        "ingredients": "-Tri-Peptide: Visibly plumps and boosts radiance.-Sodium Hyaluronate: Hydrates.-Antioxidants: Fight collagen degradation. Water/Aqua/Eau, Neopentyl Glycol Diheptanoate, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Octocrylene, Cetyl Alcohol, Glycerin, Butyloctyl Salicylate, Pentaerythrityl Tetraethylhexanoate, Polyethylene, Di-C12-15 Alkyl Fumarate, Petrolatum, Hydrogenated Lecithin, Butylene Glycol, Propanediol, Hydrogenated Polyisobutene, Octyldodecyl Myristate, Hexyldecyl Stearate, Behenyl Alcohol, Cucumis Melo (Melon) Fruit Extract, Polygonum Aviculare Extract, Myrtus Communis Leaf Extract, Laminaria Digitata Extract, Acetyl Hexapeptide-8, Tetradecyl Aminobutyroylvalylaminobutyric Urea Trifluoroacetate, Lactoperoxidase, Glucose Oxidase, Cholesterol, Propylene Glycol Dicaprylate, Aminopropyl Ascorbyl Phosphate, Sodium Hyaluronate, Glucose, Algae Extract, Artemia Extract, Acetyl Glucosamine, Sigesbeckia Orientalis (St. Paul'S Wort) Extract, Glyceryl Stearate, Persea Gratissima (Avocado) Oil, Dimethicone, C12-16 Alcohols, Trehalose, Ethylhexylglycerin, PEG-100 Stearate, Caffeine, Palmitic Acid, Glycine Soja (Soybean) Sterols, Caprylyl Glycol, Isohexadecane, Polymethyl Methacrylate, Trifluoroacetyl Tripeptide-2, Tocopheryl Acetate, Zinc PCA, Polysilicone-11, Polysorbate 80, Yeast Extract/Faex/Extrait De Levure, Potato Starch Modified, Decarboxy Carnosine HCL, Xanthan Gum, Fragrance (Parfum), Sodium Hydroxide, Potassium Sulfate, Acrylamide/Sodium Acryloyldimethyltaurate Copolymer, Dextran, Hexylene Glycol, Disodium EDTA, BHT, Potassium Sorbate, Phenoxyethanol, Red 4 (CI 14700), Mica, Titanium Dioxide (CI 77891).",
+        "n_loves": "6.1K",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Moisturizers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/double-wear-stay-in-place-makeup-pump-P427045",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:22:36",
+        "product_name": "Double Wear Foundation Pump",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [],
+        "rating": "width:66.382%",
+        "product_reviews": "141",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "21K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Foundation"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/double-wear-stay-in-place-makeup-P378284",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:22:46",
+        "product_name": "Double Wear Stay-in-Place Foundation",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 6C1 Rich Cocoa - very deep with cool, subtle red undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1465228"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz",
+                "name": [
+                    "Color: 6C2 Pecan - very deep with cool red undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1778539"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz",
+                "name": [
+                    "Color: 6N1 Mocha - very deep with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1778521"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz",
+                "name": [
+                    "Color: 6N2 Truffle - very deep with neutral, subtle brown undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1778588"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 6W1 Sandalwood - very deep with warm golden undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1465087"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz",
+                "name": [
+                    "Color: 6W2 Nutmeg - very deep with warm brown undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1778547"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz",
+                "name": [
+                    "Color: 7C1 Rich Mahogany - extra deep with cool red undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1778596"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 7C2 Sienna - extra deep with cool, rich-red undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2112209"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz",
+                "name": [
+                    "Color: 7N1 Deep Amber - extra deep with neutral brown undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1778562"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz",
+                "name": [
+                    "Color: 7W1 Deep Spice - extra deep with warm golden undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1778554"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 2C1 Pure Beige - light medium with cool, pink-peach undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1465178"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 8C1 Rich Java - deepest with cool brown undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2112217"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 2C3 Fresco - light medium with cool rosy beige undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1465368"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz",
+                "name": [
+                    "Color: 8N1 Espresso - deepest with neutral, rich-brown undertone",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1778570"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 2C4 Ivory Rose - light medium with cool rosy undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2112100"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 9N1 Ebony - the most deep with rich neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2602043"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 2N1 Desert Beige - light medium with neutral undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1465327"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 2N2 Buff - light medium with neutral, subtle golden undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2052835"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 2W0 Warm Vanilla - light medium with warm yellow undertone"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1854454"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 2W1 Dawn - light medium with warm peach undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1465152"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 2W2 Rattan - light medium with warm olive undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1465160"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 3C1 Dusk - medium with cool, rosy-peach undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1465285"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 3C2 Pebble - medium with cool rosy undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1465350"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 0N1 Alabaster - lightest with neutral undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2112183"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 1C1 Cool Bone - light with cool, rosy-peach undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1465194"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 1C0 Shell - very light with cool pink undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2052827"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 1N0 Porcelain - very light with neutral undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2112084"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 1N1 Ivory Nude - light with neutral peach undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1465186"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 1N2 Ecru - light with neutral rosy undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1465301"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 1W0 Warm Porcelain - very light with warm peach undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2112092"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 1W1 Bone - light with warm undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1465293"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 1W2 Sand - light with warm, subtle olive undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1465277"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 2C0 Cool Vanilla - light medium with cool pink undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1854447"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 3C3 Sandbar - medium with cool, rosy-beige undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2112118"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 3N1 Ivory Beige - medium with neutral undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1465335"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 3N2 Wheat - medium with neutral, subtle golden undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1465269"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 3W1 Tawny - medium with warm golden undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1469782"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 3W1.5 Fawn - medium with warm, golden-olive undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2052843"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 3W2 Cashew - medium with warm olive undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1465145"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 4C1 Outdoor Beige - medium tan with cool rosy undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2112126"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 4C2 Auburn - medium tan with cool red undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2112134"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 4C3 Softan - medium tan with cool, rosy-beige undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1465251"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 4N1 Shell Beige - medium tan with neutral undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1465343"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 4N2 Spiced Sand - medium tan with neutral, subtle golden undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1465137"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 4N3 Maple Sugar - medium tan with neutral red undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2112142"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 4W1 Honey Bronze - medium tan with warm golden undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1465129"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 4W2 Toasty Toffee - medium tan with warm olive undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1465111"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 4W3 Henna - medium tan with warm red undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2112159"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 4W4 Hazel - medium tan with warm, golden-olive undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2112167"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 5C1 Rich Chestnut - deep with cool, subtle red undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1465236"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 5C2 Sepia - deep with cool red undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2112191"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 5N1 Rich Ginger - deep with neutral undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1465319"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 5N1.5 Maple Deep - deep with neutral, golden-red undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2112175"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 5N2 Amber Honey - deep with neutral, subtle golden undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1465103"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 5W1 Bronze Deep - deep with warm golden undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1465244"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 5W1.5 Cinnamon - deep with warm olive undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 2052850"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 5W2 Rich Caramel - deep with warm yellow undertones"
+                ],
+                "price": [
+                    "$66.50"
+                ],
+                "sku": "Item 1465202"
+            }
+        ],
+        "rating": "width:87.492%",
+        "product_reviews": "7.2K",
+        "ingredients": "Double Wear Stay-In-Place Non Otc Division: El (Estee Lauder)Ingredients: Water, Cyclopentasiloxane, Trimethylsiloxysilicate, Peg/Ppg-18/18 Dimethicone, Butylene Glycol, Tribehenin, Polyglyceryl-3 Diisostearate, Magnesium Sulfate, Tocopheryl Acetate, Polymethylsilsesquioxane, Methicone, Laureth-7, Xanthan Gum, Alumina, Sodium Dehydroacetate, Disteardimonium Hectorite, Cellulose Gum, Propylene Carbonate, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Phenoxyethanol, [+/- Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Mica, Titanium Dioxide (Ci 77891)] Please be aware that ingredient lists may change or vary from time to time.\ufffd Please refer to the ingredient list on the product package you receive for the most up to date list of ingredients.",
+        "n_loves": "678K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Foundation"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/advanced-night-repair-concentrated-recovery-eye-mask-P417359",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:23:40",
+        "product_name": "Advanced Night Repair Concentrated Eye Treatment Mask",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 4 pairs"
+                ],
+                "price": [
+                    "$57.00"
+                ],
+                "sku": "Item 1890631"
+            }
+        ],
+        "rating": "width:84.286%",
+        "product_reviews": "14",
+        "ingredients": "Water, Methyl Gluceth-20, Peg-75, Bis-Peg-18 Methyl Ether Dimethyl Silane, Butylene Glycol, Propanediol, Glycereth-26, Cladosiphon Okamuranus Extract, Silybum Marianum (Lady'S Thistle) Extract, Echinacea Purpurea (Coneflower) Extract, Garcinia Mangostana Peel Extract, Anthemis Nobilis (Chamomile) Flower Extract, Caffeine, Coffea Arabica (Coffee) Seed Extract, Artemia Extract, Betula Alba (Birch) Extract, Poria Cocos Sclerotium Extract, Hydrolyzed Rice Extract, Camelina Sativa Seed Oil, Algae Extract, Lactobacillus Ferment, Hydrolyzed Algin, Squalane, C12-15 Alkyl Benzoate, Yeast Extract/Faex/Extrait De Levure, Caprylyl Glycol, Tocopheryl Acetate, Peg-8 Glyceryl Isostearate, Polysorbate 20, Glycine, Carbomer, Sodium Hyaluronate, Dextrin, Xanthan Gum, Sodium Hydroxide, Lecithin, Triethoxycaprylylsilane, Polyhydroxystearic Acid, Trisodium Edta, Phenoxyethanol, Iron Oxides (Ci 77491).Please be aware that ingredient lists may change or vary from time to time. Please refer to the ingredient list on the product package you receive for the most up-to-date list of ingredients.",
+        "n_loves": "14.7K",
+        "categories": [
+            "Skincare",
+            "Eye Care",
+            "Eye Creams & Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/the-mattifier-shine-control-perfecting-primer-finisher-P422280",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:23:51",
+        "product_name": "The Mattifier Shine Control Perfecting Primer + Finisher",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL"
+                ],
+                "price": [
+                    "$56.00"
+                ],
+                "sku": "Item 1930320"
+            }
+        ],
+        "rating": "width:79.584%",
+        "product_reviews": "48",
+        "ingredients": "Water\\Aqua\\Eau, Dimethicone, Cyclopentasiloxane, Polysilicone-11, Silica, Dimethicone Silylate, Sucrose, Isopentyldiol, Hypnea Musciformis (Algae) Extract, Gellidiela Acerosa (Algae) Extract, Poria Cocos Sclerotium Extract, Camellia Sinensis (Green Tea) Leaf Extract, Vitis Vinifera (Grape) Fruit Extract, Scutellaria Baicalensis Root Extract, Laminaria Saccharina Extract, Morus Bombycis (Mulberry) Root Extract, Algae Extract, Caffeine, Amorphophallus Konjac Root Powder, Peg-10 Dimethicone, Polysorbate 20, Ammonium Acryloyldimethyltaurate/Vp Copolymer, Hdi/Trimethylol Hexyllactone Crosspolymer, Peg/Ppg-18/18 Dimethicone, Saccharide Isomerate, Laureth-7, Sodium Hyaluronate, Stearyl Dimethicone, Butylene Glycol, Polyethylene, Isododecane, Acrylates/Ethylhexyl Acrylate Copolymer, Laureth-21, Caprylyl Glycol, Tocopheryl Acetate, Magnesium Myristate, Magnesium Ascorbyl Phosphate, Triethoxycaprylylsilane, Hexylene Glycol, Phenoxyethanol, [+/- Titanium Dioxide (Ci 77891), Mica, Bismuth Oxychloride (Ci 77163), Iron Oxides (Ci 77491, Ci 77492, Ci 77499)].Please be aware that ingredient lists may change or vary from time to time. Please refer to the ingredient list on the product package you receive for the most up-to-date list of ingredients.",
+        "n_loves": "9.7K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Face Primer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/perfectly-clean-multi-action-toning-lotion-refiner-P380030",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:24:03",
+        "product_name": "Perfectly Clean Multi-Action Toning Lotion/Refiner ",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 6.7 oz/ 198 mL"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 1521475"
+            }
+        ],
+        "rating": "width:82.66600000000001%",
+        "product_reviews": "30",
+        "ingredients": "Perfectly Clean Mlt-Act Tng Ltn/Rf   Division: El (Estee Lauder)Ingredients: Water , Alcohol Denat. , Glycerin , Butylene Glycol , Hypnea Musciformis (Algae) Extract , Gellidiela Acerosa (Algae) Extract , Hamamelis Virginiana (Witch Hazel) , Silybum Marianum (Lady'S Thistle) Extract , Bambusa Vulgaris (Bamboo) Extract , Pisum Sativum (Pea) Extract , Gentiana Lutea (Gentian) Root Extract , Algae Extract , Oryza Sativa (Rice) Bran Extract , Yeast Extract/Faex/Extrait De Levure , Sucrose , Trehalose , Lactobionic Acid , Peg-40 Hydrogenated Castor Oil , Sorbitol , Caffeine , Dipotassium Glycyrrhizate , Biosaccharide Gum - 1 , Ppg-26-Buteth-26 , Sodium Hyaluronate , Zinc Pca , Pentylene Glycol , Ppg-5-Ceteth-20 , Sodium Hydroxide , Glucosamine Hcl , Fragrance , Phytic Acid , Potassium Sorbate , Disodium Edta , Phenoxyethanol.Please be aware that ingredient lists may change or vary from time to time. Please refer to the ingredient list on the product package you receive for the most up to date list of ingredients.",
+        "n_loves": "5.9K",
+        "categories": [
+            "Skincare",
+            "Cleansers",
+            "Toners"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/estee-lauder-revitalizing-supreme-youth-power-creme-moisturizer-P479839",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:24:14",
+        "product_name": "Revitalizing Supreme+ Youth Power Creme Moisturizer",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.69 oz/ 50 mL"
+                ],
+                "price": [
+                    "$135.00"
+                ],
+                "sku": "Item 2532232"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2.5 oz/ 75 mL"
+                ],
+                "price": [
+                    "$165.00"
+                ],
+                "sku": "Item 2532240"
+            }
+        ],
+        "rating": "width:86.408%",
+        "product_reviews": "2.8K",
+        "ingredients": "-Cactus Stem Cell Extract and Hyaluronic Acid-Exclusive Moringa Extract-Exclusive Hibiscus Morning Bloom ExtractWater/Aqua/Eau, Dimethicone, Glycerin, Isohexadecane, Butylene Glycol, Bis-PEG-18 Methyl Ether Dimethyl Silane, PEG-10 Dimethicone, Disteardimonium Hectorite, Moringa Oleifera Seed Extract, Hibiscus Sinensis Flower Extract, Sodium Hyaluronate, Acetyl Hexapeptide-8, Laminaria Digitata Extract, Whey Protein/Lactis Protein/Proteine Du Petit-Lait, Opuntia Tuna Extract, Acetyl Glucosamine, Tocopheryl Acetate, Narcissus Tazetta Bulb Extract, Squalane, Algae Extract, Hypnea Musciformis (Algae) Extract, Pyrus Malus (Apple) Fruit Extract, Cucumis Sativus (Cucumber) Fruit Extract, Lens Esculenta (Lentil) Fruit Extract, Citrullus Lanatus (Watermelon) Fruit Extract, Silybum Marianum (Lady's Thistle) Extract, Gelidiella Acerosa Extract, Helianthus Annuus (Sunflower) Seed Extract, Sigesbeckia Orientalis (St. Paul's Wort) Extract, Caffeine, Hordeum Vulgare (Barley) Extract/Extrait D'Orge, Sodium Lactate, Triticum Vulgare (Wheat) Germ Extract, Sorbitol, Propylene Glycol Dicaprate, Sucrose, Sodium PCA, Aminopropyl Ascorbyl Phosphate, Pentylene Glycol, Caprylyl Glycol, Propylene Carbonate, Polyethylene, Polysilicone-11, PEG-32, PEG-6, Disodium EDTA, Isoceteth-20, Isododecane, Citric Acid, Fragrance (Parfum), BHT, Sodium Citrate, Potassium Sorbate, Sodium Dehydroacetate, Sodium Benzoate, Phenoxyethanol, Iron Oxides (CI 77491).",
+        "n_loves": "6.5K",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Moisturizers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/advanced-night-cleansing-balm-with-lipid-rich-oil-infusion-P506698",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:24:27",
+        "product_name": "Advanced Night Cleansing Balm with Lipid Rich Oil-Infusion",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "NEW",
+                "size": null,
+                "name": [
+                    "Size: 2.4 oz / 70 ml",
+                    "NEW"
+                ],
+                "price": [
+                    "$65.00"
+                ],
+                "sku": "Item 2709087"
+            }
+        ],
+        "rating": "width:100%",
+        "product_reviews": "1",
+        "ingredients": "-Safflower Oil 25%: Nourishes and replenishes skin for a soft, supple feel.Ethylhexyl Palmitate, Carthamus Tinctorius (Safflower) Seed Oil, Caprylic/Capric Triglyceride, Sorbeth-30 Tetraoleate, Polyethylene, PEG-5 Glyceryl Triisostearate, Water/Aqua/Eau, Silybum Marianum (Lady'S Thistle) Extract, Polygonum Cuspidatum Root Extract, Algae Extract, Anthemis Nobilis (Chamomile), Lavandula Angustifolia (Lavender), Methyldihydrojasmonate, Tocopherol, BHT, Linalool, Phenoxyethanol.",
+        "n_loves": "133",
+        "categories": [
+            "Skincare",
+            "Cleansers",
+            "Face Wash & Cleansers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/estee-lauder-futurist-hydrating-rescue-moisturizing-foundation-spf-45-P454063",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:24:38",
+        "product_name": "Futurist Hydra Rescue Moisturizing Foundation SPF 45",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1.2 fl oz/ 35 mL",
+                "name": [
+                    "Color: 8N2 Rich Espresso - deepest with neutral rich-brown undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$69.00"
+                ],
+                "sku": "Item 2324382"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.2 fl oz/ 35 mL",
+                "name": [
+                    "Color: 1C1 Cool Bone - light with cool, rosy-peach undertones"
+                ],
+                "price": [
+                    "$69.00"
+                ],
+                "sku": "Item 2422863"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.2 fl oz/ 35 mL",
+                "name": [
+                    "Color: 1N0 Porcelain - very light with neutral undertones"
+                ],
+                "price": [
+                    "$69.00"
+                ],
+                "sku": "Item 2324531"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.2 fl oz/ 35 mL",
+                "name": [
+                    "Color: 1N2 Ecru - light with neutral rosy undertones"
+                ],
+                "price": [
+                    "$69.00"
+                ],
+                "sku": "Item 2324523"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 1.2 fl oz/ 35 mL",
+                "name": [
+                    "Color: 1W1 Bone - light with warm undertones",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$69.00"
+                ],
+                "sku": "Item 2422871"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1.2 fl oz/ 35 mL",
+                "name": [
+                    "Color: 1W2 Sand - light with warm, subtle olive undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$69.00"
+                ],
+                "sku": "Item 2324515"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1.2 fl oz/ 35 mL",
+                "name": [
+                    "Color: 2C1 Pure Beige - light medium with cool, pink-peach undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$69.00"
+                ],
+                "sku": "Item 2422889"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.2 fl oz/ 35 mL",
+                "name": [
+                    "Color: 2C3 Fresco - light medium with cool rosy beige undertones"
+                ],
+                "price": [
+                    "$69.00"
+                ],
+                "sku": "Item 2324507"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.2 fl oz/ 35 mL",
+                "name": [
+                    "Color: 2N1 Desert Beige - light medium with neutral undertones"
+                ],
+                "price": [
+                    "$69.00"
+                ],
+                "sku": "Item 2324499"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.2 fl oz/ 35 mL",
+                "name": [
+                    "Color: 2N2 Buff - light medium with neutral, subtle golden undertones"
+                ],
+                "price": [
+                    "$69.00"
+                ],
+                "sku": "Item 2422897"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1.2 fl oz/ 35 mL",
+                "name": [
+                    "Color: 2W1 Dawn - light medium with warm peach undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$69.00"
+                ],
+                "sku": "Item 2324481"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1.2 fl oz/ 35 mL",
+                "name": [
+                    "Color: 3C2 Pebble - medium with cool rosy undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$69.00"
+                ],
+                "sku": "Item 2324473"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.2 fl oz/ 35 mL",
+                "name": [
+                    "Color: 3N1 Ivory Beige - medium with neutral undertones"
+                ],
+                "price": [
+                    "$69.00"
+                ],
+                "sku": "Item 2324465"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1.2 fl oz/ 35 mL",
+                "name": [
+                    "Color: 3N2 Wheat - medium with neutral, subtle golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$69.00"
+                ],
+                "sku": "Item 2324457"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1.2 fl oz/ 35 mL",
+                "name": [
+                    "Color: 3W1 Tawny - medium with warm golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$69.00"
+                ],
+                "sku": "Item 2324440"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1.2 fl oz/ 35 mL",
+                "name": [
+                    "Color: 3W2 Cashew - medium with warm olive undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$69.00"
+                ],
+                "sku": "Item 2422905"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1.2 fl oz/ 35 mL",
+                "name": [
+                    "Color: 4N1 Shell Beige - medium tan with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$69.00"
+                ],
+                "sku": "Item 2324432"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1.2 fl oz/ 35 mL",
+                "name": [
+                    "Color: 4W1 Honey Bronze - medium tan with warm golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$69.00"
+                ],
+                "sku": "Item 2324424"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1.2 fl oz/ 35 mL",
+                "name": [
+                    "Color: 5N2 Amber Honey - deep with neutral, subtle golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$69.00"
+                ],
+                "sku": "Item 2324374"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1.2 fl oz/ 35 mL",
+                "name": [
+                    "Color: 5W1 Bronze - deep with warm golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$69.00"
+                ],
+                "sku": "Item 2324416"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1.2 fl oz/ 35 mL",
+                "name": [
+                    "Color: 5W2 Rich Caramel - deep with warm yellow undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$69.00"
+                ],
+                "sku": "Item 2422921"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1.2 fl oz/ 35 mL",
+                "name": [
+                    "Color: 6C1 Rich Cocoa - very deep with cool, subtle red undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$69.00"
+                ],
+                "sku": "Item 2324366"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1.2 fl oz/ 35 mL",
+                "name": [
+                    "Color: 6W1 Sandalwood - very deep with warm golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$69.00"
+                ],
+                "sku": "Item 2324408"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1.2 fl oz/ 35 mL",
+                "name": [
+                    "Color: 7N2 Rich Amber - extra deep with warm golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$69.00"
+                ],
+                "sku": "Item 2324390"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1.2 fl oz/ 35 mL",
+                "name": [
+                    "Color: 7W2 Rich Spice - extra deep with neutral brown undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$69.00"
+                ],
+                "sku": "Item 2324358"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1.2 fl oz/ 35 mL",
+                "name": [
+                    "Color: 8C2 Intense Java - deepest with cool brown undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$69.00"
+                ],
+                "sku": "Item 2324341"
+            }
+        ],
+        "rating": "width:82.06200000000001%",
+        "product_reviews": "582",
+        "ingredients": "Ensulizole 2.7%, Octinoxate 6.7%, Octisalate 4.5%, Zinc Oxide 3.8%Ingredients: Water\\Aqua\\Eau, Dimethicone, Phenyl Trimethicone, Butylene Glycol, Glycerin, Polymethylsilsesquioxane, Lauryl Peg-9 Polydimethylsiloxyethyl Dimethicone, Hdi/Ppg/Polycaprolactone Crosspolymer, Trimethylsiloxysilicate/Dimethiconol Crosspolymer, Tromethamine, Polysilicone-11, Hexyl Laurate, Cetyl Peg/Ppg-10/1 Dimethicone, Lactobacillus Ferment, Cucumis Sativus (Cucumber) Fruit Extract, Sodium Hyaluronate, Salvia Hispanica Seed Extract, Hylocereus Undatus Fruit Extract, Helianthus Annuus (Sunflower) Seedcake, Algae Extract, Euterpe Oleracea Fruit Oil, Carapa Guaianensis Seed Oil, Caffeine, Jojoba Esters, Tremella Fuciformis Sporocarp Extract, Camelina Sativa Seed Oil, Sapindus Mukorossi Fruit Extract, Caesalpinia Spinosa Gum, Copaifera Officinalis (Balsam Copaiba) Resin, Caprylic/Capric Triglyceride, Propylene Glycol Dicaprate, Acetyl Glucosamine, Tocopheryl Acetate, Acetyl Hexapeptide-8, Lecithin, Trehalose, Disteardimonium Hectorite, Hydroxyethyl Urea, Neopentyl Glycol Diheptanoate, Dimethicone/Divinyldimethicone Silsesquioxane Crosspolymer, Hydrogenated Coco-Glycerides, Phospholipids, Trimethylsiloxysilicate, Polyhydroxystearic Acid, Polyglyceryl-4 Isostearate, Glyceryl Stearate, Triethoxycaprylylsilane, Triethyl Citrate, Laureth-7, Linoleic Acid, Methicone, Stearyl Alcohol, Cetearyl Alcohol, Ammonium Polyacryloyldimethyl Taurate, Silica, Hordeum Vulgare (Barley) Extract\\Extrait D'Orge, Tocopherol, Palmitic Acid, Phytosteryl Canola Glycerides, Stearic Acid, Oleic Acid, Sodium Chloride, Polysorbate 80, Polysorbate 20, Behenyl Alcohol, Triolein, Betaine, Fragrance (Parfum), Disodium Edta, Bht, Phenoxyethanol, Sodium Dehydroacetate, Potassium Sorbate,  [+/- Mica, Iron Oxides (Ci 77491), Iron Oxides (Ci 77492), Iron Oxides (Ci 77499), Titanium Dioxide (Ci 77891)].Please be aware that ingredient lists may change or vary from time to time. Please refer to the ingredient list on the product package you receive for the most up-to-date list of ingredients.",
+        "n_loves": "50.6K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Foundation"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nutritious-airy-lotion-moisturizer-P507586",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:25:08",
+        "product_name": "Nutritious Airy Lotion Moisturizer",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "NEW",
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz / 100 ml",
+                    "NEW"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2708592"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "-Responsibly Sourced Sweet Kelp: Fights oiliness and minimizes the appearance of pores.-Responsibly Sourced Red Algae Ferment: Soothes and reduces visible redness.-Proprietary Coconut Water Ferment: Hydrates and nourishes.Water/Aqua/Eau, Coco-Caprylate/Caprate, Propylene Glycol Dicaprylate/Dicaprate, Propanediol, Glycerin, Niacinamide, Polyglyceryl-3 Methylglucose Distearate, Butylene Glycol, Laminaria Saccharina Extract, Porphyridium Cruentum Extract, Lactobacillus Ferment, Hydrolyzed Rice Extract, Punica Granatum (Pomegranate) Extract, Zinc PCA, Dipotassium Glycyrrhizate, Camellia Sinensis (Green Tea) Leaf Extract, Sodium Hyaluronate, Caffeine, Narcissus Tazetta Bulb Extract, Cucumis Sativus (Cucumber) Fruit Extract, Helianthus Annuus (Sunflower) Seed Extract, Hordeum Vulgare Extract/Extrait D'Orge, Sucrose (Organic Brown Sugar), Tocopheryl Acetate, Sodium Phytate, Citric Acid, Propylene Glycol Dicaprate, Caprylyl Glycol, Dicaprylyl Carbonate, Hexylene Glycol, Hydrogenated Lecithin, Potassium Cetyl Phosphate, Glyceryl Stearate, Sodium Hydroxide, Sodium Benzoate, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Ammonium Acryloyldimethyltaurate/VP Copolymer, Phenoxyethanol.",
+        "n_loves": "44",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Moisturizers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/estee-lauder-revitalizing-supreme-bright-power-soft-milky-lotion-P481083",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:25:20",
+        "product_name": "Revitalizing Supreme+ Bright Power Soft Milky Lotion",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$132.00"
+                ],
+                "sku": "Item 2561249"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "-Moringa Extract: Amplifies collagen production.-Hyaluronic Acid: Hydrates.-Vitamin C: Antioxidant.Water\\Aqua\\Eau, Isononyl Isononanoate, Propanediol, Glycerin, Butylene Glycol, Dimethicone, Phenyl Trimethicone, Ascorbyl Glucoside, Peg-100 Stearate, Moringa Oleifera Seed Extract, Callicarpa Japonica Fruit Extract, Sodium Hyaluronate, Acetyl Hexapeptide-8, Laminaria Digitata Extract, Whey Protein\\Lactis Protein\\Proteine Du Petit-Lait, Opuntia Tuna Extract, Acetyl Glucosamine, Molasses Extract\\Saccharum Officinarum\\Extrait De Melasse, Tocopheryl Acetate, Narcissus Tazetta Bulb Extract, Pyrus Malus (Apple) Fruit Extract, Cucumis Sativus (Cucumber) Fruit Extract, Lens Esculenta (Lentil) Fruit Extract, Citrullus Lanatus (Watermelon) Fruit Extract, Laminaria Saccharina Extract, Helianthus Annuus (Sunflower) Seed Extract, Sigesbeckia Orientalis (St. Paul'S Wort) Extract, Caffeine, Hordeum Vulgare (Barley) Extract\\Extrait D'Orge, Sodium Lactate, Porphyridium Cruentum Extract, Sodium Polyaspartate, Sorbitol, Propylene Glycol Dicaprate, Caprylyl Glycol, Sodium Pca, Hydroxyethyl Urea, Sucrose, Citric Acid, Dehydroxanthan Gum, Peg-20 Glyceryl Triisostearate, Isoceteth-20, Sodium Hydroxide, Diphenylsiloxy Phenyl Trimethicone, Glyceryl Isostearate, Dimethiconol, Hexylene Glycol, Carbomer, Steareth-21, Disodium Edta, Sodium Citrate, Chlorphenesin, Sodium Benzoate, Potassium Sorbate, Phenoxyethanol, Fragrance (Parfum), Bht.",
+        "n_loves": "127",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Moisturizers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/double-wear-radiant-concealer-P448451",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:25:40",
+        "product_name": "Double Wear Radiant Concealer",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10 mL",
+                "name": [
+                    "Color: 1N Light - light with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2228344"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10 mL",
+                "name": [
+                    "Color: 1C Light - light with cool pink undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2228336"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10 mL",
+                "name": [
+                    "Color: 2N Light Medium - light medium with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2228302"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10 mL",
+                "name": [
+                    "Color: 3N Medium - medium with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2228278"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10 mL",
+                "name": [
+                    "Color: 3W Medium - medium with warm golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2228260"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10 mL",
+                "name": [
+                    "Color: 4N Medium Deep - medium deep with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2228245"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10 mL",
+                "name": [
+                    "Color: 4C Medium Deep - medium deep with cool rosy undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2228252"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10 mL",
+                "name": [
+                    "Color: 5N Deep - deep with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2228211"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10 mL",
+                "name": [
+                    "Color: 6N Extra Deep - extra deep with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2228187"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10 mL",
+                "name": [
+                    "Color: 7N Ultra Deep - ultra deep with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2228153"
+            }
+        ],
+        "rating": "width:65.264%",
+        "product_reviews": "38",
+        "ingredients": "-Camelina Oil and Kukui Oils: Rich in vitamins to help keep skin moisturized.-Bilberry Seed Oil: Helps skin appear glowy and healthy.-Chia Extract: Rich in Omega 3s, it\u2019s known to help minimize the appearance of fine dry lines.Water, Hydrogenated Didecene, Hydrogenated Polyisobutene, Trimethylsiloxysilicate, Cetyl Peg/Ppg-10/1 Dimethicone, Glycerin, Polymethylsilsesquioxane, Disteardimonium Hectorite, Nymphaea Caerulea Flower Extract, Nelumbo Nucifera Flower Extract, Calendula Officinalis Flower Extract, Rosmarinus Officinalis (Rosemary) Leaf Extract, Vaccinium Myrtillus Seed Oil, Salvia Hispanica Seed Oil, Camelina Sativa Seed Oil, Helianthus Annuus (Sunflower) Seed Oil, Aleurites Moluccana (Kukui) Seed Oil, Methicone, Propylene Glycol, Caprylyl Glycol, 1,2-Hexanediol, Lauryl Peg-8 Dimethicone, Hdi/Trimethylol Hexyllactone Crosspolymer, Hydrogenated Styrene/ Isoprene Copolymer, Tocopheryl Acetate, Talc, Propanediol, Sodium Chloride, Sodium Dehydroacetate, Trisodium Ethylenediamine Disuccinate, Silica, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate. May Contain (+/-): Mica, Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491), Iron Oxides (Ci 77492), Iron Oxides (Ci 77499).*Please be aware that ingredient lists may change or vary from time to time. Please refer to the ingredient list on the product package you receive for the most up to date list of ingredients.",
+        "n_loves": "7.9K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Concealer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/daywear-eye-cooling-anti-oxidant-moisture-gelcreme-P427640",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:25:58",
+        "product_name": "DayWear Eye Cooling Anti-Oxidant Moisture GelCreme",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.5 oz/ 15 mL"
+                ],
+                "price": [
+                    "$63.00"
+                ],
+                "sku": "Item 2032068"
+            }
+        ],
+        "rating": "width:85.45400000000001%",
+        "product_reviews": "11",
+        "ingredients": "Daywear Eye Jelly   Division: El (Estee Lauder)Ingredients: Water, Dimethicone, Butylene Glycol, Trisiloxane, Glycerin, Ammonium Acryloyldimethyltaurate/Vp Copolymer, Trehalose, Sucrose, Algae Extract, Cucumis Sativus (Cucumber) Fruit Extract, Ascophyllum Nodosum Extract, Asparagopsis Armata Extract, Ergothioneine, Thermus Thermophillus Ferment, Dipotassium Glycyrrhizate, Sodium Hyaluronate, Caffeine, Artemia Extract, Acetyl Glucosamine, Palmaria Palmata Extract, Hydrolyzed Rice Extract, Lauryl Pca, Oleth-10, Lauryl Peg-9 Polydimethylsiloxyethyl Dimethicone, Sorbitol, Sodium Pca, Urea, Tetrahexyldecyl Ascorbate, Tocopheryl Acetate, Carbomer, Citric Acid, Polyquaternium-51, Ethylbisiminomethylguaiacol Manganese Chloride, Potassium Sorbate, Cyclodextrin, Tromethamine, Disodium Edta, Bht, Phenoxyethanol, Yellow 5 (Ci 19140), Blue 1 (Ci 42090) .Please be aware that ingredient lists may change or vary from time to time. Please refer to the ingredient list on the product package you receive for the most up-to-date list of ingredients.",
+        "n_loves": "2.3K",
+        "categories": [
+            "Skincare",
+            "Eye Care",
+            "Eye Creams & Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/modern-muse-le-rouge-P398846",
+        "error": "Product not available",
+        "scrape_timestamp": "08/21/2023, 15:26:10"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/perfectly-clean-infusion-balancing-essence-lotion-amino-acid-waterlily-P501344",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:26:20",
+        "product_name": "Perfectly Clean Infusion Balancing Essence Lotion Amino Acid + Waterlily",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 13.5 oz / 400 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$63.00"
+                ],
+                "sku": "Item 2619757"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "-Amino Acid15 Complex: Supports skin\u2019s amino acid levels.-Waterlily Flower Extract: Increases hydration levels over time. -Hyaluronic Acid: Hydrates. Water/Aqua/Eau, Pentylene Glycol, Polysorbate 20, Nymphaea Alba (Water Lily) Flower Extract, Sodium Hyaluronate, Trehalose, Dipotassium Glycyrrhizate, Caffeine, Phenylalanine, Proline, Glutamic Acid, Aspartic Acid, Arginine, Lysine, Serine, Alanine, Threonine, Histidine, Isoleucine, Tyrosine, Leucine, Valine, Glycine, Nymphaea Alba Root Extract, Berberis Vulgaris Root Extract, Polygala Senega Root Extract, Hypnea Musciformis (Algae) Extract, Sucrose, Sodium PCA, Urea, Glycerin, Caprylyl Glycol, Butylene Glycol, Jojoba Wax PEG-120 Esters, Citric Acid, Dipropylene Glycol, Hexylene Glycol, Sodium Hydroxide, Triacetin, Sodium Palmitoyl Proline, PPG-5-Ceteth-20, Chlorphenesin, Polyquaternium-51, Fragrance (Parfum), Sodium Citrate, Disodium EDTA, Sodium Benzoate, Potassium Sorbate, Phenoxyethanol.",
+        "n_loves": "76",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Mists & Essences"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/estee-lauder-micro-essence-treatment-lotion-with-bio-ferment-P482529",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:26:32",
+        "product_name": "Micro Essence Treatment Lotion with Bio-Ferment",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 6.7 oz/ 200 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$175.00"
+                ],
+                "sku": "Item 2534113"
+            }
+        ],
+        "rating": "width:81.11200000000001%",
+        "product_reviews": "216",
+        "ingredients": "-Postbiotic 12+-Bio-Active Lactobacillus Ferment 98.9%Water/Aqua/Eau, Bifida Ferment Lysate, Propanediol, PEG-75, Lactobacillus Ferment, Acetyl Hexapeptide-8, Acetyl Glucosamine, Sodium Hyaluronate, Anthemis Nobilis (Chamomile) Flower Extract, Caffeine, Dipotassium Glycyrrhizate, Hydrolyzed Rice Extract, Betaine, Maltodextrin, Carbomer, Tromethamine, Citric Acid, Trehalose, Butylene Glycol, Caprylyl Glycol, PPG-5-Ceteth-20, Pentylene Glycol, Disodium EDTA, Sodium Citrate, Phenoxyethanol, Potassium Sorbate. ",
+        "n_loves": "2.3K",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Moisturizers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/resilience-multi-effect-tri-peptide-eye-creme-P506008",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:26:44",
+        "product_name": "Resilience Multi-Effect Tri-Peptide Eye Cr\u00e8me",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 0.5 oz / 15 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$105.00"
+                ],
+                "sku": "Item 2188977"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "-Tri-Peptide Complex: Significantly amplifies collagen.-Sodium Hyaluronate: For hydration.Water\\Aqua\\Eau, Butyrospermum Parkii (Shea Butter), Butylene Glycol, Dimethicone, Glycerin, Cetearyl Alcohol, Cetyl Esters, Cetyl Alcohol, Polybutene, Isostearyl Neopentanoate, Methyl Glucose Sesquistearate, Polyethylene, Citrullus Vulgaris (Watermelon) Fruit Extract, Lens Esculenta (Lentil) Fruit Extract, Pyrus Malus (Apple) Fruit Extract, Cucumis Melo (Melon) Fruit Extract, Polygonum Aviculare Extract, Anthemis Nobilis (Chamomile) Flower Extract, Narcissus Tazetta Bulb Extract, Laminaria Digitata Extract, Algae Extract, Linoleic Acid, Persea Gratissima (Avocado) Oil, Decarboxy Carnosine Hcl, Acetyl Hexapeptide-8, Cholesterol, Tetradecyl Aminobutyroylvalylaminobutyric Urea Trifluoroacetate, Caffeine, Trifluoroacetyl Tripeptide-2, Artemia Extract, Sorbitol, Trehalose, Lauryl Pca, Propylene Glycol Dicaprylate, Cetearyl Glucoside, Neopentyl Glycol Diheptanoate, Acetyl Glucosamine, Carbomer, Whey Protein\\Lactis Protein\\Proteine Du Petit-Lait, Caprylyl Glycol, Sodium Hyaluronate, 1,2-Hexanediol, Tocopheryl Acetate, Yeast Extract\\Faex\\Extrait De Levure, Polymethyl Methacrylate, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Zinc Pca, Sodium Pca, Aminopropyl Ascorbyl Phosphate, Sodium Hydroxide, Sodium Lactate, Potassium Sulfate, Dextran, Disodium Edta, Bht, Phenoxyethanol, Mica, Iron Oxides (Ci 77491), Titanium Dioxide (Ci 77891).",
+        "n_loves": "95",
+        "categories": [
+            "Skincare",
+            "Eye Care",
+            "Eye Creams & Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/estee-lauder-revitalizing-supreme-bright-soft-creme-moisturizer-P481397",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:26:56",
+        "product_name": "Revitalizing Supreme+ Bright Soft Creme Moisturizer",
+        "brand_name": "Est\u00e9e Lauder",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$135.00"
+                ],
+                "sku": "Item 2533024"
+            }
+        ],
+        "rating": "width:90%",
+        "product_reviews": "4",
+        "ingredients": "-Exclusive Moringa Extract-Beautyberry Extract-Vitamin CWater\\Aqua\\Eau, Isononyl Isononanoate, Glycerin, C12-20 Acid Peg-8 Ester, Ascorbyl Glucoside, Dimethicone, Butyrospermum Parkii (Shea) Butter, Butylene Glycol, Cetyl Alcohol, Moringa Oleifera Seed Extract, Callicarpa Japonica Fruit Extract, Sodium Hyaluronate, Acetyl Hexapeptide-8, Laminaria Digitata Extract, Whey Protein\\Lactis Protein\\Proteine Du Petit-Lait, Opuntia Tuna Extract, Acetyl Glucosamine, Molasses Extract\\Saccharum Officinarum\\Extrait De Melasse, Tocopheryl Acetate, Narcissus Tazetta Bulb Extract, Pyrus Malus (Apple) Fruit Extract, Cucumis Sativus (Cucumber) Fruit Extract, Lens Esculenta (Lentil) Fruit Extract, Citrullus Lanatus (Watermelon) Fruit Extract, Laminaria Saccharina Extract, Helianthus Annuus (Sunflower) Seed Extract, Sigesbeckia Orientalis (St. Paul'S Wort) Extract, Caffeine, Hordeum Vulgare (Barley) Extract\\Extrait D'Orge, Sodium Lactate, Porphyridium Cruentum Extract, Sodium Polyaspartate, Sorbitol, Ethylhexylglycerin, Propylene Glycol Dicaprate, Caprylyl Glycol, Cetearyl Glucoside, Sodium Pca, Cetearyl Alcohol, Hydroxyethyl Urea, Sucrose, Tocopherol, Citric Acid, Xanthan Gum, Peg-100 Stearate, Polyacrylate Crosspolymer-6, Pentylene Glycol, Isoceteth-20, Potassium Cetyl Phosphate, Sodium Hydroxide, T-Butyl Alcohol, Ammonium Acryloyldimethyltaurate/Vp Copolymer, Fragrance (Parfum), Bht, Disodium Edta, Sodium Citrate, Sodium Benzoate, Potassium Sorbate, Sodium Dehydroacetate, Phenoxyethanol. ",
+        "n_loves": "1.4K",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Moisturizers"
+        ]
+    }
+]

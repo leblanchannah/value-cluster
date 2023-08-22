@@ -1,0 +1,994 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/caviar-infinite-color-hold-conditioner-P416403",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:06:09",
+        "product_name": "CAVIAR Anti-Aging\u00ae Infinite Color Hold Conditioner",
+        "brand_name": "ALTERNA Haircare",
+        "options": [],
+        "rating": "width:80.952%",
+        "product_reviews": "21",
+        "ingredients": " -Red Raspberry Leaf Oil and Sunflower Seed Oil: Replenishes natural lipid layer of the hair holding in color pigment and moisture.  \n-Vitamins A, C, and E: Help reduce exposure to free radicals which causes oxidation to the hair fiber.   \n-Caviar Extract: Helps smooth the hair shaft and increase shine with amino acids and omega-3 fatty acids.\n-Age-control Complex: Addresses natural, chemical, and environmental aging; helps smooth the hair strand and increase shine with caviar extract and vitamin C.\nWater, Cetyl Alcohol, Caprylic/Capric Triglyceride, Dimethicone, Behentrimonium Chloride, Stearyl Alcohol, Behentrimonium Methosulfate, Isododecane, Cetrimonium Chloride, Cetearyl Alcohol, Isohexadecane, Rubus Idaeus (Raspberry) Leaf Extract,  Alaria Esculenta Extract, Butyrospermum Parkii (Shea) Butter, Linum Usitatissimum (Linseed) Seed Oil, Helianthus Annuus (Sunflower) Seed Extract, Glycerin, Hydrolyzed Vegetable Protein PG-Propyl Silanetriol, Hydrolyzed Rice Protein, Caviar Extract, Jojoba Esters, Phospholipids, Superoxide Dismutase, Saccharomyces/Magnesium Ferment, Saccharomyces/Copper Ferment, Saccharomyces/Silicon Ferment, Saccharomyces/Zinc Ferment, Saccharomyces/Iron Ferment, Silicone Quaternium-16, Quaternium-87, Helianthus Annuus (Sunflower) Seed Oil, Tocopherol, Ascorbic Acid, Polysilicone-15, Tocopheryl Acetate, Undeceth-11, Undeceth-5, Butylene Glycol, Hydroxyethylcellulose, Propanediol, Pentaerythrityl tetra-di-t-butyl Hydroxyhydrocinnamate, Disodium EDTA, Quaternium-95, Citric Acid, Isopropyl Alcohol, Butyloctanol, Iodopropynyl Butylcarbamate, Phenoxyethanol, Benzyl Alcohol, Potassium Sorbate, Sodium Benzoate, Fragrance.\n",
+        "n_loves": "1.9K",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Conditioner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/alterna-caviar-anti-aging-reg-restructuring-bond-repair-shampoo-P472303",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:06:20",
+        "product_name": "CAVIAR Anti-Aging\u00ae Restructuring Bond Repair Shampoo",
+        "brand_name": "ALTERNA Haircare",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 8.5 oz/ 250 mL"
+                ],
+                "price": [
+                    "$47.00"
+                ],
+                "sku": "Item 2471761"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 16.5 oz/ 487 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$71.00"
+                ],
+                "sku": "Item 2471779"
+            }
+        ],
+        "rating": "width:92.57199999999999%",
+        "product_reviews": "35",
+        "ingredients": "-Caviar Bond-Enforcing Technology: A proprietary technology that seals damaged hair cuticles. -Age-Control Complex: A proprietary blend of caviar extract and antioxidants. -Seasilk: A moisturizing botanical blend of marine actives that nourishes hair.   Aqua/Water/Eau, Sodium C14-16 Olefin Sulfonate, Cocamidopropyl Betaine, Propanediol, Sodium Chloride Sodium Methyl Cocoyl Taurate, PEG-200 Hydrogenated Glyceryl Palmate, Phenoxyethanol, Acrylates Copolymer Glycerin, Glycol Distearate, Hydroxyacetophenone Sodium Lauroyl Glycinate, Parfum/Fragrance, PEG-7 Glyceryl Cocoate, Citric Acid, Cocoglucosides Hydroxypropyltrimonium Chloride, Cetrimonium Chloride, Hexyl Cinnamal, PEG 150 D stearate Guar Hydroxypropyltrimonium Chloride, Hydroxypropyl Guar Hydroxypropyltrimonium Chloride, Polyquaternium-7, Sodium Hydroxide, Linalool Trisodium Ethylenediamine Disuccinate, Limonene, Hydrolyzed Vegetable Protein PG-Propyl Silanetriol, Geraniol, Sodium Benzoate Disodium EDTA, Potassium Sorbate, Butyrospermum Parkii (Shea) Butter, Cocos Nucifera (Coconut) Oil Helianthus Annuus (Sunflower) Seed Oil, Superoxide Dismutase Tocopheryl Acetate, Jojoba Esters, Passifora Edulis Seed Oil, Caprylic/Capric Triglyceride, Alaria Esculenta Extract, Saccharomyces/Copper Ferment Saccharomyces/Iron Ferment, Saccharomyces/Magnesium Ferment, Saccharomyces/Silicon Ferment Saccharomyces/Zinc Ferment, Caviar Extract Leuconostoc/Radish Root Ferment Filtrate, Tocopherol.",
+        "n_loves": "1.3K",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Shampoo"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/caviar-anti-aging-replenishing-moisture-priming-leave-in-conditioner-P441826",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:06:32",
+        "product_name": "CAVIAR Anti-Aging\u00ae Replenishing Moisture Priming Leave-In Conditioner",
+        "brand_name": "ALTERNA Haircare",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 5 oz/ 147 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2195907"
+            }
+        ],
+        "rating": "width:88.97600000000001%",
+        "product_reviews": "205",
+        "ingredients": "-Caviar Extract:\u00a0Rich in omega-3 Fatty Acids; restores moisture, elasticity, and shine to hair.-Seasilk: A blend of marine botanicals that provides exceptional moisture and helps address damaged hair.-Age-Control-Complex: A proprietary complex that combines caviar extract to nourish, and antioxidants to prevent damage and encourage micro-circulation. Ingredients work in harmony to address the effects of chemical, environmental, and natural chronological aging.-Superoxide Dismutase: Helps to protect hair from free-radical damage and oxidation, for a youthful look.-Rosehip Seed Oil (Rosa Canina Fruit Oil): Provides high content of unsaturated and essential fatty acids that help restore hair\u2019s natural oil balance for an extra level of moisture. Water, Propylene Glycol, PEG-7 Glyceryl Cocoate, Propoxytetramethyl Piperidinyl Dimethicone, Dimethicone, Polysorbate 20, PEG-12 Dimethicone, Rosa Canina Fruit Oil, Caviar Extract, Alaria Esculenta Extract, Aphanizomenon Flos-aquae Extract, Superoxide Dismutase, Ascorbic Acid, Saccharomyces/Silicon Ferment, Saccharomyces/Magnesium Ferment, Saccharomyces/Copper Ferment, Saccharomyces/Iron Ferment, Saccharomyces/Zinc Ferment, Leuconostoc/Radish Root Ferment Filtrate, Ethylhexylglycerin, Tocopherol, Caprylic/Capric Triglyceride, C11-15 Pareth-7, Trideceth-6, Sodium Laneth-40 Maleate/Styrene Sulfonate Copolymer, Hydrogenated Starch Hydrolysate, Acetic Acid, Sodium Polyacrylate, Sodium Acetate, Disodium EDTA, Hydrogenated Polydecene, Phenoyxethanol, Potassium Sorbate, Fragrance.",
+        "n_loves": "4.7K",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Conditioner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/alterna-my-hair-my-canvas-cool-hydrations-nourishing-masque-P476829",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:06:44",
+        "product_name": "My Hair My Canvas  Cool Hydrations Nourishing Masque",
+        "brand_name": "ALTERNA Haircare",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 6 oz/ 177 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2501989"
+            }
+        ],
+        "rating": "width:81.138%",
+        "product_reviews": "123",
+        "ingredients": "-Vegan Botanical Caviar: Hydrates and smooths the cuticle to add bounce and shine.-Water Lily Extract: Helps condition, boost gloss, and improve manageability.-Desert Fruit BlendAqua/Water/Eau, Hydrogenated Vegetable Oil, Isopropyl Palmitate, Stearyl Alcohol, Cetyl Alcohol, Butyrospermum Parkii (Shea) Butter, Cetearyl Alcohol, Dimethicone, Phenoxyethanol, Parfum/Fragrance, Behentrimonium Methosulfate, Glyceryl Stearate, PEG-100 Stearate, Cocos Nucifera (Coconut) Oil, Ethylhexylglycerin, Limonene, Benzyl Salicylate, Hexyl Cinnamal, Citric Acid, Linalool, Citral, Eugenol, Benzyl Benzoate, Glycerin, Tocopherol, Butylene Glycol, Nymphaea Alba Flower Extract, Caulerpa Lentillifera Extract, Citrus Glauca Fruit Extract, Santalum Acuminatum Fruit Extract, Sodium Benzoate, Acacia Victoriae Fruit Extract.",
+        "n_loves": "577",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Masks"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/alterna-my-hair-my-canvas-me-time-every-day-shampoo-P476827",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:06:57",
+        "product_name": "My Hair My Canvas Me Time Every Day Shampoo",
+        "brand_name": "ALTERNA Haircare",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 8.5 oz/ 250 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2501963"
+            }
+        ],
+        "rating": "width:84.1%",
+        "product_reviews": "161",
+        "ingredients": "-Vegan Botanical Caviar: Hydrates and smooths the cuticle to add bounce and shine.-Water Lily Extract: Helps condition, boost gloss, and improve manageability.Water/Aqua/Eau, Sodium C14-16 Olefin Sulfonate, Sodium Lauroyl Methyl Isethionate, Glycerin, Cocamidopropyl Betaine, Disodium Laureth Sulfosuccinate, Cocamidopropyl Hydroxysultaine, Sodium Benzoate, Potassium Sorbate, Cocamide MIPA, PEG-200 Hydrogenated Glyceryl Palmate, PEG-7 Glyceryl Cocoate, Caulerpa Lentillifera Extract, Lilium Candidum Flower Extract, Glycol Distearate, Guar Hydroxypropyltrimonium Chloride, Citric Acid, Disodium EDTA, Butylene Glycol, Lactic Acid, Steareth-4, Fragrance (Parfum), Benzyl Benzoate, Benzyl Salicylate, Linalool, Citral, Geraniol, Limonene, Eugenol, Hexyl Cinnamal, Citronellol.",
+        "n_loves": "866",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Shampoo"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/alterna-my-hair-my-canvas-me-time-everyday-conditioner-P476828",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:07:10",
+        "product_name": "My Hair My Canvas  Me Time Everyday Conditioner",
+        "brand_name": "ALTERNA Haircare",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 8.5 oz/ 250 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2501971"
+            }
+        ],
+        "rating": "width:85.25600000000001%",
+        "product_reviews": "156",
+        "ingredients": "-Vegan Botanical Caviar: Hydrates and smooths the cuticle to add bounce and shine.-Water Lily Extract: Helps condition, boost gloss, and improve manageability.Water/Aqua/Eau, Cetearyl Alcohol, Glycerin, Behentrimonium Chloride, Stearamidopropyl Dimethylamine, Cetyl Alcohol, Dimethicone, Butyrospermum Parkii (Shea) Butter, Cocos Nucifera (Coconut) Oil, Cetrimonium Chloride, Caulerpa Lentillifera Extract, Lilium Candidum Flower Extract, Guar Hydroxypropyltrimonium Chloride, Phenoxyethanol, Gluconolactone, Butylene Glycol, Citric Acid, Fragrance (Parfum), Benzyl Benzoate, Benzyl Salicylate, Linalool, Citral, Geraniol, Limonene, Eugenol, Hexyl Cinnamal, Citronellol.",
+        "n_loves": "629",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Conditioner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/caviar-anti-aging-bodybuilding-volume-shampoo-P405298",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:07:23",
+        "product_name": "CAVIAR Anti-Aging\u00ae Multiplying Volume Shampoo",
+        "brand_name": "ALTERNA Haircare",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 8.5 oz/ 251 mL"
+                ],
+                "price": [
+                    "$47.00"
+                ],
+                "sku": "Item 2140291"
+            }
+        ],
+        "rating": "width:78.426%",
+        "product_reviews": "127",
+        "ingredients": " -Caviar Extract: Contains amino acids and omega-3 fatty acids that help smooth the hair shaft and increase shine.\n-Seasilk\u00ae (A blend of marine botanicals): Provides exceptional moisture.\n-A blend of Keratin, Panthenol, and Biotin: Strengthens, fortifies, and reinforces to support weak and fragile hair strands.\n-Color Hold\u00ae (A proprietary technology): Locks in hair color brightness.\n\n Water, Cocamidopropyl Betaine, Sodium Methyl 2-Sulfolaurate, Disodium 2-Sulfolaurate, Sodium Methyl Cocoyl Taurate, Lauramide MEA, Acrylates/Vinyl Neodecanoate Crosspolymer, Glycereth-26, Caviar Extract, Algae Extract, Helianthus Annuus (Sunflower) Seed Oil, Macrocystis Pyrifera (Kelp) Extract, Linum Usitatissimum (Linseed) Seed Oil, Butyrospermum Parkii (Shea) Butter, Keratin, Hydrolyzed Keratin, Biotin, Phospholipids, Saccharomyces/Magnesium Ferment, Saccharomyces/Copper Ferment, Saccharomyces/Silicon Ferment, Saccharomyces/Zinc Ferment, Saccharomyces/Iron Ferment, Hydrolyzed Vegetable Protein PG-Propyl Silanetriol, Superoxide Dismutase, Ascorbic Acid, Polysilicone-15, Tocopherol, Glycerin, Panthenol, Sodium Lauroyl Sarcosinate, VP/DMAPA Acrylates Copolymer, Cetrimonium Chloride, PEG-150 Distearate, Disodium EDTA, Citric Acid, Butylene Glycol, Tetrasodium EDTA, Phenoxyethanol, Potassium Sorbate, Hydroxypropyl Cyclodextrin, Silicone Quaternium-8, Silicone Quaternium-16, Benzalkonium Chloride, Undeceth-11, Butyloctanol, Undeceth-5, Iodopropynyl Butylcarbamate, Methylchloroisothiazolinone, Methylisothiazolinone, Fragrance.\n",
+        "n_loves": "6.9K",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Shampoo"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/caviar-anti-aging-sheer-dry-shampoo-powder-spray-P417162",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:07:36",
+        "product_name": "CAVIAR Anti-Aging\u00ae Sheer Dry Shampoo Powder Spray",
+        "brand_name": "ALTERNA Haircare",
+        "options": [],
+        "rating": "width:79.72%",
+        "product_reviews": "143",
+        "ingredients": " -Flex Strength Complex: A blend of strengthening proteins and nourishing extracts that give hair both strength and flexibility to help prevent breakage.-Caviar Extract: Rich source of Omega-3 fatty acids; restores moisture, elasticity, and shine to hair.-Seasilk: Moisturizing botanical blend of marine actives providing hydration and nourishment to hair.\u00a0-Age-Control Complex: Blend of ingredients to undo effects of chemical, environmental, and natural chronological aging.-Enzymetherapy: Improves absorption of vital nutrients and supports keratin production for stronger hair.Zea Mays (Corn) Starch, Tapioca Starch, Kaolin, Caviar Extract, Silica, Water, Glycerin, Fragrance. ",
+        "n_loves": "2.4K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Dry Shampoo"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/caviar-anti-aging-restructuring-bond-repair-3-in-1-sealing-serum-P435934",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:07:47",
+        "product_name": "CAVIAR Anti-Aging\u00ae Restructuring Bond Repair 3-in-1 Sealing Serum",
+        "brand_name": "ALTERNA Haircare",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$51.00"
+                ],
+                "sku": "Item 2140150"
+            }
+        ],
+        "rating": "width:80.20200000000001%",
+        "product_reviews": "199",
+        "ingredients": " -Caviar Extract: Restores moisture, elasticity, and shine to hair. -Caviar Bond Enforcing Technology: Seals hair cuticles that have been damaged through chemical processes or physical stress, and smooths out the hair fiber.-Age-Control-Complex\u00ae: Prevents damage and encourages micro-circulation to undo the effects of chemical, environmental, and natural chronological aging.-Phytantriol: Helps prevent mechanical damage that can lead to breakage and split ends, reduces any color fading, and infuses moisture into the hair. Cyclopentasiloxane, Dimethicone, Dimethiconol, Isododecane, Phenyl Trimethicone, C12-15 Alkyl Benzoate, Hydrolyzed Vegetable Protein PG-Propyl Silanetriol, Phospholipids, Helianthus Annuus (Sunflower) Seed Oil, Polysilicone-15, Alaria Esculenta Extract, Pearl Powder, Caviar Extract, Saccharomyces/Silicon Ferment, Saccharomyces/Magnesium Ferment, Saccharomyces/Copper Ferment, Saccharomyces/Iron Ferment, Saccharomyces/Zinc Ferment, Phytantriol, Keratin, Hydrolyzed Keratin, Panthenyl Ethyl Ether, Hydrogenated Castor Oil/Sebacic Acid Copolymer, Polyquaternium-7, Fibroin, Polyquaternium-70, Ethylhexyl Methoxycinnamate, Pyrus Malus (Apple) Fruit Extract, Ascorbic Acid, Superoxide Dismutase, Hydroxypropyl Starch Phosphate, Guar Hydroxypropyltrimonium Chloride, Benzyl Alcohol, Dipropylene Glycol, Butylene Glycol, Glycerin, Water/Aqua/ Eau, Potassium Sorbate, Disodium EDTA, BHT, Succinic Acid, Phenoxyethanol, Fragrance, Benzyl Salicylate, Citronellol, Limonene, Farnesol, Geraniol, Hexyl Cinnamal, Linalool, Hydroxycitronellal, Hydroxyisohexyl 3-Cyclohexene Carboxaldehyde.",
+        "n_loves": "6K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Scalp Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/caviar-anti-aging-sea-salt-spray-P441824",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:08:02",
+        "product_name": "CAVIAR Anti-Aging\u00ae Sea Salt Spray",
+        "brand_name": "ALTERNA Haircare",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 5 oz/ 147 mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$35.00"
+                ],
+                "sku": "Item 2195857"
+            }
+        ],
+        "rating": "width:93.29599999999999%",
+        "product_reviews": "179",
+        "ingredients": "-Flex-Strength Complex: Supports hair\u2019s strength and flexibility to help prevent breakage due to vigorous hair styling techniques and hot tools.-Caviar Extract: Rich source of omega-3 fatty acids; restores moisture, elasticity, and shine to hair.-Seasilk: Provides hydration and nourishment to hair.-Age-Control Complex: Addresses the effects of chemical, environmental, and natural chronological aging.-Enzyme Therapy: Supports the absorption of vital nutrients and supports keratin production for stronger hair.  Water, Sea Salt, Polysorbate 20, PVP, Glycerin, Caviar Extract, Alaria Esculenta Extract, Hydrolyzed Pearl, Macrocystis Pyrifera (Kelp) Extract, Helianthus Annuus (Sunflower) Seed Oil, Saccharomyces/Magnesium Ferment, Saccharomyces/Copper Ferment, Saccharomyces/Silicon Ferment, Saccharomyces/Zinc Ferment, Saccharomyces/Iron Ferment, Hydrolyzed Keratin, Phospholipids, Superoxide Dismutase, Biotin, Panthenol, Tocopherol, Butylene Glycol, Polysilicone-15, Polyquaternium-72, Polyquaternium-11, Disodium EDTA, Hydroxypropyl Cyclodextrin, Citric Acid, Aminomethyl Propanol, Ascorbic Acid, Potassium Sorbate, Iodopropynyl Butylcarbamate, Phenoxyethanol, Fragrance.",
+        "n_loves": "2.1K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Spray"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/caviar-cc-cream-for-hair-10-in-1-complete-correction-P378716",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:08:16",
+        "product_name": "CAVIAR Anti-Aging\u00ae Replenishing Moisture CC Cream",
+        "brand_name": "ALTERNA Haircare",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "LIMITED EDITION",
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2140127"
+            }
+        ],
+        "rating": "width:83.65%",
+        "product_reviews": "2.2K",
+        "ingredients": "  -Caviar Extract: Contains amino acids and Omega-3 fatty acids that help smooth the hair shaft and increase shine.\n\n-Vitamin C: Helps repair and resist damage caused by free radicals.\n-Color Hold\u00ae: A proprietary technology that locks in hair color brightness.\n-Seasilk\u00ae: A blend of marine botanicals that provides exceptional moisture.\n\nWater, Cetearyl Alcohol , Cyclopentasiloxane, Dimethicone, Cyclohexasiloxane, Propanediol, Glycerin, Panthenol, Polyquaternium-55, Behentrimonium Chloride, Algae Extract, Caviar Extract, Tocopheryl Acetate, Polysilicone-15, Ascorbic Acid, Phospholipids, Helianthus Annuus (Sunflower) Seed Oil, Chamomilla Recutita (Matricaria) Extract, Honey Extract (Mel Extract), Citrus Limon (Lemon) Peel Extract, Superoxide Dismutase, Polyquaternium-11, Polyimide-1, Saccharomyces/Magnesium Ferment, Saccharomyces/Copper Ferment, Saccharomyces/Silicon Ferment, Saccharomyces/Zinc Ferment, Saccharomyces/Iron Ferment, Butylene Glycol, Amodimethicone, C11-15 Pareth-7, Laureth-9, Trideceth-12, Isopropyl Alcohol, PEG-4 Laurate, PEG-4 Dilaurate, Caprylyl Glycol, PEG-4, Alcohol Denat., Disodium EDTA, Citric Acid, Iodopropynyl Butylcarbamate, Phenoxyethanol, Potassium Sorbate, Fragrance.",
+        "n_loves": "67K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/caviar-anti-aging-restructuring-bond-repair-leave-in-protein-cream-P435931",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:08:29",
+        "product_name": "CAVIAR Anti-Aging\u00ae Restructuring Bond Repair Leave-In Protein Cream",
+        "brand_name": "ALTERNA Haircare",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 5.1 oz/ 150 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$48.00"
+                ],
+                "sku": "Item 2140218"
+            }
+        ],
+        "rating": "width:66.666%",
+        "product_reviews": "18",
+        "ingredients": " -Caviar Extract: Restores moisture, elasticity, and shine to hair.-Caviar Bond Enforcing Technology: Seal hair cuticles that have been damaged through chemical processes or physical stress, and smooths out the hair fiber.-Age-Control-Complex\u00ae: Prevents damage and works to undo the effects of chemical, environmental, and natural chronological aging.-Algae Extract: Nourishes, hydrates, and strengthens the look of hair while helping protect hair from free radical damage.Water, Cyclopentasiloxane, Propylene Glycol, Fragrance, Hydrogenated Castor Oil/Sebacic Acid Copolymer, Benzyl Alcohol, Polyacrylamide, C13-14 Isoparaffin, Laureth-7, Dehydroacetic Acid, Mica, Titanium Dioxide (CI 77891), Algae Extract, Ascorbic Acid, Helianthus Annuus (Sunflower) Seed Oil, Polysilicone-15, Superoxide Dismutase, Hydrolyzed Rice Protein, Caviar Extract, Potassium Benzoate, Sodium Sorbate, Hydrolyzed Wheat Protein, Leuconostoc/Radish Root Ferment Filtrate, Saccharomyces/Copper Ferment,Saccharomyces/Iron Ferment, Saccharomyces/Magnesium Ferment, Saccharomyces/Silicon Ferment, Saccharomyces/Zinc Ferment, Hydrolyzed Corn Protein, Hydrolyzed Cottonseed Protein, Phospholipids, Hexyl Cinnamal, Linalool, Limonene, Geraniol, Coumarin, Citral, Amyl Cinnamal, Benzyl Benzoate, Benzyl Alcohol, Citronellol.",
+        "n_loves": "2.7K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Scalp Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/caviar-smoothing-hydra-gelee-nourishing-hair-perfector-P410833",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:08:43",
+        "product_name": "CAVIAR Anti-Aging\u00ae Replenishing Moisture Leave-In Smoothing Gelee",
+        "brand_name": "ALTERNA Haircare",
+        "options": [],
+        "rating": "width:83.884%",
+        "product_reviews": "103",
+        "ingredients": " -Caviar Extract: Contains amino acids and omega-3 fatty acids that help smooth the hair shaft and increase shine.-Vitamin C: Helps to repair and resist damage caused by free radicals.-Seasilk\u00ae: A blend of marine botanicals that provide exceptional moisture. -Color Hold\u00ae: A proprietary technology that locks hair color brightness.  \nPropylene Glycol,  Cyclopentasiloxane, Water, VP/VA Copolymer, Phenyl Trimethicone, Dimethicone, Caviar Extract, Alaria Esculenta Extract, Phospholipids, Helianthus Annuus (Sunflower) Seed Oil, Polysilicone-15, Ascorbic Acid, Saccharomyces/Magnesium Ferment, Saccharomyces/Copper Ferment, Saccharomyces/Silicon Ferment,\nSaccharomyces/Zinc Ferment, Saccharomyces/Iron Ferment, Superoxide Dismutase, Butylene Glycol, Glycerin, Dimethicone Crosspolymer, Sorbitan Oleate, Dimethiconol, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Isohexadecane, Polysorbate 80, Potassium Sorbate, Phenoxyethanol, Caprylyl Glycol, Fragrance.\n",
+        "n_loves": "5.8K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/alterna-renewing-exfoliating-scalp-scrub-to-foam-P484022",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:08:56",
+        "product_name": "Renewing Exfoliating Scalp Scrub-to-Foam",
+        "brand_name": "ALTERNA Haircare",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 6 oz / 177 mL"
+                ],
+                "price": [
+                    "$48.00"
+                ],
+                "sku": "Item 2538171"
+            }
+        ],
+        "rating": "width:97.272%",
+        "product_reviews": "66",
+        "ingredients": "-Vegan Botanical Caviar: Helps restore moisture, elasticity, and shine to hair.-Tea Tree Oil: Reduces visible flakiness, promoting a clean and nourished scalp.-Sweet Almond Oil: Provides hydration and soothing benefits for the scalp.Sodium Chloride, Aqua/Water/Eau, Sodium C14-16 Olefin Sulfonate, Maris Sal/Sea Salt, Cocamidopropyl Hydroxysultaine, Glycerin, Glyceryl Stearate, PEG-100 Stearate, Citric Acid, Cannabis Sativa Seed Oil, Melaleuca Alternifolia (Tea Tree) Leaf Oil, Persea Gratissima (Avocado) Oil, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Guar Hydroxypropyltrimonium Chloride, Saccharide Isomerate, Menthoxypropanediol, Parfum/Fragrance, Phenoxyethanol, Ethylhexylglycerin, Tricalcium Phosphate, Limonene, Sodium Hydroxide, Linalool, Benzyl Salicylate, Mentha Piperita (Peppermint) Oil, Sodium Citrate, Tetrasodium EDTA, Caulerpa Lentillifera Extract, Sodium Benzoate.",
+        "n_loves": "2K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Scalp Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/caviar-anti-aging-restructing-bond-repair-conditioner-P435928",
+        "error": "Product not available",
+        "scrape_timestamp": "08/21/2023, 08:09:09"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/caviar-anti-aging-anti-frizz-conditioner-P428075",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:09:19",
+        "product_name": "CAVIAR Anti-Aging\u00ae Smoothing Anti-Frizz Conditioner",
+        "brand_name": "ALTERNA Haircare",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 8.5 oz/ 250 mL"
+                ],
+                "price": [
+                    "$47.00"
+                ],
+                "sku": "Item 2140416"
+            }
+        ],
+        "rating": "width:83.036%",
+        "product_reviews": "112",
+        "ingredients": " -Caviar Extract: Contains amino acids and omega-3 fatty acids that help smooth the hair shaft and increase shine. \n-Camellia Oil: Rich source of omega-6 fatty acids and antioxidants that restores hair\u2019s natural sheen, forming a barrier against environmental pollutants, with repairing and treatment benefits to soften and make hair more manageable.\n-Abyssinian Oil: Provides high level of conditioning and shine without adding weight\n-Avocado Oil: Moisturizes with nutrients such as vitamin A, B, D, and E, proteins beneficial for nourishment.\nWater, Cetearyl Alcohol, PPG-3 Benzyl Ether Myristate, Caprylic/Capric Triglyceride, Cetyl Alcohol, Octyldodecyl Ricinoleate, Quaternium-91, Cetrimonium Chloride, Divinyldimethicone/Dimethicone Copolymer Behentrimonium Chloride, Glycerin, Cetyl Esters, Isododecane, Fragrance (Parfum), Panthenol, Phenoxyethanol, Phospholipids, Dimethicone PEG-7 Isostearate, Hydroxypropyl Guar, Glycine Soja (Soybean) Oil, PEG-45M, PEG-7 Amodimethicone, Amodimethicone, C12-13 Pareth-23, C12-13 Pareth-3, Camellia Sinensis Seed Oil, Disodium EDTA, Polysilicone-15, C11-15 Pareth-7, Sodium Polyaspartate, Crambe Abyssinica Seed Oil, Hydroxypropyl Cyclodextrin, Persea Gratissima (Avocado) Oil, Vitis Vinifera (Grape) Seed Oil, Laureth-9, Citric Acid, Trideceth-12, Ahnfeltiopsis Concinna Extract, Iodopropynyl Butylcarbamate, Silica, Acetic Acid, Etidronic Acid, Sodium Acetate, Chlorphenesin, Propylene Glycol, PEG-4 Dilaurate, PEG-4 Laurate, BHT, Sodium Dehydroacetate, Ascorbic Acid, PEG-4, Superoxide Dismutase, Theobroma Cacao (Cocoa) Extract, Saccharomyces/Magnesium Ferment, Caviar Extract, Sodium Hyaluronate, Potassium Sorbate, Saccharomyces/Copper Ferment Saccharomyces/Silicon Ferment Saccharomyces/Zinc Ferment Saccharomyces/Iron Ferment.\n",
+        "n_loves": "2.1K",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Conditioner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/alterna-mhmc-new-beginnings-exfoliating-cleanser-P476826",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:09:34",
+        "product_name": "MHMC New Beginnings Exfoliating Cleanser",
+        "brand_name": "ALTERNA Haircare",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 6.7 oz/ 198 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2501955"
+            }
+        ],
+        "rating": "width:83.78%",
+        "product_reviews": "164",
+        "ingredients": "-Vegan Botanical Caviar: Moisturizes, adds shine and bounce, and improves hair\u2019s overall appearance.-Lemon Peel Extract: Helps to clarify, remove impurities, and detoxify.-Perlite: Helps detoxify, absorb excess oil, gently exfoliate, and rejuvenate.Water/Aqua/Eau, Sodium Lauroyl Methyl Isethionate, Sodium C14-16 Olefin Sulfonate, Cocamidopropyl Betaine, Acrylates Copolymer, Glycerin, Aminomethyl Propanol, Caulerpa Lentillifera Extract, Citrus Limon (Lemon) Peel Powder, Citrus Limon (Lemon) Peel Oil, Perlite, Buteth-3, Tributyl Citrate, Disodium EDTA, Fragrance (Parfum), Phenoxyethanol, Hydroxyacetophenone, Lactic Acid, Sodium Benzotriazolyl Butylphenol Sulfonate, Benzyl Benzoate, Benzyl Salicylate, Linalool, Citral, Geraniol, Limonene, Eugenol, Hexyl Cinnamal, Citronellol.",
+        "n_loves": "1.1K",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Shampoo"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/caviar-anti-aging-replenishing-moisture-conditioner-P269706",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:09:46",
+        "product_name": "CAVIAR Anti-Aging\u00ae Replenishing Moisture Conditioner",
+        "brand_name": "ALTERNA Haircare",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "LIMITED EDITION",
+                "size": null,
+                "name": [
+                    "Size: 8.5 oz/ 250 mL",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$47.00"
+                ],
+                "sku": "Item 1415793"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 16.5 oz/ 488 mL"
+                ],
+                "price": [
+                    "$71.00"
+                ],
+                "sku": "Item 1772383"
+            }
+        ],
+        "rating": "width:89.08200000000001%",
+        "product_reviews": "894",
+        "ingredients": " -Seasilk\u00ae: A blend of marine botanicals that provides exceptional moisture and helps repair damaged hair.\n-Color Hold\u00ae A proprietary technology that locks in hair color & brightness\n-Age-control Complex\u00ae: Addresses natural, chemical, and environmental aging; infused with caviar extract and vitamin C to help smooth the hair strand and increase shine.\n-Enzymetherapy\u00ae: An exclusive blend of enzymes and minerals designed to help vital nutrients adhere to hair. \nWater, Cetearyl Alcohol , Cyclopentasiloxane, Behentrimonium Chloride, Cetrimonium Chloride, Glycerin, Dimethicone, Hydrolyzed Rice Protein, Hydrolyzed Vegetable Protein PG-Propyl Silanetriol, Ascorbic Acid, Linum Usitatissimum (Linseed) Seed Oil, Caviar Extract, Polysilicone-15, Phospholipids, Helianthus Annuus (Sunflower) Seed Oil, Tocopheryl Acetate, Butyrospermum Parkii (Shea) Butter, Divinyldimethicone/Dimethicone Copolymer, Algae Extract, Jojoba Esters, Cetrimonium Bromide, Dimethiconol, Saccharomyces/Magnesium Ferment, Saccharomyces/Copper Ferment, Saccharomyces/Silicon Ferment, Saccharomyces/Zinc Ferment, Saccharomyces/Iron Ferment, Superoxide Dismutase, Amodimethicone, C11-15 Pareth-7, Glycereth-26, C12-13 Pareth-23, C12-13 Pareth-3, Trideceth-12, Polyquaternium-37, Laureth-9, Dicaprylyl Carbonate, Lauryl Glucoside, Guar Hydroxypropyltrimonium Chloride, Butylene Glycol, Disodium EDTA, Citric Acid, Methylisothiazolinone, Phenoxyethanol, Fragrance.\t\t\n",
+        "n_loves": "29.3K",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Conditioner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/caviar-anti-aging-restructuring-bond-repair-leave-in-heat-protection-spray-P435932",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:10:04",
+        "product_name": "CAVIAR Anti-Aging\u00ae Restructuring Bond Repair Leave-In Heat Protection Spray",
+        "brand_name": "ALTERNA Haircare",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 4.2 oz/ 125 mL"
+                ],
+                "price": [
+                    "$40.00"
+                ],
+                "sku": "Item 2140226"
+            }
+        ],
+        "rating": "width:83.166%",
+        "product_reviews": "120",
+        "ingredients": " -Caviar Extract: Restores moisture, elasticity, and shine to hair.-Caviar Bond Enforcing Technology: Seals hair cuticles that have been damaged through chemical processes or physical stress, and smooths out the hair fiber.-Age-Control-Complex\u00ae: Prevents damage and encourages micro-circulation to undo the effects of chemical, environmental, and natural chronological aging.-Panthenol: Provides essential nutrients that strengthen, condition, and protect the hair.Water, Dimethicone, Propanediol, Cetyl Alcohol, Dicaprylyl Ether, Fragrance, Stearyl Alcohol, Hydrogenated Castor Oil/Sebacic Acid Copolymer, PEG-40 Hydrogenated Castor Oil, Benzyl Alcohol, Glyceryl Stearate, PEG-100 Stearate, Behentrimonium Chloride, VP/VA Copolymer, Amodimethicone, Panthenol, Dehydroacetic Acid, Trideceth-12, Cetrimonium Chloride, Ascorbic Acid, Biotin, Polysilicone-15, Pyridoxine HCL, Retinyl Palmitate, Superoxide Dismutase, Tocopheryl Acetate, Hydrolyzed Rice Protein, Hydrolyzed Wheat Protein, Caviar Extract, Potassium Benzoate, Propylene Glycol, Sodium Sorbate, Hydrolyzed Soy Protein, Helianthus Annuus (Sunflower) Seed Oil, Leuconostoc/Radish Root Ferment Filtrate, Saccharomyces/Copper Ferment, Saccharomyces/Iron Ferment, Saccharomyces/Magnesium Ferment, Saccharomyces/Silicon Ferment, Saccharomyces/Zinc Ferment, Hydrolyzed Corn Protein, Hydrolyzed Cottonseed Protein, Phospholipids, Hexyl Cinnamal, Linalool, Limonene, Geraniol, Coumarin, Citral, Amyl Cinnamal, Benzyl Benzoate, Benzyl Alcohol, Citronellol.",
+        "n_loves": "7.9K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/caviar-infinite-color-hold-shampoo-P416404",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:10:17",
+        "product_name": "CAVIAR Anti-Aging\u00ae Infinite Color Hold Shampoo",
+        "brand_name": "ALTERNA Haircare",
+        "options": [],
+        "rating": "width:80.526%",
+        "product_reviews": "38",
+        "ingredients": " -Red Raspberry Leaf Oil and Sunflower Seed Oil: Replenishes natural lipid layer of the hair holding in color pigment and moisture.  \n-Vitamins A, C, and E: Help reduce exposure to free radicals which causes oxidation to the hair fiber.   \n-Caviar Extract: Helps smooth the hair shaft and increase shine with amino acids and omega-3 fatty acids.\n-Age-control Complex: Addresses natural, chemical, and environmental aging; helps smooth the hair strand and increase shine with caviar extract and vitamin C.\nWater, Sodium Cocoyl Isethionate, Disodium Laureth Sulfosuccinate,   \n   Glycerin, Cocamidopropyl Hydroxysultaine, Dimethicone, Propanediol, Sodium Lauryl Sulfoacetate, Sodium Lauroyl Sarcosinate, Glycol Distearate,   \n   Cocamidopropylamine Oxide, Decyl Glucoside, Quaternium-95, Acrylates/Vinyl Neodecanoate Crosspolymer, Rubus Idaeus (Raspberry) Leaf Extract , Alaria Esculenta Extract, Glycine Soja (Soybean) Oil, Helianthus Annuus (Sunflower) Seed Extract, Hydrolyzed Vegetable Protein PG-Propyl Silanetriol, Caviar Extract, Panthenol, Phospholipids, Superoxide Dismutase, Saccharomyces/Magnesium Ferment, Saccharomyces/Copper Ferment, Saccharomyces/Silicon Ferment, Saccharomyces/Zinc Ferment, Saccharomyces/Iron Ferment, Helianthus Annuus (Sunflower) Seed Oil, Silicone Quaternium-16, Guar Hydroxypropyltrimonium Chloride, Polyquaternium-10, Tocopheryl Acetate, Ascorbic Acid, Polyquaternium-7,   \n   Polysilicone-15, Undeceth-11, Undeceth-5, Polyquaternium-55, Lauryl Alcohol, Butyloctanol, Alcohol, Pentaerythrityl tetra-di-t-butyl Hydroxyhydrocinnamate, Disodium EDTA, Trisodium Ethylenediamine Disuccinate, Caprylyl Glycol, Ethylhexylglycerin, Tetrasodium EDTA, Sodium Phytate, Aminomethyl Propanol, Dihydroxypropyl PEG-5 Linoleammonium Chloride, Citric Acid, Butylene Glycol, Pentasodium Triphosphate, Benzoic Acid, Potassium Sorbate, Sodium Benzoate, Iodopropynyl Butylcarbamate,  \n  Phenoxyethanol, Chlorphenesin, Fragrance.\n",
+        "n_loves": "2.7K",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Shampoo"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/caviar-anti-aging-omega-nourishing-hair-oil-P384770",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:10:28",
+        "product_name": "CAVIAR Anti-Aging\u00ae Smoothing Anti-Frizz Nourishing Oil",
+        "brand_name": "ALTERNA Haircare",
+        "options": [],
+        "rating": "width:81.22999999999999%",
+        "product_reviews": "130",
+        "ingredients": " -Seasilk\u00ae: A blend of marine botanicals that provides exceptional moisture and helps repair damaged hair.-Color Hold\u00ae: Provides the highest level of color protection from color fade caused by UVA, UVB, and visible light rays\u2014including artificial light sources.-Enzymetherapy\u00ae: Helps to transform ingredients into a micro-structure that the hair can more easily absorb allowing for deeper, more targeted penetration of active ingredients.-Age-Control Complex\u00ae: A proprietary antiaging complex that combats chronological, chemical, and environmental aging; restores hydration, strength, vibrancy, and elasticity.Cyclopentasiloxane, Dimethicone, Phenyl Trimethicone, Dimethiconol, Crambe Abyssinica Seed Oil, Caviar Extract, Phospholipids, Helianthus Annuus (Sun ower) Seed Oil, Polysilicone-15, Laminaria Digitata Extract, Ascorbic Acid, Superoxide Dismutase, Glycerin, Water, Saccharomyces/Magnesium Ferment, Saccharomyces/Copper Ferment, Saccharomyces/Silicon Ferment, Saccharomyces/Zinc Ferment, Saccharomyces/Iron Ferment, Potassium Sorbate, Fragrance.",
+        "n_loves": "8.2K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Oil"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/caviar-anti-aging-perfect-iron-spray-P374562",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:10:41",
+        "product_name": "CAVIAR Anti-Aging\u00ae Perfect Iron Spray",
+        "brand_name": "ALTERNA Haircare",
+        "options": [],
+        "rating": "width:83.9%",
+        "product_reviews": "159",
+        "ingredients": " -Flex Strength Complex: A blend of strengthening proteins and nourishing extracts that give hair both strength and flexibility to help prevent breakage.-Caviar Extract: Rich source of Omega-3 fatty acids; restores moisture, elasticity, and shine to hair.-Seasilk: Moisturizing botanical blend of marine actives providing hydration and nourishment to hair.\u00a0-Age-Control Complex: Blend of ingredients to undo effects of chemical, environmental, and natural chronological aging.-Enzymetherapy: Improves absorption of vital nutrients and supports keratin production for stronger hair. Water, Alcohol Denat., Propanediol, Superoxide Dismutase, Polysilicone-15, Caviar Extract, Ascorbic Acid, Dimethicone PEG-8 Meadowfoamate, Silicone Quaternium-3, Amodimethicone, Saccharomyces/Magnesium Ferment, Saccharomyces/Copper Ferment, Saccharomyces/Silicon Ferment, Saccharomyces/Zinc Ferment, Saccharomyces/Iron Ferment, Phospholipids, Helianthus Annuus (Sunflower) Seed Oil, Panthenol, Polyquaternium-11, PPG-5-Ceteth-20, Trideceth-12, Polysorbate 80, Triethyl Citrate, Glycerin, C11-15 Pareth-7, Laureth-9, Hydroxypropyl Cyclodextrin, Disodium EDTA, Phenoxyethanol, Iodopropynyl Butylcarbamate, Fragrance.",
+        "n_loves": "5.2K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Primers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/caviar-infinite-color-hold-vibrancy-serum-P416598",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:10:52",
+        "product_name": "CAVIAR Anti-Aging\u00ae Infinite Color Hold Dual-Use Serum",
+        "brand_name": "ALTERNA Haircare",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$48.00"
+                ],
+                "sku": "Item 2140366"
+            }
+        ],
+        "rating": "width:92%",
+        "product_reviews": "95",
+        "ingredients": " -Red Raspberry Leaf Oil and Sunflower Seed Oil: Replenishes natural lipid layer of the hair holding in color pigment and moisture.  \n-Vitamins A, C, and E: Help reduce exposure to free radicals which causes oxidation to the hair fiber.   \n-Caviar Extract: Helps smooth the hair shaft and increase shine with amino acids and omega-3 fatty acids.\n-Age-control Complex: Addresses natural, chemical, and environmental aging; helps smooth the hair strand and increase shine with caviar extract and vitamin C.\nCyclopentasiloxane, Dimethicone, Phenyl Trimethicone, Dimethiconol, Crambe Abyssinica Seed Oil, Isododecane, Glycerin, Phospholipids, Caviar Extract, Laminaria Digitata Extract, Artemisia Vulgaris Extract, Helianthus Annuus (Sunflower) Seed Oil, Helianthus Annuus (Sunflower) Seed Extract, Echinacea Angustifolia Extract, Cymbopogon Schoenanthus Extract, Rubus Idaeus (Raspberry) Leaf Extract, Rosmarinus Officinalis (Rosemary) Leaf Extract, Salvia Officinalis (Sage) Leaf Extract, Tilia Cordata Flower Extract, Macrocystis Pyrifera (Kelp) Extract, Saccharomyces/Magnesium Ferment, Saccharomyces/Copper Ferment, Saccharomyces/Silicon Ferment, Saccharomyces/Zinc Ferment, Saccharomyces/Iron Ferment, Superoxide Dismutase, Amodimethicone, Divinyldimethicone/Dimethicone Copolymer, Propanediol, Ascorbic Acid, Water, Quaternium-95, Polysilicone-15, C12-13 Pareth-23, C12-13 Pareth-3, Potassium Sorbate, Phenoxyethanol, Pentaerythrityl tetra-di-t-butyl Hydroxyhydrocinnamate, Fragrance. \n",
+        "n_loves": "4.7K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/caviar-anti-aging-miracle-multiplying-volume-mist-P405297",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:11:04",
+        "product_name": "CAVIAR Anti-Aging\u00ae Multiplying Volume Styling Mist",
+        "brand_name": "ALTERNA Haircare",
+        "options": [],
+        "rating": "width:85.37000000000002%",
+        "product_reviews": "391",
+        "ingredients": "Water, Polyimide-1, Panthenol, Caviar Extract, Algae Extract, Helianthus Annuus (Sunflower) Seed Oil, Macrocystis Pyrifera (Kelp) Extract, Laminaria Digitata Extract, Keratin, Hydrolyzed Keratin, Biotin, Phospholipids, Saccharomyces/Magnesium Ferment, Saccharomyces/Copper Ferment, Saccharomyces/Silicon Ferment, Saccharomyces/Zinc Ferment, Saccharomyces/Iron Ferment, Polysilicone-15, Palmitamidopropyltrimonium Chloride, Superoxide Dismutase, Ascorbic Acid, Glycerin, PEG-40 Hydrogenated Castor Oil, Disodium EDTA, Citric Acid, Propylene Glycol, Butylene Glycol, Potassium Sorbate, Sodium Benzoate, Phenoxyethanol, Ethylhexylglycerin, Fragrance. ",
+        "n_loves": "18.6K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/caviar-anti-aging-replenishing-moisture-masque-P269707",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:11:15",
+        "product_name": "CAVIAR Anti-Aging\u00ae Replenishing Moisture Masque",
+        "brand_name": "ALTERNA Haircare",
+        "options": [],
+        "rating": "width:78.73599999999999%",
+        "product_reviews": "95",
+        "ingredients": " -Age-Control Complex\u00ae: Combats chronological, chemical, and environmental aging.-Enzymetherapy\u00ae: A core Alterna technology found in each of the brand's products helps transform ingredients into a micro-structure that the hair can more easily absorb, allowing for deeper more targeted penetration of active ingredients.-Color Hold\u00ae: Infuses hair with plant-derived melanin for extreme color protection and the prevention of color washout. Protects hair from UVA UVB and visible light including artificial light sources.-Seasilk\u00ae: A blend of marine botanicals including different algae and seaweeds that provides exceptional moisture protection and helps repair damaged hair. \n\n\n\nAqua/Water/Eau, Cetearyl Alcohol, Stearalkonium Chloride, Cyclopentasiloxane, Stearamidopropyl Dimethylamine, Polysorbate 60, Behentrimonium Methosulfate, Cetrimonium Chloride, Divinyldimethicone/Dimethicone Copolymer, Cyclohexasiloxane, Methyl Gluceth-20, Cetrimonium Bromide, Citric Acid, Dimethiconol, Behenamidopropyl Dimethylamine, Hydroxypropyl Guar Hydroxypropyltrimonium Chloride, Hydroxyethylcellulose, Propylene Glycol Isoceteth-3 Acetate, Amodimethicone, C11-15 Pareth-7, Disodium EDTA, Hydrolyzed Algae Extract, PEG-45M, C12-13 Pareth-23, C12-16 Pareth-9, Glycerin, C12-13 Pareth-3, Trideceth-12, Hydrolyzed Wheat Protein PG-Propyl Methylsilanediol, Propylene Gycol, Wasabia Japonica Root Extract, Butyrospermum Parkii (Shea Butter), Linum Usitatissimum (Linseed) Seed Oil, Melanin Silanetriol, Polyquaternium-10, Superoxide Dismutase, Bromelain, Hydrolyzed Soy Protein, Papain, Foeniculum Vulgare (Fennel) Seed Extract, Pikea Robusta Extract, Caviar Extract, Glycine Max (Soybean) Symbiosome Lysate, Saccharomyces/Lysate Ferment, Saccharomyces/Zinc Ferment, Algae Extract, Lactoferrin, Corn Oligosaccharides, Adenosine Triphosphate, Niacinamide Polypeptide, Peptone, Phospholipids, Phytosphingosine, Acetyl Methionine, Acetyl Serine, Amino Acyl tRNA Synthetase, Copper Lysyl Oxidase, Glycine Soja (Soybean) Seed Peroxidase, Saccharomyces/Copper Ferment, Daucus Carota Sativa (Carrot) Root Extract, Ganoderma Lucidum (Mushroom) Tyrosinase, Lentinus Edodes Tyrosinase, Retinyl Palmitate, Ascorbic Acid Polypeptide, Pantothenic Acid Polypeptide, Methylparaben, Methylisothiazolinone, Fragrance (Parfum), Hexyl Cinnamal, Limonene, Linalool, Geraniol.\n",
+        "n_loves": "4.9K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Masks"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/caviar-anti-aging-restructuring-bond-repair-leave-in-treatment-mousse-P433839",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:11:27",
+        "product_name": "CAVIAR Anti-Aging Restructuring Bond Repair Leave-in Treatment Mousse",
+        "brand_name": "ALTERNA Haircare",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 8.5 oz/ 241 g",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$63.00"
+                ],
+                "sku": "Item 2143436"
+            }
+        ],
+        "rating": "width:90%",
+        "product_reviews": "4",
+        "ingredients": " -Caviar Extract: Restores moisture, elasticity, and shine to hair.-Caviar Bond Enforcing Technology: Seals hair cuticles that have been damaged smoothing out the hair fiber.-Age-Control-Complex\u00ae: Prevents damage and encourages micro-circulation.  -Panthenol: Provides essential nutrients that strengthen, condition, and protect the hair.Water, Cetearyl Alcohol, Isobutane, Glycerin, Pyrus Malus (Apple) Fruit Extract, Steareth-21, Fragrance, Ceteareth-20, Stearamidopropyl Dimethylamine, Propane, Caviar Extract, Oryza Sativa (Rice) Bran Extract, Helianthus Annuus (Sunflower) Extract, Rosmarinus Officinalis (Rosemary) Leaf Extract, Ethylhexyl Olivate, Squalane, Hydrogenated Castor Oil/Sebacic Acid Copolymer, Tocopherol, Panthenol, Isopropyl Myristate, Quaternium-91, Ethylhexylglycerin, Tribehenin, Cetrimonium Methosulfate, Disodium EDTA, Citric Acid, Phenoxyethanol, Hexyl Cinnamal, Citral, Coumarin, Geraniol, Limonene, Linalool.",
+        "n_loves": "458",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Scalp Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/caviar-anti-aging-rapid-blowout-balm-P441825",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:11:40",
+        "product_name": "CAVIAR Anti-Aging\u00ae Rapid Blowout Balm",
+        "brand_name": "ALTERNA Haircare",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 5 oz/ 147 mL"
+                ],
+                "price": [
+                    "$40.00"
+                ],
+                "sku": "Item 2195840"
+            }
+        ],
+        "rating": "width:93.886%",
+        "product_reviews": "193",
+        "ingredients": "Water, Cetearyl Alcohol, Cyclopentasiloxane, Polyimide-1, Behentrimonium Methosulfate, Laurdimonium Hydroxypropyl Hydrolyzed Keratin, Keratin, Hydrolyzed Keratin,\nHydrolyzed Pea Protein PG-Propyl Silanetriol, Dimethiconol, Polyurethane-14, Hydrolyzed Pearl, Sea Salt (Maris Sal), Tocopheryl Acetate, Algae Extract, Caviar Extract, Saccharomyces/Magnesium Ferment, Saccharomyces/Copper Ferment, Saccharomyces/Silicon Ferment, Saccharomyces/Zinc Ferment, Saccharomyces/Iron Ferment, Phospholipids, Tocopherol, AMP-Acrylates Copolymer, Butyrospermum Parkii (Shea) Butter, Helianthus Annuus (Sunflower) Seed Oil, Panthenol, Ascorbic Acid, Polyquaternium-46, Polysilicone-15, Biotin, Superoxide Dismutase, Glycerin, Butylene Glycol, Hydrolyzed Vegetable Protein PG-Propyl Silanetriol, Macrocystis Pyrifera (Kelp) Extract, Ethylhexylglycerin, Caprylyl Glycol, Disodium EDTA, Potassium Sorbate, Guar Hydroxypropyltrimonium Chloride, Citric Acid, Phenoxyethanol,\nAlcohol Denat., Aminomethyl Propanol, Phenylpropanol, Propanediol, Tetrasodium Glutamate Diacetate, Chlorphenesin, Benzoic Acid, Sorbic Acid, Fragrance.\n",
+        "n_loves": "7.3K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/caviar-anti-aging-restructuring-bond-repair-shampoo-P435927",
+        "error": "Product not available",
+        "scrape_timestamp": "08/21/2023, 08:11:53"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/alterna-renewing-scalp-leave-in-treatment-with-hemp-P484023",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:12:03",
+        "product_name": "Renewing Scalp Leave-In Treatment with Hemp",
+        "brand_name": "ALTERNA Haircare",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [],
+                "price": [
+                    "$51.00"
+                ],
+                "sku": "Item 2538189"
+            }
+        ],
+        "rating": "width:96.452%",
+        "product_reviews": "62",
+        "ingredients": "-Vegan Botanical Caviar: Restores moisture, elasticity, and shine to hair.-ALTERNA\u2018s Scalp Moisture Complex: Leaves scalp feeling moisturized.-Witch Hazel: Helps normalize oil production to balance overall scalp hydration.Aqua/Water/Eau, Hamamelis Virginiana (Witch Hazel) Water, Glycerin, Alcohol, Phenoxyethanol, Parfum/Fragrance, Hydroxypropyl Guar, Hydroxyacetophenone, Hydroxyethylcellulose, Lauryl Glucoside, Menthoxypropanediol, Cannabis Sativa Seed Oil, Allantoin, Disodium Edta, Panthenol, Linalool, Benzyl Salicylate, Limonene, Melaleuca Alternifolia (Tea Tree) Leaf Oil, Coumarin, Hydrated Silica, Eugenol, Disodium Phosphate, Polysorbate 60, Sodium Phosphate, Charcoal Powder, Caulerpa Lentillifera Extract, Sodium Benzoate, Citric Acid, Alcohol Denat.",
+        "n_loves": "1.2K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Scalp Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/caviar-anti-aging-bodybuilding-volume-conditioner-P405299",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:12:18",
+        "product_name": "CAVIAR Anti-Aging\u00ae Multiplying Volume Conditioner",
+        "brand_name": "ALTERNA Haircare",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 8.5 oz/ 251 mL"
+                ],
+                "price": [
+                    "$47.00"
+                ],
+                "sku": "Item 2140309"
+            }
+        ],
+        "rating": "width:82.308%",
+        "product_reviews": "104",
+        "ingredients": " -Caviar Extract: Contains amino acids and omega-3 fatty acids that help smooth the hair shaft and increase shine.\n-Seasilk\u00ae (A blend of marine botanicals): Provides exceptional moisture.\n-A blend of Keratin, Panthenol, and Biotin: Strengthens, fortifies, and reinforces to support weak and fragile hair strands.\n-Color Hold\u00ae (A proprietary technology): Locks in hair color brightness.\n\n Water, Cetearyl Alcohol, Behentrimonium Chloride, Cyclopentasiloxane, Cetrimonium Bromide, Stearamidopropyl Dimethylamine, Polysorbate 60, Glycereth-26, Panthenol, Dimethiconol, Polyquaternium-55, Hydrolyzed Vegetable Protein PG-Propyl Silanetriol, Saccharomyces/Magnesium Ferment, Saccharomyces/Copper Ferment, Saccharomyces/Silicon Ferment, Saccharomyces/Zinc Ferment, Saccharomyces/Iron Ferment, Glycerin, Tocopheryl Acetate, Caviar Extract, Polysilicone-15, Superoxide Dismutase, Butyrospermum Parkii (Shea) Butter, Linum Usitatissimum (Linseed) Seed Oil, Phospholipids, Algae Extract, Ascorbic Acid, Polyquaternium-37, Helianthus Annuus (Sunflower) Seed Oil, Amodimethicone, Hydrogenated Polydecene, Cetrimonium Chloride, Trideceth-6, Trideceth-12, Butylene Glycol, Citric Acid, Hydroxyethylcellulose, Guar Hydroxypropyltrimonium Chloride, Disodium EDTA, Phenoxyethanol, Methylisothiazolinone, Fragrance.\n",
+        "n_loves": "5K",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Conditioner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/alterna-caviar-anti-aging-reg-restructuring-bond-repair-conditioner-P472305",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:12:30",
+        "product_name": "CAVIAR Anti-Aging\u00ae Restructuring Bond Repair Conditioner",
+        "brand_name": "ALTERNA Haircare",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 8.5 oz/ 250 mL"
+                ],
+                "price": [
+                    "$47.00"
+                ],
+                "sku": "Item 2471787"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 16.5 oz/ 487 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$71.00"
+                ],
+                "sku": "Item 2471795"
+            }
+        ],
+        "rating": "width:99.26%",
+        "product_reviews": "27",
+        "ingredients": "-Caviar Bond-Enforcing Technology: A proprietary technology that seals damaged hair cuticles. -Age-Control Complex: A proprietary blend of caviar extract and antioxidants. -Seasilk: A moisturizing botanical blend of marine actives that nourishes hair.   Aqua/Water/Eau, Cetearyl Alcohol, Dimethicone, Glycerin, Behentrimonium Chloride, Isopropyl Palmitate, Stearamidopropyl Dimethylamine, Dicetyldimonium Chloride, Isopropyl Alcohol, Phenoxyethanol, Quaternium-87, Parfum/Fragrance, Hydroxypropyl Guar Hydroxypropyltrimonium Chloride, Caprylic/Capric Triglyceride, Citric Acid, Cetrimonium Chloride, Glycereth-26, Propylene Glycol, Hexyl Cinnamal, Sodium Benzoate, Guar Hydroxypropyltrimonium Chloride, Cocos Nucifera (Coconut) Oil, Butyrospermum Parkii  (Shea) Butter, Tetrasodium Glutamate Diacetate, Linalool, Limonene, PEG-45m, Geraniol, Trisodium HEDTA, Sodium Hydroxide, Sodium Glycolate, Silica, Sodium Formate, Helianthus Annuus (Sun\ufb02ower) Seed oil, Superoxide Dismutase, Tocopheryl Acetate, Jojoba Esters, Passi\ufb02ora Edulis Seed Oil, Hydrolyzed Vegetable Protein PG-Propyl Silanetriol, BHT, Alaria Esculenta Extract, Saccharomyces/Copper Ferment, Saccharomyces/Iron Ferment, Saccharomyces/Magnesium Ferment, Saccharomyces/Silicon Ferment, Saccharomyces/Zinc Ferment, Caviar Extract, Leuconostoc/Radish Root Ferment Filtrate, Tocopherol, Disodium EDTA, Potassium Sorbate.",
+        "n_loves": "1.5K",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Conditioner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/alterna-renewing-scalp-care-peppermint-leave-in-treatment-P484024",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:12:43",
+        "product_name": "Renewing Scalp Care Peppermint Leave-In Treatment",
+        "brand_name": "ALTERNA Haircare",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$51.00"
+                ],
+                "sku": "Item 2538197"
+            }
+        ],
+        "rating": "width:91.876%",
+        "product_reviews": "64",
+        "ingredients": "-Vegan Botanical Caviar: Restores moisture, elasticity, and shine to hair.-ALTERNA\u2018s Scalp Moisture Complex: Leaves scalp feeling moisturized-Witch Hazel: Helps normalize oil production to balance overall scalp hydrationAqua/Water/Eau, Hamamelis Virginiana (Witch Hazel) Water, Saccharomyces Ferment Filtrate, Polyquaternium-37, Parfum/Fragrance, Phenoxyethanol, Alcohol, Polysorbate 20, Hydroxyacetophenone, Menthoxypropanediol, Betaine, Isodecyl Neopentanoate, Mentha Piperita (Peppermint) Oil, Menthol, Allantoin, Linalool, Saccharide Isomerate, Disodium Edta, Limonene, Panthenol, Hexyl Cinnamal, Melaleuca Alternifolia (Tea Tree) Leaf Oil, Dicaprylyl Carbonate, Isopropyl Alcohol, Avena Sativa (Oat) Bran Extract, Epilobium Angustifolium Flower/Leaf/Stem Extract, Sodium Benzoate, Aminomethyl Propanol, Potassium Sorbate, Sorbitan Oleate, Benzyl Salicylate, Lauryl Glucoside, Geraniol, Pentasodium Pentetate, Citral, Sodium Metabisulfite, Citric Acid, Sodium Citrate, Charcoal Powder, Glycerin, Cannabis Sativa Seed Oil, Caulerpa Lentillifera Extract, Alcohol Denat.",
+        "n_loves": "1.1K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Scalp Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/caviar-infinite-color-hold-topcoat-shine-spray-P416597",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:12:54",
+        "product_name": "CAVIAR Anti-Aging\u00ae Infinite Color Hold Topcoat Spray",
+        "brand_name": "ALTERNA Haircare",
+        "options": [],
+        "rating": "width:92.63199999999999%",
+        "product_reviews": "19",
+        "ingredients": " -Red Raspberry Leaf Oil and Sunflower Seed Oil: Replenishes natural lipid layer of the hair holding in color pigment and moisture.  \n-Vitamins A, C, and E: Help reduce exposure to free radicals which causes oxidation to the hair fiber.   \n-Caviar Extract: Helps smooth the hair shaft and increase shine with amino acids and omega-3 fatty acids.\n-Age-control Complex: Addresses natural, chemical, and environmental aging; helps smooth the hair strand and increase shine with caviar extract and vitamin C.\nCyclopentasiloxane, Alcohol Denat., Phenyl Trimethicone, Dimethicone, Panthenol, Glycerin, Helianthus Annuus (Sunflower) Seed Oil, Rubus Idaeus (Raspberry) Seed Extract, Caviar Extract, Saccharomyces/Magnesium Ferment, Saccharomyces/Copper Ferment, Saccharomyces/Silicon Ferment, Saccharomyces/Zinc Ferment, Saccharomyces/Iron Ferment, PEG/PPG-18/18 Dimethicone, Tocopheryl Acetate, Phospholipids, Retinyl Palmitate, Polysilicone-15, Quaternium-95, Propanediol, Potassium Sorbate, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Water, Fragrance.\n",
+        "n_loves": "3.1K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/alterna-my-hair-my-canvas-meltaway-no-rinse-micellar-cleanser-P476830",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:13:07",
+        "product_name": "My Hair My Canvas  Meltaway No-Rinse Micellar Cleanser",
+        "brand_name": "ALTERNA Haircare",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 101 mL"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2501997"
+            }
+        ],
+        "rating": "width:76%",
+        "product_reviews": "125",
+        "ingredients": "-Vegan Botanical Caviar-White Charcoal-Micellar TechnologyAqua/Water/Eau, Alcohol Denat. (SD Alcohol 40-B), Tapioca Starch, Caprylyl Methicone, Phenoxyethanol, Polymethylsilsesquioxane, Polyacrylate-13, Parfum/Fragrance, Polyisobutene, Silicone Quaternium-16/Glycidoxy Dimethicone Crosspolymer, Limonene, Ethylhexylglycerin, Polysorbate 20, Undeceth-11, Sorbitan Isostearate, Linalool, Propylene Glycol, Undeceth-5, Glycerin, Acetic Acid, Charcoal Powder, Tocopherol, Polyaminopropyl Biguanide, Caulerpa Lentillifera Extract, Citric Acid, Sodium Benzoate, Sodium Hydroxide, Glucose, Sodium Chloride, Hydrolyzed Pea Protein, Sodium Succinate.",
+        "n_loves": "2K",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Shampoo"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/caviar-anti-aging-smoothing-anti-frizz-air-dry-balm-P448859",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:13:20",
+        "product_name": "Caviar Anti-Aging Smoothing Anti-Frizz Air-Dry Balm",
+        "brand_name": "ALTERNA Haircare",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2236313"
+            }
+        ],
+        "rating": "width:83.126%",
+        "product_reviews": "64",
+        "ingredients": "Water/Aqua/Eau, Cetearyl Alcohol, Dimethicone, Propanediol, Polyimide-1, Behentrimonium Chloride, Glycerin, Phenoxyethanol, Fragrance (Parfum), Isopropyl Alcohol, Hydroxyethylcellulose, Phospholipids, SodiumBenzoate, Amodimethicone, Panthenol, Guar Hydroxypropyltrimonium Chloride, Helianthus Annuus (Sunflower) Seed Oil, Ethylhexyl Glycerin, Polysilicone-15, C11-15 Pareth-7, Laureth-9, Citric Acid, Disodium EDTA, TocopherylAcetate, Trideceth-12, Butylphenyl Methylpropional, Acetic Acid, Limonene, Linalool, Hydroxycitronellal, Alpha-Isomethyl Ionone, Tocopherol, Ascorbic Acid, Cocos Nucifera (Coconut) Oil, Superoxide Dismutase, Honey Extract (Mel Extract), Gardenia Taitensis Flower Extract, Saccharomyces/Magnesium Ferment, Caviar Extract, Potassium Sorbate, Saccharomyces/Copper Ferment, Saccharomyces/Silicon Ferment, Saccharomyces/Zinc Ferment, Saccharomyces/Iron Ferment. (10-17-7369). ",
+        "n_loves": "2.8K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/alterna-restructuring-bond-repair-masque-P479628",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:13:32",
+        "product_name": "Restructuring Bond Repair Masque",
+        "brand_name": "ALTERNA Haircare",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 5.7 oz/ 169 mL"
+                ],
+                "price": [
+                    "$57.00"
+                ],
+                "sku": "Item 2473155"
+            }
+        ],
+        "rating": "width:97.42%",
+        "product_reviews": "31",
+        "ingredients": "-Caviar Bond-Enforcing Technology: A proprietary technology that seals damaged hair cuticles.-Age-Control Complex\u00ae: A proprietary blend of caviar extract and antioxidants.-Seasilk\u00ae: A botanical blend of marine actives that moisturizes and nourishes hair. Aqua/Water/Eau, Cetearyl Alcohol, Behentrimonium Chloride, Glycerin, Dimethicone, Cocos Nucifera (Coconut) Oil, Helianthus Annuus (Sun\ufb02ower) Seed Oil, Polyquaternium-37, Behentrimonium Methosulfate, Phenoxyethanol, Cetyl Alcohol, Propylene Glycol Dicaprylate/Dicaprate, Isopropyl Alcohol, Stearamidopropyl Dimethylamine, Parfum/Fragrance, Hydroxypropyl Guar Hydroxypropyltrimonium Chloride, Guar Hydroxypropyltrimonium Chloride, Cetrimonium Chloride, Hexyl Cinnamal, Sodium Benzoate, PPG-1 Trideceth-6, Butylene Glycol, Citric Acid, Hydrolyzed Vegetable Protein PG-Propyl Silanetriol, Linalool, Limonene, Geraniol, Disodium EDTA, Potassium Sorbate, Butyrospermum Parkii (Shea) Butter, Superoxide Dismutase, Tocopheryl Acetate, Jojoba Esters, Passi\ufb02ora Edulis Seed Oil, Caprylic/Capric Triglyceride, Alaria Esculenta Extract, Saccharomyces/Copper Ferment, Saccharomyces/Iron Ferment, Saccharomyces/Magnesium Ferment, Saccharomyces/Silicon Ferment, Saccharomyces/ Zinc Ferment, Caviar Extract, Leuconostoc/Radish Root Ferment Filtrate, Tocopherol.",
+        "n_loves": "2.3K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Masks"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/caviar-anti-aging-restructuring-bond-repair-leave-in-overnight-serum-P435933",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 08:13:45",
+        "product_name": "CAVIAR Anti-Aging\u00ae Restructuring Bond Repair Leave-In Overnight Serum",
+        "brand_name": "ALTERNA Haircare",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2140234"
+            }
+        ],
+        "rating": "width:87.522%",
+        "product_reviews": "452",
+        "ingredients": " -Caviar Extract: Restores moisture, elasticity, and shine to hair.-Caviar Bond Enforcing Technology: Seals hair cuticles that have been damaged through chemical processes or physical stress, and smooths out the hair fiber.-Age-Control-Complex\u00ae: Prevents damage and encourages micro-circulation to undo the effects of chemical, environmental, and natural chronological aging.-Hydrolyzed Vegetable Protein PG-Propyl Silanetriol: Strengthens, fortifies, and revitalizes the look of dry and damaged hair.Water, Cyclopentasiloxane, Glycerin, Dimethicone, Fragrance, Hydrogenated Castor Oil/Sebacic Acid Copolymer, Benzyl Alcohol, Polyquaternium-37, Propylene Glycol Dicaprylate/Dicaprate, Dimethiconol, PPG-1 Trideceth-6, Hydrolyzed Vegetable Protein PG-Propyl Silanetriol, Dehydroacetic Acid, Hydrolyzed Keratin, Butyrospermum Parkii (Shea) Butter, Helianthus Annuus (Sunflower) Seed Oil, Polysilicone-15, Superoxide Dismutase, Caviar Extract, Potassium Benzoate, Propylene Glycol, Sodium Sorbate, Leuconostoc/Radish Root Ferment Filtrate, Saccharomyces/Copper Ferment, Saccharomyces/Iron Ferment, Saccharomyces/Magnesium Ferment, Saccharomyces/Silicon Ferment, Saccharomyces/Zinc Ferment, Phospholipids, Hexyl Cinnamal, Linalool, Limonene, Geraniol, Coumarin, Citral, Amyl Cinnamal, Benzyl Benzoate, Benzyl Alcohol, Citronellol.",
+        "n_loves": "5.3K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Masks"
+        ]
+    }
+]

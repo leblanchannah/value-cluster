@@ -1,0 +1,574 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/vanille-extreme-travel-spray-P406316",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:12:06",
+        "product_name": "Vanille Extreme Travel Spray",
+        "brand_name": "Comptoir Sud Pacifique",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.35 oz/ 10.4 mL"
+                ],
+                "price": [
+                    "$37.00"
+                ],
+                "sku": "Item 1794379"
+            }
+        ],
+        "rating": "width:83.334%",
+        "product_reviews": "42",
+        "ingredients": "Alcohol Denat., Fragrance, Water.",
+        "n_loves": "5.2K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/vanille-trio-gift-set-P506014",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:12:17",
+        "product_name": "Vanille Trio Gift Set",
+        "brand_name": "Comptoir Sud Pacifique",
+        "options": [],
+        "rating": "width:100%",
+        "product_reviews": "1",
+        "ingredients": "Vanille Abricot: Alcohol Denat./S.D. Alcohol 39c., Parfum/Fragrance, Aqua/Water, Limonene, Linalool, Citral.Vanille Extreme: Alcohol Denat./S.D. Alcohol 39c., Parfum/Fragrance, Aqua/Water.Vanille Coco: Alcohol Denat./S.D. Alcohol 39c., Parfum/Fragrance, Aqua/Water.",
+        "n_loves": "812",
+        "categories": [
+            "Fragrance",
+            "Value & Gift Sets",
+            "Perfume Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/coco-extreme-P386774",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:12:27",
+        "product_name": "Coco Extreme",
+        "brand_name": "Comptoir Sud Pacifique",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$68.00"
+                ],
+                "sku": "Item 1433176"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$132.00"
+                ],
+                "sku": "Item 1297555"
+            }
+        ],
+        "rating": "width:78.182%",
+        "product_reviews": "33",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "2.6K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/vanille-abricot-P386773",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:12:40",
+        "product_name": "Vanille Abricot",
+        "brand_name": "Comptoir Sud Pacifique",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL"
+                ],
+                "price": [
+                    "$68.00"
+                ],
+                "sku": "Item 1433192"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.3 oz/ 100 mL"
+                ],
+                "price": [
+                    "$132.00"
+                ],
+                "sku": "Item 1297548"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.35 oz/ 10.4 mL"
+                ],
+                "price": [
+                    "$37.00"
+                ],
+                "sku": "Item 1794353"
+            }
+        ],
+        "rating": "width:90.23%",
+        "product_reviews": "217",
+        "ingredients": "Alcohol Denat., Fragrance, Water, Limonene, Linalool, Citral.",
+        "n_loves": "9.4K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/vanille-banane-P433654",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:12:54",
+        "product_name": "Vanille Banane",
+        "brand_name": "Comptoir Sud Pacifique",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL"
+                ],
+                "price": [
+                    "$68.00"
+                ],
+                "sku": "Item 2086130"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL eau de toilette spray"
+                ],
+                "price": [
+                    "$132.00"
+                ],
+                "sku": "Item 2086122"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.34 oz/ 10 mL"
+                ],
+                "price": [
+                    "$37.00"
+                ],
+                "sku": "Item 2086148"
+            }
+        ],
+        "rating": "width:76.786%",
+        "product_reviews": "56",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "3.5K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/vanille-blackberry-P420730",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:13:06",
+        "product_name": "Vanille Blackberry",
+        "brand_name": "Comptoir Sud Pacifique",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.0 oz/ 30 mL Eau de Toilette Spray",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$68.00"
+                ],
+                "sku": "Item 1915784"
+            }
+        ],
+        "rating": "width:81.396%",
+        "product_reviews": "43",
+        "ingredients": "Alcohol Denat., Fragrance, Water, Limonene, Benzyl Alcohol, Linalool, Citral, Alpha Isomethyl Ionone.",
+        "n_loves": "3.6K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/vanille-extreme-P386776",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:13:18",
+        "product_name": "Vanille Extreme",
+        "brand_name": "Comptoir Sud Pacifique",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL"
+                ],
+                "price": [
+                    "$68.00"
+                ],
+                "sku": "Item 1433168"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.3 oz/ 100 mL"
+                ],
+                "price": [
+                    "$132.00"
+                ],
+                "sku": "Item 1297522"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.35 oz/ 10.4 mL"
+                ],
+                "price": [
+                    "$37.00"
+                ],
+                "sku": "Item 1794379"
+            }
+        ],
+        "rating": "width:86.60600000000001%",
+        "product_reviews": "218",
+        "ingredients": "Alcohol Denat., Fragrance, Water.",
+        "n_loves": "9.7K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/vanille-banane-travel-spray-P433655",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:13:31",
+        "product_name": "Vanille Banane Travel Spray",
+        "brand_name": "Comptoir Sud Pacifique",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.34 oz/ 10 mL"
+                ],
+                "price": [
+                    "$37.00"
+                ],
+                "sku": "Item 2086148"
+            }
+        ],
+        "rating": "width:78.62%",
+        "product_reviews": "29",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "2.2K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/coco-figue-P386775",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:13:42",
+        "product_name": "Coco Figue",
+        "brand_name": "Comptoir Sud Pacifique",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL Eau de Toilette Spray",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$68.00"
+                ],
+                "sku": "Item 1622141"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.3 oz/ 100 mL Eau de Toilette Spray",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$132.00"
+                ],
+                "sku": "Item 1337104"
+            }
+        ],
+        "rating": "width:78.948%",
+        "product_reviews": "19",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "2.4K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/vanille-abricot-travel-spray-P406320",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:13:54",
+        "product_name": "Vanille Abricot Travel Spray",
+        "brand_name": "Comptoir Sud Pacifique",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.35 oz/ 10.4 mL"
+                ],
+                "price": [
+                    "$37.00"
+                ],
+                "sku": "Item 1794353"
+            }
+        ],
+        "rating": "width:77.82600000000001%",
+        "product_reviews": "46",
+        "ingredients": "Alcohol Denat., Fragrance, Water, Limonene, Linalool, Citral.",
+        "n_loves": "4.6K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/comptoir-sud-pacifique-vanille-iconique-eau-de-toilette-P479102",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:14:05",
+        "product_name": "Vanille Iconique Eau de Toilette",
+        "brand_name": "Comptoir Sud Pacifique",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL Eau de Toilette Spray",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$68.00"
+                ],
+                "sku": "Item 2547628"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL Eau de Toilette Spray",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$132.00"
+                ],
+                "sku": "Item 2547636"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": "LIMITED EDITION",
+                "size": null,
+                "name": [
+                    "Size: 0.33 oz/ 10 mL Eau de Toilette Spray",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$37.00"
+                ],
+                "sku": "Item 2547610"
+            }
+        ],
+        "rating": "width:72%",
+        "product_reviews": "5",
+        "ingredients": "Alcohol Denat./S.D. Alcohol 39c. (Cas # 64-17-5 - Ec N\u00b0 200-576-6), Parfum/Fragrance (Cas #/- Ec N\u00b0 /), Aqua/Water (Cas # 7732-18-5 - Ec N\u00b0 231-791-2), Benzyl Alcohol (Cas # 100-51-6 - Ec N\u00b0 289-860-8).",
+        "n_loves": "640",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/vanille-coco-travel-spray-P406318",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:14:18",
+        "product_name": "Vanille Coco Travel Spray",
+        "brand_name": "Comptoir Sud Pacifique",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.35 oz/ 10.4 mL"
+                ],
+                "price": [
+                    "$37.00"
+                ],
+                "sku": "Item 1794361"
+            }
+        ],
+        "rating": "width:78.41199999999999%",
+        "product_reviews": "63",
+        "ingredients": "Alcohol Denat., Fragrance, Water.",
+        "n_loves": "6.2K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/comptoir-sud-pacifique-vanille-passion-P459404",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:14:30",
+        "product_name": "Vanille Passion",
+        "brand_name": "Comptoir Sud Pacifique",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 ml"
+                ],
+                "price": [
+                    "$68.00"
+                ],
+                "sku": "Item 2366383"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.34 oz/ 10 ml"
+                ],
+                "price": [
+                    "$37.00"
+                ],
+                "sku": "Item 2366391"
+            }
+        ],
+        "rating": "width:88.00000000000001%",
+        "product_reviews": "15",
+        "ingredients": "Alcohol Denat. / SD Alcohol 39C., Perfume / Fragrance, Aqua / Water, Benzyl Benzoate. ",
+        "n_loves": "1.6K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/vanille-coco-P386771",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 13:14:41",
+        "product_name": "Vanille Coco",
+        "brand_name": "Comptoir Sud Pacifique",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL"
+                ],
+                "price": [
+                    "$68.00"
+                ],
+                "sku": "Item 1433150"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.3 oz/ 100 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$132.00"
+                ],
+                "sku": "Item 1297530"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.35 oz/ 10.4 mL"
+                ],
+                "price": [
+                    "$37.00"
+                ],
+                "sku": "Item 1794361"
+            }
+        ],
+        "rating": "width:89.30199999999999%",
+        "product_reviews": "129",
+        "ingredients": "Alcohol Denat., Fragrance, Water.",
+        "n_loves": "8.2K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    }
+]

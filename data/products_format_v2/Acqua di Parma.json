@@ -2,71 +2,47 @@
     {
         "url": "https://www.sephora.com/ca/en/product/acqua-di-parma-sakura-P456549",
         "error": "Product not available",
-        "scrape_timestamp": "08/21/2023, 07:28:14"
+        "scrape_timestamp": "08/21/2023, 07:50:54"
     },
     {
         "url": "https://www.sephora.com/ca/en/product/blu-mediterraneo-fico-di-amalfi-P307801",
         "error": "Product not available",
-        "scrape_timestamp": "08/21/2023, 07:28:25"
+        "scrape_timestamp": "08/21/2023, 07:51:03"
     },
     {
         "url": "https://www.sephora.com/ca/en/product/magnolia-nobile-P252213",
-        "error": "",
-        "scrape_timestamp": "08/21/2023, 07:28:35",
-        "product_name": "Unknown Product Name",
-        "brand_name": "Unknown Brand",
-        "options": [],
-        "rating": "",
-        "product_reviews": "",
-        "ingredients": "Unknown Ingredients",
-        "n_loves": "Unknown Loves Count",
-        "categories": null
+        "error": "Product not available",
+        "scrape_timestamp": "08/21/2023, 07:51:12"
     },
     {
         "url": "https://www.sephora.com/ca/en/product/acqua-di-parma-arancia-di-capri-candle-P471525",
-        "error": "",
-        "scrape_timestamp": "08/21/2023, 07:28:47",
-        "product_name": "Unknown Product Name",
-        "brand_name": "Unknown Brand",
-        "options": [],
-        "rating": "",
-        "product_reviews": "",
-        "ingredients": "Unknown Ingredients",
-        "n_loves": "Unknown Loves Count",
-        "categories": null
+        "error": "Product not available",
+        "scrape_timestamp": "08/21/2023, 07:51:22"
     },
     {
         "url": "https://www.sephora.com/ca/en/product/acqua-di-parma-fico-di-amalfi-candle-P471526",
         "error": "Product not available",
-        "scrape_timestamp": "08/21/2023, 07:28:56"
+        "scrape_timestamp": "08/21/2023, 07:51:32"
     },
     {
         "url": "https://www.sephora.com/ca/en/product/colonia-P163604",
-        "error": "",
-        "scrape_timestamp": "08/21/2023, 07:29:06",
-        "product_name": "Unknown Product Name",
-        "brand_name": "Unknown Brand",
-        "options": [],
-        "rating": "",
-        "product_reviews": "",
-        "ingredients": "Unknown Ingredients",
-        "n_loves": "Unknown Loves Count",
-        "categories": null
+        "error": "Product not available",
+        "scrape_timestamp": "08/21/2023, 07:51:41"
     },
     {
         "url": "https://www.sephora.com/ca/en/product/blu-mediterraneo-mandorlo-di-sicilia-P307803",
         "error": "Product not available",
-        "scrape_timestamp": "08/21/2023, 07:29:21"
+        "scrape_timestamp": "08/21/2023, 07:51:50"
     },
     {
         "url": "https://www.sephora.com/ca/en/product/acqua-di-parma-mirto-di-panarea-travel-spray-P459152",
         "error": "Product not available",
-        "scrape_timestamp": "08/21/2023, 07:29:33"
+        "scrape_timestamp": "08/21/2023, 07:52:00"
     },
     {
         "url": "https://www.sephora.com/ca/en/product/colonia-pura-P422289",
         "error": "",
-        "scrape_timestamp": "08/21/2023, 07:29:43",
+        "scrape_timestamp": "08/21/2023, 07:52:10",
         "product_name": "Colonia Pura",
         "brand_name": "Acqua di Parma",
         "options": [
@@ -96,52 +72,28 @@
     },
     {
         "url": "https://www.sephora.com/ca/en/product/luce-di-colonia-diffuser-P448828",
-        "error": "",
-        "scrape_timestamp": "08/21/2023, 07:29:59",
-        "product_name": "Unknown Product Name",
-        "brand_name": "Unknown Brand",
-        "options": [],
-        "rating": "",
-        "product_reviews": "",
-        "ingredients": "Unknown Ingredients",
-        "n_loves": "Unknown Loves Count",
-        "categories": null
+        "error": "Product not available",
+        "scrape_timestamp": "08/21/2023, 07:52:21"
     },
     {
         "url": "https://www.sephora.com/ca/en/product/blu-mediterraneo-minature-set-P443401",
         "error": "Product not available",
-        "scrape_timestamp": "08/21/2023, 07:30:09"
+        "scrape_timestamp": "08/21/2023, 07:52:31"
     },
     {
         "url": "https://www.sephora.com/ca/en/product/acqua-di-parma-aperitivo-in-terrazza-diffuser-P460438",
-        "error": "",
-        "scrape_timestamp": "08/21/2023, 07:30:22",
-        "product_name": "Unknown Product Name",
-        "brand_name": "Unknown Brand",
-        "options": [],
-        "rating": "",
-        "product_reviews": "",
-        "ingredients": "Unknown Ingredients",
-        "n_loves": "Unknown Loves Count",
-        "categories": null
+        "error": "Product not available",
+        "scrape_timestamp": "08/21/2023, 07:52:46"
     },
     {
         "url": "https://www.sephora.com/ca/en/product/rosa-nobile-P388670",
-        "error": "",
-        "scrape_timestamp": "08/21/2023, 07:30:32",
-        "product_name": "Unknown Product Name",
-        "brand_name": "Unknown Brand",
-        "options": [],
-        "rating": "",
-        "product_reviews": "",
-        "ingredients": "Unknown Ingredients",
-        "n_loves": "Unknown Loves Count",
-        "categories": null
+        "error": "Product not available",
+        "scrape_timestamp": "08/21/2023, 07:52:55"
     },
     {
         "url": "https://www.sephora.com/ca/en/product/peonia-nobile-P413669",
         "error": "",
-        "scrape_timestamp": "08/21/2023, 07:30:42",
+        "scrape_timestamp": "08/21/2023, 07:53:03",
         "product_name": "Peonia Nobile",
         "brand_name": "Acqua di Parma",
         "options": [
@@ -171,44 +123,28 @@
     },
     {
         "url": "https://www.sephora.com/ca/en/product/acqua-di-parma-yuzu-P456550",
-        "error": "",
-        "scrape_timestamp": "08/21/2023, 07:30:56",
-        "product_name": "Unknown Product Name",
-        "brand_name": "Unknown Brand",
-        "options": [],
-        "rating": "",
-        "product_reviews": "",
-        "ingredients": "Unknown Ingredients",
-        "n_loves": "Unknown Loves Count",
-        "categories": null
+        "error": "Product not available",
+        "scrape_timestamp": "08/21/2023, 07:53:14"
     },
     {
         "url": "https://www.sephora.com/ca/en/product/colonia-intensa-oud-P377678",
-        "error": "",
-        "scrape_timestamp": "08/21/2023, 07:31:06",
-        "product_name": "Unknown Product Name",
-        "brand_name": "Unknown Brand",
-        "options": [],
-        "rating": "",
-        "product_reviews": "",
-        "ingredients": "Unknown Ingredients",
-        "n_loves": "Unknown Loves Count",
-        "categories": null
+        "error": "Product not available",
+        "scrape_timestamp": "08/21/2023, 07:53:24"
     },
     {
         "url": "https://www.sephora.com/ca/en/product/blu-mediterraneo-arancia-di-capri-P375388",
         "error": "Product not available",
-        "scrape_timestamp": "08/21/2023, 07:31:15"
+        "scrape_timestamp": "08/21/2023, 07:53:35"
     },
     {
         "url": "https://www.sephora.com/ca/en/product/luce-di-colonia-candle-P448827",
         "error": "Product not available",
-        "scrape_timestamp": "08/21/2023, 07:31:24"
+        "scrape_timestamp": "08/21/2023, 07:53:45"
     },
     {
         "url": "https://www.sephora.com/ca/en/product/blu-mediterraneo-mirto-di-panarea-P307804",
         "error": "",
-        "scrape_timestamp": "08/21/2023, 07:31:34",
+        "scrape_timestamp": "08/21/2023, 07:53:54",
         "product_name": "Mirto di Panarea",
         "brand_name": "Acqua di Parma",
         "options": [
@@ -238,28 +174,12 @@
     },
     {
         "url": "https://www.sephora.com/ca/en/product/colonia-deodorant-P380571",
-        "error": "",
-        "scrape_timestamp": "08/21/2023, 07:31:46",
-        "product_name": "Unknown Product Name",
-        "brand_name": "Unknown Brand",
-        "options": [],
-        "rating": "",
-        "product_reviews": "",
-        "ingredients": "Unknown Ingredients",
-        "n_loves": "Unknown Loves Count",
-        "categories": null
+        "error": "Product not available",
+        "scrape_timestamp": "08/21/2023, 07:54:07"
     },
     {
         "url": "https://www.sephora.com/ca/en/product/acqua-di-parma-aperitivo-in-terrazza-candle-P460437",
-        "error": "",
-        "scrape_timestamp": "08/21/2023, 07:31:56",
-        "product_name": "Unknown Product Name",
-        "brand_name": "Unknown Brand",
-        "options": [],
-        "rating": "",
-        "product_reviews": "",
-        "ingredients": "Unknown Ingredients",
-        "n_loves": "Unknown Loves Count",
-        "categories": null
+        "error": "Product not available",
+        "scrape_timestamp": "08/21/2023, 07:54:16"
     }
 ]

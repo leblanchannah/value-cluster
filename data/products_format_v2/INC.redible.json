@@ -1,0 +1,27 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/you-glow-girl-iridescent-jelly-P429434",
+        "error": "Product not available",
+        "scrape_timestamp": "08/21/2023, 19:21:23"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/P500421",
+        "error": "Product not available",
+        "scrape_timestamp": "08/21/2023, 19:21:32"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/incredible-jammy-lips-sheer-lacquer-lip-tint-P455637",
+        "error": "Product not available",
+        "scrape_timestamp": "08/21/2023, 19:21:43"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/incredible-hydrating-boob-bum-sheet-mask-duo-P458958",
+        "error": "Product not available",
+        "scrape_timestamp": "08/21/2023, 19:21:53"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/baddie-s-got-gold-rainbow-highlighter-P446043",
+        "error": "Product not available",
+        "scrape_timestamp": "08/21/2023, 19:22:03"
+    }
+]

@@ -1,0 +1,831 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/clean-bee-ultra-gentle-facial-cleanser-P431187",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:32:34",
+        "product_name": "Clean Bee Ultra Gentle Facial Cleanser",
+        "brand_name": "Farmacy",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 5 oz/150 mL"
+                ],
+                "price": [
+                    "$38.00"
+                ],
+                "sku": "Item 2046597"
+            }
+        ],
+        "rating": "width:80.55600000000001%",
+        "product_reviews": "898",
+        "ingredients": " -Coconut, Sugar, and Amino Acid: Naturally derived cleansers to gently wash away surface oil, impurities, pollution residue, and makeup.                \n-Hyaluronic Acid: Low molecular weight hyaluronic acid penetrates deeply for added moisture and hydration.      \n-Proprietary Honey Blend: Known for its soothing and humectant properties, this special honey delivers skin-loving moisture and nourishment, plus antioxidants.                \n Water/Aqua/Eau, Sodium Lauroyl Methyl Isethionate, Cocamidopropyl Hydroxysultaine, Chamomilla Recutita (Matricaria) Flower Water, Decyl Glucoside, Maltooligosyl Glucoside, Lauryl Glucoside, Glycerin, Hydrogenated Starch Hydrolysate, Echinacea Purpurea Root Extract, Honey Extract, Propolis Extract, Royal Jelly Extract, Hydrolyzed Sodium Hyaluronate, Calendula Officinalis Flower Extract, Glycyrrhiza Glabra (Licorice) Root Extract, Aloe Barbadensis Leaf Juice, Melia Azadirachta Leaf Extract, Lavandula Angustifolia (Lavender) Oil, Lavandula Hybrida Oil, Curcumin, Curcuma Longa (Turmeric) Root Extract, Betaine, Sodium Pca, Disodium Cocoyl Glutamate, Sodium Cocoyl Glutamate, Citric Acid, Sodium Benzoate, Abies Sibirica Oil, Cymbopogon Martini Oil, Pelargonium Graveolens Oil, Pogostemon Cablin Leaf Oil, Caramel, Anthemis Nobilis Flower Oil, Ocimum Basilicum (Basil) Flower/Leaf Extract, Ocimum Sanctum Leaf Extract, Melia Azadirachta Flower Extract, Corallina Officinalis Extract, Flavor (Aroma)*, Potassium Sorbate, Maltodextrin, Trisodium Ethylenediamine Disuccinate, Sodium Chloride, Sodium Phytate, Propanediol, Linalool.*Made with natural flavors.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "54.2K",
+        "categories": [
+            "Skincare",
+            "Cleansers",
+            "Face Wash & Cleansers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/farmacy-deep-sweep-2-bha-pore-cleaning-toner-with-moringa-papaya-P459141",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:32:45",
+        "product_name": "Deep Sweep 2% BHA Pore Cleaning Toner with Moringa + Papaya",
+        "brand_name": "Farmacy",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 4.0 oz/ 120 mL"
+                ],
+                "price": [
+                    "$44.00"
+                ],
+                "sku": "Item 2328359"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 / 50"
+                ],
+                "price": [
+                    "$22.00"
+                ],
+                "sku": "Item 2554111"
+            }
+        ],
+        "rating": "width:89.154%",
+        "product_reviews": "887",
+        "ingredients": "-Salicylic Acid (BHA) 2%: Exfoliates, visibly cleans pores, draws out excess oil, and visibly refines texture. -Moringa Seed Extract and Moringa Water: Refresh skin by removing visible impurities and dirt. -Papaya Enzymes: Gently exfoliate and visibly clarify, revealing a fresh-looking complexion.Water/Aqua/Eau, Arginine, Salicylic Acid, Lactobacillus/Papaya Fruit Ferment Extract, Moringa Oleifera Leaf Water, Moringa Oleifera Seed Extract, Eucalyptus Globulus Leaf Water, Chlorella Ferment, Paeonia Suffruticosa Root Extract, Scutellaria Baicalensis Root Extract, Lactic Acid, Glycerin, Butylene Glycol, Xylitylglucoside, Anhydroxylitol, Xylitol, Leuconostoc/Radish Root Ferment Filtrate, Gluconolactone, Maltodextrin, Glucose, Potassium Sorbate, Sodium Benzoate.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category--this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).\n",
+        "n_loves": "99.2K",
+        "categories": [
+            "Skincare",
+            "Cleansers",
+            "Toners"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/farmacy-mini-clearly-clean-makeup-removing-cleansing-balm-P480302",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:32:58",
+        "product_name": "Mini Clearly Clean Makeup Removing Cleansing Balm",
+        "brand_name": "Farmacy",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL"
+                ],
+                "price": [
+                    "$33.00"
+                ],
+                "sku": "Item 2531663"
+            }
+        ],
+        "rating": "width:89.30799999999999%",
+        "product_reviews": "722",
+        "ingredients": "Highlighted Ingredients: -Sunflower Oil: Melts away makeup without stripping or drying. -Moringa Extract: Remove pollutants, cleansing and refreshing skin.-Papaya Enzyme: Gently exfoliates and cleanses pores for a fresh-looking complexion.Cetyl Ethylhexanoate, Synthetic Wax, Coco-Caprylate/Caprate, Caprylic/Capric Triglyceride, Polyglyceryl-10 Dioleate, Polyglyceryl-6 Dicaprate, Sorbitan Oleate Decylglucoside Crosspolymer, Helianthus Annuus (Sunflower) Seed Oil, Moringa Oleifera Seed Extract, Carica Papaya (Papaya) Fruit Extract, Moringa Oleifera Leaf Water, Pentylene Glycol, Gluconolactone, Polyglyceryl-6 Oleate, Glyceryl Citrate/Lactate/Linoleate/Oleate, Sorbitan Sesquioleate, Potassium Olivate, Glyceryl Caprylate, Polyglyceryl-3 Caprate, Polyglyceryl-4 Cocoate, Sodium Chloride, Butylene Glycol, Water/Aqua/Eau, Sodium Benzoate, Maltodextrin, Glyceryl Laurate.Clean at Sephora products are formulated without:Acrylates (Ethyl acrylate, Ethyl methacrylate, Butyl methacrylate, Methyl methacrylate, Tetrahydrofurfuryl methacrylate, Trimethylolpropane trimethacrylate), Aluminum Salts (Aluminum chloride, Aluminum chlorohydrate, Aluminum chlorohydrex, Aluminum dichlorohydrate, Aluminum sesquichlorohydrate, Aluminum zirconium octachlorohydrate, Aluminum zirconium octachlorohydrex gly, Aluminum zirconium pentachlorohydrate, Aluminum zirconium pentachlorohydrex gly, Aluminum zirconium tetrachlorohydrate, Aluminum zirconium tetrachlorohydrex gly, Aluminum zirconium trichlorohydrate, Aluminum zirconium trichlorohydrex gly tot), Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT), Carbon black or Black 2, Coal Tar (Coal tar, Naptha multiple, High solvent naphtha, Naphtha distillate, Tar), Ethanolamines (Diethanolamine (DEA), Ethanolamine (ETA), Monoethanolamine (MEA), Triethanolamine (TEA)), Formaldehyde and Formaldehyde Releasing Agents (2-bromo-2-nitropropane-1, 3-diol, 5-bromo-5-nitro1, 3-dioxane, Benzylhemiformal, Diazolidinyl urea, Dmdm hydantoin, Formaldehyde, Imidazolidinyl urea, Methenamine, Quaternium-15, Sodium hydroxymethylglycinate), Hydroquinone (2-Acetylhydroquinone, Di-t-Butylhydroquinone, Diamylhydroquinone, Hydroquinone, Hydroquinone Safflowerates), Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil (Mineral Oil, Hydrogenated Mineral Oil), Nanomaterials (Methylene bis-benzotriazolyl, tetramethylbutylphenol, Titanium Dioxide, Tris-biphenyl triazine, Zinc Oxide), Oxybenzone, Parabens, Petrolatum and Parrafin, Pehnoxyethanol, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styerene (Bromostyrene, Dea-styrene/acrylates/dvb copolymer, Sodium styrene/divinylbenzene copolymer, Styrene, Styrene oxide), Sulfates (Sodium Lauryl Sulfate (SLS), Sodium Laureth Sulfate (SLES)), Talc, Toluene (2,6-Dihydroxyethylaminotoluene, 4-Amino-2-Hydroxytoluene, 4-Amino-2-Hydroxytoluene Sulfate, 4-Methoxytoluene-2,5-Diamine HCl, Methylstyrene/Vinyltoluene Copolymer, N,N-Diethyltoluene-2,5-Diamine HCl, Potassium Toluenesulfonate, Sodium Toluenesulfonate, Toluene, Toluene Sulfonic Acid, Toluene-2,5-Diamine, Toluene-2,5-Diamine Sulfate, Toluene-2,6-Diamine, Toluene-3,4-Diamine), Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, Bisphenol A (BPA), Ethylenediaminetetraacetic acid (EDTA), Methylene chloride, Polytetrafluoroethylene (PTFE), Perfluorooctanoic acid (PFOA), 1, 4, Diocane, Octinoxate (Octinoxate, Octyl methoxycinnamate, Ethylhexyl methoxycinnamate), PFAS compounds (PFASs or PFCs, \"perfluor\" or \"polyfluor\" in the ingredient name (e.g. Perfluorooctanoic Acid (PFOA), polytetrafluorothylene (PTFE)), Nitromusks and Polycyclic Musks (Musk ketone, Hexamethylindanopyran, Acetyl Hexamethyl Tetralin, Acetyl Hexamethyl Indan, Dihydro Pentamethylindanone).",
+        "n_loves": "12.9K",
+        "categories": [
+            "Mini Size",
+            "Skincare"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/1-vitamin-a-retinol-serum-P500288",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:33:10",
+        "product_name": "1% Vitamin A Retinol Serum",
+        "brand_name": "Farmacy",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz / 30 mL"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2588762"
+            }
+        ],
+        "rating": "width:94.178%",
+        "product_reviews": "474",
+        "ingredients": "-Fast-Acting Retinal: Promotes immediate delivery to tighten the look of skin, visibly improve texture, and fight the look of wrinkles and fine lines.-Encapsulated Retinol: Delivers more stable gradual release results without irritation.-Upcycled Kalahari Melon Oil and Raspberry Seed Oil: Are rich in antioxidants, soothe, and replenish moisture.Water/Aqua/Eau, Glycerin, Caprylic/Capric Triglyceride, Isopentyldiol, Trioctyldodecyl Citrate, Citrullus Lanatus (Watermelon) Seed Oil, 1,2-Hexanediol, Rubus Idaeus (Raspberry) Seed Oil, Panthenol, Triolein, Retinal, Ceramide Np, Tocopherol, Retinol, Tocopheryl Acetate, Haematococcus Pluvialis Extract, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Copernicia Cerifera (Carnauba) Wax, Pongamia Glabra Seed Oil, Glyceryl Dioleate, Bisabolol, Allantoin, Dunaliella Salina Extract, Ethyl Ferulate, Humulus Lupulus (Hops) Extract, Zingiber Officinale (Ginger) Root Extract, Arginine, Propanediol, Cellulose Gum, Sclerotium Gum, Ubiquinone, Lactic Acid, Sodium Phytate, Caprylyl Glycol, Inulin, Disodium Cocoamphodiacetate, Helianthus Annuus (Sunflower) Seed Oil, Polysorbate 20, Citric Acid, Cellulose, Fructose, Glucose, Sorbitan Isostearate, Xanthan Gum.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "31.9K",
+        "categories": [
+            "Skincare",
+            "Treatments",
+            "Face Serums"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/farmacy-10-waterless-vitamin-c-serum-P482676",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:33:23",
+        "product_name": "10% Waterless Vitamin C Serum",
+        "brand_name": "Farmacy",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL"
+                ],
+                "price": [
+                    "$68.00"
+                ],
+                "sku": "Item 2563583"
+            }
+        ],
+        "rating": "width:87.3%",
+        "product_reviews": "863",
+        "ingredients": "-L-Ascorbic Acid 10%: Visibly brightens, evens skin tone, and tightens the look of skin.-Alpha Arbutin 1% and Ferulic Acid: Target the look of dark spots and hyperpigmentation while enhancing the benefits of vitamin C.-Upcycled Tangerine Peel and Sugar Beet: Hydrate and boost the skin\u2019s moisture and visible radiance.Propanediol, Pentylene Glycol, Ascorbic Acid, Betaine, Alpha-Arbutin, Ferulic Acid, Citrus Aurantium Amara (Bitter Orange) Fruit Extract, Citrus Reticulata (Tangerine) Fruit Extract, Citrus Aurantium Sinensis Peel Extract, Glycerin, Lactic Acid, Citric Acid.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "31.9K",
+        "categories": [
+            "Skincare",
+            "Treatments",
+            "Face Serums"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/farmacy-whipped-greens-oil-free-foaming-cleanser-with-moringa-papaya-P466661",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:33:35",
+        "product_name": "Whipped Greens Oil-Free Foaming Cleanser with Moringa and Papaya",
+        "brand_name": "Farmacy",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 5 oz / 150 mL"
+                ],
+                "price": [
+                    "$38.00"
+                ],
+                "sku": "Item 2418242"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz / 50 mL"
+                ],
+                "price": [
+                    "$17.00"
+                ],
+                "sku": "Item 2644540"
+            }
+        ],
+        "rating": "width:91.188%",
+        "product_reviews": "522",
+        "ingredients": "-Moringa Seed Extract and Moringa Water: Remove environmental pollutants, visibly purifying and refreshing skin.-Papaya Enzyme and Green Clay: Exfoliate skin, absorb surface oil, cleanse pores, and remove buildup.-Sodium PCA: Maintains hydration for supple-, healthy-looking skin.Water/Aqua/Eau, Glycerin, Sodium Lauroyl Isethionate, Sodium Cocoyl Glycinate, Decyl Glucoside, Magnesium Aluminum Silicate, Sodium Lauroyl Methyl Isethionate, Coconut Acid, Sodium Lauroamphoacetate, Myristic Acid, Sodium Lauroyl Lactylate, Moringa Oleifera Leaf Water, Sodium PCA, Kaolin, Lactobacillus/Papaya Fruit Ferment Extract, Moringa Oleifera Seed Extract, Montmorillonite, Melia Azadirachta Leaf Extract, Citrus Limon (Lemon) Fruit Extract, Quillaja Saponaria Wood Extract, Lauric Acid, Cocamide Mipa, Sodium Isethionate, Xanthan Gum, Sodium Polyacryloyldimethyl Taurate, Sodium Benzoate, Palmitic Acid, Lactic Acid, Illite, 3-Hexenol, Beta-Caryophyllene, Canarium Luzonicum Gum Nonvolatiles, Citronellal, Citrus Aurantifolia (Lime) Fruit Extract, Citrus Aurantium Dulcis (Orange) Fruit Extract, Eugenol, Hydroxyacetophenone, Hexenyl Acetate, Linalool, Linalyl Acetate, Triethyl Citrate, Zingiber Officinale (Ginger) Extract, Capric Acid, Melia Azadirachta Flower Extract, Quartz, Saponaria Officinalis Leaf/Root Extract, Leuconostoc/Radish Root Ferment Filtrate, Gluconolactone, Maltodextrin, Limonene.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "45.7K",
+        "categories": [
+            "Skincare",
+            "Cleansers",
+            "Face Wash & Cleansers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/farmacy-daily-greens-oil-free-gel-moisturizer-with-moringa-papaya-P458209",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:33:48",
+        "product_name": "Daily Greens Oil-Free Gel Moisturizer with Moringa and Papaya",
+        "brand_name": "Farmacy",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL"
+                ],
+                "price": [
+                    "$57.00"
+                ],
+                "sku": "Item 2327989"
+            }
+        ],
+        "rating": "width:80.936%",
+        "product_reviews": "1.4K",
+        "ingredients": "-Hyaluronic Acid and Polyglutamic Acid: Act as powerful moisture magnets that work in synergy to optimize skin hydration.-Galacturonic Acid and Niacinamide: Absorb and balance oil and combat visible shine.-Moringa and Papaya: Nourish, visibly cleanse, and refresh skin by removing the look of impurities caused by pollution.Water/Aqua/Eau, Propanediol, C13-15 Alkane, Glycerin, 1,2-Hexanediol, Niacinamide, Betaine, Inulin, Moringa Oleifera Leaf Water, Moringa Oleifera Seed Extract, Carica Papaya (Papaya) Fruit Extract, Fructose, Sodium Polyglutamate, Sodium Hyaluronate Crosspolymer, Sodium Acetylated Hyaluronate, Hydrolyzed Sodium Hyaluronate, Sodium Hyaluronate, Saccharide Isomerate, Corallina Officinalis Extract, Melia Azadirachta Leaf Extract, Melia Azadirachta Flower Extract, Allantoin, Sodium Polyacrylate, Carbomer, Cellulose Gum, Pentylene Glycol, Sodium Phytate, Potassium Hydroxide, Xanthan Gum, Cellulose, Glucose, Silica, Ethylhexylglycerin, Sodium Benzoate, Maltodextrin, Gluconolactone, Curcuma Longa (Turmeric) Root Extract, Ocimum Basilicum (Basil) Flower/Leaf Extract, Ocimum Sanctum Leaf Extract, Tocopherol, Xylitylglucoside, Arachidyl Alcohol, Behenyl Alcohol, Arachidyl Glucoside, Phenethyl Alcohol, Xylitol, Anhydroxylitol.Clean at Sephora products are formulated without:Acrylates (Ethyl acrylate, Ethyl methacrylate, Butyl methacrylate, Methyl methacrylate, Tetrahydrofurfuryl methacrylate, Trimethylolpropane trimethacrylate), Aluminum Salts (Aluminum chloride, Aluminum chlorohydrate, Aluminum chlorohydrex, Aluminum dichlorohydrate, Aluminum sesquichlorohydrate, Aluminum zirconium octachlorohydrate, Aluminum zirconium octachlorohydrex gly, Aluminum zirconium pentachlorohydrate, Aluminum zirconium pentachlorohydrex gly, Aluminum zirconium tetrachlorohydrate, Aluminum zirconium tetrachlorohydrex gly, Aluminum zirconium trichlorohydrate, Aluminum zirconium trichlorohydrex gly tot), Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT), Carbon black or Black 2, Coal Tar (Coal tar, Naptha multiple, High solvent naphtha, Naphtha distillate, Tar), Ethanolamines (Diethanolamine (DEA), Ethanolamine (ETA), Monoethanolamine (MEA), Triethanolamine (TEA)), Formaldehyde and Formaldehyde Releasing Agents (2-bromo-2-nitropropane-1, 3-diol, 5-bromo-5-nitro1, 3-dioxane, Benzylhemiformal, Diazolidinyl urea, Dmdm hydantoin, Formaldehyde, Imidazolidinyl urea, Methenamine, Quaternium-15, Sodium hydroxymethylglycinate), Hydroquinone (2-Acetylhydroquinone, Di-t-Butylhydroquinone, Diamylhydroquinone, Hydroquinone, Hydroquinone Safflowerates), Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil (Mineral Oi, Hydrogenated Mineral Oil), Nanomaterials (Methylene bis-benzotriazolyl, tetramethylbutylphenol, Titanium Dioxide, Tris-biphenyl triazine, Zinc Oxide), Oxybenzone, Parabens, Petrolatum and Parrafin, Pehnoxyethanol, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styerene (Bromostyrene, Dea-styrene/acrylates/dvb copolymer, Sodium styrene/divinylbenzene copolymer, Styrene, Styrene oxide), Sulfates (Sodium Lauryl Sulfate (SLS), Sodium Laureth Sulfate (SLES)), Talc, Toluene (2,6-Dihydroxyethylaminotoluene, 4-Amino-2-Hydroxytoluene, 4-Amino-2-Hydroxytoluene Sulfate, 4-Methoxytoluene-2,5-Diamine HCl, Methylstyrene/Vinyltoluene Copolymer, N,N-Diethyltoluene-2,5-Diamine HCl, Potassium Toluenesulfonate, Sodium Toluenesulfonate, Toluene, Toluene Sulfonic Acid, Toluene-2,5-Diamine, Toluene-2,5-Diamine Sulfate, Toluene-2,6-Diamine, Toluene-3,4-Diamine), Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, Bisphenol A (BPA), Ethylenediaminetetraacetic acid (EDTA), Methylene chloride, Polytetrafluoroethylene (PTFE), Perfluorooctanoic acid (PFOA)), 1, 4, Diocane, Octinoxate (Octinoxate, Octyl methoxycinnamate, Ethylhexyl methoxycinnamate), PFAS compounds (PFASs or PFCs, \"perfluor\" or \"polyfluor\" in the ingredient name (e.g. Perfluorooctanoic Acid (PFOA), polytetrafluorothylene (PTFE)), Nitromusks and Polycyclic Musks (Musk ketone, Hexamethylindanopyran, Acetyl Hexamethyl Tetralin, Acetyl Hexamethyl Indan, Dihydro Pentamethylindanone).",
+        "n_loves": "76K",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Moisturizers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/farmacy-mini-deep-sweep-2-bha-pore-cleaning-toner-with-moringa-papaya-P480301",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:34:02",
+        "product_name": "Mini Deep Sweep 2% BHA Pore Cleaning Toner with Moringa + Papaya",
+        "brand_name": "Farmacy",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 / 50"
+                ],
+                "price": [
+                    "$22.00"
+                ],
+                "sku": "Item 2554111"
+            }
+        ],
+        "rating": "width:89.154%",
+        "product_reviews": "887",
+        "ingredients": "Water/Aqua/Eau, Arginine, Salicylic Acid, Lactobacillus/Papaya Fruit Ferment Extract, Moringa Oleifera Leaf Water, Moringa Oleifera Seed Extract, Eucalyptus Globulus Leaf Water, Chlorella Ferment, Paeonia Suffruticosa Root Extract, Scutellaria Baicalensis Root Extract, Lactic Acid, Glycerin, Butylene Glycol, Xylitylglucoside, Anhydroxylitol, Xylitol, Leuconostoc/Radish Root Ferment Filtrate, Gluconolactone, Maltodextrin, Glucose, Potassium Sorbate, Sodium Benzoate.  \nClean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "23.8K",
+        "categories": [
+            "Skincare",
+            "Cleansers",
+            "Toners"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/honey-butter-beeswax-lip-balm-P428416",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:34:14",
+        "product_name": "Honey Butter Beeswax Lip Balm",
+        "brand_name": "Farmacy",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.12 oz/ 3.4 g"
+                ],
+                "price": [
+                    "$17.00"
+                ],
+                "sku": "Item 2042794"
+            }
+        ],
+        "rating": "width:84.96000000000001%",
+        "product_reviews": "855",
+        "ingredients": " -Proprietary Honey Blend: Known for its soothing and humectant properties, Farmacy\u2019s special honey delivers skin-loving moisture plus antioxidants.-Beeswax: Conditions lips and acts as a protective barrier to maintain moisture.-Cupua\u00e7u and Cocoa Butters: Release long-lasting moisture and help nurture and soften lips. Ricinus Communis (Castor) Seed Oil, Olea Europaea (Olive) Fruit Oil, Cocos Nucifera (Coconut) Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Cera Alba (Beeswax), Euphorbia Cerifera (Candelilla) Wax, Helianthus Annuus (Sunflower) Seed Oil, Copernicia Cerifera (Carnauba) Wax, Theobroma Cacao (Cocoa) Seed Butter, Theobroma Grandiflorum Seed Butter, Tocopherol, Squalane, Echinacea Purpurea Root Extract, Honey Extract, Propolis Extract, Royal Jelly Extract, Cananga Odorata Flower Oil, Citrus Limon (Lemon) Peel Oil, Citrus Aurantium Bergamia (Bergamot) Fruit Oil, Citral, Limonene, Linalool. Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "58.4K",
+        "categories": [
+            "Skincare",
+            "Lip Balms & Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/farmacy-mini-whipped-greens-oil-free-foaming-cleanser-with-moringa-papaya-P504003",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:34:26",
+        "product_name": "Mini Whipped Greens Oil-Free Foaming Cleanser with Moringa and Papaya",
+        "brand_name": "Farmacy",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz / 50 mL"
+                ],
+                "price": [
+                    "$17.00"
+                ],
+                "sku": "Item 2644540"
+            }
+        ],
+        "rating": "width:91.188%",
+        "product_reviews": "522",
+        "ingredients": "-Moringa Seed Extract and Moringa Water: Remove environmental pollutants, visibly purifying and refreshing skin.-Papaya Enzyme and Green Clay: Exfoliate skin, absorb surface oil, cleanse pores, and remove buildup.-Sodium PCA: Maintains hydration for supple-, healthy-looking skin.Water/Aqua/Eau, Glycerin, Sodium Lauroyl Isethionate, Sodium Cocoyl Glycinate, Decyl Glucoside, Magnesium Aluminum Silicate, Sodium Lauroyl Methyl Isethionate, Coconut Acid, Sodium Lauroamphoacetate, Myristic Acid, Sodium Lauroyl Lactylate, Moringa Oleifera Leaf Water, Sodium PCA, Kaolin, Lactobacillus/Papaya Fruit Ferment Extract, Moringa Oleifera Seed Extract, Montmorillonite, Melia Azadirachta Leaf Extract, Citrus Limon (Lemon) Fruit Extract, Quillaja Saponaria Wood Extract, Lauric Acid, Cocamide Mipa, Sodium Isethionate, Xanthan Gum, Sodium Polyacryloyldimethyl Taurate, Sodium Benzoate, Palmitic Acid, Lactic Acid, Illite, 3-Hexenol, Beta-Caryophyllene, Canarium Luzonicum Gum Nonvolatiles, Citronellal, Citrus Aurantifolia (Lime) Fruit Extract, Citrus Aurantium Dulcis (Orange) Fruit Extract, Eugenol, Hydroxyacetophenone, Hexenyl Acetate, Linalool, Linalyl Acetate, Triethyl Citrate, Zingiber Officinale (Ginger) Extract, Capric Acid, Melia Azadirachta Flower Extract, Quartz, Saponaria Officinalis Leaf/Root Extract, Leuconostoc/Radish Root Ferment Filtrate, Gluconolactone, Maltodextrin, Limonene.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "9.7K",
+        "categories": [
+            "Mini Size",
+            "Skincare"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/farmacy-brighten-up-3-txa-toner-with-azelaic-acid-P504614",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:34:38",
+        "product_name": "Brighten Up 3% TXA Dark Spot Toner with Azelaic Acid",
+        "brand_name": "Farmacy",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 4 oz / 120 mL"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2660892"
+            }
+        ],
+        "rating": "width:94.364%",
+        "product_reviews": "731",
+        "ingredients": "-3% TXA (Tranexamic Acid): Visibly brightens and reduces the look of dark spots.  -5% PHA(Gluconolactone) and Azelaic Acid: Visibly evens tone, smooths texture, and gently exfoliates. -Upcycled Tangerine Peel: A hydrating nature-derived antioxidant.Water/Aqua/Eau, Gluconolactone, Pentylene Glycol, Isopentyldiol, Tranexamic Acid, Betaine, Propanediol, Azelaic Acid, Ascorbic Acid, Citrus Aurantium Amara (Bitter Orange) Fruit Extract, Citrus Aurantium Sinensis Peel Extract, Citrus Reticulata (Tangerine) Fruit Extract, Glycerin, Allantoin, Polyglycerin-6, Inulin, Fructose, Glucose, Xanthan Gum, Cellulose Gum, Lactic Acid, Citric Acid, Sodium Phytate, Cellulose.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "43.6K",
+        "categories": [
+            "Skincare",
+            "Cleansers",
+            "Toners"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/farmacy-apple-lip-smoothie-vitamin-c-peptide-lip-balm-P505757",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:34:50",
+        "product_name": "Apple Lip Smoothie Vitamin C + Peptide Lip Balm",
+        "brand_name": "Farmacy",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.35 oz / 10 g"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2674281"
+            }
+        ],
+        "rating": "width:95.706%",
+        "product_reviews": "573",
+        "ingredients": "-Peptides: Visibly plumps and smooths lips.  -Upcycled Apple Extract and Mango Seed Butter: Quickly locks in moisture while smoothing and nourishing. -Vitamin C: Smooths the look of lines.Hydrogenated Polyisobutene, Diisostearyl Malate, Phytosteryl/Isostearyl/Cetyl/Stearyl/Behenyl Dimer Dilinoleate, Caprylic/Capric Triglyceride, Polybutene, Mangifera Indica (Mango) Seed Butter, Synthetic Wax, Ethylene/Propylene/Styrene Copolymer, Euphorbia Cerifera (Candelilla) Wax, Brassica Campestris/Aleurites Fordi Oil Copolymer, Butyrospermum Parkii (Shea) Butter, Tetrahexyldecyl Ascorbate, Palmitoyl Tripeptide-1, Pyrus Malus (Apple) Fruit Extract, Glycerin, Moringa Oleifera Seed Oil, Curcuma Longa (Turmeric) Leaf Extract, Solanum Melongena (Eggplant) Fruit Extract, Coccinia Indica Fruit Extract, Ocimum Sanctum Leaf Extract, Corallina Officinalis Extract, Melia Azadirachta Leaf Extract, Melia Azadirachta Flower Extract, Melia Azadirachta Extract, Tocopherol, Tribehenin, Ethylhexyl Palmitate, Glyceryl Caprylate, Malic Acid, Lactic Acid, Sorbitan Isostearate, Amber Powder, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Butylene/Ethylene/Styrene Copolymer, Flavor/ Aroma*, Limonene (*Natural Flavor / Ar\u00f4me Naturel).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "34.3K",
+        "categories": [
+            "Skincare",
+            "Lip Balms & Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/farmacy-honey-halo-moisturizer-jumbo-P475540",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:35:03",
+        "product_name": "Honey Halo Moisturizer Jumbo",
+        "brand_name": "Farmacy",
+        "options": [
+            {
+                "swatch_group": "Value size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL"
+                ],
+                "price": [
+                    "$100.00"
+                ],
+                "sku": "Item 2527638"
+            }
+        ],
+        "rating": "width:88.684%",
+        "product_reviews": "1.6K",
+        "ingredients": "- Buckwheat Honey with Propolis and Royal Jelly Blend: Provides long-lasting moisture and antioxidants while soothing and hydrating. - Fig Fruit Extract and Osmolytes: Bind and restore moisture, leaving skin looking plump and supple.- Potent Ceramide Blend: Prevents moisture loss and replenishes the skin barrier.WATER/AQUA/EAU, GLYCERIN, BUTYROSPERMUM PARKII (SHEA) BUTTER, CAPRYLIC/CAPRIC TRIGLYCERIDE, C13-15 ALKANE, CETEARYL ALCOHOL, PENTAERYTHRITYL TETRAISOSTEARATE, 1,2-HEXANEDIOL, BIS-DIGLYCERYL POLYACYLADIPATE-1, DIISOSTEARYL MALATE, XYLITYLGLUCOSIDE, HONEY EXTRACT, BETAINE, PANTHENOL, HYDROGENATED RAPESEED OIL, HELIANTHUS ANNUUS (SUNFLOWER) SEED OIL UNSAPONIFIABLES, CERAMIDE NP, PROPOLIS EXTRACT, ROYAL JELLY EXTRACT, TOCOPHEROL, FICUS CARICA (FIG) FRUIT EXTRACT, HIPPOPHAE RHAMNOIDES OIL, GLUCOSE, BISABOLOL, XYLITOL, ANHYDROXYLITOL, CETEARYL GLUCOSIDE, TRIOLEIN, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, HYDROXYETHYL ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER, ARGININE, FLAVOR (AROMA)*, HYDROXYACETOPHENONE, XANTHAN GUM, GLYCERYL DIOLEATE, SODIUM DILAURAMIDOGLUTAMIDE LYSINE, SODIUM PHYTATE, SORBITAN ISOSTEARATE, CITRIC ACID, POTASSIUM SORBATE, SODIUM BENZOATE (*NATURAL FLAVOR / AROME NATUREL)\t\t\t\t\t\t\n",
+        "n_loves": "34.5K",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Moisturizers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/farmacy-honey-halo-ultra-hydrating-ceramide-moisturizer-P463036",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:35:15",
+        "product_name": "Honey Halo Ultra-Hydrating Ceramide Moisturizer",
+        "brand_name": "Farmacy",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL"
+                ],
+                "price": [
+                    "$65.00"
+                ],
+                "sku": "Item 2369957"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL"
+                ],
+                "price": [
+                    "$100.00"
+                ],
+                "sku": "Item 2527638"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.8 oz/ 25 mL"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2527620"
+            }
+        ],
+        "rating": "width:88.684%",
+        "product_reviews": "1.6K",
+        "ingredients": "- Buckwheat Honey with Propolis and Royal Jelly Blend: Provides long-lasting moisture and antioxidants while soothing and hydrating.- Fig Fruit Extract and Osmolytes: Bind and restore moisture, leaving skin looking plump and supple.- Potent Ceramide Blend: Replenishes skin\u2019s moisture barrier, helps smooth the look of micro-wrinkles and boost elasticity. WATER/AQUA/EAU, GLYCERIN, BUTYROSPERMUM PARKII (SHEA) BUTTER, CAPRYLIC/CAPRIC TRIGLYCERIDE, C13-15 ALKANE, CETEARYL ALCOHOL, PENTAERYTHRITYL TETRAISOSTEARATE, 1,2-HEXANEDIOL, BIS-DIGLYCERYL POLYACYLADIPATE-1, DIISOSTEARYL MALATE, XYLITYLGLUCOSIDE, HONEY EXTRACT, BETAINE, PANTHENOL, HYDROGENATED RAPESEED OIL, HELIANTHUS ANNUUS (SUNFLOWER) SEED OIL UNSAPONIFIABLES, CERAMIDE NP, PROPOLIS EXTRACT, ROYAL JELLY EXTRACT, TOCOPHEROL, FICUS CARICA (FIG) FRUIT EXTRACT, HIPPOPHAE RHAMNOIDES OIL, GLUCOSE, BISABOLOL, XYLITOL, ANHYDROXYLITOL, CETEARYL GLUCOSIDE, TRIOLEIN, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, HYDROXYETHYL ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER, ARGININE, FLAVOR (AROMA)*, HYDROXYACETOPHENONE, XANTHAN GUM, GLYCERYL DIOLEATE, SODIUM DILAURAMIDOGLUTAMIDE LYSINE, SODIUM PHYTATE, SORBITAN ISOSTEARATE, CITRIC ACID, POTASSIUM SORBATE, SODIUM BENZOATE (*NATURAL FLAVOR / AROME NATUREL)",
+        "n_loves": "153.5K",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Moisturizers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/farmacy-clearly-clean-cleansing-balm-P477157",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:35:30",
+        "product_name": "Clearly Clean Makeup Removing Cleansing Balm",
+        "brand_name": "Farmacy",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2501229"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL"
+                ],
+                "price": [
+                    "$33.00"
+                ],
+                "sku": "Item 2531663"
+            }
+        ],
+        "rating": "width:89.30799999999999%",
+        "product_reviews": "722",
+        "ingredients": "Highlighted Ingredients: -Sunflower Oil: Melts away makeup without stripping or drying. -Moringa Extract: Remove pollutants, cleansing and refreshing skin.-Papaya Enzyme: Gently exfoliates and cleanses pores for a fresh-looking complexion.Cetyl Ethylhexanoate, Synthetic Wax, Coco-Caprylate/Caprate, Caprylic/Capric Triglyceride, Polyglyceryl-10 Dioleate, Polyglyceryl-6 Dicaprate, Sorbitan Oleate Decylglucoside Crosspolymer, Helianthus Annuus (Sunflower) Seed Oil, Moringa Oleifera Seed Extract, Carica Papaya (Papaya) Fruit Extract, Moringa Oleifera Leaf Water, Pentylene Glycol, Gluconolactone, Polyglyceryl-6 Oleate, Glyceryl Citrate/Lactate/Linoleate/Oleate, Sorbitan Sesquioleate, Potassium Olivate, Glyceryl Caprylate, Polyglyceryl-3 Caprate, Polyglyceryl-4 Cocoate, Sodium Chloride, Butylene Glycol, Water/Aqua/Eau, Sodium Benzoate, Maltodextrin, Glyceryl Laurate.Clean at Sephora products are formulated without:Acrylates (Ethyl acrylate, Ethyl methacrylate, Butyl methacrylate, Methyl methacrylate, Tetrahydrofurfuryl methacrylate, Trimethylolpropane trimethacrylate), Aluminum Salts (Aluminum chloride, Aluminum chlorohydrate, Aluminum chlorohydrex, Aluminum dichlorohydrate, Aluminum sesquichlorohydrate, Aluminum zirconium octachlorohydrate, Aluminum zirconium octachlorohydrex gly, Aluminum zirconium pentachlorohydrate, Aluminum zirconium pentachlorohydrex gly, Aluminum zirconium tetrachlorohydrate, Aluminum zirconium tetrachlorohydrex gly, Aluminum zirconium trichlorohydrate, Aluminum zirconium trichlorohydrex gly tot), Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT), Carbon black or Black 2, Coal Tar (Coal tar, Naptha multiple, High solvent naphtha, Naphtha distillate, Tar), Ethanolamines (Diethanolamine (DEA), Ethanolamine (ETA), Monoethanolamine (MEA), Triethanolamine (TEA)), Formaldehyde and Formaldehyde Releasing Agents (2-bromo-2-nitropropane-1, 3-diol, 5-bromo-5-nitro1, 3-dioxane, Benzylhemiformal, Diazolidinyl urea, Dmdm hydantoin, Formaldehyde, Imidazolidinyl urea, Methenamine, Quaternium-15, Sodium hydroxymethylglycinate), Hydroquinone (2-Acetylhydroquinone, Di-t-Butylhydroquinone, Diamylhydroquinone, Hydroquinone, Hydroquinone Safflowerates), Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil (Mineral Oil, Hydrogenated Mineral Oil), Nanomaterials (Methylene bis-benzotriazolyl, tetramethylbutylphenol, Titanium Dioxide, Tris-biphenyl triazine, Zinc Oxide), Oxybenzone, Parabens, Petrolatum and Parrafin, Pehnoxyethanol, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styerene (Bromostyrene, Dea-styrene/acrylates/dvb copolymer, Sodium styrene/divinylbenzene copolymer, Styrene, Styrene oxide), Sulfates (Sodium Lauryl Sulfate (SLS), Sodium Laureth Sulfate (SLES)), Talc, Toluene (2,6-Dihydroxyethylaminotoluene, 4-Amino-2-Hydroxytoluene, 4-Amino-2-Hydroxytoluene Sulfate, 4-Methoxytoluene-2,5-Diamine HCl, Methylstyrene/Vinyltoluene Copolymer, N,N-Diethyltoluene-2,5-Diamine HCl, Potassium Toluenesulfonate, Sodium Toluenesulfonate, Toluene, Toluene Sulfonic Acid, Toluene-2,5-Diamine, Toluene-2,5-Diamine Sulfate, Toluene-2,6-Diamine, Toluene-3,4-Diamine), Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, Bisphenol A (BPA), Ethylenediaminetetraacetic acid (EDTA), Methylene chloride, Polytetrafluoroethylene (PTFE), Perfluorooctanoic acid (PFOA), 1, 4, Diocane, Octinoxate (Octinoxate, Octyl methoxycinnamate, Ethylhexyl methoxycinnamate), PFAS compounds (PFASs or PFCs, \"perfluor\" or \"polyfluor\" in the ingredient name (e.g. Perfluorooctanoic Acid (PFOA), polytetrafluorothylene (PTFE)), Nitromusks and Polycyclic Musks (Musk ketone, Hexamethylindanopyran, Acetyl Hexamethyl Tetralin, Acetyl Hexamethyl Indan, Dihydro Pentamethylindanone).",
+        "n_loves": "30.3K",
+        "categories": [
+            "Skincare",
+            "Cleansers",
+            "Face Wash & Cleansers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/farmacy-glow-bee-have-12-aha-bha-smoothing-body-serum-P473307",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:35:47",
+        "product_name": "Honeymoon Glow Body 12% AHA/BHA Bump-Smoothing Night Serum",
+        "brand_name": "Farmacy",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 4.7 oz / 140 mL"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2469377"
+            }
+        ],
+        "rating": "width:75.484%",
+        "product_reviews": "93",
+        "ingredients": "-Lactic Acid 10% (AHA) and Salicylic Acid 2% (BHA): Exfoliate and visibly resurface for smooth-looking skin.-Proprietary Honey Blend and Shea Butter: Deliver super-hydrating humectants, soothing antioxidants, and amino acids.-Upcycled Prickly Pear Leaf Juice: Replenishes skin\u2019s moisture barrier.Water/Aqua/Eau, Isopentyldiol, Lactic Acid, Butyrospermum Parkii (Shea) Butter, C13-15 Alkane, Glycerin, Propanediol, Potassium Hydroxide, Isoamyl Laurate, Salicylic Acid, 1,2-Hexanediol, Arachidyl Alcohol, Sodium Acrylates Copolymer, Honey Extract, Propolis Extract, Royal Jelly Extract, Tocopherol, Bisabolol, Opuntia Ficus-Indica Stem Extract, Curcuma Longa (Turmeric) Root Extract, Lauroyl Lysine, Arachidyl Glucoside, Cellulose Gum, Lecithin, Bis-Diglyceryl Polyacyladipate-1, Flavor/Aroma, Ormenis Multicaulis Oil, Sodium Polyacryloyldimethyl Taurate, Sodium Stearoyl Glutamate, Inulin, Melia Azadirachta Leaf Extract, Melia Azadirachta Flower Extract, Behenyl Alcohol, Cellulose, Fructose, Glucose, Corallina Officinalis Extract, Ocimum Basilicum (Basil) Flower/Leaf Extract, Ocimum Sanctum Leaf Extract, Cetearyl Alcohol, Xanthan Gum, Maltodextrin, Limonene.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "27.4K",
+        "categories": [
+            "Bath & Body",
+            "Body Moisturizers",
+            "Body Lotions & Body Oils"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/farmacy-10-niacinamide-night-mask-P479318",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:36:00",
+        "product_name": "10% Niacinamide Night Mask",
+        "brand_name": "Farmacy",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL"
+                ],
+                "price": [
+                    "$60.00"
+                ],
+                "sku": "Item 2551968"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.85 oz / 25 mL"
+                ],
+                "price": [
+                    "$36.00"
+                ],
+                "sku": "Item 2644318"
+            }
+        ],
+        "rating": "width:92.49199999999999%",
+        "product_reviews": "967",
+        "ingredients": "-10% Niacinamide (Vitamin B3): Visibly smooths and evens skin texture while refining pores and balancing oil.-3% Panthenol and Beta-Glucan: Hydrate and support skin\u2019s moisture barrier while protecting skin. -Up-cycled Blueberry Seed Oil: An up-cycled antioxidant-rich active that helps restore and revive the appearance of dull skin.Water/Aqua/Eau, Propanediol, Niacinamide, C15-19 Alkane, Caprylic/Capric Triglyceride, Glycerin, Panthenol, 1,2-Hexanediol, Cetearyl Olivate, Cetearyl Alcohol, Sorbitan Olivate, Butyrospermum Parkii (Shea) Butter, Betaine, Vaccinium Corymbosum (Blueberry) Seed Oil, Tocopheryl Acetate, Beta-Glucan, Bisabolol, Allantoin, Melia Azadirachta Flower Extract, Glycogen, Coccinia Indica Fruit Extract, Lactobacillus Ferment, Corallina Officinalis Extract, Solanum Melongena (Eggplant) Fruit Extract, Aloe Barbadensis Flower Extract, Simmondsia Chinensis (Jojoba) Seed Oil, Zingiber Officinale (Ginger) Root Extract, Curcuma Longa (Turmeric) Root Extract, Ocimum Basilicum (Basil) Flower/Leaf Extract, Ocimum Sanctum Leaf Extract, Maltodextrin, Arginine, Carbomer, Pentylene Glycol, Sodium Phytate, Melia Azadirachta Leaf Extract, Caprylyl Glycol.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "63.4K",
+        "categories": [
+            "Skincare",
+            "Masks",
+            "Face Masks"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/farmacy-wake-up-honey-eye-cream-with-brightening-vitamin-c-P503879",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:36:13",
+        "product_name": "Wake Up Honey Eye Cream with Brightening Vitamin C",
+        "brand_name": "Farmacy",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.5 oz / 15 mL"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2641850"
+            }
+        ],
+        "rating": "width:90.032%",
+        "product_reviews": "626",
+        "ingredients": "-3% Vitamin C (THD Ascorbate): Visibly brightens and reduces dark circles.-Encapsulated Caffeine and Upcycled Cranberry Peptide: Reduce the look of puffiness and fine lines while targeting dark circles.-Proprietary Buckwheat-Honey Blend: Provides lasting hydration and soothes skin.Water/Aqua/Eau, Glycerin, Coco-Caprylate/Caprate, Pentaerythrityl Tetraisostearate, Diisostearyl Malate, Butyrospermum Parkii (Shea) Butter, Cetearyl Alcohol, Tetrahexyldecyl Ascorbate, Cetearyl Olivate, Pentylene Glycol, Helianthus Annuus (Sunflower) Seed Oil Unsaponifiables, Sorbitan Olivate, Boron Nitride, Caffeine, Hyaluronic Acid, Ceramide Np, Vaccinium Macrocarpon (Cranberry) Fruit Extract, Coffea Arabica (Coffee) Seed Extract, Honey Extract, Propolis Extract, Royal Jelly Extract, Citrus Aurantium Amara (Bitter Orange) Fruit Extract, Citrus Aurantium Sinensis Peel Extract, Citrus Reticulata (Tangerine) Fruit Extract, Ascorbic Acid, Tridecapeptide-1, Betaine, Triolein, Hydroxyacetophenone, Tocopheryl Acetate, Astaxanthin, Allantoin, Hippophae Rhamnoides Oil, Tocopherol, Ubiquinone, Lecithin, Haematococcus Pluvialis Extract, Glyceryl Dioleate.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "40.1K",
+        "categories": [
+            "Skincare",
+            "Eye Care",
+            "Eye Creams & Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/honey-savior-all-in-one-skin-repair-salve-with-echinacea-greenenvy-honey-P414293",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:36:25",
+        "product_name": "Honey Savior All-in-One Skin Repair Salve",
+        "brand_name": "Farmacy",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.6 oz/ 46 g"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 1894039"
+            }
+        ],
+        "rating": "width:88.42599999999999%",
+        "product_reviews": "534",
+        "ingredients": "-Proprietary Honey: Provides skin-loving moisture and nourishment with super soothing and humectant properties.\t\t-Sea Buckthorn Oil: Full of antioxidants and moisturizing omegas to guard against free radical damage and anti-aging.\t\t-5-Flower Oil Blend: Nourishes, hydrates and maintains a healthy skin barrier.\t\t\n Helianthus Annuus (Sunflower) Seed Oil, Ricinus Communis (Castor) Seed Oil, Hydroxystearic/Linolenic/Linoleic Polyglycerides, Canola Oil, Polyhydroxystearic Acid, Rhus Verniciflua Peel Wax, Echinacea Purpurea Root Extract, Aroma (Flavor)*, Honey Extract, Cera Alba (Beeswax), Propolis Extract, Royal Jelly Extract, Tocopherol, Tocopheryl Acetate, Ascorbyl Palmitate, Hydrogenated Castor Oil, Euphorbia Cerifera (Candelilla) Wax, Helianthus Annuus (Sunflower) Seed Wax, Copernicia Cerifera (Carnauba) Wax.*Natural Flavor /Ar\u00f4me NaturelClean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list):  Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "35.3K",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Moisturizers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/farmacy-filling-good-hyaluronic-acid-plumping-serum-P471025",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:36:40",
+        "product_name": "FILLING GOOD hyaluronic acid plumping serum",
+        "brand_name": "Farmacy",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.0 oz/ 30 mL"
+                ],
+                "price": [
+                    "$65.00"
+                ],
+                "sku": "Item 2449924"
+            }
+        ],
+        "rating": "width:86.272%",
+        "product_reviews": "931",
+        "ingredients": "-WATER/AQUA/EAU, C13-15 ALKANE, 1,2-HEXANEDIOL, ISOPENTYLDIOL, INOSITOL, GLYCERIN, DIISOSTEARYL MALATE, DIPALMITOYL HYDROXYPROLINE, INULIN, ARGININE, HYALURONIC ACID, SODIUM HYALURONATE, THYMUS VULGARIS (THYME) FLOWER/LEAF EXTRACT, HONEY EXTRACT, PROPOLIS EXTRACT, ROYAL JELLY EXTRACT, SH-POLYPEPTIDE-123, CURCUMA LONGA (TURMERIC) ROOT EXTRACT, MALTOOLIGOSYL GLUCOSIDE, PROPANEDIOL, BIS-DIGLYCERYL POLYACYLADIPATE-1, HYDROGENATED STARCH HYDROLYSATE, GLYCOGEN, CERATONIA SILIQUA (CAROB) GUM, MELIA AZADIRACHTA LEAF EXTRACT, SODIUM PHYTATE, MELIA AZADIRACHTA FLOWER EXTRACT, CORALLINA OFFICINALIS EXTRACT, CELLULOSE, FRUCTOSE, GLUCOSE, OCIMUM BASILICUM (BASIL) FLOWER/LEAF EXTRACT, ORMENIS MULTICAULIS OIL, OCIMUM SANCTUM LEAF EXTRACT, FLAVOR/AROMA*, ARACHIDYL ALCOHOL, BEHENYL ALCOHOL, SCLEROTIUM GUM, ARACHIDYL GLUCOSIDE, CELLULOSE GUM, CETEARYL ALCOHOL, TOCOPHEROL, LECITHIN, PALMITIC ACID, BENZYL ALCOHOL,  POTASSIUM SORBATE,  XANTHAN GUM (*NATURAL FLAVOR / AROME NATUREL)",
+        "n_loves": "34.6K",
+        "categories": [
+            "Skincare",
+            "Treatments",
+            "Face Serums"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/farmacy-green-defense-daily-mineral-sunscreen-broad-spectrum-spf-30-P482532",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:36:52",
+        "product_name": "GREEN DEFENSE daily mineral sunscreen Broad Spectrum SPF 30",
+        "brand_name": "Farmacy",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz / 50 mL"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2563575"
+            }
+        ],
+        "rating": "width:61.538000000000004%",
+        "product_reviews": "39",
+        "ingredients": "-Non-Nano Zinc Oxide 18.23%: Helps protect from UVA and UVB rays.-Moringa Water and Seed Extract: Known to nourish and refresh skin.-Winter Cherry and Beta Carotene: Known to have antioxidant benefits to help improve the overall appearance of skin.Zinc Oxide 18.23%, Water/Aqua/Eau, Caprylic/Capric Triglyceride, C13-15 Alkane, Pentylene Glycol, C15-19 Alkane, Propanediol, Bis-Diglyceryl Polyacyladipate-2, Gluconolactone, Polyhydroxystearic Acid, Polyacrylate Crosspolymer-6, Cetearyl Alcohol, Inositol, Isostearic Acid, Lecithin, Polyglyceryl-3 Polyricinoleate, Coco-Glucoside, Arachidyl Alcohol, Polyglycerin-3, Polyglyceryl-3 Lactate/Laurate, Sodium Benzoate, D-Alpha Tocopherol, Bisabolol, Xanthan Gum, Behenyl Alcohol, Sodium Citrate, Sodium Dilauramidoglutamide Lysine, Sclerotium Gum, Arachidyl Glucoside, Citric Acid, Physalis Alkekengi Calyx Extract, Sodium Phytate, T-Butyl Alcohol, Calcium Gluconate, Glucose, Beta-Carotene, Moringa Oleifera Leaf Water, Maltodextrin, Moringa Oleifera Seed Extract.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "3K",
+        "categories": [
+            "Skincare",
+            "Sunscreen",
+            "Face Sunscreen"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/farmacy-mini-10-niacinamide-night-mask-P504022",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:37:05",
+        "product_name": "Mini 10% Niacinamide Night Mask",
+        "brand_name": "Farmacy",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.85 oz / 25 mL"
+                ],
+                "price": [
+                    "$36.00"
+                ],
+                "sku": "Item 2644318"
+            }
+        ],
+        "rating": "width:92.49199999999999%",
+        "product_reviews": "967",
+        "ingredients": "-10% Niacinamide (Vitamin B3): Visibly smooths and evens skin texture while refining pores and balancing oil.-3% Panthenol and Beta-Glucan: Hydrate and support skin\u2019s moisture barrier while protecting skin. -Up-cycled Blueberry Seed Oil: An up-cycled antioxidant-rich active that helps restore and revive the appearance of dull skin.Water/Aqua/Eau, Propanediol, Niacinamide, C15-19 Alkane, Caprylic/Capric Triglyceride, Glycerin, Panthenol, 1,2-Hexanediol, Cetearyl Olivate, Cetearyl Alcohol, Sorbitan Olivate, Butyrospermum Parkii (Shea) Butter, Betaine, Vaccinium Corymbosum (Blueberry) Seed Oil, Tocopheryl Acetate, Beta-Glucan, Bisabolol, Allantoin, Melia Azadirachta Flower Extract, Glycogen, Coccinia Indica Fruit Extract, Lactobacillus Ferment, Corallina Officinalis Extract, Solanum Melongena (Eggplant) Fruit Extract, Aloe Barbadensis Flower Extract, Simmondsia Chinensis (Jojoba) Seed Oil, Zingiber Officinale (Ginger) Root Extract, Curcuma Longa (Turmeric) Root Extract, Ocimum Basilicum (Basil) Flower/Leaf Extract, Ocimum Sanctum Leaf Extract, Maltodextrin, Arginine, Carbomer, Pentylene Glycol, Sodium Phytate, Melia Azadirachta Leaf Extract, Caprylyl Glycol.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "13.8K",
+        "categories": [
+            "Mini Size",
+            "Skincare"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/honeymoon-glow-aha-resurfacing-night-serum-with-echinacea-greenenvy-tm-P434548",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:37:17",
+        "product_name": "Honeymoon Glow AHA Resurfacing Night Serum",
+        "brand_name": "Farmacy",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL"
+                ],
+                "price": [
+                    "$77.00"
+                ],
+                "sku": "Item 2138378"
+            }
+        ],
+        "rating": "width:86.342%",
+        "product_reviews": "2K",
+        "ingredients": "-14% AHA/BHA: Exfoliates dead skin cells, targets hyperpigmentation, and helps reduce the appearance of pores, fine lines and wrinkles.-Hyaluronic Acid: Hydrates and plumps the look of skin by helping to prevent moisture loss.-Proprietary Honey Blend: Soothing honey with humectant properties, providing moisture and antioxidants.Water/Aqua/Eau, Lactic Acid, Propanediol, Jojoba Esters, Glycolic Acid, Potassium Hydroxide, Salix Alba (Willow) Bark Extract, Carthamus Tinctorius (Safflower) Oleosomes, Vitis Vinifera (Grape) Seed Oil, Hibiscus Sabdariffa Flower Extract, Citric Acid, Honey Extract, Echinacea Purpurea Root Extract, Propolis Extract, Royal Jelly Extract, Hydrolyzed Sodium Hyaluronate, Hydrolyzed Hyaluronic Acid, Curcuma Longa (Turmeric) Root Extract, Argania Spinosa Kernel Oil, Zingiber Officinale (Ginger) Root Extract, Amaranthus Caudatus Seed Oil, Limnanthes Alba (Meadowfoam) Seed Oil, Vaccinium Myrtillus Fruit/Leaf Extract, Saccharum Officinarum (Sugarcane) Extract, Citrus Aurantium Dulcis (Orange) Fruit Extract, Citrus Limon (Lemon) Fruit Extract, Acer Saccharum (Sugar Maple) Extract, Melia Azadirachta Leaf Extract, Helianthus Annuus (Sunflower) Seed Oil, Melia Azadirachta Flower Extract, Salvia Hispanica Seed Oil, Cetearyl Alcohol, Glycerin, Arachidyl Alcohol, Sclerotium Gum, Coco-Glucoside, Polyacrylate Crosspolymer-6, Behenyl Alcohol, Arachidyl Glucoside, Sodium Benzoate, Tocopherol, Potassium Sorbate, Corallina Officinalis Extract, Polyglyceryl-10 Stearate, Gluconolactone, 1,2-Hexanediol, Ocimum Basilicum (Basil) Flower/Leaf Extract, Ocimum Sanctum Leaf Extract, T-Butyl Alcohol, Glucose, Calcium Gluconate, Citral.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "181.8K",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Night Creams"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/farmacy-honey-potion-plus-ceramide-hydration-mask-P480444",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:37:31",
+        "product_name": "Honey Potion Plus Ceramide Hydration Mask",
+        "brand_name": "Farmacy",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 4.1 oz/ 117g"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2553931"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 g"
+                ],
+                "price": [
+                    "$56.00"
+                ],
+                "sku": "Item 2553949"
+            }
+        ],
+        "rating": "width:74.576%",
+        "product_reviews": "118",
+        "ingredients": "-Ceramides and Panthenol (Pro-Vitamin B5): Rehydrate, prevent moisture loss, and replenish skin barrier. -Upcycled Apple Extract: Delivers essential moisture, smooths skin, and improves hydration.-Buckwheat Honey Blend: Soothes and nourishes, providing skin-loving moisture and antioxidants.GLYCERIN, DIGLYCERIN, POLYGLYCERYL-10 STEARATE, PYRUS MALUS (APPLE) FRUIT EXTRACT, NIACINAMIDE, HONEY EXTRACT, PANTHENOL, CENTELLA ASIATICA EXTRACT, CERAMIDE NP, HELIANTHUS ANNUUS (SUNFLOWER) SEED OIL UNSAPONIFIABLES, ALLANTOIN, PROPOLIS EXTRACT, ROYAL JELLY EXTRACT, ZINGIBER OFFICINALE (GINGER) ROOT EXTRACT, AROMA (FLAVOR)*, HIPPOPHAE RHAMNOIDES OIL, GLYCERYL DIOLEATE, PROPANEDIOL, TRIOLEIN, PHENOXYETHANOL, WATER/AQUA/EAU\n\n(*NATURAL FLAVOR / AROME NATUREL)Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "38.3K",
+        "categories": [
+            "Skincare",
+            "Masks",
+            "Face Masks"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/honey-grail-ultra-hydrating-face-oil-P444226",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:37:44",
+        "product_name": "Honey Grail Ultra-Hydrating Face Oil",
+        "brand_name": "Farmacy",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL"
+                ],
+                "price": [
+                    "$65.00"
+                ],
+                "sku": "Item 2231975"
+            }
+        ],
+        "rating": "width:84.658%",
+        "product_reviews": "322",
+        "ingredients": "-Proprietary Honey: Provides skin-loving moisture and nourishment with super soothing and humectant properties.\n\n-Sea Buckthorn Oil: Full of antioxidants and moisturizing omegas to guard against free radical damage and anti-aging.\n\n-5-Flower Oil Blend: Nourishes, hydrates and maintains a healthy skin barrier.Honey Grail contains a highly purified version of coconut oil that reduces the risk for comedogenicity. Through a process called fractionation, the coconut oil becomes completely liquid vs solid at room temperature. The result is a light non-greasy texture, enhanced slip, and absorption vs. a standard, unrefined coconut oil.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list):  Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "50.6K",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Face Oils"
+        ]
+    }
+]

@@ -1,0 +1,780 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/forvr-mood-caked-up-candle-P473122",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:22:25",
+        "product_name": "Caked Up Candle",
+        "brand_name": "FORVR Mood",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "Size: 10 oz/ 283 g",
+                    "SALE"
+                ],
+                "price": [
+                    "$36.75",
+                    "$49.00"
+                ],
+                "sku": "Item 2483774"
+            }
+        ],
+        "rating": "width:78.4%",
+        "product_reviews": "75",
+        "ingredients": "Glass, 100% Natural Coconut Soy Wax (No Paraffin), 100% Cotton Wick. Paraben-, Phthalate-, and Cruelty-Free.",
+        "n_loves": "9K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/champagne-showers-candle-P506349",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:22:38",
+        "product_name": "Champagne Showers Candle",
+        "brand_name": "FORVR Mood",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "NEW",
+                "size": null,
+                "name": [
+                    "Size: 10 oz / 283 g 1 wick candle",
+                    "NEW",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$50.00"
+                ],
+                "sku": "Item 2651800"
+            }
+        ],
+        "rating": "width:94.67800000000001%",
+        "product_reviews": "124",
+        "ingredients": "Glass, Soy, Coconut Wax Blend, Fragrance Oil, 100% Cotton Wick.",
+        "n_loves": "1.7K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/forvr-mood-we-not-linkin-candle-P473186",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:22:50",
+        "product_name": "We Not Linkin Candle",
+        "brand_name": "FORVR Mood",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 10 oz/ 283 g",
+                    "ONLY A FEW LEFT",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2483824"
+            }
+        ],
+        "rating": "width:81.33399999999999%",
+        "product_reviews": "30",
+        "ingredients": "Glass, 100% Natural Coconut Soy Wax (No Paraffin), 100% Cotton Wick. Paraben-, Phthalate-, and Cruelty-Free.",
+        "n_loves": "4K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/forvr-mood-sun-kiss-tell-candle-P483440",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:23:03",
+        "product_name": "Sun Kiss & Tell Candle",
+        "brand_name": "FORVR Mood",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "Size: 10 oz / 283 g",
+                    "SALE",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$36.75",
+                    "$49.00"
+                ],
+                "sku": "Item 2552628"
+            }
+        ],
+        "rating": "width:74.286%",
+        "product_reviews": "7",
+        "ingredients": "Glass, 100% Natural Coconut Soy Wax (No Paraffin), Fragrance Oil, 100% Cotton Wick. Paraben-, Phthalate-, Cruelty-Free.",
+        "n_loves": "2K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/matcha-bes-teas-candle-P506376",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:23:15",
+        "product_name": "Matcha Bes-teas Candle",
+        "brand_name": "FORVR Mood",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "NEW",
+                "size": null,
+                "name": [
+                    "Size: 10 oz / 283 g 1 wick candle",
+                    "NEW",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$50.00"
+                ],
+                "sku": "Item 2651818"
+            }
+        ],
+        "rating": "width:100%",
+        "product_reviews": "3",
+        "ingredients": "Glass, Soy, Coconut Wax Blend, Fragrance Oil, 100% Cotton Wick.",
+        "n_loves": "1.1K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/forvr-mood-mini-candle-gift-set-core-collection-P474322",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:23:28",
+        "product_name": "Mini Candle Gift Set- Time to Get Lit",
+        "brand_name": "FORVR Mood",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "Size: 4 x 1-Wick",
+                    "SALE",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$48.00",
+                    "$64.00"
+                ],
+                "sku": "Item 2490795"
+            }
+        ],
+        "rating": "width:61.666%",
+        "product_reviews": "36",
+        "ingredients": "We Not Linkin Candle, Grown Folks Business Candle, Skinny Dipped Candle, Hey Big Head Candle: Glass, 100% Natural Coconut Soy Wax (No Paraffin), 100% Cotton Wick. Paraben-, Phthalate-, and Cruelty-Free.",
+        "n_loves": "11.1K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/forvr-mood-left-on-read-candle-P473142",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:23:42",
+        "product_name": "Left On Read Candle",
+        "brand_name": "FORVR Mood",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "Size: 10 oz/ 283 g",
+                    "SALE"
+                ],
+                "price": [
+                    "$36.75",
+                    "$49.00"
+                ],
+                "sku": "Item 2483782"
+            }
+        ],
+        "rating": "width:76.982%",
+        "product_reviews": "53",
+        "ingredients": "Glass, 100% Natural Coconut Soy Wax (No Paraffin), 100% Cotton Wick. Paraben-, Phthalate-, and Cruelty-Free.",
+        "n_loves": "5.8K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/soft-life-candle-P501146",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:24:04",
+        "product_name": "Soft Life Candle",
+        "brand_name": "FORVR Mood",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "LIMITED EDITION",
+                "size": null,
+                "name": [
+                    "Size: 10 oz / 283 g",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2611549"
+            }
+        ],
+        "rating": "width:98.18199999999999%",
+        "product_reviews": "11",
+        "ingredients": "Glass, 100% Natural Coconut Soy Wax (No Paraffin), Fragrance Oil, 100% Cotton Wick.",
+        "n_loves": "1.8K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/forvr-mood-thirst-trapping-candle-P483441",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:24:17",
+        "product_name": "Thirst Trapping Candle",
+        "brand_name": "FORVR Mood",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "Size: 10 oz / 283 g",
+                    "SALE",
+                    "ONLY A FEW LEFT",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$36.75",
+                    "$49.00"
+                ],
+                "sku": "Item 2552636"
+            }
+        ],
+        "rating": "width:84.444%",
+        "product_reviews": "9",
+        "ingredients": "Glass, 100% Natural Coconut Soy Wax (No Paraffin), Fragrance Oil, 100% Cotton Wick. Paraben-, Phthalate-, Cruelty-Free.",
+        "n_loves": "2.3K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/no-wahala-candle-P501446",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:24:29",
+        "product_name": "No Wahala Candle",
+        "brand_name": "FORVR Mood",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 10 oz / 283 g",
+                    "ONLY A FEW LEFT",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2611523"
+            }
+        ],
+        "rating": "width:45%",
+        "product_reviews": "4",
+        "ingredients": "Glass, 100% Natural Coconut Soy Wax (No Paraffin), Fragrance Oil, 100% Cotton Wick.",
+        "n_loves": "644",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/cuffing-season-candle-P506365",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:24:42",
+        "product_name": "Cuffing Season Candle",
+        "brand_name": "FORVR Mood",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 283 g / 10 oz 1 wick candle",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$50.00"
+                ],
+                "sku": "Item 2651784"
+            }
+        ],
+        "rating": "width:98.33399999999999%",
+        "product_reviews": "120",
+        "ingredients": "Glass, Soy, Coconut Wax Blend, Fragrance Oil, 100% Cotton Wick.",
+        "n_loves": "1.2K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/forvr-mood-matcha-business-candle-P474317",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:24:54",
+        "product_name": "Matcha Business Candle",
+        "brand_name": "FORVR Mood",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "Size: 10 oz/ 283 g",
+                    "SALE"
+                ],
+                "price": [
+                    "$36.75",
+                    "$49.00"
+                ],
+                "sku": "Item 2483790"
+            }
+        ],
+        "rating": "width:81.5%",
+        "product_reviews": "40",
+        "ingredients": "Glass, 100% Natural Coconut Soy Wax (No Paraffin), 100% Cotton Wick. Paraben-, Phthalate-, and Cruelty-Free.",
+        "n_loves": "5.2K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/left-on-read-candle-P506348",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:25:07",
+        "product_name": "Left on Read Candle",
+        "brand_name": "FORVR Mood",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "NEW",
+                "size": null,
+                "name": [
+                    "Size: 10 oz / 283 g 1 wick candle",
+                    "NEW"
+                ],
+                "price": [
+                    "$50.00"
+                ],
+                "sku": "Item 2651768"
+            }
+        ],
+        "rating": "width:100%",
+        "product_reviews": "4",
+        "ingredients": "Glass, Soy, Coconut Wax Blend, Fragrance Oil, 100% Cotton Wick.",
+        "n_loves": "1.2K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/forvr-mood-mini-candle-gift-set-your-sign-to-shine-P481377",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:25:19",
+        "product_name": "Mini Candle Gift Set- Your Sign To Shine",
+        "brand_name": "FORVR Mood",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "SALE",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$48.00",
+                    "$64.00"
+                ],
+                "sku": "Item 2552594"
+            }
+        ],
+        "rating": "width:61.904%",
+        "product_reviews": "21",
+        "ingredients": "Glass, 100% Natural Coconut Soy Wax (No Paraffin), Fragrance Oil, 100% Cotton Wick. Paraben-, Phthalate-, and Cruelty-Free.",
+        "n_loves": "5.7K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/forvr-mood-candle-duo-set-P475542",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:25:32",
+        "product_name": "Candle Duo Set",
+        "brand_name": "FORVR Mood",
+        "options": [],
+        "rating": "width:77.60000000000001%",
+        "product_reviews": "25",
+        "ingredients": "Glass, 100% Natural Coconut Soy Wax (Non Paraffin), 100% Cotton Wick.Paraben, Phthalate and Cruelty-Free.",
+        "n_loves": "4.7K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/forvr-mood-chasing-waterfalls-candle-P481985",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:25:43",
+        "product_name": "Chasing Waterfalls Candle",
+        "brand_name": "FORVR Mood",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "LIMITED EDITION",
+                "size": null,
+                "name": [
+                    "Size: 10 oz/ 283 g",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2552552"
+            }
+        ],
+        "rating": "width:72%",
+        "product_reviews": "10",
+        "ingredients": "Glass, 100% Natural Coconut Soy Wax (No Paraffin), Fragrance Oil, 100% Cotton Wick. Paraben-, Phthalate-, and Cruelty-Free.",
+        "n_loves": "2.9K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/forvr-mood-mini-candle-gift-set-tropic-like-it-s-hot-P483442",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:25:55",
+        "product_name": "Mini Candle Gift Set- Tropic Like It\u2019s Hot",
+        "brand_name": "FORVR Mood",
+        "options": [],
+        "rating": "width:60%",
+        "product_reviews": "8",
+        "ingredients": "Glass, 100% Natural Coconut Soy Wax (No Paraffin), Fragrance Oil, 100% Cotton Wick. Paraben-, Phthalate-, and Cruelty-Free.",
+        "n_loves": "4.1K",
+        "categories": [
+            "Fragrance",
+            "Value & Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/spice-life-candle-P500865",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:26:05",
+        "product_name": "Spice of Life Candle",
+        "brand_name": "FORVR Mood",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "Size: 10 oz / 283 g",
+                    "SALE",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$36.75",
+                    "$49.00"
+                ],
+                "sku": "Item 2611499"
+            }
+        ],
+        "rating": "width:74.286%",
+        "product_reviews": "7",
+        "ingredients": "Glass, 100% Natural Coconut Soy Wax (No Paraffin), Fragrance Oil, 100% Cotton Wick.",
+        "n_loves": "1.6K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/forvr-mood-leaf-me-be-candle-P483438",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:26:21",
+        "product_name": "Leaf Me Be Candle",
+        "brand_name": "FORVR Mood",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "Size: 10 oz / 283 g",
+                    "SALE",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$36.75",
+                    "$49.00"
+                ],
+                "sku": "Item 2552610"
+            }
+        ],
+        "rating": "width:70%",
+        "product_reviews": "4",
+        "ingredients": "Glass, 100% Natural Coconut Soy Wax (No Paraffin), Fragrance Oil, 100% Cotton Wick. Paraben-, Phthalate-, and Cruelty-Free.",
+        "n_loves": "1.1K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/forvr-mood-grown-folks-business-candle-P474321",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:26:33",
+        "product_name": "Grown Folks Business Candle",
+        "brand_name": "FORVR Mood",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 10 oz/ 283 g",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2483832"
+            }
+        ],
+        "rating": "width:77.778%",
+        "product_reviews": "27",
+        "ingredients": "Glass, 100% Natural Coconut Soy Wax (No Paraffin), 100% Cotton Wick. Paraben-, Phthalate-, and Cruelty-Free.",
+        "n_loves": "3.6K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/forvr-mood-burning-bridges-candle-P481987",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:26:46",
+        "product_name": "Burning Bridges Candle",
+        "brand_name": "FORVR Mood",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "Size: 10 oz/ 283 g",
+                    "SALE",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$36.75",
+                    "$49.00"
+                ],
+                "sku": "Item 2552560"
+            }
+        ],
+        "rating": "width:82.22200000000001%",
+        "product_reviews": "9",
+        "ingredients": "Glass, 100% Natural Coconut Soy Wax (No Paraffin), Fragrance Oil, 100% Cotton Wick. Paraben-, Phthalate-, and Cruelty-Free.",
+        "n_loves": "2.8K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/forvr-mood-musta-been-wind-candle-P481986",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:26:59",
+        "product_name": "Musta Been The Wind Candle",
+        "brand_name": "FORVR Mood",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "Size: 10 oz/ 283 g",
+                    "SALE",
+                    "ONLY A FEW LEFT",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$36.75",
+                    "$49.00"
+                ],
+                "sku": "Item 2552578"
+            }
+        ],
+        "rating": "width:75%",
+        "product_reviews": "4",
+        "ingredients": "Glass, 100% Natural Coconut Soy Wax (No Paraffin), Fragrance Oil, 100% Cotton Wick. Paraben-, Phthalate-, and Cruelty-Free.",
+        "n_loves": "1.9K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/forvr-mood-not-down-to-earth-candle-P481984",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:27:11",
+        "product_name": "NOT Down To Earth Candle",
+        "brand_name": "FORVR Mood",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "Size: 10 oz/ 283 g",
+                    "SALE",
+                    "ONLY A FEW LEFT",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$36.75",
+                    "$49.00"
+                ],
+                "sku": "Item 2552586"
+            }
+        ],
+        "rating": "width:66.666%",
+        "product_reviews": "6",
+        "ingredients": "Glass, 100% Natural Coconut Soy Wax (No Paraffin), Fragrance Oil, 100% Cotton Wick. Paraben-, Phthalate-, and Cruelty-Free.",
+        "n_loves": "1.9K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/forvr-mood-cuffing-season-candle-P473127",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:27:23",
+        "product_name": "Cuffing Season Candle",
+        "brand_name": "FORVR Mood",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "Size: 10 oz/ 283 g",
+                    "SALE"
+                ],
+                "price": [
+                    "$36.75",
+                    "$49.00"
+                ],
+                "sku": "Item 2483766"
+            }
+        ],
+        "rating": "width:68.364%",
+        "product_reviews": "55",
+        "ingredients": "Glass, 100% Natural Coconut Soy Wax (No Paraffin), 100% Cotton Wick. Paraben-, Phthalate-, and Cruelty-Free.",
+        "n_loves": "5.9K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/forvr-mood-sweet-wave-candle-P483439",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:27:35",
+        "product_name": "Sweet Wave Candle",
+        "brand_name": "FORVR Mood",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "Size: 10 oz / 283 g",
+                    "SALE",
+                    "ONLY A FEW LEFT",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$36.75",
+                    "$49.00"
+                ],
+                "sku": "Item 2552602"
+            }
+        ],
+        "rating": "width:43.334%",
+        "product_reviews": "6",
+        "ingredients": "Glass, 100% Natural Coconut Soy Wax (No Paraffin), Fragrance Oil, 100% Cotton Wick. Paraben-, Phthalate-, And Cruelty-Free.",
+        "n_loves": "999",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    }
+]

@@ -1,0 +1,465 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/boss-bottled-unlimited-P386161",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 19:02:27",
+        "product_name": "BOSS BOTTLED. UNLIMITED",
+        "brand_name": "Hugo Boss",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.3 oz",
+                    "ONLY A FEW LEFT",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$134.00"
+                ],
+                "sku": "Item 1603174"
+            }
+        ],
+        "rating": "width:93.33399999999999%",
+        "product_reviews": "3",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "371",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/boss-scent-P405167",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 19:02:39",
+        "product_name": "BOSS THE SCENT",
+        "brand_name": "Hugo Boss",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.6 oz/ 47 mL Eau de Toilette Spray",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$108.00"
+                ],
+                "sku": "Item 1747591"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.3 oz/ 98 mL Eau de Toilette Spray",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$134.00"
+                ],
+                "sku": "Item 1747609"
+            }
+        ],
+        "rating": "width:98.09599999999999%",
+        "product_reviews": "21",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "1.5K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/boss-bottled-night-P376950",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 19:02:52",
+        "product_name": "BOSS BOTTLED NIGHT",
+        "brand_name": "Hugo Boss",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.3 oz/ 100 mL Eau de Toilette Spray",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$134.00"
+                ],
+                "sku": "Item 1466168"
+            }
+        ],
+        "rating": "width:85%",
+        "product_reviews": "24",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "669",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/hugo-boss-boss-bottled-infinite-eau-de-parfum-P473117",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 19:03:03",
+        "product_name": "BOSS Bottled Infinite Eau de Parfum",
+        "brand_name": "Hugo Boss",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL Eau de Parfum Spray",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$119.00"
+                ],
+                "sku": "Item 2344034"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL Eau de Parfum Spray",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$149.00"
+                ],
+                "sku": "Item 2346914"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "Alcohol Denat., PPG-10 Methyl Glucose Ether, Parfum/Fragrance, Aqua/Water/Eau, Linalool, Ethylhexyl Methoxycinnamate, Limonene, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Coumarin, Citral, Citronellol, Geraniol, Cinnamal, Eugenol, BHT, Red 33 (CI 17200), Blue 1 (CI 42090), Yellow 5 (CI 19140).",
+        "n_loves": "158",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/hugo-boss-boss-bottled-eau-de-parfum-P473116",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 19:03:15",
+        "product_name": "BOSS Bottled Eau de Parfum",
+        "brand_name": "Hugo Boss",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$119.00"
+                ],
+                "sku": "Item 2479186"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL Eau de Parfum Spray",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$149.00"
+                ],
+                "sku": "Item 2479178"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "Alcohol Denat., Parfum/Fragrance, Aqua/Water/Eau, Octocrylene, Ethylhexyl Methoxycinnamate, Limonene, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Linalool, Coumarin, Geraniol, Alpha-Isomethyl Ionone, Citral, Alcohol, Tris(Tetramethylhydroxypiperidinol) Citrate, Cinnamal, Citronellol, Eugenol, Isoeugenol, Bht, Green 5 (Ci 61570), Red 4 (Ci 14700).",
+        "n_loves": "182",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/boss-bottled-tonic-P424555",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 19:03:27",
+        "product_name": "BOSS Bottled Tonic",
+        "brand_name": "Hugo Boss",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.6 oz/ 50 mL Eau de Toilette Spray",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$108.00"
+                ],
+                "sku": "Item 2006849"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.3 oz/ 100 mL Eau de Toilette Spray",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$134.00"
+                ],
+                "sku": "Item 2006856"
+            }
+        ],
+        "rating": "width:100%",
+        "product_reviews": "1",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "312",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/boss-P6440",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 19:03:40",
+        "product_name": "Boss",
+        "brand_name": "Hugo Boss",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.6 oz/ 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$108.00"
+                ],
+                "sku": "Item 429415"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.4 / 100 eau de toilette",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$134.00"
+                ],
+                "sku": "Item 429423"
+            }
+        ],
+        "rating": "width:94%",
+        "product_reviews": "50",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "1.5K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/hugo-boss-boss-scent-le-parfum-eau-de-parfum-P482046",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 19:03:53",
+        "product_name": "BOSS The Scent Le Parfum Eau de Parfum",
+        "brand_name": "Hugo Boss",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL Eau de Parfum",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$150.00"
+                ],
+                "sku": "Item 2555837"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "224",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/hugo-by-hugo-boss-P394599",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 19:04:04",
+        "product_name": "HUGO by HUGO BOSS",
+        "brand_name": "Hugo Boss",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 2.5 oz/ 75 mL Eau de Toilette Spray",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$96.00"
+                ],
+                "sku": "Item 1519719"
+            }
+        ],
+        "rating": "width:73.334%",
+        "product_reviews": "6",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "627",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/boss-scent-magnetic-eau-de-parfum-P504878",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 19:04:15",
+        "product_name": "Boss The Scent Magnetic Eau de Parfum",
+        "brand_name": "Hugo Boss",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 1.6 oz / 50 mL eau de parfum spray",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$119.00"
+                ],
+                "sku": "Item 2672871"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz / 100 mL eau de parfum spray",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$149.00"
+                ],
+                "sku": "Item 2672889"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "Alcohol Denat., Parfum/Fragrance, Aqua/Water/Eau, Ethylhexyl Salicylate, Linalool, Limonene, Butyl Methoxydibenzoylmethane, Coumarin, Hydroxycitronellal, Citronellol, Citral, Alcohol, Geraniol, Tris (Tetramethylhydroxypiperidinol) Citrate, Benzyl Benzoate, Eugenol, Ext. Violet 2 (CI 60730).",
+        "n_loves": "63",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/hugo-boss-boss-bottled-parfum-P502961",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 19:04:27",
+        "product_name": "Boss Bottled Parfum",
+        "brand_name": "Hugo Boss",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz / 100 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$150.00"
+                ],
+                "sku": "Item 2625879"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz / 50 mL"
+                ],
+                "price": [
+                    "$125.00"
+                ],
+                "sku": "Item 2625887"
+            }
+        ],
+        "rating": "width:86.66600000000001%",
+        "product_reviews": "3",
+        "ingredients": "Alcohol Denat, Aqua/Water/Eau, Limonene, Linalool, Coumarin, Geraniol, Eugenol, Citral, Methyl 2-Octynoate.",
+        "n_loves": "259",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/hugo-boss-hugo-man-eau-de-toilette-P473141",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 19:04:48",
+        "product_name": "HUGO Man Eau de Toilette",
+        "brand_name": "Hugo Boss",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 4.2/ 125 mL Eau de Toilette",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$125.00"
+                ],
+                "sku": "Item 2479194"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "Alcohol Denat., Aqua (Water), Parfum (Fragrance), Ethylhexyl Methoxycinnamate, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Bht, Limonene, Benzyl Salicylate, Linalool, Alpha-Isomethyl Ionone, Eugenol, Citral, Isoeugenol, Citronellol, Geraniol, Benzyl Alcohol, Ci 60730 (Ext. Violet 2), Ci 42090 (Blue 1), Ci 19140 (Yellow 5) .",
+        "n_loves": "155",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    }
+]

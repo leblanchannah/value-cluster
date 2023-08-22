@@ -1,0 +1,395 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/meltdown-P450604",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 09:57:12",
+        "product_name": "Meltdown Acne Oil",
+        "brand_name": "Blume",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.5 oz / 15 mL"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2568038"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 28 mL"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2342145"
+            }
+        ],
+        "rating": "width:76.05999999999999%",
+        "product_reviews": "330",
+        "ingredients": "Black Cumin Seed Oil, Rosehip Oil, Tamanu Seed Oil, Sunflower Seed Oil, Comfrey Root Extract, Olive Leaf Extract, Lavender Oil, Jojoba Seed Oil, Tea Tree Oil, Helichrysum Flower Oil, Blue Tansy, Chamomile Flower Oil, Rosemary Leaf ExtractClean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "10.4K",
+        "categories": [
+            "Skincare",
+            "Treatments",
+            "Blemish & Acne Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/blume-cloud-9-pms-oil-P481349",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 09:57:25",
+        "product_name": "Cloud 9 PMS Oil",
+        "brand_name": "Blume",
+        "options": [],
+        "rating": "width:82.308%",
+        "product_reviews": "26",
+        "ingredients": "-Clary Sage: A warm, calming, and soothing sedative.-Peppermint: Perks up the senses while targeting muscle spasms and nausea. -Geranium: A reported mood enhancer that targets fatigue.Jojoba, Essential Oils: Clary Sage, Peppermint, Geranium, Bergamot, Lemon, Non-GMO Vegetable-Sourced Vitamin E.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "5.4K",
+        "categories": [
+            "Bath & Body",
+            "Mini Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/blume-milky-fade-spot-scar-serum-P481375",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 09:57:35",
+        "product_name": "Milky Fade Spot + Scar Serum",
+        "brand_name": "Blume",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL"
+                ],
+                "price": [
+                    "$45.00"
+                ],
+                "sku": "Item 2569663"
+            }
+        ],
+        "rating": "width:84.33800000000001%",
+        "product_reviews": "83",
+        "ingredients": "-Niacinamide: Reduces the appearance of hyperpigmentation and evens out the look of skin texture.-Hyaluronic Acid: A humectant that attracts water, leading to hydrated and moisturized skin.-Vitamin C: An antioxidant for brighter-looking and more-even-toned skin.Water (Aqua), Niacinamide, Butylene Glycol, Centella Asiatica (Gotu Kola) Extract, Diheptyl Succinate, Capryloyl Glycerin/Sebacic Acid Copolymer, Glycerin, Sodium Citrate, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Vaccinium Myrtillus (Bilberry) Fruit Extract, Saccharum Officinarum (Sugarcane) Extract, Acer Saccharum (Sugar Maple) Extract, Citrus Aurantium Dulcis (Orange) Fruit Extract, Citrum Limon (Lemon) Fruit Extract, Aloe Barbadensis (Aloe Vera) Leaf Juice, Ascorbyl Glucoside, Sodium Hyaluronate, Citric Acid, Tocopheryl (Vitamin E) Acetate, Xanthan Gum, Tetrasodium Glutamate Diacetate, Ethylhexylglycerin, Phenoxyethanol.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "9.6K",
+        "categories": [
+            "Skincare",
+            "Treatments",
+            "Face Serums"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/blume-buds-power-patches-for-acne-prone-skin-P502236",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 09:57:47",
+        "product_name": "Blume Buds - Power Patches for Acne-Prone Skin",
+        "brand_name": "Blume",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [],
+                "price": [
+                    "$18.00"
+                ],
+                "sku": "Item 2627727"
+            }
+        ],
+        "rating": "width:76.78%",
+        "product_reviews": "118",
+        "ingredients": "-Salicylic Acid: Targets acne, redness, and blemishes. -Hydrocolloid: Absorbs fluids and shields skin.Hydrocolloid, Salicylic Acid.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "7.6K",
+        "categories": [
+            "Skincare",
+            "Treatments",
+            "Blemish & Acne Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/daydreamer-P450602",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 09:57:59",
+        "product_name": "Daydreamer Super Gentle Face Wash",
+        "brand_name": "Blume",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 4 oz/ 118 mL"
+                ],
+                "price": [
+                    "$19.00"
+                ],
+                "sku": "Item 2294114"
+            }
+        ],
+        "rating": "width:80.13%",
+        "product_reviews": "154",
+        "ingredients": "-Rapeseed Oil: A source of fatty acids rich in antioxidant properties.-Chamomile: A calming, soothing agent that cares for visible blemishes and eczema and soothes irritation.-Shiitake Mushroom Extract: Improves skin barrier strength and encourages a feeling of renewal.Aqua, Brassica Campestris (Rapeseed) Seed Oil, Stearic Acid, Stearyl Alcohol, Caprylic/Capric Triglyceride, Hydroxypropyl Starch Phosphate, Glyceryl Stearate, Glycerine, Propanediol, Sodium Cocoyl Isethionate, Decyl Glucoside, Arginine, Caprylyl Glycol, Natamycin, Pelargonium Graveolens (Geranium) Flower Oil, Lavandula Angustifolia (Lavender) Oil, Ormenis Multicaulis (Chamomile) Flower Extract, Arnica Montana Flower Extract, Citric Acid, Sambucus Nigra (Elderberry) Fruit Extract, Lentinula Edodes (Shitake) Mushroom Extract.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "6.3K",
+        "categories": [
+            "Skincare",
+            "Cleansers",
+            "Face Wash & Cleansers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/skin-therapy-face-oil-all-in-one-nourishing-oil-P502227",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 09:58:10",
+        "product_name": "Skin Therapy Face Oil - All In One Nourishing Oil",
+        "brand_name": "Blume",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz / 30 mL"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2629756"
+            }
+        ],
+        "rating": "width:96.66600000000001%",
+        "product_reviews": "18",
+        "ingredients": "-Squalane: Hydrates skin, reduces the appearance of fine lines, fights free radicals, and soothes the look of acne.-Black Currant Seed Oil, Watermelon Seed Oil, and Tamanu Seed Oil: Support skin\u2019s natural barrier and protect from environmental damage.-Tetrahexyldecyl Ascorbate, Rosehip Oil, and Sea Buckthorn Oil: Brighten, moisturize, calm, and visibly even out skin tone with vitamin C.Squalane, Simmondsia Chinensis (Jojoba) Seed Oil, Helianthus Annuus Seed Oil (Sunflower Seed Oil), Hippophae Rhamnoides Fruit Oil (Sea Buckthorn Oil), Citrullus Lanatus Seed Oil (Watermelon Seed Oil), Prunus Domestica Seed Oil (Plum Seed Oil), Rosa Canina Fruit Oil (Rosehip Oil), Tocopheryl Acetate (Vitamin E), Cannabis Sativa Seed Oil, Ribes Nigrum Seed Oil (Black Current Seed Oil), Calophyllum Inophyllum Seed Oil (Tamanu Seed Oil), Calendula Officinalis Flower Extract, Tetrahexyldecyl Ascorbate (Vitamin C), Tocopherol.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "2.1K",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Face Oils"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/blume-treat-fade-kit-P502597",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 09:58:23",
+        "product_name": "Treat and Fade Kit",
+        "brand_name": "Blume",
+        "options": [],
+        "rating": "width:91.852%",
+        "product_reviews": "27",
+        "ingredients": "-Niacinamide: Reduces the appearance of hyperpigmentation and evens out skin texture.-Vitamin C: An antioxidant for visibly brighter and more-even-toned skin.-Blue Tansy: Fights the look of blemishes while calming and soothing.Meltdown Oil for Acne-Prone Skin:Helianthus Annuus (Sunflower) Seed Oil, Nigella Sativa Seed Oil, Rosa Moschata (Rosehip) Seed Oil, Calophyllum Inophyllum Seed Oil, Melaleuca Alternifolia (Tea Tree) Leaf Oil, Olea Europaea (Olive) Leaf Extract, Tanacetum Annuum Flower/Leaf/Stem Oil,Anthemis Nobilis (Roman Chamomile) Oil, Helichrysum Italicum Flower Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Rosmarinus Officinalis (Rosemary) Leaf Extract, Bisabolol, Carthamus Tinctorius (Safflower) Seed Oil, Sesamum Indicum (Sesame) Seed Oil, Withania Somnifera Root Extract, Bala (Sida Cordifolia) Root Extract.Milky Fade Spot and Scar Serum:Water (Aqua), Niacinamide, Butylene Glycol, Centella Asiatica (Gotu Kola) Extract, Diheptyl Succinate, Capryloyl Glycerin/Sebacic Acid Copolymer, Glycerin, Sodium Citrate, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Vaccinium Myrtillus (Bilberry) Fruit Extract, Saccharum Officinarum (Sugarcane) Extract, Acer Saccharum (Sugar Maple) Extract, Citrus Aurantium Dulcis (Orange) Fruit Extract, Citrum Limon (Lemon) Fruit Extract, Aloe Barbadensis (Aloe Vera) Leaf Juice, Ascorbyl Glucoside, Sodium Hyaluronate, Citric Acid, Tocopheryl (Vitamin E) Acetate, Xanthan Gum, Tetrasodium Glutamate Diacetate, Ethylhexylglycerin, Phenoxyethanol.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "3.9K",
+        "categories": [
+            "Skincare",
+            "Value & Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/blume-regular-pads-P463810",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 09:58:33",
+        "product_name": "Regular Pads",
+        "brand_name": "Blume",
+        "options": [],
+        "rating": "width:90.91%",
+        "product_reviews": "11",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "1.4K",
+        "categories": [
+            "Skincare",
+            "Wellness",
+            "Holistic Wellness"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/blume-sunbeam-exfoliating-mask-P481406",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 09:58:43",
+        "product_name": "Sunbeam Exfoliating Mask",
+        "brand_name": "Blume",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2.6 oz/ 75 mL"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2568301"
+            }
+        ],
+        "rating": "width:89.714%",
+        "product_reviews": "35",
+        "ingredients": "-Bamboo and Rice Powder: Fine and gentle exfoliating particles that smooth skin.-Turmeric: A powerful antioxidant that provides glow and visibly brightens. -Fruit Enzymes: Plant-derived exfoliators that work to visibly improve skin tone and texture.Aqua, Glycerin, Prunus Armeniaca (Apricot) Kernel Oil, Caprylic/Capric Triglyceride, Oryza Sativa (Rice) Powder, Acacia Senegal Gum, Xanthan Gum, Hydroxyethylcellulose, Bambusa Arundinacea (Bamboo) Stem Powder, Zingiber Officinale (Ginger) Root Extract, Bromelain, Papain, Curcuma Longa (Turmeric) Root Extract, Cetearyl Alcohol, Citric Acid, Sodium Phytate, Sodium Hydroxide, Gardenia Jasminoides Fruit Extract, Sodium Levulinate, Potassium Sorbate, Maltodextrin, Sodium Benzoate.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "2.7K",
+        "categories": [
+            "Skincare",
+            "Masks",
+            "Face Masks"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/blume-meltdown-oil-for-acne-prone-skin-P481373",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 09:58:55",
+        "product_name": "Meltdown Oil for Acne Prone Skin",
+        "brand_name": "Blume",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.5 oz / 15 mL"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2568038"
+            }
+        ],
+        "rating": "width:88.18599999999999%",
+        "product_reviews": "237",
+        "ingredients": "-Black Cumin Seed: This oil reduces the look of blemishes, redness, and soothes irritation.-Blue Tansy: Naturally fights blemishes while calming and soothing skin.-Rose Hip Oil: visibly fades scars and evens out skin tone while hydrating skin.\u00a0Helianthus Annuus (Sunflower) Seed Oil, Nigella Sativa Seed Oil, Rosa Moschata (Rosehip) Seed Oil, Calophyllum Inophyllum Seed Oil, Melaleuca Alternifolia (Tea Tree) Leaf Oil, Olea Europaea (Olive) Leaf Extract, Tanacetum Annuum Flower/Leaf/Stem Oil,Anthemis Nobilis (Roman Chamomile) Oil, Helichrysum Italicum Flower Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Rosmarinus Officinalis (Rosemary) Leaf Extract, Bisabolol, Carthamus Tinctorius (Safflower) Seed Oil, Sesamum Indicum (Sesame) Seed Oil, Withania Somnifera Root Extract, Bala (Sida Cordifolia) Root Extract.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "8.5K",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Face Oils"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/blume-meltdown-gel-cream-for-acne-prone-skin-with-72-hour-hydration-P505628",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 09:59:07",
+        "product_name": "Meltdown Gel Cream for Acne-Prone Skin with 72 hour Hydration",
+        "brand_name": "Blume",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz / 50 mL"
+                ],
+                "price": [
+                    "$33.00"
+                ],
+                "sku": "Item 2677870"
+            }
+        ],
+        "rating": "width:76.19%",
+        "product_reviews": "21",
+        "ingredients": "-Pentavitin: Clinically shown to provide up to 72 hours of hydration.-Ceramides: Improve and support a strong skin barrier.-Amino Acids: Provide antioxidant protection and support skin's resilience.Water (Aqua), Propanediol, Squalane, Diisostearyl Malate, Diheptyl Succinate,Coco-Caprylate/Caprate, Glycerin, Niacinamide, Capryloyl Glycerin/Sebacic Acid Copolymer, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Glyceryl Stearate Citrate, Behenyl Alcohol, Maltol. Tocopheryl Acetate, Terminalia Chebula Fruit Extract, Sodium Lactate, Centella Asiatica Extract, Arginine, PCA, Ceramide NP, Ceramide AS, Ceramide AP, Ceramide NS, Cholesterol, Ceramide EOP, Hydrolyzed Gardenia Florida Extract, Sodium Hyaluronate, Gossypium Hirsutum (Cotton) Extract, Glycyrrhiza Glabra (Licorice) Root Extract, Sodium PCA, Laminaria Japonica Extract, Solanum Lycopersicum (Tomato) Fruit Extract, Polyquaternium-80, Sorbitan Isostearate, Saccharide Isomerate, Maltodextrin, Citric Acid, Aspartic Acid, Sodium Citrate, Hydrogenated Lecithin, Glycine, Alanine, Dipropylene Glycol, Serine, Valine, Potassium Sorbate, Sodium Benzoate,Glyceryl Stearate, Proline, Threonine, Isoleucine, Sucrose Distearate, Histidine, Phenylalanine.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "2K",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Moisturizers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/blume-hug-me-probiotic-deodorant-P481359",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 09:59:19",
+        "product_name": "Hug Me Probiotic Deodorant",
+        "brand_name": "Blume",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2.6 oz / 75 g"
+                ],
+                "price": [
+                    "$16.00"
+                ],
+                "sku": "Item 2565497"
+            }
+        ],
+        "rating": "width:77.662%",
+        "product_reviews": "77",
+        "ingredients": "-Coconut Oil: Nature\u2019s natural deodorant with a moisturizing bonus.-Probiotics: A healthy mix of the good kind of bacteria to combat odor.-Baking Soda: A professional at keeping your underarms nice and dry.Cocos nucifera (Coconut) Oil, Zea Mays (Corn) Starch, Sodium Bicarbonate (Baking Soda), Wild Crafted Euphorbia Cerifera (Candelilla) Wax, Simmondsia Chinensis (Jojoba) Seed Oil, Bacillus Coagulans (Probiotics).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "3.2K",
+        "categories": [
+            "Bath & Body",
+            "Body Care",
+            "Deodorant & Antiperspirant"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/blume-superpower-clay-mask-P481407",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 09:59:32",
+        "product_name": "Superpower Clay Mask",
+        "brand_name": "Blume",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2.6 oz/ 75 mL"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2568020"
+            }
+        ],
+        "rating": "width:96.7%",
+        "product_reviews": "103",
+        "ingredients": "-Licorice Root Extract: Contains soothing and calming properties that visibly brighten, care for, and soften skin.-Niacinamide: Reduces the appearance of hyperpigmentation and visibly evens skin texture while refining the look of pores.-Kaolin Clay: Absorbs excess oil while fighting breakouts before they begin.Aqua/Water/Eau, Kaolin, Glycerin, Bentonite, Magnesium Aluminum Silicate, Montmorillonite, Niacinamide, Phenoxyethanol, Ethylhexylglycerin, Eucalyptus Globulus Leaf Oil, Xanthan Gum, Citric acid, Aloe Barbadensis Leaf Juice, Glycyrrhiza Glabra (Licorice) Root Extract, Tocopheryl Acetate, Tetrasodium Glutamate Diacetate, Butylene Glycol.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "4K",
+        "categories": [
+            "Skincare",
+            "Masks",
+            "Face Masks"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/blume-regular-tampons-P463808",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 09:59:45",
+        "product_name": "Regular Tampons",
+        "brand_name": "Blume",
+        "options": [],
+        "rating": "width:62.858000000000004%",
+        "product_reviews": "14",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "1.2K",
+        "categories": [
+            "Skincare",
+            "Wellness",
+            "Holistic Wellness"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/blume-super-tampons-P463809",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 09:59:55",
+        "product_name": "Super Tampons",
+        "brand_name": "Blume",
+        "options": [],
+        "rating": "width:91.428%",
+        "product_reviews": "7",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "1.1K",
+        "categories": [
+            "Skincare",
+            "Wellness",
+            "Holistic Wellness"
+        ]
+    }
+]

@@ -1,0 +1,443 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/paddle-brush-P385020",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:50:23",
+        "product_name": "Paddle Brush",
+        "brand_name": "ghd",
+        "options": [],
+        "rating": "width:74.884%",
+        "product_reviews": "43",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "5.2K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Brushes & Combs"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/gold-professional-performance-1-styler-P433648",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:50:33",
+        "product_name": "Gold Styler - 1\" Flat Iron",
+        "brand_name": "ghd",
+        "options": [],
+        "rating": "width:80.488%",
+        "product_reviews": "41",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "4.2K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Hair Straighteners & Flat Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/platinum-professional-performance-1-styler-P435401",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:50:42",
+        "product_name": "Platinum+ Styler - 1\" Flat Iron",
+        "brand_name": "ghd",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Black"
+                ],
+                "price": [
+                    "$359.00"
+                ],
+                "sku": "Item 2126241"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "LIMITED EDITION",
+                "size": null,
+                "name": [
+                    "Color: White/Off-white",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$359.00"
+                ],
+                "sku": "Item 2126258"
+            }
+        ],
+        "rating": "width:79.398%",
+        "product_reviews": "465",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "29.1K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Hair Straighteners & Flat Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/curve-1-classic-curl-iron-P389525",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:50:56",
+        "product_name": "Classic Curl - 1\" Curling Iron",
+        "brand_name": "ghd",
+        "options": [],
+        "rating": "width:84.88799999999999%",
+        "product_reviews": "45",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "8.5K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Curling Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/curve-creative-curl-wand-P389522",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:51:07",
+        "product_name": "Creative Curl - Tapered Curling Wand",
+        "brand_name": "ghd",
+        "options": [],
+        "rating": "width:89.19%",
+        "product_reviews": "74",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "11.5K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Curling Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/ghd-original-styler-1-flat-iron-P481392",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:51:20",
+        "product_name": "Original Styler - 1\" Flat Iron",
+        "brand_name": "ghd",
+        "options": [],
+        "rating": "width:92.592%",
+        "product_reviews": "297",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "9.7K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Hair Straighteners & Flat Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/curve-classic-wave-wand-P389523",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:51:31",
+        "product_name": "Classic Wave - Oval Curling Wand",
+        "brand_name": "ghd",
+        "options": [],
+        "rating": "width:74%",
+        "product_reviews": "20",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "6.8K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Curling Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/ghd-unplugged-cordless-styler-P474043",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:51:41",
+        "product_name": "Unplugged Styler - Cordless Flat Iron",
+        "brand_name": "ghd",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: White/Off-white",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$379.00"
+                ],
+                "sku": "Item 2476356"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Black",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$379.00"
+                ],
+                "sku": "Item 2455608"
+            }
+        ],
+        "rating": "width:85.7%",
+        "product_reviews": "200",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "12.5K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Hair Straighteners & Flat Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/glide-professional-performance-hot-brush-P444071",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:51:56",
+        "product_name": "Glide Smoothing Hot Brush",
+        "brand_name": "ghd",
+        "options": [],
+        "rating": "width:87.884%",
+        "product_reviews": "104",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "10.1K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Hair Straighteners & Flat Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/ghd-professional-hair-dryer-diffuser-P474042",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:52:06",
+        "product_name": "Professional Hair Dryer Diffuser",
+        "brand_name": "ghd",
+        "options": [],
+        "rating": "width:72%",
+        "product_reviews": "5",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "1.2K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Hair Dryers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/ghd-curl-thin-wand-P480605",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:52:17",
+        "product_name": "Thin Wand - 0.5\" Curling Wand",
+        "brand_name": "ghd",
+        "options": [],
+        "rating": "width:99.16600000000001%",
+        "product_reviews": "24",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "4.9K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Curling Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/ceramic-vented-radial-brush-3-P385018",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:52:29",
+        "product_name": "Ceramic Vented Radial Brush #3",
+        "brand_name": "ghd",
+        "options": [],
+        "rating": "width:93.68399999999998%",
+        "product_reviews": "19",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "2.7K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Brushes & Combs"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/ghd-helios-professional-hairdryer-P454987",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:52:40",
+        "product_name": "Helios 1875W Advanced Professional Hair Dryer",
+        "brand_name": "ghd",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Black",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$349.00"
+                ],
+                "sku": "Item 2277671"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: White/Off-white",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$349.00"
+                ],
+                "sku": "Item 2277689"
+            }
+        ],
+        "rating": "width:94.04999999999998%",
+        "product_reviews": "400",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "9.7K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Hair Dryers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/ghd-gold-max-2-styler-P469468",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:52:53",
+        "product_name": "Max Styler - 2\" Wide Plate Flat Iron",
+        "brand_name": "ghd",
+        "options": [],
+        "rating": "width:92%",
+        "product_reviews": "200",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "9.4K",
+        "categories": [
+            "Tools & Brushes",
+            "Hair Tools",
+            "Hair Straighteners & Flat Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/duet-style-2-in-1-hot-air-styler-P504606",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:53:03",
+        "product_name": "Duet Style 2-in-1 Hot Air Styler",
+        "brand_name": "ghd",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$519.00"
+                ],
+                "sku": "Item 2653541"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$519.00"
+                ],
+                "sku": "Item 2653558"
+            }
+        ],
+        "rating": "width:88.764%",
+        "product_reviews": "340",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "6.8K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Hair Straighteners & Flat Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/ghd-rise-hot-round-brush-P462351",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:53:16",
+        "product_name": "Rise Volumizing Hot Brush",
+        "brand_name": "ghd",
+        "options": [],
+        "rating": "width:70.304%",
+        "product_reviews": "33",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "11.8K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Hair Straighteners & Flat Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/curve-1-25-soft-curl-iron-P389524",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:53:26",
+        "product_name": "Soft Curl - 1.25\" Curling Iron",
+        "brand_name": "ghd",
+        "options": [],
+        "rating": "width:70.746%",
+        "product_reviews": "67",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "12.6K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Curling Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/air-professional-performance-hairdryer-P378713",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:53:36",
+        "product_name": "Air 1600W Professional Hair Dryer",
+        "brand_name": "ghd",
+        "options": [],
+        "rating": "width:83.95400000000001%",
+        "product_reviews": "177",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "6.6K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Hair Dryers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/ghd-sleek-talker-wet-to-sleek-styling-oil-P504613",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:53:47",
+        "product_name": "Sleek Talker Wet to Sleek Styling Oil",
+        "brand_name": "ghd",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.2 oz / 95 mL"
+                ],
+                "price": [
+                    "$57.00"
+                ],
+                "sku": "Item 2658037"
+            }
+        ],
+        "rating": "width:80%",
+        "product_reviews": "1",
+        "ingredients": "-Argan Oil: Smooths and softens strands without a greasy or heavy finish-Protecting Polymers and Conditioning Agents: Smooth hair cuticles, preventing them from lifting.Cyclopentasiloxane, Dimethiconol, Isododecane, Parfum (Fragrance), Argania Spinosa Kernel Oil, Limonene, Linalool, Alpha-Isomethyl Ionone, Hexyl Cinnamal, Citronellol, Coumarin, Citral.",
+        "n_loves": "1.1K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Oil"
+        ]
+    }
+]

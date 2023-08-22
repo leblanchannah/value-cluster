@@ -1,0 +1,209 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/dyson-dyson-supersonic-trade-hair-dryer-P475931",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:05:50",
+        "product_name": "Dyson Supersonic\u2122 Hair Dryer",
+        "brand_name": "Dyson",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "Color: Iron/Fuchsia",
+                    "SALE"
+                ],
+                "price": [
+                    "$479.99",
+                    "$579.99"
+                ],
+                "sku": "Item 2522258"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "Color: Fuschia",
+                    "SALE"
+                ],
+                "price": [
+                    "$479.99",
+                    "$579.99"
+                ],
+                "sku": "Item 2522274"
+            }
+        ],
+        "rating": "width:85.916%",
+        "product_reviews": "497",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "7.3K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Hair Dryers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/dyson-corrale-hair-straightener-P458944",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:06:03",
+        "product_name": "Corrale\u2122 Hair Straightener",
+        "brand_name": "Dyson",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$575.00",
+                    "$675.00"
+                ],
+                "sku": "Item 2552180"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "SALE"
+                ],
+                "price": [
+                    "$575.00",
+                    "$675.00"
+                ],
+                "sku": "Item 2335958"
+            }
+        ],
+        "rating": "width:73.044%",
+        "product_reviews": "368",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "7.1K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Hair Straighteners & Flat Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/dyson-airstrait-straightener-P506246",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:06:16",
+        "product_name": "Airstrait\u2122 Straightener",
+        "brand_name": "Dyson",
+        "options": [],
+        "rating": "width:89.95599999999999%",
+        "product_reviews": "225",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "33.3K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Hair Straighteners & Flat Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/dyson-airwrap-tm-multi-styler-complete-long-in-nickel-copper-P503099",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:06:26",
+        "product_name": "Airwrap\u2122 multi-styler Complete Long in (Nickel/Copper)",
+        "brand_name": "Dyson",
+        "options": [],
+        "rating": "width:81.538%",
+        "product_reviews": "13",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "6.6K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Blow Dry Brushes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/dyson-supersonic-tm-hair-dryer-P501482",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:06:37",
+        "product_name": "Supersonic\u2122Hair Dryer",
+        "brand_name": "Dyson",
+        "options": [],
+        "rating": "width:86.57999999999998%",
+        "product_reviews": "465",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "1.9K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Hair Dryers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/dyson-dyson-corrale-tm-hair-straightener-gift-set-in-vinca-blue-rose-P502687",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:06:47",
+        "product_name": "Corrale\u2122 Hair Straightener Gift Set in Vinca Blue/Ros\u00e9",
+        "brand_name": "Dyson",
+        "options": [],
+        "rating": "width:74.93%",
+        "product_reviews": "71",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "2K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Hair Straighteners & Flat Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/dyson-airwrap-multi-styler-complete-P500738",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:06:57",
+        "product_name": "Dyson Airwrap\u2122 multi-styler Complete (Nickel/Copper)",
+        "brand_name": "Dyson",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "SALE"
+                ],
+                "price": [
+                    "$699.99",
+                    "$799.99"
+                ],
+                "sku": "Item 2609030"
+            }
+        ],
+        "rating": "width:58.666%",
+        "product_reviews": "30",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "7K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Blow Dry Brushes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/dyson-airwrap-tm-multi-styler-complete-in-fuchsia-nickel-P503081",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 15:07:09",
+        "product_name": "Airwrap\u2122 multi-styler Complete in (Fuchsia/Nickel)",
+        "brand_name": "Dyson",
+        "options": [],
+        "rating": "width:58.666%",
+        "product_reviews": "30",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "3.7K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Blow Dry Brushes"
+        ]
+    }
+]

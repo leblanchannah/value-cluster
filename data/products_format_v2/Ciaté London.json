@@ -1,0 +1,32 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/liquid-chrome-P422514",
+        "error": "Product not available",
+        "scrape_timestamp": "08/21/2023, 11:53:58"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/ciate-dewy-lip-cheek-multi-use-gloss-tint-P457464",
+        "error": "Product not available",
+        "scrape_timestamp": "08/21/2023, 11:54:07"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/liquid-velvet-tm-moisturizing-matte-liquid-lipstick-P393859",
+        "error": "Product not available",
+        "scrape_timestamp": "08/21/2023, 11:54:16"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/dewy-stix-luminous-highlighting-balm-P417001",
+        "error": "Product not available",
+        "scrape_timestamp": "08/21/2023, 11:54:26"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/watermelon-burst-hydrating-lip-oil-P446307",
+        "error": "Product not available",
+        "scrape_timestamp": "08/21/2023, 11:54:35"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/marbled-metals-P445729",
+        "error": "Product not available",
+        "scrape_timestamp": "08/21/2023, 11:54:44"
+    }
+]

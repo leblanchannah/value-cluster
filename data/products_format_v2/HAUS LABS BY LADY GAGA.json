@@ -1,0 +1,2728 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/le-monster-lip-crayon-lipstick-P500284",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 18:10:18",
+        "product_name": "Le Monster Lip Crayon Vegan Lipstick and Lip Liner",
+        "brand_name": "HAUS LABS BY LADY GAGA",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.049 oz / 1.4 g",
+                "name": [
+                    "Color: Berry Matte - cool magenta"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572162"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.049 oz / 1.4 g",
+                "name": [
+                    "Color: Mahogany Matte - rich plum brown"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2660017"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.049 oz / 1.4 g",
+                "name": [
+                    "Color: Maple Matte - warm peach brown"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2660009"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.049 oz / 1.4 g",
+                "name": [
+                    "Color: Blush Matte - light pink brown"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2659985"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.049 oz / 1.4 g",
+                "name": [
+                    "Color: Honey Matte - light peach brown"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2659993"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.049 oz / 1.4 g",
+                "name": [
+                    "Color: Light Peony Matte - cool light peony"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572113"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.049 oz / 1.4 g",
+                "name": [
+                    "Color: Peach Matte - warm light peach"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572121"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.049 oz / 1.4 g",
+                "name": [
+                    "Color: Rose Matte - warm dark rose"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572139"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.049 oz / 1.4 g",
+                "name": [
+                    "Color: Mauve Matte - warm dirty rose"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572147"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.049 oz / 1.4 g",
+                "name": [
+                    "Color: Melon Matte - warm neutral pink - Gaga's go to"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572154"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.049 oz / 1.4 g",
+                "name": [
+                    "Color: Cerise Matte - warm bright pink"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572170"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.049 oz / 1.4 g",
+                "name": [
+                    "Color: Crimson Matte - cool bright red"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572188"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.049 oz / 1.4 g",
+                "name": [
+                    "Color: Scarlet Matte - cool deep red"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572196"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.049 oz / 1.4 g",
+                "name": [
+                    "Color: Garnet Matte - deep dark red"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572204"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.049 oz / 1.4 g",
+                "name": [
+                    "Color: Mocha Matte - warm brown"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572212"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.049 oz / 1.4 g",
+                "name": [
+                    "Color: Currant Matte - warm soft red"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572220"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.049 oz / 1.4 g",
+                "name": [
+                    "Color: Fuchsia Shimmer - sparkling cool pink"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572238"
+            }
+        ],
+        "rating": "width:88.684%",
+        "product_reviews": "479",
+        "ingredients": "-Mango Seed Oil: Moisturizes and nourishes. -Lip Boosting Peptides: Enhances the look of natural volume. -Hyaluronic Filling Spheres: Naturally plumps and firms appearance. Isododecane, Caprylyl Methicone, Synthetic Wax, Diisostearyl Malate, Polybutene, Cetearyl Behenate, Silica, Synthetic Fluorphlogopite, Mica, Ceramide NP, Palmitoyl Tripeptide-1, Sodium Hyaluronate, Tocopheryl Acetate, Mangifera Indica (Mango) Seed Oil, Ethylhexyl Palmitate, Sorbitan Isostearate, Silica Dimethyl Silylate, Butylene Glycol, Lactic Acid, Tribehenin, Caprylyl Glycol, Hexylene Glycol, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Phenoxyethanol, CI 77891 (Titanium Dioxide), CI 77491/77492/77499 (Iron Oxides), CI 77742 (Manganese Violet).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "107.5K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Lipstick"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/bio-radiant-gel-powder-highlighter-with-fermented-arnica-P500314",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 18:10:42",
+        "product_name": "Bio-Radiant Gel-Powder Highlighter with Fermented Arnica",
+        "brand_name": "HAUS LABS BY LADY GAGA",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Peach Quartz - golden peach"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2572576"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Chocolate Opal - warm brown"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2572642"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Pink Amethyst - magenta pink",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2572584"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Raw Amber - copper"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2572592"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Fire Opal - yellow orange - Gaga's go to"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2572618"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Bronzite - deep cool bronze"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2572659"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Rose Quartz - light magenta"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2572626"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Sunstone - pink gold"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2572568"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Moonstone - light silver"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2572634"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Golden Pyrite - bronzed gold"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2572600"
+            }
+        ],
+        "rating": "width:92.684%",
+        "product_reviews": "462",
+        "ingredients": "-Fermented Arnica Oil: Rich in potent antioxidant and soothing properties.-Silver Vine Extract: Brightens skin to promote a smooth complexion.-Talc-FreeMica, Cetearyl Ethylhexanoate, Hdi/Trimethylol Hexyllactone Crosspolymer,  Silica, Glycerin, Pseudozyma Epicola/Sunflower Seed Oil Ferment Extract Filtrate, Arnica  Montana Flower Extract**, Squalane, Actinidia Polygama Fruit Extract, Tocopherol,  Ascorbyl Palmitate, Tocopheryl Acetate, Ethylhexylglycerin, Gellen Gum, Caprylyl Glycol,  Synthetic Fluorphlogopite, Calcium Chloride, Butylene Glycol, Dicalcium Phosphate,  Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, 1,2-Hexanediol, Polysorbate 20,  Aqua (Water, Eau), Ci 77491 (Iron Oxides), Ci 77891 (Titanium Dioxide). **FermentedClean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "99K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Highlighter"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/power-sculpt-velvet-bronzer-powder-with-fermented-arnica-P500301",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 18:11:02",
+        "product_name": "Power Sculpt Velvet Bronzer with Fermented Arnica",
+        "brand_name": "HAUS LABS BY LADY GAGA",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.42 oz / 12 g",
+                "name": [
+                    "Color: Light Level 1 - fair to fair light, warm muted undertones"
+                ],
+                "price": [
+                    "$51.50"
+                ],
+                "sku": "Item 2572444"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.42 oz / 12 g",
+                "name": [
+                    "Color: Light Level 2 - fair to fair light, cool golden undertones"
+                ],
+                "price": [
+                    "$51.50"
+                ],
+                "sku": "Item 2572451"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.42 oz / 12 g",
+                "name": [
+                    "Color: Light Level 3 - fair to light, neutral undertones"
+                ],
+                "price": [
+                    "$51.50"
+                ],
+                "sku": "Item 2572469"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.42 oz / 12 g",
+                "name": [
+                    "Color: Light Level 4 - fair to light medium, neutral undertones - Gaga's go to"
+                ],
+                "price": [
+                    "$51.50"
+                ],
+                "sku": "Item 2572477"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.42 oz / 12 g",
+                "name": [
+                    "Color: Medium Level 5 - light medium to medium, warm rosy undertones"
+                ],
+                "price": [
+                    "$51.50"
+                ],
+                "sku": "Item 2572485"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.42 oz / 12 g",
+                "name": [
+                    "Color: Medium Level 6 - light medium to medium, cool golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$51.50"
+                ],
+                "sku": "Item 2572493"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.42 oz / 12 g",
+                "name": [
+                    "Color: Medium Level 7 - medium to medium deep, warm rosy undertones"
+                ],
+                "price": [
+                    "$51.50"
+                ],
+                "sku": "Item 2572501"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.42 oz / 12 g",
+                "name": [
+                    "Color: Medium Level 8 - medium to medium deep, cool golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$51.50"
+                ],
+                "sku": "Item 2572519"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.42 oz / 12 g",
+                "name": [
+                    "Color: Deep Level 9 - medium deep to deep, cool golden undertones"
+                ],
+                "price": [
+                    "$51.50"
+                ],
+                "sku": "Item 2572527"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.42 oz / 12 g",
+                "name": [
+                    "Color: Deep Level 10 - deep, neutral undertones"
+                ],
+                "price": [
+                    "$51.50"
+                ],
+                "sku": "Item 2572535"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.42 oz / 12 g",
+                "name": [
+                    "Color: Deep Level 11 - deep, warm rosy undertones"
+                ],
+                "price": [
+                    "$51.50"
+                ],
+                "sku": "Item 2572543"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.42 oz / 12 g",
+                "name": [
+                    "Color: Deep Level 12 - deep, neutral undertones"
+                ],
+                "price": [
+                    "$51.50"
+                ],
+                "sku": "Item 2572550"
+            }
+        ],
+        "rating": "width:92.97800000000001%",
+        "product_reviews": "393",
+        "ingredients": "-Fermented Arnica Oil: Rich in antioxidant and soothing properties.-Plant Squalane: Nourishes skin.-Talc-Free: Maintains moisture.Synthetic Fluorphlogopite, Calcium Sodium Borosilicate, Squalane, Neopentyl Glycol Dicaprylate/Dicaprate, Hydrogenated Polyisobutene, Mica, Caprylic/Capric Triglyceride, Sorbitan Isostearate, Sodium Hyaluronate, Pseudozyma Epicola/Sunflower Seed Oil Ferment Extract Filtrate, Arnica Montana Flower Extract**, Tocopherol, Ascorbyl Palmitate, Tocopheryl Acetate, Persea Gratissima (Avocado) Oil, Dimethicone, Hydrogenated Rapeseed Oil, Ethylhexylglycerin, Ethylhexyl Palmitate, Silica, Caprylyl Glycol, Trihydroxystearin, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Polysorbate 60, Hydrogenated Styrene/Isoprene Copolymer, Ethylene/Propylene/Styrene Copolymer, Butylene/Ethylene/Styrene Copolymer, Bht. May Contain/Peut Contenir: +/- Ci 77891 (Titanium Dioxide), Ci 77491/77492/77499 (Iron Oxides), Ci 77007 (Ultramarines), Ci 19140 (Yellow 5 Lake), Ci 15850 (Red 7 Lake). **Fermented Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "52.2K",
+        "categories": [
+            "Makeup",
+            "Cheek",
+            "Bronzer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/triclone-skin-tech-medium-coverage-foundation-with-fermented-arnica-P502185",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 18:11:23",
+        "product_name": "Triclone Skin Tech Medium Coverage Foundation with Fermented Arnica",
+        "brand_name": "HAUS LABS BY LADY GAGA",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 070 Fair Neutral - fair with neutral peach undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597458"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 060 Fair Warm - fair with warm rosy peach undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597466"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 050 Fair Cool - very fair with cool golden peach undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597474"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 040 Fair Neutral - very fair with neutral soft porcelain undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597482"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 030 Fair Cool - ultra fair porcelain with cool golden porcelain undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597490"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 015 Fair Warm - ultra fair porcelain with warm rosy undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597508"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 000 Fair Neutral - ultra fair with neutral white undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597516"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 480 Medium Deep Neutral - medium deep with neutral balanced undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597110"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 470 Medium Deep Cool - medium deep with cool golden olive undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597128"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 460 Medium Deep Warm - medium deep with warm rosy peach undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597136"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 450 Medium Deep Warm - medium deep with warm rosy peach undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597144"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 440 Medium Deep Cool - medium deep with cool golden olive undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597151"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 425 Medium Deep Neutral - medium deep with neutral soft peach undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597169"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 415 Medium Deep Cool - medium deep cool golden undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597177"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 400 Medium Deep Warm - medium deep with warm rosy undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597185"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 385 Medium Neutral - medium with neutral peach undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597193"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 370 Medium Neutral - medium with neutral peach undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597201"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 590 Deep Neutral - ultra deep with neutral balanced undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597011"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 580 Deep Neutral - very deep with neutral balanced undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597029"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 570 Deep Cool - deep with cool golden undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597037"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 560 Deep Neutral - deep with neutral peach undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597045"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 540 Deep Neutral - deep with neutral soft peach undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597052"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 530 Deep Neutral - deep with neutral balanced undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597060"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 520 Deep Cool - deep with cool golden undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597078"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 510 Deep Warm - deep with warm rosy undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597086"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 500 Deep Neutral - deep with neutral balanced undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597094"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 490 Medium Deep Cool - medium deep with cool golden undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597102"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 360 Medium Warm - medium with warm rosy peach undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597219"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 350 Medium Cool - medium with cool golden peach undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597227"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 340 Medium Cool - medium with cool golden undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597235"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 330 Medium Cool - medium with cool golden olive undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597243"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 325 Medium Warm - medium with warm rosy peach undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597250"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 310 Medium Warm - medium with warm soft rosy undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597268"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 300 Medium Neutral - medium with neutral balanced undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597276"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 280 Light Medium Neutral - light medium with neutral soft peach undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597284"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 270 Light Medium Neutral - light medium with neutral vibrant peach undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597292"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 260 Light Medium Cool - light medium with cool golden olive undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597300"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 250 Light Medium Neutral - light medium with neutral peach undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597318"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 240 Light Medium Warm - light medium with warm rosy peach undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597326"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 230 Light Medium Cool - light medium with cool golden peach undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597334"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 220 Light Medium Warm - light medium with warm rosy peach undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597342"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 210 Light Medium Neutral - light medium with neutral soft peach undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597359"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 200 Light Medium Neutral - light medium with neutral balanced undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597367"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 190 Light Cool - light with cool golden olive undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597375"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 175 Light Neutral - light with neutral peach undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597383"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 160 Light Neutral - light with neutral soft peach undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597391"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 145 Light Cool - light with cool golden peach undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597409"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 130 Light Warm - light with warm soft rosy undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597417"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 120 Light Warm - light with warm peach undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597425"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 110 Light Neutral - very light with neutral balanced undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597433"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: 100 Light Neutral - very light with neutral soft peach undertones"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597441"
+            }
+        ],
+        "rating": "width:83.93%",
+        "product_reviews": "1.6K",
+        "ingredients": "- Fermented Arnica: Helps visibly reduces redness and irritation.- Intellizen 7 Complex\u2122: Proprietary blend of medicinal herbs that promote healing and calming.- BioFerment 7 Complex\u2122: Proprietary blend of super antioxidants that protect the skin from stress.Aqua (Water, Eau), Diphenylsiloxy Phenyl Trimethicone, Phenyl Trimethicone, Caprylyl Methicone, Trimethylsiloxysilicate, Propylene Glycol Dibenzoate, Isododecane, Glycerin, Butylene Glycol, Methyl Trimethicone, Lauryl Polyglyceryl-3 Polydimethylsiloxyethyl Dimethicone, C13-15 Alkane, Polyglyceryl-3 Polydimethylsiloxyethyl Dimethicone, Alcohol Denat., Acrylates/Polytrimethylsiloxymethacrylate Copolymer, Polymethylsilsesquioxane, Sorbitan Sesquioleate, Disteardimonium Hectorite, 1,2-Hexanediol, Palmitoyl Tetrapeptide-10, Arnica Montana Flower Extract**, Hydrolyzed Hyaluronic Acid, Squalane, Pseudozyma Epicola/Camellia Sinensis Seed Oil Ferment Extract Filtrate, Pseudozyma Epicola/Apricot Kernel Oil/Olive Fruit Oil/Sweet Almond Oil/Sunflower Seed Oil/Licorice Root Extract Ferment Extract Filtrate, Pseudozyma Epicola/Apricot Kernel Oil/Olive Fruit Oil/Sunflower Seed Oil/Sweet Almond Oil/(Angelica Gigas/Lithospermum Erythrorhizon) Root, Solanum Lycopersicum (Tomato) Fruit Extract, Dunaliella Salina Extract, Hedychium Coronarium Root Extract, Tocopherol, Althaea Rosea Flower Extract, Taraxacum Officinale (Dandelion) Extract, Perilla Ocymoides Leaf Extract, Panax Notoginseng Extract, Glycyrrhiza Glabra (Licorice) Root Extract, Chamomilla Recutita (Matricaria) Extract, Centella Asiatica Extract, Pseudozyma Epicola/Sunflower Seed Oil Ferment Extract Filtrate, Caprylyl Glycol, Ethylhexylglycerin, Magnesium Sulfate, Polypropylsilsesquioxane, Acrylates/Dimethicone Copolymer, Triethoxycaprylylsilane, Dimethicone/Vinyl Dimethicone Crosspolymer, Aluminum Hydroxide, CI 77891 (Titanium Dioxide), CI 77491/77492/77499 (Iron Oxides).**Fermented.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "286.1K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Foundation"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/triclone-skin-tech-hydrating-concealer-with-fermented-arnica-P507110",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 18:12:13",
+        "product_name": "Triclone Skin Tech Hydrating Concealer with Fermented Arnica",
+        "brand_name": "HAUS LABS BY LADY GAGA",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 54 Deep Neutral - deep with balanced undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696698"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 53 Deep Neutral - deep with balanced undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696706"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 52 Deep Neutral - deep with balanced undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696714"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 51 Deep Neutral - deep with peach or orange undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696722"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 50 Deep Golden - deep with yellow or olive undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696730"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 44 Medium Deep Neutral - medium deep with balanced undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696748"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 43 Medium Deep Golden - medium deep with yellow or olive undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696755"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 42 Medium Deep Neutral - medium deep with neutral undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696763"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 41 Medium Deep Neutral - medium deep with balanced undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696771"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 40 Medium Deep Neutral - medium deep with golden undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696789"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 34 Medium Golden - medium with yellow or olive undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696797"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 33 Medium Rosy - medium with pink or red undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696805"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 32 Medium Golden - medium with yellow or olive undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696813"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 31 Medium Neutral - medium with neutral undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696821"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 30 Medium Peach - medium deep with peach or orange undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696839"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 24 Light Medium Neutral - light medium with balanced undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696847"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 23 Light Medium Golden - light medium deep with yellow or olive undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696854"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 22 Light Medium Peach - light medium with peach or orange undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696862"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 21 Light Medium Neutral - light medium with neutral undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696870"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 20 Light Medium Peach - light medium with peach or orange undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696888"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 14 Light Peach - light with peach or orange undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696896"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 13 Light Neutral - light with balanced undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696904"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 12 Light Rosy - light with pink or red undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696912"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 11 Light Neutral - light with balanced undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696920"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 10 Light Golden - light with yellow or olive undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696938"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 06 Fair Rosy - fair with pink or red undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696946"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 05 Fair Peach - fair with peach or orange undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696953"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 04 Fair Neutral - fair with balanced undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696961"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 03 Fair Rosy - fair with pink or red undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696979"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 02 Fair Golden - fair with yellow or olive undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696987"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.24 oz / 7 mL",
+                "name": [
+                    "Color: 01 Fair Neutral - fair with balanced undertones",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2696995"
+            }
+        ],
+        "rating": "width:100%",
+        "product_reviews": "2",
+        "ingredients": "-Niacinamide: Known to brighten and boost skin hydration.-Fermented Arnica: Reduces the look of redness and irritation.-Hyaluronic Acid Complex: Visibly plumps and hydrates.Aqua (Water, Eau), Glycerin, Diphenylsiloxy Phenyl Trimethicone, Trimethylsiloxysilicate, C13-15 Alkane, Caprylyl  Methicone, Lauryl Polyglyceryl-3 Polydimethylsiloxyethyl Dimethicone, Isododecane, Dimethicone, Methyl  Trimethicone, Polypropylsilsesquioxane, Phenyl Trimethicone, Disteardimonium Hectorite, Magnesium Sulfate,  Acrylates/Dimethicone Copolymer, Arnica Montana Flower Extract**, Niacinamide, Squalane, Hydrolyzed  Hyaluronic Acid, Coleus Forskohlii Root Extract, Sodium Hyaluronate, Hyaluronic Acid, Pseudozyma  Epicola/Camellia Sinensis Seed Oil Ferment Extract Filtrate, Pseudozyma Epicola/Apricot Kernel Oil/Olive Fruit  Oil/Sweet Almond Oil/Sunflower Seed Oil/Licorice Root Extract Ferment Extract Filtrate, Pseudozyma  Epicola/Apricot Kernel Oil/Olive Fruit Oil/Sunflower Seed Oil/Sweet Almond Oil/(Angelica Gigas/Lithospermum  Erythrorhizon) Root Extract Ferment Extract Filtrate, Solanum Lycopersicum (Tomato) Fruit Extract, Dunaliella  Salina Extract, Sodium Acetylated Hyaluronate, Sodium Hyaluronate Crosspolymer, Pseudanabaena Galeata  Extract, Hydrolyzed Sodium Hyaluronate, Tocopherol, Potassium Hyaluronate, Pseudozyma Epicola/Sunflower  Seed Oil Ferment Extract Filtrate, Betaine, Hydroxypropyltrimonium Hyaluronate, Caprylyl Glycol, Aloe Barbadensis  Leaf Extract, Sorbitan Sesquioleate, Polymethylsilsesquioxane, Polyglyceryl-3 Polydimethylsiloxyethyl Dimethicone,  Acrylates/Polytrimethylsiloxymethacrylate Copolymer, 1,2-Hexanediol, Ethylhexylglycerin, Dimethicone/Vinyl  Dimethicone Crosspolymer, Cetearyl Dimethicone/Vinyl Dimethicone Crosspolymer, Triethoxycaprylylsilane,  Xanthan Gum, Silica Silylate, Aluminum Hydroxide, Boron Nitride, CI 77491/77492/77499 (Iron Oxides), CI 77891  (Titanium Dioxide). **Fermented Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "5.1K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Concealer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/atomic-shake-lip-lacquer-P501271",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 18:12:46",
+        "product_name": "Atomic Shake Long Lasting Liquid Lipstick",
+        "brand_name": "HAUS LABS BY LADY GAGA",
+        "options": [
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.15 oz / 4.5 mL",
+                "name": [
+                    "Color: Rosewood Shine - rose mauve"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2596955"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.15 oz / 4.5 mL",
+                "name": [
+                    "Color: Sepia Shine - light brown peach"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2596963"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.15 oz / 4.5 mL",
+                "name": [
+                    "Color: Rose Shine - warm pink"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2596971"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.15 oz / 4.5 mL",
+                "name": [
+                    "Color: Red Coral Shine - orange pink red"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2596989"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.15 oz / 4.5 mL",
+                "name": [
+                    "Color: Cherry Shine - true red"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2596997"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.15 oz / 4.5 mL",
+                "name": [
+                    "Color: Ruby Shine - blue red - Gaga's go to"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2597003"
+            }
+        ],
+        "rating": "width:58.51%",
+        "product_reviews": "376",
+        "ingredients": "-Flexible Film Forming Polymers: Deliver a breathable, weightless feel.-Marine Algae Extract: Helps smooth and nourish lips to enhance natural lip volume.-Shine Boost: Provides paint-like shine and adherence.Isododecane, Diphenyl Dimethicone, Trioctyldodecyl Citrate, Polyurethane-1, Disiloxane, Di-C12-13 Alkyl Tartrate, Bis-Hydroxyethoxypropyl  Dimethicone/Ipdi Copolymer Ethylcarbamate, Alcohol, Dipentaerythrityl  Pentaisononanoate, Sodium Hyaluronate, Undaria Pinnatifida Extract, Ethylhexyl Palmitate, Caprylic/Capric Triglyceride, Glucomannan, Trihydroxystearin, Dicalcium Phosphate. May Contain/Peut Contenir: +/- Ci 77891  (Titanium Dioxide), Ci 77491/77492/77499 (Iron Oxides), Ci 15850 (Red 7 Lake), Ci 15850  (Red 6), Ci 45410 (Red 28 Lake), Ci 42090 (Blue 1 Lake), Ci 19140 (Yellow 5 Lake), Ci 15985  (Yellow 6 Lake).",
+        "n_loves": "51.2K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Liquid Lipstick"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/bio-blurring-talc-free-loose-setting-powder-P502321",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 18:13:04",
+        "product_name": "Bio-Blurring Talc-Free Loose Setting Powder",
+        "brand_name": "HAUS LABS BY LADY GAGA",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size .24 oz / 7 g",
+                "name": [
+                    "Color: Cocoa - rich brown with deep red undertones"
+                ],
+                "price": [
+                    "$51.50"
+                ],
+                "sku": "Item 2597524"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size .24 oz / 7 g",
+                "name": [
+                    "Color: Deep Honey - rich tan with warm undertones"
+                ],
+                "price": [
+                    "$51.50"
+                ],
+                "sku": "Item 2597532"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size .24 oz / 7 g",
+                "name": [
+                    "Color: Golden - banana with cool golden undertones"
+                ],
+                "price": [
+                    "$51.50"
+                ],
+                "sku": "Item 2597540"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size .24 oz / 7 g",
+                "name": [
+                    "Color: Neutral Peach - neutral beige with peach undertones"
+                ],
+                "price": [
+                    "$51.50"
+                ],
+                "sku": "Item 2597557"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size .24 oz / 7 g",
+                "name": [
+                    "Color: Translucent - neutral with balanced undertones"
+                ],
+                "price": [
+                    "$51.50"
+                ],
+                "sku": "Item 2597565"
+            }
+        ],
+        "rating": "width:88.134%",
+        "product_reviews": "541",
+        "ingredients": "-Fermented Arnica: Visibly reduces redness and irritation.-Plant Squalane: Protects and boosts hydration.-Tourmaline: Supports cellular energy.Mica, Squalane, Diphenyl Dimethicone/Vinyl Diphenyl Dimethicone/Silsesquioxane Crosspolymer, Methyl Methacrylate Crosspolymer, Synthetic Fluorphlogopite, Arnica Montana Flower Extract**, Pseudozyma Epicola/Sunflower Seed Oil Ferment Extract Filtrate, Tourmaline, Tocopherol, Pentaerythrityl Tetra-di-t-butyl Hydroxyhydrocinnamate, Caprylyl Glycol, Ethylhexylglycerin, Tocopheryl Acetate, Glycerin, Triethoxycaprylylsilane, C20-24 Olefin, Alumina. May Contain/Peut Contenir: (+/-) CI 77491/77492/77499 (Iron Oxides), CI 77891 (Titanium Dioxide), CI 19140 (Yellow 5 Lake).**Fermented.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "41.3K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Setting Spray & Powder"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/haus-labs-by-lady-gaga-color-fuse-blush-P504025",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 18:13:18",
+        "product_name": "Color Fuse Talc-Free Powder Blush with Fermented Arnica",
+        "brand_name": "HAUS LABS BY LADY GAGA",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "LIMITED EDITION",
+                "size": "Size 0.39 oz / 11 g",
+                "name": [
+                    "Color: Pomelo Peach - soft coral",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$51.50"
+                ],
+                "sku": "Item 2655223"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "LIMITED EDITION",
+                "size": "Size 0.39 oz / 11 g",
+                "name": [
+                    "Color: Acai Sky - berry purple",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$51.50"
+                ],
+                "sku": "Item 2655249"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "LIMITED EDITION",
+                "size": "Size 0.39 oz / 11 g",
+                "name": [
+                    "Color: Dragon Fruit Daze - cool pink",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$51.50"
+                ],
+                "sku": "Item 2655256"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "LIMITED EDITION",
+                "size": "Size 0.39 oz / 11 g",
+                "name": [
+                    "Color: Watermelon Bliss - universal red",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$51.50"
+                ],
+                "sku": "Item 2655264"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.39 oz / 11 g",
+                "name": [
+                    "Color: Lavender Blonde - light pink purple",
+                    "OUT OF STOCK",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2655272"
+            }
+        ],
+        "rating": "width:95.912%",
+        "product_reviews": "455",
+        "ingredients": "-Fermented Arnica: Helps reduce redness.-Hydraberry: Hydrates and refinforces skin barrier.-Vitamins C and E: Helps protect and condition skin.Lavender  Blonde (2655272)\nINGREDIENTS: Synthetic Fluorphlogopite, Mica, Silica, C30-45 Alkyl Dimethicone, Butyrospermum Parkii (Shea) Butter, Dimethicone, Sorbitan Isostearate, C20-24 Alkyl  Dimethicone, Squalane, Arnica Montana Flower Extract**, Tocopherol, Ascorbyl Palmitate,  Tocopheryl Acetate, Pseudozyma Epicola/Sunflower Seed Oil Ferment Extract Filtrate, Rubus  Idaeus (Raspberry) Leaf Extract, Caprylic/Capric Triglyceride, Caprylyl Glycol, Ethylhexylglycerin,  Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Kaolin, Glycerin, Lauroyl Lysine, C20- 24 Olefin, Zinc Stearate, Triethoxycaprylylsilane, Aluminum Hydroxide, Alumina, CI 77891  (Titanium Dioxide), CI 73360 (Red 30 Lake), CI 15850 (Red 7 Lake). \n**Fermented \nNot for use in eye area.\nHibiscus Haze (17136103)  INGREDIENTS: Synthetic Fluorphlogopite, Mica, Silica, C30-45 Alkyl Dimethicone, Butyrospermum Parkii (Shea) Butter, Dimethicone, Sorbitan Isostearate, C20-24 Alkyl Dimethicone, Arnica Montana Flower Extract**, Squalane, Tocopherol, Ascorbyl Palmitate, Tocopheryl Acetate, Pseudozyma Epicola/Sunflower Seed Oil Ferment Extract Filtrate, Rubus Idaeus (Raspberry) Leaf Extract, Caprylic/Capric Triglyceride, Glycerin, Caprylyl Glycol, Ethylhexylglycerin, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Lauroyl Lysine, C20-24 Olefin, Zinc Stearate, Triethoxycaprylylsilane, Aluminium Hydroxide, Alumina, CI 77891 (Titanium Dioxide), CI 77492/77499 (Iron Oxides), CI 15850 (Red 7 Lake), CI 19140 (Yellow 5 Lake).  **Fermented  Not for use in eye area.  Acai Sky (17136102)  INGREDIENTS: Synthetic Fluorphlogopite, Silica, C30-45 Alkyl Dimethicone, Butyrospermum Parkii (Shea) Butter, Aluminium Hydroxide, Squalane, Sorbitan Isostearate, Mica, C20-24 Alkyl Dimethicone, Arnica Montana Flower Extract**, Tocopherol, Ascorbyl Palmitate, Tocopheryl Acetate, Pseudozyma Epicola/Sunflower Seed Oil Ferment Extract Filtrate, Rubus Idaeus (Raspberry) Leaf Extract, Caprylic/Capric Triglyceride, Caprylyl Glycol, Ethylhexylglycerin, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, C20-24 Olefin, Zinc Stearate, Triethoxycaprylylsilane, Kaolin, CI 77491/77499 (Iron Oxides), CI 15850 (Red 7 Lake), CI 77007 (Ultramarines), CI 45410 (Red 28 Lake).  **Fermented  Not for use in eye or lip area.  Dragon Fruit Daze (17136101)  INGREDIENTS: Synthetic Fluorphlogopite, Silica, C30-45 Alkyl Dimethicone, Butyrospermum Parkii (Shea) Butter, Squalane, Sorbitan Isostearate, C20-24 Alkyl Dimethicone, Arnica Montana Flower Extract**, Tocopherol, Ascorbyl Palmitate, Tocopheryl Acetate, Pseudozyma Epicola/Sunflower Seed Oil Ferment Extract Filtrate, Rubus Idaeus (Raspberry) Leaf Extract, Glycerin, Caprylic/Capric Triglyceride, Caprylyl Glycol, Ethylhexylglycerin, Pentaerythrityl Tetra Di-T-Butyl Hydroxyhydrocinnamate, C20-24 Olefin, Mica, Zinc Stearate, Triethoxycaprylylsilane, Aluminium Hydroxide, Kaolin, Alumina, CI 77891 (Titanium Dioxide), CI 15850 (Red 7 Lake), CI 77007 (Ultramarines), CI 45410 (Red 28 Lake).  **Fermented  Not for use in eye or lip area.  Pomelo Peach (17136100)  INGREDIENTS: Synthetic Fluorphlogopite, Silica, C30-45 Alkyl Dimethicone, Butyrospermum Parkii (Shea) Butter, Squalane, Sorbitan Isostearate, C20-24 Alkyl Dimethicone, Arnica Montana Flower Extract**, Tocopherol, Ascorbyl Palmitate, Tocopheryl Acetate, Pseudozyma Epicola/Sunflower Seed Oil Ferment Extract Filtrate, Rubus Idaeus (Raspberry) Leaf Extract, Glycerin, Caprylic/Capric Triglyceride, Caprylyl Glycol, Ethylhexylglycerin, Pentaerythrityl Tetra Di-T-Butyl Hydroxyhydrocinnamate, C20-24 Olefin, Zinc Stearate, Triethoxycaprylylsilane, Aluminium Hydroxide, Alumina, CI 77891 (Titanium Dioxide), CI 15850 (Red 7 Lake), CI 77491/77492/77499 (Iron Oxides), CI 19140 (Yellow 5 Lake).  **Fermented  Not for use in eye area.  Watermelon w/n (17136099)  INGREDIENTS: Synthetic Fluorphlogopite, Silica, C30-45 Alkyl Dimethicone, Butyrospermum Parkii (Shea) Butter, Aluminium Hydroxide, Squalane, Sorbitan Isostearate, C20-24 Alkyl Dimethicone, Arnica Montana Flower Extract**, Tocopherol, Ascorbyl Palmitate, Tocopheryl Acetate, Pseudozyma Epicola/Sunflower Seed Oil Ferment Extract Filtrate, Rubus Idaeus (Raspberry) Leaf Extract, Caprylic/Capric Triglyceride, Caprylyl Glycol, Ethylhexylglycerin, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, C20-24 Olefin, Zinc Stearate, Triethoxycaprylylsilane, Mica, CI 15850 (Red 7 Lake), CI 19140 (Yellow 5 Lake), CI 15850 (Red 6). **Fermented  Not for use in eye area.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list):Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "103.8K",
+        "categories": [
+            "Makeup",
+            "Cheek",
+            "Blush"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/cruelty-free-concealer-brush-P507070",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 18:13:33",
+        "product_name": "Cruelty-Free Concealer Brush",
+        "brand_name": "HAUS LABS BY LADY GAGA",
+        "options": [],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "379",
+        "categories": [
+            "Makeup",
+            "Brushes & Applicators",
+            "Face Brushes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/optic-intensity-eco-gel-eyeliner-pencil-P500336",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 18:13:44",
+        "product_name": "Optic Intensity Eco Gel Eyeliner Pencil",
+        "brand_name": "HAUS LABS BY LADY GAGA",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.04 oz / 1.3 g",
+                "name": [
+                    "Color: Chartreuse Matte - acid green"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572709"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.04 oz / 1.3 g",
+                "name": [
+                    "Color: Teal Matte - teal",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572741"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.04 oz / 1.3 g",
+                "name": [
+                    "Color: Beige Matte - sandy nude"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572675"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.04 oz / 1.3 g",
+                "name": [
+                    "Color: Sienna Matte - burnt orange",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572774"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.04 oz / 1.3 g",
+                "name": [
+                    "Color: Deep Cocoa Matte - rich brown"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572683"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.04 oz / 1.3 g",
+                "name": [
+                    "Color: Brick Matte - crimson",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572782"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.04 oz / 1.3 g",
+                "name": [
+                    "Color: Black Onyx - carbon black free"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572691"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.04 oz / 1.3 g",
+                "name": [
+                    "Color: Cobalt Matte - cobalt blue"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572717"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.04 oz / 1.3 g",
+                "name": [
+                    "Color: Navy Matte - deep navy",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572725"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.04 oz / 1.3 g",
+                "name": [
+                    "Color: Sage Matte - sage"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572758"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.04 oz / 1.3 g",
+                "name": [
+                    "Color: White Onyx Matte - pure white - Gaga's go to"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572667"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.04 oz / 1.3 g",
+                "name": [
+                    "Color: Amethyst Matte - deep purple"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572733"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.04 oz / 1.3 g",
+                "name": [
+                    "Color: Charcoal Matte - dark grey",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572766"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.04 oz / 1.3 g",
+                "name": [
+                    "Color: Olive Shimmer - yellow green",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572808"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.04 oz / 1.3 g",
+                "name": [
+                    "Color: Deep Bronze Shimmer - deep bronze"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572790"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.04 oz / 1.3 g",
+                "name": [
+                    "Color: Onyx Gold Shimmer - bronzed gold carbon black free",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572816"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.04 oz / 1.3 g",
+                "name": [
+                    "Color: Magenta Shimmer - magenta",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572824"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.04 oz / 1.3 g",
+                "name": [
+                    "Color: Titanium Shimmer - silver"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572832"
+            }
+        ],
+        "rating": "width:69.91799999999999%",
+        "product_reviews": "123",
+        "ingredients": "-Vitamin E: Smooths, conditions, and protects.-Argan Oil: Nourishes skin and hair.-Kajal: Safe for waterlineIsododecane, Synthetic Wax, Trimethylsiloxysilicate, Dimethicone, Polybutene, Synthetic  Fluorphlogopite, Argania Spinosa Kernel Oil, Tocopherol, Caprylic/Capric Triglyceride, Polyglyceryl-4 Diisostearate/Polyhydroxystearate/Sebacate, Stearalkonium Hectorite, Talc,  Propylene Carbonate, Ci 77891 (Titanium Dioxide), Ci 19140 (Yellow 5 Lake), Ci 77510 (Ferric  Ammonium Ferrocyanide). Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "71.8K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyeliner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/the-edge-precision-eyebrow-pencil-P500295",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 18:14:08",
+        "product_name": "The Edge Precision Eyebrow Pencil",
+        "brand_name": "HAUS LABS BY LADY GAGA",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.0002 oz / 0.07 g",
+                "name": [
+                    "Color: Soft Blonde - Neutral Undertone | Recommended for Platinum-To-Light Blonde Hair"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2571982"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.0002 oz / 0.07 g",
+                "name": [
+                    "Color: Medium Blonde - Neutral Undertone | Recommended For Light-To-Medium Blonde + Light Brown Hair"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2571990"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.0002 oz / 0.07 g",
+                "name": [
+                    "Color: Taupe - Cool Undertone | Recommended For Medium-To-Dark Blonde Hair - Gaga's go to"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572006"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.0002 oz / 0.07 g",
+                "name": [
+                    "Color: Taupe Brown - Warm Neutral Undertone | Recommended For Dark Blonde + Light Brown Hair"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572030"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.0002 oz / 0.07 g",
+                "name": [
+                    "Color: Soft Brown - Warm-Neutral Undertone | Recommended For Light-To-Medium Brown + Gray Hair"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572048"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.0002 oz / 0.07 g",
+                "name": [
+                    "Color: Medium Brown - Neutral Undertone | Recommended For Medium Brown Hair"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572055"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.0002 oz / 0.07 g",
+                "name": [
+                    "Color: Dark Brown - Neutral Undertone | Recommended For Medium to Dark Brown + Black Hair"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572071"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.0002 oz / 0.07 g",
+                "name": [
+                    "Color: Granite Grey - Neutral Undertone | Recommended For Deep Brown, Black + Gray Hair",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572089"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.0002 oz / 0.07 g",
+                "name": [
+                    "Color: Brown Black - Warm Undertone | Recommended For Deep Brown + Soft Black Hair",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572097"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.0002 oz / 0.07 g",
+                "name": [
+                    "Color: Noir - Neutral Undertone | Recommended For Deep Brown + Black Hair"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572105"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.0002 oz / 0.07 g",
+                "name": [
+                    "Color: Auburn - Neutral Undertone | Recommended For Traditional Red Hair"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572022"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.0002 oz / 0.07 g",
+                "name": [
+                    "Color: Ash Brown - Cool Undertone | Recommended For Medium-To-Dark Brown Hair - Gaga's go to"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572063"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.0002 oz / 0.07 g",
+                "name": [
+                    "Color: Cinnamon - Warm Undertone | Recommended For Strawberry Blonde + Light Red Hair"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2572014"
+            }
+        ],
+        "rating": "width:81.142%",
+        "product_reviews": "35",
+        "ingredients": "-Micronized Pigments: Deliver creamy, even color release.-Vitamin E: Smooths, conditions, and protects.-Coco-Glycerides: Condition and nourish skin and brows.Polyglyceryl-2 Triisostearate, Polyethylene, Hydrogenated Vegetable Oil, Copernicia Cerifera Cera (Copernicia Cerifera (Carnauba) Wax, Cire de Carnauba), Hydrogenated Coco-Glycerides, Zinc Stearate, Caprylic/Capric Glycerides, Tocopheryl Acetate, Triethoxycaprylylsilane, Polybutene, Aluminum Hydroxide, Sorbitan Tristearate, CI 77491/77492/77499 (Iron Oxides), CI 77891 (Titanium Dioxide).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "10.3K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyebrow"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/hy-power-eye-cheek-lip-pigment-paint-P500298",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 18:14:28",
+        "product_name": "Hy-Power Eye, Cheek & Lip Pigment Paint",
+        "brand_name": "HAUS LABS BY LADY GAGA",
+        "options": [
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Charcoal Shimmer - metallic deep grey"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2572360"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Gold Shimmer - metallic gold"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2572378"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Magenta Shimmer - purple-pink *DO NOT USE ON EYES"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2572410"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Silver Shimmer - metallic silver"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2572352"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Copper Shimmer - metallic copper"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2572386"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Rose Gold Shimmer - metallic rose gold"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2572394"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Deep Amethyst Shimmer - blackened burgundy"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2572428"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Burgundy Shimmer - deep red-purple"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2572402"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Deep Teal Shimmer - blackened blue"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2572436"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Beige Matte - nude"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2572261"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Blush Matte - muted peach - Gaga's go to"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2572279"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Black Onyx Matte - carbon black free - Gaga's go to"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2572246"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Sapphire Matte - sapphire blue *DO NOT USE ON EYES",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2572345"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Citrine Matte - primary yellow",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2572311"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: White Onyx Matte - pure white"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2572253"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Cocoa Matte - brown"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2572287"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Flame Matte - orange *DO NOT USE ON EYES"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2572295"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Fuchsia Matte - fuchsia *DO NOT USE ON EYES"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2572329"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Scarlet Matte - primary red *DO NOT USE ON EYES"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2572303"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 g",
+                "name": [
+                    "Color: Mint Matte - mint green"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2572337"
+            }
+        ],
+        "rating": "width:86.4%",
+        "product_reviews": "375",
+        "ingredients": "-Plant Squalane: Protects and softens skin.-Hyaluronic Acid: Provides skin-loving hydration.-Maracula Extract: Nourishes, hydrates, cares for, and calms skin.Isododecane, Dicalcium Phosphate, Octyldodecanol, Silica, Hydrogenated Styrene/Isoprene Copolymer, Disteardimonium Hectorite, Trimethylsiloxysilicate, Passiflora Edulis Seed Oil, Squalane, Tocopheryl Acetate, Sodium Hyaluronate, Ethylhexyl Palmitate, Caprylyl Glycol, Butylene Glycol, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Hexylene Glycol, Silica Dimethyl Silylate, Phenoxyethanol. May Contain/Peut Contenir: (+/-) Ci 19140 (Yellow 5 Lake), Ci 77491/77492 (Iron Oxides), Ci 77891 (Titanium Dioxide), Ci 15985 (Yellow 6 Lake), Ci 15850 (Red 6), Ci 45410 (Red 28 Lake), Ci 15850 (Red 7 Lake), Ci 42090 (Blue 1 Lake), Ci 77510 (Ferric Ammonium Ferrocyanide).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "45.9K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyeshadow"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/cruelty-free-foundation-brush-P502426",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 18:14:54",
+        "product_name": "Cruelty-Free Foundation Brush",
+        "brand_name": "HAUS LABS BY LADY GAGA",
+        "options": [],
+        "rating": "width:74.4%",
+        "product_reviews": "25",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "6.9K",
+        "categories": [
+            "Makeup",
+            "Brushes & Applicators",
+            "Face Brushes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/phd-hybrid-lip-oil-P500283",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 18:15:04",
+        "product_name": "PhD Hybrid Lip Oil",
+        "brand_name": "HAUS LABS BY LADY GAGA",
+        "options": [
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 mL",
+                "name": [
+                    "Color: Tint - sheer pink"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2571966"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 mL",
+                "name": [
+                    "Color: Primary - sheer cherry"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2571941"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 mL",
+                "name": [
+                    "Color: Secondary - sheer orange - Gaga's go to"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2571974"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.25 oz / 7 mL",
+                "name": [
+                    "Color: Hue - Sheer berry",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2571933"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.25 oz / 7 mL",
+                "name": [
+                    "Color: Neutral - universal clear"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2571958"
+            },
+            {
+                "swatch_group": "High Shine finish - Mini size",
+                "flag_label": null,
+                "size": "Size 0.09 oz / 2.5 ml",
+                "name": [
+                    "Color: Tint - sheer pink"
+                ],
+                "price": [
+                    "$19.00"
+                ],
+                "sku": "Item 2684181"
+            },
+            {
+                "swatch_group": "High Shine finish - Mini size",
+                "flag_label": null,
+                "size": "Size 0.09 oz / 2.5 ml",
+                "name": [
+                    "Color: Neutral - universal clear"
+                ],
+                "price": [
+                    "$19.00"
+                ],
+                "sku": "Item 2684173"
+            }
+        ],
+        "rating": "width:85.958%",
+        "product_reviews": "799",
+        "ingredients": "-Vegan Collagen: Moisturizes and maintains suppleness.-Prickly Pear Oil: Provides barrier-boosting hydration.-Plant Squalane: Nourishes and softens the lips. Polybutene, Octyldodecanol, Diisopropyl Sebacate, Caprylic/Capric Triglyceride,Opuntia Ficus-Indica Seed Oil, Sr-Hydrozoan Polypeptide-1, Portulaca PilosaExtract, Palmitoyl Tripeptide-38, Squalane, Sucrose Cocoate, CetearylEthylhexanoate, Sorbitan Isostearate, Ethyl Vanillin, Aqua (Water, Eau), SebacicAcid, Phenoxyethanol, Potassium Sorbate. May Contain +/-: Ci 45410 (Red 27), Ci17200 (Red 33 Lake), Ci 15850 (Red 6), Ci 19140 (Yellow 5 Lake), Ci 45410 (Red 28 Lake), Ci 15985 (Yellow 6 Lake).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "139K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Lip Balms & Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/haus-labs-by-lady-gaga-mini-phd-lip-oils-P506279",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 18:15:21",
+        "product_name": "Mini PhD Lip Oil",
+        "brand_name": "HAUS LABS BY LADY GAGA",
+        "options": [
+            {
+                "swatch_group": "High Shine finish - Mini size",
+                "flag_label": null,
+                "size": "Size 0.09 oz / 2.5 ml",
+                "name": [
+                    "Color: Tint - sheer pink"
+                ],
+                "price": [
+                    "$19.00"
+                ],
+                "sku": "Item 2684181"
+            },
+            {
+                "swatch_group": "High Shine finish - Mini size",
+                "flag_label": null,
+                "size": "Size 0.09 oz / 2.5 ml",
+                "name": [
+                    "Color: Neutral - universal clear"
+                ],
+                "price": [
+                    "$19.00"
+                ],
+                "sku": "Item 2684173"
+            }
+        ],
+        "rating": "width:86.184%",
+        "product_reviews": "414",
+        "ingredients": "-Vegan Collagen: Moisturizes and maintains suppleness.-Prickly Pear Oil: Provides barrier-boosting hydration.-Plant Squalane: Nourishes and softens the lips.Polybutene, Octyldodecanol, Diisopropyl Sebacate, Caprylic/Capric Triglyceride, Opuntia Ficus-Indica Seed Oil, Sr-Hydrozoan Polypeptide-1*, Portulaca Pilosa Extract, Palmitoyl Tripeptide-38, Squalane, Sucrose Cocoate, Cetearyl Ethylhexanoate, Sorbitan Isostearate, Ethyl Vanillin, Aqua (Water, Eau), Sebacic Acid, Phenoxyethanol, Potassium Sorbate. May Contain +/-: Ci 45410 (Red 27), Ci 17200 (Red 33 Lake), Ci 15850 (Red 6), Ci 19140 (Yellow 5 Lake), Ci 45410 (Red 28 Lake), Ci 15985 (Yellow 6 Lake).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "30.2K",
+        "categories": [
+            "Mini Size",
+            "Makeup"
+        ]
+    }
+]

@@ -1,0 +1,325 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/foreo-luna-mini-3-P454821",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:20:25",
+        "product_name": "LUNA\u2122 Mini 3",
+        "brand_name": "FOREO",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Mint",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$269.00"
+                ],
+                "sku": "Item 2317840"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Midnight",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$269.00"
+                ],
+                "sku": "Item 2317873"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Fuchsia",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$269.00"
+                ],
+                "sku": "Item 2317857"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Sunflower Yellow",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$269.00"
+                ],
+                "sku": "Item 2317832"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Pearl Pink",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$269.00"
+                ],
+                "sku": "Item 2317865"
+            }
+        ],
+        "rating": "width:76.14%",
+        "product_reviews": "114",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "17.2K",
+        "categories": [
+            "Skincare",
+            "High Tech Tools",
+            "Facial Cleansing Brushes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/foreo-iris-tm-2-P503559",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:20:42",
+        "product_name": "IRIS\u2122 2",
+        "brand_name": "FOREO",
+        "options": [],
+        "rating": "width:60%",
+        "product_reviews": "1",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "281",
+        "categories": [
+            "Skincare",
+            "High Tech Tools",
+            "Facial Cleansing Brushes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/foreo-luna-tm-4-facial-cleansing-firming-massage-for-sensitive-skin-P502827",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:20:52",
+        "product_name": "LUNA\u2122 4 Facial Cleansing & Firming Massage for Sensitive Skin",
+        "brand_name": "FOREO",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$419.00"
+                ],
+                "sku": "Item 2604387"
+            }
+        ],
+        "rating": "width:96.25%",
+        "product_reviews": "16",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "2.4K",
+        "categories": [
+            "Skincare",
+            "High Tech Tools",
+            "Facial Cleansing Brushes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/iris-illuminating-eye-massager-P405827",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:21:07",
+        "product_name": "IRIS\u2122 Illuminating Eye Massager",
+        "brand_name": "FOREO",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Petal Pink",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$219.00"
+                ],
+                "sku": "Item 1782515"
+            }
+        ],
+        "rating": "width:70%",
+        "product_reviews": "60",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "10.6K",
+        "categories": [
+            "Skincare",
+            "Eye Care",
+            "Eye Creams & Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/foreo-luna-tm-4-facial-cleansing-firming-massage-for-combination-skin-P502831",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:21:21",
+        "product_name": "LUNA\u2122 4 Facial Cleansing & Firming Massage for Combination Skin",
+        "brand_name": "FOREO",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$419.00"
+                ],
+                "sku": "Item 2604403"
+            }
+        ],
+        "rating": "width:98.46199999999999%",
+        "product_reviews": "13",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "2K",
+        "categories": [
+            "Skincare",
+            "High Tech Tools",
+            "Facial Cleansing Brushes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/foreo-bear-facial-toning-device-P461935",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:21:33",
+        "product_name": "BEAR\u2122 Facial Toning Device",
+        "brand_name": "FOREO",
+        "options": [],
+        "rating": "width:88.522%",
+        "product_reviews": "230",
+        "ingredients": "Serum Serum Serum:Aqua/Water/Eau, Glycerin, Propanediol, Cyclopentasiloxane, Diglycerin, Xylitol, Pentylene Glycol, Butylene Glycol, PEG/PPG-17/6 Copolymer, Glyceryl Polymethacrylate, Glycereth-26, PEG/PPG-14/7 Dimethyl Ether,  Squalane, Hyaluronic Acid,  Sodium Hyaluronate, Sodium Hyaluronate Crosspolymer, Hydrolyzed Hyaluronic Acid,  Betaine, Octyldodeceth-16, Glyceryl Glucoside, Propylene Glycol, Caprylyl Glycol, Carbomer, Triethanolamine, Acacia Senegal Gum, Gelatin, Panthenol, Xanthan Gum, Trehalose, Urea, Ethylhexylglycerin, Adenosine, 1,2-Hexanediol, Sodium PCA, Serine, Glucose, Algin, Disodium Phosphate, Glyceryl Polyacrylate, Pullulan, Hydrolyzed Glycosaminoglycans, Potassium Phosphate, Red 4 (CI 14700), Benzyl Glycol, Raspberry Ketone.",
+        "n_loves": "13K",
+        "categories": [
+            "Skincare",
+            "High Tech Tools",
+            "Anti-Aging"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/foreo-luna-trade-play-plus-2-P474830",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:21:45",
+        "product_name": "LUNA\u2122 play plus 2",
+        "brand_name": "FOREO",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: I Lilac You!",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$99.00"
+                ],
+                "sku": "Item 2486421"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Minty Cool!",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$99.00"
+                ],
+                "sku": "Item 2486413"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Peach Of Cake!",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$99.00"
+                ],
+                "sku": "Item 2486405"
+            }
+        ],
+        "rating": "width:74.78200000000001%",
+        "product_reviews": "23",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "4.8K",
+        "categories": [
+            "Skincare",
+            "High Tech Tools",
+            "Anti-Aging"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/foreo-luna-tm-4-facial-cleansing-firming-massage-for-balanced-skin-P502818",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:21:59",
+        "product_name": "LUNA\u2122 4 Facial Cleansing & Firming Massage for Balanced Skin",
+        "brand_name": "FOREO",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$419.00"
+                ],
+                "sku": "Item 2604395"
+            }
+        ],
+        "rating": "width:97.648%",
+        "product_reviews": "17",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "1.2K",
+        "categories": [
+            "Skincare",
+            "High Tech Tools",
+            "Facial Cleansing Brushes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/foreo-luna-tm-4-go-facial-cleansing-massaging-device-P503078",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 16:22:12",
+        "product_name": "LUNA\u2122 4 go Facial Cleansing & Massaging Device",
+        "brand_name": "FOREO",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [],
+                "price": [
+                    "$195.00"
+                ],
+                "sku": "Item 2620193"
+            }
+        ],
+        "rating": "width:100%",
+        "product_reviews": "1",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "556",
+        "categories": [
+            "Skincare",
+            "High Tech Tools",
+            "Facial Cleansing Brushes"
+        ]
+    }
+]

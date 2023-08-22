@@ -1,0 +1,504 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/the-foundation-stick-P505428",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 09:12:31",
+        "product_name": "The Foundation Stick for Hydrating, Buildable Coverage and Natural Finish",
+        "brand_name": "BASMA",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 23 - medium skin with cool undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681245"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 24 - medium skin with neutral undertones",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681237"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 25 - medium skin with warm peach undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681229"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 26 - medium skin with warm undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681211"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 27 - medium skin with neutral yellow undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681203"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 28 - medium skin with warm undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681195"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 29 - medium skin with neutral undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681187"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 30 - medium skin with cool undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681179"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 31 - light skin with warm undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681161"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 32 - light skin with warm yellow undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681153"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 11 - tan skin with warm undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681369"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 33 - light skin with cool undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681146"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 12 - tan skin with cool peach undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681351"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 34 - light skin with warm peach undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681138"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 13 - tan skin with warm undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681344"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 35 - light skin with neutral olive undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681120"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 14 - tan skin with neutral undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681336"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 36 - light skin with warm undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681112"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 15 - tan skin with warm neutral undertones",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681328"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 37 - light skin with warm yellow undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681104"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 16 - tan skin with cool undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681310"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 38 - light skin with warm neutral undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681096"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 17 - tan skin with warm golden undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681302"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 39 - light skin with cool pink undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681088"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 18 - tan skin with cool peach undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681294"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 40 - light skin with neutral undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681070"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 19 - tan skin with warm undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681286"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 20 - tan skin with warm golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681278"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 1 - deep skin with neutral undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681468"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 2 - deep skin with cool undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681450"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 3 - deep skin with cool neutral undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681443"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 4 - deep skin with cool red undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681435"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 5 - deep skin with neutral undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681427"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 6 - deep skin with cool red undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681419"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 7 - deep skin with warm golden undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681401"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 8 - deep skin with warm undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681393"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 9 - deep skin with warm golden undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681385"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 10 - deep skin with very warm undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681377"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 21 - medium skin with warm olive undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681260"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz / 6.3 g",
+                "name": [
+                    "Color: 22 - medium skin with neutral peach undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2681252"
+            }
+        ],
+        "rating": "width:90.988%",
+        "product_reviews": "233",
+        "ingredients": "-Aloe Vera Extract: Supports collagen production and visibly improves elasticity.-Vitamin E: An antioxidant that facilitates skin hydration.-Apricot Butter: Helps nourish, revitalize, and soften skin.Phenyl Trimethicone, Octyldodecanol, Octyldodecyl Myristate, Caprylic/Capric Triglyceride, Copernicia Cerifera (Carnauba) Wax, Polyethylene, Methyl Methacrylate Crosspolymer, Microcrystalline Wax, Prunus Armeniaca (Apricot) Kernel Oil, Triethoxycaprylylsilane, Phenoxyethanol, Caprylyl Glycol, Hydrogenated Vegetable Oil, Aloe Barbadensis Leaf Extract, Retinyl Palmitate, Tocopheryl Acetate, Sorbic Acid(+/-) Iron Oxides (CI 77492, CI 77491, CI 77499), Mica (CI 77019), Titanium Dioxide (CI 77891).",
+        "n_loves": "31.1K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Foundation"
+        ]
+    }
+]
