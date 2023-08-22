@@ -113,15 +113,34 @@ def split_product_multiplier(input_string):
     return input_string
 
 
+def split_sale_and_full_price(price):
+    n_prices = len(price)
+    if n_prices==1:
+        full_price = price[0]
+        return [full_price, full_price]
+    if n_prices==0:
+        return ["",""]
+    if n_prices==2:
+        return price
+
 
 def main():
 
     df_products = read_data("../data/products/*")
 
     df_products = df_products[df_products['product_name'].notnull()]
+
+    df_products = df_products[df_products['error']!='Product not available']
+
     df_products = df_products.reset_index(drop=True).reset_index().rename(columns={'index':'internal_product_id'})
 
     df_products = expand_product_options(df_products)
+
+    df_products['price'] = df_products['price'].fillna("")
+
+    df_products['price'] = df_products['price'].apply(split_sale_and_full_price)
+    df_products['current_price'], df_products['full_price'] = df_products['price'].str
+    df_products = df_products.drop(['price','scrape_date'], axis=1)
 
     # string col to lower removed 'product_name', and brand_nme
     cols_to_lower = ['swatch_group', 'size', 'name']
@@ -138,13 +157,13 @@ def main():
 
     df_products['sku'] = df_products['sku'].str.replace("Item ","")
 
-    # this will change in V2 of scraped data
-    df_products['out_of_stock'] = df_products['name'].str.contains('out of stock')
-    df_products['limited_edition'] = df_products['name'].str.contains('limited edition')
-    df_products['new_product'] = df_products['name'].str.contains('new')
-    df_products['few_left'] = df_products['name'].str.contains('only a few left')
-    df_products['sale'] = df_products['name'].str.contains('sale')
-    df_products['refill'] = df_products['name'].str.contains('refill')
+    # # this will change in V2 of scraped data
+    # df_products['out_of_stock'] = df_products['name'].str.contains('out of stock')
+    # df_products['limited_edition'] = df_products['name'].str.contains('limited edition')
+    # df_products['new_product'] = df_products['name'].str.contains('new')
+    # df_products['few_left'] = df_products['name'].str.contains('only a few left')
+    # df_products['sale'] = df_products['name'].str.contains('sale')
+    # df_products['refill'] = df_products['name'].str.contains('refill')
 
     # categories from bread crumbs, starts with list of 3 categorical values
     # fill value is '   ', list of 3 empty spaces

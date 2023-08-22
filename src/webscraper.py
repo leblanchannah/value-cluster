@@ -243,7 +243,7 @@ def get_product_page(product_url):
         driver.quit()
         product["error"] = e
         return product
-    if h1=='Sorry, this product is not available.' or h1=='Sorry! The page you’re looking for cannot be found.':
+    if h1=='Sorry, this product is not available.' or h1=='Sorry! The page you’re looking for cannot be found.' or h1=="Search Results":
         product['error'] = "Product not available"  
     else:
         product["product_name"] = get_product_name(soup)
@@ -376,22 +376,22 @@ def main():
 
     with open('../data/brand_product_links.json', 'r') as f:
         data = json.load(f)
-    
+    offset = 110
     for i, brand in enumerate(data):
-        print(f"Brand # {i+1}")
-        print(brand['name'])
-        brand_products = []
-        total_products = len(brand['products'])
-        for j, url in enumerate(brand['products'].values()):
-            print(f"Product # {j+1} / {total_products}")
-            product_data = get_product_page(url)
-            brand_products.append(product_data)
-        fname = '../data/products_format_v2/'+brand["name"].replace("/","")+".json"
-        print("Saving ", fname)
-        with open(fname, "w") as outfile:
-            outfile.write(json.dumps(brand_products, indent=4))
-        print("--- %s seconds ---" % (time.time() - start_time))
-        break
+        if i > offset:
+            print(f"Brand # {i+1}")
+            print(brand['name'])
+            brand_products = []
+            total_products = len(brand['products'])
+            for j, url in enumerate(brand['products'].values()):
+                print(f"Product # {j+1} / {total_products}")
+                product_data = get_product_page(url)
+                brand_products.append(product_data)
+            fname = '../data/products_format_v2/'+brand["name"].replace("/","")+".json"
+            print("Saving ", fname)
+            with open(fname, "w") as outfile:
+                outfile.write(json.dumps(brand_products, indent=4))
+            print("--- %s seconds ---" % (time.time() - start_time))
 
 
 if __name__ == "__main__":
