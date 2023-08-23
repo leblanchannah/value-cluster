@@ -1,0 +1,226 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/hair-shampoo-bar-P500698",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:27:28",
+        "product_name": "Hair Shampoo Bar",
+        "brand_name": "Viori",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2.8 oz / 80 g Hua: Lavender and Plumeria"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2593978"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 2.8 oz / 80 g Native Essence: Unscented",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2654689"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 2.8 oz / 80 g Terrace Garden: Lilac, Rose, Jasmine",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2654671"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 2.8 oz / 80 g Citrus Yao: Mandarin, Grapefruit, Lemon",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2654655"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2.8 oz / 80 g Hidden Waterfall: Sandalwood, Amber, Jasmine"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2654663"
+            }
+        ],
+        "rating": "width:90.65200000000002%",
+        "product_reviews": "92",
+        "ingredients": "-Longsheng Rice Water: Nourishes and repairs.-Cocoa Butter: Conditions, softens, and moisturizes.-Hydrolyzed Rice Protein: Increases volume, shine, and strength.Sodium Cocoyl Isethionate, Cetyl Alcohol, Behentrimonium Methosulfate, Coconut Acid, Oryza Sativa (Longsheng Rice) Water, Theobroma Cacao Seed Butter, Stearic Acid, Sodium Isethionate, Water/Aqua/Eau, Sodium Lactate, Butyrospermum Parkii Butter, Lavandula Angustifolia Oil, Fragrance/Parfum,Rosa Canina Fruit Oil, Simmondsia Chinensis Seed Wax, Bambusa Arundinacea Stem Extract, Brassica Oleracea Italica Seed Oil, Calcium Pantothenate, Inositol, Oryza Sativa Bran Oil, Hydrolyzed Vegetable Protein, Aloe Barbadensis Leaf Juice, Tocopheryl Acetate, Oryza Sativa Flour, Lactobacillus/Radish Root Ferment Filtrate.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list):Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "10.7K",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Shampoo"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/hair-shampoo-conditioner-bar-with-bamboo-holder-value-set-P500691",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:27:47",
+        "product_name": "Hair Shampoo & Conditioner Bar with Bamboo Holder Set",
+        "brand_name": "Viori",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Type: Native Essence"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2593929"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Type: Citrus Yao"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2593895"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Type: Hidden Waterfall"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2593903"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Type: Terrace Garden"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2593911"
+            }
+        ],
+        "rating": "width:92.70400000000001%",
+        "product_reviews": "1.1K",
+        "ingredients": "-Longsheng Rice Water: Nourishes and repairs.-Cocoa Butter: Conditions, softens, and moisturizes.-Hydrolyzed Rice Protein: Increases volume, shine, and strength.Shampoo Bar:Sodium Cocoyl Isethionate, Cetyl Alcohol, Behentrimonium Methosulfate, Coconut Acid, Oryza Sativa (Longsheng Rice) Water, Theobroma Cacao Seed Butter, Stearic Acid, Sodium Isethionate, Water/Aqua/Eau, Sodium Lactate, Butyrospermum Parkii Butter, Simmondsia Chinensis Seed Wax, Bambusa Arundinacea Stem Extract, Brassica Oleracea Italica Seed Oil, Calcium Pantothenate, Inositol, Oryza Sativa Bran Oil, Hydrolyzed Vegetable Protein, Aloe Barbadensis Leaf Juice, Tocopheryl Acetate, Oryza Sativa Flour, Lactobacillus/Radish Root Ferment Filtrate, Citrus Aurantifolia Peel Oil, Citrus Aurantium Dulcis Peel Oil, Citrus Limon Peel Oil, Citrus Paradisi Peel Oil, Fragrance/Parfum, Citrus Aurantium Bergamia Peel Oil.Conditioner Bar: Cetyl Alcohol, Behentrimonium Methosulfate, Theobroma Cacao Seed Butter, Butyrospermum Parkii Butter, Oryza Sativa (Longsheng Rice) Water, Stearic Acid, Bambusa Arundinacea Stem Extract, Brassica Oleracea Italica Seed Oil, Calcium Pantothenate, Inositol, Oryza Sativa Bran Oil, Water/Aqua/Eau, Hydrolyzed Vegetable Protein, Aloe Barbadensis Leaf Juice, Tocopheryl Acetate, Simmondsia Chinensis Seed Wax, Oryza Sativa Flour, Lactobacillus/Radish Root Ferment Filtrate, Citrus Aurantium Bergamia Peel Oil, Citrus Aurantifolia Peel Oil, Citrus Aurantium Dulcis Peel Oil, Citrus Limon Peel Oil, Citrus Paradisi Peel Oil, Fragrance/Parfum.Clean at Sephora products are formulated without:Acrylates (Ethyl acrylate, Ethyl methacrylate, Butyl methacrylate, Methyl methacrylate, Tetrahydrofurfuryl methacrylate, Trimethylolpropane trimethacrylate), Aluminum Salts (Aluminum chloride, Aluminum chlorohydrate, Aluminum chlorohydrex, Aluminum dichlorohydrate, Aluminum sesquichlorohydrate, Aluminum zirconium octachlorohydrate, Aluminum zirconium octachlorohydrex gly, Aluminum zirconium pentachlorohydrate, Aluminum zirconium pentachlorohydrex gly, Aluminum zirconium tetrachlorohydrate, Aluminum zirconium tetrachlorohydrex gly, Aluminum zirconium trichlorohydrate, Aluminum zirconium trichlorohydrex gly tot), Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT), Carbon black or Black 2, Coal Tar (Coal tar, Naptha multiple, High solvent naphtha, Naphtha distillate, Tar), Ethanolamines (Diethanolamine (DEA), Ethanolamine (ETA), Monoethanolamine (MEA), Triethanolamine (TEA)), Formaldehyde and Formaldehyde Releasing Agents (2-bromo-2-nitropropane-1, 3-diol, 5-bromo-5-nitro1, 3-dioxane, Benzylhemiformal, Diazolidinyl urea, Dmdm hydantoin, Formaldehyde, Imidazolidinyl urea, Methenamine, Quaternium-15, Sodium hydroxymethylglycinate), Hydroquinone (2-Acetylhydroquinone, Di-t-Butylhydroquinone, Diamylhydroquinone, Hydroquinone, Hydroquinone Safflowerates), Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil (Mineral Oi, Hydrogenated Mineral Oil), Nanomaterials (Methylene bis-benzotriazolyl, tetramethylbutylphenol, Titanium Dioxide, Tris-biphenyl triazine, Zinc Oxide), Oxybenzone, Parabens, Petrolatum and Parrafin, Pehnoxyethanol, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styerene (Bromostyrene, Dea-styrene/acrylates/dvb copolymer, Sodium styrene/divinylbenzene copolymer, Styrene, Styrene oxide), Sulfates (Sodium Lauryl Sulfate (SLS), Sodium Laureth Sulfate (SLES)), Talc, Toluene (2,6-Dihydroxyethylaminotoluene, 4-Amino-2-Hydroxytoluene, 4-Amino-2-Hydroxytoluene Sulfate, 4-Methoxytoluene-2,5-Diamine HCl, Methylstyrene/Vinyltoluene Copolymer, N,N-Diethyltoluene-2,5-Diamine HCl, Potassium Toluenesulfonate, Sodium Toluenesulfonate, Toluene, Toluene Sulfonic Acid, Toluene-2,5-Diamine, Toluene-2,5-Diamine Sulfate, Toluene-2,6-Diamine, Toluene-3,4-Diamine), Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, Bisphenol A (BPA), Ethylenediaminetetraacetic acid (EDTA), Methylene chloride, Polytetrafluoroethylene (PTFE), Perfluorooctanoic acid (PFOA)), 1, 4, Diocane, Octinoxate (Octinoxate, Octyl methoxycinnamate, Ethylhexyl methoxycinnamate), PFAS compounds (PFASs or PFCs, \"perfluor\" or \"polyfluor\" in the ingredient name (e.g. Perfluorooctanoic Acid (PFOA), polytetrafluorothylene (PTFE)), Nitromusks and Polycyclic Musks (Musk ketone, Hexamethylindanopyran, Acetyl Hexamethyl Tetralin, Acetyl Hexamethyl Indan, Dihydro Pentamethylindanone).",
+        "n_loves": "38.6K",
+        "categories": [
+            "Hair",
+            "Value & Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/hair-conditioner-bar-P500707",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:28:07",
+        "product_name": "Hair Conditioner Bar",
+        "brand_name": "Viori",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2.53 oz / 80 g Hua Bliss: Lavender and Plumeria"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2593986"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2.53 oz / 80 g Citrus Yao: Mandarin, Grapefruit, Lemon"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2654697"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2.53 oz / 80 g Hidden Waterfall: Sandalwood, Amber, Jasmine"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2654705"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2.53 oz / 80 g Terrace Garden: Lilac, Rose, Jasmine"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2654713"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2.53 oz / 80 g Native Essence: Unscented"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2654721"
+            }
+        ],
+        "rating": "width:86.66600000000001%",
+        "product_reviews": "42",
+        "ingredients": "-Longsheng Rice Water: Nourishes and repairs.-Cocoa Butter: Conditions, softens, and moisturizes.-Hydrolyzed Rice Protein: Increases volume, shine, and strength.Cetyl Alcohol, Behentrimonium Methosulfate, Theobroma Cacao Seed Butter, Butyrospermum Parkii Butter, Oryza Sativa (Longsheng Rice) Water, Stearic Acid, Bambusa Arundinacea Stem Extract, Brassica Oleracea Italica Seed Oil, Calcium Pantothenate, Inositol, Oryza Sativa Bran Oil, Water/Aqua/Eau, Lavandula Angustifolia Oil, Fragrance/Parfum, Rosa Canina Fruit Oil, Hydrolyzed Vegetable Protein, Aloe Barbadensis Leaf Juice, Tocopheryl Acetate, Simmondsia Chinensis Seed Wax, Oryza Sativa Flour, Lactobacillus/Radish Root Ferment Filtrate.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list):Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "3.5K",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Conditioner"
+        ]
+    }
+]

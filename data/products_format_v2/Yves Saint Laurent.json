@@ -1,0 +1,3996 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/mon-paris-eau-de-parfum-P410181",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:05:10",
+        "product_name": "Mon Paris Eau de Parfum",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.04 oz/ 90 mL"
+                ],
+                "price": [
+                    "$193.00"
+                ],
+                "sku": "Item 1838879"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.6 oz/ 47 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$142.00"
+                ],
+                "sku": "Item 1838861"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.34 oz/ 10 mL"
+                ],
+                "price": [
+                    "$43.00"
+                ],
+                "sku": "Item 1928548"
+            }
+        ],
+        "rating": "width:91.674%",
+        "product_reviews": "1.1K",
+        "ingredients": "Alcohol, Parfum / Fragrance, Aqua / Water, Benzyl Salicylate, Linalool, Benzyl Alcohol, Hydroxycitronellal, Ethylhexyl Methoxycinnamate, Limonene, Hexyl Cinnamal, Geraniol, Citronellol, Butyl Methoxydibenzoylmethane, Ethylhexyl Salicylate, Eugenol, Citral, Tris (Tetramethylhydroxypiperidinol) Citrate, Benzyl Benzoate, Farnesol, Bht, Ci 17200 / Red 33, Ci 60730 / Ext. Violet 2.",
+        "n_loves": "95.2K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/yves-saint-laurent-lash-clash-extreme-volume-mascara-P479863",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:05:23",
+        "product_name": "Lash Clash Extreme Volume Mascara",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size .3 oz/ 9 mL",
+                "name": [
+                    "Color: Noir - deep black"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2510196"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size .3 oz / 9 mL",
+                "name": [
+                    "Color: Uninhibited Brown - deep rich brown"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2638336"
+            }
+        ],
+        "rating": "width:84.84%",
+        "product_reviews": "2.4K",
+        "ingredients": "Water/Aqua, Acrylates/Ethylhexyl Acrylate Copolymer, Alcohol Denat., Glyceryl Stearate, Glycerin, Dimethicone, Glyceryl Stearate Se, Vp/Eicosene Copolymer, Copernicia Cerifera (Carnauba) Wax/Copernicia Cerifera Cera, Stearic Acid, Butyrospermum Parkii (Shea) Butter, Ricinus Communis (Castor) Seed Oil, Butylene Glycol, Camellia Japonica Flower Extract, Disodium Edta, Ethylhexylglycerin, Laureth-21, Methylglucamine, Myristic Acid, Palmitic Acid, Panthenol, Pvp, Tocopherol, Tromethamine, Xanthan Gum, Phenoxyethanol, Iron Oxides (Ci 77499), Ultramarines (Ci 77007).",
+        "n_loves": "55.1K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Mascara"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/yves-saint-laurent-libre-eau-de-toilette-P470066",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:05:36",
+        "product_name": "Libre Eau de Toilette",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL"
+                ],
+                "price": [
+                    "$130.00"
+                ],
+                "sku": "Item 2410603"
+            }
+        ],
+        "rating": "width:95.738%",
+        "product_reviews": "718",
+        "ingredients": "Alcohol, Parfum/Fragrance, Aqua/Water/Eau, Linalool, Limonene, Butyl Methoxydibenzoylmethane, Coumarin, Methyl Anthranilate, Benzyl Alcohol, Hydroxycitronellal, Citronellol, Benzyl Salicylate, Citral, Geraniol, Cinnamyl Alcohol, Tris (Tetramethylhydroxypiperidinol) Citrate, Isoeugenol, Farnesol, Ci 14700/Red 4, Ci 19140/Yellow 5, Ci 60730/Ext. Violet 2.",
+        "n_loves": "21.4K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/black-opium-le-parfum-P504062",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:05:47",
+        "product_name": "Black Opium Le Parfum",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3 oz / 90 mL Perfume Spray"
+                ],
+                "price": [
+                    "$195.00"
+                ],
+                "sku": "Item 2639631"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz / 50 mL Perfume Spray"
+                ],
+                "price": [
+                    "$150.00"
+                ],
+                "sku": "Item 2639623"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 1.0 oz / 30 ml eau de parfum",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$95.00"
+                ],
+                "sku": "Item 2639615"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.34 oz / 10 mL Perfume Spray"
+                ],
+                "price": [
+                    "$43.00"
+                ],
+                "sku": "Item 2639607"
+            }
+        ],
+        "rating": "width:91.51%",
+        "product_reviews": "1.1K",
+        "ingredients": "Alcohol, Parfum/Fragrance, Aqua/Water/Eau, Benzyl Salicylate, Benzyl Alcohol, Linalool, Butyl Methoxydibenzoylmethane, Hydroxycitronellal, Hexyl Cinnamal, Limonene, Coumarin, Anise Alcohol, Geraniol, Citronellol, Cinnamyl Alcohol, Amyl Cinnamal, Citral, Cinnamal.",
+        "n_loves": "16.1K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/libre-perfume-gift-set-P503242",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 22:06:01"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/yves-saint-laurent-tatouage-couture-velvet-cream-liquid-lipstick-P457250",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:06:10",
+        "product_name": "Tatouage Couture Velvet Cream Matte Liquid Lipstick",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.2 oz/ 6 ml",
+                "name": [
+                    "Color: N201 Rouge Tatouage - bright red",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2352243"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.2 oz/ 6 ml",
+                "name": [
+                    "Color: N204 Beige Underground - beige nude"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2352276"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.2 oz/ 6 ml",
+                "name": [
+                    "Color: N211 Chili Incitement - deep chili red",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2352342"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.2 oz/ 6 ml",
+                "name": [
+                    "Color: N212 Rouge Rebel - red bean",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2352359"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.2 oz/ 6 ml",
+                "name": [
+                    "Color: N216 Nude Emblem - rosewood nude"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2352300"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: 220 Pink Game - pink"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2656999"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: 221 Control Blush - coral"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2657005"
+            }
+        ],
+        "rating": "width:81.196%",
+        "product_reviews": "234",
+        "ingredients": "Dimethicone, Bis-Diglyceryl Polyacyladipate-2, Diisostearyl Malate, Hydrogenated Polyisobutene, Dimethicone/Vinyl Dimethicone Crosspolymer, Phenyl Trimethicone, Talc, Hdi/Trimethylol Hexyllactone Crosspolymer, Dimethicone Crosspolymer, Vinyl Dimethicone/Methicone Silsesquioxane Crosspolymer, Isostearyl Isostearate, Ci 77891 / Titanium Dioxide, Mica, Polyethylene, Ci 77491, Ci 77492, Ci 77499 / Iron Oxides, Nylon-12, Pentylene Glycol, Polymethylsilsesquioxane, Caprylyl Glycol, Ethylhexylglycerin, Ci 15850 / Red 7, Silica, Aluminum Hydroxide, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Benzyl Alcohol, Tocopherol, Anise Alcohol, Parfum / Fragrance. ",
+        "n_loves": "71.8K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Liquid Lipstick"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/libre-le-parfum-travel-spray-P501794",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 22:06:25"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/yves-saint-laurent-nu-glow-in-balm-hydrating-face-primer-P474601",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:06:35",
+        "product_name": "NU GLOW IN BALM Face Priming Moisturizer with Shea Butter",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.35 oz/40 mL"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2489516"
+            }
+        ],
+        "rating": "width:91.24000000000001%",
+        "product_reviews": "242",
+        "ingredients": "-Shea Butter: Known to help to soften and soothe skin.-Glycerin: Known to help trap moisture and hydrate skin.-Rosat: Known to help illuminate skin.Aqua/Water/Eau, Glycerin, Dicaprylyl Ether, Caprylic/Capric Triglyceride, Pentylene Glycol, Jojoba Esters, Propanediol, Cetyl Esters, Coco-Caprylate/Caprate, Polyglyceryl-6 Distearate, Butyrospermum Parkii Butter/Shea Butter, Behenyl Alcohol, Pelargonium Graveolens Extract, Acacia Decurrens Flower Cera/Acacia Decurrens Flower Wax, Glycine Soja Oil/Soybean Oil, Zingiber Officinale Root Extract/Ginger Root Extract, Sanguisorba Officinalis Root Extract, Helianthus Annuus Seed Cera/Sunflower Seed Wax, Helianthus Annuus Seed Oil/Sunflower Seed Oil, Haematococcus Pluvialis Extract, Cinnamomum Cassia Bark Extract, Tin Oxide,Sorbitan Oleate, Isohexadecane, Sodium Hyaluronate, Sodium Stearoyl Glutamate,Silica Silylate, Hydrolyzed Opuntia Ficus-Indica Flower Extract, Hydroxypropyl StarchPhosphate, Capryloyl Salicylic Acid, Citric Acid, Trisodium Ethylenediamine Disuccinate,Synthetic Fluorphlogopite, Ethylhexylglycerin, Polyglycerin-3, Polyglyceryl-3 Beeswax,Polysorbate 80, Acrylamide/Sodium Acryloyldimethyltaurate Copolymer, Cetyl Alcohol,Butylene Glycol, Tocopherol, Phenoxyethanol, Ci 77491/Iron Oxides, Ci 77891/Titanium Dioxide, Parfum/Fragrance., (F.I.L B272639/1).",
+        "n_loves": "15.3K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Face Primer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/yves-saint-laurent-mon-paris-intensement-eau-de-parfum-P458229",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:06:47",
+        "product_name": "Mon Paris Intensement Eau de Parfum",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.6 oz/ 47 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$142.00"
+                ],
+                "sku": "Item 2316040"
+            }
+        ],
+        "rating": "width:90.732%",
+        "product_reviews": "41",
+        "ingredients": "Alcohol, Parfum / Fragrance, Aqua / Water, Benzyl Salicylate, Hydroxycitronellal, Linalool, Benzyl Alcohol, Hexyl Cinnamal, Citronellol, Geraniol, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Limonene, Citral, Cinnamyl Alcohol, Farnesol, Eugenol, Benzyl Benzoate, Ci 60730 / Ext. Violet 2, Ci 17200 / Red 33.",
+        "n_loves": "13.2K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/l-homme-eau-de-parfum-P500874",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:06:59",
+        "product_name": "L'Homme Eau de Parfum",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2 oz / 60 mL"
+                ],
+                "price": [
+                    "$135.00"
+                ],
+                "sku": "Item 2582484"
+            }
+        ],
+        "rating": "width:92.75999999999999%",
+        "product_reviews": "558",
+        "ingredients": "Alcohol, Aqua / Water / Eau, Parfum / Fragrance, Limonene, Linalool, Coumarin, Butyl Methoxydibenzoylmethane, Alpha-Isomethyl Ionone, Geraniol, Citral, Citronellol, Tris(Tetramethylhydroxypiperidinol) Citrate, Ci 15985 / Yellow 6, Cinnamal, Ci 14700 / Red 4, Isoeugenol, Eugenol, Ci 19140 / Yellow 5, Ci 42090 / Blue 1.",
+        "n_loves": "3K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/yves-saint-laurent-candy-glaze-lip-gloss-stick-P480000",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:07:10",
+        "product_name": "Candy Glaze Lip Gloss Stick",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size .11 oz/ 3.2 g",
+                "name": [
+                    "Color: 02 Sweet Pink - clear with pink hue"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2511335"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.11 oz/ 3.2 g",
+                "name": [
+                    "Color: 3 Cacao No Boundary - chocolate brown"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2561009"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size .11 oz/ 3.2 g",
+                "name": [
+                    "Color: 04 Nude Pleasure - nude caramel"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2511327"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size .11 oz/ 3.2 g",
+                "name": [
+                    "Color: 05 Pink Satisfaction - rose pink"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2511319"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size .11 oz/ 3.2 g",
+                "name": [
+                    "Color: 06 Burgundy Temptation - sweet burgundy"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2511301"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.11 oz/ 3.2 g",
+                "name": [
+                    "Color: 7 Beige Bliss - beige nude"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2561017"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .11 oz/ 3.2 g",
+                "name": [
+                    "Color: 08 Chili Delight - warm red orange",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2511293"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.11 oz/ 3.2 g",
+                "name": [
+                    "Color: 10 Red Crush - bright red",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2561033"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size .11 oz/ 3.2 g",
+                "name": [
+                    "Color: 11 Red Thrill - electric red"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2511285"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.11 oz/ 3.2 g",
+                "name": [
+                    "Color: 12 Coral Excitement - coral"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2561041"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.11 oz/ 3.2 g",
+                "name": [
+                    "Color: 9 Tangerine Tease - tangerine"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2561025"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: 14 Scenic Brown - sheer brown"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2643427"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: 15 Showcasing Nude - sheer nude"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2643435"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: 13 Flashing Ros\u00e9 - sheer nude pink"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2643419"
+            }
+        ],
+        "rating": "width:90.38000000000001%",
+        "product_reviews": "1K",
+        "ingredients": "Diisostearyl Malate, Bis-Behenyl/Isostearyl/Phytosteryl Dimer Dilinoleyl Dimer, Dilinoleate, Pentaerythrityl Adipate/Caprate/Caprylate/Heptanoate, Vp/Hexadecene Copolymer, Paraffin, Octyldodecanol, Ci 77891 / Titanium Dioxide, Cera Microcristallina / Microcrystalline Wax / Cire, Microcristalline, Sorbitan Sesquioleate \nCi 77491 / Iron Oxides, Synthetic Wax,Disteardimonium Hectorite, Ci 77499 / Iron Oxides, Tocopheryl Acetate, Ethylene/Propylene Copolymer, Ci 15985 / Yellow 6 Lake, Propylene Carbonate, Ci 15850 / Red 7 Lake \nParfum / Fragrance, Dextrin Palmitate, Tocopherol, Mangifera Indica Seed Oil / Mango Seed Oil, Sodium, Hyaluronate, Caprylic/Capric Triglyceride, Aqua / Water / Eau, Mangifera Indica Fruit Extract / Mango Fruit Extract, 1,2-Hexanediol, Punica Granatum Fruit Extract",
+        "n_loves": "143K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Lip Gloss"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/yves-saint-laurent-le-cushion-encre-de-peau-foundation-P471588",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:07:31",
+        "product_name": "Le Cushion Encre de Peau Foundation",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.7 oz/ 50 mL",
+                "name": [
+                    "Color: 10"
+                ],
+                "price": [
+                    "$101.00"
+                ],
+                "sku": "Item 2427532"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.7 oz/ 50 mL",
+                "name": [
+                    "Color: 15"
+                ],
+                "price": [
+                    "$101.00"
+                ],
+                "sku": "Item 2427540"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.7 oz/ 50 mL",
+                "name": [
+                    "Color: 20"
+                ],
+                "price": [
+                    "$101.00"
+                ],
+                "sku": "Item 2427557"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1.7 oz/ 50 mL",
+                "name": [
+                    "Color: 25",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$101.00"
+                ],
+                "sku": "Item 2427565"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1.7 oz/ 50 mL",
+                "name": [
+                    "Color: 30",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$101.00"
+                ],
+                "sku": "Item 2427573"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1.7 oz/ 50 mL",
+                "name": [
+                    "Color: 40",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$101.00"
+                ],
+                "sku": "Item 2427581"
+            }
+        ],
+        "rating": "width:88.00000000000001%",
+        "product_reviews": "15",
+        "ingredients": "Aqua/Water/Eau, Methyl Trimethicone, Dimethicone, Ethylhexyl Methoxycinnamate, Titanium Dioxide, Ethylhexyl Salicylate, Diphenylsiloxy Phenyl Trimethicone, Butylene Glycol Dicaprylate/Dicaprate, Lauryl Peg-9 Polydimethylsiloxyethyl Dimethicone, Glycerin, Pentylene Glycol, Butylene Glycol, Trisiloxane, Peg-10 Dimethicone, Magnesium Sulfate, Acrylates/Stearyl Acrylate/Dimethicone Methacrylate Copolymer, Phenoxyethanol, Dimethicone Crosspolymer, Disteardimonium Hectorite, Lauroyl Lysine, Ethylhexylglycerin, Stearic Acid, Polyhydroxystearic Acid, Alumina, Triethoxycaprylylsilane, Calophyllum Inophyllum Seed Oil, Isododecane, Lecithin, Isopropyl Myristate, Isostearic Acid, Ethylhexyl Palmitate, Adenosine, Polyglyceryl-3 Polyricinoleate, Disodium Edta, Silica Silylate, Bht, Propylene Carbonate, Tocopherol, Jasminum Officinale Flower Extract/Jasmine Flower Extract, Parfum/Fragrance.",
+        "n_loves": "4.8K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Foundation"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/yves-saint-laurent-nu-halo-tint-highlighter-P505707",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:07:47",
+        "product_name": "NU HALO TINT Highlighter with Vitamin E ",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.5 oz / 14 ml",
+                "name": [
+                    "Color: NU Bronze - brown"
+                ],
+                "price": [
+                    "$45.00"
+                ],
+                "sku": "Item 2662237"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.5 oz / 14 ml",
+                "name": [
+                    "Color: NU Gold - gold"
+                ],
+                "price": [
+                    "$45.00"
+                ],
+                "sku": "Item 2662211"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.5 oz / 14 ml",
+                "name": [
+                    "Color: NU Rosy Quartz - Rose"
+                ],
+                "price": [
+                    "$45.00"
+                ],
+                "sku": "Item 2662229"
+            }
+        ],
+        "rating": "width:90.69200000000001%",
+        "product_reviews": "260",
+        "ingredients": "-Jasmine Flower Extract: Hydrates, sourced from Yves Saint Laurent\u2019s Ourika Community Gardens.-Vitamin E Antioxidants: Prevent free radical damage.Aqua/Water/Eau, Isododecane, Mica, Dimethicone, Trimethylsiloxysilicate, Ci 77891/Titanium Dioxide, Alcohol Denat., Butylene Glycol, Peg-10 Dimethicone, Synthetic Fluorphlogopite, Perlite, Nylon-12, Hdi/Trimethylol Hexyllactone Crosspolymer, Bis-Peg/Ppg-14/14 Dimethicone, Disteardimonium Hectorite, Magnesium Sulfate, Ci 77491/Iron Oxides, Phenoxyethanol, Silica Silylate, Glycerin, Moroccan Lava Clay, Ci 77499/Iron Oxides, Tocopherol, Empetrum Nigrum Fruit Juice, Tin Oxide, Silica, Jasminum Officinale Flower Extract/Jasmine Flower Extract, Potassium Sorbate.",
+        "n_loves": "5.2K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Highlighter"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mon-paris-eau-de-toilette-lumiere-P500170",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:08:01",
+        "product_name": "Mon Paris Eau de Toilette Lumiere",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz / 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$130.00"
+                ],
+                "sku": "Item 2546125"
+            }
+        ],
+        "rating": "width:92.44999999999999%",
+        "product_reviews": "347",
+        "ingredients": "Alcohol, Parfum / Fragrance, Aqua / Water / Eau,  Benzyl Salicylate,  Linalool,  Hydroxycitronellal,  Citronellol,  Benzyl Alcohol, Limonene,  Hexyl Cinnamal, Butyl Methoxydibenzoylmethane,  Geraniol,  Alpha-Isomethyl Ionone, Cinnamyl Alcohol, Farnesol,  Citral,  Isoeugenol,  Benzyl Benzoate, Tris(Tetramethylhydroxypiperidinol) Citrate,  Eugenol,  Ci 17200 / Red 33,  Ci 60730 / Ext. Violet 2,  Ci 19140 / Yellow 5.",
+        "n_loves": "6.1K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/l-homme-cologne-bleue-P432087",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:08:13",
+        "product_name": "L'Homme Cologne Bleue",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 2 oz/ 60 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$115.00"
+                ],
+                "sku": "Item 2032514"
+            }
+        ],
+        "rating": "width:92.28%",
+        "product_reviews": "114",
+        "ingredients": "Alcohol, Aqua / Water, Parfum / Fragrance, Limonene, Linalool, Butyl Methoxydibenzoylmethane, Benzyl Salicylate, Geraniol, Coumarin, Citral, Benzyl Alcohol, Alpha-Isomethyl Ionone, Citronellol, Eugenol, Ci 60730 / Ext. Violet 2, Ci 19140 / Yellow 5.",
+        "n_loves": "7.1K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/yves-saint-laurent-black-opium-illicit-green-P479693",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:08:24",
+        "product_name": "Black Opium Illicit Green Eau de Parfum",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 2.5 oz/ 75 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$150.00"
+                ],
+                "sku": "Item 2556975"
+            }
+        ],
+        "rating": "width:91.71799999999999%",
+        "product_reviews": "1.3K",
+        "ingredients": "Alcohol, Parfum/Fragrance, Aqua/Water/Eau, Benzyl Salicylate, Benzyl Alcohol, Hydroxycitronellal, Linalool, Hexyl Cinnamal, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Limonene, Geraniol, Citronellol, Cinnamyl Alcohol, Methyl Anthranilate, Amyl Cinnamal, Citral, Tris (Tetramethylhydroxypiperidinol) Citrate, Benzyl Benzoate, Coumarin, Farnesol, CI 19140/Yellow 5, CI 42090/Blue 1.",
+        "n_loves": "18.6K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/yves-saint-laurent-mascara-volume-effet-faux-cils-radical-P467660",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:08:36",
+        "product_name": "Mascara Volume Effet Faux Cils Radical",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.25 oz/ 7.5 ml - Black"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2359891"
+            }
+        ],
+        "rating": "width:80%",
+        "product_reviews": "106",
+        "ingredients": "Aqua/Water, Paraffin, Stearic Acid, Copernicia Cerifera Cera/Carnauba Wax, Palmitic Acid, C10-30 Cholesterol/Lanosterol Esters, Cera Alba/Beeswax, Triethanolamine, Nylon-12, Aminomethyl Propanol, Phenoxyethanol, Hydroxyethylcellulose, Candelilla Cera/Candelilla Wax, Laureth-21, Stearyl Stearate, Stearyl Palmitate, Vp/Eicosene Copolymer, Dimethicone, Myristic Acid Silica, Tocopheryl Acetate, Panthenol, Cetyl Palmitate, Peg-40 Hydrogenated Castor Oil, Cetyl Stearate, Methylparaben, Adipic Acid/Diglycol Crosspolymer, Sorbitan Stearate, Butylparaben, Peg-40 Stearate, Behenic Acid, Bht, Ethylparaben, Cera Microcristallina/Microcrystalline Wax, Argania Spinosa Kernel Oil, Ricinus Communis Seed Oil/Castor Seed Oil, Prunus Amygdalus Dulcis Oil/Sweet Almond Oil, Propylparaben, Carthamus Tinctorius Seed Oil/Safflower Seed Oil, Benzyl Alcohol, Sodium Dehydroacetate, Glycerin, Arachidic Acid, Tocopherol, Juglans Regia Leaf Extract/Walnut Leaf Extract, Parfum/Fragrance. [+/- May Contain Ci 77499/Iron Oxides, Ci 77266 [Nano]/Black 2, Ci 77007/Ultramarines.]",
+        "n_loves": "4.2K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Mascara"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mon-paris-eau-de-parfum-travel-spray-P410638",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:08:48",
+        "product_name": "Mon Paris Eau de Parfum Travel Spray",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.34 oz/ 10 mL"
+                ],
+                "price": [
+                    "$43.00"
+                ],
+                "sku": "Item 1928548"
+            }
+        ],
+        "rating": "width:88.616%",
+        "product_reviews": "65",
+        "ingredients": "Alcohol, Parfum / Fragrance, Aqua / Water, Benzyl Salicylate, Linalool, Benzyl Alcohol, Hydroxycitronellal, Ethylhexyl Methoxycinnamate, Limonene, Hexyl Cinnamal, Geraniol, Citronellol, Butyl Methoxydibenzoylmethane, Ethylhexyl Salicylate, Eugenol, Citral, Tris (Tetramethylhydroxypiperidinol) Citrate, Benzyl Benzoate, Farnesol, Bht, Ci 17200 / Red 33, Ci 60730 / Ext. Violet 2.",
+        "n_loves": "15.7K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/yves-saint-laurent-nu-bare-look-skin-tint-foundation-P474600",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:08:59",
+        "product_name": "NU BARE LOOK TINT Hydrating Skin Tint Foundation with Hyaluronic Acid",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 1 - fair with neutral undertones"
+                ],
+                "price": [
+                    "$59.50"
+                ],
+                "sku": "Item 2489359"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 2 - fair with cool undertones"
+                ],
+                "price": [
+                    "$59.50"
+                ],
+                "sku": "Item 2489342"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 3 - fair light with cool undertones"
+                ],
+                "price": [
+                    "$59.50"
+                ],
+                "sku": "Item 2489185"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 4 - light with cool undertones"
+                ],
+                "price": [
+                    "$59.50"
+                ],
+                "sku": "Item 2489334"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 5 - light with warm undertones"
+                ],
+                "price": [
+                    "$59.50"
+                ],
+                "sku": "Item 2489193"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 6 - light+ with cool undertones"
+                ],
+                "price": [
+                    "$59.50"
+                ],
+                "sku": "Item 2489177"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 7 - light-medium with cool undertones"
+                ],
+                "price": [
+                    "$59.50"
+                ],
+                "sku": "Item 2489169"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 8 - Light-medium with warm undertones"
+                ],
+                "price": [
+                    "$59.50"
+                ],
+                "sku": "Item 2489326"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 9 - medium with warm undertones"
+                ],
+                "price": [
+                    "$59.50"
+                ],
+                "sku": "Item 2489318"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 10 - medium with cool undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$59.50"
+                ],
+                "sku": "Item 2489300"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 11 - medium with cool undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$59.50"
+                ],
+                "sku": "Item 2489284"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 12 - medium-tan with warm undertones"
+                ],
+                "price": [
+                    "$59.50"
+                ],
+                "sku": "Item 2489292"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 13 - medium with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$59.50"
+                ],
+                "sku": "Item 2489276"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 14 - medium-tan with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$59.50"
+                ],
+                "sku": "Item 2489268"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 15 - tan with warm undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$59.50"
+                ],
+                "sku": "Item 2489250"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 16 - tan with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$59.50"
+                ],
+                "sku": "Item 2489243"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 17 - dark with neutral undertone",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$59.50"
+                ],
+                "sku": "Item 2489235"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 18 - dark with warm undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$59.50"
+                ],
+                "sku": "Item 2489227"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 19 - deep with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$59.50"
+                ],
+                "sku": "Item 2489219"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: 20 - deep with cool undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$59.50"
+                ],
+                "sku": "Item 2489201"
+            }
+        ],
+        "rating": "width:91.56599999999999%",
+        "product_reviews": "1.2K",
+        "ingredients": "-Hyaluronic Acid: Visibly plumps and moisturizes skin.-Glycerin: Traps moisture and hydrates skin. -Mallow: Visibly brightens skin. Aqua/Water, Glycerin, Caprylyl Methicone, Propanediol, Dimethicone, Pentylene Glycol, Dimethicone/Peg-10/15 Crosspolymer, Alcohol Denat., Sodium Chloride, Triethoxysilylethyl Polydimethylsiloxyethyl Dimethicone, Isopropyl Titanium Triisostearate, Caprylyl Glycol, Phenoxyethanol, Disodium Edta, Alumina, Dipropylene Glycol, Sodium Hyaluronate, Sodium Citrate, Althaea Officinalis Root Extract, Citric Acid, Tocopherol, Juglans Regia Leaf Extract/Walnut Leaf Extract, Sodium Benzoate, Potassium Sorbate, Parfum/Fragrance+/- May Contain/Peut Contenir Ci 77891/Titanium Dioxide, Ci 77491, Ci 77492, Ci 77499/Iron Oxides.",
+        "n_loves": "90.6K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Foundation"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/rouge-volupte-shine-oil-in-stick-lipstick-P377710",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:09:24",
+        "product_name": "Rouge Volupt\u00e9 Shine Lipstick Balm",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size .11 oz/ 3.2 g",
+                "name": [
+                    "Color: 153 Rose Dentelle - soft peach nude"
+                ],
+                "price": [
+                    "$58.00"
+                ],
+                "sku": "Item 2511251"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.11 oz/ 3.2 g",
+                "name": [
+                    "Color: 121 Beige Satin - deep beige nude"
+                ],
+                "price": [
+                    "$58.00"
+                ],
+                "sku": "Item 2427276"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.11 oz/ 3.2 g",
+                "name": [
+                    "Color: 9 Nude Sheer - spicy warm beige"
+                ],
+                "price": [
+                    "$58.00"
+                ],
+                "sku": "Item 1484815"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size .11 oz/ 3.2 g",
+                "name": [
+                    "Color: 155 Burgundy Bodysuit - warm burgundy",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$58.00"
+                ],
+                "sku": "Item 2511277"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.11 oz/ 3.2 g",
+                "name": [
+                    "Color: 122 Burnt Zellige - brown nude"
+                ],
+                "price": [
+                    "$58.00"
+                ],
+                "sku": "Item 2427268"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.11 oz/ 3.2 g",
+                "name": [
+                    "Color: 45 Rouge Tuxedo - cherry red"
+                ],
+                "price": [
+                    "$58.00"
+                ],
+                "sku": "Item 1811561"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size .11 oz/ 3.2 g",
+                "name": [
+                    "Color: 150 Nude Lingerie - nude pink",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$58.00"
+                ],
+                "sku": "Item 2511228"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.11 oz/ 3.2 g",
+                "name": [
+                    "Color: 12 Corail Dolman  - bright cajun coral"
+                ],
+                "price": [
+                    "$58.00"
+                ],
+                "sku": "Item 1484831"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size .11 oz / 3.2 g",
+                "name": [
+                    "Color: 163 Showstopping Rose - rose bright pink"
+                ],
+                "price": [
+                    "$58.00"
+                ],
+                "sku": "Item 2657211"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.11 oz/ 3.2 g",
+                "name": [
+                    "Color: 130 Burnt Suede - burnt rosewood",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$58.00"
+                ],
+                "sku": "Item 2427219"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size .11 oz / 3.2 g",
+                "name": [
+                    "Color: 161 Rosewood Beat - warm rosewood"
+                ],
+                "price": [
+                    "$58.00"
+                ],
+                "sku": "Item 2657195"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size .11 oz / 3.2 g",
+                "name": [
+                    "Color: 162 Pulsing Rosehip - soft rosy nude"
+                ],
+                "price": [
+                    "$58.00"
+                ],
+                "sku": "Item 2657203"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size .11 oz/ 3.2 g",
+                "name": [
+                    "Color: 151 Orange Caraco - warm nude"
+                ],
+                "price": [
+                    "$58.00"
+                ],
+                "sku": "Item 2511236"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .11 oz/ 3.2 g",
+                "name": [
+                    "Color: 152 Pink Broderie - bright reddish pink",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$58.00"
+                ],
+                "sku": "Item 2511244"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.15 oz/ 4 mL",
+                "name": [
+                    "Color: 15 Corail Intuitive",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$58.00"
+                ],
+                "sku": "Item 1484864"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size .11 oz/ 3.2 g",
+                "name": [
+                    "Color: 154 Chestnut Corset - brown maroon"
+                ],
+                "price": [
+                    "$58.00"
+                ],
+                "sku": "Item 2511269"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.11 oz/ 3.2 g",
+                "name": [
+                    "Color: 124 Rose Loulou - rosy pink"
+                ],
+                "price": [
+                    "$58.00"
+                ],
+                "sku": "Item 2427243"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.11 oz/ 3.2 g",
+                "name": [
+                    "Color: 123 nude Transparent - light beige nude"
+                ],
+                "price": [
+                    "$58.00"
+                ],
+                "sku": "Item 2427250"
+            }
+        ],
+        "rating": "width:90.58%",
+        "product_reviews": "3.2K",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "424K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Lipstick"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/yves-saint-laurent-libre-discovery-trio-set-P503914",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:09:48",
+        "product_name": "Libre Discovery Trio Set",
+        "brand_name": "Yves Saint Laurent",
+        "options": [],
+        "rating": "width:93.33399999999999%",
+        "product_reviews": "3",
+        "ingredients": "Alcohol, Parfum / Fragrance, Aqua / Water, Limonene, Linalool, Benzyl Salicylate, Hydroxycitronellal, Benzyl Alcohol, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Coumarin, Geraniol, Methyl Anthranilate, Citronellol, Citral, Isoeugenol, Alpha-Isomethyl Ionone, Farnesol, Ci 14700 / Red 4, Ci 19140 / Yellow 5, Ci 60730 / Ext. Violet 2.",
+        "n_loves": "2.8K",
+        "categories": [
+            "Fragrance",
+            "Value & Gift Sets",
+            "Perfume Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/rouge-pur-couture-matte-slim-lipstick-P436506",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:09:58",
+        "product_name": "Rouge Pur Couture The Slim Matte Lipstick",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.077 oz / 2.2 g",
+                "name": [
+                    "Color: 11 Ambiguous Beige - pink beige"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2129997"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: 12 Nu Incongru - rosey nude",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2130003"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.5 oz/15g",
+                "name": [
+                    "Color: 1966 Rouge Libre - blood red",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2427623"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.077 oz / 2.2 g",
+                "name": [
+                    "Color: 34 Blasting Terra - nude"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2679819"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.077 oz / 2.2 g",
+                "name": [
+                    "Color: 35 Loud Brown - brown"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2679801"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.077 oz / 2.2 g",
+                "name": [
+                    "Color: 36 Pulsating Rosewood - pink"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2679793"
+            }
+        ],
+        "rating": "width:90.7%",
+        "product_reviews": "800",
+        "ingredients": "Water, Dimethicone, Isododecane, Butylene Glycol, Synthetic Fluorphlogopite, Alcohol, Acrylates/Polytrimethylsiloxymethacrylate Copolymer, Cetyl PEG/PPG-10/1 Dimethicone, Trimethyl Pentaphenyl Trisiloxane, Disteardimonium Hectorite.",
+        "n_loves": "110.6K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Lipstick"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/yves-saint-laurent-black-opium-eau-de-parfum-extreme-P477258",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:10:13",
+        "product_name": "Black Opium Eau de Parfum Extreme",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL"
+                ],
+                "price": [
+                    "$150.00"
+                ],
+                "sku": "Item 2465565"
+            }
+        ],
+        "rating": "width:92.172%",
+        "product_reviews": "327",
+        "ingredients": "Alcohol, Parfum/Fragrance, Aqua/Water, Benzyl Salicylate, Benzyl Alcohol, Hydroxycitronellal, Linalool, Hexyl Cinnamal, Butyl Methoxydibenzoylmethane, Limonene, Coumarin, Geraniol, Citronellol, Cinnamyl Alcohol, Farnesol, Methyl Anthranilate, Amyl Cinnamal, Benzyl Benzoate, Citral, Eugenol.",
+        "n_loves": "20.7K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/men-s-cologne-travel-spray-set-P506361",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:10:25",
+        "product_name": "Men's Cologne Travel Spray Set",
+        "brand_name": "Yves Saint Laurent",
+        "options": [],
+        "rating": "width:100%",
+        "product_reviews": "1",
+        "ingredients": "Y Eau de Parfum:\nAlcohol, Parfum/Fragrance, Aqua/Water, Limonene, Linalool, Butyl Methoxydibenzoylmethane, Citral,\nCitronellol, Alpha-Isomethyl Ionone, Geraniol, Coumarin, Ci 60730/Ext. Violet 2, Ci 15985/Yellow 6, Ci\n42090/Blue 1.\nLa Nuit de L'Homme Eau de Toilette:\nAlcohol, Aqua/Water, Parfum/Fragrance, Ethylhexyl Methoxycinnamate, Linalool, Limonene,\nCoumarin, Butyl Methoxydibenzoylmethane, Alpha-Isomethyl Ionone, Geraniol, Citral, Citronellol,\nSoeugenol, Tris (Tetramethylhydroxypiperidinol) Citrate, Disodium EDTA.\nL'Homme Eau de Toilette:\nAlcohol, Aqua/Water, Parfum/Fragrance, Ethylhexyl Methoxycinnamate, Limonene, Butyl\nMethoxydibenzoylmethane, Butylphenyl Methylpropional, Coumarin, Linalool, Propylene Glycol,\nGeraniol, Alpha-Isomethyl Ionone, Citral, Tris(Tetramethylhydroxypiperidinol) Citrate, Isoeugenol,\nCitronellol, Disodium Edta, Cinnamal, Ci 15985/Yellow 6, Ci 19140/Yellow 5.",
+        "n_loves": "2.9K",
+        "categories": [
+            "Fragrance",
+            "Value & Gift Sets",
+            "Cologne Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/touche-eclat-blur-primer-P397615",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:10:35",
+        "product_name": "Touche Eclat Blur Face Primer",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: Blur Primer Gold - brightens and evens skintone"
+                ],
+                "price": [
+                    "$76.00"
+                ],
+                "sku": "Item 1713114"
+            }
+        ],
+        "rating": "width:87.56600000000002%",
+        "product_reviews": "2.3K",
+        "ingredients": "Cyclopentasiloxane, Dimethicone Crosspolymer, Fragrance, Zea Mays Oil/Corn Oil, Prunus Armeniaca, Kernel Oil/Apricot Kernel Oil, Passiflora Edulis Oil/Passiflora Edulis Seed Oil, Oryza Sativa Bran Oil/Rice Bran Oil, Calcium Sodium Borosilicate, Silica, Tin Oxide, [+/- May Contain, Ci 77891/Titanium Dioxide, Ci 77491/Iron Oxides].",
+        "n_loves": "93.3K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Face Primer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/yves-saint-laurent-nu-blotting-lotion-pore-minimizing-mattifyng-face-primer-P474602",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:10:47",
+        "product_name": "NU BLOTTING LOTION Pore Minimizer & Mattifying Primer with Salicylic Acid",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.8 oz/ 25 mL"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2489524"
+            }
+        ],
+        "rating": "width:90.312%",
+        "product_reviews": "192",
+        "ingredients": "-Salicylic Acid: Known to help improve the appearance of pores over time.-Limonette Extract: Known to help detoxify skin. Aqua/Water/Eau, Alcohol Denat., Glycerin, Synthetic Fluorphlogopite, Butylene Glycol, Dimethicone, Peg/Ppg/Polybutylene Glycol-8/5/3 Glycerin, Isopropyl Lauroyl, Sarcosinate, Hydroxyethylpiperazine Ethane Sulfonic Acid, Boron Nitride, Silica Silylate, Ammonium Polyacryloyldimethyl Taurate, Juglans Regia Leaf Extract/Walnut Leaf Extract, Citrus Limon Peel Extract/Lemon Peel Extract, Tin Oxide, Peg-20 Methyl Glucose Sesquistearate, Ppg-6-Decyltetradeceth-30, Hdi/Trimethylol Hexyllactone Crosspolymer, Dimethiconol, Sodium Citrate, Sodium Hydroxide, Sodium Polyacrylate, Silica, Adenosine, Caprylic/Capric",
+        "n_loves": "9.8K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Face Primer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/libre-eau-de-parfum-travel-size-P448106",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:11:00",
+        "product_name": "Libre Eau De Parfum Travel Spray",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.33 oz/ 10 mL"
+                ],
+                "price": [
+                    "$43.00"
+                ],
+                "sku": "Item 2249720"
+            }
+        ],
+        "rating": "width:90.244%",
+        "product_reviews": "3.6K",
+        "ingredients": "ALCOHOL , PARFUM / FRAGRANCE, AQUA / WATER, LIMONENE, LINALOOL, BENZYL SALICYLATE, HYDROXYCITRONELLAL, BENZYL ALCOHOL, ETHYLHEXYL SALICYLATE, BUTYL METHOXYDIBENZOYLMETHANE, COUMARIN, GERANIOL, METHYL ANTHRANILATE, CITRONELLOL, CITRAL, ISOEUGENOL, ALPHA-ISOMETHYL IONONE, FARNESOL, CI 14700 / RED 4, CI 19140 / YELLOW 5, CI 60730 / EXT. VIOLET 2\n",
+        "n_loves": "71.3K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/y-eau-de-toilette-P500062",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:11:12",
+        "product_name": "Y Eau de Toilette",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2oz / 60 mL"
+                ],
+                "price": [
+                    "$115.00"
+                ],
+                "sku": "Item 2546208"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz / 100 mL"
+                ],
+                "price": [
+                    "$150.00"
+                ],
+                "sku": "Item 2546216"
+            }
+        ],
+        "rating": "width:94.74199999999999%",
+        "product_reviews": "1.2K",
+        "ingredients": "Alcohol, Parfum / Fragrance, Aqua / Water / Eau, Limonene, Linalool, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Citral, Alpha-Isomethyl Ionone, Citronellol, Coumarin, Geraniol, Tris(Tetramethylhydroxypiperidinol) Citrate, Ci 60730 / Ext. Violet 2, Ci 42090 / Blue 1.",
+        "n_loves": "8.2K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/black-opium-travel-spray-P396446",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:11:26",
+        "product_name": "Black Opium Travel Spray",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.33 oz/ 10 mL eau de parfum spray"
+                ],
+                "price": [
+                    "$43.00"
+                ],
+                "sku": "Item 1698299"
+            }
+        ],
+        "rating": "width:90.86999999999999%",
+        "product_reviews": "322",
+        "ingredients": "ALCOHOL, WATER, BENZYL SALICYLATE, BENZYL ALCOHOL, HYDROXYCITRONELLAL, BUTYL METHOXYDIBENZOYLMETHANE, HEXYL CINNAMAL, LIMONENE, LINALOOL, GERANIOL, CITRONELLOL, CINNAMYL ALCOHOL, METHYL ANTHRANILATE, AMYL CINNAMAL, CITRAL, COUMARIN, BENZYL BENZOATE, CI 15985 / YELLOW 6, CI 17200 / RED 33",
+        "n_loves": "54.5K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/yves-saint-laurent-all-hours-foundation-P503910",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:11:38",
+        "product_name": "All Hours Foundation",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: LW1 - Light Warm 1",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656791"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: LW4 - Light Warm 4",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656577"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: LW7 - Light Warm 7"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656510"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: LW8 - Light Warm 8"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656692"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: LW9 - Light Warm 9",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656601"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: LN1 - Light Neutral 1"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656767"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: LN3 - Light Neutral 3"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656536"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: LN4 - Light Neutral 4"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656775"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: LN6 - Light Neutral 6",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656817"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: LN7 - Light Neutral 7",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656783"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: LN8 - Light Neutral 8",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656551"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: LN9 - Light Neutral 9",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656544"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: LC1 - Light Cool 1"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656726"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: LC2 - Light Cool 2",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656734"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: LC3 - Light Cool 3",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656742"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: LC4 - Light Cool 4",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656759"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: LC5 - Light Cool 5"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656528"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: LC6 - Light Cool 6",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656585"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: MW2 - Medium Warm 2"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656593"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: MW8 - Medium Warm 8",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656718"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: MW9 - Medium Warm 9",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656619"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: MN1 - Medium Neutral 1"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656809"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: MN4 - Medium Neutral 4"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656627"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: MN5 - Medium Neutral 5",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656635"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: MN6 - Medium Neutral 6"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656569"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: MN7 - Medium Neutral 7"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656650"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: MN8 - Medium Neutral 8",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656643"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: MN9 - Medium Neutral 9",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656833"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: MN10 - Medium Neutral 10",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656668"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: MC2 - Medium Cool 2",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656825"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: MC5 - Medium Cool 5",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656676"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: DW1 - Deep Warm 1",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656882"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: DW2 - Deep Warm 2",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656890"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: DW4 - Deep Warm 4",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656684"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: DW7 - Deep Warm 7",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656502"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: DN1 - Deep Neutral 1",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656858"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: DN3 - Deep Neutral 3",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656866"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: DN5 - Deep Neutral 5",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656874"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: DC7 - Deep Cool 7",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656841"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size .85 oz / 25 mL",
+                "name": [
+                    "Color: DC9 - Deep Cool 9"
+                ],
+                "price": [
+                    "$81.00"
+                ],
+                "sku": "Item 2656700"
+            }
+        ],
+        "rating": "width:87.51400000000001%",
+        "product_reviews": "378",
+        "ingredients": "WATER , DIMETHICONE , ISODODECANE , ALCOHOL DENAT. , TRIMETHYLSILOXYSILICATE , BUTYLENE GLYCOL , PEG-10 DIMETHICONE , SYNTHETIC FLUORPHLOGOPITE , PERLITE , DISTEARDIMONIUM HECTORITE , NYLON-12 , HDI/TRIMETHYLOL HEXYLLACTONE CROSSPOLYMER , ISOPROPYL LAUROYL SARCOSINATE , DIISOPROPYL SEBACATE , BIS-PEG/PPG-14/14 DIMETHICONE , MAGNESIUM SULFATE , PHENOXYETHANOL , DISODIUM STEAROYL GLUTAMATE , ALUMINUM HYDROXIDE , DIPENTAERYTHRITYL TETRAHYDROXYSTEARATE/TETRAISOSTEARATE , SILICA SILYLATE , GLYCERIN , TOCOPHEROL , CAPRYLIC/CAPRIC TRIGLYCERIDE , HYDROGEN DIMETHICONE , SILICA , BHT , JASMINUM OFFICINALE (JASMINE) FLOWER EXTRACT , BENZYL ALCOHOL , SODIUM HYALURONATE , PHENETHYL ALCOHOL , LINALOOL , SODIUM CARRAGEENAN , CITRUS LIMON (LEMON) PEEL EXTRACT , JANIA RUBENS EXTRACT , FRAGRANCE",
+        "n_loves": "4.4K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Foundation"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/myslf-eau-de-parfum-P507223",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:12:19",
+        "product_name": "MYSLF Eau de Parfum",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "NEW",
+                "size": null,
+                "name": [
+                    "Size: 1.4 oz / 40 ml eau de parfum spray",
+                    "NEW"
+                ],
+                "price": [
+                    "$116.00"
+                ],
+                "sku": "Item 2706257"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "NEW",
+                "size": null,
+                "name": [
+                    "Size: 2 oz / 60 ml eau de parfum spray",
+                    "NEW"
+                ],
+                "price": [
+                    "$160.00"
+                ],
+                "sku": "Item 2706265"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "NEW",
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz / 100 ml eau de parfum spray",
+                    "NEW"
+                ],
+                "price": [
+                    "$192.50"
+                ],
+                "sku": "Item 2706273"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 0.33 oz / 10 ml eau de parfum spray",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$44.50"
+                ],
+                "sku": "Item 2706240"
+            }
+        ],
+        "rating": "width:93.634%",
+        "product_reviews": "1.1K",
+        "ingredients": "Alcohol, Parfum/Fragrance, Aqua/Water, Limonene, Linalool, Coumarin, Citronellol, Butyl Methoxydibenzoylmethane, Alpha-Isomethyl Ionone, Citral, Methyl Anthranilate, Geraniol, Cinnamal, Isoeugenol, Farnesol, Ci 60730/Ext. Violet 2, Ci 14700/Red 4, Ci 19140/Yellow 5, Ci 42090/Blue 1.This ingredients list is subject to change; consumers should refer to the product packaging for the most relevant ingredients list. In case of problems, please contact the consumer-care center.",
+        "n_loves": "1.8K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/yves-saint-laurent-crush-liner-P477261",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:12:34",
+        "product_name": "Crushliner Stylo Waterproof Long-Wear Precise Eyeliner",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size 0.28 oz/ 8.2 mL",
+                "name": [
+                    "Color: 1 - Noir Intense"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2528081"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size 0.28 oz/ 8.2 mL",
+                "name": [
+                    "Color: 2 - Brun Universel"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2528073"
+            }
+        ],
+        "rating": "width:20%",
+        "product_reviews": "2",
+        "ingredients": "G768783, Ci 77499/Iron Oxides, Trimethylsiloxysilicate, Synthetic Wax, Hydrogenated Polyisobutene, Hydrogenated Poly(C6-14 Olefin), Hydrogenated Polydecene, Mica, Silica Silylate, Polybutene, Ci 77266 [Nano]/Black 2, Ethylene/Propylene Copolymer, Copernicia Cerifera Cera/Carnauba Wax / Cire De Carnauba, Caprylic/Capric Triglyceride, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Punica Granatum Fruit Extract.",
+        "n_loves": "619",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyeliner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/y-eau-de-parfum-P436005",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:12:48",
+        "product_name": "Y Eau de Parfum",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2.0 oz/ 60 mL"
+                ],
+                "price": [
+                    "$135.00"
+                ],
+                "sku": "Item 2099877"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL"
+                ],
+                "price": [
+                    "$175.00"
+                ],
+                "sku": "Item 2099885"
+            }
+        ],
+        "rating": "width:91.058%",
+        "product_reviews": "2.9K",
+        "ingredients": "Alcohol, Parfum / Fragrance, Aqua / Water, Limonene, Linalool, Butyl Methoxydibenzoylmethane, Citral, Citronellol, Alpha-Isomethyl Ionone, Geraniol, Coumarin, Ci 60730 / Ext. Violet 2, Ci 15985 / Yellow 6, Ci 42090 / Blue 1.",
+        "n_loves": "34.5K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/touche-eclat-high-cover-radiant-concealer-P440971",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:13:01",
+        "product_name": "Touche \u00c9clat High Cover Radiant Under-Eye Concealer",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.08 oz/ 2.5 mL",
+                "name": [
+                    "Color: 8 EBONY - very deep. neutral undertone",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2209310"
+            }
+        ],
+        "rating": "width:81.884%",
+        "product_reviews": "329",
+        "ingredients": " -Caffeine and Ruscus Extract: Combat under-eye puffiness and swelling.\n-Hyaluronic Acid: Hydrates.\n-Vitamin E and Calendula Extract: Provide antioxidant-rich soothing, protection, and care for the delicate eye area.\nWater, Cyclopentasiloxane, Hydrogenated Polyisobutene, Sorbitan Isostearate, Glycerin, Propanediol, Propyleneglycol, Phenoxyethanol, Magnesium Sulfate, Disodiumstearoyl  Glutamate, Paraffin,Disteardimonium Hectorite, Ceramicrocristallina/ Microcrystallinewax, Caprylylglycol, Silicasilylate, Synthetic Wax,Caffeine, Aluminum Hydroxide,Tocopherol, Disodium Edta, Ethylhexyl Hydroxystearate, Calendula Officinalis Flowere Xtract, Ruscus Aculeatus Root Extract.",
+        "n_loves": "49.5K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Concealer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/opium-P6303",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:13:13",
+        "product_name": "Opium",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.6 oz/ 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$130.00"
+                ],
+                "sku": "Item 7757"
+            }
+        ],
+        "rating": "width:85.168%",
+        "product_reviews": "178",
+        "ingredients": "Alcohol, Parfum / Fragrance, Aqua / Water, Benzyl Salicylate, Limonene, Benzyl Alcohol, Linalool, Hydroxycitronellal, Geraniol, Eugenol, Coumarin, Citronellol, Hexyl Cinnamal, Butyl Methoxydibenzoylmethane, Benzyl Benzoate, Cinnamyl Alcohol, Bht, Citral, Benzyl Cinnamate, Isoeugenol, Amyl Cinnamal, Anise Alcohol, Cinnamal.",
+        "n_loves": "8.3K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/black-opium-le-parfum-travel-spary-P504075",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:13:25",
+        "product_name": "Black Opium Le Parfum Travel Spray",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.34 oz / 10 mL Perfume Spray"
+                ],
+                "price": [
+                    "$43.00"
+                ],
+                "sku": "Item 2639607"
+            }
+        ],
+        "rating": "width:91.51%",
+        "product_reviews": "1.1K",
+        "ingredients": "Alcohol, Parfum/Fragrance, Aqua/Water/Eau, Benzyl Salicylate, Benzyl Alcohol, Linalool, Butyl Methoxydibenzoylmethane, Hydroxycitronellal, Hexyl Cinnamal, Limonene, Coumarin, Anise Alcohol, Geraniol, Citronellol, Cinnamyl Alcohol, Amyl Cinnamal, Citral, Cinnamal.",
+        "n_loves": "13K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/la-nuit-de-l-homme-P243320",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:13:37",
+        "product_name": "La Nuit De L\u2019Homme",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2 oz/ 60 mL"
+                ],
+                "price": [
+                    "$115.00"
+                ],
+                "sku": "Item 1200666"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.3 oz/ 100 mL"
+                ],
+                "price": [
+                    "$150.00"
+                ],
+                "sku": "Item 1200716"
+            }
+        ],
+        "rating": "width:95.77199999999999%",
+        "product_reviews": "317",
+        "ingredients": "Alcohol, Aqua / Water, Parfum / Fragrance, Ethylhexyl Methoxycinnamate, Linalool, Limonene, Coumarin, Butyl Methoxydibenzoylmethane, Alpha-Isomethyl Ionone, Geraniol, Citral, Citronellol, Soeugenol, Tris (Tetramethylhydroxypiperidinol) Citrate, Disodium EDTA.",
+        "n_loves": "19K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/yves-saint-laurent-y-le-parfum-P471294",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:13:50",
+        "product_name": "Y Le Parfum",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2 oz/ 60 mL"
+                ],
+                "price": [
+                    "$160.00"
+                ],
+                "sku": "Item 2408805"
+            }
+        ],
+        "rating": "width:96.82600000000001%",
+        "product_reviews": "315",
+        "ingredients": "Alcohol, Parfum/Fragrance, Aqua/Water, Limonene, Linalool, Benzyl Salicylate, Butyl Methoxydibenzoylmethane, Alpha-Isomethyl Ionone, Benzyl Alcohol, Coumarin, Citral, Citronellol, Geraniol, Methyl Anthranilate. ",
+        "n_loves": "8.2K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/la-nuit-de-l-homme-eau-de-parfum-P428956",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:14:02",
+        "product_name": "La Nuit de L'Homme Eau de Parfum",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 2.02 oz/ 60 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$135.00"
+                ],
+                "sku": "Item 2015337"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$175.00"
+                ],
+                "sku": "Item 2015329"
+            }
+        ],
+        "rating": "width:90%",
+        "product_reviews": "2",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "792",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/yves-saint-laurent-libre-eau-de-parfum-intense-P462417",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:14:17",
+        "product_name": "LIBRE Eau de Parfum Intense",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3oz/ 90 mL"
+                ],
+                "price": [
+                    "$200.00"
+                ],
+                "sku": "Item 2371896"
+            }
+        ],
+        "rating": "width:91.71400000000001%",
+        "product_reviews": "350",
+        "ingredients": "Alcohol, Parfum / Fragrance, Aqua / Water, Linalool, Citronellol, Benzyl Salicylate, Limonene, Butyl Methoxydibenzoylmethane, Methyl Anthranilate, Benzyl Alcohol, Coumarin, Hydroxycitronellal, Geraniol, Citral, Isoeugenol, Farnesol, Alpha-Isomethyl Ionone, Ci 15985 / Yellow 6, Ci 60730 / Ext. Violet 2, Ci 19140 / Yellow 5, Ci 14700 / Red 4.",
+        "n_loves": "47.7K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/black-opium-duo-set-P506004",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:14:28",
+        "product_name": "Black Opium Eau de Parfum Set",
+        "brand_name": "Yves Saint Laurent",
+        "options": [],
+        "rating": "width:95%",
+        "product_reviews": "4",
+        "ingredients": "Alcohol, Parfum/Fragrance, Aqua/Water, Benzyl Salicylate, Benzyl Alcohol, Hydroxycitronellal, Butyl Methoxydibenzoylmethane, Hexyl Cinnamal, Limonene, Linalool, Geraniol, Citronellol, Cinnamyl Alcohol, Methyl Anthranilate, Amyl Cinnamal, Citral, Coumarin, Benzyl Benzoate, CI 15985/Yellow 6, CI 17200/Red 33.",
+        "n_loves": "4.4K",
+        "categories": [
+            "Fragrance",
+            "Value & Gift Sets",
+            "Perfume Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/touche-eclat-radiance-perfecting-pen-P218431",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:14:39",
+        "product_name": "Touche \u00c9clat All-Over Brightening Concealer Pen",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.08 oz/ 2.5 mL",
+                "name": [
+                    "Color: 0 Luminous Milk - very fair, neutral undertone"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2209336"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.1 oz/ 2.5 mL",
+                "name": [
+                    "Color: 1 Luminous Radiance - for fair to light complexions with pink undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 1120773"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.1 oz/ 2.5 mL",
+                "name": [
+                    "Color: 1.5 Luminous Silk - for light to medium complexions with yellow or golden undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 1469311"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.1 oz/ 2.5 mL",
+                "name": [
+                    "Color: 2 Luminous Ivory - for fair to light complexions with yellow undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 1120781"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.1 oz/ 2.5 mL",
+                "name": [
+                    "Color: 2.5 Luminous Vanilla - for light to medium complexions with warm undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 1411628"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.1 oz/ 2.5 mL",
+                "name": [
+                    "Color: 3 Luminous Peach - for medium complexions with peachy undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 1120799"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.1 oz/ 2.5 mL",
+                "name": [
+                    "Color: 3.5 Luminous Almond - for medium complexions with warm undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 1411636"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.08 oz/ 2.5 mL",
+                "name": [
+                    "Color: 4 Luminous Toffee - medium, peach undertone"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2209344"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.1 oz/ 2.5 mL",
+                "name": [
+                    "Color: 4.5 Luminous Sand - for medium complexions with pink undertones",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 1411644"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.1 oz/ 2.5 mL",
+                "name": [
+                    "Color: 5 Luminous Honey - for medium complexions with olive and golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 1283746"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.1 oz/ 2.5 mL",
+                "name": [
+                    "Color: 5.5 Luminous Praline - for medium complexions with golden undertones",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 1411651"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.1 oz/ 2.5 mL",
+                "name": [
+                    "Color: 6.5 Luminous Toffee - for deep complexions with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 1120815"
+            }
+        ],
+        "rating": "width:86.59599999999999%",
+        "product_reviews": "4.4K",
+        "ingredients": "TOUCHE ECLAT INGREDIENTS\n\nAQUA / WATER / EAU, CYCLOPENTASILOXANE, TALC, GLYCERIN, PARAFFINUM LIQUIDUM / MINERAL OIL / HUILE MINERALE, DIMETHICONE, PROPANEDIOL, PENTYLENE GLYCOL, LAURYL PEG-9 POLYDIMETHYLSILOXYETHYL DIMETHICONE, SILICA, DIMETHICONE/PEG-10/15 CROSSPOLYMER, SODIUM CHLORIDE, CAPRYLYL GLYCOL, LAURYL PEG/PPG-18/18 METHICONE, PROPYLENE GLYCOL, TRIETHOXYCAPRYLYLSILANE, TOCOPHERYL ACETATE, DISTEARDIMONIUM HECTORITE, TETRASODIUM EDTA, ISOSTEARYL ALCOHOL, ALUMINA, LAUROYL LYSINE, PROPYLENE CARBONATE, TITANIUM DIOXIDE, SILICA SILYLATE, DIPROPYLENE GLYCOL, PHENOXYETHANOL, BIOSACCHARIDE GUM-1, CALENDULA OFFICINALIS FLOWER EXTRACT, RUSCUS ACULEATUS ROOT EXTRACT, SODIUM CITRATE, TOCOPHEROL",
+        "n_loves": "205.2K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Concealer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/l-homme-P180727",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:14:59",
+        "product_name": "L'Homme",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2 oz/ 60 mL"
+                ],
+                "price": [
+                    "$115.00"
+                ],
+                "sku": "Item 987917"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.3 oz/ 100 mL"
+                ],
+                "price": [
+                    "$150.00"
+                ],
+                "sku": "Item 987925"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 6.7 oz/ 200 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$204.00"
+                ],
+                "sku": "Item 1668896"
+            }
+        ],
+        "rating": "width:96.78999999999999%",
+        "product_reviews": "916",
+        "ingredients": "Alcohol, Aqua / Water, Parfum / Fragrance, Ethylhexyl Methoxycinnamate, Limonene, Butyl Methoxydibenzoylmethane, Butylphenyl Methylpropional, Coumarin, Linalool, Propylene Glycol, Geraniol, Alpha-Isomethyl Ionone, Citral, Tris(Tetramethylhydroxypiperidinol) Citrate, Isoeugenol, Citronellol, Disodium Edta, Cinnamal, Ci 15985 / Yellow 6, Ci 19140 / Yellow 5.",
+        "n_loves": "29.2K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/yves-saint-laurent-mini-duo-gift-set-P506168",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:15:13",
+        "product_name": "Mini Duo Gift Set",
+        "brand_name": "Yves Saint Laurent",
+        "options": [],
+        "rating": "width:70%",
+        "product_reviews": "8",
+        "ingredients": "Libre Eau de Parfum:Alcohol, Parfum/Fragrance, Aqua/Water, Limonene, Linalool, Benzyl Salicylate, Hydroxycitronellal, Benzyl Alcohol, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Coumarin, Geraniol, Methyl Anthranilate, Citronellol, Citral, Isoeugenol, Alpha-Isomethyl Ionone, Farnesol, Ci 14700/Red 4, Ci 19140/Yellow 5, Ci 60730/Ext. Violet 2.Black Opium Eau De Parfum:Alcohol, Water, Benzyl Salicylate, Benzyl Alcohol, Hydroxycitronellal, Butyl Methoxydibenzoylmethane, Hexyl Cinnamal, Limonene, Linalool, Geraniol, Citronellol, Cinnamyl Alcohol, Methyl Anthranilate, Amyl Cinnamal, Citral, Coumarin, Benzyl Benzoate, Ci 15985/Yellow 6, Ci 17200/Red 33.",
+        "n_loves": "5K",
+        "categories": [
+            "Mini Size",
+            "Fragrance"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/libre-le-parfum-P501791",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:15:22",
+        "product_name": "Libre Le Parfum",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 1 oz / 30 mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$143.00"
+                ],
+                "sku": "Item 2590941"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz / 50 mL"
+                ],
+                "price": [
+                    "$159.00"
+                ],
+                "sku": "Item 2590966"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.04 oz / 90 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$233.00"
+                ],
+                "sku": "Item 2590958"
+            }
+        ],
+        "rating": "width:91.428%",
+        "product_reviews": "903",
+        "ingredients": "Alcohol, Parfum / Fragrance, Aqua / Water / Eau, Linalool, Limonene, Methyl Anthranilate, Benzyl Salicylate, Hydroxycitronellal, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Benzyl Alcohol, Coumarin, Geraniol, Citronellol, Alpha-Isomethyl Ionone, Citral, Isoeugenol, Tris(Tetramethylhydroxypiperidinol) Citrate, Farnesol, Ci 14700 / Red 4, Ci 19140 / Yellow 5, Ci 60730 / Ext. Violet 2, Ci 15985 / Yellow 6, Ci 42090 / Blue 1.",
+        "n_loves": "21.6K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/yves-saint-laurent-la-nuit-de-l-homme-bleu-electrique-P474136",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:15:36",
+        "product_name": "La Nuit De L'Homme Bleu \u00c9lectrique",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2 oz/ 60 mL"
+                ],
+                "price": [
+                    "$115.00"
+                ],
+                "sku": "Item 2438752"
+            }
+        ],
+        "rating": "width:100%",
+        "product_reviews": "4",
+        "ingredients": "Alcohol,  Aqua / Water / Eau,  Parfum / Fragrance,  Linalool,  Butyl Methoxydibenzoylmethane,  Limonene,  Coumarin,  Alpha-Isomethyl Ionone,  Geraniol,  Citral,  Citronellol,  Isoeugenol,  Ci 42090 / Blue 1,  Ci 60730 / Ext. Violet",
+        "n_loves": "1K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/y-eau-de-parfum-intense-P505689",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:15:48",
+        "product_name": "Y Eau de Parfum Intense",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2 oz / 60 mL parfum spray"
+                ],
+                "price": [
+                    "$135.00"
+                ],
+                "sku": "Item 2645778"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz / 100 mL parfum spray"
+                ],
+                "price": [
+                    "$175.00"
+                ],
+                "sku": "Item 2645786"
+            }
+        ],
+        "rating": "width:92.592%",
+        "product_reviews": "594",
+        "ingredients": "Alcohol, Parfum / Fragrance, Aqua / Water / Eau, Limonene, Linalool, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Alpha-Isomethyl Ionone, Citral, Citronellol, Coumarin, Geraniol, Ci 60730 / Ext. Violet 2, Ci 42090 / Blue 1, Ci 15985 / Yellow 6, Ci 19140 / Yellow 5.",
+        "n_loves": "1.9K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/all-hours-concealer-P507812",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:16:06",
+        "product_name": "All Hours Creaseless Precise Angles Concealer",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Color: LC1 - light shade with cool undertones 1",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2695443"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Color: LC2 - light shade with cool undertones 2",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2695450"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Color: LC5 - light shade with cool undertones 5",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2695468"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Color: LN1 - light shade with neutral undertones 1",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2695476"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Color: LN4 - light shade with neutral undertones 4",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2695484"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Color: LW1 - light shade with warm undertones 1",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2695492"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Color: LW7 - light shade with warm undertones 7",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2695500"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Color: MC2 - medium shade with cool undertones 2",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2695518"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Color: MN1 - medium shade with neutral undertones 1",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2695526"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Color: MN7 - medium shade with neutral undertones 7",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2695534"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Color: MW2 - medium shade with warm undertones 2",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2695542"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Color: MW9 - medium shade with warm undertones 9",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2695559"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Color: MN10 - medium shade with neutral undertones 10",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2695609"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Color: DN1 - deep shade with neutral undertones 1",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2695567"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Color: DW1 - deep shade with warm undertones 1",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2695617"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Color: DN5 - deep shade with neutral undertones 5",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2695575"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Color: DW4 - deep shade with neutral undertones 4",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2695583"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Color: DW7 - deep shade with warm undertones 7",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2695591"
+            }
+        ],
+        "rating": "width:80%",
+        "product_reviews": "1",
+        "ingredients": "-Caffeine Extracts: Known for its visibly anti-fatigue properties. -Jasmine Petals: Known for its anti-dullness and soothing properties.Aqua / Water / Eau, Dimethicone, Isododecane, Glycerin, Peg-9 Polydimethylsiloxyethyl Dimethicone, Propylene Glycol, Disteardimonium Hectorite, Silica, Dimethicone Crosspolymer, Peg-10 Dimethicone, Cetyl Peg/Ppg-10/1 Dimethicone, Sodium Chloride, Phenoxyethanol, Polyglyceryl-4 Isostearate, Caprylyl Glycol, Disodium Stearoyl Glutamate, Ethylhexylglycerin, Caffeine, Coffea Arabica Seed Oil / Coffee Seed Oil, Aluminum Hydroxide, Steareth-20, Jasminum Officinale Flower Extract / Jasmine Flower Extract, Chlorhexidine Digluconate, N-Hydroxysuccinimide, Tocopherol, Sodium Citrate, Potassium Sorbate, Palmitoyl Tripeptide-1, Chrysin, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Palmitoyl Tetrapeptide-7, Citric Acid, Biotin, [+/- May Contain: Ci 77891 / Titanium Dioxide, Ci 77491, Ci 77492, Ci 77499 / Iron Oxides].",
+        "n_loves": "307",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Concealer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/y-deodorant-stick-P430176",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:16:35",
+        "product_name": "Y Deodorant Stick",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2.6 oz/ 75 g"
+                ],
+                "price": [
+                    "$35.00"
+                ],
+                "sku": "Item 2037950"
+            }
+        ],
+        "rating": "width:84.00000000000001%",
+        "product_reviews": "10",
+        "ingredients": "Propylene Glycol, Aqua / Water, Glycerin, Sodium Stearate, Peg-4, Steareth-100, Parfum / Fragrance, Caprylyl Glycol, Sodium Hydroxide, Tetrasodium Edta, Linalool, Limonene, Alpha-Isomethyl Ionone, Coumarin, Citronellol, Geraniol, Citral.",
+        "n_loves": "2.4K",
+        "categories": [
+            "Bath & Body",
+            "Body Care",
+            "Deodorant & Antiperspirant"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/yves-saint-laurent-y-eau-fraiche-P457262",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:16:47",
+        "product_name": "Y Eau Fraiche",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 2.0 oz/ 60 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$115.00"
+                ],
+                "sku": "Item 2316081"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$150.00"
+                ],
+                "sku": "Item 2316073"
+            }
+        ],
+        "rating": "width:94.702%",
+        "product_reviews": "151",
+        "ingredients": "Alcohol, Parfum / Fragrance, Aqua / Water, Limonene, Linalool, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Citral, Alpha-Isomethyl Ionone, Hexyl Cinnamal, Citronellol, Geraniol, Coumarin, Ci 60730 / Ext. Violet 2, Ci 42090 / Blue 1.",
+        "n_loves": "3.4K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/rouge-pur-couture-slim-sheer-matte-lipstick-P449787",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 22:17:00"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/black-opium-P394534",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:17:09",
+        "product_name": "Black Opium Eau de Parfum",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.6 oz/ 50 mL"
+                ],
+                "price": [
+                    "$142.00"
+                ],
+                "sku": "Item 1698182"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3 oz/ 90 mL"
+                ],
+                "price": [
+                    "$193.00"
+                ],
+                "sku": "Item 1688852"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 5 oz/ 150 mL"
+                ],
+                "price": [
+                    "$220.00"
+                ],
+                "sku": "Item 2057289"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.33 oz/ 10 mL eau de parfum spray"
+                ],
+                "price": [
+                    "$43.00"
+                ],
+                "sku": "Item 1698299"
+            }
+        ],
+        "rating": "width:92.69999999999999%",
+        "product_reviews": "7.9K",
+        "ingredients": "ALCOHOL, WATER, BENZYL SALICYLATE, BENZYL ALCOHOL, HYDROXYCITRONELLAL, BUTYL METHOXYDIBENZOYLMETHANE, HEXYL CINNAMAL, LIMONENE, LINALOOL, GERANIOL, CITRONELLOL, CINNAMYL ALCOHOL, METHYL ANTHRANILATE, AMYL CINNAMAL, CITRAL, COUMARIN, BENZYL BENZOATE, CI 15985 / YELLOW 6, CI 17200 / RED 33",
+        "n_loves": "298.2K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/libre-eau-de-parfum-P448102",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:17:23",
+        "product_name": "Libre Eau De Parfum",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.04 oz/ 90 mL"
+                ],
+                "price": [
+                    "$200.00"
+                ],
+                "sku": "Item 2249746"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL"
+                ],
+                "price": [
+                    "$90.00"
+                ],
+                "sku": "Item 2249779"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL"
+                ],
+                "price": [
+                    "$150.00"
+                ],
+                "sku": "Item 2249738"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.33 oz/ 10 mL"
+                ],
+                "price": [
+                    "$43.00"
+                ],
+                "sku": "Item 2249720"
+            }
+        ],
+        "rating": "width:90.244%",
+        "product_reviews": "3.6K",
+        "ingredients": "ALCOHOL , PARFUM / FRAGRANCE, AQUA / WATER, LIMONENE, LINALOOL, BENZYL SALICYLATE, HYDROXYCITRONELLAL, BENZYL ALCOHOL, ETHYLHEXYL SALICYLATE, BUTYL METHOXYDIBENZOYLMETHANE, COUMARIN, GERANIOL, METHYL ANTHRANILATE, CITRONELLOL, CITRAL, ISOEUGENOL, ALPHA-ISOMETHYL IONONE, FARNESOL, CI 14700 / RED 4, CI 19140 / YELLOW 5, CI 60730 / EXT. VIOLET 2\n",
+        "n_loves": "177.3K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mascara-volume-effet-faux-cils-P432284",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:17:38",
+        "product_name": "The Curler Lengthening and Curling Mascara",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz/ 6.6 mL",
+                "name": [
+                    "Color: 1 Rebellious Black"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2038602"
+            }
+        ],
+        "rating": "width:85.244%",
+        "product_reviews": "328",
+        "ingredients": "-Coconut, Walnut Leaf, Bamboo Oils: Nourish for stronger, healthier lashes. Water, Paraffin, Potassium Cetyl Phosphate, Copernicia Cerifera Cera/Carnauba Wax, Ethylene/Acrylic Acid Copolymer, Styrene/Acrylates/Ammonium Methacrylate Copolymer, Cera Alba / Beeswax, Synthetic Beeswax, Bis-Diglyceryl Polyacyladipate-2, Polybutene, Cetyl Alcohol, Steareth-20, Glyceryl Dibehenate, Steareth-2, Phenoxyethanol, Hydroxyethylcellulose, Synthetic Fluorphlogopite, Acacia Senegal Gum, Tribehenin, Caprylyl Glycol, Glyceryl Behenate, Sodium Dehydroacetate, Hydrogenated Jojoba Oil, Hydrogenated Palm Oil, Silica, Disodium EDTA, Butylene Glycol, Sodium Laureth Sulfate, Benzyl Alcohol, Glycerin, Tetrasodium EDTA, Cocos Nucifera Oil/Coconut Oil, Caprylic/Capric Triglyceride, Potassium Sorbate, BHT, Bambusa Vulgaris Extract, Juglans Regia Leaf Extract/Walnut Leaf Extract, Fragrance.",
+        "n_loves": "16.8K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Mascara"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/womens-perfume-travel-trio-set-P506032",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:17:50",
+        "product_name": "Women's Perfume Travel Trio Set",
+        "brand_name": "Yves Saint Laurent",
+        "options": [],
+        "rating": "width:70%",
+        "product_reviews": "2",
+        "ingredients": "Libre: Alcohol , Parfum / Fragrance, Aqua / Water, Limonene, Linalool, Benzyl Salicylate, Hydroxycitronellal, Benzyl Alcohol, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Coumarin, Geraniol, Methyl Anthranilate, Citronellol, Citral, Isoeugenol, Alpha-Isomethyl Ionone, Farnesol, Ci 14700 / Red 4, Ci 19140 / Yellow 5, Ci 60730 / Ext. VIOLET 2.Black Opium: Alcohol, Water, Benzyl Salicylate, Benzyl Alcohol, Hydroxycitronellal, Butyl Methoxydibenzoylmethane, Hexyl Cinnamal, Limonene, Linalool, Geraniol, Citronellol, Cinnamyl Alcohol, Methyl Anthranilate, Amyl Cinnamal, Citral, Coumarin, Benzyl Benzoate, Ci 15985 / Yellow 6, Ci 17200 / Red 33.Mon Paris: Alcohol, Parfum / Fragrance, Aqua / Water, Benzyl Salicylate, Linalool, Benzyl Alcohol, Hydroxycitronellal, Ethylhexyl Methoxycinnamate, Limonene, Hexyl Cinnamal, Geraniol, Citronellol, Butyl Methoxydibenzoylmethane, Ethylhexyl Salicylate, Eugenol, Citral, Tris (Tetramethylhydroxypiperidinol) Citrate, Benzyl Benzoate, Farnesol, Bht, Ci 17200 / Red 33, Ci 60730 / Ext. Violet 2.",
+        "n_loves": "4.2K",
+        "categories": [
+            "Fragrance",
+            "Value & Gift Sets",
+            "Perfume Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/yves-saint-laurent-the-slim-velvet-radical-matte-lipstick-P474872",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:17:59",
+        "product_name": "The Slim Velvet Radical Matte Lipstick",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.07 oz/ 2 g",
+                "name": [
+                    "Color: 304 Beige Instinct - pink nude",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2489391"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.07 oz/ 2 g",
+                "name": [
+                    "Color: 301 Nude Pulsion - beige nude",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2489409"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.07 oz/ 2 g",
+                "name": [
+                    "Color: 302 Brown. No Way Back. - brown red",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2489375"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.08 oz/ 2.2g",
+                "name": [
+                    "Color: 305 Orange Surge - deep orange",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2489474"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.07 oz/ 2 g",
+                "name": [
+                    "Color: 308 Radical Chili - deep red",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2489441"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.07 oz/ 2 g",
+                "name": [
+                    "Color: 307 Fiery Spice - orange red",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2489417"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.07 oz/ 2 g",
+                "name": [
+                    "Color: 311 Released Nude - tan rose",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2510212"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.07 oz/ 2 g",
+                "name": [
+                    "Color: 312 Unconventional Nude - berry brown",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2510220"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.07 oz/ 2 g",
+                "name": [
+                    "Color: 313 Irreverent Cinnamon - burnt orange",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2510238"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.07 oz/ 2 g",
+                "name": [
+                    "Color: 314 Limitless Cinnabar - deep beige"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2510246"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.07 oz/ 2 g",
+                "name": [
+                    "Color: 315 Boundless Maroon - nude brown",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2510253"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.07 oz/ 2 g",
+                "name": [
+                    "Color: 1966 Rouge Libre - blood red",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2510204"
+            }
+        ],
+        "rating": "width:91.45400000000001%",
+        "product_reviews": "1.3K",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "60K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Lipstick"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mascara-volume-effet-faux-cils-luxurious-mascara-P393427",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:18:21",
+        "product_name": "Mascara Volume Effet Faux Cils Volumizing Mascara",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Color: 1 High Density Black",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 1666676"
+            }
+        ],
+        "rating": "width:77.726%",
+        "product_reviews": "431",
+        "ingredients": "Water, Paraffin, Stearic Acid, Palmitic Acid, Copernicia Cerifera Cera/Carnauba Wax, C10-30 Cholesterol/Lanosterol Esters, Cera Alba/Beeswax, Triethanolamine, Stearyl, Stearate, Silica, Nylon-12, Aminomethyl Propanol, Phenoxyethanol, Hydroxyethylcellulose, Candelilla Cera/Candelilla Wax, Dimethicone, Myristic Acid, Tocopheryl Acetate, Panthenol, Methylparaben, Vp/Eicosene Copolymer, Adipic Acid/Diethylene Glycol/Glycerin Crosspolymer, Sorbitan Stearate, Butylparaben, Peg-40 Stearate, Bht, Behenic Acid, Ethylparaben, Argania Spinosa Oil/Argania Spinosa Kernel Oil, Ricinus Communis Oil/Castor Seed Oil, Prunus Amygdalus Dulcis Oil/Sweet Almond Oil, Propylparaben, Carthamus Tinctorius Seed Oil/Safflower Seed Oil, Benzyl Alcohol, Fragrance.",
+        "n_loves": "27.4K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Mascara"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/yves-saint-laurent-libre-eau-de-parfum-intense-P463118",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:18:33",
+        "product_name": "LIBRE Eau de Parfum Intense",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.6 oz/ 50 ml"
+                ],
+                "price": [
+                    "$150.00"
+                ],
+                "sku": "Item 2383784"
+            }
+        ],
+        "rating": "width:97.402%",
+        "product_reviews": "77",
+        "ingredients": "Alcohol, Parfum / Fragrance, Aqua / Water, Linalool, Citronellol, Benzyl Salicylate, Limonene, Butyl Methoxydibenzoylmethane, Methyl Anthranilate, Benzyl Alcohol, Coumarin, Hydroxycitronellal, Geraniol, Citral, Isoeugenol, Farnesol, Alpha-Isomethyl Ionone, Ci 15985 / Yellow 6, Ci 60730 / Ext. Violet 2, Ci 19140 / Yellow 5, Ci 14700 / Red 4. ",
+        "n_loves": "12K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/yves-saint-laurent-the-bold-high-pigment-lipstick-P501588",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:18:45",
+        "product_name": "The Bold High Pigment Lipstick",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Satin finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.1 oz / 2.8 g",
+                "name": [
+                    "Color: 11 Nude Undisclosed - deep blush",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597797"
+            },
+            {
+                "swatch_group": "Satin finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.1 oz / 2.8 g",
+                "name": [
+                    "Color: 10 Brazen Nude - terracotta nude"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597789"
+            },
+            {
+                "swatch_group": "Satin finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.1 oz / 2.8 g",
+                "name": [
+                    "Color: 07 Unhibited Flame - fiery red"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597755"
+            },
+            {
+                "swatch_group": "Satin finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.1 oz / 2.8 g",
+                "name": [
+                    "Color: 08 Fearless Carnelian - burnt red",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597763"
+            },
+            {
+                "swatch_group": "Satin finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.1 oz / 2.8 g",
+                "name": [
+                    "Color: 1971 Rouge Provocation - classic red"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597730"
+            },
+            {
+                "swatch_group": "Satin finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.1 oz / 2.8 g",
+                "name": [
+                    "Color: 01 Le Rouge - blood red"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597706"
+            },
+            {
+                "swatch_group": "Satin finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.1 oz / 2.8 g",
+                "name": [
+                    "Color: 12 Nu Incongru - dusty rose"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597805"
+            },
+            {
+                "swatch_group": "Satin finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.1 oz / 2.8 g",
+                "name": [
+                    "Color: 02 Wilful Red - electric red"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597714"
+            },
+            {
+                "swatch_group": "Satin finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.1 oz / 2.8 g",
+                "name": [
+                    "Color: 06 Reignited Amber - deep rosewood",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2597748"
+            },
+            {
+                "swatch_group": "Satin finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.1 oz / 2.8 g",
+                "name": [
+                    "Color: 1968 Nude Statement - pink nude"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2662294"
+            },
+            {
+                "swatch_group": "Satin finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.1 oz / 2.8 g",
+                "name": [
+                    "Color: 13 Nude Era - beige nude"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2662278"
+            },
+            {
+                "swatch_group": "Satin finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.1 oz / 2.8 g",
+                "name": [
+                    "Color: 14 Nude Tribute - warm red"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 2662286"
+            }
+        ],
+        "rating": "width:87.912%",
+        "product_reviews": "1.2K",
+        "ingredients": "Trimethylsiloxyphenyl Dimethicone , C12-15 Alkyl Benzoate, Octyldodecanol, Hydrogenated Polyisobutene, Vp/Eicosene, Copolymer, Ci 77891 / Titanium Dioxide, Ethylcellulose, Paraffin, Polyethylene, Cera Microcristallina / Microcrystalline Wax / Cire, Microcristalline, Peg-45/Dodecyl Glycol Copolymer, Ci 77492 / Iron Oxides, Ci 15850 / Red 7, Ci 77491 / Iron Oxides, Methyl Methacrylate Crosspolymer,Synthetic Wax ,Tihydroxystearin, Vitis Vinifera Seed Oil / Grape Seed Oil, Triethoxysilylethyl Polydimethylsiloxyethyl Dimethicone, Isopropyl Titanium Triisostearate, Ci 77499 / Iron Oxides, Alumina, Aqua / Water / Eau \nTocopherol, Glycerin, Helianthus Annuus Seed Oil / Sunflower Seed Oil, Rosmarinus Officinalis Extract / Rosemary Extract , Papaver Rhoeas Petal Extract, Citric Acid, Sodium Benzoate, Potassium Sorbate, Parfum / Fragrance",
+        "n_loves": "31.6K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Lipstick"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nu-lip-cheek-balmy-tint-with-hyaluronic-acid-P500493",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:19:05",
+        "product_name": "NU LIP & CHEEK BALMY TINT with Hyaluronic Acid",
+        "brand_name": "Yves Saint Laurent",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.5 oz / 15 mL",
+                "name": [
+                    "Color: Nu Chills - soft plum"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2511202"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.5 oz / 15 mL",
+                "name": [
+                    "Color: Nu Flush - cherry red"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2511194"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.5 oz / 15 mL",
+                "name": [
+                    "Color: Nu Pinch - peach nude"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2511210"
+            }
+        ],
+        "rating": "width:84.19000000000001%",
+        "product_reviews": "315",
+        "ingredients": "-Hyaluronic Acid: Known for hydrating and glowing properties.-Orange Blossom: Known for visibly calming and hydrating properties.-Shea Butter: Known for emollient, moisturizing, and nourishing properties.Caprylic/Capric Triglyceride, Ppg-5 Pentaerythrityl Ether, Peg-5 Pentaerythrityl Ether, Butyrospermum Parkii Butter / Shea Butter, Polybutene, Cera Alba / Beeswax / Cire Dabeille, Hydrogenated Vegetable Oil, Silica Silylate, Glycine Soja Sterols / Soybean Sterols, Octyldodecanol, Ci 77891 / Titanium Dioxide, Ci 77492 / Iron Oxides, Ci 77491 / Iron Oxides, Ethylhexyl Palmitate, Tocopheryl Acetate, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Alumina, Ci 15985 / Yellow 6 Lake, Citrus Aurantium Amara Flower Oil / Bitter Orange Flower Oil, Vanilla Planifolia Fruit Extract, Linalool, Ci 15850 / Red 7, Tribehenin, Aluminum Hydroxide, Limonene, Sorbitan Isostearate, Silica, Farnesol, Punica Granatum Fruit Extract, Geraniol, Trihydroxystearin, Lactic Acid, Sodium Hyaluronate, Palmitoyl Tripeptide-1, Citric Acid, Glucomannan.",
+        "n_loves": "18.1K",
+        "categories": [
+            "Makeup",
+            "Cheek",
+            "Blush"
+        ]
+    }
+]

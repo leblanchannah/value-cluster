@@ -1,0 +1,1452 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/versace-dylan-turquoise-travel-spray-P468857",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:11:22",
+        "product_name": "Dylan Turquoise Pour Femme Travel Spray",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.3 oz/ 10 mL"
+                ],
+                "price": [
+                    "$38.00"
+                ],
+                "sku": "Item 2427516"
+            }
+        ],
+        "rating": "width:85.896%",
+        "product_reviews": "804",
+        "ingredients": "Alcohol Denat. (Sd Alcohol 39-C), Parfum (Fragrance), Benzyl Salicylate, Limonene, Aqua (Water), Hydroxycitronellal, Ethylhexyl Methoxycinnamate, Citronellol, Hexyl Cinnamal, Geraniol, Linalool, Cinnamyl Alcohol, Citral, Butyl Methoxydibenzoylmethane, Ethylhexyl, Salicylate, Anise Alcohol.",
+        "n_loves": "8.4K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/versace-eros-eau-de-toilette-gift-set-P505528",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:11:37",
+        "product_name": "Eros Eau de Toilette Gift Set",
+        "brand_name": "Versace",
+        "options": [],
+        "rating": "width:100%",
+        "product_reviews": "1",
+        "ingredients": "Versace Eros Eau De Toilette:Alcohol, Denat. (Sd Alcohol 39 C), Fragrance, Water, Limonene, Ethylhexylmethoxycinnamate/Butylmethoxydibenzoylimethane/Ethylhexylsalicylate, Coumarin, Linalool, Alpha-Isomethyl Ionone, Citronellol, Citral, Geraniol, Cinnamal, Eugenol.Versace Eros Eau de Toilette Shower Gel: Aqua (Water), Sodium Laureth Sulfate, Parfum (Fragrance), Cocamidopropyl Betaine, Polysorbate 20, Peg-150 Distearate, Disodium Cocoamphodiacetate, Sodium Benzoin, Bimonene, Citric Acid, Sodium Chloride, Disodium Edta, Coumarin, Alpha-Isomethyl Ionone, Linalool, Citronellol, Citral, Bht.",
+        "n_loves": "441",
+        "categories": [
+            "Fragrance",
+            "Value & Gift Sets",
+            "Perfume Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/dylan-blue-P411325",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:11:48",
+        "product_name": "Dylan Blue",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL"
+                ],
+                "price": [
+                    "$125.00"
+                ],
+                "sku": "Item 1849207"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL"
+                ],
+                "price": [
+                    "$98.00"
+                ],
+                "sku": "Item 1849199"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 0.33 oz/ 10 mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$38.00"
+                ],
+                "sku": "Item 1849215"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 6.7 oz/ 200 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$169.00"
+                ],
+                "sku": "Item 1988245"
+            }
+        ],
+        "rating": "width:94.07400000000001%",
+        "product_reviews": "162",
+        "ingredients": "Alcohol Denat. (Sd Alcohol 39-C), Fragrance, Water, Linalool, Ethylhexyl Methoxycinnamate, Butyl Methoxydibenzoylmethane, Ethylhexyl Salicylate, Limonene, Coumarin, Citronellol, Alpha-Isomethyl Ionone, Citral, Geraniol, Farnesol.",
+        "n_loves": "21K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/dylan-purple-ovetto-P505123",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:12:03",
+        "product_name": "Dylan Purple Ovetto",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.34 / 10 eau de parfum spray"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2664712"
+            }
+        ],
+        "rating": "width:91.11200000000001%",
+        "product_reviews": "18",
+        "ingredients": "Alcohol Denat. (Sd Alcohol 39-C), Parfum (Fragrance), Aqua (Water), Linalool, Limonene, Citral.",
+        "n_loves": "6.2K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/bright-crystal-P163103",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:12:14",
+        "product_name": "Bright Crystal",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL"
+                ],
+                "price": [
+                    "$79.00"
+                ],
+                "sku": "Item 943555"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3 oz/ 90 mL"
+                ],
+                "price": [
+                    "$139.00"
+                ],
+                "sku": "Item 1063619"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL"
+                ],
+                "price": [
+                    "$109.00"
+                ],
+                "sku": "Item 943571"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.34 oz/ 10 mL"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 1712918"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.3 oz/ 10mL"
+                ],
+                "price": [
+                    "$38.00"
+                ],
+                "sku": "Item 2198737"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 6.7 oz/ 198 mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$179.00"
+                ],
+                "sku": "Item 1766856"
+            }
+        ],
+        "rating": "width:90.67%",
+        "product_reviews": "2.3K",
+        "ingredients": "Alcohol, Denat. (Sd Alcohol 39-C), Fragrance, Water, Butylphenyl, \nMethylpropional, Ethylhexyl Methoxycinnamate, Hydroxysohexyl 3-Cyclohexene \nCarboxaldehyde, Linalool, Citronellol, Ethylhexyl Salicylate, Butyl, Methoxydibenzoylmethane, Limonene, Geraniol, Ci 17200 (Red 33), Ci 15985 (Yellow 6). ",
+        "n_loves": "172K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/dylan-blue-pour-femme-ovetto-P432419",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:12:34",
+        "product_name": "Dylan Blue Pour Femme Ovetto Spray",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.34 oz/ 10 mL"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2088128"
+            }
+        ],
+        "rating": "width:88.928%",
+        "product_reviews": "56",
+        "ingredients": "Alcohol Denat. (Sd Alcohol 39-C), Fragrance, Water, Benzyl Salicylate, \nLimonene, Citronellol, Hydroxycitronellal, Alpha-Isomethyl Ionone, Ethylhexyl \nMethoxycinnamate, Linalool, Benzyl Benzoate, Hexyl Cinnamal, Ethylhexyl Salicylate, \nButyl Methoxydibenzoylmethane, Geraniol, Citral, Benzyl Alcohol, Farnesol, Cinnamyl Alcohol.",
+        "n_loves": "20.8K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/versace-man-eau-fraiche-P169301",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:12:46",
+        "product_name": "Versace Man Eau Fraiche",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$96.00"
+                ],
+                "sku": "Item 972638"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL"
+                ],
+                "price": [
+                    "$119.00"
+                ],
+                "sku": "Item 972646"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$76.00"
+                ],
+                "sku": "Item 1068840"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 6.7 oz/ 200 mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$166.00"
+                ],
+                "sku": "Item 1359306"
+            }
+        ],
+        "rating": "width:96.60399999999998%",
+        "product_reviews": "324",
+        "ingredients": "Alcohol Denat. (Sd Alcohol 39-C), Fragrance, Limonene, Linalool, Ethylhexyl \nMethoxycinnamate, Butyl Methoxydibenzoylmethane, Ethylhexyl, Salicylate Citral, \nCitronellol, Geraniol, Isoeugenol.",
+        "n_loves": "16K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/bright-crystal-absolu-ovetto-P432418",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:13:00",
+        "product_name": "Bright Crystal Absolu Ovetto Spray",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.34 oz/ 10 mL"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2087997"
+            }
+        ],
+        "rating": "width:90%",
+        "product_reviews": "34",
+        "ingredients": "Alcohol, Denat. (Sd Alcohol 39-C), Fragrance, Water, Butylphenyl, \nMethylpropional, Ethylhexyl Methoxycinnamate, Hydroxysohexyl 3-Cyclohexene \nCarboxaldehyde, Linalool, Citronellol, Ethylhexyl Salicylate, Butyl, \nMethoxydibenzoylmethane, Limonene. ",
+        "n_loves": "15.2K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/dylan-blue-pour-femme-P429981",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:13:12",
+        "product_name": "Dylan Blue Pour Femme",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.0 oz/ 30 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$92.00"
+                ],
+                "sku": "Item 2036820"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL"
+                ],
+                "price": [
+                    "$120.00"
+                ],
+                "sku": "Item 2052546"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.34 oz/ 10 mL"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2088128"
+            }
+        ],
+        "rating": "width:82.956%",
+        "product_reviews": "318",
+        "ingredients": "Alcohol Denat. (Sd Alcohol 39-C), Fragrance, Water, Benzyl Salicylate, \nLimonene, Citronellol, Hydroxycitronellal, Alpha-Isomethyl Ionone, Ethylhexyl \nMethoxycinnamate, Linalool, Benzyl Benzoate, Hexyl Cinnamal, Ethylhexyl Salicylate, \nButyl Methoxydibenzoylmethane, Geraniol, Citral, Benzyl Alcohol, Farnesol, Cinnamyl Alcohol.",
+        "n_loves": "39.4K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/bright-crystal-purse-spray-P399835",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:13:25",
+        "product_name": "Bright Crystal Ovetto Mini Spray",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.34 oz/ 10 mL"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 1712918"
+            }
+        ],
+        "rating": "width:90.67%",
+        "product_reviews": "2.3K",
+        "ingredients": "Alcohol, Denat. (Sd Alcohol 39-C), Fragrance, Water, Butylphenyl, \nMethylpropional, Ethylhexyl Methoxycinnamate, Hydroxysohexyl 3-Cyclohexene \nCarboxaldehyde, Linalool, Citronellol, Ethylhexyl Salicylate, Butyl, Methoxydibenzoylmethane, Limonene, Geraniol, Ci 17200 (Red 33), Ci 15985 (Yellow 6). ",
+        "n_loves": "47.3K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/versace-bright-crystal-yellow-diamond-duo-P453658",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:13:37",
+        "product_name": "Bright Crystal & Yellow Diamond Duo",
+        "brand_name": "Versace",
+        "options": [],
+        "rating": "width:80%",
+        "product_reviews": "1",
+        "ingredients": "Bright Crystal:Edt Vol. 72% - Alcohol Denat.(Sd Alcohol 39c), Parfum (Fragrance), Aqua (Water), Butylphenyl Methylpropional, Ethylhexyl Methoxycinnamate, Linalool, Citronellol, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Limonene, Ci 17200 (Red 33), Ci 15985 (Yellow 6).Yellow Diamond: Edt Vol. 69% - Alcohol Denat. (Sd Alcohol 39c), Parfum (Fragrance), Aqua (Water), Butylphenyl Methylpropional, Limonene, Ethylhexyl Methoxycinnamate, Linalool, Alphaisomethyl Ionone, Hydroxycitronellal, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Benzyl Salicylate, Citronellol, Hexyl Cinnamal, Geraniol, Citral, Ci 19140 (Yellow 5), Ci 17200 (Red 33).",
+        "n_loves": "602",
+        "categories": [
+            "Fragrance",
+            "Value & Gift Sets",
+            "Perfume Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/versace-dylan-turquoise-P468856",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:13:47",
+        "product_name": "Dylan Turquoise Pour Femme",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL eau de toilette spray",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$109.00"
+                ],
+                "sku": "Item 2427490"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$139.00"
+                ],
+                "sku": "Item 2427482"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$84.00"
+                ],
+                "sku": "Item 2427508"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 0.34 oz/ 10 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2470821"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.3 oz/ 10 mL"
+                ],
+                "price": [
+                    "$38.00"
+                ],
+                "sku": "Item 2427516"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 6.7 oz / 200 mL eau de toilette spray",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$178.00"
+                ],
+                "sku": "Item 2575470"
+            }
+        ],
+        "rating": "width:85.896%",
+        "product_reviews": "804",
+        "ingredients": "Alcohol Denat. (Sd Alcohol 39-C), Parfum (Fragrance), Benzyl Salicylate, Limonene, Aqua (Water), Hydroxycitronellal, Ethylhexyl Methoxycinnamate, Citronellol, Hexyl Cinnamal, Geraniol, Linalool, Cinnamyl Alcohol, Citral, Butyl Methoxydibenzoylmethane,, Ethylhexyl, Salicylate, Anise Alcohol.",
+        "n_loves": "20.2K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pour-homme-P219907",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:14:01",
+        "product_name": "Pour Homme Eau de Toilette",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL"
+                ],
+                "price": [
+                    "$119.00"
+                ],
+                "sku": "Item 1112481"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$96.00"
+                ],
+                "sku": "Item 1112457"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 6.7 oz/ 200 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$166.00"
+                ],
+                "sku": "Item 1359298"
+            }
+        ],
+        "rating": "width:96.898%",
+        "product_reviews": "316",
+        "ingredients": "Alcohol Denat. (Sd Alcohol 39-C), Fragrance, Linalool, Water, Limonene, \nEthylhexyl, Methoxycinnamate, Butyl Methoxydibenzoylmethane, Ethylhexyl Salicylate, \nButyl Methylpropional, Alpha-Isomethyl Ionone, Citronellol, Citral, Couramin, Geraniol, \nCi 60730 (Ext. Violet 2), Ci 42090 (Blue I), Ci 19140 (Yellow 5).",
+        "n_loves": "17.8K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/dylan-blue-travel-spray-P413150",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:14:14",
+        "product_name": "Dylan Blue Pour Homme Travel Spray",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 0.33 oz/ 10 mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$38.00"
+                ],
+                "sku": "Item 1849215"
+            }
+        ],
+        "rating": "width:92.444%",
+        "product_reviews": "45",
+        "ingredients": "Alcohol Denat. (Sd Alcohol 39-C), Fragrance, Water, Linalool, Ethylhexyl Methoxycinnamate, Butyl Methoxydibenzoylmethane, Ethylhexyl Salicylate, Limonene, Coumarin, Citronellol, Alpha-Isomethyl Ionone, Citral, Geraniol, Farnesol.",
+        "n_loves": "8.9K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/versace-eros-parfum-P477738",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:14:28",
+        "product_name": "Eros Parfum",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL"
+                ],
+                "price": [
+                    "$179.00"
+                ],
+                "sku": "Item 2480689"
+            }
+        ],
+        "rating": "width:100%",
+        "product_reviews": "8",
+        "ingredients": "Alcohol Denat. (Sd Alcohol 39-C .), Parfum (Fragrance), Aqua (Water), Limonene, Coumarin, Linalool, Alpha-Isomethyl Ionone, Citral, Citronellol, Geraniol, Cinnamal, Eugenol.",
+        "n_loves": "2.6K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/versace-dylan-purple-eau-de-parfum-P504912",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:14:41",
+        "product_name": "Dylan Purple Eau de Parfum",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz / 30 mL eau de parfum spray"
+                ],
+                "price": [
+                    "$86.00"
+                ],
+                "sku": "Item 2657559"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz / 50 mL eau de parfum spray"
+                ],
+                "price": [
+                    "$119.00"
+                ],
+                "sku": "Item 2631414"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz / 100 mL eau de parfum spray"
+                ],
+                "price": [
+                    "$149.00"
+                ],
+                "sku": "Item 2657567"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.34 oz / 10 ml eau de parfum spray"
+                ],
+                "price": [
+                    "$38.00"
+                ],
+                "sku": "Item 2664704"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.34 / 10 eau de parfum spray"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2664712"
+            }
+        ],
+        "rating": "width:76.18400000000001%",
+        "product_reviews": "131",
+        "ingredients": "Alcohol Denat (SD Alcohol 39-C), Parfum (Fragrance), Aqua (Water), Linalool, Limonene, Citral.",
+        "n_loves": "16.8K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/eros-P390009",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:14:59",
+        "product_name": "Eros Pour Homme Travel Spray",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 0.3 oz/ 10 mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$38.00"
+                ],
+                "sku": "Item 1649607"
+            }
+        ],
+        "rating": "width:100%",
+        "product_reviews": "18",
+        "ingredients": "Alcohol, Denat. (Sd Alcohol 39 C), Fragrance, Water, Limonene, \nEthylhexylmethoxycinnamate/ Butylmethoxydibenzoylimethane/Ethylhexylsalicylate, \nCoumarin, Linalool, Alpha-Isomethyl Ionone, Citronellol, Citral, Geraniol, Cinnamal, Eugenol. ",
+        "n_loves": "7.7K",
+        "categories": [
+            "Fragrance",
+            "Mini Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/eros-pour-femme-eau-de-toilette-P412536",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:15:13",
+        "product_name": "Eros Pour Femme Eau de Toilette",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$109.00"
+                ],
+                "sku": "Item 1844356"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$139.00"
+                ],
+                "sku": "Item 1849165"
+            }
+        ],
+        "rating": "width:93.54799999999999%",
+        "product_reviews": "62",
+        "ingredients": "Alcohol Denat. (Sd Alcohol 39-C), Fragrance, Water, Limonene, Linalool, Ethylhexyl Methoxycinnamate, Alpha-Isomethyl Ionone, Hydrocitronellal, Citronellol, Ethylhexyl, Salicylate, Geraniol, Butyl Methodibenzoylmethane, Citral Hexyl Cinnamal, Methyl 2-Octynoate, Ci 19140 (Yellow 5), Ci 17200 (Red 33).",
+        "n_loves": "12K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/duo-mini-set-P506021",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:15:29",
+        "product_name": "Duo Mini Set",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "LIMITED EDITION",
+                "size": null,
+                "name": [
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2664746"
+            }
+        ],
+        "rating": "width:80%",
+        "product_reviews": "4",
+        "ingredients": "Bright Crystal Eau de Toilette:Alcohol Denat. (SD Alcohol 39-C), Parfum (Fragrance), Aqua (Water), Butylphenyl Methylpropional, Ethylhexyl Methoxycinnamate, Hydroxyisohexyl 3-Cyclohexene, Carboxaldehyde, Linalool, Citronellol, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Limonene, Geraniol, CL 17200 (D&C Red 33), CL 15985 (FD&C Yellow 6).Dylan Purple Eau de Parfum:Alcohol Denat (SD Alcohol 39-C), Parfum (Fragrance), Aqua (Water), Linalool, Limonene, Citral.",
+        "n_loves": "4.7K",
+        "categories": [
+            "Mini Size",
+            "Fragrance"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/bright-crystal-body-lotion-P306816",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:15:43",
+        "product_name": "Bright Crystal Body Lotion",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 6.8 oz/ 200 mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$72.00"
+                ],
+                "sku": "Item 955641"
+            }
+        ],
+        "rating": "width:82.352%",
+        "product_reviews": "17",
+        "ingredients": "Aqua (Water), Ethylhexyl Stearate, Parfum (Fragrance), Cyclopentasiloxane, Polysorbate 20, Dimethicone, Carbomer, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Menthyl Lactate, Peg-12 Dimethicone, Polysorbate 80, Triethanolamine, Disodium Edta, Phenoxyethanol, Ethylparaben, Methylparaben, Caprylyl Glycol, Citronellol, Butylphenyl Methylpropional.",
+        "n_loves": "7.3K",
+        "categories": [
+            "Bath & Body",
+            "Body Moisturizers",
+            "Body Lotions & Body Oils"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/bright-crystal-absolu-travel-spray-P505269",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:15:55",
+        "product_name": "Bright Crystal Absolu Travel Spray",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: .34 oz / 10 mL eau de parfum spray",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2683233"
+            }
+        ],
+        "rating": "width:100%",
+        "product_reviews": "3",
+        "ingredients": "Alcohol, Denat. (Sd Alcohol 39-C), Fragrance, Water, Butylphenyl, \nMethylpropional, Ethylhexyl Methoxycinnamate, Hydroxysohexyl 3-Cyclohexene \nCarboxaldehyde, Linalool, Citronellol, Ethylhexyl Salicylate, Butyl, \nMethoxydibenzoylmethane, Limonene.",
+        "n_loves": "2.1K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/eros-P382751",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:16:08",
+        "product_name": "Eros",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL"
+                ],
+                "price": [
+                    "$125.00"
+                ],
+                "sku": "Item 1513225"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL"
+                ],
+                "price": [
+                    "$98.00"
+                ],
+                "sku": "Item 1513217"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 6.7 oz/ 200 mL"
+                ],
+                "price": [
+                    "$169.00"
+                ],
+                "sku": "Item 1558857"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 0.3 oz/ 10 mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$38.00"
+                ],
+                "sku": "Item 1649607"
+            }
+        ],
+        "rating": "width:94.374%",
+        "product_reviews": "423",
+        "ingredients": "Alcohol, Denat. (Sd Alcohol 39 C), Fragrance, Water, Limonene, \nEthylhexylmethoxycinnamate/Butylmethoxydibenzoylimethane/Ethylhexylsalicylate, \nCoumarin, Linalool, Alpha-Isomethyl Ionone, Citronellol, Citral, Geraniol, Cinnamal, Eugenol. ",
+        "n_loves": "51K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/eros-flame-travel-spray-P442727",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:16:26",
+        "product_name": "Eros Flame Travel Spray",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 0.3 oz/ 10 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$38.00"
+                ],
+                "sku": "Item 2175222"
+            }
+        ],
+        "rating": "width:92.174%",
+        "product_reviews": "23",
+        "ingredients": "Alcohol Denat. (Sd Alcohol 39-C), Fragrance, Water, Limonene, Linalool, Coumarin, Ethylhexyl Methoxycinnamate, Alpha-Isomethyl Ionone, Citronellol, Citral, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Geraniol, Isoeugenol.",
+        "n_loves": "5.5K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/versace-dylan-turquoise-ovetto-spray-P478046",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:16:42",
+        "product_name": "Dylan Turquoise Ovetto Spray",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 0.34 oz/ 10 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2470821"
+            }
+        ],
+        "rating": "width:94.28599999999999%",
+        "product_reviews": "14",
+        "ingredients": "Alcohol Denat. (Sd Alcohol 39-C), Parfum (Fragrance), Benzyl Salicylate, Limonene, Aqua (Water), Hydroxycitronellal, Ethylhexyl Methoxycinnamate, Citronellol, Hexyl Cinnamal, Geraniol, Linalool, Cinnamyl Alcohol, Citral, Butyl Methoxydibenzoylmethane, Ethylhexyl, Salicylate, Anise Alcohol.",
+        "n_loves": "7K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/bright-crystal-travel-spray-P443788",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:16:57",
+        "product_name": "Bright Crystal Travel Spray",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.3 oz/ 10mL"
+                ],
+                "price": [
+                    "$38.00"
+                ],
+                "sku": "Item 2198737"
+            }
+        ],
+        "rating": "width:90.67%",
+        "product_reviews": "2.3K",
+        "ingredients": "Edt Vol. 72% - Alcohol Denat.(Sd Alcohol 39c), Parfum (Fragrance), Aqua (Water), Butylphenyl Methylpropional, Ethylhexyl Methoxycinnamate, Linalool, Citronellol, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Limonene, Ci 17200 (Red 33), Ci 15985 (Yellow 6).",
+        "n_loves": "19.7K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/versace-eros-pour-homme-eau-de-parfum-P464315",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:17:09",
+        "product_name": "Eros Pour Homme Eau de Parfum",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "NEW",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz / 50 mL eau de parfum spray",
+                    "NEW"
+                ],
+                "price": [
+                    "$112.00"
+                ],
+                "sku": "Item 2705366"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz / 100 mL eau de parfum spray"
+                ],
+                "price": [
+                    "$139.00"
+                ],
+                "sku": "Item 2371581"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 6.7 oz / 200 mL eau de parfum spray",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$192.00"
+                ],
+                "sku": "Item 2431252"
+            }
+        ],
+        "rating": "width:90%",
+        "product_reviews": "28",
+        "ingredients": "Alcohol Denat. (Sd Alcohol 39-C), Parfum (Fragrance), Aqua (Water), Limonene, Linalool, Coumarin, Alpha-Isometyl Ionone, Citral, Citronellol, Geraniol, Cinnamal, Eugenol.",
+        "n_loves": "9.6K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/bright-crystal-absolu-P385465",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:17:23",
+        "product_name": "Bright Crystal Absolu",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3 oz/ 90 mL"
+                ],
+                "price": [
+                    "$149.00"
+                ],
+                "sku": "Item 1605385"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$119.00"
+                ],
+                "sku": "Item 1602127"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: .34 oz / 10 mL eau de parfum spray",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2683233"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.34 oz/ 10 mL"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2087997"
+            }
+        ],
+        "rating": "width:92.57799999999999%",
+        "product_reviews": "194",
+        "ingredients": "Alcohol, Denat. (Sd Alcohol 39-C), Fragrance, Water, Butylphenyl, \nMethylpropional, Ethylhexyl Methoxycinnamate, Hydroxysohexyl 3-Cyclohexene \nCarboxaldehyde, Linalool, Citronellol, Ethylhexyl Salicylate, Butyl, \nMethoxydibenzoylmethane, Limonene. ",
+        "n_loves": "24.6K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/versace-bright-crystal-amd-bright-crystal-absolu-mini-coffret-P455378",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:17:41",
+        "product_name": "Mini Bright Crystal and Bright Crystal Absolu Set",
+        "brand_name": "Versace",
+        "options": [],
+        "rating": "width:88.444%",
+        "product_reviews": "90",
+        "ingredients": "Bright Crystal Absolu Eau de Parfum:Alcohol, Denat. (Sd Alcohol 39-C), Fragrance, Water, Butylphenyl, Methylpropional, Ethylhexyl Methoxycinnamate, Hydroxysohexyl 3-Cyclohexene Carboxaldehyde, Linalool, Citronellol, Ethylhexyl Salicylate, Butyl, Methoxydibenzoylmethane, Limonene.Bright Crystal Eau de Toilette:Alcohol, Denat. (Sd Alcohol 39-C), Fragrance, Water, Butylphenyl, Methylpropional, Ethylhexyl Methoxycinnamate, Hydroxysohexyl 3-Cyclohexene Carboxaldehyde, Linalool, Citronellol, Ethylhexyl Salicylate, Butyl, Methoxydibenzoylmethane, Limonene, Geraniol, Ci 17200 (Red 33), Ci 15985 (Yellow 6).",
+        "n_loves": "82.9K",
+        "categories": [
+            "Fragrance",
+            "Value & Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/eros-pour-femme-eau-de-parfum-P395212",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:17:51",
+        "product_name": "Eros Pour Femme Eau de Parfum",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$165.00"
+                ],
+                "sku": "Item 1696921"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$125.00"
+                ],
+                "sku": "Item 1696913"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$90.00"
+                ],
+                "sku": "Item 1696939"
+            }
+        ],
+        "rating": "width:91.256%",
+        "product_reviews": "247",
+        "ingredients": "Alcohol Denat (Sd Alcohol 39-C), Fragrance, Water, Limonene, Ethylhexyl Methoxycinnamate, Benzyl Salicylate, Hexyl Cinnamal, Citronellol, Hydroxycitronellal, Alpha-Isomethyl Ionone, Linalool, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Geraniol, Citral, Farnesol, Cinnamyl Alcohol, Benzyl Benzdate, Benzyl Alcohol, Ci 19140 (Yellow 5), Ci 17200 (Red 33).",
+        "n_loves": "28K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/eros-flame-P442726",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:18:05",
+        "product_name": "Eros Flame",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL"
+                ],
+                "price": [
+                    "$139.00"
+                ],
+                "sku": "Item 2175214"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 0.3 oz/ 10 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$38.00"
+                ],
+                "sku": "Item 2175222"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 6.7 oz/ 200 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$192.00"
+                ],
+                "sku": "Item 2329571"
+            }
+        ],
+        "rating": "width:90%",
+        "product_reviews": "70",
+        "ingredients": "Alcohol Denat. (Sd Alcohol 39-C), Fragrance, Water, Limonene, Linalool, Coumarin, Ethylhexyl Methoxycinnamate, Alpha-Isomethyl Ionone, Citronellol, Citral, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Geraniol, Isoeugenol.",
+        "n_loves": "10.7K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/dylan-purple-eau-de-parfum-travel-spray-P505126",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:18:20",
+        "product_name": "Dylan Purple Eau de Parfum Travel Spray",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.34 oz / 10 ml eau de parfum spray"
+                ],
+                "price": [
+                    "$38.00"
+                ],
+                "sku": "Item 2664704"
+            }
+        ],
+        "rating": "width:77.27199999999999%",
+        "product_reviews": "22",
+        "ingredients": "Alcohol Denat. (Sd Alcohol 39-C), Parfum (Fragrance), Aqua (Water), Linalool, Limonene, Citral.",
+        "n_loves": "5.6K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/yellow-diamond-P307002",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:18:35",
+        "product_name": "Yellow Diamond",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$79.00"
+                ],
+                "sku": "Item 1395730"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$109.00"
+                ],
+                "sku": "Item 1395748"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: .33oz/10mL"
+                ],
+                "price": [
+                    "$38.00"
+                ],
+                "sku": "Item 2198745"
+            }
+        ],
+        "rating": "width:86.182%",
+        "product_reviews": "317",
+        "ingredients": "Alcohol Denat. (Sd Alcohol 39-C), Fragrance, Water, Alpha-Isom Ethyl, Ionone, Benzyl Salicylate, Butyl Methoxydibenzoylmethane, Butylphenyl Methylpropional, C.I. 17200 (Red 33), C.I. 19140 (Yellow 5), Citral, Citronellol, Ethylhexyl Methoxycinnamate, Ethylhexyl Salicylate, Geraniol, Hexyl Cinnamal, Hydroxycitronellal, Limonene, Linalool, Propylene Glycol.",
+        "n_loves": "26.3K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/yellow-diamond-travel-spray-P444196",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:18:49",
+        "product_name": "Yellow Diamond Travel Spray",
+        "brand_name": "Versace",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: .33oz/10mL"
+                ],
+                "price": [
+                    "$38.00"
+                ],
+                "sku": "Item 2198745"
+            }
+        ],
+        "rating": "width:93.33399999999999%",
+        "product_reviews": "24",
+        "ingredients": "Alcohol Denat. (Sd Alcohol 39-C), Fragrance, Water, Alpha-Isom Ethyl, Ionone, Benzyl Salicylate, Butyl Methoxydibenzoylmethane, Butylphenyl Methylpropional, C.I. 17200 (Red 33), C.I. 19140 (Yellow 5), Citral, Citronellol, Ethylhexyl Methoxycinnamate, Ethylhexyl Salicylate, Geraniol, Hexyl Cinnamal, Hydroxycitronellal, Limonene, Linalool, Propylene Glycol.",
+        "n_loves": "7.2K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    }
+]

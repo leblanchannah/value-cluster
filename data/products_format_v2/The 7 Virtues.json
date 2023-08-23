@@ -1,0 +1,499 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/patchouli-citrus-eau-de-parfum-P428708",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:19:19",
+        "product_name": "Patchouli Citrus Eau de Parfum",
+        "brand_name": "The 7 Virtues",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL",
+                    "SALE"
+                ],
+                "price": [
+                    "$69.00",
+                    "$110.00"
+                ],
+                "sku": "Item 2047785"
+            }
+        ],
+        "rating": "width:86.186%",
+        "product_reviews": "97",
+        "ingredients": "Organic Sugar Cane Alcohol Denat., Pogostemon Cablin, Water, Benzyl Alcohol, Benzyl Benzoate, Citral, Citronellol, Coumarin, Eugenol, Farnesol, Geraniol, Hydroxycitronellal, Limonene, Linalool, Lonones.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "4.4K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/rose-amber-eau-de-parfum-rollerball-P428712",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 22:19:32"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/blackberry-lily-eau-de-parfum-travel-spray-P504149",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:19:41",
+        "product_name": "Blackberry Lily Eau de Parfum Travel Spray",
+        "brand_name": "The 7 Virtues",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.33 oz / 10 mL"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2591279"
+            }
+        ],
+        "rating": "width:88.62%",
+        "product_reviews": "239",
+        "ingredients": "Organic Sugar Cane Alcohol Denat., Rusbus, Water, Benzyl Alcohol, Benzyl Salicylate, Citronellol, Limonene, Linalool.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "1.2K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/7-virtues-lotus-pear-perfume-oil-P482076",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 22:19:53"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/peace-perfume-discovery-set-P504673",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:20:04",
+        "product_name": "Peace Perfume Discovery Set",
+        "brand_name": "The 7 Virtues",
+        "options": [],
+        "rating": "width:98.432%",
+        "product_reviews": "268",
+        "ingredients": "Vanilla Woods Eau de Parfum:Sugarcane Alcohol Denat., Vanilla Planifolia, Water, Vanilla, Rose Bulgaria, Oak Fusion. Coconut Sun Eau de Parfum:Sugarcane Alcohol, Cocos Nucifera, Water (Aqua), Benzyl Salicylate, Limonene, Linalool, Coumarin, Citral, Benzyl Benzoate, Benzyl Alcohol, Geraniol, Farnesol, Eugenol, Citronellol, Isoeugenol. Lotus Pear Eau de Parfum: Sugarcane Alcohol Denat., Pirum, Water, Benzyl Salicylate, Hydroxycitronellal, Limonene, Coumarin, Linalool, Benzyl Alcohol, Farnesol, Geraniol, Citronellol, Benzyl Benzoate, Citral.Santal Vanille Eau de Parfum: Sugarcane Alcohol Denat., Santalum Album, Water, Coumarin, Limonene, Geraniol, Linalool, Farnesol, Citral.Blackberry Lily Eau de Parfum: Sugarcane Alcohol Denat., Rusbus, Water, Benzyl Alcohol, Benzyl Salicylate, Citronellol, Limonene, Linalool.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "6.6K",
+        "categories": [
+            "Fragrance",
+            "Value & Gift Sets",
+            "Perfume Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/7-virtues-santal-vanille-eau-de-parfum-P468853",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:20:15",
+        "product_name": "Santal Vanille Eau de Parfum",
+        "brand_name": "The 7 Virtues",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL"
+                ],
+                "price": [
+                    "$110.00"
+                ],
+                "sku": "Item 2409225"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.33 oz / 11 mL"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2591261"
+            }
+        ],
+        "rating": "width:86.278%",
+        "product_reviews": "360",
+        "ingredients": "Organic Sugar Cane Alcohol Denat., Santalum Album, Water, Coumarin, Limonene, Geraniol, Linalool, Farnesol, Citral.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "16.2K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/vetiver-elemi-eau-de-parfum-P428715",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 22:20:31"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/orange-blossom-eau-de-parfum-P428706",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:20:40",
+        "product_name": "Orange Blossom Eau de Parfum",
+        "brand_name": "The 7 Virtues",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$69.00",
+                    "$110.00"
+                ],
+                "sku": "Item 2047751"
+            }
+        ],
+        "rating": "width:85.68599999999999%",
+        "product_reviews": "102",
+        "ingredients": "Organic Sugar Cane Alcohol Denat., Citrus Aurantium, Water, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Citral, Citronellol, Farnesol, Geraniol, Hydroxycitronellal, Limonene, Linalool.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "5.7K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/7-virtues-lotus-pear-eau-de-parfum-P480633",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:20:51",
+        "product_name": "Lotus Pear Eau de Parfum",
+        "brand_name": "The 7 Virtues",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL eau de parfum spray"
+                ],
+                "price": [
+                    "$110.00"
+                ],
+                "sku": "Item 2483253"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.33 oz / 11 mL"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2591253"
+            }
+        ],
+        "rating": "width:88.966%",
+        "product_reviews": "290",
+        "ingredients": "Organic Sugar Cane Alcohol Denat., Pirum, Water, Benzyl Salicylate, Hydroxycitronellal, Limonene, Coumarin, Linalool, Benzyl Alcohol, Farnesol, Geraniol, Citronellol, Benzyl Benzoate, Citral.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "11.8K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/vanilla-woods-eau-de-parfum-travel-spray-P502250",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:21:06",
+        "product_name": "Vanilla Woods Eau de Parfum Travel Spray",
+        "brand_name": "The 7 Virtues",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.34 oz / 10 mL"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2591246"
+            }
+        ],
+        "rating": "width:86.584%",
+        "product_reviews": "1.3K",
+        "ingredients": "Organic Sugar Cane Alcohol Denat., Vanilla Planifolia, Water, (Essential Oils - Vanilla, Rose Bulgaria, Oak Fusion).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "8.5K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/coconut-sun-eau-de-parfum-travel-spray-P504991",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:21:19",
+        "product_name": "Coconut Sun Eau de Parfum Travel Spray",
+        "brand_name": "The 7 Virtues",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.34 oz / 10 ml eau de parfum spray"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2651883"
+            }
+        ],
+        "rating": "width:90.51199999999999%",
+        "product_reviews": "371",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "15.2K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/7-virtues-blackberry-lily-eau-de-parfum-P455880",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:21:32",
+        "product_name": "Blackberry Lily Eau de Parfum",
+        "brand_name": "The 7 Virtues",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL Eau de Parfum Spray",
+                    "SALE"
+                ],
+                "price": [
+                    "$69.00",
+                    "$110.00"
+                ],
+                "sku": "Item 2319499"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.33 oz / 10 mL"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2591279"
+            }
+        ],
+        "rating": "width:88.62%",
+        "product_reviews": "239",
+        "ingredients": "Organic Sugar Cane Alcohol Denat., Rusbus, Water, Benzyl Alcohol, Benzyl Salicylate, Citronellol, Limonene, Linalool.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "9.2K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lotus-pear-eau-de-parfum-travel-spray-P504133",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:21:45",
+        "product_name": "Lotus Pear Eau de Parfum Travel Spray",
+        "brand_name": "The 7 Virtues",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.33 oz / 11 mL"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2591253"
+            }
+        ],
+        "rating": "width:88.966%",
+        "product_reviews": "290",
+        "ingredients": "Organic Sugar Cane Alcohol Denat., Pirum, Water, Benzyl Salicylate, Hydroxycitronellal, Limonene, Coumarin, Linalool, Benzyl Alcohol, Farnesol, Geraniol, Citronellol, Benzyl Benzoate, Citral.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "1.4K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/coconut-sun-eau-de-parfum-P504855",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:21:59",
+        "product_name": "Coconut Sun Eau de Parfum",
+        "brand_name": "The 7 Virtues",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz / 50 mL eau de parfum spray"
+                ],
+                "price": [
+                    "$110.00"
+                ],
+                "sku": "Item 2651875"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.34 oz / 10 ml eau de parfum spray"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2651883"
+            }
+        ],
+        "rating": "width:90.51199999999999%",
+        "product_reviews": "371",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "15.7K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/7-virtues-santal-vanille-perfume-oil-P468855",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:22:22",
+        "product_name": "Santal Vanille Gemstone Perfume Oil",
+        "brand_name": "The 7 Virtues",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "Size: 0.67 oz/ 20 mL",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$59.50",
+                    "$89.00"
+                ],
+                "sku": "Item 2409241"
+            }
+        ],
+        "rating": "width:92.982%",
+        "product_reviews": "57",
+        "ingredients": "Organic Jojoba Oil, Santalum Album, Coumarin, Limonene, Geraniol, Linalool, Farnesol Citral, Citronellol, Cinnamal.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "6.3K",
+        "categories": [
+            "Bath & Body",
+            "Body Moisturizers",
+            "Body Lotions & Body Oils"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/santal-vanille-eau-de-parfum-travel-spray-P504124",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:22:40",
+        "product_name": "Santal Vanille Eau de Parfum Travel Spray",
+        "brand_name": "The 7 Virtues",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.33 oz / 11 mL"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2591261"
+            }
+        ],
+        "rating": "width:86.278%",
+        "product_reviews": "360",
+        "ingredients": "Organic Sugar Cane Alcohol Denat., Santalum Album, Water, Coumarin, Limonene, Geraniol, Linalool, Farnesol, Citral.\n\ufeff\nClean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "1.5K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/vetiver-elemi-eau-de-parfum-rollerball-P428716",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 22:22:53"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/vanilla-woods-eau-de-parfum-P428713",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 22:23:03",
+        "product_name": "Vanilla Woods Eau de Parfum",
+        "brand_name": "The 7 Virtues",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL Eau de Parfum Spray"
+                ],
+                "price": [
+                    "$110.00"
+                ],
+                "sku": "Item 2047801"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.34 oz / 10 mL"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2591246"
+            }
+        ],
+        "rating": "width:86.584%",
+        "product_reviews": "1.3K",
+        "ingredients": "Organic Sugar Cane Alcohol Denat., Vanilla Planifolia, Water, (Essential Oils - Vanilla, Rose Bulgaria, Oak Fusion).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "84.7K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    }
+]

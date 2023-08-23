@@ -1,0 +1,258 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/warm-edit-eyeshadow-palette-P447164",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:34:28",
+        "product_name": "Warm EDIT Eyeshadow Palette",
+        "brand_name": "Viseart",
+        "options": [],
+        "rating": "width:84.324%",
+        "product_reviews": "37",
+        "ingredients": "Talc, Mica, Octyldodecyl Stearoyl Stearate, Calcium Aluminum Borosilicate, Silica, Zinc Stearate, Calcium Sodium Borosilicate, Sodium Benzoate, Potassium Sorbate, Alumina. May Contain (+/-): Tin Oxide (Ci 77861), Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Carmine (Ci 75470), Synthetic Fluorophlogopite, Yellow 5 Lake (Ci 19140), Red 40 Lake (Ci 15850), Copper Powder (Ci 77400).",
+        "n_loves": "14.1K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eye Palettes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/highlight-contour-palette-P412348",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:34:38",
+        "product_name": "Highlight & Contour Palette",
+        "brand_name": "Viseart",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.84 oz/ 24 g"
+                ],
+                "price": [
+                    "$100.00"
+                ],
+                "sku": "Item 1861517"
+            }
+        ],
+        "rating": "width:90%",
+        "product_reviews": "8",
+        "ingredients": "Talc, HDI/Trimethyol Hexylactone Crosspolymer, Polymethyl Methacrylate, Octyldodecyl Stearoyl Stearate, Hydroxystearic/Linolenic/Oleic Polyglycerides, Zinc Stearate, Octyldodecanol, Silica, Lauroyl Lysine, +/- May Contain: Titanium Dioxide  (77891), Iron Oxides (77491, 77492, 77499), Blue 1 (42090), Black 2 (77266), Mica (77019), Red 7, Rec 6 (15850), Red 28 (45410), Yellow 5 (19140), Ferric Ferrocyanide (77510).",
+        "n_loves": "3.8K",
+        "categories": [
+            "Makeup",
+            "Cheek",
+            "Cheek Palettes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/petite-pro-palette-2-P428669",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:34:50",
+        "product_name": "Petit PRO 2 Eyeshadow Palette",
+        "brand_name": "Viseart",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.28 oz/ 8 g"
+                ],
+                "price": [
+                    "$40.00"
+                ],
+                "sku": "Item 2044519"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.28 oz/ 8 g"
+                ],
+                "price": [
+                    "$40.00"
+                ],
+                "sku": "Item 2044519"
+            }
+        ],
+        "rating": "width:76.364%",
+        "product_reviews": "99",
+        "ingredients": "Mica, Talc, Octyldodecyl Stearoyl Stearate, Zinc Stearate, Calcium Sodium Borosilicate, Silica, Sodium Benzoate, Potassium Sorbate. May Contain (+/-): Aluminum Powder (Ci 77000), Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Red 40 Lake (Ci 15850), Carmine (Ci 75470), Black 2 (Ci 77266), Ferric Ferrocyanide (Ci 77510).",
+        "n_loves": "23.9K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eye Palettes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/viseart-moisture-boost-lip-shine-P455558",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:35:04",
+        "product_name": "Moisture Boost Lip Shine",
+        "brand_name": "Viseart",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Beignet",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2344232"
+            }
+        ],
+        "rating": "width:73.334%",
+        "product_reviews": "27",
+        "ingredients": "-Jojoba Oil: Smooths, intensely hydrates, and nurtures lips.\n-Resveratrol: Supports, nurtures, and cares for skin.\n-Sunflower Seed Oil: Protects from oxidative stress on skin.\n \nRicinus Communis (Castor) Seed Oil, Polyamide-8, Simmondsia Chinensis (Jojoba) Seed Oil, Helianthus Annuus (Sunflower) Seed Wax, Copernicia Cerifera (Carnauba) Wax, Euphorbia Cerifera (Candelilla) Wax, Prickly Pear Fragrance, Glyceryl Stearate, Butyrospermum Parkii (Shea Butter), Olea Europaea (Olive) Oil, Vitis Vinifera (Grape) Seed Oil, Resveratrol, Water (Aqua), Butylene Glycol, Titanium Dioxide CI77891, Iron Oxides CI77499/77492/77491. \n\n",
+        "n_loves": "3.4K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Lip Gloss"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/libertine-eyeshadow-palette-P436925",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 21:35:20"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/viseart-eyeshadow-palette-P391306",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:35:29",
+        "product_name": "Eyeshadow Palette",
+        "brand_name": "Viseart",
+        "options": [
+            {
+                "swatch_group": "Satin finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.84 oz",
+                "name": [
+                    "Color: 05 Sultry Muse"
+                ],
+                "price": [
+                    "$100.00"
+                ],
+                "sku": "Item 1665645"
+            }
+        ],
+        "rating": "width:90.03999999999999%",
+        "product_reviews": "741",
+        "ingredients": "Mineral Talc, Mica, Mineral Zinc Stearate, Octyldodecanol (Plant Derived), Myristyl Lactate (Vegetable Derived), Octyldodecyl Stearoyl Stearate (Vegetable Derived), Isononyl Isononanoate (Plant Derived), Tocopherol (Plant Derived). (+/-) May Contain: Mineral Pigments: Titanium Dioxide (77891), Iron Oxides (77491, 77492, 77499), Blue 1 (42090), Carmine (75470), Mica (77019).\n",
+        "n_loves": "127.7K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eye Palettes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/golden-hour-eyeshadow-palette-P425030",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:35:41",
+        "product_name": "Golden Eyeshadow Palette",
+        "brand_name": "Viseart",
+        "options": [
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.49 oz/ 0.14 g"
+                ],
+                "price": [
+                    "$72.00"
+                ],
+                "sku": "Item 2006484"
+            },
+            {
+                "swatch_group": "Satin finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.49 oz/ 0.14 g"
+                ],
+                "price": [
+                    "$72.00"
+                ],
+                "sku": "Item 2006484"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.49 oz/ 0.14 g"
+                ],
+                "price": [
+                    "$72.00"
+                ],
+                "sku": "Item 2006484"
+            }
+        ],
+        "rating": "width:90.26400000000001%",
+        "product_reviews": "76",
+        "ingredients": "-Mica, Talc, Octyldodecyl Stearoyl Stearate, Zinc Stearate, Sodium Benzoate, potassium Sorbate, Calcium Aluminum Borosilicate, Silica, Hydrogenated Polyisobutene, Palmitic Acid, Aluminia, Water. (+/- May contain: Tin Oxide CI 77861,Titanium Dioxide CI 77891, Iron Oxides CI 77491/77492/77499, Red 40 CI 16035, Carmin CI 75470, Black 2 CI 77266).",
+        "n_loves": "13.4K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eye Palettes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/petit-pro-3-eyeshadow-palette-P432063",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 21:35:54"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/viseart-theory-palette-P408032",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:36:05",
+        "product_name": "Theory Eyeshadow Palette",
+        "brand_name": "Viseart",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size 6 x 0.13 oz/ 3.69 g",
+                "name": [
+                    "Color: Theory I Cashmere"
+                ],
+                "price": [
+                    "$60.00"
+                ],
+                "sku": "Item 1784420"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size 6 x 0.13 oz/ 3.69 g",
+                "name": [
+                    "Color: Theory II Minx"
+                ],
+                "price": [
+                    "$60.00"
+                ],
+                "sku": "Item 1784438"
+            }
+        ],
+        "rating": "width:84.83599999999998%",
+        "product_reviews": "273",
+        "ingredients": "Talc, Mica, Calcium Aluminum Borosilicate, Zinc Stearate, Octyldodecanol, Myristyl Lactate, Octyldodecyl Stearoyl Stearate, Isononyl Isononanoate, Silica, Calcium Sodium Borosilicate, Tin Oxide. May Contain (+ -): Titanium Dioxide (77891), Iron Oxides (77491, 77492, 77499), Blue 1 (42090), Carmine (75470), Black 2 (77266), Mica (77019), Ferric Ferrocyanide (CI 77510).",
+        "n_loves": "60.6K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eye Palettes"
+        ]
+    }
+]

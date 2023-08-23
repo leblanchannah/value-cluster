@@ -1,0 +1,328 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/dualist-matte-illuminating-concealer-P417143",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:48:54",
+        "product_name": "Dualist Matte and Illuminating Concealer",
+        "brand_name": "Wander Beauty",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size Stick - 0.16 oz/ 4.5 g, Liquid - 0.12 oz/ 3.5 g",
+                "name": [
+                    "Color: Medium - medium with warm undertones",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$40.50"
+                ],
+                "sku": "Item 1897123"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size Stick - 0.16 oz/ 4.5 g, Liquid - 0.12 oz/ 3.5 g",
+                "name": [
+                    "Color: Tan - tan with warm olive undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$40.50"
+                ],
+                "sku": "Item 1897131"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size Stick - 0.16 oz/ 4.5 g, Liquid - 0.12 oz/ 3.5 g",
+                "name": [
+                    "Color: Deep - deep with warm brown undertones"
+                ],
+                "price": [
+                    "$38.00"
+                ],
+                "sku": "Item 1897099"
+            }
+        ],
+        "rating": "width:84.52400000000002%",
+        "product_reviews": "84",
+        "ingredients": "Matte Stick: Caprylic/Capric Triglyceride, Titanium Dioxide (CI 77891), Iron Oxides (CI 77492), Dipentaerythrityl Hexahydroxystearate/Hexastearate/Hexarosinate, Euphorbia Cerifera (Candelilla) Wax, Polymethylsilsesquioxane, Microcrystalline Wax, Sorbitan Sesquioleate, C10-18 Triglycerides, Mica, Iron Oxides (CI 77491), Iron Oxides (CI 77499), Phenoxyethanol, Triethoxycaprylylsilane, Glyceryl Caprylate, Water/Aqua/Eau, Butylene Glycol, Camellia Sinensis Leaf Extract.Illuminating Liquid: Water/Aqua/Eau, Methyl Trimethicone, Caprylic/Capric Triglyceride, Titanium Dioxide (CI 77891), Ethylhexyl Palmitate, Dimethicone, Butylene Glycol, Synthetic Fluorphlogopite, Iron Oxides (CI 77492), Mica, Polyglyceryl-3 Polydimethylsiloxyethyl Dimethicone, Sorbitan Sesquioleate, Polymethylsilsesquioxane, Silica Dimethyl Silylate, Sodium Chloride, Stearalkonium Hectorite, Polyglyceryl-3 Polyricinoleate, Iron Oxides (CI 77491), Phenoxyethanol, Magnesium Aluminum Silicate, Sorbitan Isostearate, Propylene Carbonate, Iron Oxides (CI 77499), Propylene Glycol Dicaprylate/Dicaprate, Anthemis Nobilis Flower Extract, Camellia Sinensis Leaf Extract, Sodium Hyaluronate.",
+        "n_loves": "12.5K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Concealer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/wander-beauty-mile-high-mascara-duo-P502973",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 21:49:09"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/wanderlust-powder-foundation-P411529",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:49:18",
+        "product_name": "Wanderlust Powder Foundation",
+        "brand_name": "Wander Beauty",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.31 oz/ 9 g",
+                "name": [
+                    "Color: Golden Tan - tan with golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2097038"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.31 oz/ 9 g",
+                "name": [
+                    "Color: Rich - rich tan with warm golden undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2097046"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.31 oz/ 9 g",
+                "name": [
+                    "Color: Golden Rich - deep tan with warm golden undertones"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2097053"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.31 oz/ 9 g",
+                "name": [
+                    "Color: Rich Deep - deep with warm brown undertones"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2284388"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.31 oz/ 9 g",
+                "name": [
+                    "Color: Deep - very deep with cool brown undertones"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 1856863"
+            }
+        ],
+        "rating": "width:81.31%",
+        "product_reviews": "290",
+        "ingredients": "Mica, Silica, Dimethicone, Boron Nitride, Vinyl Dimethicone/Methicone Silsesquioxane Crosspolymer, Nylon-12, Triethoxycaprylylsilane, Dimethicone/Vinyl Dimethicone Crosspolymer, Phenyl Trimethicone, Caprylyl Glycol, 1,2-Hexanediol, Ethylhexylglycerin, Allantoin, Water/Aqua/Eau, Jojoba Esters, Tocopheryl Acetate, Butylene Glycol, Hibiscus Sabdariffa Flower Extract, Aloe Barbadensis Leaf Extract, Carthamus Tinctorius (Safflower) Flower Extract, Chrysanthellum Indicum Extract, Lonicera Japonica (Honeysuckle) Flower Extract, Nelumbo Nucifera Flower Extract, Phenoxyethanol, Sodium Hyaluronate\nMay Contain/Peut Contenir (+/-): Titanium Dioxide, CI 77491, CI 77492, CI 77499.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "16.9K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Foundation"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/wander-beauty-mini-unlashed-volume-curl-mascara-P458941",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 21:49:32"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/exquisite-eye-liquid-shadow-P443513",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 21:49:42"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mile-high-club-mascara-P442231",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:49:51",
+        "product_name": "Mile High Club\u2122\t Length and Define Mascara",
+        "brand_name": "Wander Beauty",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size .35 oz / 9 g",
+                "name": [
+                    "Color: Jet Black - black",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2610483"
+            }
+        ],
+        "rating": "width:81.74%",
+        "product_reviews": "23",
+        "ingredients": "-Castor Seed Oil: Nourishes and moisturizes lashes.<br>-Trehalose: Known to help strengthen lashes.<br>-Peach Leaf Extract: Conditions lashes and helps prevent breakage.<br><br>Water/Aqua/Eau, Acrylates/Ethylhexyl Acrylate Copolymer, Laureth-21, Beeswax, Iron Oxide (CI 77499), Stearic Acid, Synthetic Wax, VP/Hexadecene Copolymer, Caprylyl/Capryl Glucoside, Sodium Cocoyl Glutamate, Glyceryl Caprylate, Citric Acid, Polyglyceryl-6 Oleate, Sodium Surfactin, Cetearyl Olivate, Sorbitan Oilvate, Tromethamine, 1,2-Hexanediol, Cellulose, Copernicia Cerifera (Carnauba) Wax, Acacia Senegal Gum, Pentaerythrityl Hydrogenated Rosinate, Acrylates/Octylacrylamide Copolymer, Ethylhexylglycerin, Glycerin, Sorbitan Sesquioleate, Hydroxyethylcellulose, Dimethicone, Trehalose, Ricinus Communis (Castor) Seed Oil, Butylene Glycol, Prunus Persica (Peach) Leaf Extract.<br><br><b>Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category&mdash;this is not an exhaustive list):</b> <br>Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "12.8K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Mascara"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/wander-beauty-on-the-glow-blush-illuminator-P481391",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:50:03",
+        "product_name": "On-the-Glow Blush & Illuminator",
+        "brand_name": "Wander Beauty",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.4 oz, 12g",
+                "name": [
+                    "Color: Bare/Nude Glow - soft nude rose",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$51.50"
+                ],
+                "sku": "Item 2570166"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.4 oz, 12g",
+                "name": [
+                    "Color: Petal Pink/Nude - soft peony pink"
+                ],
+                "price": [
+                    "$51.50"
+                ],
+                "sku": "Item 2570174"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.4 oz, 12g",
+                "name": [
+                    "Color: Coral Rose/Nude"
+                ],
+                "price": [
+                    "$51.50"
+                ],
+                "sku": "Item 2570182"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.4 oz, 12g",
+                "name": [
+                    "Color: Strawberry Fields"
+                ],
+                "price": [
+                    "$51.50"
+                ],
+                "sku": "Item 2570190"
+            }
+        ],
+        "rating": "width:94.39999999999999%",
+        "product_reviews": "150",
+        "ingredients": "-Vitamin E: Has antioxidant properties and prevents free-radical-inducing damage.Bare:Octyldodecanol, Triethylhexanoin, Diisostearyl Malate, Polyglyceryl-2 Triisostearate, Silica, Ceresin, Dipentaerythrityl Hexahydroxystearate/Hexastearate/Hexarosinate, Synthetic Wax, Microcrystalline Wax, Euphorbia Cerifera (Candelilla) Wax, Sorbitan Sesquioleate, Copernicia Cerifera (Carnauba) Wax, Glyceryl Caprylate, Tocopheryl Acetate, (+/-): CI 77891, CI 15850, CI 77491, CI 19140, CI 77499.Nude Glow: Octyldodecanol, Phenyl Trimethicone, Triethylhexanoin, Synthetic Fluorphlogopite, Diisostearyl Malate, Silica, Ceresin, Mica, Dipentaerythrityl Hexahydroxystearate/Hexastearate/Hexarosinate, Synthetic Wax, Microcrystalline Wax, Euphorbia Cerifera (Candelilla) Wax, Sorbitan Sesquioleate, Polyglyceryl-2 Triisostearate, Glyceryl Caprylate, Copernicia Cerifera (Carnauba) Wax, Tocopheryl Acetate, Tin Oxide, (+/-): CI 77891, CI 77491, CI 15850, CI 75470.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "16.7K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Face Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/flash-focus-hydrating-foundation-stick-P407107",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 21:50:18"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nude-illusion-liquid-foundation-P437367",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:50:27",
+        "product_name": "Nude Illusion Liquid Foundation",
+        "brand_name": "Wander Beauty",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1.01 oz/ 30 mL",
+                "name": [
+                    "Color: Golden Tan",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2154912"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.01 oz/ 30 mL",
+                "name": [
+                    "Color: Deep"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2154953"
+            }
+        ],
+        "rating": "width:81.81800000000001%",
+        "product_reviews": "231",
+        "ingredients": " -Niacinamide: Reduces the appearance of wrinkles, evens the look of skin tone, diminishes the appearance of enlarged pores, and supports natural moisture retention.-Centella Asiatica Extract: Provides amino acids, beta carotene, fatty acids, and phytochemicals that diminish visible signs of aging, supports natural circulation and collagen synthesis for more youthful-looking skin.-Black Currant Fruit Extract: Provides vitamin C and antioxidant benefits.-Lotus Extract: Naturally contains alpha-hydroxy acids that help exfoliate the outer layers of skin for a youthful glow. Hydrates and quenches dry skin, supports skin elasticity, and reduces the appearance of fine lines. Cyclopentasiloxane, Water/Aqua/Eau, Glycerin, C12-15 Alkyl Benzoate, PEG-10 Dimethicone, Dipropylene Glycol, Ethylhexyl Methoxycinnamate, Niacinamide, Cetyl PEG/PPG-10/1 Dimethicone, Magnesium Sulfate, Dimethicone, Polyhydroxystearic Acid, Disteardimonium Hectorite, Sorbitan Sesquioleate, Argania Spinosa Kernel Oil, Stearic Acid, Phenoxyethanol, Caprylyl Glycol, Dimethicone/Vinyl Dimethicone Crosspolymer, Magnesium Aluminum Silicate, Allantoin, Tocopheryl Acetate, Caprylhydroxamic Acid, Disodium EDTA, Butylene Glycol, Camellia Sinensis Leaf Extract, Passiflora Incarnata Extract, Ribes Nigrum (Black Currant) Fruit Extract, Nelumbo Nucifera Leaf Extract, Hamamelis Virginiana (Witch Hazel) Leaf Extract, Centella Asiatica Extract, Sodium Hyaluronate, Talc, Triethoxycaprylylsilane, Aluminum Hydroxide.\nMay Contain: Titanium Dioxide, Yellow Iron Oxide (CI 77492), Red Iron Oxide (CI 77491), Black Iron Oxide (CI 77499).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "18.2K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Foundation"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/baggage-claim-gold-eye-masks-P428668",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 21:50:40",
+        "product_name": "Baggage Claim Eye Masks",
+        "brand_name": "Wander Beauty",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 6 x Eye Masks"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2049625"
+            }
+        ],
+        "rating": "width:81.74%",
+        "product_reviews": "494",
+        "ingredients": "Water/Eau/Aqua, Glycerin, Butylene Glycol, 1,2-Hexanediol, Aloe Barbadensis Leaf Juice, Xanthan Gum, Polyglyceryl-4 Caprate, Panthenol, Hydroxyethylcellulose, Portulaca Oleracea Extract, Myrciaria Dubia Fruit Extract, Calendula Officinalis Flower Extract, Ethylhexylglycerin, Scutellaria Baicalensis Root Extract, Disodium EDTA, Glyceryl Caprylate, Tocopheryl Acetate, Sodium Hyaluronate, Simmondsia Chinensis (Jojoba) Seed Oil, Natto Gum, Glycine, Serine, Glutamic Acid, Beta-glucan, Valine, Tyrosine, Threonine, Proline, Phenylalanine, Methionine, Lysine, Leucine, Isoleucine, Histidine, Cysteine, Aspartic Acid, Arginine, Alanine, Acetyl Hexapeptide-8, Copper Tripeptide-1. Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "50.2K",
+        "categories": [
+            "Skincare",
+            "Eye Care",
+            "Eye Masks"
+        ]
+    }
+]
