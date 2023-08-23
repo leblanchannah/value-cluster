@@ -60,7 +60,8 @@ def clean_product_rating(rating):
         rating = rating.replace("width:","")
         rating = rating.replace("%","")
         rating = float(rating)/100*5
-    return rating
+        return rating
+    return None
 
 
 def pre_parse_product_size_clean(input_string):

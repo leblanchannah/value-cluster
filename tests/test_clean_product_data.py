@@ -4,7 +4,6 @@ sys.path.insert(0,'../src')
 from clean_product_data import (parse_volume_string, pre_parse_product_size_clean, split_product_multiplier,
                                 shorthand_numeric_conversion, clean_product_rating, split_sale_and_full_price)
 
-
 # amount1, unit1, amount2, unit2, trailing_text
 @pytest.mark.parametrize("size_value, parsed_size_data", [
     ("helo", (None, None, None, None, 'helo')),
@@ -27,6 +26,7 @@ from clean_product_data import (parse_volume_string, pre_parse_product_size_clea
 ])
 def test_parse_volume_string(size_value, parsed_size_data):
     assert parse_volume_string(size_value) == parsed_size_data
+
 
 @pytest.mark.parametrize("size_value, cleaned_size_data", [
     ("helo", "helo"),
@@ -68,14 +68,15 @@ def test_split_product_multiplier(size_value, cleaned_size_data):
 @pytest.mark.parametrize("string_input, numeric_output", [
     ("10K", 10000.0),
     ("1K", 1000.0),
+    ("2.4K", 2400.0),
     ("9.9K", 9900.0),
     ("999", 999.0),
     ("0.00", 0.0),
     ("10M", 10000000.0),
     ("1.2M", 1200000.0),
     ("", None),
-    ("K",0.0),
-    ("M",0.0)
+    ("K",None),
+    ("M",None)
 ])
 def test_shorthand_numeric_conversion(string_input, numeric_output):
     assert shorthand_numeric_conversion(string_input) == numeric_output
