@@ -198,7 +198,6 @@ def main():
 
     df_products = df_products.drop_duplicates(subset=['brand_name','product_name','url','swatch_group','size','name', 'sku','price'], keep='last')
 
-#######
     df_products.loc[df_products['size'].isnull(), 'size'] = df_products['name']
     df_products.loc[df_products['size']==df_products['name'],'name'] = None
 
@@ -229,13 +228,11 @@ def main():
     df_products['size'] = df_products['size'].apply(pre_parse_product_size_clean)
 
     df_products['product_multiplier'] = df_products['size'].apply(split_product_multiplier)
-    temp = pd.DataFrame(df_products['product_multiplier'].tolist(), columns=['multiplier','m_size'])
-    df_products = pd.concat([df_products, temp], axis=1)
+    df_products['multiplier'],df_products['m_size'] = df_products['product_multiplier'].str
     df_products.loc[df_products['multiplier'].notnull(), 'size']= df_products['m_size']
     df_products.loc[:,'product_multiplier']= df_products['multiplier']
-
-
     df_products = df_products.drop(['multiplier','m_size'], axis=1)
+
     df_products['product_multiplier'] = pd.to_numeric(df_products['product_multiplier'], errors='coerce')
     df_products['product_multiplier'] = df_products['product_multiplier'].fillna(1.0)
     df_products['size'] = df_products['size'].astype(str)
@@ -259,7 +256,6 @@ def main():
     df_products['swatch_details'] = df_products['swatch_group'].str.split(" - ").str[0]
     df_products['swatch_group'] = df_products['swatch_group'].str.split(" - ").str[-1]
 
-    
 
     df_products.to_csv('../data/processed_prod_data.csv', index=False)
 
