@@ -2,7 +2,7 @@ import glob
 import json
 import pandas as pd
 import re
-from webscraper import parse_url_info, drop_duplicate_product_urls
+from webscraper import drop_duplicate_product_urls
 
 
 def expand_product_options(df):
@@ -50,6 +50,7 @@ def shorthand_numeric_conversion(count_val):
             return float(count_val)*1000000
     else:
         return float(count_val)
+
 
 def clean_product_rating(rating):
     '''
@@ -141,67 +142,64 @@ def strip_non_numeric(input_str):
             return numeric_str
     return None
 
+def clean_product_details(value):
+    '''
+    Sometimes size or swatch info is in a list, sometimes it is in a string
+    Removes additional info by only taking first list element where the sizing data should be
+    '''
+    if value:
+        if isinstance(value, str):
+            return value.lower()
+        if value!=[]:
+            return value[0].lower()
+    return None
 
-
-def clean_price():
-    return 
 
 
 def main():
 
     df_products = read_data("../data/products/*")
 
-    df_products = df_products[df_products['product_name'].notnull()]
-
+    # some links available in brand product grid pages are not available 
+    df_products = df_products[(df_products['product_name'].notnull()) & (df_products['categories'].notnull())]
     df_products = df_products[df_products['error']!='Product not available']
 
     df_products = df_products.reset_index(drop=True).reset_index().rename(columns={'index':'internal_product_id'})
-
     df_products = expand_product_options(df_products)
 
-    df_products['price'] = df_products['price'].fillna("")
-
+    # product data V1 only had current price, V2 has both sale price and full price
+    df_products = df_products[df_products['price'].notnull()]
     df_products['price'] = df_products['price'].apply(split_sale_and_full_price)
-    df_products['current_price'], df_products['full_price'] = df_products['price'].str
-    df_products = df_products.drop(['price','scrape_date'], axis=1)
+    df_products['price'], df_products['full_price'] = df_products['price'].str
+    df_products['price'] = df_products['price'].str.replace("$","").astype(float)
+    df_products['full_price'] = df_products['full_price'].str.replace("$","").astype(float)
 
-    df_products['price'] = df_products['price'].str.replace("$","")
-    df_products['price'] = df_products['price'].astype(float)
-
-    # string col to lower removed 'product_name', and brand_nme
-    cols_to_lower = ['swatch_group', 'size', 'name']
-    df_products[cols_to_lower] = df_products[cols_to_lower].apply(lambda x: x.str.lower())
+    df_products['name'] = df_products['name'].apply(clean_product_details)
+    df_products['size'] = df_products['size'].apply(clean_product_details)
+    df_products['swatch_group'] = df_products['swatch_group'].str.lower()
 
     df_products['rating'] = df_products['rating'].apply(clean_product_rating)
-
     df_products['n_loves'] = df_products['n_loves'].apply(shorthand_numeric_conversion)
-
     df_products['product_reviews'] = df_products['product_reviews'].apply(shorthand_numeric_conversion)
-
-    df_products['sku'] = df_products['sku'].apply(strip_non_numeric)#.str.replace("Item ","")
-
-    # # this will change in V2 of scraped data
-    # df_products['out_of_stock'] = df_products['name'].str.contains('out of stock')
-    # df_products['limited_edition'] = df_products['name'].str.contains('limited edition')
-    # df_products['new_product'] = df_products['name'].str.contains('new')
-    # df_products['few_left'] = df_products['name'].str.contains('only a few left')
-    # df_products['sale'] = df_products['name'].str.contains('sale')
-    # df_products['refill'] = df_products['name'].str.contains('refill')
+    df_products['sku'] = df_products['sku'].apply(strip_non_numeric)
 
     # categories from bread crumbs, starts with list of 3 categorical values
     # fill value is '   ', list of 3 empty spaces
-    df_products['categories'] = df_products['categories'].fillna('   ')
     df_products['lvl_0_cat'], df_products['lvl_1_cat'], df_products['lvl_2_cat'] = df_products['categories'].str
     df_products['lvl_2_cat'] = df_products['lvl_2_cat'].fillna("")
-    # removing sets entirely from dataset
-    df_products = df_products[~df_products['lvl_2_cat'].str.contains("Sets")]
+    not_important_for_analysis = ['Accessories','Value & Gift Sets','Beauty Tools','High Tech Tools',
+                                'Wellness','Hair Tools','Tools', 'Brushes & Applicators', 'Other Needs']
+    df_products = df_products[~df_products['lvl_1_cat'].isin(not_important_for_analysis)]
+    
+    df_products[['url_path','product_id']] = df_products['url_path'].str.split("-P", expand=True)
 
-    df_products['url_path'], df_products['url_sku'], df_products['url_params'] =  df_products['url'].apply(parse_url_info).str
+    df_products = df_products[(df_products['size'].notnull()) | (df_products['name'].astype(bool))]
+    df_products = df_products[(df_products['size'].notnull()) | (df_products['name'].notnull())]
 
-    # dropping duplicate products 
-    df_products = df_products.drop_duplicates(subset=['brand_name','product_name','url_path', 'sku','price'], keep='last')
+    df_products = df_products.drop_duplicates(subset=['brand_name','product_name','url','swatch_group','size','name', 'sku','price'], keep='last')
 
-    df_products.loc[df_products['size'].isna(), 'size'] = df_products['name']
+#######
+    df_products.loc[df_products['size'].isnull(), 'size'] = df_products['name']
     df_products.loc[df_products['size']==df_products['name'],'name'] = None
 
     def series_replace(df, ids):
@@ -261,7 +259,7 @@ def main():
     df_products['swatch_details'] = df_products['swatch_group'].str.split(" - ").str[0]
     df_products['swatch_group'] = df_products['swatch_group'].str.split(" - ").str[-1]
 
-    df_products[['url_path','product_id']] = df_products['url_path'].str.split("-P", expand=True)
+    
 
     df_products.to_csv('../data/processed_prod_data.csv', index=False)
 
