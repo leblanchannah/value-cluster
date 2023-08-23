@@ -35,7 +35,10 @@ sidebar_text = html.P([
             This dashboard is inspired by the "Sephora Minis Math" TikTok by
         """,
         html.A("@michaelamakeup02's", href="https://www.tiktok.com/@michaelamakeup92/video/7237211338618047787"),
-        html.Br()
+        html.Br(),
+        """
+            Last data update, 22/08/2023
+        """
 ], style={'font-size':14})
 
 # Drop down used to sort slope plot
@@ -414,7 +417,7 @@ app.layout = dbc.Container([
                             '''
                                 The unit prices of products at Sephora are not readily available without web scraping. 
                                 This tool facilitates a comparison between products available in both mini and full sizes by analyzing their unit price ratios.
-                            ''']),
+                            '''], style={'font-size':14}),
                         html.H5("Sort By:"),
                         sorting_dropdown,
                         html.Br(),
@@ -468,7 +471,7 @@ app.layout = dbc.Container([
                                         html.Div(
                                             "",
                                             id='product_details_text',
-                                            style={'font-size':16}
+                                            style={'font-size':14}
                                         )
                                     ], width=3),
                                     dbc.Col([
@@ -515,7 +518,7 @@ app.layout = dbc.Container([
                     ],width=12)
 
                 ])
-            ], width=10),  html.Br(),
+            ], width=10),
         ]),
 
 ], 
