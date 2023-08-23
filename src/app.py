@@ -408,8 +408,13 @@ app.layout = dbc.Container([
             # side panel col, with title, description etc 
             dbc.Col([
                 dbc.Card([
-                    dbc.CardHeader(html.H3("Sephora Product Analysis")),
+                    dbc.CardHeader(html.H4("PricePerPigment")),
                     dbc.CardBody([
+                        html.P([
+                            '''
+                                The unit prices of products at Sephora are not readily available without web scraping. 
+                                This tool facilitates a comparison between products available in both mini and full sizes by analyzing their unit price ratios.
+                            ''']),
                         html.H5("Sort By:"),
                         sorting_dropdown,
                         html.Br(),
