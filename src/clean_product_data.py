@@ -121,14 +121,13 @@ def split_product_multiplier(input_string):
 
 
 def split_sale_and_full_price(price):
-    n_prices = len(price)
-    if n_prices==1:
-        full_price = price[0]
-        return [full_price, full_price]
-    if n_prices==0:
-        return ["",""]
-    if n_prices==2:
-        return price
+    if price:
+        n_prices = len(price)
+        if n_prices==1:
+            return [price[0], price[0]]
+        if n_prices==2:
+            return price
+    return ["",""]
 
 
 def clean_sku():
