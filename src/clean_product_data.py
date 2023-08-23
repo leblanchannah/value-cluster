@@ -38,13 +38,18 @@ def shorthand_numeric_conversion(count_val):
     '''
     amount of loves or reviews is in format 3.2K or 1.1M for example
     '''
-    if count_val:
-        count_val = count_val.replace(".","")
-        count_val = count_val.replace("K","00")
-        count_val = count_val.replace("M","000000")
-        count_val = float(count_val)
-    return count_val
-
+    if count_val=="":
+        return None
+    if "K" in count_val:
+        count_val = count_val.replace("K","")
+        if count_val!="":
+            return float(count_val)*1000
+    elif "M" in count_val:
+        count_val = count_val.replace("M","")
+        if count_val!="":
+            return float(count_val)*1000000
+    else:
+        return float(count_val)
 
 def clean_product_rating(rating):
     '''
@@ -56,6 +61,7 @@ def clean_product_rating(rating):
         rating = rating.replace("%","")
         rating = float(rating)/100*5
     return rating
+
 
 def pre_parse_product_size_clean(input_string):
     '''
@@ -124,6 +130,14 @@ def split_sale_and_full_price(price):
         return price
 
 
+def clean_sku():
+    return
+
+
+def clean_price():
+    return 
+
+
 def main():
 
     df_products = read_data("../data/products/*")
@@ -142,6 +156,9 @@ def main():
     df_products['current_price'], df_products['full_price'] = df_products['price'].str
     df_products = df_products.drop(['price','scrape_date'], axis=1)
 
+    df_products['price'] = df_products['price'].str.replace("$","")
+    df_products['price'] = df_products['price'].astype(float)
+
     # string col to lower removed 'product_name', and brand_nme
     cols_to_lower = ['swatch_group', 'size', 'name']
     df_products[cols_to_lower] = df_products[cols_to_lower].apply(lambda x: x.str.lower())
@@ -151,9 +168,6 @@ def main():
     df_products['n_loves'] = df_products['n_loves'].apply(shorthand_numeric_conversion)
 
     df_products['product_reviews'] = df_products['product_reviews'].apply(shorthand_numeric_conversion)
-
-    df_products['price'] = df_products['price'].str.replace("$","")
-    df_products['price'] = df_products['price'].astype(float)
 
     df_products['sku'] = df_products['sku'].str.replace("Item ","")
 
