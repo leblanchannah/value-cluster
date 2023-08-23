@@ -130,8 +130,17 @@ def split_sale_and_full_price(price):
     return ["",""]
 
 
-def clean_sku():
-    return
+def strip_and_cast_to_int(input_str):
+    """
+    returns only numeric portions of string
+    used to clean sku
+    """
+    if input_str:
+        numeric_str = ''.join(filter(str.isdigit, input_str))
+        if numeric_str:
+            return numeric_str
+    return None
+
 
 
 def clean_price():
