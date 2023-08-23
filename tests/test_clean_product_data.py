@@ -1,7 +1,9 @@
 import pytest
 import sys
 sys.path.insert(0,'../src')
-from clean_product_data import parse_volume_string, pre_parse_product_size_clean, split_product_multiplier
+from clean_product_data import (parse_volume_string, pre_parse_product_size_clean, split_product_multiplier,
+                                shorthand_numeric_conversion, clean_product_rating, split_sale_and_full_price)
+
 
 # amount1, unit1, amount2, unit2, trailing_text
 @pytest.mark.parametrize("size_value, parsed_size_data", [
@@ -61,3 +63,41 @@ def test_pre_parse_product_size_clean(size_value, cleaned_size_data):
 ])
 def test_split_product_multiplier(size_value, cleaned_size_data):
     assert split_product_multiplier(size_value) == cleaned_size_data
+
+
+@pytest.mark.parametrize("string_input, numeric_output", [
+    ("10K", 10000.0),
+    ("1K", 1000.0),
+    ("9.9K", 9900.0),
+    ("999", 999.0),
+    ("0.00", 0.0),
+    ("10M", 10000000.0),
+    ("1.2M", 1200000.0),
+    ("", None),
+    ("K",0.0),
+    ("M",0.0)
+])
+def test_shorthand_numeric_conversion(string_input, numeric_output):
+    assert shorthand_numeric_conversion(string_input) == numeric_output
+
+
+@pytest.mark.parametrize("rating_as_width, numeric_rating", [
+    ("width:100.00%", 5.0),
+    ("width:80.00%", 4.0),
+    ("width:20.00%", 1.0),
+    ("width:0.00%", 0.0),
+    ("width:120.00%", 6.0),
+    ("", None)
+])
+def test_clean_product_rating(rating_as_width, numeric_rating):
+    assert clean_product_rating(rating_as_width) == numeric_rating
+
+
+@pytest.mark.parametrize("prices_as_list, prices_to_split", [
+    (["$100.00"], ["$100.00","$100.00"]),
+    (["$45.00","$60.00"], ["$45.00","$60.00"]),
+    (None, ["",""]),
+    ([""], ["",""])
+])
+def test_split_sale_and_full_price(prices_as_list, prices_to_split):
+    assert split_sale_and_full_price(prices_as_list) == prices_to_split
