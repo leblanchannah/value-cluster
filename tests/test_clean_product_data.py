@@ -3,7 +3,7 @@ import sys
 sys.path.insert(0,'../src')
 from clean_product_data import (parse_volume_string, pre_parse_product_size_clean, split_product_multiplier,
                                 shorthand_numeric_conversion, clean_product_rating, split_sale_and_full_price,
-                                strip_and_cast_to_int)
+                                strip_non_numeric)
 
 # amount1, unit1, amount2, unit2, trailing_text
 @pytest.mark.parametrize("size_value, parsed_size_data", [
@@ -111,5 +111,5 @@ def test_split_sale_and_full_price(prices_as_list, prices_to_split):
     ("", None),
     (None, None)
 ])
-def test_strip_and_cast_to_int(input_str, output_str):
-    assert strip_and_cast_to_int(input_str) == output_str
+def test_strip_non_numeric(input_str, output_str):
+    assert strip_non_numeric(input_str) == output_str

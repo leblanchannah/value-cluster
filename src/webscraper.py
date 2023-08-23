@@ -376,7 +376,7 @@ def main():
 
     with open('../data/brand_product_links.json', 'r') as f:
         data = json.load(f)
-    offset = 110
+    offset = 233
     for i, brand in enumerate(data):
         if i > offset:
             print(f"Brand # {i+1}")

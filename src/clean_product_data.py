@@ -130,7 +130,7 @@ def split_sale_and_full_price(price):
     return ["",""]
 
 
-def strip_and_cast_to_int(input_str):
+def strip_non_numeric(input_str):
     """
     returns only numeric portions of string
     used to clean sku
@@ -178,7 +178,7 @@ def main():
 
     df_products['product_reviews'] = df_products['product_reviews'].apply(shorthand_numeric_conversion)
 
-    df_products['sku'] = df_products['sku'].str.replace("Item ","")
+    df_products['sku'] = df_products['sku'].apply(strip_non_numeric)#.str.replace("Item ","")
 
     # # this will change in V2 of scraped data
     # df_products['out_of_stock'] = df_products['name'].str.contains('out of stock')
