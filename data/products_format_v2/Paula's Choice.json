@@ -1,0 +1,206 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/paula-s-choice-clinical-niacinamide-20-treatment-P469511",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:21:34",
+        "product_name": "CLINICAL Niacinamide 20% Treatment",
+        "brand_name": "Paula's Choice",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.67 oz/ 20 mL"
+                ],
+                "price": [
+                    "$72.00"
+                ],
+                "sku": "Item 2421287"
+            }
+        ],
+        "rating": "width:90.706%",
+        "product_reviews": "312",
+        "ingredients": "-Niacinamide (Vitamin B3) 20%: A first-ever strength that improves the look of tenacious pores and hard, clogged bumps. -Vitamin C: Works with niacinamide to visibly brighten skin tone and refine rough texture. -Meadowsweet Extract: Visibly combats loss of firmness that can cause pores to look lax or caved in. Water (Aqua), Niacinamide, Pentylene Glycol, Butylene Glycol, Glycerin, Acetyl Glucosamine, Ascorbyl Glucoside, Glycyrrhiza Glabra (Licorice) Root Extract, Spiraea Ulmaria (Meadowsweet) Extract, Portulaca Oleracea (Purslane) Extract, Camellia Japonica Flower Extract, Epigallocatechin Gallate, Boerhavia Diffusa Root Extract, Camellia Sinensis (Green Tea) Leaf Extract, Allantoin, Lecithin, Pullulan, Panthenol, Silica, Xanthan Gum, Sclerotium Gum, Propanediol, Sodium Phytate, Phenoxyethanol, Ethylhexylglycerin. ",
+        "n_loves": "43.8K",
+        "categories": [
+            "Skincare",
+            "Treatments",
+            "Face Serums"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/paula-s-choice-mini-skin-perfecting-2-bha-liquid-exfoliant-P469503",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:21:45",
+        "product_name": "Mini Skin Perfecting 2% BHA Liquid Exfoliant",
+        "brand_name": "Paula's Choice",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL"
+                ],
+                "price": [
+                    "$17.00"
+                ],
+                "sku": "Item 2421394"
+            }
+        ],
+        "rating": "width:84.02799999999999%",
+        "product_reviews": "576",
+        "ingredients": "-Salicylic Acid (BHA) 2%: Penetrates pores to clear blemish-causing buildup and shed dead skin. -Green Tea: A potent antioxidant that soothes irritated skin while improving visible signs of aging. -Methylpropanediol: Hydrates while visibly enhancing the skin\u2019s glow and the formula\u2019s penetration. Water (Aqua), Methylpropanediol, Butylene Glycol, Salicylic Acid, Polysorbate 20, Camellia Oleifera (Green Tea) Leaf Extract, Sodium Hydroxide, Tetrasodium EDTA. ",
+        "n_loves": "251.2K",
+        "categories": [
+            "Skincare",
+            "Mini Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/paula-s-choice-c15-vitamin-c-super-booster-P469506",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:21:57",
+        "product_name": "C15 Vitamin C Super Booster",
+        "brand_name": "Paula's Choice",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.67 oz/ 20 mL"
+                ],
+                "price": [
+                    "$75.00"
+                ],
+                "sku": "Item 2421337"
+            }
+        ],
+        "rating": "width:81.404%",
+        "product_reviews": "484",
+        "ingredients": "-Vitamin C (L-Ascorbic Acid) 15%: Visibly improves firmness, fades dark spots, and brightens dull skin. -Ferulic Acid and Vitamin E: Enhance the benefits of vitamin C while protecting skin from environmental damage. -Hyaluronic Acid (Sodium Hyaluronate): Helps skin retain hydration while reducing the appearance of fine lines and wrinkles. Water (Aqua), Ascorbic Acid, Butylene Glycol, Ethoxydiglycol, Glycerin, PPG-26-Buteth-26, PEG-40 Hydrogenated Castor Oil, Pentylene Glycol, Tocopherol (Vitamin E), Sodium Hyaluronate, Hexanoyl Dipeptide-3 Norleucine Acetate, Lecithin, Ferulic Acid, Panthenol, Bisabolol, Oryza Sativa (Rice) Bran Extract, Propyl Gallate, Sodium Gluconate, Sodium Hydroxide, Phenoxyethanol, Ethylhexylglycerin. ",
+        "n_loves": "91.1K",
+        "categories": [
+            "Skincare",
+            "Treatments",
+            "Face Serums"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/paula-s-choice-skin-perfecting-2-bha-liquid-exfoliant-P469502",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:22:10",
+        "product_name": "Skin Perfecting 2% BHA Liquid Exfoliant",
+        "brand_name": "Paula's Choice",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 4 oz/ 118 mL"
+                ],
+                "price": [
+                    "$47.00"
+                ],
+                "sku": "Item 2421360"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL"
+                ],
+                "price": [
+                    "$17.00"
+                ],
+                "sku": "Item 2421394"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": "LIMITED EDITION",
+                "size": null,
+                "name": [
+                    "Size: 8 oz / 236 mL",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$73.00"
+                ],
+                "sku": "Item 2496578"
+            }
+        ],
+        "rating": "width:88.454%",
+        "product_reviews": "1.5K",
+        "ingredients": "-Salicylic Acid (BHA) 2%: Penetrates pores to clear blemish-causing buildup and shed dead skin. -Green Tea: A potent antioxidant that soothes irritated skin while improving visible signs of aging. -Methylpropanediol: Hydrates while visibly enhancing the skin\u2019s glow and the formula\u2019s penetration. Water (Aqua), Methylpropanediol, Butylene Glycol, Salicylic Acid, Polysorbate 20, Camellia Oleifera (Green Tea) Leaf Extract, Sodium Hydroxide, Tetrasodium EDTA. ",
+        "n_loves": "353.4K",
+        "categories": [
+            "Skincare",
+            "Cleansers",
+            "Exfoliators"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/c5-super-boost-vitamin-c-eye-cream-P501288",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:22:23",
+        "product_name": "C5 Super Boost Vitamin C Eye Cream",
+        "brand_name": "Paula's Choice",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.5 oz / 15 mL"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2574820"
+            }
+        ],
+        "rating": "width:88.806%",
+        "product_reviews": "452",
+        "ingredients": "-Vitamin C 5%: Brightens the look of under-eye dullness and smooths visible fine lines.-Zerumbone: Targets the root causes of visible under-eye discoloration\u200b.-Peptides: Visibly firm around the eyes and restore youthful-looking bounce.Water/Aqua/Eau, Dicaprylyl Carbonate, Glycerin, Triheptanoin, 3-O-Ethyl Ascorbic Acid, Ascorbyl Glucoside, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Arachidyl Alcohol, C13-16 Isoalkane, Cetearyl Alcohol, Butylene Glycol, Ascorbyl Palmitate, Tocopheryl Acetate, Bacillus Ferment, Oryza Sativa (Rice) Bran Extract, Cetearyl Olivate, Sorbitan Olivate, Helianthus Annuus (Sunflower) Extract, 1,2-Hexanediol, Sh-Polypeptide-121, Behenyl Alcohol, Propanediol, Hydrogenated Lecithin, Sodium Citrate, Tocopherol, Cetyl Alcohol, Butyrospermum Parkii (Shea) Butter, Arachidyl Glucoside, Caprylyl Glycol, Sodium Metabisulfite, Ethylhexylglycerin, Hexylene Glycol, Sodium Phytate, Sorbitan Isostearate, Hyaluronic Acid, Rosmarinus Officinalis (Rosemary) Leaf Extract, Citric Acid, Sodium Sulfite, Zerumbone, Acetyl Hexapeptide-8, Phenoxyethanol.",
+        "n_loves": "30.2K",
+        "categories": [
+            "Skincare",
+            "Eye Care",
+            "Eye Creams & Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/paula-s-choice-clinical-1-retinol-treatment-P469510",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:22:35",
+        "product_name": "CLINICAL 1% Retinol Treatment",
+        "brand_name": "Paula's Choice",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL"
+                ],
+                "price": [
+                    "$85.00"
+                ],
+                "sku": "Item 2421295"
+            }
+        ],
+        "rating": "width:91.04599999999999%",
+        "product_reviews": "373",
+        "ingredients": "-Retinol (Vitamin A) 1%: A potent, slow-release concentration that visibly improves signs of aging. -Oat, Willow Bark, and Licorice Extracts: Soothe the skin to visibly address redness and other signs of sensitivity. -Triple Peptide Blend: Complements high-strength retinol, promoting strong, visibly firm skin. Water (Aqua), Dimethicone, Glycerin, Butylene Glycol, Isononyl Isononanoate, Castor Isostearate Succinate, Glyceryl Stearate, C12-15 Alkyl Benzoate, Dimethicone Crosspolymer, PEG-33, Polysorbate 20, Behenyl Alcohol, PEG-100 Stearate, Pentaerythrityl Tetraisostearate, Polymethylsilsesquioxane, Tetrahexyldecyl Ascorbate, Retinol, Ceramide NG, Palmitoyl Tetrapeptide-7, Palmitoyl Hexapeptide-12, Palmitoyl Tripeptide-1, Sodium Hyaluronate, Dipotassium Glycyrrhizate, Glycyrrhiza Glabra (Licorice) Root Extract, Avena Sativa (Oat) Kernel Extract, Arctium Lappa (Burdock) Root Extract, Salix Alba (Willow) Bark Extract, Glycine Soja Sterols, Lecithin, Allantoin, Tocopheryl Acetate, Hydrolyzed Soy Protein, Sorbitan Laurate, Acetyl Dipeptide-1 Cetyl Ester, Disodium EDTA, Hydroxyethylcellulose, Sodium Hydroxide (pH adjuster), Tribehenin, Caprylyl Glycol, Ethylhexylglycerin, Pentylene Glycol, PEG-75 Shea Butter Glycerides, PPG-12/SMDI Copolymer, PEG-10 Phytosterol, PEG-8 Dimethicone, PEG-14, Magnesium Aluminum Silicate, Arachidyl Glucoside, Arachidyl Alcohol, Sclerotium Gum, Carbomer, Phenoxyethanol, Benzoic Acid.",
+        "n_loves": "73.2K",
+        "categories": [
+            "Skincare",
+            "Treatments",
+            "Face Serums"
+        ]
+    }
+]

@@ -1,0 +1,1119 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/melt-cosmetics-digital-dust-duo-blush-P462718",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 03:27:30"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/melt-cosmetics-waterline-eye-liner-pencil-P481127",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:27:40",
+        "product_name": "Slick Waterline Eye Pencil",
+        "brand_name": "Melt Cosmetics",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Olive"
+                ],
+                "price": [
+                    "$24.54"
+                ],
+                "sku": "Item 2571305"
+            }
+        ],
+        "rating": "width:80.45400000000001%",
+        "product_reviews": "44",
+        "ingredients": "Dimethicone, Synthetic Wax, Silica, Stearyl Dimethicone, Caprylic/Capric Triglyceride, Mica, Trimethylsiloxysilicate/Dimethiconol Crosspolymer, Octadecane, Dimethicone/Vinyl Dimethicone Crosspolymer, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Isoceteth-10. May Contain: Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491, Ci 77492, Ci 77499).",
+        "n_loves": "21.8K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyeliner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/melt-cosmetics-supernatural-lash-mascara-P478296",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:27:55",
+        "product_name": "Supernatural Lash Mascara",
+        "brand_name": "Melt Cosmetics",
+        "options": [],
+        "rating": "width:73.68400000000001%",
+        "product_reviews": "38",
+        "ingredients": "Water (Aqua/Eau), Iron Oxides (Ci 77499), Synthetic Beeswax, Acrylates/Ethylhexyl Acrylate Copolymer, Dimethicone, Glyceryl Stearate Se, Copernicia Cerifera (Carnauba) Wax, Glycerin, Nylon-12, Polybutene, Palmitic Acid, Glyceryl Stearate, Vp/Eicosene Copolymer, Stearic Acid, Acacia Senegal Gum, Aminomethyl Propanediol, Cellulose, Phenoxyethanol, Ethylhexylglycerin, Euphorbia Cerifera (Candelilla) Wax (Candelilla Cera/Cire De Candelilla), Hydrated Silica, Peg-30 Dipolyhydroxystearate, Tribehenin, Vp/Va Copolymer, Hydroxyethylcellulose, Laureth-21, Panthenol, Disodium Phosphate, Polysorbate 60, Citric Acid, Sodium Phosphate, Cyclohexasiloxane, Cyclopentasiloxane, Sodium Nitrate, Isopropanol, Iron Oxides (Ci 77491), Iron Oxides (Ci 77492).",
+        "n_loves": "3.6K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Mascara"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/melt-cosmetics-rust-eyeshadow-palette-P456964",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:28:05",
+        "product_name": "Rust Eyeshadow Palette",
+        "brand_name": "Melt Cosmetics",
+        "options": [],
+        "rating": "width:96.052%",
+        "product_reviews": "76",
+        "ingredients": "Mica, Zinc, Zea May Starch, Ethylhexyl Palmitate, Silica, Lauroyl Lysine, Phenoxyethanol, Calcium Aluminum Borosilicate, Dimethicone, Triethoxycaprylylsilane, Polyethylene, Nylon-12, Hydrogenated Lecithin, Tin Oxide. May Contain: Titanium Dioxide CI 77891, Iron Oxide CI 77491, Iron oxide CI 77492, Iron Oxide CI 77499, Manganese Violet CI 77742, Red 40 CI 16035, Yellow 5 Lake CI 19140.",
+        "n_loves": "17.3K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eye Palettes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/liquid-set-lipstick-P444548",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:28:14",
+        "product_name": "Liquid Lipstick",
+        "brand_name": "Melt Cosmetics",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.10 oz / 3.12 mL",
+                "name": [
+                    "Color: Fuse - peachy beige neutral"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2228955"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.118 oz / 3.47 mL",
+                "name": [
+                    "Color: Gwendolyn - tender coral",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2235455"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.10 oz / 3.16 mL",
+                "name": [
+                    "Color: Ex - orange nectar",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2229110"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.106 oz / 3.12 mL",
+                "name": [
+                    "Color: Immoral - scarlet red"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2228948"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.108 oz / 3.19 mL",
+                "name": [
+                    "Color: Sequel - sentimental plum"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2235448"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.11 oz / 3.12 mL",
+                "name": [
+                    "Color: Purr - deep chocolate brown"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2229045"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.12 fl oz / 3.39 ml",
+                "name": [
+                    "Color: Mya - dried cranberry"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2228989"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.108 oz / 3.19 mL",
+                "name": [
+                    "Color: Earthling - deep taupe",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2229128"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.107 oz / 3.17 mL",
+                "name": [
+                    "Color: Velvet Room - black cherry"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2229003"
+            }
+        ],
+        "rating": "width:74.60799999999999%",
+        "product_reviews": "115",
+        "ingredients": "Isododecane, Cyclopentasiloxane, Dimethicone, Trimethylsiloxysilicate, Octyldodecanol, Synthetic Beeswax , Kaolin, Isobutylmethacrylate/Bis-Hydroxypropyl Dimethicone Acrylate Copolymer, Silica Dimethyl Silylate, Trihydroxystearin, Disteardimonium Hectorite, Polysilicone-11, Propylene Carbonate, Phenoxyethanol. May Contain (+/-): Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77492), Iron Oxides (Ci 77491), Iron Oxides (Ci 77499), Red 7 Lake (Ci 15850).",
+        "n_loves": "44.6K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Lipstick"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/glaze-skin-P506800",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:28:31",
+        "product_name": "Glazed Skin Sheer Finishing Powder",
+        "brand_name": "Melt Cosmetics",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "NEW",
+                "size": "Size 0.34 oz / 9.5 g",
+                "name": [
+                    "Color: Fair",
+                    "NEW"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2712446"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "NEW",
+                "size": "Size 0.34 oz / 9.5 g",
+                "name": [
+                    "Color: Light - very fair to fair tones",
+                    "NEW"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2712453"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "NEW",
+                "size": "Size 0.34 oz / 9.5 g",
+                "name": [
+                    "Color: Medium - light medium to medium skin tones",
+                    "NEW"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2712461"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "NEW",
+                "size": "Size 0.34 oz / 9.5 g",
+                "name": [
+                    "Color: Tan - dark medium to tan tones",
+                    "NEW"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2712479"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "NEW",
+                "size": "Size 0.34 oz / 9.5 g",
+                "name": [
+                    "Color: Dark - dark to very dark tones",
+                    "NEW",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2712487"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "NEW",
+                "size": "Size 0.34 oz / 9.5 g",
+                "name": [
+                    "Color: Deep - deep to very deep tones",
+                    "NEW"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2712495"
+            }
+        ],
+        "rating": "width:76.19%",
+        "product_reviews": "21",
+        "ingredients": "Mica, Lauroyl Lysine, Simmondsia Chinensis (Jojoba) Seed Oil, Magnesium Myristate, Caprylic/Capric Triglyceride, Glyceryl Caprylate, Kaolin, Coco-Caprylate/Caprate,Zinc Stearate, Helianthus Annuus (Sunflower) Seed Oil, Tocopherol, Helianthus Annuus (Sunflower) Seed Oil, Glyceryl Undecylenate, Lavandula Angustifolia (Lavender) Oil, Achillea Millefolium Flower/Leaf/Stem Extract, Ascophyllum Nodosum Extract, Panax Ginseng Root Extract, Passiflora Edulis Fruit Extract, Tilia Cordata Flower Extract, Tussilago Farfara (Coltsfoot) Leaf Extract. May Contain: Titanium Dioxide Ci 77891, Iron Oxides Ci 77492, Ci 77491, Ci 77499.",
+        "n_loves": "4.2K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Setting Spray & Powder"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/twenty-seven-palette-P444446",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:28:47",
+        "product_name": "Twenty-Seven Eyeshadow Palette",
+        "brand_name": "Melt Cosmetics",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.73 oz / 20.70 g"
+                ],
+                "price": [
+                    "$77.00"
+                ],
+                "sku": "Item 2229649"
+            }
+        ],
+        "rating": "width:87.692%",
+        "product_reviews": "52",
+        "ingredients": "Talc, Mica, Zinc Stearate, Isopropyl Palmitate, Dimethicone, Lauroyl Lysine, Silica, Caprylic/Capric Triglyceride, Phenoxyethanol, PTFE, Polymethylsilsesquioxane, Nylon-12, Boron Nitride, Hydrogenated Lecithin, Synthetic Fluorphlogopite, Aluminum Calcium Sodium Silicate. May Contain (+/-): Titanium Dioxide (Ci 77891), Iron Oxide (Ci 77491), Iron Oxide (Ci 77492), Iron Oxide (Ci 77499), Red 40 Lake (Ci 16035), Ultramarine Blue (Ci 77007), Yellow 5 Lake (Ci 19140), Manganese Violet (Ci 77742), Tin Oxide (Ci 77861).",
+        "n_loves": "18.9K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eye Palettes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/radioactive-pressed-pigment-palette-P447560",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 03:28:58"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/melt-cosmetics-sex-foil-liquid-highlighter-P474348",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:29:07",
+        "product_name": "SexFoil Liquid Highlighter",
+        "brand_name": "Melt Cosmetics",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: Stargazer - soft champagne"
+                ],
+                "price": [
+                    "$51.00"
+                ],
+                "sku": "Item 2477941"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: Gold Ore - 24k gold"
+                ],
+                "price": [
+                    "$51.00"
+                ],
+                "sku": "Item 2477974"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: Peaches & Cream - golden peach"
+                ],
+                "price": [
+                    "$51.00"
+                ],
+                "sku": "Item 2477982"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: Nova - warm bronze"
+                ],
+                "price": [
+                    "$51.00"
+                ],
+                "sku": "Item 2477966"
+            }
+        ],
+        "rating": "width:87.82600000000001%",
+        "product_reviews": "23",
+        "ingredients": "Water (Aqua), Mica, Dimethicone, Isononyl Isononanoate, Pentylene Glycol, VP/VA Copolymer, C12-15 Alkyl Benzoate, Myristyl Alcohol, Beheneth-30, Glyceryl Isostearate, Phenoxyethanol, Glyceryl Stearate, Glycerin, Potassium Cetyl Phosphate, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Sodium Dehydroacetate, Carbomer, Isohexadecane, Sodium Hydroxide, Cetearyl Alcohol, Cetearyl Glucoside, Polysorbate 80, Sorbitan Oleate, Sodium Stearate, Tocopherol, Ascorbyl Palmitate, Calcium Sodium Borosilicate, Silica, Tin Oxide. May Contain: Titanium Dioxide (CI 77891), Iron Oxides (CI 77491, CI 77499).",
+        "n_loves": "10.9K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Highlighter"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/melt-cosmetics-gemini-palette-1-P483477",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:29:21",
+        "product_name": "Gemini Eyeshadow Palette 1",
+        "brand_name": "Melt Cosmetics",
+        "options": [],
+        "rating": "width:90%",
+        "product_reviews": "22",
+        "ingredients": "Luna: Talc, Mica, Zinc Stearate, Isopropyl Palmitate, Dimethicone, Phenoxyethanol, Ptfe. May Contain: Titanium Dioxide (Ci 77891), Iron Oxide (Ci 77492), Iron Oxide (Ci 77491), Iron Oxide (Ci 77499). Gemini: Dimethicone, Isopropyl Palmitate, Mica, Lauroyl Lysine, Zinc Stearate, Phenoxyethanol, Ptfe, Calcium Aluminum Borosilicate, Silica. May Contain: Titanium Dioxide (Ci 77891), Tin Oxide (Ci 77861), Iron Oxide (Ci 77491), Iron Oxide (Ci 77492), Iron Oxide (Ci 77499), Red 40 Lake (Ci 16035), Manganese Violet (Ci 77742). Lorelei: Mica, Hydrogenated Lecithin, Lauroyl Lysine, Zinc Stearate, Dimethicone, Silica, Phenoxyethanol, Polymethylsilsesquioxane, May Contain: Iron Oxide (Ci 77492), Iron Oxide (Ci 77491), Iron Oxide (Ci 77499), Yellow 5 Lake (Ci 19140), Red 40 Lake (Ci 16035). Polkadot: Mica, Lauroyl Lysine, Hydrogenated Lecithin, Dimethicone, Silica, Zinc Stearate, Polymethylsilsesquioxane, Phenoxyethanol. May Contain: Iron Oxide (Ci 77492), Iron Oxide (Ci 77491), Iron Oxide (Ci 77499), Yellow 5 Lake (Ci 19140), Red 40 Lake (Ci 16035). Cupcake: Mica, Lauroyl Lysine, Hydrogenated Lecithin, Silica, Dimethicone, Butylene Glycol, Zinc Stearate, Phenoxyethanol, Polymethylsilsesquioxane. May Contain: Iron Oxide (Ci 77499), Iron Oxide (Ci 77492), Iron Oxide (Ci 77491), Red 40 Lake (Ci 16035).",
+        "n_loves": "13K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eye Palettes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/melt-cosmetics-brunet-eyeshadow-palette-P473121",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:29:32",
+        "product_name": "Brunet Eyeshadow Palette",
+        "brand_name": "Melt Cosmetics",
+        "options": [],
+        "rating": "width:78.462%",
+        "product_reviews": "26",
+        "ingredients": "Suede: Talc, Mica, Zinc Stearate, Lauroyl Lysine, Silica, Dimethicone, Cocoglycerides, Polymethylsilsesquioxane, Hydrogenated Lecithin, Aluminum Starch Octenylsuccinate, Phenoxyethanol, Glycerin, Polyethylene, Acrylates Copolymer, Magnesium Carbonate, Boron Nitride, Manganese Violet (Ci 77742), Yellow 5 Lake (Ci 19140), Red 40 Lake (Ci 16035), Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Titanium Dioxide (Ci 77891). Buff: Mica, Zinc Stearate, Boron Nitride, Dimethicone, Cocoglycerides, Glycerin, Polymethylsilsesquioxane, Silica, Phenoxyethanol, Lauroyl Lysine, Polyethylene, Talc, Aluminum Starch Octenylsuccinate, Hydrogenated Lecithin, Acrylates Copolymer, Magnesium Carbonate, Manganese Violet (Ci 77742), Yellow 5 Lake (Ci 19140), Red 40 Lake (Ci 16035), Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Titanium Dioxide (Ci 77891). Cork: Mica, Lauroyl Lysine, Zinc Stearate, Silica, Dimethicone, Cocoglycerides, Talc, Polymethylsilsesquioxane, Hydrogenated Lecithin, Glycerin, Aluminum Starch Octenylsuccinate, Phenoxyethanol, Polyethylene, Acrylates Copolymer, Magnesium Carbonate, Boron Nitride, Yellow 5 Lake (Ci 19140), Red 40 Lake (Ci 16035), Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Titanium Dioxide (Ci 77891). Musk: Mica, Zinc Stearate, Dimethicone, Cocoglycerides, Glycerin, Polymethylsilsesquioxane, Polyethylene, Phenoxyethanol, Lauroyl Lysine, Tin Oxide, Talc, Silica, Boron Nitride, Aluminum Starch Octenylsuccinate, Hydrogenated Lecithin, Acrylates Copolymer, Magnesium Carbonate, Iron Oxides (Ci 77491), Titanium Dioxide (Ci 77891). Tan: Mica, Zinc Stearate, Lauroyl Lysine, Talc, Silica, Dimethicone, Cocoglycerides, Polymethylsilsesquioxane, Aluminum Starch Octenylsuccinate, Phenoxyethanol, Glycerin, Hydrogenated Lecithin, Polyethylene, Acrylates Copolymer, Magnesium Carbonate, Boron Nitride, Manganese Violet (Ci 77742), Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Titanium Dioxide (Ci 77891). Bourbon: Mica, Zinc Stearate, Dimethicone, Ethylhexyl Palmitate, Cocoglycerides, Silica, Glycerin, Polymethylsilsesquioxane, Polyethylene, Phenoxyethanol, Lauroyl Lysine, Talc, Boron Nitride, Aluminum Starch Octenylsuccinate, Hydrogenated Lecithin, Acrylates Copolymer, Magnesium Carbonate, Iron Oxides (Ci 77491, Ci 77499), Aluminum Powder (Ci 77000), Titanium Dioxide (Ci 77891). Stout: Mica, Calcium Aluminum Borosilicate, Dimethicone, Zinc Stearate, Ethylhexyl Palmitate, Silica, Cocoglycerides, Glycerin, Phenoxyethanol, Polymethylsilsesquioxane, Polyethylene, Lauroyl Lysine, Tin Oxide, Talc, Boron Nitride, Aluminum Starch Octenylsuccinate, Hydrogenated Lecithin, Acrylates Copolymer, Magnesium Carbonate, Iron Oxides (Ci 77491), Titanium Dioxide (Ci 77891). Brunet: Mica, Zinc Stearate, Lauroyl Lysine, Talc, Dimethicone, Cocoglycerides, Polymethylsilsesquioxane, Silica, Phenoxyethanol, Aluminum Starch Octenylsuccinate, Glycerin, Polyethylene, Acrylates Copolymer, Magnesium Carbonate, Hydrogenated Lecithin, Yellow 5 Lake (Ci 19140), Iron Oxides (Ci 77491, Ci 77499).",
+        "n_loves": "8.7K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eye Palettes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/melt-cosmetics-perfectionist-brow-gel-P504916",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:29:42",
+        "product_name": "Max Hold Eyebrow Gel",
+        "brand_name": "Melt Cosmetics",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.0031 oz / 0.09 g",
+                "name": [
+                    "Color: Clear - clear"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2657807"
+            }
+        ],
+        "rating": "width:65.218%",
+        "product_reviews": "46",
+        "ingredients": "Aqua / Water, Alcohol Denat., Polyurethane-64, Hydroxyethylcellulose, Amp-Acrylates/Allyl Methacrylate Copolymer, Acrylates Copolymer, Butylene Glycol, Aminomethyl Propanol, Phenoxyethanol, Disodium Phosphate, Polysorbate 60, Sodium Phosphate.",
+        "n_loves": "1.7K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyebrow"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/melt-cosmetics-amor-eterno-gel-eyeliner-P452685",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:29:53",
+        "product_name": "Ultra Matte Gel Eyeliner",
+        "brand_name": "Melt Cosmetics",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.88 oz/ 2.5 g",
+                "name": [
+                    "Color: Onyx - ultra-black"
+                ],
+                "price": [
+                    "$25.06"
+                ],
+                "sku": "Item 2369072"
+            }
+        ],
+        "rating": "width:83.134%",
+        "product_reviews": "134",
+        "ingredients": "Isododecane, Mica, Synthetic Fluorphlogopite, Trimethylsiloxysilicate, Disteardimonium Hectorite, Behenyl Dimethicone, Cetyl Stearate, Polyethylene, Silica Dimethyl Silylate, Propylene Carbonate, Rhus Verniciflua Peel Cera / Rhus Verniciflua Peel Wax, Copernicia Cerifera Cera / Copernicia Cerifera (Carnauba) Wax. May Contain: Iron Oxides Ci 77491, Iron Oxides Ci 77499, Blue 1 Lake Ci 42090, Carmine Ci 75470.",
+        "n_loves": "30.5K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyeliner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/liquid-set-lipstick-P448849",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 03:30:05"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/melt-cosmetics-millennial-pinx-eyeshadow-palette-P455560",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 03:30:13"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/allday-everyday-lipliner-P444549",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 03:30:23"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/melt-cosmetics-perfectionist-brow-pencil-P504891",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:30:31",
+        "product_name": "Perfectionist Brow Ultra-Precision Pencil",
+        "brand_name": "Melt Cosmetics",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Ash Blonde - for fair blondes"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2657740"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Neutral Blonde - for cool blonde and gray hair"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2657757"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Warm Blonde - for warm blonde hair"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2657765"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Auburn - for red hair"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2657799"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Brown - for medium brown hair"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2657773"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Dark Brown - for dark brunette or black hair"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2657781"
+            }
+        ],
+        "rating": "width:77.142%",
+        "product_reviews": "7",
+        "ingredients": "Brown, Dark Brown, Ash Blonde, Auburn, Neutral Blonde Ingredients: Synthetic Fluorphlogopite, Stearic Acid, Rhus Succedanea Fruit Wax, Hydrogenated Castor Oil, Synthetic Beeswax, Hydrogenated Coconut Oil, Ricinus Communis (Castor) Seed Oil [Ricinus Communis Oil], Microcrystalline Wax (Cera Microcristallina), Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Tocopherol, Bht. May Contain Iron.",
+        "n_loves": "1.7K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyebrow"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/melt-cosmetics-ultra-matte-lipstick-P472478",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:30:46",
+        "product_name": "Ultra-Matte Lipstick",
+        "brand_name": "Melt Cosmetics",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.12 oz/ 3.4 g",
+                "name": [
+                    "Color: Catsuit - rich chocolate brown",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$29.00"
+                ],
+                "sku": "Item 2229284"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.12 oz/ 3.4 g",
+                "name": [
+                    "Color: Dark Room - rich plum",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$29.00"
+                ],
+                "sku": "Item 2229318"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.12 oz/ 3.4 g",
+                "name": [
+                    "Color: Laced - cool sepia",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$29.00"
+                ],
+                "sku": "Item 2229276"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.12 oz/ 3.4 g",
+                "name": [
+                    "Color: 6Six6 - deep blood red"
+                ],
+                "price": [
+                    "$29.00"
+                ],
+                "sku": "Item 2229359"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.12 oz/ 3.4 g",
+                "name": [
+                    "Color: Nood - ultra matte pale blush nude",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$29.00"
+                ],
+                "sku": "Item 2229268"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.12 oz/ 3.4 g",
+                "name": [
+                    "Color: On-The-Go - dusty warm pink"
+                ],
+                "price": [
+                    "$29.00"
+                ],
+                "sku": "Item 2229367"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.12 oz/ 3.4 g",
+                "name": [
+                    "Color: Lucretia - ultra matte rich pink mauve"
+                ],
+                "price": [
+                    "$29.00"
+                ],
+                "sku": "Item 2229185"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.12 oz/ 3.4 g",
+                "name": [
+                    "Color: Voyeur - ultra matte glazed pecan",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$29.00"
+                ],
+                "sku": "Item 2229219"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.12 oz/ 3.4 g",
+                "name": [
+                    "Color: Mum - rusty orange",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$29.00"
+                ],
+                "sku": "Item 2229383"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.12 oz/ 3.4 g",
+                "name": [
+                    "Color: Lose My # - sandy nood"
+                ],
+                "price": [
+                    "$28.00"
+                ],
+                "sku": "Item 2462315"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.12 oz/ 3.4 g",
+                "name": [
+                    "Color: Tease - neutral brown"
+                ],
+                "price": [
+                    "$28.00"
+                ],
+                "sku": "Item 2462323"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.12 oz/ 3.4 g",
+                "name": [
+                    "Color: Working Girl - honey nood"
+                ],
+                "price": [
+                    "$28.00"
+                ],
+                "sku": "Item 2462331"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.12 oz/ 3.4 g",
+                "name": [
+                    "Color: Hoe is Life - dirty pink"
+                ],
+                "price": [
+                    "$28.00"
+                ],
+                "sku": "Item 2462349"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.12 oz/ 3.4 g",
+                "name": [
+                    "Color: Paulina - peach buff"
+                ],
+                "price": [
+                    "$28.00"
+                ],
+                "sku": "Item 2462356"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.12 oz/ 3.4 g",
+                "name": [
+                    "Color: Sin City - olive brown"
+                ],
+                "price": [
+                    "$28.00"
+                ],
+                "sku": "Item 2462372"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.12 oz/ 3.4 g",
+                "name": [
+                    "Color: Paris Fling - golden neutral",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$28.00"
+                ],
+                "sku": "Item 2464055"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.12 oz/ 3.4 g",
+                "name": [
+                    "Color: Double D's - chestnut nood"
+                ],
+                "price": [
+                    "$28.00"
+                ],
+                "sku": "Item 2464071"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.12 oz/ 3.4 g",
+                "name": [
+                    "Color: XXX - deep espresso"
+                ],
+                "price": [
+                    "$28.00"
+                ],
+                "sku": "Item 2464089"
+            }
+        ],
+        "rating": "width:72.126%",
+        "product_reviews": "127",
+        "ingredients": "Isostearyl Isostearate, Polyethylene, Octyldodecanol, Isononyl Isononanoate, Tridecyl Neopentanoate, HDI/Trimethylol Hexyllactone Crosspolymer, Silica, Euphorbia Cerifera (Candelilla) Wax, Kaolin, Bht, Vanillin, Parfum (Fragrance), Benzyl Benzoate, Polyglyceryl-3 Diisostearate, Synthetic Beeswax, Mica. May Contain: Iron Oxides (CI 77491, CI 77492, CI 77499), Yellow 5 Lake (CI 19140), Red 7 Lake (CI 15850), Titanium Dioxide (CI 77891), Blue 1 Lake (CI 42090). ",
+        "n_loves": "27.8K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Lipstick"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/blushlight-P444547",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:31:09",
+        "product_name": "Blushlight",
+        "brand_name": "Melt Cosmetics",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.159 oz / 4.514 g",
+                "name": [
+                    "Color: Lynx - golden sand"
+                ],
+                "price": [
+                    "$29.00"
+                ],
+                "sku": "Item 2229607"
+            }
+        ],
+        "rating": "width:88.824%",
+        "product_reviews": "34",
+        "ingredients": "Talc, Mica, Triethylhexanoin, Zinc Stearate, Nylon 12, Bismuth Oxychloride, Lauroyl Lysine, Magnesium Carbonate, Phenoxyethanol. May Contain (+/-): Iron Oxides (Ci 77491), Iron Oxides (Ci 77492), Iron Oxides (Ci 77499), Titanium Dioxide (Ci 77891).",
+        "n_loves": "18.4K",
+        "categories": [
+            "Makeup",
+            "Cheek",
+            "Blush"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/ultra-matte-bronzer-P502025",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:31:21",
+        "product_name": "Ultra-Matte Bronzer",
+        "brand_name": "Melt Cosmetics",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.36 oz / 10.4 g",
+                "name": [
+                    "Color: Santa Barbara - light"
+                ],
+                "price": [
+                    "$49.02"
+                ],
+                "sku": "Item 2580033"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.36 oz / 10.4 g",
+                "name": [
+                    "Color: Santa Cruz - medium"
+                ],
+                "price": [
+                    "$49.02"
+                ],
+                "sku": "Item 2580041"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.36 oz / 10.4 g",
+                "name": [
+                    "Color: Long Beach - deep"
+                ],
+                "price": [
+                    "$49.02"
+                ],
+                "sku": "Item 2580058"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.36 oz / 10.4 g",
+                "name": [
+                    "Color: Malibu - tan"
+                ],
+                "price": [
+                    "$49.02"
+                ],
+                "sku": "Item 2580066"
+            }
+        ],
+        "rating": "width:78.334%",
+        "product_reviews": "12",
+        "ingredients": "Synthetic Fluorphlogopite, Talc, Phenyl Trimethicone, Peg-30 Dipolyhydroxystearate, Silica, Olive Glycerides, Triethoxycaprylylsilane, Caprylic/Capric Triglyceride, Caprylyl Glycol, Ethylhexylglycerin, Ceramide Np, Zinc Stearate, Rubus Idaeus (Raspberry) Leaf Extract [Rubus Idaeus Leaf Extract], Tocopherol, Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Yellow 5 Lake (Ci 19140), Bismuth Oxychloride (Ci 77163).",
+        "n_loves": "3.2K",
+        "categories": [
+            "Makeup",
+            "Cheek",
+            "Bronzer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/melt-cosmetics-gemini-palette-2-P483478",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:31:35",
+        "product_name": "Gemini Eyeshadow Palette 2",
+        "brand_name": "Melt Cosmetics",
+        "options": [],
+        "rating": "width:62.03999999999999%",
+        "product_reviews": "49",
+        "ingredients": "Bela: Zinc Stearate, Mica, Silica, Talc, Synthetic Fluorphlogopite, Bis-Stearyl Dimethicone, Dimethicone, Ethylhexyl Palmitate, Kaolin, Dimethiconol, Lauroyl Lysine, Boron Nitride, Phenoxyethanol. May Contain: Titanium Dioxide(Ci 77891), Iron Oxides (Ci 77491), Red 40 Lake (Ci 16035), Yellow 5 Lake (Ci 19140), Bismuth Oxychloride (Ci 77163). Lady Like: Silica, Zinc Stearate, Mica, Talc, Synthetic Fluorphlogopite, Bis-Stearyl Dimethicone, Dimethicone, Ethylhexyl Palmitate, Kaolin, Dimethiconol, Lauroyl Lysine, Boron Nitride, Phenoxyethanol. May Contain: Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77492), Iron Oxides (Ci 77491), Red 40 Lake (Ci 16035), Yellow 5 Lake (Ci 19140), Bismuth Oxychloride (Ci 77163), Ultramarines (Ci 77007).  Sweetheart: Zinc Stearate, Mica, Silica, Talc, Synthetic Fluorphlogopite, Dimethicone, Ethylhexyl Palmitate, Bis-Stearyl Dimethicone, Kaolin, Dimethiconol, Lauroyl Lysine, Boron Nitride, Phenoxyethanol. May Contain:, Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77499), Iron Oxides (Ci 77491), Manganese Violet (Ci 77742), Red 40 Lake (Ci 16035), Yellow 5 Lake (Ci 19140), Bismuth Oxychloride (Ci 77163). Gemelas: Mica, Zinc Stearate, Silica, Talc, Synthetic Fluorphlogopite, Bis-Stearyl Dimethicone, Dimethicone, Ethylhexyl Palmitate, Boron Nitride, Kaolin, Dimethiconol, Lauroyl Lysine, Phenoxyethanol. May Contain: Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77499), Iron Oxides (Ci 77491), Red 40 Lake (Ci 16035), Bismuth Oxychloride (Ci 77163), Ultramarines (Ci 77007). Love Sick: Silica, Zinc Stearate, Mica, Talc, Synthetic Fluorphlogopite, Bis-Stearyl Dimethicone, Ethylhexyl Palmitate, Dimethicone, Triethoxycaprylylsilane, Phenoxyethanol, Kaolin, Dimethiconol, Disodium Carboxyethyl Siliconate, Lauroyl Lysine, Boron Nitride. May Contain: Carmine Red (Ci 75470), Iron Oxides (Ci 77491), Iron Oxides (Ci 77499), Bismuth Oxychloride (Ci 77163), Red 40 (Ci 16035), Ultramarines (Ci 77007). Shmood: Zinc Stearate, Mica, Silica, Bis-Stearyl Dimethicone, Ethylhexyl Palmitate, Dimethicone, Kaolin, Dimethiconol, Talc, Synthetic Fluorphlogopite, Lauroyl Lysine, Boron Nitride, Phenoxyethanol. May Contain: Red 40 Lake (Ci 16035), Bismuth Oxychloride (Ci 77163), Copper Powder (Ci 77400), Black 2 Nano (Ci 77266).  LX Queen: Talc, Mica, Ethylhexyl Palmitate, Lauroyl Lysine, Silica, Boron Nitride, Zinc Stearate, Phenoxyethanol, Disodium Carboxyethyl Siliconate, Bis-Stearyl Dimethicone, Kaolin, Synthetic Fluorphlogopite, Dimethicone, Dimethiconol. May Contain: Iron Oxides (Ci 77499), Carmine Red (Ci 75470), Iron Oxides (Ci 77491), Ultramarines (Ci 77007), Iron Oxides (Ci 77492), Bismuth Oxychloride (Ci 77163).Matheo: Mica, Aluminum Calcium Sodium Silicate, Zinc Stearate, Ethylhexyl Palmitate, Dimethicone, Bis-Stearyl Dimethicone, Kaolin, Silica, Talc, Synthetic Fluorphlogopite, Dimethiconol, Lauroyl Lysine, Boron Nitride, Phenoxyethanol, Tin Oxide. May Contain: Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77499), Iron Oxides (Ci 77491), Bismuth Oxychloride (Ci 77163), Black 2 (Ci 77266). Boy Mum: Silica, Zinc Stearate, Talc, Synthetic Fluorphlogopite, Mica, Ethylhexyl Palmitate, Dimethicone, Kaolin, Dimethiconol, Bis-Stearyl Dimethicone, Lauroyl Lysine, Boron Nitride, Triethoxycaprylylsilane, Phenoxyethanol. May Contain: Iron Oxides (Ci 77499), Iron Oxides (Ci 77492), Iron Oxides (Ci 77491), Red 40 Lake (Ci 16035), Chromium Oxide Green (Ci 77288), Bismuth Oxychloride (Ci 77163). Almond Eyes: Silica, Zinc Stearate, Talc, Mica, Synthetic Fluorphlogopite, Bis-Stearyl Dimethicone, Ethylhexyl Palmitate, Dimethicone, Kaolin, Dimethiconol, Lauroyl Lysine, Boron Nitride, Phenoxyethanol. May Contain: Iron Oxides (Ci 77499), Iron Oxides (Ci 77492), Iron Oxides (Ci 77491), Blue 1 Lake (Ci 42090), Yellow 5 Lake (Ci 19140), Bismuth Oxychloride (Ci 77163).",
+        "n_loves": "11.6K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eye Palettes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/digital-dust-highlight-P444545",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:31:45",
+        "product_name": "Digital Dust Highlight",
+        "brand_name": "Melt Cosmetics",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.28 oz / 8.00 g",
+                "name": [
+                    "Color: Stargazer - soft nude champagne"
+                ],
+                "price": [
+                    "$51.00"
+                ],
+                "sku": "Item 2228880"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.28 oz / 8.00 g",
+                "name": [
+                    "Color: Gold Ore - golden sunlight"
+                ],
+                "price": [
+                    "$51.00"
+                ],
+                "sku": "Item 2228898"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.28 oz / 8.00 g",
+                "name": [
+                    "Color: Nova - luxurious bronze"
+                ],
+                "price": [
+                    "$51.00"
+                ],
+                "sku": "Item 2228906"
+            }
+        ],
+        "rating": "width:90%",
+        "product_reviews": "76",
+        "ingredients": "Mica, Cetearyl Ethylhexanoate, Hdi/Trimethylol Hexyllactone Crosspolymer, Squalane, Octyldodecyl Stearoyl Stearate, Glycerin, Polysorbate 20, Caprylyl Glycol, Ethylhexlgycerin, 1,2-Hexanediol, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Chondrus Crispus (Carrageenan), Xanthan Gum, Tin Oxide, Silica, Dicalcium Phosphate, Synthetic Fluorphlogopite, Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491, 77492).",
+        "n_loves": "27.7K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Highlighter"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/melt-cosmetics-the-cream-sculpt-stack-bronzer-contour-P462885",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 03:31:58"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/melt-cosmetics-perfectionist-lip-pencil-P477201",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:32:07",
+        "product_name": "Perfectionist Lip Pencil",
+        "brand_name": "Melt Cosmetics",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Bare - light tan",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$24.00"
+                ],
+                "sku": "Item 2527497"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Thrill - candy apple red"
+                ],
+                "price": [
+                    "$24.00"
+                ],
+                "sku": "Item 2527430"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Cashmere - warm brown",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$24.00"
+                ],
+                "sku": "Item 2527471"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Sepia - olive tan",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$24.00"
+                ],
+                "sku": "Item 2527455"
+            }
+        ],
+        "rating": "width:63.81%",
+        "product_reviews": "21",
+        "ingredients": "C10-18 Triglycerides, Hydrogenated Vegetable Oil, Talc, Mica, Caprylic/Capric Triglyceride, Synthetic Japan Wax, Tocopherol, Ascorbyl Palmitate. May Contain: Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Titanium Dioxide (Ci 77891), Red 7 Lake (Ci 15850), Yellow 5 Lake (Ci 19140).",
+        "n_loves": "9.9K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Lip Liner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/impulsive-eyeshadow-palette-P444553",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 03:32:20"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/melt-cosmetics-perfectionist-brow-pen-P504920",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:32:29",
+        "product_name": "Perfectionist Brow Ultra-Fine Pen",
+        "brand_name": "Melt Cosmetics",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Neutral Brown - Universal Brown"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2657815"
+            }
+        ],
+        "rating": "width:90.98%",
+        "product_reviews": "51",
+        "ingredients": "Water, Butylene Glycol, 1,2-Hexanediol, Glycerin, Methyl Gluceth-20, Ppg-26-Buteth-26, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Peg-40 Hydrogenated Castor Oil, Ethylhexylglycerin, Disodium Edta, Sorbitan Isostearate, Polysorbate 60, Hydrolyzed Keratin, Sesamum Indicum (Sesame) Seed Extract, Glycine Soja (Soybean) Seed Extract, Rubus Fruticosus (Blackberry) Fruit Extract, Morus Alba Fruit Extract, Oryza Sativa (Rice) Extract, Ci 19140, Ci 17200, Ci 42090, Ci 15985.",
+        "n_loves": "3K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyebrow"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/shape-shift-stack-P444552",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 03:32:40"
+    }
+]

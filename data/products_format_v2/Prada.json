@@ -1,0 +1,869 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/candy-florale-eau-de-toilette-P507360",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:50:13",
+        "product_name": "Candy Florale Eau de Toilette",
+        "brand_name": "Prada",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 2.7 oz / 80 ml eau de toilette",
+                    "OUT OF STOCK",
+                    "NEW",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$135.00"
+                ],
+                "sku": "Item 2720373"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "Alcohol Denat., Aqua (Water), Parfum (Fragrance), Limonene, Ethylhexyl Methoxycinnamate, Butylphenyl Methylpropional, Butyl Methoxydibenzoylmethane, Linalool, Citronellol, Alpha-Isomethyl Ionone, Hexyl Cinnamal, Benzyl Salicylate, Ethylhexyl Salicylate, Geraniol, Citral, Benzyl Benzoate, Isoeugenol, Eugenol, Farnesol, Ci 14700 (Red 4) Ci 17200 (Red 33) Ci 60730 (Ext. Violet 2) 80% Vol.",
+        "n_loves": "318",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mini-candy-eau-de-parfum-perfume-set-P505940",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:50:26",
+        "product_name": "Mini Candy Eau de Parfum Perfume Set",
+        "brand_name": "Prada",
+        "options": [],
+        "rating": "width:80%",
+        "product_reviews": "21",
+        "ingredients": "Alcohol Denat, Fragrance, Water, Butyl Methoxydibenzoylmethane, Benzophenone-3, Linalool, Alpha-Isomethyl Ionone, Bht, Benzyl Benzoate, Hydroxycitronellal, Coumarin, Isoeugenol, Limonene, Benzyl Alcohol, Ci 14700 (Red 4).",
+        "n_loves": "13.5K",
+        "categories": [
+            "Fragrance",
+            "Value & Gift Sets",
+            "Perfume Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/paradoxe-intense-eau-de-parfum-P507819",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:50:36",
+        "product_name": "Paradoxe Intense Eau de Parfum",
+        "brand_name": "Prada",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 1 oz / 30 mL eau de parfum spray",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$136.50"
+                ],
+                "sku": "Item 2690337"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz / 50 mL eau de parfum spray",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$175.50"
+                ],
+                "sku": "Item 2690345"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 3 oz / 90 mL eau de parfum spray",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$214.50"
+                ],
+                "sku": "Item 2690352"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 0.33 oz / 10 mL eau de parfum spray",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$45.50"
+                ],
+                "sku": "Item 2690329"
+            },
+            {
+                "swatch_group": "Refill size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz / 100 mL eau de parfum spray",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$185.00"
+                ],
+                "sku": "Item 2690360"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "Alcohol, Parfum/Fragrance, Aqua/Water/Eau, Linalool, Benzyl Salicylate, Limonene, Benzyl Alcohol, Hydroxycitronellal, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Coumarin, Methyl Anthranilate, Citronellol, Geraniol, Citral, Tris(Tetramethylhydroxypiperidinol) Citrate, Benzyl Benzoate, Ci 14700/Red 4, Ci 17200/Red 33.",
+        "n_loves": "47",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/candy-kiss-eau-de-parfum-P507342",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:50:51",
+        "product_name": "Candy Kiss Eau de Parfum",
+        "brand_name": "Prada",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz / 50 ml eau de parfum",
+                    "OUT OF STOCK",
+                    "NEW",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$115.00"
+                ],
+                "sku": "Item 2720407"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 2.7 oz / 80 ml eau de parfum",
+                    "OUT OF STOCK",
+                    "NEW",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$135.00"
+                ],
+                "sku": "Item 2720415"
+            }
+        ],
+        "rating": "width:40%",
+        "product_reviews": "1",
+        "ingredients": "Alcohol Denat, Aqua (Water), Parfum (Fragrance), Linalool,Ethylhexyl Methoxycinnamate, Limonene, Alpha-Isomethyl Ionone, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Hydroxycitronellal, Citral, Ci 60730 (Ext. Violet 2), 80% Vol.",
+        "n_loves": "653",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/candy-P376127",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:51:04",
+        "product_name": "CANDY Eau de Parfum",
+        "brand_name": "Prada",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1 oz",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$100.00"
+                ],
+                "sku": "Item 1433325"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$142.00"
+                ],
+                "sku": "Item 1361930"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2.7 oz/ 80 mL"
+                ],
+                "price": [
+                    "$170.00"
+                ],
+                "sku": "Item 1361948"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.34 oz/ 10 mL"
+                ],
+                "price": [
+                    "$43.00"
+                ],
+                "sku": "Item 2467678"
+            }
+        ],
+        "rating": "width:84.05799999999999%",
+        "product_reviews": "1.6K",
+        "ingredients": "Alcohol Denat, Fragrance, Water, Butyl Methoxydibenzoylmethane, Benzophenone-3, Linalool, Alpha-Isomethyl Ionone, Bht, Benzyl Benzoate, Hydroxycitronellal, Coumarin, Isoeugenol, Limonene, Benzyl Alcohol, Ci 14700 (Red 4).",
+        "n_loves": "97.3K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/prada-P76001",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:51:19",
+        "product_name": "Prada Amber",
+        "brand_name": "Prada",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2.7 oz/ 80 mL"
+                ],
+                "price": [
+                    "$170.00"
+                ],
+                "sku": "Item 787010"
+            }
+        ],
+        "rating": "width:91.17200000000001%",
+        "product_reviews": "222",
+        "ingredients": "Alcohol Denat., Water, Fragrance, Limonene, Ethylhexyl Methoxycinnamate, Butyl Methoxydibenzoylmethane, Ethylhexyl Salicylate, Linalool, Benzyl Alcohol, Butylphenyl Methylpropional, Citronellol, Coumarin, Benzyl Benzoate, Hydroxyisohexyl 3-Cyclohexene Carboxaldehyde, Benzyl Salicylate, Hydroxycitronellal, Citral, Benzyl Cinnamate, Geraniol, Ci 42090, Ci 17200, Alcohol Of Vegetal Origin.",
+        "n_loves": "10.4K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mini-paradoxe-eau-de-parfum-perfume-set-P505920",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:51:31",
+        "product_name": "Mini Paradoxe Eau de Parfum Set",
+        "brand_name": "Prada",
+        "options": [],
+        "rating": "width:76.522%",
+        "product_reviews": "23",
+        "ingredients": "Parfum/Fragrance, Aqua/Water, Limonene, Linalool, Benzyl Salicylate, Benzyl Alcohol, Methyl Anthranilate, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Coumarin, Hydroxycitronellal, Citronellol, Geraniol, Citral, Tris(Tetramethylhydroxypiperidinol) Citrate, Farnesol, Benzyl Benzoate, Ci 17200/Red 33.",
+        "n_loves": "14.5K",
+        "categories": [
+            "Fragrance",
+            "Value & Gift Sets",
+            "Perfume Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/prada-luna-rossa-ocean-eau-de-toilette-P475152",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:51:41",
+        "product_name": "Luna Rossa Ocean Eau de Toilette",
+        "brand_name": "Prada",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.3 oz/ 100 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$150.00"
+                ],
+                "sku": "Item 2470086"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.6 oz / 47 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$115.00"
+                ],
+                "sku": "Item 2470078"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 5 oz / 150 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$160.00"
+                ],
+                "sku": "Item 2577435"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.34 oz/ 10 mL"
+                ],
+                "price": [
+                    "$43.00"
+                ],
+                "sku": "Item 2470060"
+            }
+        ],
+        "rating": "width:93.84%",
+        "product_reviews": "1.1K",
+        "ingredients": "Alcohol, Parfum / Fragrance, Aqua / Water / Eau, Limonene, Linalool, Butyl Methoxydibenzoylmethane, Coumarin, Citronellol, Alpha-Isomethyl Ionone, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Citral, Methyl Anthranilate, Geraniol. (F.I.L B277999/I).",
+        "n_loves": "11.6K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/candy-eau-de-parfum-perfume-set-P505911",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:51:56",
+        "product_name": "Candy Eau de Parfum Perfume Set",
+        "brand_name": "Prada",
+        "options": [],
+        "rating": "width:100%",
+        "product_reviews": "1",
+        "ingredients": "Alcohol, Aqua/Water, Parfum/Fragrance, Butyl Methoxydibenzoylmethane, Benzophenone-3, Linalool, Alpha-Isomethyl Ionone, Bht, Benzyl Alcohol, Benzyl Benzoate, Hydroxycitronellal, Coumarin, Isoeugenol, Limonene, Ci 14700/Red 4.",
+        "n_loves": "2.3K",
+        "categories": [
+            "Fragrance",
+            "Value & Gift Sets",
+            "Perfume Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/luna-rossa-carbon-eau-de-toilette-cologne-set-P505927",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:52:07",
+        "product_name": "Luna Rossa Carbon Eau de Toilette Cologne Set",
+        "brand_name": "Prada",
+        "options": [],
+        "rating": "width:100%",
+        "product_reviews": "1",
+        "ingredients": "Alcohol, Aqua/Water/Eau, Parfum/Fragrance, Limonene, Linalool, Ethylhexyl Methoxycinnamate, Coumarin, Citronellol, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Geraniol, Citral, Bht, Ci 60730/Ext. Violet 2.",
+        "n_loves": "591",
+        "categories": [
+            "Fragrance",
+            "Value & Gift Sets",
+            "Cologne Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/luna-rossa-ocean-eau-de-parfum-travel-spray-P506335",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:52:17",
+        "product_name": "Luna Rossa Ocean Eau de Parfum Travel Spray",
+        "brand_name": "Prada",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.33 oz / 10 mL eau de parfum spray"
+                ],
+                "price": [
+                    "$43.00"
+                ],
+                "sku": "Item 2651107"
+            }
+        ],
+        "rating": "width:100%",
+        "product_reviews": "1",
+        "ingredients": "Alcohol, Parfum/Fragrance, Aqua/Water/Eau, Limonene, Linalool, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Coumarin, Alpha-Isomethyl Ionone, Citral, Citronellol, Geraniol, Benzyl Benzoate, Ci 60730/Ext. Violet 2.",
+        "n_loves": "559",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/prada-luna-rossa-ocean-spring-gift-set-P505537",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:52:30",
+        "product_name": "Luna Rossa Ocean Spring Gift Set",
+        "brand_name": "Prada",
+        "options": [],
+        "rating": "width:100%",
+        "product_reviews": "1",
+        "ingredients": "Alcohol, Parfum/Fragrance, Aqua/Water, Limonene, Linalool, Butyl Methoxydibenzoylmethane, Coumarin, Citronellol, Alpha-Isomethyl Ionone, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Citral, Methyl Anthranilate, Geraniol.",
+        "n_loves": "194",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/prada-candy-rollerball-P387903",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:52:40",
+        "product_name": "Candy Eau de Parfum Travel Spray",
+        "brand_name": "Prada",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.34 oz/ 10 mL"
+                ],
+                "price": [
+                    "$43.00"
+                ],
+                "sku": "Item 2467678"
+            }
+        ],
+        "rating": "width:83.98999999999998%",
+        "product_reviews": "1.5K",
+        "ingredients": "Alcohol Denat, Fragrance, Water, Butyl Methoxydibenzoylmethane, Benzophenone-3, Linalool, Alpha-Isomethyl Ionone, Bht, Benzyl Benzoate, Hydroxycitronellal, Coumarin, Isoeugenol, Limonene, Benzyl Alcohol, Ci 14700 (Red 4).",
+        "n_loves": "41.5K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/luna-rossa-ocean-eau-de-parfum-P506036",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:52:52",
+        "product_name": "Luna Rossa Ocean Eau de Parfum",
+        "brand_name": "Prada",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz / 100 mL eau de parfum spray"
+                ],
+                "price": [
+                    "$175.00"
+                ],
+                "sku": "Item 2651081"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.33 oz / 10 mL eau de parfum spray"
+                ],
+                "price": [
+                    "$43.00"
+                ],
+                "sku": "Item 2651107"
+            }
+        ],
+        "rating": "width:94.114%",
+        "product_reviews": "547",
+        "ingredients": "Alcohol, Parfum/Fragrance, Aqua/Water/Eau, Limonene, Linalool, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Coumarin, Alpha-Isomethyl Ionone, Citral, Citronellol, Geraniol, Benzyl Benzoate, Ci 60730/Ext. Violet 2.",
+        "n_loves": "1.5K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/prada-luna-rossa-ocean-eau-de-toilette-travel-spray-P478314",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:53:06",
+        "product_name": "Luna Rossa Ocean Eau de Toilette Travel Spray",
+        "brand_name": "Prada",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.34 oz/ 10 mL"
+                ],
+                "price": [
+                    "$43.00"
+                ],
+                "sku": "Item 2470060"
+            }
+        ],
+        "rating": "width:85%",
+        "product_reviews": "8",
+        "ingredients": "Alcohol, Parfum / Fragrance, Aqua / Water / Eau, Limonene, Linalool, Butyl Methoxydibenzoylmethane, Coumarin, Citronellol, Alpha-Isomethyl Ionone, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Citral, Methyl Anthranilate, Geraniol. (F.I.L B277999/I).",
+        "n_loves": "4.9K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/prada-candy-kiss-P405579",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:53:19",
+        "product_name": "Prada Candy Kiss Eau de Parfum",
+        "brand_name": "Prada",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.0 oz",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$100.00"
+                ],
+                "sku": "Item 1802362"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$142.00"
+                ],
+                "sku": "Item 1779941"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 2.7 oz/ 80 mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$170.00"
+                ],
+                "sku": "Item 1779958"
+            }
+        ],
+        "rating": "width:90.47599999999998%",
+        "product_reviews": "126",
+        "ingredients": "Alcohol Denat. Water, Fragrance, Linalool, Ethylhexyl Methoxycinnamate, Limonene, Alpha-Isomethyl Ionone, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Hydroxycitronellal, Citral, Ci 60730 (Ext. Violet 2).",
+        "n_loves": "17.1K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/prada-candy-night-P445807",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:53:33",
+        "product_name": "Prada Candy Night",
+        "brand_name": "Prada",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 2.7oz/80mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$170.00"
+                ],
+                "sku": "Item 2175289"
+            }
+        ],
+        "rating": "width:75.466%",
+        "product_reviews": "591",
+        "ingredients": "Alcohol Denat, Aqua (Water), Parfum (Fragrance), Linalool,Ethylhexyl Methoxycinnamate, Limonene, Alpha-Isomethyl Ionone, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Hydroxycitronellal, Citral, Ci 60730 (ext. Violet 2), 80% vol.",
+        "n_loves": "12.7K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/paradoxe-intense-eau-de-parfum-travel-spray-P507776",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:53:45",
+        "product_name": "Paradoxe Intense Eau de Parfum Travel Spray",
+        "brand_name": "Prada",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 0.33 oz / 10 mL eau de parfum spray",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$45.50"
+                ],
+                "sku": "Item 2690329"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "Alcohol, Parfum/Fragrance, Aqua/Water/Eau, Linalool, Benzyl Salicylate, Limonene, Benzyl Alcohol, Hydroxycitronellal, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Coumarin, Methyl Anthranilate, Citronellol, Geraniol, Citral, Tris(Tetramethylhydroxypiperidinol) Citrate, Benzyl Benzoate, Ci 14700/Red 4, Ci 17200/Red 33.",
+        "n_loves": "40",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/luna-rossa-carbon-eau-de-toilette-set-P503241",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 07:53:58"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/luna-rossa-carbon-P417974",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:54:09",
+        "product_name": "Luna Rossa Carbon",
+        "brand_name": "Prada",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$115.00"
+                ],
+                "sku": "Item 1918903"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL"
+                ],
+                "price": [
+                    "$150.00"
+                ],
+                "sku": "Item 1918911"
+            }
+        ],
+        "rating": "width:88.086%",
+        "product_reviews": "423",
+        "ingredients": "Alcohol Denat., Water, Fragrance, Limonene, Linalool, Ethylhexyl Methoxycinnamate, Coumarin, Citronellol, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Geraniol, Citral, Ci 60730 (Ext. Violet 2).",
+        "n_loves": "9.7K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/luna-rossa-ocean-cologne-gift-set-P503225",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 07:54:28"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/paradoxe-eau-de-parfum-travel-spray-P501173",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:54:37",
+        "product_name": "Paradoxe Eau de Parfum Travel Spray",
+        "brand_name": "Prada",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.33 oz / 10 mL eau de parfum spray"
+                ],
+                "price": [
+                    "$43.00"
+                ],
+                "sku": "Item 2591196"
+            }
+        ],
+        "rating": "width:89.824%",
+        "product_reviews": "57",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "31.1K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/paradoxe-eau-de-parfum-P501198",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:54:49",
+        "product_name": "Paradoxe Eau de Parfum",
+        "brand_name": "Prada",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1 oz / 30 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$115.00"
+                ],
+                "sku": "Item 2591204"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz / 50 mL"
+                ],
+                "price": [
+                    "$150.00"
+                ],
+                "sku": "Item 2591188"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3 oz / 90 mL"
+                ],
+                "price": [
+                    "$200.00"
+                ],
+                "sku": "Item 2591170"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.33 oz / 10 mL eau de parfum spray"
+                ],
+                "price": [
+                    "$43.00"
+                ],
+                "sku": "Item 2591196"
+            },
+            {
+                "swatch_group": "Refill size",
+                "flag_label": "LIMITED EDITION",
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz / 100 mL eau de parfum",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$170.00"
+                ],
+                "sku": "Item 2608768"
+            }
+        ],
+        "rating": "width:91.78399999999999%",
+        "product_reviews": "1.2K",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "68.9K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/luna-rossa-black-P433656",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:55:04",
+        "product_name": "Luna Rossa Black Eau de Parfum",
+        "brand_name": "Prada",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 101 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$175.00"
+                ],
+                "sku": "Item 2099729"
+            }
+        ],
+        "rating": "width:85.81%",
+        "product_reviews": "420",
+        "ingredients": "Alcohol, Aqua / Water, Parfum / Fragrance, Coumarin, Ethylhexyl Methoxycinnamate, Ethylhexyl Salicylate, Linalool, Butyl Methoxydibenzoylmethane, Alpha-Isomethyl Ionone, Limonene, Bht, Ci 60730 / Ext. Violet 2.",
+        "n_loves": "9.1K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    }
+]

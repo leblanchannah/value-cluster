@@ -1,0 +1,764 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/silk-pillowcase-king-P402943",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 10:33:15",
+        "product_name": "Silk Pillowcase - King",
+        "brand_name": "Slip",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Navy",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$147.00"
+                ],
+                "sku": "Item 1948447"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Caramel",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$147.00"
+                ],
+                "sku": "Item 1771211"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: White/Off-white"
+                ],
+                "price": [
+                    "$147.00"
+                ],
+                "sku": "Item 1771278"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Pink",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$147.00"
+                ],
+                "sku": "Item 1771252"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Charcoal",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$147.00"
+                ],
+                "sku": "Item 1771237"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Black",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$147.00"
+                ],
+                "sku": "Item 1771195"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Silver",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$147.00"
+                ],
+                "sku": "Item 2083525"
+            }
+        ],
+        "rating": "width:75.862%",
+        "product_reviews": "87",
+        "ingredients": "100% high-grade (6A) long-fiber mulberry silk with a thickness of 22 momme.",
+        "n_loves": "25.9K",
+        "categories": [
+            "Skincare",
+            "Wellness",
+            "Holistic Wellness"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/medium-slipsilk-tm-scrunchies-P446866",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 10:33:33",
+        "product_name": "Medium Slipsilk\u2122 Scrunchies",
+        "brand_name": "Slip",
+        "options": [],
+        "rating": "width:60.77%",
+        "product_reviews": "26",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "6.6K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Accessories"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/slip-high-maintenace-molded-eye-mask-P477761",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 10:33:44",
+        "product_name": "Lovely Lashes Contour Sleep Mask",
+        "brand_name": "Slip",
+        "options": [],
+        "rating": "width:76.25%",
+        "product_reviews": "16",
+        "ingredients": "Outer 100% silk (exclusive of elastic and piping), 100% PU foam (exclusive of silk liner).",
+        "n_loves": "5.2K",
+        "categories": [
+            "Skincare",
+            "Wellness",
+            "Holistic Wellness"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/slip-pure-silk-turban-P454754",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 10:33:54",
+        "product_name": "Pure Silk Turban",
+        "brand_name": "Slip",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Black",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$119.00"
+                ],
+                "sku": "Item 2319598"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Pink"
+                ],
+                "price": [
+                    "$119.00"
+                ],
+                "sku": "Item 2382026"
+            }
+        ],
+        "rating": "width:66.896%",
+        "product_reviews": "58",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "20K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Accessories"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/slip-pure-silk-glam-band-P454753",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 10:34:07",
+        "product_name": "Pure Silk Glam Band",
+        "brand_name": "Slip",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Black",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$74.00"
+                ],
+                "sku": "Item 2319556"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Leopard",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$74.00"
+                ],
+                "sku": "Item 2319564"
+            }
+        ],
+        "rating": "width:55.714%",
+        "product_reviews": "14",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "9.5K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Accessories"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/slip-frequent-flyer-travel-set-P503568",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 10:34:20",
+        "product_name": "Frequent Flyer Travel Set",
+        "brand_name": "Slip",
+        "options": [],
+        "rating": "width:100%",
+        "product_reviews": "1",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "677",
+        "categories": [
+            "Skincare",
+            "Wellness",
+            "Holistic Wellness"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/slip-slipsilk-tm-skinny-scrunchies-P505021",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 10:34:31",
+        "product_name": "Slipsilk\u2122 Skinny Scrunchies",
+        "brand_name": "Slip",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Type: Blonde"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2654325"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Type: Dark Brown"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2654309"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Type: Silver",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2667699"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Type: Copper"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2667681"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Type: Black"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2654291"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Type: Light Brown"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2654317"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Type: Auburn",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2667673"
+            }
+        ],
+        "rating": "width:82.80799999999999%",
+        "product_reviews": "57",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "7.6K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Accessories"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/silk-sleepmask-P402942",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 10:34:47",
+        "product_name": "Silk Sleepmask",
+        "brand_name": "Slip",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Navy"
+                ],
+                "price": [
+                    "$70.00"
+                ],
+                "sku": "Item 1948454"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Black"
+                ],
+                "price": [
+                    "$70.00"
+                ],
+                "sku": "Item 1771294"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: White",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$70.00"
+                ],
+                "sku": "Item 1771336"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Pink",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$70.00"
+                ],
+                "sku": "Item 1771328"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Charcoal",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$70.00"
+                ],
+                "sku": "Item 1771310"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Caramel",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$70.00"
+                ],
+                "sku": "Item 1771302"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Silver",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$70.00"
+                ],
+                "sku": "Item 2083491"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Rose Gold",
+                    "ONLY A FEW LEFT",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$70.00"
+                ],
+                "sku": "Item 2319622"
+            }
+        ],
+        "rating": "width:75.606%",
+        "product_reviews": "173",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "47.1K",
+        "categories": [
+            "Skincare",
+            "Wellness",
+            "Holistic Wellness"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pure-silk-scrunchies-pixie-super-set-P503168",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 10:35:04",
+        "product_name": "Pure Silk Scrunchies Pixie Super Set\t\t\t\t\t\t",
+        "brand_name": "Slip",
+        "options": [],
+        "rating": "width:40%",
+        "product_reviews": "1",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "7.3K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Accessories"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/small-slipsilk-scrunchies-P431718",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 10:35:16",
+        "product_name": "Small Slipsilk\u2122 Scrunchies",
+        "brand_name": "Slip",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size 6 pack",
+                "name": [
+                    "Color: Black, Pink, Caramel"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2085041"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size 6 pack",
+                "name": [
+                    "Color: Leopard, Black, Gold"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2200756"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size 6 Scrunchies",
+                "name": [
+                    "Color: Silver, Charcoal, Navy"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2319580"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2406924"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": "Size 3 pack",
+                "name": [
+                    "Color: Leopard, Black, Caramel"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2184000"
+            }
+        ],
+        "rating": "width:75.486%",
+        "product_reviews": "576",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "88.4K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Accessories"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/large-slipsilk-scrunchies-P430325",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 10:35:30",
+        "product_name": "Large Slipsilk\u2122 Scrunchies",
+        "brand_name": "Slip",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Black, Pink, Caramel"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2078640"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 3 Scrunchies",
+                "name": [
+                    "Color: Silver, Charcoal, Navy",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2319572"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Black"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2122026"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Leopard, Black, Caramel",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2200889"
+            }
+        ],
+        "rating": "width:70%",
+        "product_reviews": "108",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "36.7K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Accessories"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/silk-pillowcase-standard-queen-P402944",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 10:35:45",
+        "product_name": "Silk Pillowcase - Standard/Queen",
+        "brand_name": "Slip",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Navy"
+                ],
+                "price": [
+                    "$119.00"
+                ],
+                "sku": "Item 1948439"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Pink"
+                ],
+                "price": [
+                    "$119.00"
+                ],
+                "sku": "Item 1771260"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Gold",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$119.00"
+                ],
+                "sku": "Item 1911957"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Silver",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$119.00"
+                ],
+                "sku": "Item 2083517"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Caramel"
+                ],
+                "price": [
+                    "$119.00"
+                ],
+                "sku": "Item 1771229"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: White/Off-white"
+                ],
+                "price": [
+                    "$119.00"
+                ],
+                "sku": "Item 1771286"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Rose Gold \u2013 Zipper Closure",
+                    "ONLY A FEW LEFT",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$119.00"
+                ],
+                "sku": "Item 2319648"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Charcoal"
+                ],
+                "price": [
+                    "$119.00"
+                ],
+                "sku": "Item 1771245"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Black"
+                ],
+                "price": [
+                    "$119.00"
+                ],
+                "sku": "Item 1771203"
+            }
+        ],
+        "rating": "width:80.138%",
+        "product_reviews": "436",
+        "ingredients": "100% high-grade (6A) long-fiber mulberry silk with a thickness of 22 momme.",
+        "n_loves": "139.9K",
+        "categories": [
+            "Skincare",
+            "Wellness",
+            "Holistic Wellness"
+        ]
+    }
+]

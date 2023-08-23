@@ -1,0 +1,453 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/ralph-lauren-polo-red-eau-de-parfum-P460784",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:03:19",
+        "product_name": "Polo Red Eau de Parfum",
+        "brand_name": "Ralph Lauren",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 2.5 oz/ 75 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$125.00"
+                ],
+                "sku": "Item 2370476"
+            }
+        ],
+        "rating": "width:88.498%",
+        "product_reviews": "386",
+        "ingredients": "Alcohol, Aqua/Water, Parfum/Fragrance, Limonene, Linalool, Citronellol, Benzyl Benzoate, Geraniol, Citral, Alpha-Isomethyl Ionone, Benzyl Alcohol, Methyl Anthranilate.",
+        "n_loves": "1.9K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/ralph-s-club-eau-de-parfum-P500911",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:03:30",
+        "product_name": "Ralph's Club Parfum",
+        "brand_name": "Ralph Lauren",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz / 100 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$160.00"
+                ],
+                "sku": "Item 2602977"
+            }
+        ],
+        "rating": "width:88.84%",
+        "product_reviews": "1.1K",
+        "ingredients": "Alcohol, Parfum/Fragrance, Aqua/Water/Eau, Limonene, Benzyl Salicylate, Benzyl Alcohol, Linalool, Alpha-Isomethyl Ionone, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Coumarin, Citronellol, T-Butyl Alcohol, Citral, Geraniol, Methyl Anthranilate, Denatonium Benzoate.",
+        "n_loves": "883",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/polo-blue-parfum-P500690",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:03:43",
+        "product_name": "Polo Blue Parfum",
+        "brand_name": "Ralph Lauren",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 2.5 oz / 75 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$135.00"
+                ],
+                "sku": "Item 2585594"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "Alcohol, Parfum / Fragrance, Aqua / Water / Eau, Benzyl Salicylate, Benzyl Alcohol, Limonene, Linalool, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Alpha-Isomethyl Ionone, Hexyl Cinnamal, Geraniol, Citral, Eugenol, Isoeugenol, Benzyl Benzoate.",
+        "n_loves": "154",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/polo-black-P124904",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:03:55",
+        "product_name": "Polo Black Eau de Toilette",
+        "brand_name": "Ralph Lauren",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 4.2 oz/ 125 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$130.00"
+                ],
+                "sku": "Item 873125"
+            }
+        ],
+        "rating": "width:96%",
+        "product_reviews": "120",
+        "ingredients": "Alcohol Denat, Fragrance, Water, Limonene, Bht, Citral, Linalool, Coumarin, Hexyl Cinnamal, Citronellol, Hydroxycitronellal, Amyl Cinnamal, Geraniol. ",
+        "n_loves": "4.6K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/polo-P12436",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:04:07",
+        "product_name": "Polo Eau de Toilette",
+        "brand_name": "Ralph Lauren",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 4 oz/ 120 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$125.00"
+                ],
+                "sku": "Item 150722"
+            }
+        ],
+        "rating": "width:88.00000000000001%",
+        "product_reviews": "50",
+        "ingredients": "Alcohol, Water, Fragrance, Coumarin, Eugenol, Benzyl Alcohol, Limonene, Linalool, Isoeugenol, Hydroxycitronellal, T-Butyl Alcohol, Benzyl Salicylate, Benzyl Benzoate, Citronellol, Geraniol, Citral, Hexyl Cinnamal, Denatonium Benzoate, Benzyl Cinnamate, Alpha-Isomethyl Ionone, Ci 42090/Blue 1, Ci 15985/Yellow 6.",
+        "n_loves": "1.5K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/ralph-club-eau-de-parfum-set-P506085",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:04:19",
+        "product_name": "Ralph Club Eau de Parfum Set",
+        "brand_name": "Ralph Lauren",
+        "options": [],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "Alcohol, Parfum/Fragrance, Aqua/Water, Limonene, Benzyl Salicylate, Linalool, Benzyl Alcohol, Coumarin, Citronellol, Geraniol, Citral, Methyl Anthranilate, Ci 60730/Ext. Violet 2, Ci 14700/Red 4, Ci 19140/Yellow 5.",
+        "n_loves": "124",
+        "categories": [
+            "Fragrance",
+            "Value & Gift Sets",
+            "Cologne Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/polo-blue-P36740",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:04:29",
+        "product_name": "Polo Blue Eau de Toilette",
+        "brand_name": "Ralph Lauren",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 2.5 oz/ 75 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$112.00"
+                ],
+                "sku": "Item 627760"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 4.2 oz/ 125 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$130.00"
+                ],
+                "sku": "Item 627786"
+            }
+        ],
+        "rating": "width:90.226%",
+        "product_reviews": "354",
+        "ingredients": "Alcohol, Water, Fragrance, Linalool, Alpha-Isomethyl Ionone, Hexyl Cinnamal, Benzyl Salicylate, T-Butyl Alcohol, Benzyl Alcohol, Citronellol, Geraniol, Citral, Isoeugenol, Eugenol, Denatonium Benzoate, Ci 42090/Blue 1, Ci 17200/Red 33.",
+        "n_loves": "4K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/ralph-lauren-ralph-s-club-P474083",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:04:43",
+        "product_name": "Ralph's Club Eau de Parfum",
+        "brand_name": "Ralph Lauren",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$115.00"
+                ],
+                "sku": "Item 2465607"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 0.34 oz/ 10 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$43.00"
+                ],
+                "sku": "Item 2465623"
+            }
+        ],
+        "rating": "width:95.78599999999999%",
+        "product_reviews": "2.6K",
+        "ingredients": "Alcohol, Parfum/Fragrance, Aqua/Water, Limonene, Benzyl Salicylate, Linalool, Benzyl Alcohol, Coumarin, Citronellol, Geraniol, Citral, Methyl Anthranilate, Ci 60730/Ext. Violet 2, Ci 14700/Red 4, Ci 19140/Yellow 5.",
+        "n_loves": "4.5K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/polo-red-P380994",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:04:56",
+        "product_name": "Polo Red Eau de Toilette",
+        "brand_name": "Ralph Lauren",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 4.2 oz/ 125 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$130.00"
+                ],
+                "sku": "Item 1528462"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 2.5 oz/ 75 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$112.00"
+                ],
+                "sku": "Item 1528470"
+            }
+        ],
+        "rating": "width:93.866%",
+        "product_reviews": "238",
+        "ingredients": "Alcohol, Water, Fragrance, Limonene, Linalool, Coumarin, T-Butyl Alcohol, Alpha-Isomethyl Ionone, Citronellol, Bht, Citral, Geraniol, Hydroxycitronella, Denatonium Benzoate.",
+        "n_loves": "7.3K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/ralph-lauren-ralph-s-club-travel-spray-P474084",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:05:08",
+        "product_name": "Ralph's Club Eau de Parfum Travel Spray",
+        "brand_name": "Ralph Lauren",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 0.34 oz/ 10 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$43.00"
+                ],
+                "sku": "Item 2465623"
+            }
+        ],
+        "rating": "width:95.78599999999999%",
+        "product_reviews": "2.6K",
+        "ingredients": "Alcohol, Parfum/Fragrance, Aqua/Water, Limonene, Benzyl Salicylate, Linalool, Benzyl Alcohol, Coumarin, Citronellol, Geraniol, Citral, Methyl Anthranilate, Ci 60730/Ext. Violet 2, Ci 14700/Red 4, Ci 19140/Yellow 5.",
+        "n_loves": "2K",
+        "categories": [
+            "Fragrance",
+            "Mini Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/ralph-lauren-polo-red-parfum-P505464",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:05:22",
+        "product_name": "Polo Red Parfum",
+        "brand_name": "Ralph Lauren",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 4.22 oz / 125 mL parfum spray"
+                ],
+                "price": [
+                    "$139.00"
+                ],
+                "sku": "Item 2676849"
+            }
+        ],
+        "rating": "width:100%",
+        "product_reviews": "1",
+        "ingredients": "Alcohol, Parfum/Fragrance, Aqua/Water, Limonene, Linalool, Coumarin, Butyl Methoxydibenzoylmethane, Citronellol, Hexyl Cinnamal, Alpha-Isomethyl Ionone, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Benzyl Benzoate, Citral, Geraniol, Methyl Anthranilate, Benzyl Alcohol, Cinnamal.",
+        "n_loves": "89",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/ralph-P9009",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:05:34",
+        "product_name": "Ralph",
+        "brand_name": "Ralph Lauren",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$89.00"
+                ],
+                "sku": "Item 463380"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL"
+                ],
+                "price": [
+                    "$110.00"
+                ],
+                "sku": "Item 463398"
+            }
+        ],
+        "rating": "width:93.812%",
+        "product_reviews": "556",
+        "ingredients": "Alcohol, Fragrance, Water, Linalool, Hexyl Cinnamal, Limonene, Benzyl Alcohol, Isoeugenol, T-Butyl Alcohol, Citronellol, Citral, Denatonium Benzoate. \n",
+        "n_loves": "22K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/romance-P6463",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:05:47",
+        "product_name": "Romance",
+        "brand_name": "Ralph Lauren",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$125.00"
+                ],
+                "sku": "Item 397166"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$150.00"
+                ],
+                "sku": "Item 397174"
+            }
+        ],
+        "rating": "width:91.48799999999999%",
+        "product_reviews": "524",
+        "ingredients": "Alcohol, Fragrance, Water, Hydroxycitronellal, Citronellol, Geraniol, Benzyl Alcohol, Linalool, Alpha-Isomethyl, Ionone, T-Butyl Alcohol, Limonene, Hexyl Cinnamal, Coumarin, Cinnamyl Alcohol, Citral, Benzyl Benzoate, Eugenol, Farnesol, Denayonium Benzoate.",
+        "n_loves": "29.5K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    }
+]

@@ -1,0 +1,715 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/concentrated-ginseng-renewing-eye-cream-ad-P502448",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:04:19",
+        "product_name": "Concentrated Ginseng Renewing Eye Cream",
+        "brand_name": "Sulwhasoo",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.67 oz / 20 mL"
+                ],
+                "price": [
+                    "$185.00"
+                ],
+                "sku": "Item 2595841"
+            }
+        ],
+        "rating": "width:77.5%",
+        "product_reviews": "8",
+        "ingredients": "-Ginsenomics\u2122-Ginseng Retinol\u2122-LicoriceWater/Aqua/Eau, Squalane, Butylene Glycol, Polyglyceryl-3 Methylglucose Distearate, Dimethicone, Propanediol, Cetyl Ethylhexanoate, Glyceryl Stearate, Cetearyl Alcohol, Phytosteryl Isostearyl Dimer Dilinoleate, Behenyl Alcohol, 1,2-Hexanediol, Glycerin, Hydrogenated Castor Oil Isostearate, Panax Ginseng Root Water, Polyacrylate-13, Silica, Ammonium Acryloyldimethyltaurate/Beheneth-25 Methacrylate Crosspolymer, Polyisobutene, Hydrolyzed Ginseng Saponins (Enzyme-Treated Red Ginseng Saponins), Glyceryl Caprylate, Glycine Soja (Soybean) Oil, Fragrance/Parfum, Polymethyl Methacrylate, Ethylhexylglycerin, Disodium EDTA, Polysorbate 20, Thymol Trimethoxycinnamate, Sorbitan Isostearate, Dextrin, Theobroma Cacao (Cocoa) Extract, Linalool, Retinol, Panax Ginseng Root Extract, Sodium Chloride, Honey/Mel/Miel, Limonene, Hydrogenated Lecithin, Rehmannia Glutinosa Root Extract, Panax Ginseng Flower Extract, Paeonia Lactiflora Root Extract, Lilium Candidum Bulb Extract, Polygonatum Odoratum Rhizome Extract, BHT, Nelumbo Nucifera Flower Extract, Phytosphingosine, Sodium Polyaspartate, Caprylyl Glycol, Tocopherol, Sodium Methyl Stearoyl Taurate, Acetyl Heptapeptide-4, Glycyrrhiza Uralensis (Licorice) Root Extract, Acetyl Hexapeptide-8, Sodium Hydroxide, Acetyl Octapeptide-3.",
+        "n_loves": "4K",
+        "categories": [
+            "Skincare",
+            "Eye Care",
+            "Eye Creams & Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/gentle-cleansing-oil-P450633",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:04:31",
+        "product_name": "Gentle Cleansing Oil Makeup Remover",
+        "brand_name": "Sulwhasoo",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 6.76 oz/ 200 mL"
+                ],
+                "price": [
+                    "$53.00"
+                ],
+                "sku": "Item 2291185"
+            }
+        ],
+        "rating": "width:88.364%",
+        "product_reviews": "440",
+        "ingredients": " -Tangerine Peel Extract: Removes impurities. -Apricot Kernel Oil: Nurtures skin.  C12-15 Alkyl Benzoate, Pentaerythrityl Tetraethylhexanoate, Isopropyl Palmitate, Pentaerythrityl Tetraisostearate, Caprylic/Capric Triglyceride, Peg-20 Glyceryl Triisostearate, Peg-8 Isostearate, Cocos Nucifera (Coconut) Oil, Fragrance / Parfum, Dextrin Palmitate, Limonene, Glyceryl Behenate/Eicosadioate, Coco-Caprylate/Caprate, Squalane, Linalool, Water / Aqua / Eau, Butylene Glycol, Prunus Armeniaca (Apricot) Kernel Oil, Pinus Koraiensis Seed Oil, Sesamum Indicum (Sesame) Seed Oil, Camellia Japonica Seed Oil, Coix Lacryma-Jobi Ma-Yuen Seed Extract, Citrus Unshiu Peel Extract, Castanea Crenata (Chestnut) Shell Extract, Spirodela Polyrhiza Extract, Prunus Mume Seed Extract, Nelumbo Nucifera Seed Extract. ",
+        "n_loves": "37.2K",
+        "categories": [
+            "Skincare",
+            "Cleansers",
+            "Face Wash & Cleansers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/sulwhasoo-essential-comfort-firming-cream-P483692",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:04:45",
+        "product_name": "Essential Comfort Firming Cream",
+        "brand_name": "Sulwhasoo",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2.5 oz/ 75 mL"
+                ],
+                "price": [
+                    "$157.00"
+                ],
+                "sku": "Item 2535508"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: .5 oz/ 15 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$37.00"
+                ],
+                "sku": "Item 2535524"
+            }
+        ],
+        "rating": "width:89.848%",
+        "product_reviews": "262",
+        "ingredients": "-JISUN Firming Complex\u2122: A potent blend of antioxidant-rich goji berries, black beans, and arrowroot that offers intense hydration and helps smooth tone and texture.Water / Aqua / Eau, Butylene Glycol, Glycerin, Butylene Glycol Dicaprylate/Dicaprate, Cetyl Ethylhexanoate, Caprylic/Capric Triglyceride, Cyclopentasiloxane, Diisostearyl Malate, 1,2-Hexanediol, Glyceryl Stearate, Polyglyceryl-3 Methylglucose Distearate, Cyclohexasiloxane, Peg-100 Stearate, Cetearyl Alcohol, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Polyacrylate-13, Polymethylsilsesquioxane, Polyisobutene, Fragrance / Parfum, Honey / Mel / Miel, Ziziphus Jujuba Fruit Extract, Glyceryl Caprylate, Limonene, Lycium Chinense Fruit Extract, Sorbitan Isostearate, Propanediol, Ethylhexylglycerin, Disodium Edta, Adenosine, Polysorbate 20, Pueraria Lobata Root Extract, Polysorbate 60, Dioscorea Japonica Root Extract, Crataegus Pinnatifida Fruit Extract, Linalool, Narcissus Tazetta Bulb Extract, Pueraria Thunbergiana Flower/Leaf/Stem Extract, Citronellol, Dextrin, Theobroma Cacao (Cocoa) Extract, Morus Alba Leaf Extract, Citral, Geraniol, Rehmannia Glutinosa Root Extract, Glycyrrhiza Uralensis (Licorice) Root Extract, Paeonia Lactiflora Root Extract, Lilium Candidum Bulb Extract, Polygonatum Odoratum Rhizome Extract, Benzyl Benzoate, Nelumbo Nucifera Flower Extract, Hydrolyzed Soybean Extract, Tocopherol.",
+        "n_loves": "3.7K",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Moisturizers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/sulwhasoo-ginseng-renewing-cream-original-reform-P481833",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:04:58",
+        "product_name": "Concentrated Ginseng Renewing Cream",
+        "brand_name": "Sulwhasoo",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2 oz/ 60 mL"
+                ],
+                "price": [
+                    "$341.00"
+                ],
+                "sku": "Item 2534964"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz / 30 mL"
+                ],
+                "price": [
+                    "$190.00"
+                ],
+                "sku": "Item 2653616"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: .33 oz/ 10 mL"
+                ],
+                "price": [
+                    "$68.00"
+                ],
+                "sku": "Item 2552537"
+            }
+        ],
+        "rating": "width:89.054%",
+        "product_reviews": "349",
+        "ingredients": "-Ginsenomics\u2122: Sulwhasoo\u2019s signature ginseng saponin improves the look of wrinkles and firmness while ginseng peptides help protect skin from environmental stressors.Water / Aqua / Eau, Glycerin, Squalane, Butylene Glycol, Cyclopentasiloxane, Trehalose, Limnanthes Alba (Meadowfoam) Seed Oil, Glyceryl Stearate, Phytosteryl Isostearyl Dimer Dilinoleate, Octyldodecyl Myristate, Cyclohexasiloxane, Peg-40 Stearate, Phytosteryl/Behenyl/Octyldodecyl Lauroyl Glutamate, Helianthus Annuus (Sunflower) Seed Oil, Jojoba Esters, Stearic Acid, Propanediol, Peg-100 Stearate, Palmitic Acid, Methoxy Peg-114/Polyepsilon Caprolactone, Mangifera Indica (Mango) Seed Butter, Polyacrylate-13, Glycine Soja (Soybean) Oil, Peg-30 Dipolyhydroxystearate, Cetyl Peg/Ppg-10/1 Dimethicone, Phenoxyethanol, Glyceryl Linoleate, Cetearyl Alcohol, Dimethicone, Hydrogenated Vegetable Oil, Glycine Soja (Soybean) Sterols, Propylene Glycol, Polyisobutene, Acetyl Glucosamine, Polyquaternium-51, Hexyl Laurate, Panax Ginseng Root Extract, Tocopherol, Hydrolyzed Ginseng Saponins (Enzyme-Treated Red Ginseng Saponins), Copernicia Cerifera (Carnauba) Wax / Copernicia Cerifera Cera / Cire De Carnauba, Tocopheryl Linoleate, 1,2-Hexanediol, Pantethine, Salicylic Acid, Dimethiconol, Glyceryl Linolenate, Alcohol, Persea Gratissima (Avocado) Oil, Fragrance / Parfum, Ethylhexylglycerin, Glyceryl Arachidonate, Gardenia Florida Fruit Extract, Lauryl Peg/Ppg-18/18 Methicone, Vitis Vinifera (Grape) Leaf Extract, Polysorbate 20, Sorbitan Isostearate, Beta-Glucan, Disodium Edta, Retinol, Perilla Ocymoides Seed Extract, Dextrin, Phytosphingosine, Sodium Hyaluronate, Isostearyl Alcohol, Dodecene, Sodium Chloride, Ascorbyl Palmitate, Hydrogenated Palm Glycerides Citrate, Honey / Mel / Miel, Myristic Acid, Arachidic Acid, Alpha-Isomethyl Ionone, Limonene, Hydrogenated Lecithin, Rehmannia Glutinosa Root Extract, Glycyrrhiza Uralensis (Licorice) Root Extract, Bht, Linalool, Panax Ginseng Flower Extract, Benzyl Benzoate, Hexyl Cinnamal, Paeonia Lactiflora Root Extract, Lilium Candidum Bulb Extract, Polygonatum Odoratum Rhizome Extract, Eugenol, Nelumbo Nucifera Flower Extract, Sodium Polyaspartate, Tbhq, Caprylyl Glycol, Sodium Methyl Stearoyl Taurate, Acetyl Heptapeptide-4, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Acetyl Hexapeptide-8, Sodium Hydroxide, Acetyl Octapeptide-3.",
+        "n_loves": "5.2K",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Moisturizers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/concentrated-ginseng-renewing-sheet-masks-ad-P502381",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:05:14",
+        "product_name": "Concentrated Ginseng Renewing Sheet Masks",
+        "brand_name": "Sulwhasoo",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 5 masks 0.63 oz / 18 g",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$158.00"
+                ],
+                "sku": "Item 2595858"
+            }
+        ],
+        "rating": "width:80%",
+        "product_reviews": "2",
+        "ingredients": "-Ginsenomics\u2122-Ginseng PeptideWater/Aqua/Eau, Butylene Glycol, Glycerin, Squalane, Pentaerythrityl Tetraethylhexanoate, Arachidyl Alcohol, Dimethicone, Behenyl Alcohol, Butyrospermum Parkii (Shea) Butter, Cyclopentasiloxane, Arachidyl Glucoside, Cetyl Ethylhexanoate, Cyclohexasiloxane, Hydroxyethyl Acrylate /Sodium Acryloyldimethyl Taurate Copolymer, Phenoxyethanol, Panax Ginseng Root Extract, Butylene Glycol Dicaprylate/Dicaprate, Triethylhexanoin, Polyacrylate-13, Peg-10 Dimethicone, Fragrance / Parfum, Lauryl Peg-9 Polydimethylsiloxyethyl Dimethicone, Cetyl Peg/Ppg-10/1 Dimethicone, Polyisobutene, Disteardimonium Hectorite, Methoxy Peg-114/Polyepsilon Caprolactone, Disodium Edta, Propanediol, Hydroxypropyl Cyclodextrin, Adenosine, Sorbitan Isostearate, Ethylhexylglycerin, 1,2-Hexanediol, Polysorbate 60, Perillaocymoides Seed Extract, Linalool, Dextrin, Hydrolyzed Ginseng Saponins (Enzyme-Treated Red Ginseng Saponins), Polysorbate 20, Glucose, Carthamus Tinctorius (Safflower) Flower Extract, Gardenia Florida Fruit Extract, Limonene, Hydrolyzed Proanthocyanidin, Honey / Mel / Miel, Sodium Chloride, Hydrogenated Lecithin, Rehmannia Glutinosa Root Extract, Glycyrrhiza Uralensis (Licorice) Root Extract, Panax Ginseng Flower Extract, Paeonia Lactiflora Root Extract, Lilium Candidum Bulb Extract, Polygonatum Odoratum Rhizome Extract, Nelumbo Nucifera Flower Extract, Phytosphingosine, Sodium Polyaspartate, Caprylyl Glycol, Sodium Methyl Stearoyl Taurate, Tocopherol, Acetylheptapeptide-4, Pentaerythrityl Tetra-Di-T-Butylhydroxyhydrocinnamate, Acetyl Hexapeptide-8, Sodium Hydroxide, Acetyl Octapeptide-3.",
+        "n_loves": "2K",
+        "categories": [
+            "Skincare",
+            "Masks",
+            "Sheet Masks"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/sulwhasoo-clarifying-peel-off-mask-P463110",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:05:27",
+        "product_name": "Clarifying Peel Off Mask",
+        "brand_name": "Sulwhasoo",
+        "options": [],
+        "rating": "width:84.616%",
+        "product_reviews": "13",
+        "ingredients": "Water / Aqua / Eau, Polyvinyl Alcohol, Alcohol Denat., Glycerin, Butylene Glycol, Polygonatum Sibiricum Root/Rhizome Powder, Peg-75, 1,2-Hexanediol, Peg-60 Hydrogenated Castor Oil, Bentonite, Xanthan Gum, Ammonium Acryloyldimethyltaurate/Vp Copolymer, Fragrance / Parfum, Limonene, Lonicera Japonica (Honeysuckle) Flower Extract, Ethylhexylglycerin, Portulaca Oleracea Extract, Propanediol, Polygonatum Odoratum Rhizome Powder, Honey / Mel / Miel, Disodium Edta, Linalool, Nelumbo Nucifera Flower Extract, Polygonatum Officinale Rhizome/Root Extract, Rehmannia Glutinosa Root Extract, Paeonia Albiflora Root Extract, Lilium Candidum Bulb Extract, Panax Ginseng Root Extract, Glycyrrhiza Uralensis (Licorice) Root Extract, Tocopherol.",
+        "n_loves": "4.7K",
+        "categories": [
+            "Skincare",
+            "Masks",
+            "Face Masks"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/sulwhasoo-mini-essential-comfort-firming-cream-P483708",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:05:38",
+        "product_name": "Mini Essential Comfort Firming Cream",
+        "brand_name": "Sulwhasoo",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: .5 oz/ 15 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$37.00"
+                ],
+                "sku": "Item 2535524"
+            }
+        ],
+        "rating": "width:89.848%",
+        "product_reviews": "262",
+        "ingredients": "-JISUN Firming Complex\u2122: A potent blend of antioxidant-rich goji berries, black beans, and arrowroot that offers intense hydration and helps smooth tone and texture.Water / Aqua / Eau, Butylene Glycol, Glycerin, Butylene Glycol Dicaprylate/Dicaprate, Cetyl Ethylhexanoate, Caprylic/Capric Triglyceride, Cyclopentasiloxane, Diisostearyl Malate, 1,2-Hexanediol, Glyceryl Stearate, Polyglyceryl-3 Methylglucose Distearate, Cyclohexasiloxane, Peg-100 Stearate, Cetearyl Alcohol, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Polyacrylate-13, Polymethylsilsesquioxane, Polyisobutene, Fragrance / Parfum, Honey / Mel / Miel, Ziziphus Jujuba Fruit Extract, Glyceryl Caprylate, Limonene, Lycium Chinense Fruit Extract, Sorbitan Isostearate, Propanediol, Ethylhexylglycerin, Disodium Edta, Adenosine, Polysorbate 20, Pueraria Lobata Root Extract, Polysorbate 60, Dioscorea Japonica Root Extract, Crataegus Pinnatifida Fruit Extract, Linalool, Narcissus Tazetta Bulb Extract, Pueraria Thunbergiana Flower/Leaf/Stem Extract, Citronellol, Dextrin, Theobroma Cacao (Cocoa) Extract, Morus Alba Leaf Extract, Citral, Geraniol, Rehmannia Glutinosa Root Extract, Glycyrrhiza Uralensis (Licorice) Root Extract, Paeonia Lactiflora Root Extract, Lilium Candidum Bulb Extract, Polygonatum Odoratum Rhizome Extract, Benzyl Benzoate, Nelumbo Nucifera Flower Extract, Hydrolyzed Soybean Extract, Tocopherol.",
+        "n_loves": "4.4K",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Moisturizers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mini-concentrated-ginseng-renewing-serum-ad-P502393",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:05:50",
+        "product_name": "Mini Concentrated Ginseng Renewing Serum",
+        "brand_name": "Sulwhasoo",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.5 oz / 15 mL"
+                ],
+                "price": [
+                    "$85.00"
+                ],
+                "sku": "Item 2595833"
+            }
+        ],
+        "rating": "width:93.692%",
+        "product_reviews": "149",
+        "ingredients": "-Ginsenomics\u2122-Ginseng PeptidesWater/Aqua/Eau, Butylene Glycol, Glycerin, Cetyl Ethylhexanoate, Methyl Gluceth-20, Behenyl Alcohol, Betaine, 1,2-Hexanediol, Niacinamide, Methoxy PEG-114/Polyepsilon Caprolactone, Carbomer, Tromethamine, Phenyl Trimethicone, Caprylyl Methicone, Jojoba Esters, Fragrance/Parfum, Hydrolyzed Ginseng Saponins (Enzyme-Treated Red Ginseng Saponins), Glyceryl Caprylate, Phenoxyethanol, Arachidyl Alcohol, Ethylhexylglycerin, Disodium EDTA, Dextrin, Theobroma Cacao (Cocoa) Extract, Arachidyl Glucoside, Linalool, Panax Ginseng Seed Oil, Glycine Soja (Soybean) Oil, Panax Ginseng Root Extract, Sodium Chloride, Panax Ginseng Leaf/Stem Extract, Limonene, Honey/Mel/Miel, Rehmannia Glutinosa Root Extract, Panax Ginseng Flower Extract, Paeonia Lactiflora Root Extract, Lilium Candidum Bulb Extract, Polygonatum Odoratum Rhizome Extract, Retinol, Nelumbo Nucifera Flower Extract, Hydrogenated Lecithin, Alcohol, Glucose, Tocopherol, Caprylyl Glycol, BHT, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Phytosphingosine, Sodium Polyaspartate, Sodium Hyaluronate, Acetyl Heptapeptide-4, Sodium Methyl Stearoyl Taurate, Acetyl Hexapeptide-8, Sodium Hydroxide, Acetyl Octapeptide-3.",
+        "n_loves": "2.6K",
+        "categories": [
+            "Mini Size",
+            "Skincare"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/herbal-clay-purifying-mask-P501149",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:06:03",
+        "product_name": "Herbal Clay Purifying Mask",
+        "brand_name": "Sulwhasoo",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 4.5 oz / 120 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$65.00"
+                ],
+                "sku": "Item 2604262"
+            }
+        ],
+        "rating": "width:100%",
+        "product_reviews": "2",
+        "ingredients": "-Muan Clay: An ultrafine clay particle to intensely cleanse and remove visible impurities.-Korean Traditional Herb Complex: Helps calm stressed skin triggered by various daily environmental aggressors.-Plant-Derived Gluconolactone (PHA): A naturally derived exfoliating ingredient to gently remove dead skin cells.Water / Aqua / Eau, Glycerin, Kaolin, Butylene Glycol, Titanium Dioxide (Ci 77891), Bentonite, 1,2-Hexanediol, Silica, Microcrystalline Cellulose, Sea Silt, Artemisia Princeps Leaf Powder, Cellulose Gum, Xanthan Gum, Houttuynia Cordata Powder, Glyceryl Caprylate, Ethylhexylglycerin, Disodium Edta, Dioscorea Japonica Root Extract, Propanediol, Gluconolactone, Rubus Idaeus (Raspberry) Fruit Extract, Ulmus Davidiana Root Extract, Honey / Mel / Miel, Salicornia Herbacea Extract, Morus Alba Leaf Extract, Angelica Keiskei Extract, Nelumbo Nucifera Flower Extract, Polygonatum Officinale Rhizome/Root Extract, Rehmannia Glutinosa Root Extract, Paeonia Albiflora Root Extract, Lilium Candidum Bulb Extract, Glycyrrhiza Uralensis (Licorice) Root Extract, Tocopherol.",
+        "n_loves": "949",
+        "categories": [
+            "Skincare",
+            "Masks",
+            "Face Masks"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/sulwhasoo-concentrated-ginseng-brightening-serum-P506371",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:06:16",
+        "product_name": "Concentrated Ginseng Brightening Serum",
+        "brand_name": "Sulwhasoo",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.69 oz / 50ml",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$275.00"
+                ],
+                "sku": "Item 2685683"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.01 oz / 30ml",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$165.00"
+                ],
+                "sku": "Item 2685675"
+            }
+        ],
+        "rating": "width:100%",
+        "product_reviews": "1",
+        "ingredients": "-Melasolv\u2122: A patented, brightening ingredient that improves skin's radiance.-White Ginseng Polysaccharides: Brings radiance back to dull skin while providing moisture.-Ginsenomics\u2122: A proprietary ginseng saponin that improves visible signs of aging.Water/Aqua/Eau, Alcohol Denat., Propanediol, Peg/Ppg-17/6 Copolymer, Polyglycerin-3, Dimethicone, Glycerin, Cetyl Ethylhexanoate, Niacinamide, Phytosteryl/Octyldodecyl Lauroyl Glutamate, 1,2-Hexanediol, Butylene Glycol, Phenyl Trimethicone, Caprylyl Methicone, C14-22 Alcohols, Glyceryl Stearate, Peg-100 Stearate, Polymethyl Methacrylate, Vinyl Dimethicone/Methicone Silsesquioxane Crosspolymer, Sodium Polyacryloyldimethyl Taurate, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Carbomer, Fragrance/Parfum, C12-20 Alkyl Glucoside, Thymol Trimethoxycinnamate, Titanium Dioxide (Ci 77891), Cetearyl Alcohol, Tromethamine, Glyceryl Caprylate, Dimethiconol, Synthetic Fluorphlogopite, Disodium Edta, Ethylhexylglycerin, Adenosine, Mica, Methoxy Peg-114/Polyepsilon Caprolactone, Morus Alba Root Extract, Linalool, Sorbitan Isostearate, Polysorbate 60, Tranexamic Acid, Panax Ginseng Root Extract, Limonene, Hydrolyzed Ginseng Saponins, Honey/Mel/Miel, Rehmannia Glutinosa Root Extract, Phenoxyethanol, Paeonia Lactiflora Root Extract, Lilium Candidum Bulb Extract, Polygonatum Odoratum Rhizome Extract, Tin Oxide, Glucose, Nelumbo Nucifera Flower Extract, Tocopherol.",
+        "n_loves": "168",
+        "categories": [
+            "Skincare",
+            "Treatments",
+            "Face Serums"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/concentrated-ginseng-renewing-rescue-ampoule-P502474",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:06:29",
+        "product_name": "Concentrated Ginseng Renewing Rescue Ampoule",
+        "brand_name": "Sulwhasoo",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 0.67 oz / 20 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$170.00"
+                ],
+                "sku": "Item 2602209"
+            }
+        ],
+        "rating": "width:100%",
+        "product_reviews": "4",
+        "ingredients": "-Ginsenomics\u2122Formula 1:Water/Aqua/Eau, Butylene Glycol, 1,2-Hexanediol, Panax Ginseng Berry Extract, Dextrin, Theobroma Cacao (Cocoa) Extract, Ethylhexylglycerin, Adenosine, Cyanocobalamin.Formula 2:Water/Aqua/Eau, Butylene Glycol, Glycerin, Peg/Ppg-17/6 Copolymer, Dipropylene Glycol, Polysorbate 80, 1,2-Hexanediol, Peg-150 Distearate, Diethoxyethyl Succinate, Bis-Peg-18 Methyl Ether Dimethyl Silane, Polysorbate 20, Olive Oil Peg-8 Esters, Fragrance / Parfum, Dipotassium Glycyrrhizate, Pentylene Glycol, Ethylhexylglycerin, Adenosine, Disodium Edta, Methoxy Peg-114/Polyepsilon Caprolactone, Xanthan Gum, Sodium Chloride, Panax Ginseng Root Extract, Achillea Millefolium Extract, Honey /Mel / Miel, Rehmannia Glutinosa Root Extract, Hydrolyzed Ginseng Saponins (Enzyme-Treated Red Ginseng Saponins), Paeonia Lactiflora Root Extract, Lilium Candidum Bulb Extract, Polygonatum Odoratum Rhizome Extract, Phenoxyethanol, Nelumbo Nucifera Flower Extract, Bht, Glycyrrhiza Glabra (Licorice) Root Extract, Tocopherol, Caprylyl Glycol, Acetyl Heptapeptide-4, Acetyl Hexapeptide-8, Sodium Hydroxide, Acetyl Octapeptide-3.",
+        "n_loves": "1.9K",
+        "categories": [
+            "Skincare",
+            "Treatments",
+            "Face Serums"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/sulwhasoo-ginseng-renewing-cream-classic-P481834",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:06:43",
+        "product_name": "Concentrated Ginseng Renewing Cream Classic",
+        "brand_name": "Sulwhasoo",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2 oz/ 60 mL"
+                ],
+                "price": [
+                    "$341.00"
+                ],
+                "sku": "Item 2534972"
+            }
+        ],
+        "rating": "width:96.586%",
+        "product_reviews": "82",
+        "ingredients": "-Ginsenomics\u2122: Sulwhasoo\u2019s signature ginseng saponin improves the look of wrinkles and firmness while ginseng peptides help protect skin from environmental stressors.Water / Aqua / Eau, Butylene Glycol, Dimethicone, Glycerin, Triethylhexanoin, Squalane, Hydrogenated Polyisobutene, 1,2-Hexanediol, Vinyl Dimethicone/Methicone Silsesquioxane Crosspolymer, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Cetearyl Olivate, Cetearyl Alcohol, Methoxy Peg-114/Polyepsilon Caprolactone, Sorbitan Olivate, Glyceryl Stearate, Stearic Acid, Palmitic Acid, Arachidyl Alcohol, Behenyl Alcohol, Fragrance / Parfum, Hydrolyzed Ginseng Saponins (Enzyme-Treated Red Ginseng Saponins), Glyceryl Caprylate, Arachidyl Glucoside, Phenoxyethanol, Sorbitan Isostearate, Polysorbate 60, Ethylhexylglycerin, Disodium Edta, Sodium Stearoyl Glutamate, Linalool, Panax Ginseng Root Extract, Dextrin, Theobroma Cacao (Cocoa) Extract, Sodium Chloride, Honey / Mel / Miel, Limonene, Hydrogenated Lecithin, Rehmannia Glutinosa Root Extract, Panax Ginseng Flower Extract, Paeonia Lactiflora Root Extract, Lilium Candidum Bulb Extract, Polygonatum Odoratum Rhizome Extract, Myristic Acid, Arachidic Acid, Glucose, Nelumbo Nucifera Flower Extract, Phytosphingosine, Sodium Polyaspartate, Caprylyl Glycol, Tocopherol, Sodium Methyl Stearoyl Taurate, Acetyl Heptapeptide-4, Acetyl Hexapeptide-8, Sodium Hydroxide, Acetyl Octapeptide-3.",
+        "n_loves": "2.2K",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Moisturizers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/white-ginseng-radiance-refining-mask-P501175",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:06:56",
+        "product_name": "White Ginseng Radiance Refining Mask",
+        "brand_name": "Sulwhasoo",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 4.05 oz / 120 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$89.00"
+                ],
+                "sku": "Item 2595866"
+            }
+        ],
+        "rating": "width:88.00000000000001%",
+        "product_reviews": "5",
+        "ingredients": "Water / Aqua / Eau, Glycerin, Dimethicone, Methyl Gluceth-20, Butylene Glycol, Peg-15 Glyceryl Isostearate, Panax Ginseng Root Powder, Alcohol Denat., Polyglycerin-3, Glyceryl Polymethacrylate, Pvp, 1,2-Hexanediol, Ammonium Acryloyldimethyl Taurate/Vp Copolymer, Acrylates/C10 -30 Alkyl Acrylate Crosspolymer, Juglans Regia (Walnut) Shell Powder, Tromethamine, Xanthan Gum, Fragrance / Parfum, Propanediol, Disodium Edta, Limonene, Honey / Mel / Miel, Methoxy Peg-114/Polyepsilon Caprolactone, Nelumbo Nucifera Flower Extract, Polygonatum Officinale Rhizome/Root Extract, Rehmannia Gutinosa Root Extract, Paeonia Albiflora Root Extract, Lilium Candidum Bulb Extract, Panax Ginseng Root Extract, Oldenlandia Diffusa Extract, Glycyrrhiza Uralensis (Licorice) Root Extract, Phenoxyethanol, Hydrolyzed Ginseng Saponins (Hydrolyzed White Ginseng Saponins), Ethylhexylglycerin.",
+        "n_loves": "3.1K",
+        "categories": [
+            "Skincare",
+            "Masks",
+            "Face Masks"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/sulwhasoo-essential-comfort-balancing-emulsion-P483086",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:07:11",
+        "product_name": "Essential Comfort Balancing Emulsion",
+        "brand_name": "Sulwhasoo",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$94.00"
+                ],
+                "sku": "Item 2577492"
+            }
+        ],
+        "rating": "width:93.33399999999999%",
+        "product_reviews": "3",
+        "ingredients": "-Yam: Moisturizes, helps to improve dryness, and gives skin a visible radiance.-Jujube Berry: Moisturizes and helps to protect the keratin layer of skin.-Mulberry Leaf: Soothes skin and helps to reduce visible redness. Water / Aqua / Eau, Butylene Glycol, Hydrogenated Poly(C6-14 Olefin), Octyldodecyl Myristate, Glycerin, Polyglyceryl-3 Methylglucose Distearate, Cetyl Ethylhexanoate, Limnanthes Alba (Meadowfoam) Seed Oil, Hydrogenated Vegetable Oil, Cetearyl Alcohol, 1,2-Hexanediol, Glyceryl Stearate, Mangifera Indica (Mango) Seed Butter, Dimethicone, Glyceryl Stearate Citrate, Stearic Acid, Palmitic Acid, Ziziphus Jujuba Fruit Extract, Propanediol, Honey / Mel / Miel, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Carbomer, Butyrospermum Parkii (Shea) Butter, Glyceryl Caprylate, Tromethamine, Ethylhexylglycerin, Fragrance / Parfum, Disodium Edta, Alcohol, Limonene, Portulaca Oleracea Extract, Dioscorea Japonica Root Extract, Crataegus Pinnatifida Fruit Extract, Narcissus Tazetta Bulb Extract, Sodium Hyaluronate, Sorbitan Isostearate, Polysorbate 60, Linalool, Beta-Glucan, Natto Gum, Pueraria Thunbergiana Flower/Leaf/Stem Extract, Morus Alba Leaf Extract, Rehmannia Glutinosa Root Extract, Glycyrrhiza Uralensis (Licorice) Root Extract, Citronellol, Paeonia Lactiflora Root Extract, Lilium Candidum Bulb Extract, Myristic Acid, Arachidic Acid, Polygonatum Odoratum Rhizome Extract, Citral, Geraniol, Nelumbo Nucifera Flower Extract, Tbhq, Tocopherol.",
+        "n_loves": "1.8K",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Moisturizers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/sulwhasoo-concentrated-ginseng-brightening-spot-ampoule-P506368",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:07:23",
+        "product_name": "Concentrated Ginseng Brightening Spot Ampoule",
+        "brand_name": "Sulwhasoo",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 0.70 oz / 20g",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$170.00"
+                ],
+                "sku": "Item 2685691"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "-Melasolv\u2122: Patented visibly brightening ingredient that improves skin\u2019s radiance.-White Ginseng Polysaccharides: Brings radiance back to dull skin while moisturizing.-Ginsenomics\u2122: A proprietary ginseng saponin that improves visible signs of aging.Water / Aqua / Eau, Dimethicone, Glycerin, 1,2-Hexanediol, Propanediol, Alcohol Denat., Niacinamide, Butylene Glycol, Glyceryl Polymethacrylate, Betaine, Polymethyl Methacrylate, Ammonium Acryloyldimethyltaurate/Vp Copolymer, Cetearyl Alcohol, Thymol Trimethoxycinnamate, Tranexamic Acid, Xanthan Gum, Glyceryl Caprylate, Fragrance / Parfum, Polyglyceryl-3 Methylglucose Distearate, Sodium Polyacryloyldimethyl Taurate, Ethylhexylglycerin, Hydroxyethylcellulose, Hydrogenated Lecithin, Methoxy Peg-114/Polyepsilon Caprolactone, Adenosine, Glyceryl Stearate Citrate, Peg-10 Dimethicone, Morus Alba Root Extract, Dipotassium Glycyrrhizate, Disodium Edta, 3-O-Ethyl Ascorbic Acid, Linalool, Hydrolyzed Ginseng Saponins, Panax Ginseng Root Extract, Phenoxyethanol, Honey / Mel / Miel, Benzyl Benzoate, Rehmannia Glutinosa Root Extract, Paeonia Lactiflora Root Extract, Lilium Candidum Bulb Extract, Polygonatum Odoratum Rhizome Extract, Nelumbo Nucifera Flower Extract, Polysorbate 60, Disodium Phosphate, Caprylyl Glycol, Tocopherol, Sodium Phosphate, Acetyl Heptapeptide-4, Acetyl Hexapeptide-8, Sodium Hydroxide, Acetyl Octapeptide-3.",
+        "n_loves": "169",
+        "categories": [
+            "Skincare",
+            "Treatments",
+            "Face Serums"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/sulwhasoo-mini-ginseng-renewing-cream-classic-P481835",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:07:35",
+        "product_name": "Mini Concentrated Ginseng Renewing Cream",
+        "brand_name": "Sulwhasoo",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: .33 oz/ 10 mL"
+                ],
+                "price": [
+                    "$68.00"
+                ],
+                "sku": "Item 2552537"
+            }
+        ],
+        "rating": "width:89.054%",
+        "product_reviews": "349",
+        "ingredients": "-Ginsenomics\u2122: Sulwhasoo\u2019s signature ginseng saponin improves the look of wrinkles and firmness while ginseng peptides help protect skin from environmental stressors.Water / Aqua / Eau, Butylene Glycol, Dimethicone, Glycerin, Triethylhexanoin, Squalane, Hydrogenated Polyisobutene, 1,2-Hexanediol, Vinyl Dimethicone/Methicone Silsesquioxane Crosspolymer, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Cetearyl Olivate, Cetearyl Alcohol, Methoxy Peg-114/Polyepsilon Caprolactone, Sorbitan Olivate, Glyceryl Stearate, Stearic Acid, Palmitic Acid, Arachidyl Alcohol, Behenyl Alcohol, Fragrance / Parfum, Hydrolyzed Ginseng Saponins (Enzyme-Treated Red Ginseng Saponins), Glyceryl Caprylate, Arachidyl Glucoside, Phenoxyethanol, Sorbitan Isostearate, Polysorbate 60, Ethylhexylglycerin, Disodium Edta, Sodium Stearoyl Glutamate, Linalool, Panax Ginseng Root Extract, Dextrin, Theobroma Cacao (Cocoa) Extract, Sodium Chloride, Honey / Mel / Miel, Limonene, Hydrogenated Lecithin, Rehmannia Glutinosa Root Extract, Panax Ginseng Flower Extract, Paeonia Lactiflora Root Extract, Lilium Candidum Bulb Extract, Polygonatum Odoratum Rhizome Extract, Myristic Acid, Arachidic Acid, Glucose, Nelumbo Nucifera Flower Extract, Phytosphingosine, Sodium Polyaspartate, Caprylyl Glycol, Tocopherol, Sodium Methyl Stearoyl Taurate, Acetyl Heptapeptide-4, Acetyl Hexapeptide-8, Sodium Hydroxide, Acetyl Octapeptide-3.",
+        "n_loves": "3.8K",
+        "categories": [
+            "Mini Size",
+            "Skincare"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/sulwhasoo-sulwhasoo-starter-kit-P505134",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:07:48",
+        "product_name": "Sulwhasoo Starter Kit",
+        "brand_name": "Sulwhasoo",
+        "options": [],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "-JAUM Activator\u2122: Improves hydration, visible brightness and radiance, and the look of wrinkles.First Care Activating Serum:Water/Aqua/Eau, Alcohol Denat., Butylene Glycol, Betaine, 1, 2-Hexanediol, Bis-Peg-18 Methyl Ether Dimethyl Silane, Glyceryl Polymethacrylate, Carbomer, Peg-60 Hydrogenated Castor Oil, Tromethamine, Propanediol, Glyceryl Caprylate, Juglans Regia (Walnut) Seed Extract, Dextrin, Theobroma Cacao (Cocoa) Extract, Scutellaria Baicalensis Root Extract, Fragrance/Parfum, Ethylhexylglycerin, Adenosine, Limonene, Methyl Trimethicone, Disodium Edta, Xanthan Gum, Cellulose Gum, Carrageenan, Honey/Mel/Miel, Madecassoside, Rehmannia Glutinosa Root Extract, Pentylene Glycol, Ophiopogon Japonicus Root Extract, Paeonia Lactiflora Root Extract, Lilium Candidum Bulb Extract, Linalool, Lycium Chinense Fruit Extract, Polygonatum Odoratum Rhizome Extract, Biosaccharide Gum-1, Propylene Glycol, Ziziphus Jujuba Fruit Extract, Nelumbo Nucifera Flower Extract, Pueraria Lobata Root Extract, Natto Gum, Glycyrrhiza Uralensis (Licorice) Root Extract, Prunus Mume Fruit Extract, Citronellol, Citral, Geraniol, Hydrogenated Lecithin, Bht, Citric Acid, Lentinus Edodes Extract, Tocopherol, Hydrolyzed Soybean Extract, Paeonia Albiflora Root Extract, Zingiber Officinale (Ginger) Root Extract.Gentle Cleansing Foam:Water/Aqua/Eau, Potassium Cocoyl Glycinate, Disodium Cocoamphodiacetate, Cocamidopropyl Betaine, Acrylates/Beheneth-25 Methacrylate Copolymer, Peg-200 Hydrogenated Glyceryl Palmate, Sodium Chloride, Pentylene Glycol, 1,2-Hexanediol, Sodium Methyl Cocoyl Taurate, Caprylyl/Capryl Glucoside, Peg-7 Glyceryl Cocoate, Fragrance/Parfum, Isostearic Acid, Potassium Hydroxide, Butylene Glycol, Limonene, Disodium Edta, Ethylhexylglycerin, Sodium Benzoate, Tetrasodium Edta, Coix Lacryma-Jobi Ma-Yuen Seed Extract, Citrus Unshiu Peel Extract, Castanea Crenata (Chestnut) Shell Extract, Linalool, Spirodela Polyrhiza Extract, Dioscorea Japonica Root Extract, Dextrin, Theobroma Cacao (Cocoa) Extract, Rubus Idaeus (Raspberry) Fruit Extract, Ulmus Davidiana Root Extract, Salicornia Herbacea Extract, Morus Alba Leaf Extract, Angelica Keiskei Extract, Citric Acid, Tocopherol.",
+        "n_loves": "527",
+        "categories": [
+            "Skincare",
+            "Value & Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/sulwhasoo-overnight-vitalizing-mask-P475172",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:07:59",
+        "product_name": "Overnight Vitalizing Mask",
+        "brand_name": "Sulwhasoo",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [],
+                "price": [
+                    "$72.00"
+                ],
+                "sku": "Item 2383073"
+            }
+        ],
+        "rating": "width:94.64200000000001%",
+        "product_reviews": "112",
+        "ingredients": "-Nutritive RED Elixir\u2122: Supports a strong skin moisture barrier.Water/Aqua/Eau, Butylene Glycol, Glycerin, Cetyl Ethylhexanoate, 1,2-Hexanediol, Squalane, Butyrospermum Parkii (Shea) Butter, DI-C12-13 Alkyl Malate, Cyclopentasiloxane, Dimethicone, Glyceryl Stearate, Cyclohexasiloxane, Trehalose, C14-22 Alcohols, Palmitic Acid, Stearic Acid, Cetearyl Alcohol, Hydrogenated Castor Oil Isostearate, Hydroxypropyl Starch Phosphate, PEG-100 Stearate, Dimethicone/Vinyl Dimethicone Crosspolymer, C12-20 Alkyl Glucoside, Polyacrylate-13, Phytosteryl/Behenyl/Octyldodecyl Lauroyl Glutamate, C12-16 Alcohols, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Tromethamine, Fragrance/Parfum, Xanthan Gum, Ziziphus Jujuba Fruit Extract, Glyceryl Caprylate, Juglans Regia (Walnut) Seed Extract, Limonene, Polyisobutene, Scutellaria Baicalensis Root Extract, Hydrogenated Lecithin, Morus Alba Root Extract, Disodium EDTA, Ethylhexylglycerin, Dextrin, Theobroma Cacao (Cocoa) Extract, Honey/Mel/Miel, Linalool, Polysorbate 20, Nelumbo Nucifera Flower Extract, Polygonatum Officinale Rhizome/Root Extract, Rehmannia Glutinosa Root Extract, Paeonia Albiflora Root Extract, Lilium Candidum Bulb Extract, Sorbitan Isostearate, Panax Ginseng Root Extract, Punica Granatum Fruit Extract, Propanediol, Citronellol, Citral, Geraniol, Myristic Acid, Arachidic Acid, Glucose, Benzyl Benzoate, Glycyrrhiza Uralensis (Licorice) Root Extract, Tocopherol, Punica Granatum Flower Extract.",
+        "n_loves": "16.4K",
+        "categories": [
+            "Skincare",
+            "Masks",
+            "Face Masks"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/sulwhasoo-essential-comfort-balancing-set-P483087",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:08:13",
+        "product_name": "Essential Comfort Balancing Set",
+        "brand_name": "Sulwhasoo",
+        "options": [],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "-Yam: Moisturizes and elevates radiance.-Jujube Berry: Moisturizes and protects the keratin layer.-Mulberry Leaf: Soothes irritation and redness. Essential Comfort Balancing Water:Water/Aqua/Eau, Alcohol Denat., Betaine, Butylene Glycol, Glyceryl Polymethacrylate, Glycerin, 1,2-Hexanediol, Peg/Ppg-17/6 Copolymer, Glycereth-26, Peg-60 Hydrogenated Castor Oil, Bis-Peg-18 Methyl Ether Dimethyl Silane, Propanediol, Honey / Mel / Miel, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Ziziphus Jujuba Fruit Extract, Ethylhexylglycerin, Diphenylsiloxy Phenyl Trimethicone, Portulaca Oleracea Extract, Dioscorea Japonica Root Extract, Crataegus Pinnatifida Fruit Extract, Potassium Hydroxide, Fragrance / Parfum, Disodium Edta, Limonene, Biosaccharide Gum-1, Pentylene Glycol, Narcissus Tazetta Bulb Extract, Pueraria Thunbergiana Flower/Leaf/Stem Extract, Morus Alba Leaf Extract, Linalool, Rehmannia Glutinosa Root Extract, Glycyrrhiza Uralensis (Licorice) Root Extract, Paeonia Lactiflora Root Extract, Lilium Candidum Bulb Extract, Polygonatum Odoratum Rhizome Extract, Nelumbo Nucifera Flower Extract, Tocopherol, Beta-Glucan.Essential Comfort Balancing Emulsion:Water/Aqua/Eau, Butylene Glycol, Hydrogenated Poly(C6-14 Olefin), Octyldodecyl Myristate, Glycerin, Polyglyceryl-3 Methylglucose Distearate, Cetyl Ethylhexanoate, Limnanthes Alba (Meadowfoam) Seed Oil, Hydrogenated Vegetable Oil, Cetearyl Alcohol, 1,2-Hexanediol, Glyceryl Stearate, Mangifera Indica (Mango) Seed Butter, Dimethicone, Glyceryl Stearate Citrate, Stearic Acid, Palmitic Acid, Ziziphus Jujuba Fruit Extract, Propanediol, Honey / Mel / Miel, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Carbomer, Butyrospermum Parkii (Shea) Butter, Glyceryl Caprylate, Tromethamine, Ethylhexylglycerin, Fragrance / Parfum, Disodium Edta, Alcohol, Limonene, Portulaca Oleracea Extract, Dioscorea Japonica Root Extract, Crataegus Pinnatifida Fruit Extract, Narcissus Tazetta Bulb Extract, Sodium Hyaluronate, Sorbitan Isostearate, Polysorbate 60, Linalool, Beta-Glucan, Natto Gum, Pueraria Thunbergiana Flower/Leaf/Stem Extract, Morus Alba Leaf Extract, Rehmannia Glutinosa Root Extract, Glycyrrhiza Uralensis (Licorice) Root Extract, Citronellol, Paeonia Lactiflora Root Extract, Lilium Candidum Bulb Extract, Myristic Acid, Arachidic Acid, Polygonatum Odoratum Rhizome Extract, Citral, Geraniol, Nelumbo Nucifera Flower Extract, Tbhq, Tocopherol.First Care Activating Serum:Water/Aqua/Eau, Butylene Glycol, Alcohol, Glycerin, Betaine, Peg/Ppg-17/6 Copolymer, Glyceryl Polyme-Thacrylate, Ophiopogon Japonicus Root Extract, Phenoxyethanol, Bis-Peg-18 Methyl Ether Dimethyl Silane, Peg-60 Hyd-Rogenated Castor Oil, Carbomer, Tromethamine, Glycyrrhiza Uralensis (Licorice) Root Extract, Fragrance / Parfum, Honey / Mel / Miel, Juglans Regia (Walnut) Seed Extract, Theobroma Cacao (Cocoa) Extract, Dextrin, Lilium Candidum Bulb Extract, Paeonia Albiflora Root Extract, Rehmannia Glutinosa Root Extract, Polygonatum Officinale Rhizome/Root Extract, Nelumbo Nucifera Flower Extract, Xanthan Gum, Ethylhexylglycerin, Portulaca Oleracea Extract, Lim-Onene, Camellia Sinensis Leaf Extract, Disodium Edta, Phenyl Trimethicone, Chondrus Crispus (Carrageenan), Linalool, Biosaccharide Gum-1, Zizyphus Jujuba Fruit Extract, Natto Gum, Citronellol, Citral, Propylene Glycol, Geraniol, Chlor-Phenesin, Hydrogenated Lecithin, Bht, Sodium Dehydroacetate, Potassium Sorbate, Citric Acid, Sorbic Acid, Tocopherol.Concentrated Ginseng Renewing Cream:Water/Aqua/Eau, Butylene Glycol, Dimethicone, Glycerin, Triethylhexanoin, Squalane, Hydrogenated Polyisobutene, 1,2-Hexanediol, Vinyl Dimethicone/Methicone Silsesquioxane Crosspolymer, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Cetearyl Olivate, Cetearyl Alcohol, Methoxy Peg-114/Polyepsilon Caprolactone, Sorbitan Olivate, Glyceryl Stearate, Stearic Acid, Palmitic Acid, Arachidyl Alcohol, Behenyl Alcohol, Fragrance / Parfum, Hydrolyzed Ginseng Saponins (Enzyme-Treated Red Ginseng Saponins), Glyceryl Caprylate, Arachidyl Glucoside, Phenoxyethanol, Sorbitan Isostearate, Polysorbate 60, Ethylhexylglycerin, Disodium Edta, Sodium Stearoyl Glutamate, Linalool, Panax Ginseng Root Extract, Dextrin, Theobroma Cacao (Cocoa) Extract, Sodium Chloride, Honey / Mel / Miel, Limonene, Hydrogenated Lecithin, Rehmannia Glutinosa Root Extract, Panax Ginseng Flower Extract, Paeonia Lactiflora Root Extract, Lilium Candidum Bulb Extract, Polygonatum Odoratum Rhizome Extract, Myristic Acid, Arachidic Acid, Glucose, Nelumbo Nucifera Flower Extract, Phytosphingosine, Sodium Polyaspartate, Caprylyl Glycol, Tocopherol, Sodium Methyl Stearoyl Taurate, Acetyl Heptapeptide-4, Acetyl Hexapeptide-8, Sodium Hydroxide, Acetyl Octapeptide-3.",
+        "n_loves": "862",
+        "categories": [
+            "Skincare",
+            "Value & Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/gentle-cleansing-foam-P450632",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:08:23",
+        "product_name": "Gentle Cleansing Foam Hydrating Makeup Remover",
+        "brand_name": "Sulwhasoo",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 6.76 oz/ 200 mL"
+                ],
+                "price": [
+                    "$50.00"
+                ],
+                "sku": "Item 2291169"
+            }
+        ],
+        "rating": "width:90.35600000000001%",
+        "product_reviews": "309",
+        "ingredients": " -Hydra Capture Complex\u2122: Delivers moisture while cleansing for well-balanced skin. -Chestnut Shell Extract: Softens and smooths.  Water / Aqua / Eau, Potassium Cocoyl Glycinate, Disodium Cocoamphodiacetate, Cocamidopropyl Betaine, Acrylates/Beheneth-25 Methacrylate Copolymer, Peg-200 Hydrogenated Glyceryl Palmate, Sodium Chloride, Pentylene Glycol, 1,2-Hexanediol, Sodium Methyl Cocoyl Taurate, Caprylyl/Capryl Glucoside, Peg-7 Glyceryl Cocoate, Fragrance / Parfum, Isostearic Acid, Potassium Hydroxide, Butylene Glycol, Limonene, Disodium Edta, Ethylhexylglycerin, Sodium Benzoate, Tetrasodium Edta, Coix Lacryma-Jobi Ma-Yuen Seed Extract, Citrus Unshiu Peel Extract, Castanea Crenata (Chestnut) Shell Extract, Linalool, Spirodela Polyrhiza Extract, Dioscorea Japonica Root Extract, Dextrin, Theobroma Cacao (Cocoa) Extract, Rubus Idaeus (Raspberry) Fruit Extract, Ulmus Davidiana Root Extract, Salicornia Herbacea E. ",
+        "n_loves": "27.5K",
+        "categories": [
+            "Skincare",
+            "Cleansers",
+            "Face Wash & Cleansers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/concentrated-ginseng-renewing-serum-ad-P502395",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:08:36",
+        "product_name": "Concentrated Ginseng Renewing Serum",
+        "brand_name": "Sulwhasoo",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz / 30 mL"
+                ],
+                "price": [
+                    "$165.00"
+                ],
+                "sku": "Item 2653624"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.69 oz / 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$275.00"
+                ],
+                "sku": "Item 2595825"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.5 oz / 15 mL"
+                ],
+                "price": [
+                    "$85.00"
+                ],
+                "sku": "Item 2595833"
+            }
+        ],
+        "rating": "width:93.692%",
+        "product_reviews": "149",
+        "ingredients": "-Ginsenomics\u2122-Ginseng PeptidesWater/Aqua/Eau, Butylene Glycol, Glycerin, Cetyl Ethylhexanoate, Methyl Gluceth-20, Behenyl Alcohol, Betaine, 1,2-Hexanediol, Niacinamide, Methoxy PEG-114/Polyepsilon Caprolactone, Carbomer, Tromethamine, Phenyl Trimethicone, Caprylyl Methicone, Jojoba Esters, Fragrance/Parfum, Hydrolyzed Ginseng Saponins (Enzyme-Treated Red Ginseng Saponins), Glyceryl Caprylate, Phenoxyethanol, Arachidyl Alcohol, Ethylhexylglycerin, Disodium EDTA, Dextrin, Theobroma Cacao (Cocoa) Extract, Arachidyl Glucoside, Linalool, Panax Ginseng Seed Oil, Glycine Soja (Soybean) Oil, Panax Ginseng Root Extract, Sodium Chloride, Panax Ginseng Leaf/Stem Extract, Limonene, Honey/Mel/Miel, Rehmannia Glutinosa Root Extract, Panax Ginseng Flower Extract, Paeonia Lactiflora Root Extract, Lilium Candidum Bulb Extract, Polygonatum Odoratum Rhizome Extract, Retinol, Nelumbo Nucifera Flower Extract, Hydrogenated Lecithin, Alcohol, Glucose, Tocopherol, Caprylyl Glycol, BHT, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Phytosphingosine, Sodium Polyaspartate, Sodium Hyaluronate, Acetyl Heptapeptide-4, Sodium Methyl Stearoyl Taurate, Acetyl Hexapeptide-8, Sodium Hydroxide, Acetyl Octapeptide-3.",
+        "n_loves": "3.1K",
+        "categories": [
+            "Skincare",
+            "Treatments",
+            "Face Serums"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/sulwhasoo-bestseller-trial-kit-P469537",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:08:51",
+        "product_name": "Bestsellers Trial Kit",
+        "brand_name": "Sulwhasoo",
+        "options": [],
+        "rating": "width:92.994%",
+        "product_reviews": "314",
+        "ingredients": "-JAUM Activator\u2122: A blend of five precious Korean herbs that help balance the skin while improving the look of hydration, brightness, radiance, and visible wrinkles.First Care Activating Serum:Water/Aqua/Eau, Alcohol Denat., Butylene Glycol, Betaine, 1, 2-Hexanediol, Bis-Peg-18 Methyl Ether Dimethyl Silane, Glyceryl Polymethacrylate, Carbomer, Peg-60 Hydrogenated Castor Oil, Tromethamine, Propanediol, Glyceryl Caprylate, Juglans Regia (Walnut) Seed Extract, Dextrin, Theobroma Cacao (Cocoa) Extract, Scutellaria Baicalensis Root Extract, Fragrance/Parfum, Ethylhexylglycerin, Adenosine, Limonene, Methyl Trimethicone, Disodium Edta, Xanthan Gum, Cellulose Gum, Carrageenan, Honey/Mel/Miel, Madecassoside, Rehmannia Glutinosa Root Extract, Pentylene Glycol, Ophiopogon Japonicus Root Extract, Paeonia Lactiflora Root Extract, Lilium Candidum Bulb Extract, Linalool, Lycium Chinense Fruit Extract, Polygonatum Odoratum Rhizome Extract, Biosaccharide Gum-1, Propylene Glycol, Ziziphus Jujuba Fruit Extract, Nelumbo Nucifera Flower Extract, Pueraria Lobata Root Extract, Natto Gum, Glycyrrhiza Uralensis (Licorice) Root Extract, Prunus Mume Fruit Extract, Citronellol, Citral, Geraniol, Hydrogenated Lecithin, Bht, Citric Acid, Lentinus Edodes Extract, Tocopherol, Hydrolyzed Soybean Extract, Paeonia Albiflora Root Extract, Zingiber Officinale (Ginger) Root Extract.Gentle Cleansing Foam: Water/Aqua/Eau, Potassium Cocoyl Glycinate, Disodium Cocoamphodiacetate, Cocamidopropyl Betaine, Acrylates/Beheneth-25 Methacrylate Copolymer, Peg-200 Hydrogenated Glyceryl Palmate, Sodium Chloride, Pentylene Glycol, 1,2-Hexanediol, Sodium Methyl Cocoyl Taurate, Caprylyl/Capryl Glucoside, Peg-7 Glyceryl Cocoate, Fragrance/Parfum, Isostearic Acid, Potassium Hydroxide, Butylene Glycol, Limonene, Disodium Edta, Ethylhexylglycerin, Sodium Benzoate, Tetrasodium Edta, Coix Lacryma-Jobi Ma-Yuen Seed Extract, Citrus Unshiu Peel Extract, Castanea Crenata (Chestnut) Shell Extract, Linalool, Spirodela Polyrhiza Extract, Dioscorea Japonica Root Extract, Dextrin, Theobroma Cacao (Cocoa) Extract, Rubus Idaeus (Raspberry) Fruit Extract, Ulmus Davidiana Root Extract, Salicornia Herbacea Extract, Morus Alba Leaf Extract, Angelica Keiskei Extract, Citric Acid, Tocopherol.Essential Comfort Balancing Water: Water/Aqua/Eau, Alcohol Denat., Betaine, Butylene Glycol, Glyceryl Polymethacrylate, Glycerin, 1,2-Hexanediol, Peg/Ppg-17/6 Copolymer, Glycereth-26, Peg-60 Hydrogenated Castor Oil, Bis-Peg-18 Methyl Ether Dimethyl Silane, Propanediol, Honey / Mel / Miel, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Ziziphus Jujuba Fruit Extract, Ethylhexylglycerin, Diphenylsiloxy Phenyl Trimethicone, Portulaca Oleracea Extract, Dioscorea Japonica Root Extract, Crataegus Pinnatifida Fruit Extract, Potassium Hydroxide, Fragrance / Parfum, Disodium Edta, Limonene, Biosaccharide Gum-1, Pentylene Glycol, Narcissus Tazetta Bulb Extract, Pueraria Thunbergiana Flower/Leaf/Stem Extract, Morus Alba Leaf Extract, Linalool, Rehmannia Glutinosa Root Extract, Glycyrrhiza Uralensis (Licorice) Root Extract, Paeonia Lactiflora Root Extract, Lilium Candidum Bulb Extract, Polygonatum Odoratum Rhizome Extract, Nelumbo Nucifera Flower Extract, Tocopherol, Beta-Glucan.Concentrated Ginseng Renewing Cream:Water/Aqua/Eau, Butylene Glycol, Dimethicone, Glycerin, Triethylhexanoin, Squalane, Hydrogenated Polyisobutene, 1,2-Hexanediol, Vinyl Dimethicone/Methicone Silsesquioxane Crosspolymer, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Cetearyl Olivate, Cetearyl Alcohol, Methoxy Peg-114/Polyepsilon Caprolactone, Sorbitan Olivate, Glyceryl Stearate, Stearic Acid, Palmitic Acid, Arachidyl Alcohol, Behenyl Alcohol, Fragrance/Parfum, Hydrolyzed Ginseng Saponins (Enzyme-Treated Red Ginseng Saponins), Glyceryl Caprylate, Arachidyl Glucoside, Phenoxyethanol, Sorbitan Isostearate, Polysorbate 60, Ethylhexylglycerin, Disodium Edta, Sodium Stearoyl Glutamate, Linalool, Panax Ginseng Root Extract, Dextrin, Theobroma Cacao (Cocoa) Extract, Sodium Chloride, Honey/Mel/Miel, Limonene, Hydrogenated Lecithin, Rehmannia Glutinosa Root Extract, Panax Ginseng Flower Extract, Paeonia Lactiflora Root Extract, Lilium Candidum Bulb Extract, Polygonatum Odoratum Rhizome Extract, Myristic Acid, Arachidic Acid, Glucose, Nelumbo Nucifera Flower Extract, Phytosphingosine, Sodium Polyaspartate, Caprylyl Glycol, Tocopherol, Sodium Methyl Stearoyl Taurate, Acetyl Heptapeptide-4, Acetyl Hexapeptide-8, Sodium Hydroxide, Acetyl Octapeptide-3.",
+        "n_loves": "32.4K",
+        "categories": [
+            "Skincare",
+            "Value & Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/sulwhasoo-essential-comfort-balancing-water-P483694",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:09:02",
+        "product_name": "Essential Comfort Balancing Water",
+        "brand_name": "Sulwhasoo",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 5 oz/ 150 mL"
+                ],
+                "price": [
+                    "$89.00"
+                ],
+                "sku": "Item 2535516"
+            }
+        ],
+        "rating": "width:90%",
+        "product_reviews": "8",
+        "ingredients": "-JAUM Moisturizing Complex\u2122: Nourishes skin with hydrating herbs, yam, and arrowroot flowers.Water/Aqua/Eau, Alcohol Denat., Betaine, Butylene Glycol, Glyceryl Polymethacrylate, Glycerin, 1,2-Hexanediol, PEG/PPG-17/6 Copolymer, Glycereth-26, PEG-60 Hydrogenated Castor Oil, Bis-PEG-18 Methyl Ether Dimethyl Silane, Propanediol, Honey/Mel/Miel, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Ziziphus Jujuba Fruit Extract, Ethylhexylglycerin, Diphenylsiloxy Phenyl Trimethicone, Portulaca Oleracea Extract, Dioscorea Japonica Root Extract, Crataegus Pinnatifida Fruit Extract, Potassium Hydroxide, Fragrance/Parfum, Disodium EDTA, Limonene, Biosaccharide Gum-1, Pentylene Glycol, Narcissus Tazetta Bulb Extract, Pueraria Thunbergiana Flower/Leaf/Stem Extract, Morus Alba Leaf Extract, Linalool, Rehmannia Glutinosa Root Extract, Glycyrrhiza Uralensis (Licorice) Root Extract, Paeonia Lactiflora Root Extract, Lilium Candidum Bulb Extract, Polygonatum Odoratum Rhizome Extract, Nelumbo Nucifera Flower Extract, Tocopherol, Beta-Glucan.",
+        "n_loves": "5.5K",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Mists & Essences"
+        ]
+    }
+]

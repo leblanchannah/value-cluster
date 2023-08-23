@@ -1,0 +1,2694 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-mandarin-yuzu-misting-diffuser-oil-P482296",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:10:20",
+        "product_name": "Mandarin & Yuzu Misting Diffuser Oil",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 0.5 oz/ 15 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2530509"
+            }
+        ],
+        "rating": "width:60%",
+        "product_reviews": "1",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "179",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Diffusers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-amalfi-lemon-mint-wall-diffuser-refill-P473113",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:10:33",
+        "product_name": "Amalfi Lemon & Mint Wall Diffuser Refill",
+        "brand_name": "NEST New York",
+        "options": [],
+        "rating": "width:80%",
+        "product_reviews": "1",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "226",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Diffusers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/citrine-rollerball-P406776",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:10:43",
+        "product_name": "Citrine Eau de Parfum Travel Spray",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.27 oz/ 8 mL"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2498335"
+            }
+        ],
+        "rating": "width:85.19200000000001%",
+        "product_reviews": "104",
+        "ingredients": "Alcohol Denat., Fragrance, Water, BHT, Ethylhexyl Methoxycinnamate, Butyl Methoxydibenzoylmethane, Ethylhexyl Salicylate, Benzyl Alcohol, Benzyl Salicylate, Citral, Citronellol, Geraniol, Hexyl Cinnamal, Hydroxycitronellal, Limonene, Linalool.",
+        "n_loves": "9.4K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/wisteria-blue-P427608",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:10:55",
+        "product_name": "Wisteria Blue Eau de Parfum",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$122.00"
+                ],
+                "sku": "Item 2039865"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.28 oz/ 8 mL"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2498343"
+            }
+        ],
+        "rating": "width:90.694%",
+        "product_reviews": "101",
+        "ingredients": "Alcohol Denat, Fragrance, Pentaerythrithyl Tetra-di-t-butyl Hydroxyhydrocinnamate, Ethylhexyl Methoxycinnamate, Hexyl Cinnamal, Butylphenyl Methylpropional, Linalool, Alpha-Isomethyl Ionone, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, D-Limonene, Farnesol, Geraniol, Eugenol, Citral, Hydroxycitronellal, Citronellol.",
+        "n_loves": "9.6K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/ocean-mist-sea-salt-reed-diffuser-P416384",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:11:07",
+        "product_name": "Ocean Mist & Sea Salt Reed Diffuser",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 5.9 oz/ 175 mL"
+                ],
+                "price": [
+                    "$80.00"
+                ],
+                "sku": "Item 1904390"
+            }
+        ],
+        "rating": "width:68.334%",
+        "product_reviews": "12",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "2.6K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Diffusers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-wild-mint-eucalyptus-room-linen-spray-P480622",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:11:20",
+        "product_name": "Wild Mint & Eucalyptus Room & Linen Spray",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL"
+                ],
+                "price": [
+                    "$36.00"
+                ],
+                "sku": "Item 2530525"
+            }
+        ],
+        "rating": "width:60%",
+        "product_reviews": "3",
+        "ingredients": "Water/Aqua/Eau, Alcohol Denat., PPG-26-Buteth-26, Fragrance/ Parfum, PEG-40 Hydrogenated Castor Oil, Benzyl Alcohol, Benzoic Acid, Sorbic Acid, Dimethicone, Simethicone, Polysorbate 65, Methyl Cellulose, Limonene, Hexyl Cinnamal, Linalool, Eugenol.",
+        "n_loves": "342",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Diffusers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/moroccan-amber-reed-diffuser-P396423",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:11:32",
+        "product_name": "Moroccan Amber Reed Diffuser",
+        "brand_name": "NEST New York",
+        "options": [],
+        "rating": "width:93.33399999999999%",
+        "product_reviews": "21",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "4.4K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Diffusers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-seville-orange-perfume-oil-rollerball-P469170",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:11:43",
+        "product_name": "Seville Orange Perfume Oil Rollerball",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.27 oz/ 6 mL"
+                ],
+                "price": [
+                    "$45.00"
+                ],
+                "sku": "Item 2411411"
+            }
+        ],
+        "rating": "width:86.78800000000001%",
+        "product_reviews": "218",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "15.7K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/bamboo-candle-P433471",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:11:55",
+        "product_name": "Bamboo Candle",
+        "brand_name": "NEST New York",
+        "options": [],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "74",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-wild-mint-eucalyptus-misting-diffuser-set-P482293",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:12:05",
+        "product_name": "Wild Mint & Eucalyptus Misting Diffuser Set",
+        "brand_name": "NEST New York",
+        "options": [],
+        "rating": "width:100%",
+        "product_reviews": "1",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "1.3K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Diffusers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-bamboo-wall-diffuser-refill-P473114",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:12:16",
+        "product_name": "Bamboo Wall Diffuser Refill",
+        "brand_name": "NEST New York",
+        "options": [],
+        "rating": "width:100%",
+        "product_reviews": "1",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "146",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Diffusers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/bamboo-candle-P381777",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:12:27",
+        "product_name": "Bamboo Candle",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 2.0 oz/ 57g",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$28.00"
+                ],
+                "sku": "Item 1713718"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 8.1 oz/ 230 g",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$64.00"
+                ],
+                "sku": "Item 1557990"
+            }
+        ],
+        "rating": "width:91.63600000000001%",
+        "product_reviews": "110",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "4.3K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-driftwood-chamomile-misting-diffuser-oil-P482706",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:12:40",
+        "product_name": "Driftwood & Chamomile Misting Diffuser Oil",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 0.5 oz/ 15 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2583698"
+            }
+        ],
+        "rating": "width:100%",
+        "product_reviews": "2",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "825",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Diffusers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/portable-fragrance-diffuser-set-P506803",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:12:53",
+        "product_name": "Portable Fragrance Diffuser Set",
+        "brand_name": "NEST New York",
+        "options": [],
+        "rating": "width:97.444%",
+        "product_reviews": "180",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "437",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Diffusers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-gray-malin-ocean-mist-sea-salt-candle-P484062",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:13:03",
+        "product_name": "Gray Malin Ocean Mist & Sea Salt Candle",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 20.2 oz / 573 g",
+                    "ONLY A FEW LEFT",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$100.00"
+                ],
+                "sku": "Item 2563625"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 7 oz / 200 g",
+                    "ONLY A FEW LEFT",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$64.00"
+                ],
+                "sku": "Item 2563633"
+            }
+        ],
+        "rating": "width:60%",
+        "product_reviews": "1",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "732",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/charcoal-woods-candle-P500267",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:13:16",
+        "product_name": "Charcoal Woods Candle",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 8.1 oz / 230 g"
+                ],
+                "price": [
+                    "$64.00"
+                ],
+                "sku": "Item 2587442"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 2.1 oz / 57 g",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$28.00"
+                ],
+                "sku": "Item 2587475"
+            }
+        ],
+        "rating": "width:90.462%",
+        "product_reviews": "65",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "711",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-indian-jasmine-perfume-oil-rollerball-P470231",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:13:30",
+        "product_name": "Indian Jasmine Perfume Oil Rollerball",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.27 oz/ 6 mL"
+                ],
+                "price": [
+                    "$45.00"
+                ],
+                "sku": "Item 2411395"
+            }
+        ],
+        "rating": "width:85.39%",
+        "product_reviews": "141",
+        "ingredients": "Fragrance (Parfum), Dipropylene Glycol, Triethyl Citrate, Ethyl Hexyl Glycerin, Propanediol, Adansonia Digitata Seed Oil (Baobab Oil), Alpha-Isomethyl Ionone, Benzyl Benzoate, Benzyl Alcohol, Benzyl Salicylate, Citral, Citronellol, Eugenol, Geraniol, Isoeugenol, Limonene, Linalool.",
+        "n_loves": "11.2K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-golden-nectar-eau-de-parfum-P480332",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:13:42",
+        "product_name": "Golden Nectar Eau de Parfum",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL"
+                ],
+                "price": [
+                    "$122.00"
+                ],
+                "sku": "Item 2531408"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.27 oz/ 8 mL"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2544898"
+            }
+        ],
+        "rating": "width:83.43199999999999%",
+        "product_reviews": "204",
+        "ingredients": "Alcohol Denat., Fragrance (Parfum), Water (Aqua), Alpha-Isomethyl Ionone, Cinnamyl Alcohol, Citral, Citronellol, Coumarin, Farnesol, Geraniol, Limonene, Linalool.",
+        "n_loves": "16.5K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/apricot-tea-scented-candle-P408726",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:13:55",
+        "product_name": "Apricot Tea Scented Candle",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 8.1 oz/ 230 g",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$62.00"
+                ],
+                "sku": "Item 1830686"
+            }
+        ],
+        "rating": "width:69.08999999999999%",
+        "product_reviews": "22",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "2.5K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-mini-himalayan-salt-rosewater-candle-P483677",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:14:08",
+        "product_name": "Mini Himalayan Salt & Rosewater Candle",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2 oz / 70 g"
+                ],
+                "price": [
+                    "$28.00"
+                ],
+                "sku": "Item 2532018"
+            }
+        ],
+        "rating": "width:100%",
+        "product_reviews": "2",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "2.7K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/bamboo-petite-candle-diffuser-set-P505899",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:14:20",
+        "product_name": "Bamboo Petite Candle & Diffuser Set",
+        "brand_name": "NEST New York",
+        "options": [],
+        "rating": "width:20%",
+        "product_reviews": "1",
+        "ingredients": "Bamboo Petite Candle:Pure, FDA Approved, Naturally Derived, Food-Grade Paraffin, Renewable Plant Oils, Vegetable Soy Wax, Fragrance.",
+        "n_loves": "277",
+        "categories": [
+            "Fragrance",
+            "Value & Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-madagascar-vanilla-perfume-oil-rollerball-P470233",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:14:30",
+        "product_name": "Madagascar Vanilla Perfume Oil Rollerball",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.27 oz/ 6 mL"
+                ],
+                "price": [
+                    "$45.00"
+                ],
+                "sku": "Item 2411437"
+            }
+        ],
+        "rating": "width:80.582%",
+        "product_reviews": "309",
+        "ingredients": "Fragrance (Parfum), Dipropylene Glycol, Triethyl Citrate, Ethyl Hexyl Glycerin, Propanediol, Adansonia Digitata Seed Oil (Baobab Oil), Benzyl Alcohol, Benzyl Salicylate, Linalool.",
+        "n_loves": "48K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/velvet-pear-reed-diffuser-P441636",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:14:42",
+        "product_name": "Velvet Pear Reed Diffuser",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 5.9oz/175mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$80.00"
+                ],
+                "sku": "Item 2174084"
+            }
+        ],
+        "rating": "width:80%",
+        "product_reviews": "3",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "1K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Diffusers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-wilderness-midnight-moss-vetiver-candle-P505434",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:14:55",
+        "product_name": "Wilderness Midnight Moss & Vetiver Candle",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 21.2 oz / 600 g 3 wick candle"
+                ],
+                "price": [
+                    "$106.00"
+                ],
+                "sku": "Item 2634293"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 8.1 oz / 230 g 1 wick candle"
+                ],
+                "price": [
+                    "$64.00"
+                ],
+                "sku": "Item 2634277"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2.0 oz / 70 g 1 wick candle"
+                ],
+                "price": [
+                    "$28.00"
+                ],
+                "sku": "Item 2634285"
+            }
+        ],
+        "rating": "width:95.136%",
+        "product_reviews": "37",
+        "ingredients": "FDA-Approved, Naturally Derived, Food-Grade Paraffin and Renewable Plant Oils, Vegetable Soy Wax, Fragrance.",
+        "n_loves": "974",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/wisteria-blue-rollerball-P427607",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:15:09",
+        "product_name": "Wisteria Blue Eau de Parfum Travel Spray",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.28 oz/ 8 mL"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2498343"
+            }
+        ],
+        "rating": "width:86.75399999999999%",
+        "product_reviews": "77",
+        "ingredients": "Alcohol Denat, Fragrance, Pentaerythrithyl Tetra-di-t-butyl Hydroxyhydrocinnamate, Ethylhexyl Methoxycinnamate, Hexyl Cinnamal, Butylphenyl Methylpropional, Linalool, Alpha-Isomethyl Ionone, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, D-Limonene, Farnesol, Geraniol, Eugenol, Citral, Hydroxycitronellal, Citronellol.",
+        "n_loves": "7K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/linen-reed-diffuser-P428069",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:15:21",
+        "product_name": "Linen Reed Diffuser",
+        "brand_name": "NEST New York",
+        "options": [],
+        "rating": "width:80%",
+        "product_reviews": "7",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "2K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Diffusers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-palo-santo-cedarwood-misting-diffuser-oil-P482295",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:15:32",
+        "product_name": "Palo Santo & Cedarwood Misting Diffuser Oil",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 0.5 oz/ 15 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2530483"
+            }
+        ],
+        "rating": "width:100%",
+        "product_reviews": "1",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "237",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Diffusers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-nest-x-gray-malin-sicilian-tangerine-classic-candle-P484057",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:15:43",
+        "product_name": "NEST x Gray Malin Sicilian Tangerine Classic Candle",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$64.00"
+                ],
+                "sku": "Item 2583722"
+            }
+        ],
+        "rating": "width:60%",
+        "product_reviews": "2",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "153",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/himalayan-salt-rosewater-misting-diffuser-oil-P500266",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:15:54",
+        "product_name": "Himalayan Salt & Rosewater Misting Diffuser Oil",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 0.5 oz / 15 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2583730"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "285",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Diffusers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-madagascar-vanilla-perfume-oil-P470232",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:16:06",
+        "product_name": "Madagascar Vanilla Perfume Oil",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL"
+                ],
+                "price": [
+                    "$128.00"
+                ],
+                "sku": "Item 2411429"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.27 oz/ 6 mL"
+                ],
+                "price": [
+                    "$45.00"
+                ],
+                "sku": "Item 2411437"
+            }
+        ],
+        "rating": "width:80.582%",
+        "product_reviews": "309",
+        "ingredients": "Fragrance (Parfum), Dipropylene Glycol, Triethyl Citrate, Ethyl Hexyl Glycerin, Propanediol, Adansonia Digitata Seed Oil (Baobab Oil), Benzyl Alcohol, Benzyl Salicylate, Linalool.",
+        "n_loves": "43.8K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-wild-mint-eucalyptus-candle-P469882",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:16:20",
+        "product_name": "Wild Mint & Eucalyptus Candle",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 8.1 oz/ 230 g",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$64.00"
+                ],
+                "sku": "Item 2421048"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 21.2 oz/ 600 g",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$106.00"
+                ],
+                "sku": "Item 2492460"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2 oz / 70 g"
+                ],
+                "price": [
+                    "$28.00"
+                ],
+                "sku": "Item 2532042"
+            }
+        ],
+        "rating": "width:94.458%",
+        "product_reviews": "83",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "4.5K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-wild-mint-eucalyptus-misting-diffuser-oil-P482294",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:16:32",
+        "product_name": "Wild Mint & Eucalyptus Misting Diffuser Oil",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.5 oz/ 15 mL"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2530475"
+            }
+        ],
+        "rating": "width:95%",
+        "product_reviews": "4",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "996",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Diffusers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/charcoal-woods-reed-diffuser-P500242",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:16:44",
+        "product_name": "Charcoal Woods Reed Diffuser",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 5.9 oz / 175 mL"
+                ],
+                "price": [
+                    "$80.00"
+                ],
+                "sku": "Item 2587459"
+            }
+        ],
+        "rating": "width:20%",
+        "product_reviews": "1",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "253",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Diffusers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/balinese-coconut-oil-P503925",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:16:56",
+        "product_name": "Balinese Coconut Perfume Oil",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz / 30 mL perfume oil"
+                ],
+                "price": [
+                    "$128.00"
+                ],
+                "sku": "Item 2631380"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.27 oz / 6 mL Perfume Oil Rollerball perfume oil"
+                ],
+                "price": [
+                    "$45.00"
+                ],
+                "sku": "Item 2632727"
+            }
+        ],
+        "rating": "width:88.89799999999998%",
+        "product_reviews": "227",
+        "ingredients": "Fragrance (Parfum), Dipropylene Glycol, Triethyl Citrate, Ethyl Hexyl Glycerin, Propanediol, Benzyl Salicylate, Adansonia Digitata Seed Oil (Baobab Oil), Anisyl Alcohol, Benzyl Alcohol, Benzyl Benzoate, Citral, Coumarin.",
+        "n_loves": "21.5K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-wilderness-midnight-moss-vetiver-reed-diffuser-P505432",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:17:09",
+        "product_name": "Wilderness Midnight Moss & Vetiver Reed Diffuser",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 5.9 oz / 175 mL diffuser"
+                ],
+                "price": [
+                    "$80.00"
+                ],
+                "sku": "Item 2634301"
+            }
+        ],
+        "rating": "width:20%",
+        "product_reviews": "2",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "151",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Diffusers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-himalayan-salt-rosewater-candle-P483676",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:17:21",
+        "product_name": "Himalayan Salt & Rosewater Candle",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 21.2 oz / 600 g",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$106.00"
+                ],
+                "sku": "Item 2532026"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 8.1 oz / 230 g",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$64.00"
+                ],
+                "sku": "Item 2528313"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2 oz / 70 g"
+                ],
+                "price": [
+                    "$28.00"
+                ],
+                "sku": "Item 2532018"
+            }
+        ],
+        "rating": "width:99.68199999999999%",
+        "product_reviews": "63",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "2.7K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-perfume-oil-discovery-set-P478022",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 05:17:35"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/balinese-coconut-perfume-oil-travel-spray-P503898",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:17:44",
+        "product_name": "Balinese Coconut Perfume Oil Rollerball",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.27 oz / 6 mL Perfume Oil Rollerball perfume oil"
+                ],
+                "price": [
+                    "$45.00"
+                ],
+                "sku": "Item 2632727"
+            }
+        ],
+        "rating": "width:88.89799999999998%",
+        "product_reviews": "227",
+        "ingredients": "Fragrance (Parfum), Dipropylene Glycol, Triethyl Citrate, Ethyl Hexyl Glycerin, Propanediol, Benzyl Salicylate, Adansonia Digitata Seed Oil (Baobab Oil), Anisyl Alcohol, Benzyl Alcohol, Benzyl Benzoate, Citral, Coumarin.",
+        "n_loves": "20.8K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/white-tea-rosemary-alfresco-candle-P506173",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:17:56",
+        "product_name": "White Tea & Rosemary Alfresco Candle",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Value size",
+                "flag_label": "LIMITED EDITION",
+                "size": null,
+                "name": [
+                    "Size: 16.23 oz / 460 g 5 wick candle",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$259.00"
+                ],
+                "sku": "Item 2634269"
+            },
+            {
+                "swatch_group": "Refill size",
+                "flag_label": "LIMITED EDITION",
+                "size": null,
+                "name": [
+                    "Size: 0.42 oz / 12 g 1 wick candle",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2634244"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "Food-Grade Paraffin, Renewable Plant Oils, Vegetable Soy Wax, Fragrance.",
+        "n_loves": "1.1K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-perfume-rollerball-set-P480335",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 05:18:11"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/apple-blossom-reed-difusser-P455889",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:18:20",
+        "product_name": "Apple Blossom Reed Diffuser",
+        "brand_name": "NEST New York",
+        "options": [],
+        "rating": "width:87.142%",
+        "product_reviews": "14",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "1.2K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Diffusers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/wild-poppy-rollerball-P440638",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:18:31",
+        "product_name": "Wild Poppy Eau de Parfum Travel Spray",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.27 oz/ 8 mL"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2498319"
+            }
+        ],
+        "rating": "width:89.334%",
+        "product_reviews": "300",
+        "ingredients": "Alcohol Denat., Fragrance (Parfum), Water/Aqua/Eau, Ethylhexyl Methoxycinnamate, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Alpha-Isomethyl Ionone, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Butylphenyl Methylpropional, Cinnamyl Alcohol, Citral, Citronellol, Eugenol, Geraniol, Hydroxycitronellal, Isoeugenol, Limonene, Linalool.",
+        "n_loves": "12.9K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-himalayan-salt-rosewater-diffuser-P483678",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:18:43",
+        "product_name": "Himalayan Salt & Rosewater Diffuser",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 5.9 oz / 175ml"
+                ],
+                "price": [
+                    "$80.00"
+                ],
+                "sku": "Item 2528321"
+            }
+        ],
+        "rating": "width:73.334%",
+        "product_reviews": "3",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "2.2K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Diffusers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-driftwood-chamomile-diffuser-P480624",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:18:55",
+        "product_name": "Driftwood & Chamomile Diffuser",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 5.9 oz/ 175 mL"
+                ],
+                "price": [
+                    "$80.00"
+                ],
+                "sku": "Item 2528305"
+            }
+        ],
+        "rating": "width:80%",
+        "product_reviews": "4",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "795",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Diffusers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-turkish-rose-perfume-oil-P470236",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:19:08",
+        "product_name": "Turkish Rose Perfume Oil",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL"
+                ],
+                "price": [
+                    "$128.00"
+                ],
+                "sku": "Item 2411361"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.27 oz/ 6 mL"
+                ],
+                "price": [
+                    "$45.00"
+                ],
+                "sku": "Item 2411379"
+            }
+        ],
+        "rating": "width:87.004%",
+        "product_reviews": "217",
+        "ingredients": "Fragrance (Parfum), Dipropylene Glycol, Triethyl Citrate, Ethyl Hexyl Glycerin, Propanediol, Adansonia Digitata Seed Oil (Baobab Oil), Benzyl Alcohol, Benzyl Salicylate, Citral, Citronellol, Eugenol, Farnesol, Geraniol, Limonene, Linalool.",
+        "n_loves": "15.1K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-wellness-votive-duo-P500495",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:19:21",
+        "product_name": "NEST Wellness Votive Duo",
+        "brand_name": "NEST New York",
+        "options": [],
+        "rating": "width:100%",
+        "product_reviews": "2",
+        "ingredients": "Pure, FDA Approved, Naturally Derived, Food-Grade Paraffin, Renewable Plant Oils, Vegetable Soy Wax, Fragrance.",
+        "n_loves": "1.5K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-turkish-rose-perfume-oil-rollerball-P470237",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:19:34",
+        "product_name": "Turkish Rose Perfume Oil Rollerball",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.27 oz/ 6 mL"
+                ],
+                "price": [
+                    "$45.00"
+                ],
+                "sku": "Item 2411379"
+            }
+        ],
+        "rating": "width:87.004%",
+        "product_reviews": "217",
+        "ingredients": "Fragrance (Parfum), Dipropylene Glycol, Triethyl Citrate, Ethyl Hexyl Glycerin, Propanediol, Adansonia Digitata Seed Oil (Baobab Oil), Benzyl Alcohol, Benzyl Salicylate, Citral, Citronellol, Eugenol, Farnesol, Geraniol, Limonene, Linalool.",
+        "n_loves": "13.7K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/citrine-P406775",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:19:47",
+        "product_name": "Citrine Eau de Parfum",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$122.00"
+                ],
+                "sku": "Item 1771146"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.27 oz/ 8 mL"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2498335"
+            }
+        ],
+        "rating": "width:88.686%",
+        "product_reviews": "297",
+        "ingredients": "Alcohol Denat., Fragrance, Water, BHT, Ethylhexyl Methoxycinnamate, Butyl Methoxydibenzoylmethane, Ethylhexyl Salicylate, Benzyl Alcohol, Benzyl Salicylate, Citral, Citronellol, Geraniol, Hexyl Cinnamal, Hydroxycitronellal, Limonene, Linalool.",
+        "n_loves": "12.5K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mini-perfume-oil-set-P505122",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:20:00",
+        "product_name": "Mini Perfume Oil Set",
+        "brand_name": "NEST New York",
+        "options": [],
+        "rating": "width:75%",
+        "product_reviews": "8",
+        "ingredients": "Balinese Coconut Perfume Oil: Fragrance (Parfum), Dipropylene Glycol, Triethyl Citrate, Ethyl Hexyl Glycerin, Propanediol, Benzyl Salicylate, Adansonia Digitata Seed Oil (Baobab Oil), Anisyl Alcohol, Benzyl Alcohol, Benzyl Benzoate, Citral, Coumarin.Seville Orange Perfume Oil:Fragrance (Parfum), Dipropylene Glycol, Triethyl Citrate, Ethyl Hexyl Glycerin, Propanediol, Adansonia Digitata Seed Oil (Baobab Oil), Limonene, Benzyl Alcohol, Benzyl Benzoate, Citral, Citronellol, Eugenol, Farnesol, Geraniol, Linalool.Turkish Rose Perfume Oil:Fragrance (Parfum), Dipropylene Glycol, Triethyl Citrate, Ethyl Hexyl Glycerin, Propanediol, Adansonia Digitata Seed Oil (Baobab Oil), Benzyl Alcohol, Benzyl Salicylate, Citral, Citronellol, Eugenol, Farnesol, Geraniol, Limonene, Linalool.Indian Jasmine Perfume Oil:Fragrance (Parfum), Dipropylene Glycol, Triethyl Citrate, Ethyl Hexyl Glycerin, Propanediol, Adansonia Digitata Seed Oil (Baobab Oil), Alpha-Isomethyl Ionone, Benzyl Benzoate, Benzyl Alcohol, Benzyl Salicylate, Citral, Citronellol, Eugenol, Geraniol, Isoeugenol, Limonene, Linalool.Madagascar Vanilla Perfume Oil:Fragrance (Parfum), Dipropylene Glycol, Triethyl Citrate, Ethyl Hexyl Glycerin, Propanediol, Adansonia Digitata Seed Oil (Baobab Oil), Benzyl Alcohol, Benzyl Salicylate, Linalool.",
+        "n_loves": "6.2K",
+        "categories": [
+            "Fragrance",
+            "Value & Gift Sets",
+            "Perfume Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/wild-poppy-P440637",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:20:11",
+        "product_name": "Wild Poppy Eau de Parfum",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7oz/50mL"
+                ],
+                "price": [
+                    "$122.00"
+                ],
+                "sku": "Item 2173987"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.27 oz/ 8 mL"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2498319"
+            }
+        ],
+        "rating": "width:89.334%",
+        "product_reviews": "300",
+        "ingredients": "Alcohol Denat., Fragrance (Parfum), Water/Aqua/Eau, Ethylhexyl Methoxycinnamate, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Alpha-Isomethyl Ionone, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Butylphenyl Methylpropional, Cinnamyl Alcohol, Citral, Citronellol, Eugenol, Geraniol, Hydroxycitronellal, Isoeugenol, Limonene, Linalool.",
+        "n_loves": "20.2K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/white-tea-rosemary-alfresco-tealight-refill-P506183",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:20:24",
+        "product_name": "White Tea & Rosemary Alfresco Tealight Refill",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Refill size",
+                "flag_label": "LIMITED EDITION",
+                "size": null,
+                "name": [
+                    "Size: 0.42 oz / 12 g 1 wick candle",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2634244"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "Food-Grade Paraffin, Renewable Plant Oils, Vegetable Soy Wax, Fragrance.",
+        "n_loves": "341",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/grapefruit-petite-candle-diffuser-P505884",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:20:37",
+        "product_name": "Grapefruit Petite Candle & Diffuser",
+        "brand_name": "NEST New York",
+        "options": [],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "Grapefruit Petite Candle:Pure, FDA Approved, Naturally Derived, Food-Grade Paraffin, Renewable Plant Oils, Vegetable Soy Wax, Fragrance.",
+        "n_loves": "490",
+        "categories": [
+            "Fragrance",
+            "Value & Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-mediterranean-fig-candle-P454968",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:20:47",
+        "product_name": "Mediterranean Fig Candle",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 21.1 oz/ 600 g",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$103.00"
+                ],
+                "sku": "Item 2317121"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 2oz/ 57 g",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2325736"
+            }
+        ],
+        "rating": "width:100%",
+        "product_reviews": "1",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "588",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-driftwood-chamomile-candle-P480623",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:21:02",
+        "product_name": "Driftwood & Chamomile Candle",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 8.1 oz/ 230 g"
+                ],
+                "price": [
+                    "$64.00"
+                ],
+                "sku": "Item 2528297"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 21 oz/ 600 g",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$106.00"
+                ],
+                "sku": "Item 2532091"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3 oz / 70 g",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$28.00"
+                ],
+                "sku": "Item 2532059"
+            }
+        ],
+        "rating": "width:94.28599999999999%",
+        "product_reviews": "49",
+        "ingredients": "Pure, FDA Approved, Naturally Derived, Food-Grade Paraffin, Renewable Plant Oils, Vegetable Soy Wax, Fragrance. ",
+        "n_loves": "1.8K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mini-driftwood-chamomile-candle-P500463",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:21:16",
+        "product_name": "Mini Driftwood & Chamomile Candle",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3 oz / 70 g",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$28.00"
+                ],
+                "sku": "Item 2532059"
+            }
+        ],
+        "rating": "width:85%",
+        "product_reviews": "4",
+        "ingredients": "Pure, FDA approved, Naturally Derived, Food-Grade Paraffin, Renewable Plant Oils, Vegetable Soy Wax, Fragrance.",
+        "n_loves": "1.2K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-mini-pumpkin-chai-candle-P474361",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:21:29",
+        "product_name": "Mini Pumpkin Chai Candle",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": "LIMITED EDITION",
+                "size": null,
+                "name": [
+                    "Size: 2 oz/ 70 g",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$28.00"
+                ],
+                "sku": "Item 2470284"
+            }
+        ],
+        "rating": "width:89.642%",
+        "product_reviews": "56",
+        "ingredients": "Renewable Plant Oils, Vegetable Soy Wax, Fragrance.",
+        "n_loves": "3.7K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/black-tulip-P415763",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:21:41",
+        "product_name": "Black Tulip Eau de Parfum",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$122.00"
+                ],
+                "sku": "Item 1912047"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.27 oz/ 8 mL"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2498301"
+            }
+        ],
+        "rating": "width:89.922%",
+        "product_reviews": "381",
+        "ingredients": "Alcohol Denat., Fragrance, Water, Alpha-Isomethyl Ionone, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Butylphenyl Methylpropional, Citral, Citronellol, Coumarin, Eugenol, Geraniol, Limonene, Linalool.",
+        "n_loves": "22.2K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/rose-noir-oud-classic-candle-P440639",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:21:53",
+        "product_name": "Rose Noir & Oud Candle",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 21.1oz/ 600g",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$106.00"
+                ],
+                "sku": "Item 2174035"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2oz/57g"
+                ],
+                "price": [
+                    "$28.00"
+                ],
+                "sku": "Item 2174027"
+            }
+        ],
+        "rating": "width:94.862%",
+        "product_reviews": "109",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "5.8K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/indigo-rollerball-P385319",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:22:06",
+        "product_name": "Indigo Eau de Parfum Travel Spray",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.28 oz/ 8 mL"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2498327"
+            }
+        ],
+        "rating": "width:89.45%",
+        "product_reviews": "273",
+        "ingredients": "Alcohol Denat., Fragrance, Water, Cinnamal, Limonene, Linalool, Geraniol, Citronellol, Citral, Benzyl Alcohol, Coumarin.",
+        "n_loves": "24.3K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lime-zest-matcha-diffuser-P505155",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:22:19",
+        "product_name": "Lime Zest & Matcha Diffuser",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 5.9 oz / 175 ml"
+                ],
+                "price": [
+                    "$80.00"
+                ],
+                "sku": "Item 2634160"
+            }
+        ],
+        "rating": "width:100%",
+        "product_reviews": "2",
+        "ingredients": "Pure, FDA Approved, Naturally Derived, Food-Grade Paraffin, Renewable Plant Oils, Vegetable Soy Wax, Fragrance.",
+        "n_loves": "656",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Diffusers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-indian-jasmine-perfume-oil-P470230",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:22:31",
+        "product_name": "Indian Jasmine Perfume Oil",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$128.00"
+                ],
+                "sku": "Item 2411387"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.27 oz/ 6 mL"
+                ],
+                "price": [
+                    "$45.00"
+                ],
+                "sku": "Item 2411395"
+            }
+        ],
+        "rating": "width:85.39%",
+        "product_reviews": "141",
+        "ingredients": "Fragrance (Parfum), Dipropylene Glycol, Triethyl Citrate, Ethyl Hexyl Glycerin, Propanediol, Adansonia Digitata Seed Oil (Baobab Oil), Alpha-Isomethyl Ionone, Benzyl Benzoate, Benzyl Alcohol, Benzyl Salicylate, Citral, Citronellol, Eugenol, Geraniol, Isoeugenol, Limonene, Linalool.",
+        "n_loves": "10.9K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-wild-mint-eucalyptus-body-wash-P478310",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:22:44",
+        "product_name": "Wild Mint & Eucalyptus Body Wash",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 10 oz/ 300 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$35.00"
+                ],
+                "sku": "Item 2530517"
+            }
+        ],
+        "rating": "width:40%",
+        "product_reviews": "2",
+        "ingredients": "Water/Aqua/Eau, Alcohol Denat., PPG-26-Buteth-26, Fragrance/ Parfum, PEG-40 Hydrogenated Castor Oil, Benzyl Alcohol, Benzoic Acid, Sorbic Acid, Dimethicone, Simethicone, Polysorbate 65, Methyl Cellulose, Limonene, Hexyl Cinnamal, Linalool, Eugenol.",
+        "n_loves": "550",
+        "categories": [
+            "Bath & Body",
+            "Bath & Shower",
+            "Body Wash & Shower Gel"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lime-zest-matcha-wall-diffuser-refill-P506167",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:22:55",
+        "product_name": "Lime Zest & Matcha Wall Diffuser Refill",
+        "brand_name": "NEST New York",
+        "options": [],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "177",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Diffusers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mini-charcoal-woods-candle-P500258",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:23:06",
+        "product_name": "Mini Charcoal Woods Candle",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 2.1 oz / 57 g",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$28.00"
+                ],
+                "sku": "Item 2587475"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "827",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lime-zest-matcha-votive-candle-P504703",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:23:18",
+        "product_name": "Lime Zest & Matcha Votive Candle",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2 oz / 70 g"
+                ],
+                "price": [
+                    "$28.00"
+                ],
+                "sku": "Item 2634327"
+            }
+        ],
+        "rating": "width:100%",
+        "product_reviews": "4",
+        "ingredients": "Pure, FDA approved, naturally derived, food-grade paraffin, Renewable Plant Oils, Vegetable Soy Wax , Fragrance.",
+        "n_loves": "1.3K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-mediterranean-fig-reed-diffuser-P454970",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:23:29",
+        "product_name": "Mediterranean Fig Reed Diffuser",
+        "brand_name": "NEST New York",
+        "options": [],
+        "rating": "width:60%",
+        "product_reviews": "2",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "589",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Diffusers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/grapefruit-reed-diffuser-P381767",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:23:41",
+        "product_name": "Grapefruit Reed Diffuser",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 5.9 oz / 175 mL"
+                ],
+                "price": [
+                    "$80.00"
+                ],
+                "sku": "Item 1557941"
+            }
+        ],
+        "rating": "width:86.896%",
+        "product_reviews": "29",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "5.6K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Diffusers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/linen-scented-candle-P428070",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:23:54",
+        "product_name": "Linen Scented Candle",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 8.1 oz/ 230 g",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$64.00"
+                ],
+                "sku": "Item 2039824"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 21.1 oz/ 600 g",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$106.00"
+                ],
+                "sku": "Item 2039840"
+            }
+        ],
+        "rating": "width:88.572%",
+        "product_reviews": "7",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "1.8K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-lavender-clary-sage-misting-diffuser-oil-P482297",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:24:07",
+        "product_name": "Lavender & Clary Sage Misting Diffuser Oil",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 0.5 oz/ 15 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2530491"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "184",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Diffusers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/indigo-P385317",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:24:19",
+        "product_name": "Indigo Eau de Parfum",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL"
+                ],
+                "price": [
+                    "$122.00"
+                ],
+                "sku": "Item 1585009"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.28 oz/ 8 mL"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2498327"
+            }
+        ],
+        "rating": "width:90.274%",
+        "product_reviews": "621",
+        "ingredients": "Alcohol Denat., Fragrance, Water, Cinnamal, Limonene, Linalool, Geraniol, Citronellol, Citral, Benzyl Alcohol, Coumarin.",
+        "n_loves": "35.6K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-sunkissed-hibiscus-travel-spray-P454828",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:24:31",
+        "product_name": "Sunkissed Hibiscus Eau de Parfum Travel Spray",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.27 oz/ 8 mL"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2311934"
+            }
+        ],
+        "rating": "width:84.58%",
+        "product_reviews": "297",
+        "ingredients": "Alcohol Denat., Fragrance (Parfum), Water/Aqua/Eau, Ethylhexyl Methoxycinnamate, Butyl Methoxydibenzoylmethane, Ethylhexyl Salicylate.",
+        "n_loves": "14.2K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-golden-nectar-eau-de-parfum-travel-spray-P480331",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:24:43",
+        "product_name": "Golden Nectar Eau de Parfum Travel Spray",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.27 oz/ 8 mL"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2544898"
+            }
+        ],
+        "rating": "width:83.43199999999999%",
+        "product_reviews": "204",
+        "ingredients": "Alcohol Denat., Fragrance (Parfum), Water (Aqua), Alpha-Isomethyl Ionone, Cinnamyl Alcohol, Citral, Citronellol, Coumarin, Farnesol, Geraniol, Limonene, Linalool.",
+        "n_loves": "13.1K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Rollerballs & Travel Size"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-wild-mint-eucalyptus-reed-diffuser-P469883",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:24:55",
+        "product_name": "Wild Mint & Eucalyptus Reed Diffuser",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 5.9 oz/ 175 mL"
+                ],
+                "price": [
+                    "$80.00"
+                ],
+                "sku": "Item 2421055"
+            }
+        ],
+        "rating": "width:73.334%",
+        "product_reviews": "21",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "3.6K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Diffusers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mini-perfume-oil-discovery-sampler-set-P505138",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:25:07",
+        "product_name": "Mini Perfume Oil Discovery Sampler Set",
+        "brand_name": "NEST New York",
+        "options": [],
+        "rating": "width:84.616%",
+        "product_reviews": "13",
+        "ingredients": "Balinese Coconut Perfume Oil: Fragrance (Parfum), Dipropylene Glycol, Triethyl Citrate, Ethyl Hexyl Glycerin, Propanediol, Benzyl Salicylate, Adansonia Digitata Seed Oil (Baobab Oil), Anisyl Alcohol, Benzyl Alcohol, Benzyl Benzoate, Citral, Coumarin.Seville Orange Perfume Oil:Fragrance (Parfum), Dipropylene Glycol, Triethyl Citrate, Ethyl Hexyl Glycerin, Propanediol, Adansonia Digitata Seed Oil (Baobab Oil), Limonene, Benzyl Alcohol, Benzyl Benzoate, Citral, Citronellol, Eugenol, Farnesol, Geraniol, Linalool.Turkish Rose Perfume Oil:Fragrance (Parfum), Dipropylene Glycol, Triethyl Citrate, Ethyl Hexyl Glycerin, Propanediol, Adansonia Digitata Seed Oil (Baobab Oil), Benzyl Alcohol, Benzyl Salicylate, Citral, Citronellol, Eugenol, Farnesol, Geraniol, Limonene, Linalool.Indian Jasmine Perfume Oil:Fragrance (Parfum), Dipropylene Glycol, Triethyl Citrate, Ethyl Hexyl Glycerin, Propanediol, Adansonia Digitata Seed Oil (Baobab Oil), Alpha-Isomethyl Ionone, Benzyl Benzoate, Benzyl Alcohol, Benzyl Salicylate, Citral, Citronellol, Eugenol, Geraniol, Isoeugenol, Limonene, Linalool.Madagascar Vanilla Perfume Oil:Fragrance (Parfum), Dipropylene Glycol, Triethyl Citrate, Ethyl Hexyl Glycerin, Propanediol, Adansonia Digitata Seed Oil (Baobab Oil), Benzyl Alcohol, Benzyl Salicylate, Linalool.",
+        "n_loves": "10.9K",
+        "categories": [
+            "Fragrance",
+            "Value & Gift Sets",
+            "Perfume Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lime-zest-matcha-3-wick-P504685",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:25:17",
+        "product_name": "Lime Zest & Matcha Candle",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 21.2 oz / 60 g"
+                ],
+                "price": [
+                    "$106.00"
+                ],
+                "sku": "Item 2634319"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 8.1 oz / 250 g 1 wick candle"
+                ],
+                "price": [
+                    "$64.00"
+                ],
+                "sku": "Item 2634152"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2 oz / 70 g"
+                ],
+                "price": [
+                    "$28.00"
+                ],
+                "sku": "Item 2634327"
+            }
+        ],
+        "rating": "width:97.18%",
+        "product_reviews": "78",
+        "ingredients": "Pure, FDA approved, naturally derived, food-grade paraffin, Renewable Plant Oils, Vegetable Soy Wax , Fragrance.",
+        "n_loves": "826",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-nest-x-gray-malin-sicilian-tangerine-3-wick-candle-P484059",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:25:32",
+        "product_name": "NEST x Gray Malin Sicilian Tangerine 3-Wick Candle",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$100.00"
+                ],
+                "sku": "Item 2583714"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "Pure, FDA Approved, Naturally Derived, Food-Grade Paraffin, Renewable Plant Oils, Vegetable Soy Wax, Fragrance.",
+        "n_loves": "119",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-grapefruit-wall-diffuser-set-P473138",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:25:44",
+        "product_name": "Grapefruit Wall Diffuser Set",
+        "brand_name": "NEST New York",
+        "options": [],
+        "rating": "width:100%",
+        "product_reviews": "1",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "447",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Diffusers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-south-pacific-sandalwood-perfume-oil-P470234",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:25:55",
+        "product_name": "South Pacific Sandalwood Perfume Oil",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$128.00"
+                ],
+                "sku": "Item 2411445"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.27 oz/ 6 mL"
+                ],
+                "price": [
+                    "$45.00"
+                ],
+                "sku": "Item 2411452"
+            }
+        ],
+        "rating": "width:84.87199999999999%",
+        "product_reviews": "78",
+        "ingredients": "Fragrance (Parfum), Dipropylene Glycol, Triethyl Citrate, Ethyl Hexyl Glycerin, Propanediol, Adansonia Digitata Seed Oil (Baobab Oil), Alpha-Isomethyl Ionone, Benzyl Benzoate, Cinnamal, Citronellol, Farnesol, Isoeugenol, Limonene, Linalool.",
+        "n_loves": "5.7K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/cedar-leaf-lavender-reed-diffuser-P416574",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:26:08",
+        "product_name": "Cedar Leaf & Lavender Reed Diffuser",
+        "brand_name": "NEST New York",
+        "options": [],
+        "rating": "width:65%",
+        "product_reviews": "12",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "2K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Diffusers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-south-pacific-sandalwood-perfume-oil-rollerball-P470235",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:26:18",
+        "product_name": "South Pacific Sandalwood Perfume Oil Rollerball",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.27 oz/ 6 mL"
+                ],
+                "price": [
+                    "$45.00"
+                ],
+                "sku": "Item 2411452"
+            }
+        ],
+        "rating": "width:84.87199999999999%",
+        "product_reviews": "78",
+        "ingredients": "Fragrance (Parfum), Dipropylene Glycol, Triethyl Citrate, Ethyl Hexyl Glycerin, Propanediol, Adansonia Digitata Seed Oil (Baobab Oil), Alpha-Isomethyl Ionone, Benzyl Benzoate, Cinnamal, Citronellol, Farnesol, Isoeugenol, Limonene, Linalool.",
+        "n_loves": "5.8K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-madagascar-vanilla-candle-P505809",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:26:30",
+        "product_name": "Madagascar Vanilla Candle",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 8.1 oz / 230 g 1 wick candle"
+                ],
+                "price": [
+                    "$64.00"
+                ],
+                "sku": "Item 2634186"
+            }
+        ],
+        "rating": "width:97.87599999999999%",
+        "product_reviews": "226",
+        "ingredients": "Food-Grade Paraffin, Renewable Plant Oils, Vegetable Soy Wax, Fragrance.",
+        "n_loves": "3K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-grapefruit-votive-candle-P467034",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:26:43",
+        "product_name": "Grapefruit Votive Candle",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2.1oz/ 57g"
+                ],
+                "price": [
+                    "$28.00"
+                ],
+                "sku": "Item 1713726"
+            }
+        ],
+        "rating": "width:94.666%",
+        "product_reviews": "45",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "2.7K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mini-wild-mint-eucalyptus-candle-P500462",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:26:55",
+        "product_name": "Mini Wild Mint & Eucalyptus Candle",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2 oz / 70 g"
+                ],
+                "price": [
+                    "$28.00"
+                ],
+                "sku": "Item 2532042"
+            }
+        ],
+        "rating": "width:73.334%",
+        "product_reviews": "3",
+        "ingredients": "Pure, FDA approved, Naturally Derived, Food-Grade Paraffin, Renewable Plant Oils, Vegetable Soy Wax, Fragrance.",
+        "n_loves": "1.8K",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/white-tea-rosemary-alfresco-tealight-tealights-set-P506170",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:27:07",
+        "product_name": "White Tea & Rosemary Alfresco Tealight Tealights Set",
+        "brand_name": "NEST New York",
+        "options": [],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "Food-Grade Paraffin, Renewable Plant Oils, Vegetable Soy Wax, Fragrance.",
+        "n_loves": "265",
+        "categories": [
+            "Fragrance",
+            "Candles & Home Scents",
+            "Candles"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-seville-orange-perfume-oil-P467037",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:27:16",
+        "product_name": "Seville Orange Perfume Oil",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1 oz",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$128.00"
+                ],
+                "sku": "Item 2411403"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.27 oz/ 6 mL"
+                ],
+                "price": [
+                    "$45.00"
+                ],
+                "sku": "Item 2411411"
+            }
+        ],
+        "rating": "width:86.78800000000001%",
+        "product_reviews": "218",
+        "ingredients": "Fragrance (Parfum), Dipropylene Glycol, Triethyl Citrate, Ethyl Hexyl Glycerin, Propanediol, Adansonia Digitata Seed Oil (Baobab Oil), Limonene, Benzyl Alcohol, Benzyl Benzoate, Citral, Citronellol, Eugenol, Farnesol, Geraniol, Linalool.",
+        "n_loves": "12.2K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/nest-sunkissed-hibiscus-P454827",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 05:27:29",
+        "product_name": "Sunkissed Hibiscus Eau de Parfum",
+        "brand_name": "NEST New York",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL"
+                ],
+                "price": [
+                    "$122.00"
+                ],
+                "sku": "Item 2311926"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.27 oz/ 8 mL"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2311934"
+            }
+        ],
+        "rating": "width:84.58%",
+        "product_reviews": "297",
+        "ingredients": "Alcohol Denat., Fragrance (Parfum), Water/Aqua/Eau, Ethylhexyl Methoxycinnamate, Butyl Methoxydibenzoylmethane, Ethylhexyl Salicylate.",
+        "n_loves": "17.7K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    }
+]

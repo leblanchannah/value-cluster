@@ -1,0 +1,452 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/mizani-press-agent-thermal-smoothing-sulfate-free-conditioner-P474350",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:49:49",
+        "product_name": "Press Agent Smoothing Sulfate-Free Conditioner",
+        "brand_name": "Mizani",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 8.5 oz/ 250 mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$22.00"
+                ],
+                "sku": "Item 2498525"
+            }
+        ],
+        "rating": "width:86.33%",
+        "product_reviews": "158",
+        "ingredients": "-Agave Extract: Restores dry, frizzy, unmanageable hair.-Argan Oil: Protects from damage and split ends.-UV Filter: Protects from UV rays and damage.Aqua / Water / Eau, Cetearyl Alcohol, Dimethicone, Glycerin, Behentrimonium Chloride, Amodimethicone, Cetrimonium Chloride, Parfum / Fragrance, Phenoxyethanol, Isopropyl Alcohol, Limonene, Argania Spinosa Kernel Oil, Ethylhexyl Salicylate, Lactic Acid, Agave Tequilana Leaf Extract.",
+        "n_loves": "2K",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Conditioner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mizani-heat-screen-hair-protectant-spray-P468842",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:50:02",
+        "product_name": "Heat Screen Hair Heat Protectant Spray",
+        "brand_name": "Mizani",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 8.5 oz/ 250mL"
+                ],
+                "price": [
+                    "$29.00"
+                ],
+                "sku": "Item 2432136"
+            }
+        ],
+        "rating": "width:84.05%",
+        "product_reviews": "479",
+        "ingredients": "-Rose Water: Reduces frizz, promotes shine, and softens hair. Aqua/Water, Alcohol Denat., PEG-40 Hydrogenated Castor Oil, Dimethicone PEG-7 Phosphate, Phenoxyethanol, VP/VA Copolymer, Sodium Citrate, Propylene Glycol, Polyquaternium-16, Parfum/Fragrance, Polyquaternium-6, Limonene, Xylose, Ethylhexylglycerin, Pentylene Glycol, Hydrolyzed Rice Protein, Rosa Centifolia Extract/Rosa Centifolia Flower Extract, Linalool, Tetrasodium EDTA, Tocopherol.",
+        "n_loves": "4.9K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Primers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mizani-true-textures-curl-enhancing-cream-P504204",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:50:15",
+        "product_name": "True Textures Curl Enhancing Hair Cream",
+        "brand_name": "Mizani",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 5 oz / 150 mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2656429"
+            }
+        ],
+        "rating": "width:90.33%",
+        "product_reviews": "364",
+        "ingredients": "-Coconut Oil: Adds luster, shine, and softness. -Marula Oil: Supports hair growth and manageability while boosting shine. -Olive Oil: Smooths split ends, supports scalp health, and controls frizz.Aqua/Water/Eau, Propylene Glycol, Dimethicone, Phenoxyethanol, Polyquaternium-11, Guar Hydroxypropyltrimonium Chloride, Cetearyl Alcohol, Parfum/Fragrance, Hydroxypropyl Guar, Caprylyl Glycol, Styrene/Acrylates Copolymer, Laureth-4, Dicetyl Phosphate, Laureth-23, Ceteth-10 Phosphate, Olea Europaea Oil/Olive Fruit Oil, Sclerocarya Birrea Seed Oil, Cocos Nucifera Oil/Coconut Oil, Benzophenone-4, Disodium EDTA, Sodium Citrate, Limonene, Coumarin, 2-Oleamido-1, 3-Octadecanediol, Linalool, Benzyl Alcohol, Hydroxycitronellal, Sodium Lauryl Sulfate, Citral, Geraniol, Disodium Laureth Sulfosuccinate, CI 19140/Yellow 5, CI 15985/Yellow 6.",
+        "n_loves": "3K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mizani-wonder-crown-scalp-foaming-pre-cleanse-P468843",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:50:27",
+        "product_name": "Wonder Crown Clarifying Scalp Treatment",
+        "brand_name": "Mizani",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 6.8 oz/ 200mL"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2432169"
+            }
+        ],
+        "rating": "width:90.49400000000001%",
+        "product_reviews": "951",
+        "ingredients": "-Cannabis Sativa Seed Oil: Moisturizes hair and scalp, prevents breakage, and supports hair growth. -Tea Tree Oil: Visibly addresses dandruff and scalp inflammation. -Honey: Moisturizes and adds shine to hair. Glycerin, Aqua/Water, Sodium Laureth Sulfate, Propylene Glycol, Coco-Betaine, PEG-7 Glyceryl Cocoate, Mel/Honey, Parfum/Fragrance, Sodium Chloride, PEG-55 Propylene Glycol Oleate, Sodium Benzoate, Polyquaternium-7, Salicylic Acid, Hexyl Cinnamal, Cannabis Sativa Seed Oil, Mentha Piperita Oil/Peppermint Oil, Linalool, Menthol, Melaleuca Alternifolia Leaf Oil/Tea Tree Leaf Oil, Limonene. ",
+        "n_loves": "20.4K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Scalp Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mizani-true-textures-sleek-holding-hair-gel-P503818",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:50:38",
+        "product_name": "True Textures Sleek Holding Hair Gel",
+        "brand_name": "Mizani",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 8.65 oz / 256 mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$22.00"
+                ],
+                "sku": "Item 2635548"
+            }
+        ],
+        "rating": "width:87.67200000000001%",
+        "product_reviews": "232",
+        "ingredients": "-Coconut Oil: Enhances moisture and offers frizz control. -Olive Oil: Moisturizes and adds shine and softness. -Marula Oil: Provides frizz control. Aqua / Water / Eau, Triethanolamine, Carbomer, Phenoxyethanol, Polyacrylate-2 Crosspolymer, Parfum / Fragrance, Peg-40 Hydrogenated Castor Oil, Caprylyl Glycol, Ethylhexylglycerin, Limonene, Coumarin, Sclerocarya Birrea Seed Oil, Sodium Lauryl Sulfate, Cocos Nucifera Oil / Coconut Oil, Olea Europaea Fruit Oil / Olive Fruit Oil, Linalool, Benzyl Alcohol, Hydroxycitronellal, Citral, Geraniol, Chondrus Crispus Extract, Tocopherol, Sorbic Acid, Citric Acid.",
+        "n_loves": "961",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mizani-press-agent-thermal-smoothing-sulfate-free-shampoo-P474349",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:50:50",
+        "product_name": "Press Agent Smoothing Sulfate-Free Shampoo ",
+        "brand_name": "Mizani",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 8.5 oz/ 250 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$20.00"
+                ],
+                "sku": "Item 2498517"
+            }
+        ],
+        "rating": "width:84.69200000000001%",
+        "product_reviews": "179",
+        "ingredients": "-Agave Extract: Restores dry, frizzy, unmanageable hair.-Argan Oil: Protects from damage and split ends.-UV Filter: Protects from UV rays and damage.Aqua / Water / Eau, Sodium Cocoyl Isethionate, Disodium Laureth Sulfosuccinate, Sodium Lauryl Sulfoacetate, Sodium Lauroyl Sarcosinate, Glycol Distearate, Cocamidopropyl Betaine, Divinyldimethicone/Dimethicone Copolymer, Glycereth-26, Decyl Glucoside, Parfum / Fragrance, Potassium Hydroxide, Ppg-5-Ceteth-20, Citric Acid, Polyquaternium-7, Peg-55 Propylene Glycol Oleate, Propylene Glycol, Polyquaternium-10, Sodium Chloride, Amodimethicone, Coco-Betaine, Limonene, Carbomer, C11-15 Pareth-7, Benzoic Acid, Laureth-9, Glycerin, C12-13 Pareth-23, C12-13 Pareth-3, Trideceth-12, Sodium Benzoate, Salicylic Acid, Magnesium Nitrate, Benzyl Alcohol, Phenoxyethanol, Argania Spinosa Kernel Oil, Agave Tequilana Leaf Extract, Ethylhexyl Salicylate, Tetrasodium Edta, Methylchloroisothiazolinone, Sorbic Acid, Magnesium Chloride, Methylisothiazolinone, D269845/2.",
+        "n_loves": "2K",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Shampoo"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/miracle-milk-home-away-set-P502208",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 03:51:02"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mizani-press-agent-thermal-smoothing-raincoat-styling-cream-P474351",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:51:12",
+        "product_name": "Press Agent Smoothing, Frizz Control Blow Dry Styling Cream",
+        "brand_name": "Mizani",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 5 oz/ 150 mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$22.00"
+                ],
+                "sku": "Item 2498533"
+            }
+        ],
+        "rating": "width:80.138%",
+        "product_reviews": "144",
+        "ingredients": "-Agave Extract: Restores dry, frizzy, unmanageable hair.-Argan Oil: Protects from damage and split ends.-UV Filter: Protects from UV rays and damage.Aqua / Water / Eau, Cocos Nucifera Oil / Coconut Oil, Cetearyl Alcohol, Polyquaternium-37, Oleth-20, Paraffinum Liquidum / Mineral Oil / Huile Minerale, Hydrogenated Starch Hydrolysate, Olea Europaea Fruit Oil / Olive Fruit Oil, Behentrimonium Methosulfate, Phenoxyethanol, Parfum / Fragrance, Citric Acid, Amodimethicone, Brassicamidopropyl Dimethylamine, Caprylyl Glycol, Polyquaternium-4, Ppg-1 Trideceth-6, Limonene, Trideceth-5, Acrylates Copolymer, Glycerin, Argania Spinosa Kernel Oil, Ethylhexyl Salicylate, Polyquaternium-11, Sorbitan Oleate, Trisodium Ethylenediamine Disuccinate, Hydrolyzed Vegetable Protein Pg-Propyl Silanetriol, Trideceth-10, Xylose, Agave Tequilana Leaf Extract, Acetic Acid, Linalool, Potassium Sorbate.",
+        "n_loves": "2.5K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mizani-true-textures-curl-define-styling-cream-P504209",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:51:23",
+        "product_name": "True Textures Curl Define Styling Cream",
+        "brand_name": "Mizani",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 8.45 oz / 250 mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2656395"
+            }
+        ],
+        "rating": "width:88.572%",
+        "product_reviews": "7",
+        "ingredients": "-Coconut Oil: Enhances moisture and controls frizz.-Marula Oil: Fights frizz.-Olive Oil: Moisturizes, softens, and adds shine.Water, Parafinnum, Mineral Oil, Cetearyl Alcohol, Petrolatum, Behentrimonium Chloride, Glycerin, Cetyl Esters, Amodimethicone, Phenoxyethanol, Parfum, Caprlyl Glycol, Isopropyl Alcohol, Sodium Benzoate, Dimethylaminoethylmethacrylate, Copolymer, Olive Fruit Oil, Sclerocarya Birrea Seed Oil, Coconut Oil, Trideceth-6, Limonene, Coumarin, Cetrimonium Chloride, 2-Oleamido-1, 3-Octadecanediol, Linalool, Benzyl Alcohol, Hydroxycitronellal, Citral Geraniol, Yellow 5, Yellow 6, Triethanolamine, Citric Acid.",
+        "n_loves": "779",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mizani-press-agent-thermal-smoothing-raincoat-styling-serum-P474352",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:51:35",
+        "product_name": "Press Agent Smoothing, Frizz Control Blow Dry Styling Serum",
+        "brand_name": "Mizani",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$22.00"
+                ],
+                "sku": "Item 2498541"
+            }
+        ],
+        "rating": "width:83.454%",
+        "product_reviews": "139",
+        "ingredients": "-Agave Extract: Restores dry, frizzy, unmanageable hair.-Argan Oil: Protects from damage and split ends.-UV Filter: Protects from UV rays and damage.Propylene Glycol, Aqua / Water / Eau, Dimethicone, Hexylene Glycol, C15-19 Alkane, Dimethiconol, Peg-40 Hydrogenated Castor Oil, Phenoxyethanol, Parfum / Fragrance, Polyacrylamide, C13-14 Isoparaffin, Limonene, Vp/Va Copolymer, Laureth-7, Argania Spinosa Kernel Oil, Xylose, Ethylhexyl Salicylate, Ethylhexylglycerin, Pentylene Glycol, Hydrolyzed Rice Protein, Agave Tequilana Leaf Extract, Linalool, Citral, Tocopherol.",
+        "n_loves": "4K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mizani-25-miracle-milk-leave-in-conditioner-P455850",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:51:47",
+        "product_name": "25 Miracle Milk Heat Protectant Leave-In Conditioner",
+        "brand_name": "Mizani",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 8.5 oz/ 250 mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2336105"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 13.5 oz/ 400 mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2336113"
+            }
+        ],
+        "rating": "width:88.42000000000002%",
+        "product_reviews": "2.2K",
+        "ingredients": " -Coconut Oil: Moisturizes dry hair and adds shine and softness.- Fennel Seed Oil: Strengthens hair and prevents breakage. Water, Cocos Nucifera Oil/Coconut Oil, Amodimethicone, PPG-5-Ceteth-10 Phosphate, Polyquaternium-37, Phenoxyethanol, Propylene Glycol Dicaprylate/Dicaprate, Acetamide Mea, Frangrance, Lactamide Mea, Dimethicone PEG-7 Phosphate, Butylene Glycol, PPG-1 Trideceth-6, Trideceth-6, Behentrimonium Chloride, Xylose, Ethylhexylglycerin, Helianthus Annuus Seed Extract/Sunflower Seed Extract, Sodium Hydroxide, Linalool, Benzophenone-4, Cetrimonium Chloride, Tocopherol, Olea Europaea Oil/Olive Fruit Oil, Camelina Sativa Oil/Camelina Sativa Seed Oil, Ascorbyl Glucoside, Benzyl Alcohol, Geraniol, Citronellol, Benzyl Salicylate, Hydrolyzed Vegetable Protein PG-Propyl Silanetriol, Isoeugenol, Foeniculum Vulgare (Fennel) Seed Extract, Melanin.",
+        "n_loves": "46.6K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Leave-In Conditioner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mizani-25-miracle-nourishing-oil-P455842",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:52:00",
+        "product_name": "25 Miracle Nourishing Hair Oil",
+        "brand_name": "Mizani",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 4.2 oz/ 125 mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2336220"
+            }
+        ],
+        "rating": "width:89.588%",
+        "product_reviews": "509",
+        "ingredients": " -Coconut Oil: Moisturizes dry hair and adds shine and softness.-Jojoba Oil: Repairs damage and adds moisture.-Sunflower Seed Oil: Strengthens and moisturizes hair.Helianthus Annuus Seed Oil (Sunflower Seed Oil), Isopropyl Myristate, Octyldodecanol, Olea Europaea Fruit Oil (Olive Fruit Oil), Simmondsia Chinensis Seed (Jojoba Seed Oil), Cocos Nucifera Oil (Coconut Oil), Parfum Fragrance, Linalool, Coumarin, Tocopherol, Geraniol, Glycine Soja Oil (Soybean Oil), Benzyl Alcohol, Citric Acid.",
+        "n_loves": "14.2K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Oil"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mizani-styling-foam-mousse-P455838",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:52:12",
+        "product_name": "Styling Foam Hair Mousse",
+        "brand_name": "Mizani",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 8.5 oz/ 250 mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$23.00"
+                ],
+                "sku": "Item 2336261"
+            }
+        ],
+        "rating": "width:71.76400000000001%",
+        "product_reviews": "17",
+        "ingredients": " -Ceramides: Strengthen the hair.-Monoi Oil: Adds shine and moisture.-Shea Butter: Repairs dryness and restores moisture.Water, Oleth-20, Polyquaternium-22, Polyquaternium-11, Decyl Glucoside, Phenoxyethanol, Dimethicone PEG-7 Cocoate, Parfum/Fragrance, Methylparaben, Panthenol, Disodium EDTA, Benzyl Salicylate, Limonene, Hexyl Cinnamal, Alpha-Isomethyl Ionone, PEG-75 Shea Butter Glycerides, Hydroxycitronellal, Amyl Cinnamal, Benzyl Benzoate, Eugenol, Isoeugenol, Linalool, 2-Oleamido-1, 3-Octadecanediol.",
+        "n_loves": "5.4K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mizani-coco-dew-curl-pre-styling-restyling-refresher-spray-P468841",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:52:24",
+        "product_name": "Coco Dew Curl Defining Refresher Spray",
+        "brand_name": "Mizani",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 6.8 oz/ 200mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$29.00"
+                ],
+                "sku": "Item 2432151"
+            }
+        ],
+        "rating": "width:85.078%",
+        "product_reviews": "453",
+        "ingredients": "-Coconut Extract: Moisturizes, strengthens, nourishes hair follicles, and adds shine. Aqua/Water, Glycerin, Glucose, Sorbitol, Benzyl Alcohol, Sodium Hydroxide, PEG-40 Hydrogenated Castor Oil, Parfum/Fragrance, Caprylyl Glycol, Pectin, Carrageenan, Sucrose, Linalool, Cocos Nucifera Fruit Juice/Coconut Fruit Juice, Benzyl Salicylate, Limonene, Citric Acid, Sodium Benzoate, Potassium Sorbate.",
+        "n_loves": "11.2K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Primers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mizani-25-miracle-cream-P455835",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:52:35",
+        "product_name": "25 Miracle Leave-In Cream",
+        "brand_name": "Mizani",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 8.5 oz/ 250 mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2336154"
+            }
+        ],
+        "rating": "width:87.152%",
+        "product_reviews": "288",
+        "ingredients": "  -Coconut Oil: Enhances moisture and controls frizz. Water, Cetearyl Alcohol, Guar Hydroxypropyltrimonium Chloride, Cocos Nucifera Oil/Coconut Oil, Glycerin, Behentrimonium Chloride, Fragrance, Cetrimonium Chloride, Isopropyl Alcohol, Sodium Benzoate, Salicylic Acid, Ethylhexyl Salicylate, Linalool, Fumaric Acid, Sodium Hydroxide, Benzyl Alcohol, Geraniol, Citronellol, Benzyl Salicylate, Isoeugenol.",
+        "n_loves": "6.2K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Scalp Treatments"
+        ]
+    }
+]

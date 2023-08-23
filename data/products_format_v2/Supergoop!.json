@@ -1,0 +1,568 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/supergoop-daily-dose-hydrating-ceramide-boost-spf-40-sunscreen-oil-pa-P504206",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:18:08",
+        "product_name": "Daily Dose Hydra-Ceramide Boost + SPF 40 Face Oil",
+        "brand_name": "Supergoop!",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz / 30 mL"
+                ],
+                "price": [
+                    "$62.00"
+                ],
+                "sku": "Item 2657831"
+            }
+        ],
+        "rating": "width:85.61999999999999%",
+        "product_reviews": "306",
+        "ingredients": "-Ceramides: Fortify the skin barrier and retain long-lasting moisture. -Squalane: Boosts skin hydration and locks in moisture for firmer-looking skin.-Hyaluronic Acid: Formulated at different molecular weights to provide long-lasting hydration.Avobenzone 2%, Homosalate 9%, Octisalate 5%, Octocrylene 10%, Caprylic/Capric Triglyceride, C12-15 Alkyl Benzoate, Dicaprylyl Ether, Butyloctyl Salicylate, Polybutene, Ethyl Olivate, Rosa Canina Seed Oil, Jojoba Oil/Macadamia Seed Oil Esters, Hydrogenated Polycyclopentadiene, Squalane, Glycine Soja (Soybean) Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Squalene, Polyglyceryl-3 Diisostearate, Tocopherol, Oryza Sativa (Rice) Extract, Oryza Sativa (Rice) Germ Extract, Avena Sativa (Oat) Kernel Oil, Phytosteryl Macadamiate, Ceramide NP (Ceramide III B), Olea Europaea (Olive) Leaf Extract, Bacillus Ferment, Phytosterols, Ricinus Communis (Castor) Seed Oil, Sodium Hyaluronate, Helianthus Annuus (Sunflower) Seed Wax.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "7.8K",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Face Oils"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/re-setting-100-37-mineral-powder-spf-35-translucent-P502425",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:18:20",
+        "product_name": "(Re)setting 100% Mineral Powder SPF 35 - Translucent",
+        "brand_name": "Supergoop!",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.15 oz / 4.43 mL"
+                ],
+                "price": [
+                    "$48.00"
+                ],
+                "sku": "Item 2625010"
+            }
+        ],
+        "rating": "width:69.778%",
+        "product_reviews": "45",
+        "ingredients": "-Mineral Zinc Oxide: Delivers broad-spectrum UV protection.-Ceramides and Olive Glycerides: Seal in moisture. -Coated Silica: Diffuses light and diminishes the appearance of pores for a soft-focus finish.Zinc Oxide 24.5%, Calcium Aluminum Borosilicate, Silica, Polymethyl Methacrylate, Ethylhexylglycerin, Triethoxycaprylysilane, Nylon-6/12, Sodium Dehydroacetate, Olive Glycerides, Ascorbyl Palmitate, Ceramide 3, Iron Oxides (CI 77492, 77491, 77499), Titanium Dioxide (CI 77891).",
+        "n_loves": "11.5K",
+        "categories": [
+            "Skincare",
+            "Sunscreen",
+            "Face Sunscreen"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mineral-mattescreen-sunscreen-spf-40-pa-P500683",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:18:35",
+        "product_name": "Mineral Mattescreen Sunscreen SPF 40 PA+++",
+        "brand_name": "Supergoop!",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.5 oz / 45 mL"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2577468"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: .67 oz / 20 mL"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2577476"
+            }
+        ],
+        "rating": "width:77.70400000000001%",
+        "product_reviews": "61",
+        "ingredients": "Titanium Dioxide 1.33%, Zinc Oxide 17.42%, Dimethicone, Dimethicone Crosspolymer, Caprylic/Capric Triglyceride, Methyl Dihydroabietate, Polyhydroxystearic Acid, C9-12 Alkane, Glycerin, Iron Oxides (CI 77492), Ethylhexylglycerin, Water (Aqua), Coco-Caprylate/Caprate, Silica, Stearic Acid, Iron Oxides (CI 77491), Iron Oxides (CI 77499), Hedychium Coronarium Root Extract, Lactobacillus/Arundinaria Gigantea Leaf Ferment Filtrate, Leuconostoc/Radish Root Ferment Filtrate, Titanium Dioxide (CI 77891).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "6.1K",
+        "categories": [
+            "Skincare",
+            "Sunscreen",
+            "Face Sunscreen"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/supergoop-unseen-sunscreen-P458907",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:18:48",
+        "product_name": "Unseen Sunscreen SPF 40",
+        "brand_name": "Supergoop!",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2354207"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 20 mL"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2433951"
+            }
+        ],
+        "rating": "width:82.04800000000002%",
+        "product_reviews": "1.1K",
+        "ingredients": " -Complex Derived from Meadowfoam Seed: Increases hydration levels, resulting in a more even skin texture.               -Red Algae: Helps protect against blue light emitted by electronic devices.-Frankincense: Provides a soothing effect.Avobenzone, 3%, Homosalate 8%, Octisalate 5%, Octocrylene 4%, Isododecane, Dimethicone Crosspolymer, Dimethicone/Bis-Isobutyl PPG-20 Crosspolymer, Polymethylsilsesquioxane, Isohexadecane, Dicaprylyl Carbonate, Meadowfoam Estolide, Caprylic/Capric Triglyceride, Polyester-7, Neopentyl Glycol Diheptanoate, Lithothamnion Calcareum Extract, Caprylyl Glycol, Butyrospermum Parkii (Shea) Butter, Jojoba Esters, Mannitol, Olibanum, Lecithin, Microcrystalline Cellulose, Diatomaceous Earth, Zinc Sulfate, Silica, Tocopherol.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "104.1K",
+        "categories": [
+            "Skincare",
+            "Sunscreen",
+            "Face Sunscreen"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/supergoop-glowscreen-spf-40-pa-P476908",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:19:06",
+        "product_name": "Mini Glowscreen SPF 40",
+        "brand_name": "Supergoop!",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 20 mL"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2434009"
+            }
+        ],
+        "rating": "width:77.29199999999999%",
+        "product_reviews": "2.2K",
+        "ingredients": " -Hyaluronic Acid and Vitamin B5: Help boost moisture in the skin, leaving it feeling soft and nurtured.-Sea Lavender: Provides powerful antioxidant protection while also supporting long-lasting hydration.-Cocoa Peptides: Help protect the skin from blue-light damage.Avobenzone 3%, Octisalate 5%, Octocrylene 10%, Water, Propanediol, Butyloctyl Salicylate, Glycerin, C12-15 Alkyl Benzoate, Polymethylsilsesquioxane, Niacinamide, Glyceryl Stearate Citrate, Bismuth Oxychloride, Mica, Titanium Dioxide, Lauryl Lactate, Isododecane, Isodecyl Neopentanoate, Glyceryl Stearate, Diisopropyl Sebacate, Cetyl Phosphate, Caprylic/Capric Triglyceride, Coco-Caprylate, Ethylhexyl Hydroxystearate, Butylene Glycol, Arginine, Hydroxyacetophenone, Caprylyl Glycol, 1,2-Hexanediol, Iron Oxides, Sodium Hyaluronate,  Chlorphenesin, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Trisodium Ethylenediamine Disuccinate, Phospholipids, Limonium Gerberi Extract, Leuconostoc/ Radish Root Ferment Filtrate, Theobroma Cacao (Cocoa) Seed Extract, Pantothenic Acid, Tocopherol, Helianthus Annuus (Sunflower) Seed Oil, Ferulic Acid.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "21.7K",
+        "categories": [
+            "Skincare",
+            "Sunscreen",
+            "Face Sunscreen"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/supergoop-bright-eyed-100-mineral-eye-cream-spf-40-pa-P475619",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:19:17",
+        "product_name": "Bright-Eyed 100% Mineral Eye Cream SPF 40 PA+++",
+        "brand_name": "Supergoop!",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.5 oz/ 15 mL"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2433969"
+            }
+        ],
+        "rating": "width:71%",
+        "product_reviews": "40",
+        "ingredients": "-Zinc Oxide: Delivers gentle broad-spectrum protection.-Wild Butterfly Ginger Flower: Protects skin from damage caused by blue light.-Blend of Probiotics, Pomegranate, and Caffeine: Visibly brightens, reduces dark circles, and de-puffs. Zinc Oxide 14.4%, Water, Caprylic/Capric Triglyceride, Glycerin, Propanediol, Butyloctyl Salicylate, Glyceryl Stearate Citrate, Lauroyl Lysine, Cetyl Esters, Inulin Lauryl Carbamate, Polyhydroxystearic Acid, Cetearyl Alcohol, Potassium Cetyl Phosphate, Griffonia Simplicifolia Seed Extract, Titanium Dioxide, Olive Oil Polyglyceryl-6 Esters, Mica, Triethoxycaprylylsilane, Microcrystalline Cellulose, Glyceryl Glucoside, Hydroxyacetophenone, Polyurethane-79, Diethylhexyl Syringylidenemalonate, Sodium Stearoyl Lactylate, 1,2-Hexanediol, Caprylyl Glycol, Sodium Citrate, Trisodium Ethylenediamine Disuccinate, Camellia Sinensis Leaf Extract, Lactobacillus Ferment Lysate, Punica Granatum Extract, Sodium Stearoyl Glutamate, Xanthan Gum, Cellulose Gum, Iron Oxides, Hedychium Coronarium Root Extract, Lactobacillus Ferment, Caffeine, Leuconostoc/Radish Root Ferment Filtrate, Tin Oxide.Clean at Sephora products are formulated without:Acrylates (Ethyl acrylate, Ethyl methacrylate, Butyl methacrylate, Methyl methacrylate, Tetrahydrofurfuryl methacrylate, Trimethylolpropane trimethacrylate), Aluminum Salts (Aluminum chloride, Aluminum chlorohydrate, Aluminum chlorohydrex, Aluminum dichlorohydrate, Aluminum sesquichlorohydrate, Aluminum zirconium octachlorohydrate, Aluminum zirconium octachlorohydrex gly, Aluminum zirconium pentachlorohydrate, Aluminum zirconium pentachlorohydrex gly, Aluminum zirconium tetrachlorohydrate, Aluminum zirconium tetrachlorohydrex gly, Aluminum zirconium trichlorohydrate, Aluminum zirconium trichlorohydrex gly tot), Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT), Carbon black or Black 2, Coal Tar (Coal tar, Naptha multiple, High solvent naphtha, Naphtha distillate, Tar), Ethanolamines (Diethanolamine (DEA), Ethanolamine (ETA), Monoethanolamine (MEA), Triethanolamine (TEA)), Formaldehyde and Formaldehyde Releasing Agents (2-bromo-2-nitropropane-1, 3-diol, 5-bromo-5-nitro1, 3-dioxane, Benzylhemiformal, Diazolidinyl urea, Dmdm hydantoin, Formaldehyde, Imidazolidinyl urea, Methenamine, Quaternium-15, Sodium hydroxymethylglycinate), Hydroquinone (2-Acetylhydroquinone, Di-t-Butylhydroquinone, Diamylhydroquinone, Hydroquinone, Hydroquinone Safflowerates), Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil (Mineral Oi, Hydrogenated Mineral Oil), Nanomaterials (Methylene bis-benzotriazolyl, tetramethylbutylphenol, Titanium Dioxide, Tris-biphenyl triazine, Zinc Oxide), Oxybenzone, Parabens, Petrolatum and Parrafin, Pehnoxyethanol, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styerene (Bromostyrene, Dea-styrene/acrylates/dvb copolymer, Sodium styrene/divinylbenzene copolymer, Styrene, Styrene oxide), Sulfates (Sodium Lauryl Sulfate (SLS), Sodium Laureth Sulfate (SLES)), Talc, Toluene (2,6-Dihydroxyethylaminotoluene, 4-Amino-2-Hydroxytoluene, 4-Amino-2-Hydroxytoluene Sulfate, 4-Methoxytoluene-2,5-Diamine HCl, Methylstyrene/Vinyltoluene Copolymer, N,N-Diethyltoluene-2,5-Diamine HCl, Potassium Toluenesulfonate, Sodium Toluenesulfonate, Toluene, Toluene Sulfonic Acid, Toluene-2,5-Diamine, Toluene-2,5-Diamine Sulfate, Toluene-2,6-Diamine, Toluene-3,4-Diamine), Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, Bisphenol A (BPA), Ethylenediaminetetraacetic acid (EDTA), Methylene chloride, Polytetrafluoroethylene (PTFE), Perfluorooctanoic acid (PFOA)), 1, 4, Diocane, Octinoxate (Octinoxate, Octyl methoxycinnamate, Ethylhexyl methoxycinnamate), PFAS compounds (PFASs or PFCs, \"perfluor\" or \"polyfluor\" in the ingredient name (e.g. Perfluorooctanoic Acid (PFOA), polytetrafluorothylene (PTFE)), Nitromusks and Polycyclic Musks (Musk ketone, Hexamethylindanopyran, Acetyl Hexamethyl Tetralin, Acetyl Hexamethyl Indan, Dihydro Pentamethylindanone)",
+        "n_loves": "3.7K",
+        "categories": [
+            "Skincare",
+            "Eye Care",
+            "Eye Creams & Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/supergoop-unseen-sunscreen-body-spf-40-P505798",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:19:35",
+        "product_name": "Unseen Sunscreen Body SPF 40",
+        "brand_name": "Supergoop!",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz / 100 mL"
+                ],
+                "price": [
+                    "$56.00"
+                ],
+                "sku": "Item 2681518"
+            }
+        ],
+        "rating": "width:68.88799999999999%",
+        "product_reviews": "9",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "1.9K",
+        "categories": [
+            "Skincare",
+            "Sunscreen",
+            "Body Sunscreen"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/supergoop-glowscreen-spf-40-P468414",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:19:47",
+        "product_name": "Glowscreen SPF 40 PA+++ ",
+        "brand_name": "Supergoop!",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2433977"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 20 mL"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2434009"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2.4 oz / 71 mL"
+                ],
+                "price": [
+                    "$62.00"
+                ],
+                "sku": "Item 2664654"
+            }
+        ],
+        "rating": "width:77.29199999999999%",
+        "product_reviews": "2.2K",
+        "ingredients": " -Hyaluronic Acid and Vitamin B5: Help boost moisture in the skin, leaving it feeling soft and nurtured.-Sea Lavender: Provides powerful antioxidant protection while also supporting long-lasting hydration.-Cocoa Peptides: Help protect the skin from blue-light damage.Avobenzone 3%, Octisalate 5%, Octocrylene 10%, Water, Propanediol, Butyloctyl Salicylate, Glycerin, C12-15 Alkyl Benzoate, Polymethylsilsesquioxane, Niacinamide, Glyceryl Stearate Citrate, Bismuth Oxychloride, Mica, Titanium Dioxide, Lauryl Lactate, Isododecane, Isodecyl Neopentanoate, Glyceryl Stearate, Diisopropyl Sebacate, Cetyl Phosphate, Caprylic/Capric Triglyceride, Coco-Caprylate, Ethylhexyl Hydroxystearate, Butylene Glycol, Arginine, Hydroxyacetophenone, Caprylyl Glycol, 1,2-Hexanediol, Iron Oxides, Sodium Hyaluronate,  Chlorphenesin, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Trisodium Ethylenediamine Disuccinate, Phospholipids, Limonium Gerberi Extract, Leuconostoc/ Radish Root Ferment Filtrate, Theobroma Cacao (Cocoa) Seed Extract, Pantothenic Acid, Tocopherol, Helianthus Annuus (Sunflower) Seed Oil, Ferulic Acid.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "52.1K",
+        "categories": [
+            "Skincare",
+            "Sunscreen",
+            "Face Sunscreen"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/supergoop-zincscreen-mineral-lotion-P458908",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:20:01",
+        "product_name": "Zincscreen Mineral Lotion SPF 40 PA+++ ",
+        "brand_name": "Supergoop!",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL"
+                ],
+                "price": [
+                    "$60.00"
+                ],
+                "sku": "Item 2354215"
+            }
+        ],
+        "rating": "width:73.662%",
+        "product_reviews": "486",
+        "ingredients": "Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "8.1K",
+        "categories": [
+            "Skincare",
+            "Sunscreen",
+            "Face Sunscreen"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/supergoop-spf-bestsellers-kit-P505130",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:20:13",
+        "product_name": "SPF Bestsellers Kit",
+        "brand_name": "Supergoop!",
+        "options": [],
+        "rating": "width:74.736%",
+        "product_reviews": "57",
+        "ingredients": "-Sunflower Extract: Rich in beta carotene, protects your skin from environmental elements.-Niacinamide: Reduces the appearance of pores and visibly evens skin tone. -Red Algae: Protects against all visible light, including blue light. PLAY: Avobenzone 3%, Homosalate 10%, Octisalate 5%, Octocrylene 7.5%, Water, Acrylates Copolymer, Diisopropyl Sebacate, Glycerin, Isodecyl Neopentanoate, Isododecane, Lauryl Lactate, Cetyl Alcohol, Potassium Cetyl Phosphate, Brassica Campestris/Aleurites Fordi Oil Copolymer, Oryza Sativa (Rice) Bran Extract, Cetearyl Olivate, Ammonium Acryloyldimethyltaurate/VP Copolymer, Hydroxyacetophenone, Sorbitan Olivate, Diethylhexyl Syringylidenemalonate, Aniba Rosaeodora (Rosewood) Wood Oil, Chlorphenesin, Citrus Aurantium Dulcis (Orange) Peel Oil, Citrus Limon (Lemon) Peel Oil, Ethylhexylglycerin, Eucalyptus Globulus Leaf Oil, Ocimum Basilicum (Basil) Flower/Leaf Extract, Pelargonium Graveolens Flower Oil, Pogostemon Cablin Oil, Pentylene Glycol, 1,2-Hexanediol, Caprylyl Glycol, Xanthan Gum, Helianthus Annuus (Sunflower) Extract, Behenic Acid, Cetyl Behenate, Isostearyl Isostearate, Trisodium Ethylenediamine Disuccinate, Tocopherol, Allantoin, Rosmarinus Officinalis (Rosemary) Leaf Extract, Caprylic/Capric Triglyceride, Panthenol, Pentasodium Triphosphate, Citric Acid.Glowscreen: Avobenzone 3%, Octisalate 5%, Octocrylene 10%, Water, Propanediol, Butyloctyl Salicylate, Glycerin, C12-15 Alkyl Benzoate, Polymethylsilsesquioxane, Niacinamide, Glyceryl Stearate Citrate, Bismuth Oxychloride, Mica, Titanium Dioxide, Lauryl Lactate, Isododecane, Isodecyl Neopentanoate, Glyceryl Stearate, Diisopropyl Sebacate, Cetyl Phosphate, Caprylic/Capric Triglyceride, Coco-Caprylate, Ethylhexyl Hydroxystearate, Butylene Glycol, Arginine, Hydroxyacetophenone, Caprylyl Glycol, 1,2-Hexanediol, Iron Oxides, Sodium Hyaluronate, Chlorphenesin, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Trisodium Ethylenediamine Disuccinate, Phospholipids, Limonium Gerberi Extract, Leuconostoc/ Radish Root Ferment Filtrate, Theobroma Cacao (Cocoa) Seed Extract, Pantothenic Acid, Tocopherol, Helianthus Annuus (Sunflower) Seed Oil, Ferulic Acid.Unseen: Avobenzone 3%, Homosalate 8%, Octisalate 5%, Octocrylene 4%, Isododecane, Dimethicone Crosspolymer, Dimethicone/Bis-Isobutyl PPG-20 Crosspolymer, Polymethylsilsesquioxane, Isohexadecane, Dicaprylyl Carbonate, Meadowfoam Estolide, Caprylic/Capric Triglyceride, Polyester-7, Neopentyl Glycol Diheptanoate, Lithothamnion Calcareum Extract, Caprylyl Glycol, Butyrospermum Parkii (Shea) Butter, Jojoba Esters, Mannitol, Boswellia Serrata Resin Extract, Lecithin, Microcrystalline Cellulose, Diatomaceous Earth, Zinc Sulfate, Silica, Tocopherol.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "23.8K",
+        "categories": [
+            "Skincare",
+            "Value & Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/supergoop-unseen-sunscreen-spf-40-pa-P476909",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:20:24",
+        "product_name": "Mini Unseen Sunscreen SPF 40",
+        "brand_name": "Supergoop!",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 20 mL"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2433951"
+            }
+        ],
+        "rating": "width:82.04800000000002%",
+        "product_reviews": "1.1K",
+        "ingredients": " -Complex Derived from Meadowfoam Seed: Increases hydration levels, resulting in a more even skin texture.               -Red Algae: Helps protect against blue light emitted by electronic devices.-Frankincense: Provides a soothing effect.Avobenzone, 3%, Homosalate 8%, Octisalate 5%, Octocrylene 4%, Isododecane, Dimethicone Crosspolymer, Dimethicone/Bis-Isobutyl PPG-20 Crosspolymer, Polymethylsilsesquioxane, Isohexadecane, Dicaprylyl Carbonate, Meadowfoam Estolide, Caprylic/Capric Triglyceride, Polyester-7, Neopentyl Glycol Diheptanoate, Lithothamnion Calcareum Extract, Caprylyl Glycol, Butyrospermum Parkii (Shea) Butter, Jojoba Esters, Mannitol, Olibanum, Lecithin, Microcrystalline Cellulose, Diatomaceous Earth, Zinc Sulfate, Silica, Tocopherol.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "24.8K",
+        "categories": [
+            "Skincare",
+            "Sunscreen",
+            "Face Sunscreen"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/supergoop-play-everyday-lotion-P458911",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:20:36",
+        "product_name": "PLAY Everyday Lotion SPF 50",
+        "brand_name": "Supergoop!",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2.4 oz/ 71 mL"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2354223"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 5.5 oz/ 162 mL"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2433985"
+            }
+        ],
+        "rating": "width:78.69200000000001%",
+        "product_reviews": "489",
+        "ingredients": " -Sunflower Extract: Rich in beta carotene and helps protect your skin from external environmental elements.     \n-Rosemary Leaf Extract: Has a calming effect on the skin and is rich in antioxidants.\nAvobenzone 3%, Homosalate 10%, Octisalate 5%, Water, Polyester-8, Acrylates Copolymer, Diisopropyl Sebacate, Glycerin, Isodecyl Neopentanoate, Isododecane, Lauryl Lactate, Cetyl Alcohol, Potassium Cetyl Phosphate, Brassica Campestris/Aleurites Fordi Oil Copolymer, Oryza Sativa (Rice) Bran Extract, Cetearyl Olivate, Ammonium Acryloyldimethyltaurate/VP Copolymer, Hydroxyacetophenone, Sorbitan Olivate, Diethylhexyl Syringylidenemalonate, Aniba Rosaeodora (Rosewood) Wood Oi, Chlorphenesin, Citrus Aurantium Dulcis (Orange) Peel Oil, Citrus Limon (Lemon) Peel Oil, Ethylhexylglycerin, Eucalyptus Globulus Leaf Oil, Ocimum Basilicum (Basil) Flower/Leaf Extract, Pelargonium Graveolens Flower Oil, Pogostemon Cablin Oil, Pentylene Glycol, 1,2-Hexanediol, Caprylyl Glycol, Xanthan Gum, Helianthus Annuus (Sunflower) Extract, Behenic Acid, Cetyl Behenate, Isostearyl Isostearate, Trisodium Ethylenediamine Disuccinate, Tocopherol, Allantoin, Rosmarinus Officinalis (Rosemary) Leaf Extract, Caprylic/Capric Triglyceride, Panthenol, Pentasodium Triphosphate, Citric AcidClean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "36K",
+        "categories": [
+            "Skincare",
+            "Sunscreen",
+            "Face Sunscreen"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mini-mineral-mattescreen-sunscreen-spf-40-pa-P500699",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:20:49",
+        "product_name": "Mini Mineral Mattescreen Sunscreen SPF 40",
+        "brand_name": "Supergoop!",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: .67 oz / 20 mL"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2577476"
+            }
+        ],
+        "rating": "width:60.952000000000005%",
+        "product_reviews": "21",
+        "ingredients": "Titanium Dioxide 1.33%, Zinc Oxide 17.42%, Dimethicone, Dimethicone Crosspolymer, Caprylic/Capric Triglyceride, Methyl Dihydroabietate, Polyhydroxystearic Acid, C9-12 Alkane, Glycerin, Iron Oxides (CI 77492), Ethylhexylglycerin, Water (Aqua), Coco-Caprylate/Caprate, Silica, Stearic Acid, Iron Oxides (CI 77491), Iron Oxides (CI 77499), Hedychium Coronarium Root Extract, Lactobacillus/Arundinaria Gigantea Leaf Ferment Filtrate, Leuconostoc/Radish Root Ferment Filtrate, Titanium Dioxide (CI 77891).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "4.7K",
+        "categories": [
+            "Mini Size",
+            "Skincare"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/supergoop-lipscreen-shine-spf-40-sunscreen-lip-gloss-P505840",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:21:07",
+        "product_name": "Lipscreen Shine SPF 40 Sunscreen Lip Gloss",
+        "brand_name": "Supergoop!",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.33 oz / 10 mL"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2681500"
+            }
+        ],
+        "rating": "width:65.6%",
+        "product_reviews": "25",
+        "ingredients": "-Grapeseed Extract: Reduces the visible effects of free radicals with rich antioxidant levels.-Shea Butter and Natural Oils: Nourish and condition lips to keep them soft and moisturized.Avobenzone 3%, Homosalate 5%, Octisalate 5%, Octocrylene 10%, Hydrogenated Polyisobutene, Diisostearyl Malate, Caprylic/Capric Triglyceride, Butyloctyl Salicylate, C12-15 Alkyl Benzoate, Polyurethane-79, Polyester-7, Butyrospermum Parkii (Shea) Butter, Cocos Nucifera (Coconut) Oil, Isopropyl Palmitate, Sesamum Indicum (Sesame) Seed Oil, Neopentyl Glycol Diheptanoate, Diethylhexyl Syringylidenemalonate, Caprylyl Glycol, Glycine Soja (Soybean) Oil, Tocopherol, 2-Methylbutyric Acid, Barosma Betulina Leaf Oil, Benzaldehyde, Dimethylhydroxy Furanone, Trans-2-Hexenal, Helianthus Annuus (Sunflower) Seed Oil, Ethyl Acetate, Stevioside, Gamma-Undecalactone, Vanillin, Vitis Vinifera (Grape) Seed Extract, Laminaria Ochroleuca Extract, Citric Acid.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "8.2K",
+        "categories": [
+            "Skincare",
+            "Lip Balms & Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/supergoop-dailyscreen-moisturizer-P458910",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:21:24",
+        "product_name": "Dailyscreen Moisturizer SPF 40 PA+++ ",
+        "brand_name": "Supergoop!",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL"
+                ],
+                "price": [
+                    "$60.00"
+                ],
+                "sku": "Item 2354249"
+            }
+        ],
+        "rating": "width:68.06%",
+        "product_reviews": "134",
+        "ingredients": " -Blue-Green Algae: Contains a naturally occurring combination of moisturizers and antioxidants that nourish the skin.-Cerium: A rare mineral element that reflects and shields from blue light emitted from electronic devices.-Moisture-Binding Plant Formula: Helps protect against atmospheric pollution.Avobenzone 2.5%, Homosalate 8%, Octisalate 5%, Water, Carthamus Tinctorius (Safflower) Oleosomes, Glycerin, C12-15 Alkyl Benzoate, Polyester-7, Ammonium Acryloyldimethyltaurate/VP Copolymer, Neopentyl Glycol Diheptanoate, Carthamus Tinctorius (Safflower) Seedcake Extract, Aphanizomenon Flos-Aquae Extract, Inulin Lauryl Carbamate, Xanthan Gum, Biosaccharide Gum-4, Cerium Oxide, Platinum Powder, 1,2-Hexanediol, Ethylhexylglycerin, Phenethyl Alcohol, Chlorphenesin.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "8.3K",
+        "categories": [
+            "Skincare",
+            "Sunscreen",
+            "Face Sunscreen"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/supergoop-mineral-sheer-screen-spf-30-P479992",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:21:40",
+        "product_name": "Mineral Sheer Screen SPF 30",
+        "brand_name": "Supergoop!",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.5 oz/ 45 mL"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2555647"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.7 oz/ 20 mL"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2555654"
+            }
+        ],
+        "rating": "width:77.204%",
+        "product_reviews": "508",
+        "ingredients": "-Wild Butterfly Ginger: Helps protect skin from damage caused by blue light.-Bamboo Extract: Provides antioxidant properties to help protect from free radical damage.Active Ingredients: Titanium Dioxide 1.33%, Zinc Oxide 17.42%.Inactive Ingredients: Dimethicone, Dimethicone Crosspolymer, Caprylic/Capric Triglyceride, Methyl Dihydroabietate, Polyhydroxystearic Acid, C9-12 Alkane, Glycerin, Iron Oxides (CI 77492), Ethylhexylglycerin, Water (Aqua), Coco-Caprylate/Caprate, Silica, Stearic Acid, Iron Oxides (CI  77491), Iron Oxides (CI  77499), Hedychium Coronarium Root Extract, Lactobacillus/Arundinaria Gigantea Leaf Ferment Filtrate, Leuconostoc/Radish Root Ferment Filtrate, Titanium Dioxide (CI  77891).Clean at Sephora products are formulated without:Acrylates (Ethyl acrylate, Ethyl methacrylate, Butyl methacrylate, Methyl methacrylate, Tetrahydrofurfuryl methacrylate, Trimethylolpropane trimethacrylate), Aluminum Salts (Aluminum chloride, Aluminum chlorohydrate, Aluminum chlorohydrex, Aluminum dichlorohydrate, Aluminum sesquichlorohydrate, Aluminum zirconium octachlorohydrate, Aluminum zirconium octachlorohydrex gly, Aluminum zirconium pentachlorohydrate, Aluminum zirconium pentachlorohydrex gly, Aluminum zirconium tetrachlorohydrate, Aluminum zirconium tetrachlorohydrex gly, Aluminum zirconium trichlorohydrate, Aluminum zirconium trichlorohydrex gly tot), Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT), Carbon black or Black 2, Coal Tar (Coal tar, Naptha multiple, High solvent naphtha, Naphtha distillate, Tar), Ethanolamines (Diethanolamine (DEA), Ethanolamine (ETA), Monoethanolamine (MEA), Triethanolamine (TEA)), Formaldehyde and Formaldehyde Releasing Agents (2-bromo-2-nitropropane-1, 3-diol, 5-bromo-5-nitro1, 3-dioxane, Benzylhemiformal, Diazolidinyl urea, Dmdm hydantoin, Formaldehyde, Imidazolidinyl urea, Methenamine, Quaternium-15, Sodium hydroxymethylglycinate), Hydroquinone (2-Acetylhydroquinone, Di-t-Butylhydroquinone, Diamylhydroquinone, Hydroquinone, Hydroquinone Safflowerates), Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil (Mineral Oil, Hydrogenated Mineral Oil), Nanomaterials (Methylene bis-benzotriazolyl, tetramethylbutylphenol, Titanium Dioxide, Tris-biphenyl triazine, Zinc Oxide), Oxybenzone, Parabens, Petrolatum and Parrafin, Pehnoxyethanol, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styerene (Bromostyrene, Dea-styrene/acrylates/dvb copolymer, Sodium styrene/divinylbenzene copolymer, Styrene, Styrene oxide), Sulfates (Sodium Lauryl Sulfate (SLS), Sodium Laureth Sulfate (SLES)), Talc, Toluene (2,6-Dihydroxyethylaminotoluene, 4-Amino-2-Hydroxytoluene, 4-Amino-2-Hydroxytoluene Sulfate, 4-Methoxytoluene-2,5-Diamine HCl, Methylstyrene/Vinyltoluene Copolymer, N,N-Diethyltoluene-2,5-Diamine HCl, Potassium Toluenesulfonate, Sodium Toluenesulfonate, Toluene, Toluene Sulfonic Acid, Toluene-2,5-Diamine, Toluene-2,5-Diamine Sulfate, Toluene-2,6-Diamine, Toluene-3,4-Diamine), Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, Bisphenol A (BPA), Ethylenediaminetetraacetic acid (EDTA), Methylene chloride, Polytetrafluoroethylene (PTFE), Perfluorooctanoic acid (PFOA), 1, 4, Diocane, Octinoxate (Octinoxate, Octyl methoxycinnamate, Ethylhexyl methoxycinnamate), PFAS compounds (PFASs or PFCs, \"perfluor\" or \"polyfluor\" in the ingredient name (e.g. Perfluorooctanoic Acid (PFOA), polytetrafluorothylene (PTFE)), Nitromusks and Polycyclic Musks (Musk ketone, Hexamethylindanopyran, Acetyl Hexamethyl Tetralin, Acetyl Hexamethyl Indan, Dihydro Pentamethylindanone).",
+        "n_loves": "3.2K",
+        "categories": [
+            "Skincare",
+            "Sunscreen",
+            "Face Sunscreen"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/supergoop-mineral-sheer-screen-spf-30-mini-P479993",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:21:54",
+        "product_name": "Mini Mineral Sheer Screen SPF 30",
+        "brand_name": "Supergoop!",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.7 oz/ 20 mL"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2555654"
+            }
+        ],
+        "rating": "width:62.5%",
+        "product_reviews": "32",
+        "ingredients": "-Bush Clover extract helps protect the skin from blue-light induced free radicals and oxidative stress.-Aloe Leaf Juice, Sodium Hyaluronate and plant-sugar Squalane provide a natural-feeling moisturizing benefit, leaving the skin smooth, soft and without a greasy residue.\nIngredients:\nActive: Zinc Oxide 17.5%\nInactive: Water, Isododecane, Caprylic/Capric Triglyceride, Butyloctyl Salicylate, Propanediol, Glycerin, Squalane, Trioctyldodecyl Citrate, Polyglycerin-3, Polyglyceryl-3 Lactate/Laurate, Polysilicone-11, Cetearyl Alcohol, Glyceryl Stearate, Sodium Stearoyl Glutamate, Butylene Glycol, Xanthan Gum, Polyacrylate Crosspolymer-6, Isostearic Acid, Lecithin, Polyglyceryl-3 Polyricinoleate, Polyhydroxystearic Acid, Caprylhydroxamic Acid, Citric Acid, Aloe Barbadensis Leaf Juice, Lespedeza Capitata Leaf/Stem Extract, Maltodextrin, Sodium Hyaluronate\nClean at Sephora products are formulated without:Acrylates (Ethyl acrylate, Ethyl methacrylate, Butyl methacrylate, Methyl methacrylate, Tetrahydrofurfuryl methacrylate, Trimethylolpropane trimethacrylate), Aluminum Salts (Aluminum chloride, Aluminum chlorohydrate, Aluminum chlorohydrex, Aluminum dichlorohydrate, Aluminum sesquichlorohydrate, Aluminum zirconium octachlorohydrate, Aluminum zirconium octachlorohydrex gly, Aluminum zirconium pentachlorohydrate, Aluminum zirconium pentachlorohydrex gly, Aluminum zirconium tetrachlorohydrate, Aluminum zirconium tetrachlorohydrex gly, Aluminum zirconium trichlorohydrate, Aluminum zirconium trichlorohydrex gly tot), Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT), Carbon black or Black 2, Coal Tar (Coal tar, Naptha multiple, High solvent naphtha, Naphtha distillate, Tar), Ethanolamines (Diethanolamine (DEA), Ethanolamine (ETA), Monoethanolamine (MEA), Triethanolamine (TEA)), Formaldehyde and Formaldehyde Releasing Agents (2-bromo-2-nitropropane-1, 3-diol, 5-bromo-5-nitro1, 3-dioxane, Benzylhemiformal, Diazolidinyl urea, Dmdm hydantoin, Formaldehyde, Imidazolidinyl urea, Methenamine, Quaternium-15, Sodium hydroxymethylglycinate), Hydroquinone (2-Acetylhydroquinone, Di-t-Butylhydroquinone, Diamylhydroquinone, Hydroquinone, Hydroquinone Safflowerates), Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil (Mineral Oil, Hydrogenated Mineral Oil), Nanomaterials (Methylene bis-benzotriazolyl, tetramethylbutylphenol, Titanium Dioxide, Tris-biphenyl triazine, Zinc Oxide), Oxybenzone, Parabens, Petrolatum and Parrafin, Pehnoxyethanol, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styerene (Bromostyrene, Dea-styrene/acrylates/dvb copolymer, Sodium styrene/divinylbenzene copolymer, Styrene, Styrene oxide), Sulfates (Sodium Lauryl Sulfate (SLS), Sodium Laureth Sulfate (SLES)), Talc, Toluene (2,6-Dihydroxyethylaminotoluene, 4-Amino-2-Hydroxytoluene, 4-Amino-2-Hydroxytoluene Sulfate, 4-Methoxytoluene-2,5-Diamine HCl, Methylstyrene/Vinyltoluene Copolymer, N,N-Diethyltoluene-2,5-Diamine HCl, Potassium Toluenesulfonate, Sodium Toluenesulfonate, Toluene, Toluene Sulfonic Acid, Toluene-2,5-Diamine, Toluene-2,5-Diamine Sulfate, Toluene-2,6-Diamine, Toluene-3,4-Diamine), Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, Bisphenol A (BPA), Ethylenediaminetetraacetic acid (EDTA), Methylene chloride, Polytetrafluoroethylene (PTFE), Perfluorooctanoic acid (PFOA), 1, 4, Diocane, Octinoxate (Octinoxate, Octyl methoxycinnamate, Ethylhexyl methoxycinnamate), PFAS compounds (PFASs or PFCs, \"perfluor\" or \"polyfluor\" in the ingredient name (e.g. Perfluorooctanoic Acid (PFOA), polytetrafluorothylene (PTFE)), Nitromusks and Polycyclic Musks (Musk ketone, Hexamethylindanopyran, Acetyl Hexamethyl Tetralin, Acetyl Hexamethyl Indan, Dihydro Pentamethylindanone).",
+        "n_loves": "3.9K",
+        "categories": [
+            "Skincare",
+            "Sunscreen",
+            "Face Sunscreen"
+        ]
+    }
+]

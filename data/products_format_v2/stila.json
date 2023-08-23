@@ -1,0 +1,465 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/stila-stay-all-day-dual-ended-waterproof-liquid-eye-liner-P466152",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 10:57:58",
+        "product_name": "Stay All Day\u00ae Dual-Ended Waterproof Liquid Eye Liner",
+        "brand_name": "stila",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.033 oz/ 1 mL",
+                "name": [
+                    "Color: Intense Black - black"
+                ],
+                "price": [
+                    "$43.50"
+                ],
+                "sku": "Item 2407906"
+            }
+        ],
+        "rating": "width:78.484%",
+        "product_reviews": "66",
+        "ingredients": "Water/Aqua/Eau, Ammonium Styrene/Acrylates Copolymer, Butylene Glycol, Alcohol, Beheneth-30, Acrylates/Octylacrylamide Copolymer, Phenoxyethanol, Methylparaben, Polyglyceryl 3 Disiloxane Dimethicone, Propylparaben, Sodium Hydroxide, Disodium EDTA, Sodium Benzoate. (+/-) Black 2 (Ci 77266) (Nano).",
+        "n_loves": "19.5K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyeliner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/correct-perfect-all-in-one-color-correcting-palette-P406281",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 10:58:11",
+        "product_name": "Correct & Perfect All-In-One Color Correcting Palette",
+        "brand_name": "stila",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.45 oz./12.9 g"
+                ],
+                "price": [
+                    "$61.00"
+                ],
+                "sku": "Item 1776848"
+            }
+        ],
+        "rating": "width:82.98400000000001%",
+        "product_reviews": "181",
+        "ingredients": "Setting Powder:\n Talc, Lauroyl Lysine, Zinc Stearate, Polymethyl Methacrylate, Octododecyl Stearoyl Stearate, Nylon-12, Silica, Phenoxyethanol, Mica. (+/-) Iron Oxides (Ci 77491), Ultramarines (Ci 77007), Yellow 5 Lake (Ci 19140), Carmine (Ci 75470), Manganese Violet (Ci 77742).\n\nColor Correcting Cream:\n Caprylic/Capric Triglyceride, Octyldodecanol, Mica, Euphorbia Cerifera (Candelilla) Wax, Copernicia Cerifera (Carnauba) Wax, Jojoba Esters, Polyethylene, Disteardimonium Hectorite, Propylene Carbonate, Retinyl Palmitate, Tocopheryl Acetate, Ascorbyl Palmitate, Montmorillonite, Illite, Dimethicone, Kaolin, Phenoxyethanol. (+/-) Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Yellow 5 Lake (Ci 19140), Chromium Oxide Greens (Ci 77288), Blue 1 Lake (Ci 42090), Red 6 (Ci 15850). \n*Contains Carmine as a color additive.",
+        "n_loves": "58.6K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Color Correct"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/magnificent-metals-glitter-glow-liquid-eye-shadow-P63087293",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 10:58:24",
+        "product_name": "Glitter & Glow Liquid Eye Shadow",
+        "brand_name": "stila",
+        "options": [
+            {
+                "swatch_group": "Glitter finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.15 oz/ 4.5 mL",
+                "name": [
+                    "Color: Diamond Dust - sheer silver & multicolor"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 1891373"
+            },
+            {
+                "swatch_group": "Glitter finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.15 oz/ 4.5 mL",
+                "name": [
+                    "Color: Kitten Karma - champagne, silver & copper"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 1891357"
+            },
+            {
+                "swatch_group": "Glitter finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.15 oz/ 4.5 mL",
+                "name": [
+                    "Color: Rose Gold Retro - rose gold & silver"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 1891340"
+            },
+            {
+                "swatch_group": "Glitter finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.15 oz / 4.5 mL",
+                "name": [
+                    "Color: Wanderlust - sheer gold and pink sparkle"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2046357"
+            },
+            {
+                "swatch_group": "Glitter finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.15 oz/ 4.5 mL",
+                "name": [
+                    "Color: Molten Midnight - black, silver & gold"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 1891407"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.135 oz/ 4.5 mL",
+                "name": [
+                    "Color: Perlina - opalescent white, bright blue, pink, and duo-chrome purple pearl"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2027167"
+            }
+        ],
+        "rating": "width:90.116%",
+        "product_reviews": "2K",
+        "ingredients": " -Triethanolamine: Creates a barrier between your skin and the pearls to maximize comfort for barely-there wear.\n-Glycerin: Conditioning ingredient known to hydrate the skin.\n\nWater, Mica (Ci 77019), Aluminum Calcium Sodium Silicate, Calcium Sodium Borosilicate, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Polyethylene Terephthalate, Squalane, Polysorbate 60, Caprylyl Glycol, Hexylene Glycol, Phenoxyethanol, Glycerin, Triethanolamine, Carbomer, Silica. (+/-) Iron Oxides (Ci 77491, Ci 77499), Titanium Dioxide (Ci 77891), Tin Oxide (Ci 77861). \n",
+        "n_loves": "467.7K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyeshadow"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/huge-extreme-lash-mascara-P397901",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 10:58:39",
+        "product_name": "Huge Extreme Lash Mascara",
+        "brand_name": "stila",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size 0.44 oz/ 13 mL",
+                "name": [
+                    "Color: Black"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 1711332"
+            }
+        ],
+        "rating": "width:78.516%",
+        "product_reviews": "917",
+        "ingredients": "Water, Paraffin, Acacia Senegal Gum, Synthetic Beeswax, Glyceryl Stearate, Stearic Acid, Butylene Glycol, Palmitic Acid, Polybutene, Oryza Sativa Cera (Oryza Sativa (Rice) Bran Wax), Ozokerite, Vp/Eicosene Copolymer, Hydrogenated Vegetable Oil, Copernicia Cerifera Cera (Copernicia Cerifera (Carnauba) Wax), Aminomethyl Propanol, Phenoxyethanol, Stearyl Stearate, Glycerin, Hydroxyethylcellulose, Disodium Edta, Ethylhexylglycerin, Polyester-11, Cellulose, Pvp, Trimethylpentanediol/Adipic Acid/Glycerin Crosspolymer, Acetyl Hexapeptide-1, Dextran. (+/-) Black 2 (Ci 77266) (Nano), Iron Oxides (Ci 77499), Ultramarines (Ci 77007). ",
+        "n_loves": "25.3K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Mascara"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/stila-mini-stay-all-day-waterproof-liquid-eye-liner-P482319",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 10:58:52",
+        "product_name": "Mini Stay All Day\u00ae Waterproof Liquid Eye Liner",
+        "brand_name": "stila",
+        "options": [
+            {
+                "swatch_group": "Satin finish - Mini size",
+                "flag_label": null,
+                "size": "Size .008 oz / .25 ml",
+                "name": [
+                    "Color: Black - intense black"
+                ],
+                "price": [
+                    "$16.50"
+                ],
+                "sku": "Item 2580769"
+            }
+        ],
+        "rating": "width:69.166%",
+        "product_reviews": "24",
+        "ingredients": "Water/Aqua/Eau, Ammonium Styrene/Acrylates Copolymer, Butylene Glycol, Alcohol, Beheneth-30, Acrylates/Octylacrylamide Copolymer, Phenoxyethanol, Methylparaben, Polyglyceryl-3 Disiloxane Dimethicone, Propylparaben, Sodium Hydroxide, Disodium Edta, Sodium Benzoate. (+/-) Black 2 (Ci 77266) (Nano). \n",
+        "n_loves": "19.3K",
+        "categories": [
+            "Mini Size",
+            "Makeup"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/shimmer-glow-liquid-eye-shadow-P427385",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 10:59:04",
+        "product_name": "Shimmer & Glow Liquid Eye Shadow",
+        "brand_name": "stila",
+        "options": [
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.153 oz",
+                "name": [
+                    "Color: Grace - shimmering rosey taupe"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2027209"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.153 oz",
+                "name": [
+                    "Color: Jezebel - shimmering rose gold",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2027225"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.153 oz",
+                "name": [
+                    "Color: Kitten - shimmering vibrant nude pink"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2027191"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.153 oz",
+                "name": [
+                    "Color: Starlight - shimmering light gold champagne"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2027233"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.153 oz",
+                "name": [
+                    "Color: Cloud - shimmering lavender with gold pearl"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2027241"
+            }
+        ],
+        "rating": "width:92.73%",
+        "product_reviews": "1.2K",
+        "ingredients": "Water, Mica (Ci 77019), Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Squalane, Synthetic Fluorphlogopite, Calcium Sodium Borosilicate, Polysorbate 60, Caprylyl Glycol, Phenoxyethanol, Glycerin, Triethanolamine, Carbomer, Sorbitan Isostearate, Hexylene Glycol, Silica, Tin Oxide. (+/-) Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491, Ci 77499), Carmine (Ci 75470), Ferric Ferrocyanide (Ci 77510).",
+        "n_loves": "186.8K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyeshadow"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/stay-all-day-waterproof-liquid-eye-liner-micro-tip-P429008",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 10:59:22",
+        "product_name": "Stay All Day\u00ae Waterproof Liquid Eye Liner - Micro Tip",
+        "brand_name": "stila",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size .016 oz / 0.5 mL",
+                "name": [
+                    "Color: Intense Black - jet black"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2053833"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size .016 oz / 0.5 mL",
+                "name": [
+                    "Color: Dark Brown"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2580777"
+            }
+        ],
+        "rating": "width:81.47399999999999%",
+        "product_reviews": "353",
+        "ingredients": "Water/Aqua/Eau, Butylene Glycol, Styrene/Acrylates Copolymer, Sodium Polyaspartate, Beheneth-30, Phenoxyethanol, Methylparaben, Propylparaben, Disodium Edta, Pentylene Glycol, Sodium Hydroxide, 1,2-Hexanediol, Caprylyl Glycol, Ethylhexylglycerin. (+/-) Iron Oxides (Ci 77491, Ci 77492), Carbon Black (Ci 77266) (Nano), Ferric Ammonium Ferrocyanide (Ci 77510). ",
+        "n_loves": "28K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyeliner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/one-step-correct-P269019",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 10:59:35",
+        "product_name": "One Step Correct",
+        "brand_name": "stila",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 1277474"
+            }
+        ],
+        "rating": "width:79.546%",
+        "product_reviews": "1.3K",
+        "ingredients": "Water/Aqua/Eau, Cyclopentasiloxane, Glycerin, Butylene Glycol, Propylene Glycol, Titanium Dioxide (CI 77891), Zinc Oxide(Nano), Octyldodecyl Neopentanoate, Carbomer, Phenoxyethanol, PEG/PPG-18/18 Dimethicone, Sodium Hydroxide, Dimethicone, Caprylyl Glycol, Aluminum Hydroxide, Stearic Acid, Boron Nitride, Chromium Oxide Greens (CI 77288), Ultramarines (CI 77007), Disodium EDTA, Glyceryl Acrylate/Acrylic Acid Copolymer, Sodium Dehydroacetate, Iron Oxides (CI 77492), Methylparaben, Phytantriol, Hexylene Glycol, Triethoxycaprylylsilane, Dextrin Palmitate, Palmitic Acid, Propylparaben, Iron Oxides (CI 77491), Octyldodecanol, Tetrahexyldecyl Ascorbate, Tocopherol, Tocopheryl Acetate, Magnesium Ascorbyl Phosphate, Mica, Retinyl Palmitate, Iron Oxides (CI 77499), Lysine, Anthemis Nobilis Flower Extract, Camellia Oleifera Leaf Extract, Ginkgo Biloba Leaf Extract, Panax Ginseng Root Extract, Sodium Hyaluronate, Magnesium Chloride, Potassium Chloride, Sodium Chloride, Zinc Chloride, Potassium Sorbate, Montmorillonite, Illite, Kaolin. ",
+        "n_loves": "65.9K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Face Primer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/stay-all-day-waterproof-liquid-eye-liner-P253818",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 10:59:47",
+        "product_name": "Stay All Day\u00ae Waterproof Liquid Eye Liner",
+        "brand_name": "stila",
+        "options": [
+            {
+                "swatch_group": "Satin finish - Mini size",
+                "flag_label": null,
+                "size": "Size .008 oz / .25 ml",
+                "name": [
+                    "Color: Black - intense black"
+                ],
+                "price": [
+                    "$16.50"
+                ],
+                "sku": "Item 2580769"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size 0.016 oz/ 0.5 mL",
+                "name": [
+                    "Color: Intense Black - jet black"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 1221084"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size 0.016 oz/ 0.5 mL",
+                "name": [
+                    "Color: Dark Brown - chocolate brown"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 1312719"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.016 oz/ 0.5 mL",
+                "name": [
+                    "Color: Alloy - rich steel-charcoal",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 1346725"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size 0.016 oz/ 0.5 mL",
+                "name": [
+                    "Color: Midnight - deep blue"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 1579275"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size 0.016 oz/ 0.5 mL",
+                "name": [
+                    "Color: Intense Labradorite - charcoal"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2100949"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size 0.016 oz/ 0.5 mL",
+                "name": [
+                    "Color: Intense Smoky Quartz - espresso"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2100915"
+            }
+        ],
+        "rating": "width:86.68599999999999%",
+        "product_reviews": "11.3K",
+        "ingredients": "Water/Aqua/Eau, Ammonium Styrene/Acrylates Copolymer, Butylene Glycol, Alcohol, Beheneth-30, Acrylates/Octylacrylamide Copolymer, Phenoxyethanol, Methylparaben, Polyglyceryl-3 Disiloxane Dimethicone, Propylparaben, Sodium Hydroxide, Disodium EDTA, Sodium Benzoate. (+/-) Black 2 (CI 77266)(Nano).  ",
+        "n_loves": "408.1K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyeliner"
+        ]
+    }
+]

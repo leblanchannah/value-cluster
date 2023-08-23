@@ -1,0 +1,355 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/personal-microderm-P414662",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:47:43",
+        "product_name": "Personal Microderm",
+        "brand_name": "PMD",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Pink",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$214.00"
+                ],
+                "sku": "Item 1769736"
+            }
+        ],
+        "rating": "width:56.666%",
+        "product_reviews": "6",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "1.2K",
+        "categories": [
+            "Skincare",
+            "High Tech Tools",
+            "Anti-Aging"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pmd-clean-body-P501486",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:47:55",
+        "product_name": "PMD Clean Body",
+        "brand_name": "PMD",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Shade",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$214.00"
+                ],
+                "sku": "Item 2619732"
+            }
+        ],
+        "rating": "width:100%",
+        "product_reviews": "1",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "841",
+        "categories": [
+            "Skincare",
+            "High Tech Tools"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/personal-microderm-P433874",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:48:08",
+        "product_name": "Personal Microderm",
+        "brand_name": "PMD",
+        "options": [],
+        "rating": "width:66.666%",
+        "product_reviews": "3",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "867",
+        "categories": [
+            "Skincare",
+            "High Tech Tools",
+            "Anti-Aging"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pmd-replacement-discs-P501428",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:48:18",
+        "product_name": "PMD Replacement Discs",
+        "brand_name": "PMD",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Very Coarse - Red",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 1733955"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Sensitive - Blue",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 1733930"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Moderate - Green"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 1733948"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Orange - Coarse",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2620151"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "344",
+        "categories": [
+            "Skincare",
+            "High Tech Tools",
+            "Anti-Aging"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pmd-polish-aluminum-oxide-exfoliator-P501515",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:48:32",
+        "product_name": "PMD Polish Aluminum Oxide Exfoliator",
+        "brand_name": "PMD",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2536720"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "141",
+        "categories": [
+            "Skincare",
+            "High Tech Tools",
+            "Anti-Aging"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/personal-microderm-pro-P398502",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:48:44",
+        "product_name": "Personal Microderm Pro",
+        "brand_name": "PMD",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Blush",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$268.00"
+                ],
+                "sku": "Item 2253748"
+            }
+        ],
+        "rating": "width:88.48%",
+        "product_reviews": "125",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "24.9K",
+        "categories": [
+            "Skincare",
+            "High Tech Tools",
+            "Anti-Aging"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pmd-personal-microderm-elite-pro-P467969",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:48:56",
+        "product_name": "Personal Microderm Elite Pro",
+        "brand_name": "PMD",
+        "options": [],
+        "rating": "width:93.33399999999999%",
+        "product_reviews": "60",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "6.1K",
+        "categories": [
+            "Skincare",
+            "High Tech Tools",
+            "Anti-Aging"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pmd-silverscrub-tm-silver-infused-loofah-replacements-P501513",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:49:08",
+        "product_name": "silverscrub\u2122 Silver-Infused Loofah Replacements",
+        "brand_name": "PMD",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2536738"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "181",
+        "categories": [
+            "Skincare",
+            "High Tech Tools",
+            "Anti-Aging"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/clean-smart-facial-cleansing-device-P433873",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:49:20",
+        "product_name": "Clean Smart Facial Cleansing Device",
+        "brand_name": "PMD",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Blush"
+                ],
+                "price": [
+                    "$134.00"
+                ],
+                "sku": "Item 2123529"
+            }
+        ],
+        "rating": "width:92.85799999999999%",
+        "product_reviews": "28",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "3K",
+        "categories": [
+            "Skincare",
+            "High Tech Tools",
+            "Facial Cleansing Brushes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/clean-pro-rose-quartz-P446630",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:49:32",
+        "product_name": "Clean Pro Rose Quartz",
+        "brand_name": "PMD",
+        "options": [],
+        "rating": "width:88.90599999999999%",
+        "product_reviews": "137",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "9.5K",
+        "categories": [
+            "Skincare",
+            "High Tech Tools",
+            "Facial Cleansing Brushes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/personal-microderm-pro-P418322",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:49:43",
+        "product_name": "Personal Microderm - PRO",
+        "brand_name": "PMD",
+        "options": [],
+        "rating": "width:64%",
+        "product_reviews": "10",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "1.4K",
+        "categories": [
+            "Skincare",
+            "High Tech Tools",
+            "Anti-Aging"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pmd-clean-pro-jade-P476436",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:49:53",
+        "product_name": "Clean Pro Jade",
+        "brand_name": "PMD",
+        "options": [],
+        "rating": "width:93.024%",
+        "product_reviews": "43",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "4.7K",
+        "categories": [
+            "Skincare",
+            "High Tech Tools",
+            "Facial Cleansing Brushes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/clean-pro-P446629",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:50:03",
+        "product_name": "Clean Pro",
+        "brand_name": "PMD",
+        "options": [],
+        "rating": "width:85.714%",
+        "product_reviews": "77",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "3.2K",
+        "categories": [
+            "Skincare",
+            "High Tech Tools",
+            "Facial Cleansing Brushes"
+        ]
+    }
+]

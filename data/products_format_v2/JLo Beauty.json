@@ -1,0 +1,357 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/jlo-beauty-that-blockbuster-cream-with-hyaluronic-acid-P467124",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 22:11:26",
+        "product_name": "That Blockbuster Cream with Hyaluronic Acid",
+        "brand_name": "JLo Beauty",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz / 50 mL"
+                ],
+                "price": [
+                    "$80.00"
+                ],
+                "sku": "Item 2418820"
+            }
+        ],
+        "rating": "width:83.476%",
+        "product_reviews": "564",
+        "ingredients": "-Hyaluronic Acid: Delivers continuous hydration for visibly plump, dewy skin.-Yeast-Derived Ferment: Provides antioxidant and smoothing benefits for softer-feeling skin.-Peptides: Support a luminous, youthful-looking complexion.Water, Hydrogenated Polyisobutene, Glycerin, Squalane, Butyrospermum Parkii (Shea) Butter, Glycine Soja (Soybean) Oil, Pentylene Glycol, Cetyl Alcohol, Bis-Diglyceryl Polyacyladipate-2, Dimethicone, Galactomyces Ferment Filtrate, Glyceryl Stearate, PEG-100 Stearate, Potassium Cetyl Phosphate, Olea Europaea (Olive) Fruit Oil, Hydrogenated Cottonseed Oil, Pseudozyma Epicola/Olive Fruit Oil Ferment Filtrate, Hydrogenated Ethylhexyl Olivate, Camellia Sinensis Leaf Extract, Hydrogenated Olive Oil Unsaponifiables, Aspalathus Linearis Extract, Olea Europaea (Olive) Leaf Extract, Honey Extract, Boswellia Serrata Extract, Silybum Marianum Fruit Extract, Tocopherol, BHT, Butylene Glycol, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Propanediol, Trisodium Ethylenediamine Disuccinate, Caprylyl Glycol, Lecithin, Carnosine, Salicylic Acid, Niacinamide, Ethylhexylglycerin, Sodium Hyaluronate Crosspolymer, Polydextrose, Dextrin, Amylopectin, Tetrapeptide-14, Sodium Hydroxide, Phenoxyethanol, Sodium Benzoate, Potassium Sorbate, Chlorphenesin, Fragrance, Mica, Titanium Dioxide (CI 77891), Carmine (CI 75470), Tin Oxide.",
+        "n_loves": "9.9K",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Moisturizers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/jlo-beauty-that-limitless-glow-sheet-mask-P467118",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 22:11:38",
+        "product_name": "That Limitless Glow Sheet Mask",
+        "brand_name": "JLo Beauty",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 Mask"
+                ],
+                "price": [
+                    "$24.00"
+                ],
+                "sku": "Item 2418762"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3 Masks"
+                ],
+                "price": [
+                    "$65.00"
+                ],
+                "sku": "Item 2418788"
+            }
+        ],
+        "rating": "width:80.064%",
+        "product_reviews": "314",
+        "ingredients": "-Niacinamide: Visibly evens skin tone.-Tri-Fermented Complex: Combines three bioactive fermentations to visibly firm and brighten skin.-Peptides: Reduce the appearance of fine lines and wrinkles.Water, Butylene Glycol, Galactomyces Ferment Filtrate, Squalane, Niacinamide, Propanediol,Alpha-Glucan Oligosaccharide, Cannabis Sativa Seed Oil, Olea Europaea (Olive) Fruit Oil, Rice Ferment Filtrate (Sake), Olive Oil Glycereth-8 Esters, Pseudozyma Epicola/Olive Fruit Oil Ferment Filtrate, Hydrogenated Ethylhexyl Olivate, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Hydrogenated Olive Oil Unsaponifiables, Camellia Sinensis Leaf Extract, Aspalathus Linearis Extract, Olea Europaea (Olive) Leaf Extract, Honey Extract, Boswellia Serrata Extract, Biosaccharide Gum-1, Biosaccharide Gum-4, Algin, Hexylene Glycol, Ethylhexylglycerin, Caprylyl Glycol, Sodium Hyaluronate, Tetrapeptide-14, Xanthan Gum, Sodium Hydroxide, Isopentyldiol, Phenoxyethanol, Sodium Benzoate, Potassium Sorbate, Mica, Titanium Dioxide (CI 77891), Carmine (CI 75470), Tin Oxide.",
+        "n_loves": "12.5K",
+        "categories": [
+            "Skincare",
+            "Masks",
+            "Sheet Masks"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/jlo-beauty-that-hit-single-gel-cream-cleanser-P467120",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 22:11:51",
+        "product_name": "That Hit Single\u00ae Antioxidant-rich Cleanser & Make-up Remover",
+        "brand_name": "JLo Beauty",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 5.0 oz/ 150 mL"
+                ],
+                "price": [
+                    "$50.00"
+                ],
+                "sku": "Item 2418796"
+            }
+        ],
+        "rating": "width:81.79%",
+        "product_reviews": "380",
+        "ingredients": "-Glycolipid Complex: Removes excess oil and makeup and refines the appearance of pores.-Rice Bran & Fruit Extracts: Provide antioxidant protection and soothe the skin.Water, Glycerin, Cocamidopropyl Betaine, Coco-Glucoside, Propanediol, Sodium Lauroyl Methyl Isethionate, Sodium Methyl Oleoyl Taurate, Cocamidopropyl Hydroxysultaine, Acrylates Crosspolymer-4, Butylene Glycol, Enantia Chlorantha Bark Extract, Oryza Sativa (Rice) Bran Extract, Olea Europaea (Olive) Leaf Extract, Camellia Sinensis Leaf Extract, Aspalathus Linearis Extract, Polygonum Cuspidatum Root Extract, Olea Europaea (Olive) Fruit Oil, Pseudozyma Epicola/Olive Fruit Oil Ferment Filtrate, Hydrogenated Ethylhexyl Olivate, Cocos Nucifera (Coconut) Fruit Extract, Honey Extract, Hydrogenated Olive Oil Unsaponifiables, Boswellia Serrata Extract, Sodium Hydroxypropylphosphate, Decylglucoside Crosspolymer, Glycol Distearate, Lauryl Glucoside, Sodium Chloride, Glycolipids, Sodium Stearoyl Lactylate, Salicylic Acid, Niacinamide, Mica, Squalane, Tin Oxide, Oleanolic Acid, Polydextrose, Dextrin, Amylopectin, Tetrapeptide-14, Sodium Hydroxide, Sodium hydroxide, Sodium Benzoate, Phenoxyethanol, Potassium Sorbate, Fragrance, Titanium Dioxide (CI 77891), Carmine (CI 75470).",
+        "n_loves": "7.3K",
+        "categories": [
+            "Skincare",
+            "Cleansers",
+            "Face Wash & Cleansers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/jlo-beauty-smooth-seduce-tm-contouring-body-cream-with-caffeine-P503897",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 22:12:03",
+        "product_name": "Smooth + Seduce\u2122 Contouring Body Cream with Caffeine",
+        "brand_name": "JLo Beauty",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 6.8 oz / 200 mL"
+                ],
+                "price": [
+                    "$82.00"
+                ],
+                "sku": "Item 2534741"
+            }
+        ],
+        "rating": "width:86.43599999999999%",
+        "product_reviews": "317",
+        "ingredients": "-Active Caffeine: Reduces the appearance of skin dimpling\u2014making skin looker smooth. -Heptapeptide-7 (HP7): Reduces the visible signs of aging skin on the body. -Longan Seed Extract: Supports the appearance of a more contoured body.Water/Eau, Glycerin, Diphenylsiloxy Phenyl Trimethicone, Cetearyl Olivate, Betaine, Hydrogenated Ethylhexyl Olivate, Butyrospermum Parkii (Shea) Butter, Caprylic/Capric Triglyceride, Sorbitan Olivate, Polyglyceryl-3 Methylglucose Distearate, 1,2-Hexanediol, Caffeine, Cetyl Palmitate, Olea Europaea (Olive) Fruit Oil, Squalane, Nephelium Longana Seed Extract, Melia Azadirachta Flower Extract, Aloe Barbadensis Flower Extract, Sodium Lactate, Ceramide NP, Curcuma Longa (Turmeric) Root Extract, Ocimum Sanctum Leaf Extract, Corallina Officinalis Extract, Carnosine, Coccinia Indica Fruit Extract, Sodium Hyaluronate, Tetrahexyldecyl Ascorbate, Melia Azadirachta Leaf Extract, Heptapeptide-7, Myristyl Myristate, Dimethicone, Niacinamide, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Polyisobutene, Alumina, Hydrogenated Olive Oil Unsaponifiables, Titanium Dioxide (CI 77891), Xanthan Gum, Ethylhexylglycerin, Pseudozyma Epicola/Olive Fruit Oil Ferment Filtrate, Tocopheryl Acetate, Linoleic Acid, Citric Acid, Trisodium Ethylenediamine Disuccinate, Caprylyl/Capryl Glucoside, Silica, Tin Oxide, Lecithin, Potassium Sorbate, Propanediol, Sodium Benzoate, Solanum Melongena (Eggplant) Fruit Extract, Dipropylene Glycol, Glyceryl Stearate, Phytosphingosine, Linolenic Acid, Carbomer, Hydroxyacetophenone, Ceramide AP, Phenoxyethanol, Fragrance (Parfum), Benzyl Salicylate, Citronellol, Geraniol, Hexyl Cinnamal, Hydroxycitronellal, Linalool.",
+        "n_loves": "3.5K",
+        "categories": [
+            "Bath & Body",
+            "Body Moisturizers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/firm-flaunt-targeted-booty-balm-P501493",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 22:12:16",
+        "product_name": "Firm + Flaunt Targeted Booty Balm",
+        "brand_name": "JLo Beauty",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 4.2 fl oz / 125 mL"
+                ],
+                "price": [
+                    "$84.00"
+                ],
+                "sku": "Item 2534733"
+            }
+        ],
+        "rating": "width:87.65599999999999%",
+        "product_reviews": "721",
+        "ingredients": "-Guarana Seed Extract: High caffeine levels visibly reduce puffiness for a tighter appearance.-Pink Pepperslim: Plant extract that visibly smooths skin texture.-Shea Butter: Helps to soften and hydrate for a noticeable improvement in skin suppleness.Water/Eau, C12-15 Alkyl Benzoate, Caprylic/Capric Triglyceride, Glycerin, Kaolin, Cetearyl Alcohol, Butylene Glycol, Propanediol, Glyceryl Stearate, Alumina, Titanium Dioxide (CI 77891), Caffeine, 1,2-Heanediol, Magnesium Aluminum Silicate, Menthyl Ethylamido Oxalate, Olea Europaea (Olive) Fruit Oil, Squalane, Ocimum Sanctum Leaf Extract, Persea Gratissima (Avocado) Fruit Extract, Solanum Melongena (Eggplant) Fruit Extract, Melia Azadirachta Flower Extract, Corallina Officinalis Extract, Coccinia Indica Fruit Extract, Pseudozyma Epicola/Olive Fruit Oil Ferment Filtrate, Schinus Terebinthifolia Seed Extract, Paullinia Cupana Seed Extract, Ptychopetalum Olacoides Bark Extract, Melia Azadirachta Leaf Extract, Sodium Hyaluronate, Curcuma Longa (Turmeric) Root Extract, Aloe Barbadensis Flower Extract, Ocimum Basilicum (Basil) Flower/Leaf Extract, Tocopheryl Acetate, Butyrospermum Parkii (Shea) Butter, Betaine, Bentonite, PEG-40 Stearate, Saccharide Isomerate, Triheptanoin, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Coco-Caprylate/Caprate, Xanthan Gum, Ceteareth-20, Polyisobutene, Citric Acid, Dimethicone, Polyurethane-100, Vanillyl Butyl Ether, Ethylhexylglycerin, Trisodium Ethylenediamine Disuccinate, Silica, Tin Oxide, Caprylyl/Capryl Glucoside, Sodium Hydroxide, Phenoxyethanol, Fragrance (Parfum), Benzyl Salicylate, Citronellol, Geraniol, Hexyl Cinnamal, Hydroxycitronellal, Linalool.",
+        "n_loves": "12.9K",
+        "categories": [
+            "Bath & Body",
+            "Body Moisturizers",
+            "Body Lotions & Body Oils"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/jlo-beauty-that-fresh-take-eye-cream-with-peptides-P467122",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 22:12:29",
+        "product_name": "That Fresh Take Eye Cream with Peptides",
+        "brand_name": "JLo Beauty",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.5 oz / 15 mL"
+                ],
+                "price": [
+                    "$63.00"
+                ],
+                "sku": "Item 2418804"
+            }
+        ],
+        "rating": "width:82.638%",
+        "product_reviews": "455",
+        "ingredients": "-Patented Peptides: Visibly reduce fine lines and wrinkles while supporting skin elasticity.-Blurring Complex: Masks the look of dark circles and signs of fatigue.-Sugar-Derived Matrix: Helps skin look and feel firmer and smoother.Water, Cyclopentasiloxane, Dimethicone, Adipic Acid/Neopentyl Glycol Crosspolymer, Pentaerythrityl Tetracaprylate/Tetracaprate, Cetyl Alcohol, Dimethicone Crosspolymer, Hydrogenated Coco-Glycerides, PEG-100 Stearate, Glyceryl Stearate, Glycerin, Cyclohexasiloxane, Tocopherol, Alpha-Glucan Oligosaccharide, Olea Europaea (Olive) Leaf Extract, Galactomyces Ferment Filtrate, Benzyl Alcohol, Propanediol, Polyurethane-35, Stearic Acid, PEG-75 Stearate, 1,2-Hexanediol, VP/VA Copolymer, Ceteth-20, Steareth-20, Amodimethicone, Biosaccharide Gum-4, Hydroxypropyl Methylcellulose, Ethylhexylglycerin, Carnosine, Caffeine, Algin, Disodium EDTA, Citric Acid, Xanthan Gum, Lecithin, Heptapeptide-7, Sodium Hyaluronate, Caprylyl Glycol, Phenoxyethanol, Potassium Sorbate, Sodium Benzoate.",
+        "n_loves": "8K",
+        "categories": [
+            "Skincare",
+            "Eye Care",
+            "Eye Creams & Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/jlo-beauty-that-jlo-glow-serum-with-olive-complex-P467126",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 22:12:40",
+        "product_name": "That Jlo Glow Brightening & Firming Serum with Niacinamide",
+        "brand_name": "JLo Beauty",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.0 oz/ 30 mL"
+                ],
+                "price": [
+                    "$98.00"
+                ],
+                "sku": "Item 2418846"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.5 oz / 45 ml"
+                ],
+                "price": [
+                    "$140.00"
+                ],
+                "sku": "Item 2683225"
+            }
+        ],
+        "rating": "width:82.18400000000001%",
+        "product_reviews": "980",
+        "ingredients": "-Niacinamide: Helps even out skin tone.-Tri-Fermented Complex: Combines 3 bioactive fermentations to visibly firm and brighten.-Peptides: Reduce the appearance of fine lines and wrinkles.Water, Butylene Glycol, Galactomyces Ferment Filtrate, Squalane, Niacinamide, Propanediol, Alpha-Glucan Oligosaccharide, Cannabis Sativa Seed Oil, Olea Europaea (Olive) Fruit Oil, Rice Ferment Filtrate (Sake), Olive Oil Glycerth 8 Esters, Pseudozyma Epicola/Olive Fruit Oil Ferment Filtrate, Hydrogenated Ethylhexyl Olivate, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Hydrogenated Olive Oil Unsaponifiables, Camellia Sinensis Leaf Extract, Aspalathus Linearis Extract, Olea Europaea (Olive) Leaf Extract, Honey Extract, Boswellia Serrata Extract, Biosaccharide Gum-1, Biosaccharide Gum-4, Algin, Hexylene Glycol, Ethylhexylglycerin, Caprylyl Glycol, Sodium Hyaluronate, Tetrapeptide-14, Xanthan Gum, Sodium Hydroxide, Isopentyldiol, Phenoxyethanol, Sodium Benzoate, Potassium Sorbate, Mica, Titanium Dioxide (CI 77891), Carmine (CI 75470), Tin Oxide.",
+        "n_loves": "15.3K",
+        "categories": [
+            "Skincare",
+            "Treatments",
+            "Face Serums"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/jlo-beauty-that-big-screen-hydrating-day-cream-P468679",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 22:12:54",
+        "product_name": "That Big Screen Hydrating Day Cream",
+        "brand_name": "JLo Beauty",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL"
+                ],
+                "price": [
+                    "$72.00"
+                ],
+                "sku": "Item 2421659"
+            }
+        ],
+        "rating": "width:50.91%",
+        "product_reviews": "11",
+        "ingredients": "-Hydration Complex: A blend of hyaluronic acid, glycerin, and natural sugars that plumps the look of skin.-Licorice Root: A natural soother with a brightening effect. -Marine Bamboo: A natural protectant from highenergy blue light. Homosalate \u2013 15.0%, Octisalate \u2013 5.0%, Zinc Oxide \u2013 2.82%, Water, Glycerin, Caprylic/Capric Triglyceride, Cetearyl Alcohol, Glyceryl Stearate, PEG-100 Stearate, Dimethicone, Hydrolyzed Vegetable Protein, Nelumbo Nucifera Flower Extract, Withania Somnifera Root Extract, Himanthalia Elongata Extract, Glycyrrhiza Glabra (Licorice) Root Extract, Gigartina Stellata Extract, Hydrogenated Lecithin, Chondrus Crispus Extract, Camellia Sinensis Leaf Extract, Aspalathus Linearis Extract, Boswellia Serrata Extract, Honey Extract, Tocopheryl Acetate, Tocopherol, Ethyl Ferulate Trehalose, Disodium EDTA, Cetyl Palmitate, Bisabolol, Triethoxycaprylylsilane, Sorbitan Stearate, Polysorbate 80, Butylene Glycol, Sodium Hyaluronate, Isopentyldiol, Palmitoyl Tetrapeptide-10, Farnesol, Tetrapeptide-14, Caprylyl Glycol, Hexylene Glycol, Ethylhexylglycerin, Xanthan Gum, Citric Acid, Phenoxyethanol, Sodium Benzoate.  ",
+        "n_loves": "511",
+        "categories": [
+            "Skincare",
+            "Moisturizers",
+            "Moisturizers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/that-overnight-hustle-aha-bha-resurfacer-P500318",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 22:13:07",
+        "product_name": "That Overnight Hustle AHA + BHA Resurfacer",
+        "brand_name": "JLo Beauty",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz / 30 mL"
+                ],
+                "price": [
+                    "$74.50"
+                ],
+                "sku": "Item 2535474"
+            }
+        ],
+        "rating": "width:88.528%",
+        "product_reviews": "129",
+        "ingredients": "-Glycolic Acid: Gentle AHA that exfoliates and resurfaces while supporting collagen production.-Lactic Acid: Gently exfoliates and promotes cell turnover for smoother-looking skin.-Willow Bark Extract: A natural BHA that helps clear pores and soothe skin.Water/Eau, Propanediol, Jojoba Esters, Glycolic Acid, Potassium Hydroxide, Salix Alba (Willow) Bark Extract, Carthamus Tinctorius (Safflower) Oleosomes, Vitis Vinifera (Grape) Seed Oil, Glycerin, Hydrolyzed Hyaluronic Acid, Hydrolyzed Sodium Hyaluronate, Vaccinium Myrtillus Fruit Extract, Saccharum Officinarum (Sugarcane) Extract, Citrus Aurantium Dulcis (Orange) Fruit Extract, Citrus Limon (Lemon) Fruit Extract, Helianthus Annuus (Sunflower) Seed Oil, Acer Saccharum (Sugar Maple) Extract, Gleditsia Triacanthos Seed Extract, Lactic Acid, Saccharomyces Ferment Filtrate, Tocopherol, Bromelain, Papain, Cetearyl Alcohol, Arachidyl Alcohol, Sclerotium Gum, Coco-Glucoside, Polyacrylate Crosspolymer-6, Behenyl Alcohol, Arachidyl Glucoside, Pentadecalactone, Triethyl Citrate, Caprylyl Glycol, Glucose, Ethylhexylglycerin, Potassium Sorbate.",
+        "n_loves": "4.6K",
+        "categories": [
+            "Skincare",
+            "Treatments",
+            "Face Serums"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/body-discovery-trio-with-ahas-caffeine-P506510",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 22:13:18",
+        "product_name": "Body Discovery Trio with AHAs + Caffeine",
+        "brand_name": "JLo Beauty",
+        "options": [],
+        "rating": "width:80%",
+        "product_reviews": "1",
+        "ingredients": "-AHAs: Gently exfoliate for smoother, healthier-looking skin without scrubbing.  -Caffeine: Reduces the appearance of skin dimpling, making skin look smoother. -Guarana seed extract: Visibly reduces puffiness for a firmer appearance.Tighten + Tease Ultimate Body Serum: Water/Eau, Propanediol, Glycerin, Niacinamide, Vaccinium Myrtillus Fruit Extract, 1,2-Hexanediol, Caffeine, Caprylic/Capric Triglyceride, Olea Europaea (Olive) Fruit Oil, Squalane, Saccharum Officinarum (Sugarcane) Extract, Citrus Aurantium Dulcis (Orange) Fruit Extract, Citrus Limon (Lemon) Fruit Extract, Butyrospermum Parkii (Shea) Butter, Acer Saccharum (Sugar Maple) Extract, Malic Acid, Tartaric Acid, Tetrahexyldecyl Ascorbate, Lactic Acid, Glycolic Acid, Silica, Sodium Hyaluronate, Citric Acid, Heptapeptide-7, Bentonite, Hydrogenated Ethylhexyl Olivate, Cetearyl Alcohol, Cetearyl Olivate, Menthyl Ethylamido Oxalate, Pullulan, Sorbitan Olivate, Coco-Glucoside, Polyacrylate Crosspolymer-6, Xanthan Gum, Vanillyl Butyl Ether, Lecithin, Ethylhexylglycerin, Dimethicone, Hydrogenated Olive Oil Unsaponifiables, Pseudozyma Epicola/Olive Fruit Oil Ferment Filtrate, Sclerotium Gum, Tocopheryl Acetate, Trisodium Ethylenediamine Disuccinate, Sodium Hydroxide, Carnosine, Potassium Sorbate, Sodium Benzoate, Persea Gratissima (Avocado) Fruit Extract, Dipropylene Glycol, Glyceryl Stearate, Sodium Lactate, Ceramide NP, Phytosphingosine, Carbomer, Hydroxyacetophenone, Ceramide AP, Phenoxyethanol.Smooth + Seduce Hydrating Body Cream:Water/Eau, Glycerin, Diphenylsiloxy Phenyl Trimethicone, Cetearyl Olivate, Betaine, Hydrogenated Ethylhexyl Olivate, Butyrospermum Parkii (Shea) Butter, Caprylic/Capric Triglyceride, Sorbitan Olivate, Polyglyceryl-3 Methylglucose Distearate, 1,2-Hexanediol, Caffeine, Cetyl Palmitate, Olea Europaea (Olive) Fruit Oil, Squalane, Nephelium Longana Seed Extract, Melia Azadirachta Flower Extract, Aloe Barbadensis Flower Extract, Sodium Lactate, Ceramide NP, Curcuma Longa (Turmeric) Root Extract, Ocimum Sanctum Leaf Extract, Corallina Officinalis Extract, Carnosine, Coccinia Indica Fruit Extract, Sodium Hyaluronate, Tetrahexyldecyl Ascorbate, Melia Azadirachta Leaf Extract, Heptapeptide-7, Myristyl Myristate, Dimethicone, Niacinamide, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Polyisobutene, Alumina, Hydrogenated Olive Oil Unsaponifiables, Titanium Dioxide (CI 77891), Xanthan Gum, Ethylhexylglycerin, Pseudozyma Epicola/Olive Fruit Oil Ferment Filtrate, Tocopheryl Acetate, Linoleic Acid, Citric Acid, Trisodium Ethylenediamine Disuccinate, Caprylyl/Capryl Glucoside, Silica, Tin Oxide, Lecithin, Potassium Sorbate, Propanediol, Sodium Benzoate, Solanum Melongena (Eggplant) Fruit Extract, Dipropylene Glycol, Glyceryl Stearate, Phytosphingosine, Linolenic Acid, Carbomer, Hydroxyacetophenone, Ceramide AP, Phenoxyethanol, Fragrance (Parfum), Benzyl Salicylate, Citronellol, Geraniol, Hexyl Cinnamal, Hydroxycitronellal, Linalool.Firm + Flaunt Targeted Booty Balm:Water/Eau, C12-15 Alkyl Benzoate, Caprylic/Capric Triglyceride, Glycerin, Kaolin, Cetearyl Alcohol, Butylene Glycol, Propanediol, Glyceryl Stearate, Alumina, Titanium Dioxide (CI 77891), Caffeine, 1,2-Heanediol, Magnesium Aluminum Silicate, Menthyl Ethylamido Oxalate, Olea Europaea (Olive) Fruit Oil, Squalane, Ocimum Sanctum Leaf Extract, Persea Gratissima (Avocado) Fruit Extract, Solanum Melongena (Eggplant) Fruit Extract, Melia Azadirachta Flower Extract, Corallina Officinalis Extract, Coccinia Indica Fruit Extract, Pseudozyma Epicola/Olive Fruit Oil Ferment Filtrate, Schinus Terebinthifolia Seed Extract, Paullinia Cupana Seed Extract, Ptychopetalum Olacoides Bark Extract, Melia Azadirachta Leaf Extract, Sodium Hyaluronate, Curcuma Longa (Turmeric) Root Extract, Aloe Barbadensis Flower Extract, Ocimum Basilicum (Basil) Flower/Leaf Extract, Tocopheryl Acetate, Butyrospermum Parkii (Shea) Butter, Betaine, Bentonite, PEG-40 Stearate, Saccharide Isomerate, Triheptanoin, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Coco-Caprylate/Caprate, Xanthan Gum, Ceteareth-20, Polyisobutene, Citric Acid, Dimethicone, Polyurethane-100, Vanillyl Butyl Ether, Ethylhexylglycerin, Trisodium Ethylenediamine Disuccinate, Silica, Tin Oxide, Caprylyl/Capryl Glucoside, Sodium Hydroxide, Phenoxyethanol, Fragrance (Parfum), Benzyl Salicylate, Citronellol, Geraniol, Hexyl Cinnamal, Hydroxycitronellal, Linalool.",
+        "n_loves": "1K",
+        "categories": [
+            "Skincare",
+            "Value & Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/jlo-beauty-jlo-glow-3-pc-kit-P500002",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 22:13:28",
+        "product_name": "Brighten. Tighten. Hydrate. 3-Piece Set",
+        "brand_name": "JLo Beauty",
+        "options": [],
+        "rating": "width:84.354%",
+        "product_reviews": "147",
+        "ingredients": "-Tri-Fermented Complex: Combines 3 bioactive fermentations to visibly brighten and firm.-Peptides: Reduce the appearance of fine lines and wrinkles.-Hyaluronic Acid: Delivers continuous hydration for plump- and dewy-looking skin.That Fresh Take\u00ae Eye Cream:Water, Cyclopentasiloxane, Dimethicone, Adipic Acid/Neopentyl Glycol Crosspolymer, Pentaerythrityl Tetracaprylate/Tetracaprate, Cetyl Alcohol, Dimethicone Crosspolymer, Hydrogenated Coco-Glycerides, PEG-100 Stearate, Glyceryl Stearate, Glycerin, Cyclohexasiloxane, Tocopherol, Alpha-Glucan Oligosaccharide, Olea Europaea (Olive) Leaf Extract, Galactomyces Ferment Filtrate, Benzyl Alcohol, Propanediol, Polyurethane-35, Stearic Acid, PEG-75 Stearate, 1,2-Hexanediol, VP/VA Copolymer, Ceteth-20, Steareth-20, Amodimethicone, Biosaccharide Gum-4, Hydroxypropyl Methylcellulose, Ethylhexylglycerin, Carnosine, Caffeine, Algin, Disodium EDTA, Citric Acid, Xanthan Gum, Lecithin, Heptapeptide-7, Sodium Hyaluronate, Caprylyl Glycol, Phenoxyethanol, Potassium Sorbate, Sodium Benzoate. That JLo Glow\u2122 Serum:Water, Butylene Glycol, Galactomyces Ferment Filtrate, Squalane, Niacinamide, Propanediol, Alpha-Glucan Oligosaccharide, Cannabis Sativa Seed Oil, Olea Europaea (Olive) Fruit Oil, Rice Ferment Filtrate (Sake), Olive Oil Glycereth-8 Esters, Pseudozyma Epicola/Olive Fruit Oil Ferment Filtrate, Hydrogenated Ethylhexyl Olivate, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Hydrogenated Olive Oil Unsaponifiables, Camellia Sinensis Leaf Extract, Aspalathus Linearis Extract, Olea Europaea (Olive) Leaf Extract, Honey Extract, Boswellia Serrata Extract, Biosaccharide Gum-1, Biosaccharide Gum-4, Algin, Hexylene Glycol, Ethylhexylglycerin, Caprylyl Glycol, Sodium Hyaluronate, Tetrapeptide-14, Xanthan Gum, Sodium Hydroxide, Isopentyldiol, Phenoxyethanol, Sodium Benzoate, Potassium Sorbate, Mica, Titanium Dioxide (CI 77891), Carmine (CI 75470), Tin OxideThat Blockbuster\u2122 Hydrating Cream:Water, Hydrogenated Polyisobutene, Glycerin, Squalane, Butyrospermum Parkii (Shea) Butter, Glycine Soja (Soybean) Oil, Pentylene Glycol, Cetyl Alcohol, Bis-Diglyceryl Polyacyladipate-2, Dimethicone, Galactomyces Ferment Filtrate, Glyceryl Stearate, PEG-100 Stearate, Potassium Cetyl Phosphate, Olea Europaea (Olive) Fruit Oil, Hydrogenated Cottonseed Oil, Pseudozyma Epicola/Olive Fruit Oil Ferment Filtrate, Hydrogenated Ethylhexyl Olivate, Camellia Sinensis Leaf Extract, Hydrogenated Olive Oil Unsaponifiables, Aspalathus Linearis Extract, Olea Europaea (Olive) Leaf Extract, Honey Extract, Boswellia Serrata Extract, Silybum Marianum Fruit Extract, Tocopherol, Butylene Glycol, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Propanediol, Trisodium Ethylenediamine Disuccinate, Caprylyl Glycol, Lecithin, Carnosine, Salicylic Acid, Niacinamide, Ethylhexylglycerin, Sodium Hyaluronate Crosspolymer, Polydextrose, Dextrin, Amylopectin, Tetrapeptide-14, Sodium Hydroxide, Phenoxyethanol, Sodium Benzoate, Potassium Sorbate, Chlorphenesin, Fragrance, Mica, Titanium Dioxide (CI 77891), Carmine (CI 75470), Tin Oxide.",
+        "n_loves": "5.8K",
+        "categories": [
+            "Skincare",
+            "Value & Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/jlo-beauty-tighten-tease-tm-resurfacing-body-serum-with-ahas-P503902",
+        "error": "",
+        "scrape_timestamp": "08/21/2023, 22:13:43",
+        "product_name": "Tighten + Tease\u2122 Resurfacing Body Serum with AHAs",
+        "brand_name": "JLo Beauty",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 4.06 oz / 120 mL"
+                ],
+                "price": [
+                    "$82.00"
+                ],
+                "sku": "Item 2534758"
+            }
+        ],
+        "rating": "width:85.138%",
+        "product_reviews": "253",
+        "ingredients": "-AHAs: Gently resurface to reveal visibly brighter, healthier-looking skin without scrubbing.-Niacinamide: Visibly fades the appearance of age and dark spots and promote a more even-looking skin tone.-Heptapeptide-7 (HP7): Reduces the visible signs of aging skin on the body.Water/Eau, Propanediol, Glycerin, Niacinamide, Vaccinium Myrtillus Fruit Extract, 1,2-Hexanediol, Caffeine, Caprylic/Capric Triglyceride, Olea Europaea (Olive) Fruit Oil, Squalane, Saccharum Officinarum (Sugarcane) Extract, Citrus Aurantium Dulcis (Orange) Fruit Extract, Citrus Limon (Lemon) Fruit Extract, Butyrospermum Parkii (Shea) Butter, Acer Saccharum (Sugar Maple) Extract, Malic Acid, Tartaric Acid, Tetrahexyldecyl Ascorbate, Lactic Acid, Glycolic Acid, Silica, Sodium Hyaluronate, Citric Acid, Heptapeptide-7, Bentonite, Hydrogenated Ethylhexyl Olivate, Cetearyl Alcohol, Cetearyl Olivate, Menthyl Ethylamido Oxalate, Pullulan, Sorbitan Olivate, Coco-Glucoside, Polyacrylate Crosspolymer-6, Xanthan Gum, Vanillyl Butyl Ether, Lecithin, Ethylhexylglycerin, Dimethicone, Hydrogenated Olive Oil Unsaponifiables, Pseudozyma Epicola/Olive Fruit Oil Ferment Filtrate, Sclerotium Gum, Tocopheryl Acetate, Trisodium Ethylenediamine Disuccinate, Sodium Hydroxide, Carnosine, Potassium Sorbate, Sodium Benzoate, Persea Gratissima (Avocado) Fruit Extract, Dipropylene Glycol, Glyceryl Stearate, Sodium Lactate, Ceramide NP, Phytosphingosine, Carbomer, Hydroxyacetophenone, Ceramide AP, Phenoxyethanol.",
+        "n_loves": "2.8K",
+        "categories": [
+            "Bath & Body",
+            "Body Moisturizers",
+            "Body Lotions & Body Oils"
+        ]
+    }
+]

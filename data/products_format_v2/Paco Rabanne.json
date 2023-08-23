@@ -1,0 +1,799 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/paco-rabanne-invictus-elixir-P505156",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 06:45:28",
+        "product_name": "Invictus Victory Elixir Eau de Parfum",
+        "brand_name": "Paco Rabanne",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz / 100 mL elixir spray",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$168.00"
+                ],
+                "sku": "Item 2679082"
+            }
+        ],
+        "rating": "width:93.51800000000001%",
+        "product_reviews": "108",
+        "ingredients": "Alcohol Denat., Parfum (Fragrance), Aqua (Water), Linalool, Limonene, Butyl Methoxydibenzoylmethane, Coumarin, Benzyl Salicylate, Citronellol, Benzyl Benzoate, Citral, Benzyl Cinnamate, Geraniol, Benzyl Alcohol, Ci 60730 (Ext. Violet 2)Alcohol Of Vegetal Origin 80% Vol.",
+        "n_loves": "431",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/paco-rabanne-lady-million-fabulous-eau-de-parfum-intense-P478728",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 06:45:41",
+        "product_name": "Lady Million Fabulous Eau de Parfum Intense",
+        "brand_name": "Paco Rabanne",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$134.00"
+                ],
+                "sku": "Item 2547776"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 2.7 oz/ 80 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$158.00"
+                ],
+                "sku": "Item 2547784"
+            }
+        ],
+        "rating": "width:89.64800000000001%",
+        "product_reviews": "199",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "2K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/paco-olympea-P410528",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 06:45:53",
+        "product_name": "Olymp\u00e9a Eau de Parfum",
+        "brand_name": "Paco Rabanne",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL"
+                ],
+                "price": [
+                    "$126.00"
+                ],
+                "sku": "Item 1789080"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2.7 oz/ 80 mL"
+                ],
+                "price": [
+                    "$152.00"
+                ],
+                "sku": "Item 1789064"
+            }
+        ],
+        "rating": "width:91.428%",
+        "product_reviews": "105",
+        "ingredients": "Alcohol Denat., Parfum (Fragrance), Aqua (Water), Butylphenyl Methylpropional, Benzyl Salicylate, Ethylhexyl Methoxycinnamate, Citronellol, Limonene, Linalool, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane Coumarin, Cinnamyl Alcohol, Alpha-Isomethyl Ionone, Geraniol, Bht, Tris(Tetramethylhydroxypiperidinol) Citrate, Benzyl Alcohol, Benzyl Benzoate, Citral, Disodium Edta, Ci 14700 (Red 4), Ci 172000 (Red 33), Ci 19140 (Yellow 5), Ci 60730 (Ext. Violet 2).",
+        "n_loves": "10.2K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/invictus-P389110",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 06:46:07",
+        "product_name": "Invictus Eau de Toilette",
+        "brand_name": "Paco Rabanne",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL"
+                ],
+                "price": [
+                    "$142.00"
+                ],
+                "sku": "Item 1605906"
+            }
+        ],
+        "rating": "width:95.312%",
+        "product_reviews": "209",
+        "ingredients": "Alcohol Denat., Fragrance, Water, Benzyl Salicylate,Limonene\nEthylhexyl Methoxycinnamate, Linalool, Coumarin, Butylphenyl Methylpropional, Citronellol, Geraniol, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Alpha-Isomethyl Ionone, Citral, Eugenol, Benzyl Benzoate, Benzyl Alcohol, Cinnamal, Ci 60730 (Ext. Violet 2), Ci 19140 (Yellow 5), Ci 14700 (Red 4),Ci 42090 (Blue 1).\n",
+        "n_loves": "12.9K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/fame-eau-de-parfum-P502064",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 06:46:20",
+        "product_name": "FAME Eau de Parfum",
+        "brand_name": "Paco Rabanne",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz / 30 mL eau de parfum spray"
+                ],
+                "price": [
+                    "$102.00"
+                ],
+                "sku": "Item 2622793"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz / 50 mL eau de parfum spray",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$138.00"
+                ],
+                "sku": "Item 2545788"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 2.7 oz / 80 mL eau de parfum spray",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$178.00"
+                ],
+                "sku": "Item 2545770"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 6.7 oz / 200 mL eau de parfum spray"
+                ],
+                "price": [
+                    "$232.00"
+                ],
+                "sku": "Item 2545796"
+            }
+        ],
+        "rating": "width:89.968%",
+        "product_reviews": "311",
+        "ingredients": "Parfum (Fragrance), Aqua (Water), Hydroxycitronellal, Linalool, Benzyl Salicylate, Butyl Methoxydibenzoylmethane, Limonene, Coumarin, Citronellol, Geraniol, Alpha-Isomethyl Ionone, Cinnamyl Alcohol, Farnesol, Citral, Benzyl Alcohol, Tris (Tetramethylhydroxypiperidinol) Citrate, Benzyl Benzoate, CI 19140 (Yellow 5), CI 60730 (Ext. Violet 2), CI 14700 (Red 4).",
+        "n_loves": "12.5K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/paco-rabanne-1-million-parfum-P458631",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 06:46:35",
+        "product_name": "1 Million Parfum",
+        "brand_name": "Paco Rabanne",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL"
+                ],
+                "price": [
+                    "$124.00"
+                ],
+                "sku": "Item 2321651"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL"
+                ],
+                "price": [
+                    "$158.00"
+                ],
+                "sku": "Item 2321644"
+            }
+        ],
+        "rating": "width:90.71999999999998%",
+        "product_reviews": "222",
+        "ingredients": "Alcohol Denat., Parfum (Fragrance), Aqua (Water), Benzyl Salicylate, Alpha-Isomethyl Ionone, Limonene, Coumarin, Butyl Methoxydibenzoylmethane, Ethylhexyl Salicylate, Citronellol, Linalool, Benzyl Alcohol, Cinnamal, Eugenol, Citral, Geraniol, Benzyl Benzoate, Isoeugenol, Ci 14700 (Red 4), Ci 60730 (Ext. Violet 2), Ci 19140 (Yellow 5).",
+        "n_loves": "8.3K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/paco-rabanne-invictus-victory-P472051",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 06:46:48",
+        "product_name": "Invictus Victory",
+        "brand_name": "Paco Rabanne",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL"
+                ],
+                "price": [
+                    "$158.00"
+                ],
+                "sku": "Item 2410645"
+            }
+        ],
+        "rating": "width:91.53800000000001%",
+        "product_reviews": "130",
+        "ingredients": "Alcohol Denat., Parfum (Fragrance), Aqua (Water), Limonene, Linalool, Butyl Methoxydibenzoylmethane, Coumarin, Citronellol, Citral, Geraniol, Isoeugenol.",
+        "n_loves": "5.2K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/phantom-eau-de-parfum-P507337",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 06:47:01",
+        "product_name": "Phantom Parfum",
+        "brand_name": "Paco Rabanne",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz / 50 ml eau de parfum spray",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$133.00"
+                ],
+                "sku": "Item 2706299"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz / 100 ml eau de parfum spray",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$175.50"
+                ],
+                "sku": "Item 2706307"
+            }
+        ],
+        "rating": "width:88.108%",
+        "product_reviews": "74",
+        "ingredients": "Alcohol Denat., Parfum (Fragrance), Aqua (Water), Limonene, Linalool, Coumarin, Butyl Methoxydibenzoylmethane, Alpha-Isomethyl Ionone, Citronellol, Citral, Alcohol, Geraniol, Tris (Tetramethylhydroxypiperidinol) Citrate, Ci 60730 (Ext. Violet 2), Ci 42090 (Blue 1), Ci 19140 (Yellow 5).",
+        "n_loves": "615",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/paco-rabanne-phantom-eau-de-toilette-P475147",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 06:47:14",
+        "product_name": "Phantom Eau de Toilette",
+        "brand_name": "Paco Rabanne",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL eau de toilette spray"
+                ],
+                "price": [
+                    "$112.00"
+                ],
+                "sku": "Item 2468189"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL eau de toilette spray"
+                ],
+                "price": [
+                    "$145.00"
+                ],
+                "sku": "Item 2468163"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 0.5 oz / 15 mL eau de toilette spray",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$45.00"
+                ],
+                "sku": "Item 2645661"
+            }
+        ],
+        "rating": "width:90.182%",
+        "product_reviews": "220",
+        "ingredients": "Alcohol Denat. Parfum (Fragrance), Aqua (Water), Limonene, Linalool, Coumarin, Butyl Methoxydibenzoylmethane, Alpha-Isomethyl Ionone, Citronellol, Citral, Geraniol, Benzyl Alcohol, CI 60730 (Ext. Violet 2).",
+        "n_loves": "9.9K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lady-million-P269118",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 06:47:27",
+        "product_name": "Lady Million Eau de Parfum",
+        "brand_name": "Paco Rabanne",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$124.00"
+                ],
+                "sku": "Item 1283381"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2.7 oz/ 80 mL"
+                ],
+                "price": [
+                    "$154.00"
+                ],
+                "sku": "Item 1283399"
+            }
+        ],
+        "rating": "width:87.888%",
+        "product_reviews": "677",
+        "ingredients": "Alcohol Denat., Parfum (Fragrance), Aqua (Water), Ethylhexyl Methoxycinnamate, Butyl Methoxydibenzoylmethane, Ethylhexyl Salicylate , Limonene, Benzyl Salicilate, Alpha-Isomethyl Ionone, Hydroxycitronellal, Butylphenyl Methylpropional, Hexyl Cinnamal, Linalool, Coumarin, Citronellol, Citral, Geraniol, Benzyl Alcohol, Isoeugenol, Ci 15985 (Yellow 6), Ci 19140 (Yellow 5), Ci 61570 (Green 5), Ci 14700 (Red 4).",
+        "n_loves": "4.8K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/paco-rabanne-fame-eau-de-parfum-collector-P505348",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 06:47:41",
+        "product_name": "FAME Eau de Parfum Collector",
+        "brand_name": "Paco Rabanne",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "LIMITED EDITION",
+                "size": null,
+                "name": [
+                    "Size: 2.7 oz / 80 mL eau de parfum",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$165.00"
+                ],
+                "sku": "Item 2678969"
+            }
+        ],
+        "rating": "width:100%",
+        "product_reviews": "1",
+        "ingredients": "Alcohol Denat., Parfum (Fragrance), Aqua (Water), Hydroxycitronellal, Linalool, Benzyl Salicylate, Butyl Methoxydibenzoylmethane, Limonene, Coumarin, Citronellol, Geraniol, Alpha-Isomethyl Ionone, Cinnamyl Alcohol, Farnesol, Citral, Benzyl Alcohol, Tris(Tetramethylhydroxypiperidinol) Citrate, Benzyl Benzoate, Ci 19140 (Yellow 5), Ci 60730 (Ext. Violet 2), Ci 14700 (Red 4).",
+        "n_loves": "532",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/paco-rabanne-1-million-elixir-P482059",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 06:47:54",
+        "product_name": "1 Million Elixir",
+        "brand_name": "Paco Rabanne",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz / 100 mL"
+                ],
+                "price": [
+                    "$168.00"
+                ],
+                "sku": "Item 2545739"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz / 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$132.00"
+                ],
+                "sku": "Item 2545747"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 6.7 oz / 200 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$224.00"
+                ],
+                "sku": "Item 2584860"
+            }
+        ],
+        "rating": "width:90.248%",
+        "product_reviews": "121",
+        "ingredients": "Alcohol Denat., Parfum (Fragrance), Aqua (Water), Limonene, Coumarin, Linalool, Butyl Methoxydibenzoylmethane, Hydroxycitronellal, Alpha-Isomethyl Ionone, Citral, Cinnamal, Eugenol.",
+        "n_loves": "3.6K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/1-million-P269120",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 06:48:08",
+        "product_name": "1 Million Eau de Toilette",
+        "brand_name": "Paco Rabanne",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz/ 100 mL"
+                ],
+                "price": [
+                    "$142.00"
+                ],
+                "sku": "Item 1200773"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 6.8 oz/ 200 mL"
+                ],
+                "price": [
+                    "$182.00"
+                ],
+                "sku": "Item 1410299"
+            }
+        ],
+        "rating": "width:93.924%",
+        "product_reviews": "553",
+        "ingredients": "Alcohol Denat, Fragrance, Water, Butylphenyl Methylpropional, Coumarin, Limonene, Hydroxycitronellal, Alpha-Isomethyl Ionone, Linalool, Benzyl, Alcohol, Cinnamal, Eugenol, Citral, Isoeugenol, Citronellol.\n",
+        "n_loves": "23.9K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/1-million-deodorant-P380550",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 06:48:22",
+        "product_name": "1 Million Deodorant",
+        "brand_name": "Paco Rabanne",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2.2 oz/ 62 g"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 1200799"
+            }
+        ],
+        "rating": "width:77.33399999999999%",
+        "product_reviews": "15",
+        "ingredients": "Alcohol Denat, Water, Sodium Stearate, Propylene Glycol, Fragrance, Cetyl Alcohol, Sorbitan Stearate, Ethylhexylglycerin, Caprylyl Glycol, Limonene, Butylphenyl Methylpropional, Linalool, Coumarin, Hydroxycitronellal, Alpha-Isomethyl Ionone, Benzyl Alcohol, Cinnamal, Eugenol, Citral.\n\n",
+        "n_loves": "2.1K",
+        "categories": [
+            "Bath & Body",
+            "Body Care",
+            "Deodorant & Antiperspirant"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/paco-rabanne-invictus-platinum-eau-de-parfum-P483097",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 06:48:34",
+        "product_name": "Invictus Platinum Eau de Parfum",
+        "brand_name": "Paco Rabanne",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz / 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$124.00"
+                ],
+                "sku": "Item 2545762"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz / 100 mL"
+                ],
+                "price": [
+                    "$158.00"
+                ],
+                "sku": "Item 2545754"
+            }
+        ],
+        "rating": "width:93.11%",
+        "product_reviews": "119",
+        "ingredients": "Alcohol Denat, Parfum (Fragrance), Aqua (Water), Linalool, Hydroxycitronellal, Limonene, Butyl Methoxydibenzoylmethane, Coumarin, Citral, Evernia Prunastri (Oakmoss) Exctract, Alpha-Isomethyl Ionone, Geraniol, CI 60730 (Ext. Violet 2), CI 19140 (Yellow 5), CI 14700 (Red 4), CI 42090 (Blue 1).",
+        "n_loves": "3.4K",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/paco-rabanne-1-million-royal-parfum-P505353",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 06:48:47",
+        "product_name": "1 Million Royal Parfum",
+        "brand_name": "Paco Rabanne",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz / 50 mL parfum spray",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$124.00"
+                ],
+                "sku": "Item 2679108"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.4 oz / 100 mL parfum spray"
+                ],
+                "price": [
+                    "$158.00"
+                ],
+                "sku": "Item 2679090"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 6.7 oz / 200 mL parfum spray"
+                ],
+                "price": [
+                    "$205.00"
+                ],
+                "sku": "Item 2679116"
+            }
+        ],
+        "rating": "width:93.33399999999999%",
+        "product_reviews": "183",
+        "ingredients": "Alcohol Denat., Parfum (Fragrance), Aqua (Water), Butyl Methoxydibenzoylmethane, Limonene, Coumarin, Citronellol, Linalool, Alpha-Isomethyl Ionone, Hydroxycitronellal, Citral, Benzyl Benzoate, Methyl 2-Octynoate, Benzyl Salicylate, Geraniol, Isoeugenol, Benzyl Alcohol.",
+        "n_loves": "1.1K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/paco-rabanne-phantom-eau-de-toilette-gift-set-P505555",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 06:49:01",
+        "product_name": "Phantom Eau de Toilette Gift Set",
+        "brand_name": "Paco Rabanne",
+        "options": [],
+        "rating": "width:100%",
+        "product_reviews": "1",
+        "ingredients": "Alcohol Denat., Parfum (Fragrance), Aqua (Water), Limonene, Linalool, Coumarin, Butyl Methoxydibenzoylmethane, Alpha-Isomethyl Ionone, Citronellol, Citral, Geraniol, Benzyl Alcohol, Ci 60730 (Ext. Violet 2).",
+        "n_loves": "175",
+        "categories": [
+            "Fragrance",
+            "Value & Gift Sets",
+            "Cologne Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/paco-rabanne-lady-million-royal-eau-de-parfum-P505367",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 06:49:11",
+        "product_name": "Lady Million Royal Eau de Parfum",
+        "brand_name": "Paco Rabanne",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz / 50 mL"
+                ],
+                "price": [
+                    "$124.00"
+                ],
+                "sku": "Item 2678944"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 2.7 oz / 80 mL"
+                ],
+                "price": [
+                    "$154.00"
+                ],
+                "sku": "Item 2678951"
+            }
+        ],
+        "rating": "width:86.32199999999999%",
+        "product_reviews": "174",
+        "ingredients": "Alcohol Denat., Parfum (Fragrance), Aqua (Water), Butyl Methoxydibenzoylmethane, Benzyl Salicylate, Linalool, Hydroxycitronellal, Limonene, Coumarin, Geraniol, Alpha-Isomethyl Ionone, Citronellol, Hexyl Cinnamal, Alcohol, Tris(Tetramethylhydroxypiperidinol) Citrate, Benzyl Alcohol, Ci 19140 (Yellow 5), Ci 14700 (Red 4).",
+        "n_loves": "531",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/paco-rabanne-deluxe-mini-gift-set-P503558",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 06:49:25",
+        "product_name": "Deluxe Mini Gift Set",
+        "brand_name": "Paco Rabanne",
+        "options": [],
+        "rating": "width:73.334%",
+        "product_reviews": "3",
+        "ingredients": "Fame Eau de Parfum:Parfum (Fragrance), Aqua (Water), Hydroxycitronellal, Linalool, Benzyl Salicylate, Butyl Methoxydibenzoylmethane, Limonene, Coumarin, Citronellol, Geraniol, Alpha-Isomethyl Ionone, Cinnamyl Alcohol, Farnesol, Citral, Benzyl Alcohol, Tris(Tetramethylhydroxypiperidinol) Citrate, Benzyl Benzoate, CI 19140 (Yellow 5), CI 60730 (Ext. Violet 2), CI 14700 (Red 4).Phantom Eau de Toilette:Alcohol Denat. Parfum (Fragrance), Aqua (Water), Limonene, Linalool, Coumarin, Butyl Methoxydibenzoylmethane, Alpha-Isomethyl Ionone, Citronellol, Citral, Geraniol, Benzyl Alcohol, CI 60730 (Ext. Violet 2).",
+        "n_loves": "1.6K",
+        "categories": [
+            "Fragrance",
+            "Value & Gift Sets",
+            "Cologne Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/phantom-eau-de-toilette-travel-spray-P506806",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 06:49:39",
+        "product_name": "Phantom Eau de Toilette Travel Spray",
+        "brand_name": "Paco Rabanne",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 0.5 oz / 15 mL eau de toilette spray",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$45.00"
+                ],
+                "sku": "Item 2645661"
+            }
+        ],
+        "rating": "width:90.182%",
+        "product_reviews": "220",
+        "ingredients": "Alcohol Denat. Parfum (Fragrance), Aqua (Water), Limonene, Linalool, Coumarin, Butyl Methoxydibenzoylmethane, Alpha-Isomethyl Ionone, Citronellol, Citral, Geraniol, Benzyl Alcohol, CI 60730 (Ext. Violet 2).",
+        "n_loves": "227",
+        "categories": [
+            "Fragrance",
+            "Men",
+            "Cologne"
+        ]
+    }
+]

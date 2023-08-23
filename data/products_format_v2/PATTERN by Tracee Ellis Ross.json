@@ -1,0 +1,1526 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-beauty-by-tracee-ellis-ross-transition-mask-P481410",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:11:29",
+        "product_name": "Transition Mask",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 15 oz/ 443.6 mL"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2540334"
+            }
+        ],
+        "rating": "width:92%",
+        "product_reviews": "35",
+        "ingredients": "Water/Aqua/Eau, Glycerin, PEG-40 Hydrogenated Castor Oil, Hydroxypropyl Starch Phosphate, Camellia Sinensis Leaf Extract, Honey/Mel/Miel, Hydroxyethylcellulose, Citric Acid, Sodium Chloride, Sodium Hydroxide, Sodium Acetate, Propylene Glycol, Polyquaternium-37, Guar Hydroxypropyltrimonium Chloride, Cetrimonium Chloride, Cellulose, Potassium Sorbate, Phenoxyethanol, Fragrance/Parfum, Isopropyl Alcohol, Limonene, Geraniol, Linalool, Citronellol, Yellow 6 (CI 15985), Blue 1 (CI 42090).",
+        "n_loves": "3.4K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Masks"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-curl-gel-P474852",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:11:42",
+        "product_name": "Curl Gel",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 9.8 oz/ 289.8 mL"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2494391"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3 oz/ 88.7 mL"
+                ],
+                "price": [
+                    "$12.00"
+                ],
+                "sku": "Item 2494623"
+            }
+        ],
+        "rating": "width:83.27799999999999%",
+        "product_reviews": "61",
+        "ingredients": "Water/Aqua/Eau, Glycerin, Cetearyl Alcohol, Aloe Barbadensis Leaf Extract, Cocos Nucifera (Coconut) Oil, Behentrimonium Methosulfate, Wheat Amino Acids, Benzyl Alcohol, Hydrolyzed Silk, Caryodendron Orinocense Seed Oil, Cocos Nucifera (Coconut) Fruit Extract, Rosmarinus Officinalis (Rosemary) Leaf Extract, Helianthus Annuus (Sunflower) Seed Oil, PEG-40 Hydrogenated Castor Oil, PEG-60 Hydrogenated Castor Oil, Cetrimonium Chloride, Citric Acid, Hydroxyethylcellulose, Guar Hydroxypropyltrimonium Chloride, Ethylhexylglycerin, Disodium EDTA, Potassium Sorbate, Sodium Benzoate, Phenethyl Alcohol, Caprylyl Glycol, Polysorbate 60, Phenoxyethanol, Disodium Phosphate, Sodium Phosphate, Sodium Sulfite, Fragrance/Parfum, Benzyl Benzoate, Hexyl Cinnamal, Amyl Cinnamal, Hydroxycitronellal, Linalool, Citronellol, Limonene",
+        "n_loves": "8K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-mini-heavy-conditioner-P475991",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:11:56",
+        "product_name": "Mini Heavy Conditioner",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3 oz/ 88.7 mL"
+                ],
+                "price": [
+                    "$12.00"
+                ],
+                "sku": "Item 2494540"
+            }
+        ],
+        "rating": "width:95.556%",
+        "product_reviews": "9",
+        "ingredients": "Water/Aqua/Eau, Cetearyl Alcohol, Butyrospermum Parkii (Shea) Butter, Persea Gratissima (Avocado) Oil, Cetyl Alcohol, Ethylhexyl Palmitate, PEG-8 Beeswax, Palmitic Acid, Stearic Acid, Glycerin, Behentrimonium Methosulfate, Jojoba Esters, Carthamus Tinctorius (Safflower) Seed Oil, Helianthus Annuus (Sunflower) Seed Wax, Tocopherol, Acacia Decurrens Extract, Polyquaternium-10, Polyquaternium-37, Propylene Glycol Dicaprylate/Dicaprate, Ethylhexylglycerin, Polyglycerin-3, Vegetable Oil/Olus/Huile v\u00e9g\u00e9tale, PPG-1 Trideceth-6, Phenoxyethanol, Fragrance/Parfum, Benzyl Benzoate",
+        "n_loves": "1.3K",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Conditioner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-mini-strong-hold-gel-P475995",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:12:08",
+        "product_name": "Mini Strong Hold Hair Gel",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3 oz/ 85 g"
+                ],
+                "price": [
+                    "$12.00"
+                ],
+                "sku": "Item 2494649"
+            }
+        ],
+        "rating": "width:78%",
+        "product_reviews": "20",
+        "ingredients": "Water/Aqua/Eau, Propylene Glycol, PVP, Polyquaternium-37, Glycerin, VP/VA Copolymer, Polysorbate 20, Tetrasodium EDTA, Chondrus Crispus Extract, Argania Spinosa Kernel Oil, Ricinus Communis (Castor) Seed Oil, Salvia Hispanica Seed Oil, Aloe Barbadensis Leaf Juice, Linum Usitatissimum (Linseed) Seed Oil, Caryodendron Orinocense Seed Oil, Phenoxyethanol, Hydroxyacetophenone, Rice Oil Glycereth-8 Esters, Babassu Oil Glycereth-8 Esters, Disodium EDTA, Fragrance/Parfum, Aminomethyl Propanol, Hydrolyzed Vegetable Protein, Potassium Sorbate, Citric Acid, Sodium Benzoate, Isopropyl Alcohol, Chlorphenesin, Benzyl Benzoate, Hexyl Cinnamal, Amyl Cinnamal, Hydroxycitronellal, Linalool, Citronellol",
+        "n_loves": "5K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-beauty-by-tracee-ellis-ross-heat-protectant-P504842",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:12:21",
+        "product_name": "Heat Protectant",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 4 oz / 118 mL"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2657435"
+            }
+        ],
+        "rating": "width:85%",
+        "product_reviews": "12",
+        "ingredients": "Isododecane, Crambe Abyssinica Seed Oil Phytosterol Esters, Helianthus Annuus (Sunflower) Seed Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Tocopherol, C15-19 Alkane, Fragrance (Parfum), Benzyl Benzoate, Hexyl Cinnamal, Amyl Cinnamal, Hydroxycitronellal, Linalool, Citronellol, Limonene, Coumarin.",
+        "n_loves": "2.3K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/curl-mousse-P501812",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:12:33",
+        "product_name": "Curl Mousse",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 8 oz / 236.6 mL"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2609675"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 4 oz / 118.3 mL"
+                ],
+                "price": [
+                    "$15.00"
+                ],
+                "sku": "Item 2609709"
+            }
+        ],
+        "rating": "width:92.38%",
+        "product_reviews": "63",
+        "ingredients": "-Marshmallow Root and Castor Oil: Keep hair soft and smooth.Water/Aqua/Eau, Polyquaternium-11, PVP, Cocamidopropyl Betaine, Althaea Officinalis Root Extract, Glycerin, Ricinus Communis (Castor) Seed Oil, Argania Spinosa Kernel Oil, Caprylic/Capric Triglyceride, Biotin, Polyglyceryl-4 Caprate, Polyglyceryl-6 Caprylate, Sodium Chloride, C12-18 Acid Triglyceride, Cocamidopropyl Dimethylamine, Sodium Glycolate, Sodium Benzoate, Benzyl Alcohol, Ethylhexylglycerin, Fragrance/Parfum, Benzyl Benzoate, Hexyl Cinnamal, Amyl Cinnamal, Hydroxycitronellal, Linalool, Citronellol, Limonene, Coumarin, Geraniol.",
+        "n_loves": "12.4K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-styling-cream-P474851",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:12:47",
+        "product_name": "Styling Cream for Curly &Coily Hair",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 15 oz/ 443.6 mL"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2494433"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3 oz/ 88.7 mL"
+                ],
+                "price": [
+                    "$12.00"
+                ],
+                "sku": "Item 2494656"
+            }
+        ],
+        "rating": "width:91.428%",
+        "product_reviews": "84",
+        "ingredients": "-Rosemary Leaf Extract-Sunflower Seed Oil-Shea ButterWater (Aqua, Eau), Butyrospermum Parkii (Shea) Butter, Cetearyl Alcohol, Glycerin, Ceteareth-20, Polysorbate 60, PEG-40 Hydrogenated Castor Oil, PEG-120 Methyl Glucose Dioleate, Cocos Nucifera (Coconut) Oil, Phenoxyethanol, Hydroxyethylcellulose, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Theobroma Cacao (Cocoa) Seed Butter, Fragrance (Parfum), Disodium EDTA, Citric Acid, Ethylhexylglycerin, Aloe Barbadensis Leaf Extract, Sodium Benzoate, Sodium Sulfite, Potassium Sorbate, Cocos Nucifera (Coconut) Fruit Extract, PEG-60 Hydrogenated Castor Oil, Rosmarinus Officinalis (Rosemary) Leaf Extract, Helianthus Annuus (Sunflower) Seed Oil, Phenethyl Alcohol, Caprylyl Glycol, Caryodendron Orinocense Seed Oil, Hydrolyzed Wheat Protein.",
+        "n_loves": "10.5K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-beauty-by-tracee-ellis-ross-styling-custard-gel-P480338",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:13:00",
+        "product_name": "Styling Custard Hair Gel",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 15 oz/ 443.6 mL"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2540342"
+            }
+        ],
+        "rating": "width:85.556%",
+        "product_reviews": "36",
+        "ingredients": "-Irish Moss-Flaxseed Oil-AgaveWater/Aqua/Eau, Glycerin, Polyquaternium-37, Polysorbate 20, Polyquaternium-11, Methyl Gluceth-10, Linum Usitatissimum (Linseed) Seed Oil, Chamomilla Recutita (Matricaria) Extract, Chondrus Crispus Extract, Agave Rigida (Sisal) Extract, Panthenol, Phenoxyethanol, Fragrance/Parfum, Ethylhexylglycerin, Benzyl Benzoate, Hexyl Cinnamal, Amyl Cinnamal, Hydroxycitronellal, Linalool, Citronellol, Limonene, Coumarin, Caramel.",
+        "n_loves": "4.3K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-mini-wide-tooth-comb-P475994",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:13:13",
+        "product_name": "Mini Wide Tooth Comb",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [],
+                "price": [
+                    "$10.00"
+                ],
+                "sku": "Item 2496743"
+            }
+        ],
+        "rating": "width:89.412%",
+        "product_reviews": "17",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "8.3K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Brushes & Combs"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-hair-tools-kit-P475988",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:13:26",
+        "product_name": "Hair Tools Kit",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [],
+        "rating": "width:82%",
+        "product_reviews": "10",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "4.7K",
+        "categories": [
+            "Hair",
+            "Value & Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-strong-hold-gel-P475977",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:13:36",
+        "product_name": "Strong Hold Hair Gel",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 15 oz/ 425 g"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2494425"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3 oz/ 85 g"
+                ],
+                "price": [
+                    "$12.00"
+                ],
+                "sku": "Item 2494649"
+            }
+        ],
+        "rating": "width:73.846%",
+        "product_reviews": "52",
+        "ingredients": "Water/Aqua/Eau, Propylene Glycol, PVP, Polyquaternium-37, Glycerin, VP/VA Copolymer, Polysorbate 20, Tetrasodium EDTA, Chondrus Crispus Extract, Argania Spinosa Kernel Oil, Ricinus Communis (Castor) Seed Oil, Salvia Hispanica Seed Oil, Aloe Barbadensis Leaf Juice, Linum Usitatissimum (Linseed) Seed Oil, Caryodendron Orinocense Seed Oil, Phenoxyethanol, Hydroxyacetophenone, Rice Oil Glycereth-8 Esters, Babassu Oil Glycereth-8 Esters, Disodium EDTA, Fragrance/Parfum, Aminomethyl Propanol, Hydrolyzed Vegetable Protein, Potassium Sorbate, Citric Acid, Sodium Benzoate, Isopropyl Alcohol, Chlorphenesin, Benzyl Benzoate, Hexyl Cinnamal, Amyl Cinnamal, Hydroxycitronellal, Linalool, Citronellol",
+        "n_loves": "3.7K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-clarifying-shampoo-P475971",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:13:49",
+        "product_name": "Cleansing Shampoo",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 7.8 oz/ 230.7 mL"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2494300"
+            }
+        ],
+        "rating": "width:88.728%",
+        "product_reviews": "55",
+        "ingredients": "-Rosemary Leaf Extract -Safflower Seed Extract -Aloe Leaf Extract  'Water/Aqua/Eau, Sodium C14-16 Olefin Sulfonate, Cocamidopropyl Betaine, Glycerin, Sodium Chloride, Polysorbate 20, Aloe Barbadensis Leaf Extract, Butyrospermum Parkii (Shea) Butter, Caryodendron Orinocense Seed Oil, Cocos Nucifera (Coconut) Fruit Extract, Cocos Nucifera (Coconut) Oil, Helianthus Annuus (Sunflower) Seed Oil, Rosmarinus Officinalis (Rosemary) Leaf Extract, Cucumis Sativus (Cucumber) Fruit Extract, Camellia Sinensis Leaf Extract, Panthenol, Caprylyl Glycol, Ethylhexylglycerin, Citric Acid, Cocamidopropyl Dimethylamine, PEG-60 Hydrogenated Castor Oil, PEG-120 Methyl Glucose Dioleate, Guar Hydroxypropyltrimonium Chloride, Disodium EDTA, Decyl Glucoside, Polyquaternium-10, C12-18 Acid Triglyceride, Sodium Glycolate, Potassium Sorbate, Sodium Sulfite, Phenoxyethanol, Sodium Benzoate, Phenethyl Alcohol, Fragrance/Parfum",
+        "n_loves": "6.3K",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Shampoo"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-leave-in-conditioner-P474849",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:14:01",
+        "product_name": "Leave- In Conditioner for Curly & Coily Hair",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 9.8 oz / Sweet Floral Essences of Neroli, Rose, and Patchouli"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2494367"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "LIMITED EDITION",
+                "size": null,
+                "name": [
+                    "Size: 9.8 oz / Palo Santo: A Subtle Woody Scent with Notes of Mint & Citrus",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2657443"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 25 oz / Sweet Floral Essences of Neroli, Rose, and Patchouli"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2494599"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3 oz / Sweet Floral Essences of Neroli, Rose, and Patchouli"
+                ],
+                "price": [
+                    "$12.00"
+                ],
+                "sku": "Item 2494375"
+            }
+        ],
+        "rating": "width:91.794%",
+        "product_reviews": "195",
+        "ingredients": "Aqua (Water, Eau), Cetearyl Alcohol, Behentrimonium Methosulfate, Caprylic/Capric Triglyceride, Butylene Glycol, Biotin, Panthenol, Simmondsia Chinensis (Jojoba) Seed Oil, Ricinus Communis (Castor) Seed Oil, Persea Gratissima (Avocado) Oil, Olea Europaea (Olive) Fruit Oil, Melaleuca Alternifolia (Tea Tree) Leaf Oil, Mel (Honey, Miel), Cocos Nucifera (Coconut) Oil, Argania Spinosa Kernel Oil, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Butyrospermum Parkii (Shea) Oil, Hydrolyzed Vegetable Protein PG-Propyl Silanetriol, Aloe Barbadensis Leaf Extract, Tocopherol, Polyquaternium-37, Propylene Glycol Dicaprylate/Dicaprate, Ethylhexylglycerin, Trideceth-3, Trideceth-15, Cetrimonium Chloride, Amodimethicone, Parfum (Fragrance), PPG-1 Trideceth-6, Glycerin, Aminomethyl Propanol, Phenoxyethanol, Citric Acid, Alcohol, Acetic Acid, Potassium Sorbate, Disodium EDTA, Linalool, Amyl Cinnamal, Butylphenyl Methylpropional, Benzyl Benzoate, Hydroxycitronellal, Citronellol, Coumarin, Limonene, Hexyl Cinnamal",
+        "n_loves": "21.7K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Leave-In Conditioner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-hair-clip-P475992",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:14:17",
+        "product_name": "Hair Clip",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [],
+        "rating": "width:82.5%",
+        "product_reviews": "72",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "8.9K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Accessories"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/deep-scalp-detox-2-in-1-hair-serum-P507477",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:14:27",
+        "product_name": "Deep Scalp Detox 2-in-1 Hair Serum Cleanser",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 4 oz / 118.3 ml",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2712032"
+            }
+        ],
+        "rating": "width:93.33399999999999%",
+        "product_reviews": "3",
+        "ingredients": "-Australian Tea Tree Oil, pH-balancing Pink Clay, and Lemon Peel Oil: Purge dirt, dead skin, and lingering product.Aqua (Water/Eau), Glycerin, Mandelic Acid, Lactic Acid, Polyquaternium-37, Polyquaternium-11, Ocimum Basilicum (Basil) Extract, Citrus Limon (Lemon) Peel Oil, Melaleuca Alternifolia (Tea Tree) Leaf Oil, Maris Aqua (Sea Water/ Eau de mer), Chlorella Vulgaris Extract, Kaolin, Lavandula Stoechas Flower/Stem Extract, Laminaria Digitata Extract, Caprylyl Glycol, Caprylyl/Capryl Glucoside, Dicaprylyl Carbonate, Triethyl Citrate, Acrylates/Stearyl Methacrylate Copolymer, Diisopropyl Adipate, Sorbitan Oleate, Saccharide Isomerate, Illite, Sodium Benzoate, Lauryl Glucoside, Citric Acid, Phenoxyethanol, Sodium Hydroxide, Ethylhexylglycerin, Limonene.",
+        "n_loves": "112",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Scalp Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-shower-brush-P475982",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:14:38",
+        "product_name": "Shower Detangling Brush",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [],
+                "price": [
+                    "$22.00"
+                ],
+                "sku": "Item 2494482"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [],
+                "price": [
+                    "$12.00"
+                ],
+                "sku": "Item 2496735"
+            }
+        ],
+        "rating": "width:81.886%",
+        "product_reviews": "53",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "12.9K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Brushes & Combs"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-edge-control-P474850",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:14:51",
+        "product_name": "Edge Control",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 4 oz/ 118.3 mL"
+                ],
+                "price": [
+                    "$15.00"
+                ],
+                "sku": "Item 2494409"
+            }
+        ],
+        "rating": "width:84.054%",
+        "product_reviews": "74",
+        "ingredients": "-Camellia Sinensis (Tea) Leaf Extract-Cucumber Fruit Extract-Aloe Leaf JuiceWater/Aqua/Eau, Ceteareth-25, PEG-7 Glyceryl Cocoate, VP/VA Copolymer, Glycerin, Beeswax (Cera Alba), Mangifera Indica (Mango) Seed Butter, Caryodendron Orinocense Seed Oil, Cucumis Sativus (Cucumber) Fruit Extract, Aloe Barbadensis Leaf Extract, Camellia Sinensis Leaf Extract, Panthenol, Ethylhexylglycerin, PEG-40 Hydrogenated Castor Oil, Sodium Bisulfite, Laurtrimonium Chloride, Citric Acid, Glycereth-2 Cocoate, Benzoic Acid, Potassium Sorbate, Sodium Benzoate, Phenoxyethanol, Sodium Sulfite, Fragrance/ Parfum, Benzyl Benzoate, Hexyl Cinnamal, Amyl Cinnamal, Hydroxycitronellal, Linalool, Citronellol, Limonene, Coumarin, Geraniol, Red 33 (CI 17200), Yellow 5 (CI 19140)",
+        "n_loves": "3.9K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-beauty-by-tracee-ellis-ross-shine-spray-P504843",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:15:04",
+        "product_name": "Shine Spray",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 4.75 oz / 141 mL"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2654457"
+            }
+        ],
+        "rating": "width:90%",
+        "product_reviews": "12",
+        "ingredients": "Isododecane, Ethylhexyl Palmitate, C13-15 Alkane, Crambe Abyssinica Seed Oil Phytosterol Esters, Castor Oil Propanediol Esters, Plumeria Acutifolia Flower Extract, Pentaclethra Macroloba Seed Oil/Behenic Acid/Aminopropanediol Amides/Esters, Dicaprylyl Ether, Phenoxyethanol, Ethylhexyl Methoxycinnamate, Fragrance (Parfum), Benzyl Benzoate, Hexyl Cinnamal, Amyl Cinnamal, Hydroxycitronellal, Linalool, Citronellol, Limonene, Coumarin.",
+        "n_loves": "2.1K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-mist-spray-bottle-P475981",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:15:16",
+        "product_name": "Mist Spray Bottle",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [],
+        "rating": "width:82.962%",
+        "product_reviews": "54",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "20K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Accessories"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-lightweight-conditioner-P475985",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:15:28",
+        "product_name": "Lightweight Conditioner",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 13 oz/ 384.5 mL"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2494508"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 29 oz/ 857.6 mL"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2494680"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3 oz/ 88.7 mL"
+                ],
+                "price": [
+                    "$12.00"
+                ],
+                "sku": "Item 2494672"
+            }
+        ],
+        "rating": "width:89.09%",
+        "product_reviews": "44",
+        "ingredients": "Water/Aqua/Eau, Cetearyl Alcohol, Glycerin, Behentrimonium Chloride, Cocos Nucifera (Coconut) Oil, Dipropylene Glycol, Biotin, Chondrus Crispus, Rosmarinus Officinalis (Rosemary) Leaf Extract, Aloe Barbadensis Leaf Juice, Cocos Nucifera (Coconut) Fruit Powder, Phytol, Panthenol, Ethylhexylglycerin, Citric Acid, Polyquaternium-10, Stearalkonium Chloride, Isomalt, Stearyl Alcohol, Cetyl Hydroxyethylcellulose, Cetrimonium Chloride, Maltodextrin, Sodium Starch Octenylsuccinate, Sodium Benzoate, Potassium Sorbate, Phenoxyethanol, Fragrance/Parfum, Benzyl Benzoate, Hexyl Cinnamal, Amyl Cinnamal, Hydroxycitronellal, Linalool",
+        "n_loves": "3.4K",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Conditioner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-hair-pick-P475979",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:15:41",
+        "product_name": "Hair Pick",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Black"
+                ],
+                "price": [
+                    "$12.00"
+                ],
+                "sku": "Item 2494458"
+            }
+        ],
+        "rating": "width:78.572%",
+        "product_reviews": "14",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "4K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Brushes & Combs"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-mini-curl-gel-P475997",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:16:03",
+        "product_name": "Mini Curl Gel",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3 oz/ 88.7 mL"
+                ],
+                "price": [
+                    "$12.00"
+                ],
+                "sku": "Item 2494623"
+            }
+        ],
+        "rating": "width:60.45399999999999%",
+        "product_reviews": "44",
+        "ingredients": "Water/Aqua/Eau, Glycerin, Cetearyl Alcohol, Aloe Barbadensis Leaf Extract, Cocos Nucifera (Coconut) Oil, Behentrimonium Methosulfate, Wheat Amino Acids, Benzyl Alcohol, Hydrolyzed Silk, Caryodendron Orinocense Seed Oil, Cocos Nucifera (Coconut) Fruit Extract, Rosmarinus Officinalis (Rosemary) Leaf Extract, Helianthus Annuus (Sunflower) Seed Oil, PEG-40 Hydrogenated Castor Oil, PEG-60 Hydrogenated Castor Oil, Cetrimonium Chloride, Citric Acid, Hydroxyethylcellulose, Guar Hydroxypropyltrimonium Chloride, Ethylhexylglycerin, Disodium EDTA, Potassium Sorbate, Sodium Benzoate, Phenethyl Alcohol, Caprylyl Glycol, Polysorbate 60, Phenoxyethanol, Disodium Phosphate, Sodium Phosphate, Sodium Sulfite, Fragrance/Parfum, Benzyl Benzoate, Hexyl Cinnamal, Amyl Cinnamal, Hydroxycitronellal, Linalool, Citronellol, Limonene",
+        "n_loves": "5.6K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-mini-leave-in-conditioner-P475999",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:16:15",
+        "product_name": "Mini Leave-In Conditioner",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3 oz / Sweet Floral Essences of Neroli, Rose, and Patchouli"
+                ],
+                "price": [
+                    "$12.00"
+                ],
+                "sku": "Item 2494375"
+            }
+        ],
+        "rating": "width:80.93%",
+        "product_reviews": "43",
+        "ingredients": "Aqua (Water, Eau), Cetearyl Alcohol, Behentrimonium Methosulfate, Caprylic/Capric Triglyceride, Butylene Glycol, Biotin, Panthenol, Simmondsia Chinensis (Jojoba) Seed Oil, Ricinus Communis (Castor) Seed Oil, Persea Gratissima (Avocado) Oil, Olea Europaea (Olive) Fruit Oil, Melaleuca Alternifolia (Tea Tree) Leaf Oil, Mel (Honey, Miel), Cocos Nucifera (Coconut) Oil, Argania Spinosa Kernel Oil, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Butyrospermum Parkii (Shea) Oil, Hydrolyzed Vegetable Protein PG-Propyl Silanetriol, Aloe Barbadensis Leaf Extract, Tocopherol, Polyquaternium-37, Propylene Glycol Dicaprylate/Dicaprate, Ethylhexylglycerin, Trideceth-3, Trideceth-15, Cetrimonium Chloride, Amodimethicone, Parfum (Fragrance), PPG-1 Trideceth-6, Glycerin, Aminomethyl Propanol, Phenoxyethanol, Citric Acid, Alcohol, Acetic Acid, Potassium Sorbate, Disodium EDTA, Linalool, Amyl Cinnamal, Butylphenyl Methylpropional, Benzyl Benzoate, Hydroxycitronellal, Citronellol, Coumarin, Limonene, Hexyl Cinnamal",
+        "n_loves": "7.6K",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Conditioner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-mini-intensive-conditioner-P475972",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:16:28",
+        "product_name": "Mini Intensive Conditioner",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3 oz/ 88.7 mL"
+                ],
+                "price": [
+                    "$12.00"
+                ],
+                "sku": "Item 2494573"
+            }
+        ],
+        "rating": "width:85.45400000000001%",
+        "product_reviews": "11",
+        "ingredients": "-Safflower Seed Oil-Jojoba Oil -Avocado Oil Aqua (Water, Eau), Cetearyl Alcohol, Stearic Acid, Persea Gratissima (Avocado) Oil, Butyrospermum Parkii (Shea) Butter, PEG-8 Beeswax, Glycerin, Ethylhexyl Palmitate, Carthamus Tinctorius (Safflower) Seed Oil, Behentrimonium Methosulfate, Jojoba Esters, Cetyl Alcohol, Helianthus Annuus (Sunflower) Seed Wax, Tocopherol, Glycine Soja (Soybean) Oil, Polyglycerin-3, Acacia Decurrens Flower Wax, Polyquaternium-37, Polyquaternium-10, Ethylhexylglycerin, Parfum (Fragrance), Isopropyl Alcohol, Sodium Chloride, Sodium Acetate, Phenoxyethanol, Benzyl Benzoate.",
+        "n_loves": "1.5K",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Conditioner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-mini-hydration-shampoo-P475998",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:16:40",
+        "product_name": "Mini Hydration Shampoo",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3 oz/ 88.7 mL"
+                ],
+                "price": [
+                    "$12.00"
+                ],
+                "sku": "Item 2494326"
+            }
+        ],
+        "rating": "width:73.334%",
+        "product_reviews": "15",
+        "ingredients": "-Aloe Vera Leaf Juice-Biotin-Jojoba OilAqua (Water, Eau), Sodium C14-16 Olefin Sulfonate, Cocamidopropyl Betaine, Propanediol, Glycol Distearate, Argania Spinosa Kernel Oil, Cocos Nucifera (Coconut) Oil, Mel (Honey, Miel), Melaleuca Alternifolia (Tea Tree) Leaf Oil, Olea Europaea (Olive) Fruit Oil, Biotin, Persea Gratissima (Avocado) Oil, Ricinus Communis (Castor) Seed Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Butyrospermum Parkii (Shea) Butter, Aloe Barbadensis Leaf Juice, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Glycine Soja (Soybean) Oil, Glycine Soja (Soybean) Sterols, Glycolipids, Glycerin, Phospholipids, Amodimethicone, Guar Hydroxypropyltrimonium Chloride, Hydroxyethylcellulose, Lauryl Lactyl Lactate, Hydroxyacetophenone, PEG-150 Distearate, Parfum (Fragrance), Hydrolyzed Vegetable Protein PG-Propyl Silanetriol, Celluose, Phenoxyethanol, Citric Acid, PEG-150 Stearate, Disodium EDTA, PEG-1M, Stearic Acid, Sodium Hydroxide, Sodium Acetate, Potassium Sorbate, Sodium Benzoate, Linalool.",
+        "n_loves": "3K",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Shampoo"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-mini-hydrating-mist-P475996",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:16:52",
+        "product_name": "Mini Hydrating Hair Mist",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3 oz/ 88.7 mL"
+                ],
+                "price": [
+                    "$9.00"
+                ],
+                "sku": "Item 2494631"
+            }
+        ],
+        "rating": "width:71.304%",
+        "product_reviews": "23",
+        "ingredients": "Water/Aqua/Eau, Glycerin, Polysorbate 20, Humulus Lupulus (Hops) Extract, Caryodendron Orinocense Seed Oil, Cocos Nucifera (Coconut) Fruit Water, Butyrospermum Parkii (Shea) Butter, Cocos Nucifera (Coconut) Oil, Carthamus Tinctorius (Safflower) Seed Oil, Cocos Nucifera (Coconut) Fruit Juice, Persea Gratissima (Avocado) Oil, Aloe Barbadensis Leaf Juice, Phospholipids, Cetrimonium Chloride, Citric Acid, Saccharum Officinarum (Sugarcane) Extract, Tocopheryl Acetate, Caprylyl/Capryl Glucoside, Glyceryl Stearate, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Cetearyl Alcohol, Polyisobutene, Ethylhexylglycerin, Polyurethane-14, AMP-Acrylates Copolymer, Ceteth-10 Phosphate, Aminomethyl Propanol, Disodium EDTA, Tetrasodium Glutamate Diacetate, Propanediol, Sorbitan Oleate, Glyceryl Stearate SE, Dicetyl Phosphate, Stearic Acid, Potassium Stearate, Caprylic/Capric Triglyceride, Sodium Stearoyl Lactylate, Glyceryl Caprylate, Glyceryl Undecylenate, Polyglyceryl-10 Dioleate, Polyglyceryl-10 Oleate, Phenoxyethanol, Potassium Sorbate, Fragrance/Parfum, Benzyl Benzoate, Hexyl Cinnamal, Amyl Cinnamal, Hydroxycitronellal, Linalool, Citronellol, Limonene, Coumarin",
+        "n_loves": "8.3K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-hydration-shampoo-P475150",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:17:11",
+        "product_name": "Hydration Shampoo",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 9.8 oz/ 289.8 mL"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2494318"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3 oz/ 88.7 mL"
+                ],
+                "price": [
+                    "$12.00"
+                ],
+                "sku": "Item 2494326"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 25 oz/ 740 mL"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2494565"
+            }
+        ],
+        "rating": "width:87.94600000000001%",
+        "product_reviews": "73",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "9.9K",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Shampoo"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-wide-tooth-comb-P475983",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:17:26",
+        "product_name": "Wide Tooth Comb",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [],
+                "price": [
+                    "$19.00"
+                ],
+                "sku": "Item 2494490"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [],
+                "price": [
+                    "$10.00"
+                ],
+                "sku": "Item 2496743"
+            }
+        ],
+        "rating": "width:88.422%",
+        "product_reviews": "19",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "5.2K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Brushes & Combs"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-mini-medium-conditioner-P476000",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:17:39",
+        "product_name": "Mini Medium Conditioner",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3 oz/ 88.7 mL"
+                ],
+                "price": [
+                    "$12.00"
+                ],
+                "sku": "Item 2494607"
+            }
+        ],
+        "rating": "width:70%",
+        "product_reviews": "4",
+        "ingredients": "- Jojoba Oil- Aloe- BiotinWater/Aqua/Eau, Cetearyl Alcohol, Glycol Distearate, Steartrimonium Chloride, Cocoglucosides Hydroxypropyltrimonium Chloride, Isopropyl Alcohol, Sodium Chloride, Citric Acid, Butyrospermum Parkii (Shea) Butter, Cetrimonium Chloride, Amodimethicone, Biotin, Argania Spinosa Kernel Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Cocos Nucifera (Coconut) Oil, Persea Gratissima (Avocado) Oil, Melaleuca Alternifolia (Tea Tree) Leaf Oil, Honey/Mel/Miel, Olea Europaea (Olive) Fruit Oil, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Ricinus Communis (Castor) Seed Oil, Aloe Barbadensis Leaf Juice, Copernicia Cerifera (Carnauba) Wax/Copernicia Cerifera Cera/Cire de carnauba, Ethylhexylglycerin, Panthenol, Hydrolyzed Vegetable Protein PG-Propyl Silanetriol, Trideceth-15, Trideceth-3, Acetic Acid, Polyquaternium-37, Propylene Glycol Dicaprylate/Dicaprate, PPG-1 Trideceth-6, C11-13 Isoparaffin, Potassium Sorbate, Phenoxyethanol, Fragrance/Parfum, Benzyl Benzoate.",
+        "n_loves": "1.6K",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Conditioner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-treatment-mask-P475986",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:17:52",
+        "product_name": "Treatment Mask",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 15 oz/ 443.6 mL"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2494516"
+            }
+        ],
+        "rating": "width:84.256%",
+        "product_reviews": "47",
+        "ingredients": "-Moringa Seed Extract-Hibiscus-Rice ProteinWater/Aqua/Eau, Polyquaternium-37, Saccharomyces/Rice Ferment Filtrate, Hydrolyzed Rice Protein, Butylene Glycol, Hibiscus Esculentus Seed Extract, Caesalpinia Spinosa Fruit Pod Extract, Moringa Oleifera Seed Extract, Helianthus Annuus (Sunflower) Sprout Extract, Sodium Benzoate, Disodium Phosphate, Citric Acid, Glycerin, Behentrimonium Chloride, Cetrimonium Chloride, Hydrogenated Castor Oil/Sebacic Acid Copolymer, Panthenol, Dicaprylyl Carbonate, Quaternium-87, Isopropyl Alcohol, Propylene Glycol, Chlorphenesin, Lauryl Glucoside, Aminomethyl Propanol, Ethylhexylglycerin, Potassium Sorbate, Fragrance/Parfum, Limonene, Geraniol, Citronellol, Linalool, Phenoxyethanol.",
+        "n_loves": "8.8K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Masks"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-argan-oil-blend-P475970",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:18:05",
+        "product_name": "Argan Hair & Scalp Oil Blend",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.9 oz/ 115.3 mL"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2494292"
+            }
+        ],
+        "rating": "width:89.09%",
+        "product_reviews": "11",
+        "ingredients": "-Argan Oil -Apricot Oil -Sunflower Seed Oil Argania Spinosa Kernel Oil, Helianthus Annuus (Sunflower) Seed Oil, Ricinus Communis (Castor) Seed Oil, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Prunus Armeniaca (Apricot) Kernel Oil, Butyrospermum Parkii (Shea) Oil, Citric Acid.",
+        "n_loves": "4.3K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Oil"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-jojoba-oil-hair-serum-self-heating-packs-P475975",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:18:18",
+        "product_name": "Jojoba Oil Hair Serum Self-Heating Packs",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [],
+        "rating": "width:72%",
+        "product_reviews": "10",
+        "ingredients": "-Jojoba Oil-Lavender Oil-Safflower OilCarthamus Tinctorius (Safflower) Seed Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Rosa Canina Seed Oil, Lavandula Hybrida Oil, Hydrogenated Olive Oil Unsaponifiables, Hydrogenated Ethylhexyl Olivate, Linalool, Limonene.",
+        "n_loves": "2.9K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Oil"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-intensive-conditioner-P475973",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:18:28",
+        "product_name": "Intensive Conditioner",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 13 oz/ 384.5 mL"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2494334"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 29 oz/ 857.6 mL"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2494581"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3 oz/ 88.7 mL"
+                ],
+                "price": [
+                    "$12.00"
+                ],
+                "sku": "Item 2494573"
+            }
+        ],
+        "rating": "width:76.25%",
+        "product_reviews": "32",
+        "ingredients": "-Safflower Seed Oil -Jojoba Oil -Avocado Oil Aqua (Water, Eau), Cetearyl Alcohol, Stearic Acid, Persea Gratissima (Avocado) Oil, Butyrospermum Parkii (Shea) Butter, PEG-8 Beeswax, Glycerin, Ethylhexyl Palmitate, Carthamus Tinctorius (Safflower) Seed Oil, Behentrimonium Methosulfate, Jojoba Esters, Cetyl Alcohol, Helianthus Annuus (Sunflower) Seed Wax, Tocopherol, Glycine Soja (Soybean) Oil, Polyglycerin-3, Acacia Decurrens Flower Wax, Polyquaternium-37, Polyquaternium-10, Ethylhexylglycerin, Parfum (Fragrance), Isopropyl Alcohol, Sodium Chloride, Sodium Acetate, Phenoxyethanol, Benzyl Benzoate.",
+        "n_loves": "3.4K",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Conditioner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-hydrating-mist-P475976",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:18:42",
+        "product_name": "Hydrating Hair Mist",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 12 oz/ 354.9 mL"
+                ],
+                "price": [
+                    "$23.00"
+                ],
+                "sku": "Item 2494417"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3 oz/ 88.7 mL"
+                ],
+                "price": [
+                    "$9.00"
+                ],
+                "sku": "Item 2494631"
+            }
+        ],
+        "rating": "width:77.014%",
+        "product_reviews": "67",
+        "ingredients": "Water/Aqua/Eau, Glycerin, Polysorbate 20, Humulus Lupulus (Hops) Extract, Caryodendron Orinocense Seed Oil, Cocos Nucifera (Coconut) Fruit Water, Butyrospermum Parkii (Shea) Butter, Cocos Nucifera (Coconut) Oil, Carthamus Tinctorius (Safflower) Seed Oil, Cocos Nucifera (Coconut) Fruit Juice, Persea Gratissima (Avocado) Oil, Aloe Barbadensis Leaf Juice, Phospholipids, Cetrimonium Chloride, Citric Acid, Saccharum Officinarum (Sugarcane) Extract, Tocopheryl Acetate, Caprylyl/Capryl Glucoside, Glyceryl Stearate, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Cetearyl Alcohol, Polyisobutene, Ethylhexylglycerin, Polyurethane-14, AMP-Acrylates Copolymer, Ceteth-10 Phosphate, Aminomethyl Propanol, Disodium EDTA, Tetrasodium Glutamate Diacetate, Propanediol, Sorbitan Oleate, Glyceryl Stearate SE, Dicetyl Phosphate, Stearic Acid, Potassium Stearate, Caprylic/Capric Triglyceride, Sodium Stearoyl Lactylate, Glyceryl Caprylate, Glyceryl Undecylenate, Polyglyceryl-10 Dioleate, Polyglyceryl-10 Oleate, Phenoxyethanol, Potassium Sorbate, Fragrance/Parfum, Benzyl Benzoate, Hexyl Cinnamal, Amyl Cinnamal, Hydroxycitronellal, Linalool, Citronellol, Limonene, Coumarin",
+        "n_loves": "6.1K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-mini-shower-brush-P475993",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:18:59",
+        "product_name": "Mini Shower Detangling Brush",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [],
+                "price": [
+                    "$12.00"
+                ],
+                "sku": "Item 2496735"
+            }
+        ],
+        "rating": "width:92.38%",
+        "product_reviews": "42",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "17.5K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Brushes & Combs"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-jojoba-oil-blend-P475974",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:19:12",
+        "product_name": "Jojoba Hair & Scalp Oil Blend",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.9 oz/ 115.3 mL"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2494342"
+            }
+        ],
+        "rating": "width:95.71400000000001%",
+        "product_reviews": "28",
+        "ingredients": "- Jojoba Oil - Lavender Oil - Safflower Oil Carthamus Tinctorius (Safflower) Seed Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Rosa Canina Seed Oil, Hydrogenated Ethylhexyl Olivate, Hydrogenated Olive Oil, Lavandula Angustifolia (Lavender) Oil.",
+        "n_loves": "8K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Oil"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-beauty-by-tracee-ellis-ross-bristle-brush-P504846",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:19:24",
+        "product_name": "Double-Sided Bristle Brush",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [],
+        "rating": "width:92.94200000000001%",
+        "product_reviews": "17",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "6K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Brushes & Combs"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/detangling-nectar-P500996",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:19:34",
+        "product_name": "Detangling Nectar",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 12 oz / 354.9 mL"
+                ],
+                "price": [
+                    "$33.00"
+                ],
+                "sku": "Item 2609683"
+            }
+        ],
+        "rating": "width:85.38399999999999%",
+        "product_reviews": "52",
+        "ingredients": "-Sea Moss, Aloe Vera, and Grapeseed Oil: Leave hair shiny and hydrated. Aqua/Water/Eau, Glycerin, Aloe Barbadensis Leaf Extract, Chondrus Crispus Extract, Vitis Vinifera (Grape) Seed Oil, Caprylic/Capric Triglyceride, Polyglyceryl-4 Caprate, Polyglyceryl-6 Caprylate, Polyquaternium-10, Hydroxyethylcellulose, Polysorbate 60, Cetrimonium Chloride, Disodium Phosphate, Benzyl Alcohol, Potassium Sorbate, Sodium Benzoate, Sodium PCA, Sodium Phosphate, Sodium Sulfite, Citric Acid, Ethylhexylglycerin, Fragrance (Parfum), Phenoxyethanol.",
+        "n_loves": "6.6K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/curl-cocktail-hair-set-P501798",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:19:47",
+        "product_name": "Curl Cocktail Hair Set",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [],
+        "rating": "width:88.108%",
+        "product_reviews": "37",
+        "ingredients": "\"Curl Gel: Water/Aqua/Eau, Glycerin, Cetearyl Alcohol, Aloe Barbadensis Leaf Extract, Cocos Nucifera (Coconut) Oil, Behentrimonium Methosulfate, Wheat Amino Acids, Benzyl Alcohol, Hydrolyzed Silk, Caryodendron Orinocense Seed Oil, Cocos Nucifera (Coconut) Fruit Extract, Rosmarinus Officinalis (Rosemary) Leaf Extract, Helianthus Annuus (Sunflower) Seed Oil, PEG-40 Hydrogenated Castor Oil, PEG-60 Hydrogenated Castor Oil, Cetrimonium Chloride, Citric Acid, Hydroxyethylcellulose, Guar Hydroxypropyltrimonium Chloride, Ethylhexylglycerin, Disodium EDTA, Potassium Sorbate, Sodium Benzoate, Phenethyl Alcohol, Caprylyl Glycol, Polysorbate 60, Phenoxyethanol, Disodium Phosphate, Sodium Phosphate, Sodium Sulfite, Fragrance/Parfum, Benzyl Benzoate, Hexyl Cinnamal, Amyl Cinnamal, Hydroxycitronellal, Linalool, Citronellol, Limonene \n\nStyling Cream: Water/Aqua/Eau, Butyrospermum Parkii (Shea) Butter, Cetearyl Alcohol, Glycerin, Ceteareth-20, PEG-40 Hydrogenated Castor Oil, Cocos Nucifera (Coconut) Oil, PEG-120 Methyl Glucose Dioleate, Theobroma Cacao (Cocoa) Seed Butter, Potassium Carbonate, Rosmarinus Officinalis (Rosemary) Leaf Extract, Helianthus Annuus (Sunflower) Seed Oil, Caryodendron Orinocense Seed Oil, Cocos Nucifera (Coconut) Fruit Extract, Prunus Amygdalus Dulcis (Sweet Almond) Oil, PEG-60 Hydrogenated Castor Oil, Aloe Barbadensis Leaf Extract, Hydrolyzed Wheat Protein, Ethylhexylglycerin, Caprylyl Glycol, Polysorbate 60, Citric Acid, Phenoxyethanol, Hydroxyethylcellulose, Disodium EDTA, Disodium Phosphate, Sodium Phosphate, Sodium Benzoate, Benzyl Alcohol, Phenethyl Alcohol, Potassium Sorbate, Sodium Sulfite, Fragrance/Parfum, Benzyl Benzoate, Hexyl Cinnamal, Amyl Cinnamal, Hydroxycitronellal, Linalool, Citronellol, Limonene, Coumarin\n\nLeave-In Conditioner: Aqua (Water, Eau), Cetearyl Alcohol, Behentrimonium Methosulfate, Caprylic/Capric Triglyceride, Butylene Glycol, Biotin, Panthenol, Simmondsia Chinensis (Jojoba) Seed Oil, Ricinus Communis (Castor) Seed Oil, Persea Gratissima (Avocado) Oil, Olea Europaea (Olive) Fruit Oil, Melaleuca Alternifolia (Tea Tree) Leaf Oil, Mel (Honey, Miel), Cocos Nucifera (Coconut) Oil, Argania Spinosa Kernel Oil, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Butyrospermum Parkii (Shea) Oil, Hydrolyzed Vegetable Protein PG-Propyl Silanetriol, Aloe Barbadensis Leaf Extract, Tocopherol, Polyquaternium-37, Propylene Glycol Dicaprylate/Dicaprate, Ethylhexylglycerin, Trideceth-3, Trideceth-15, Cetrimonium Chloride, Amodimethicone, Parfum (Fragrance), PPG-1 Trideceth-6, Glycerin, Aminomethyl Propanol, Phenoxyethanol, Citric Acid, Alcohol, Acetic Acid, Potassium Sorbate, Disodium EDTA, Linalool, Amyl Cinnamal, Butylphenyl Methylpropional, Benzyl Benzoate, Hydroxycitronellal, Citronellol, Coumarin, Limonene, Hexyl Cinnamal\"",
+        "n_loves": "9K",
+        "categories": [
+            "Hair",
+            "Value & Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/moisture-hair-milk-P507777",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:19:57",
+        "product_name": "Moisture Hair Milk",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 12 oz / 354.9 ml",
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2684694"
+            }
+        ],
+        "rating": "width:96.66600000000001%",
+        "product_reviews": "6",
+        "ingredients": "-Rich Amla Oil, Irish Moss, and Agave Nectar: Soften curls to reduce breakage and finesse unwanted frizz.Aqua (Water/Eau), Glycerin, Cetearyl Alcohol, C12-15 Alkyl Benzoate, Cocos Nucifera (Coconut) Oil, Behentrimonium Methosulfate, Sesamum Indicum (Sesame) Seed Oil, Agave Rigida (Sisal) Extract, Chondrus Crispus Extract, Phyllanthus Emblica Fruit Extract, Panthenol, Glyceryl Stearate SE, Polyquaternium-37, Hydroxypropyl Bis-Hydroxyethyldimonium Chloride, Benzyl Alcohol, Polysorbate 60, Hydroxyethylcellulose, Pentylene Glycol, Ethylhexylglycerin, Phenoxyethanol, Disodium Phosphate, Sodium Phosphate, Parfum (Fragrance), Amyl Cinnamal, Benzyl Benzoate, Citronellol, Coumarin, Limonene, Hexyl Cinnamal, Hydroxycitronellal, Linalool.",
+        "n_loves": "93",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Leave-In Conditioner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-beauty-by-tracee-ellis-ross-paddle-brush-P504841",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:20:10",
+        "product_name": "Paddle Brush",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [],
+        "rating": "width:93.75%",
+        "product_reviews": "16",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "1.9K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Brushes & Combs"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-edge-tool-P475978",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:20:21",
+        "product_name": "Edge Tool",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [],
+        "rating": "width:89.474%",
+        "product_reviews": "19",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "8.7K",
+        "categories": [
+            "Tools & Brushes",
+            "Hair Tools",
+            "Brushes & Combs"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-scalp-serum-P475987",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:20:31",
+        "product_name": "Scalp Serum for Dry Hair & Scalp",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 4 oz/ 118.3 mL"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2494524"
+            }
+        ],
+        "rating": "width:68.23599999999999%",
+        "product_reviews": "34",
+        "ingredients": "-Peppermint Oil-Rosemary Oil-Lavender OilWater/Aqua/Eau, Glycerin, Polysorbate 20, Propanediol, Aloe Barbadensis Leaf Juice, Mentha Piperita (Peppermint) Oil, Citric Acid, Ricinus Communis (Castor) Seed Oil, Rosmarinus Officinalis (Rosemary) Leaf Oil, Lavandula Angustifolia (Lavender) Oil, Lavandula Hybrida Oil, Mentha Arvensis Leaf Oil, Serenoa Serrulata Fruit Extract, Taraxacum Officinale (Dandelion) Extract, Panthenol, Sodium Citrate, Triethyl Citrate, Carrageenan, Niacinamide, Xanthan Gum, Benzoic Acid, Chlorphenesin, Sorbic Acid, Linalool, Limonene, Ethylhexylglycerin, Phenoxyethanol.",
+        "n_loves": "5.9K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Scalp Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-mini-styling-cream-P477001",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:20:45",
+        "product_name": "Mini Styling Cream for Curly &Coily Hair",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3 oz/ 88.7 mL"
+                ],
+                "price": [
+                    "$12.00"
+                ],
+                "sku": "Item 2494656"
+            }
+        ],
+        "rating": "width:71.428%",
+        "product_reviews": "21",
+        "ingredients": "-Rosemary Leaf Extract-Sunflower Seed Oil-Shea ButterWater (Aqua, Eau), Butyrospermum Parkii (Shea) Butter, Cetearyl Alcohol, Glycerin, Ceteareth-20, Polysorbate 60, PEG-40 Hydrogenated Castor Oil, PEG-120 Methyl Glucose Dioleate, Cocos Nucifera (Coconut) Oil, Phenoxyethanol, Hydroxyethylcellulose, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Theobroma Cacao (Cocoa) Seed Butter, Fragrance (Parfum), Disodium EDTA, Citric Acid, Ethylhexylglycerin, Aloe Barbadensis Leaf Extract, Sodium Benzoate, Sodium Sulfite, Potassium Sorbate, Cocos Nucifera (Coconut) Fruit Extract, PEG-60 Hydrogenated Castor Oil, Rosmarinus Officinalis (Rosemary) Leaf Extract, Helianthus Annuus (Sunflower) Seed Oil, Phenethyl Alcohol, Caprylyl Glycol, Caryodendron Orinocense Seed Oil, Hydrolyzed Wheat Protein.",
+        "n_loves": "6.7K",
+        "categories": [
+            "Hair",
+            "Hair Styling & Treatments",
+            "Hair Styling Products"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-medium-conditioner-P475149",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:20:57",
+        "product_name": "Medium Conditioner",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 13 oz/ 384.5 mL"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2494383"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3 oz/ 88.7 mL"
+                ],
+                "price": [
+                    "$12.00"
+                ],
+                "sku": "Item 2494607"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 29 oz/ 857.6 mL"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2494615"
+            }
+        ],
+        "rating": "width:95.136%",
+        "product_reviews": "37",
+        "ingredients": "- Jojoba Oil- Aloe- BiotinWater/Aqua/Eau, Cetearyl Alcohol, Glycol Distearate, Steartrimonium Chloride, Cocoglucosides Hydroxypropyltrimonium Chloride, Isopropyl Alcohol, Sodium Chloride, Citric Acid, Butyrospermum Parkii (Shea) Butter, Cetrimonium Chloride, Amodimethicone, Biotin, Argania Spinosa Kernel Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Cocos Nucifera (Coconut) Oil, Persea Gratissima (Avocado) Oil, Melaleuca Alternifolia (Tea Tree) Leaf Oil, Honey/Mel/Miel, Olea Europaea (Olive) Fruit Oil, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Ricinus Communis (Castor) Seed Oil, Aloe Barbadensis Leaf Juice, Copernicia Cerifera (Carnauba) Wax/Copernicia Cerifera Cera/Cire de carnauba, Ethylhexylglycerin, Panthenol, Hydrolyzed Vegetable Protein PG-Propyl Silanetriol, Trideceth-15, Trideceth-3, Acetic Acid, Polyquaternium-37, Propylene Glycol Dicaprylate/Dicaprate, PPG-1 Trideceth-6, C11-13 Isoparaffin, Potassium Sorbate, Phenoxyethanol, Fragrance/Parfum, Benzyl Benzoate.",
+        "n_loves": "5.3K",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Conditioner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-microfiber-towel-P475980",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:21:10",
+        "product_name": "Microfiber Hair Towel",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [],
+        "rating": "width:75%",
+        "product_reviews": "16",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "7.8K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Accessories"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/pattern-heavy-conditioner-P475990",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 07:21:20",
+        "product_name": "Heavy Conditioner",
+        "brand_name": "PATTERN by Tracee Ellis Ross",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 13 oz/ 384.5 mL"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2494532"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3 oz/ 88.7 mL"
+                ],
+                "price": [
+                    "$12.00"
+                ],
+                "sku": "Item 2494540"
+            },
+            {
+                "swatch_group": "Value size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 29 oz/ 857.6 mL"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2494557"
+            }
+        ],
+        "rating": "width:88.196%",
+        "product_reviews": "61",
+        "ingredients": "Water/Aqua/Eau, Cetearyl Alcohol, Butyrospermum Parkii (Shea) Butter, Persea Gratissima (Avocado) Oil, Cetyl Alcohol, Ethylhexyl Palmitate, PEG-8 Beeswax, Palmitic Acid, Stearic Acid, Glycerin, Behentrimonium Methosulfate, Jojoba Esters, Carthamus Tinctorius (Safflower) Seed Oil, Helianthus Annuus (Sunflower) Seed Wax, Tocopherol, Acacia Decurrens Extract, Polyquaternium-10, Polyquaternium-37, Propylene Glycol Dicaprylate/Dicaprate, Ethylhexylglycerin, Polyglycerin-3, Vegetable Oil/Olus/Huile v\u00e9g\u00e9tale, PPG-1 Trideceth-6, Phenoxyethanol, Fragrance/Parfum, Benzyl Benzoate",
+        "n_loves": "3.8K",
+        "categories": [
+            "Hair",
+            "Shampoo & Conditioner",
+            "Conditioner"
+        ]
+    }
+]

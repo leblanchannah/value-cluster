@@ -1,0 +1,665 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/lilly-lashes-power-liner-eyeliner-lash-adhesive-hybrid-P465812",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 01:29:47",
+        "product_name": "Power Liner - Eyeliner and Lash Adhesive Hybrid",
+        "brand_name": "Lilly Lashes",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "Color: Clear",
+                    "SALE"
+                ],
+                "price": [
+                    "$13.50",
+                    "$27.00"
+                ],
+                "sku": "Item 2397370"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "Color: Black",
+                    "SALE"
+                ],
+                "price": [
+                    "$13.50",
+                    "$27.00"
+                ],
+                "sku": "Item 2373579"
+            }
+        ],
+        "rating": "width:81.458%",
+        "product_reviews": "1.2K",
+        "ingredients": "CI 77499, Aqua, Styrene/Acrylates Copolymer, Propylene Glycol, Polyvinyl Alcohol, Caprylyl Glycol, Ethylhexylglycerin, Polysorbate 80, Tocopherol, Phenoxyethanol.",
+        "n_loves": "10.8K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyeliner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/sephora-collection-lilly-lashes-lash-scissors-P456005",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 01:29:59",
+        "product_name": "Lilly Lashes Lash Scissors",
+        "brand_name": "Lilly Lashes",
+        "options": [],
+        "rating": "width:46.666%",
+        "product_reviews": "9",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "3.2K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "False Eyelashes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/sephora-collection-lilly-lashes-lash-curler-P456006",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 01:30:09",
+        "product_name": "Lilly Lashes Lash Curler",
+        "brand_name": "Lilly Lashes",
+        "options": [],
+        "rating": "width:69%",
+        "product_reviews": "60",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "10.3K",
+        "categories": [
+            "Makeup",
+            "Accessories",
+            "Eyelash Curlers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lilly-lashes-click-magnetic-starter-kit-P502057",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 01:30:19",
+        "product_name": "Click Magnetic Collection Starter Kit\u2014Bestie",
+        "brand_name": "Lilly Lashes",
+        "options": [],
+        "rating": "width:38.5%",
+        "product_reviews": "40",
+        "ingredients": "Faux Mink Magnetic Lash: Synthetic Fibers.Click Magnetic Felt Tip Eyeliner: Styrene Acrylate Copolymer, Water, Propylene Glycol, Polyvinyl alcohol, Polysorbate 80, Phenoxyethanol, Octanediol, Ethylhexyl Glycerin, Iron Oxides (CI 77499).",
+        "n_loves": "3.7K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "False Eyelashes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/false-3d-faux-mink-butterfl-eye-half-eyelashes-P504914",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 01:30:30",
+        "product_name": "3D Faux Mink Butterfl'eye Half Eyelashes",
+        "brand_name": "Lilly Lashes",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Angel - round lash, complementary to all eye shapes"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2634699"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Dreamy - flare lash, complementary to all eye shapes"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2634681"
+            }
+        ],
+        "rating": "width:86.66600000000001%",
+        "product_reviews": "9",
+        "ingredients": "Synthetic Fibers On A Cotton Lash Band.",
+        "n_loves": "4.9K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "False Eyelashes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lilly-lashes-click-magnetic-liquid-eyeliner-P479332",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 01:30:42",
+        "product_name": "Click Magnetic Liquid Eyeliner",
+        "brand_name": "Lilly Lashes",
+        "options": [],
+        "rating": "width:45.714%",
+        "product_reviews": "7",
+        "ingredients": "Water (Aqua), Styrene Acrylates Copolymer, Iron Oxides, Ci 77266, Propylene Glycol, Tocopherol, Caprylyl Glycol, Ethyhexylglycerin, Phenoxyethanol.",
+        "n_loves": "2.4K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyeliner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lilly-lashes-lilly-lashes-3d-faux-mink-lashes-P471255",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 01:30:53",
+        "product_name": "Lilly Lashes 3D Faux Mink Lashes",
+        "brand_name": "Lilly Lashes",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: DOHA - flare lash style, most complimentary to hooded, downturned & almond eye shapes"
+                ],
+                "price": [
+                    "$38.00"
+                ],
+                "sku": "Item 2546323"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Mykonos - round lash style, most complimentary to upturned and almond eye shapes"
+                ],
+                "price": [
+                    "$38.00"
+                ],
+                "sku": "Item 2398329"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Rome - round lash style, most complimentary to almond, upturned & round eye shapes"
+                ],
+                "price": [
+                    "$38.00"
+                ],
+                "sku": "Item 2398345"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Miami - round lash style, complimentary to all eye shapes"
+                ],
+                "price": [
+                    "$38.00"
+                ],
+                "sku": "Item 2398311"
+            }
+        ],
+        "rating": "width:91.466%",
+        "product_reviews": "1.1K",
+        "ingredients": "Synthetic Fibers, 100% Cotton Lash Band.",
+        "n_loves": "22.5K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "False Eyelashes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lilly-lashes-brush-on-lash-adhesive-P451195",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 01:31:07",
+        "product_name": "Lilly Lashes Brush On Lash Adhesive",
+        "brand_name": "Lilly Lashes",
+        "options": [],
+        "rating": "width:89.782%",
+        "product_reviews": "1.2K",
+        "ingredients": "Acrylates/Ethylhexyl, Acrylate Copolymer, Aqua, Phenoxyethanol, Ethylhexygyycerin",
+        "n_loves": "22.5K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "False Eyelashes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lilly-lashes-click-magnetic-felt-tip-eyeliner-P501302",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 01:31:17",
+        "product_name": "Lilly Lashes Click Magnetic Felt Tip Eyeliner",
+        "brand_name": "Lilly Lashes",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "SALE"
+                ],
+                "price": [
+                    "$30.00",
+                    "$34.00"
+                ],
+                "sku": "Item 2582609"
+            }
+        ],
+        "rating": "width:87.162%",
+        "product_reviews": "296",
+        "ingredients": "Styrene Acrylate Copolymer, Water, Propylene Glycol, Polyvinyl Alcohol, Polysorbate 80, Phenoxyethanol, Octanediol, Ethylhexyl Glycerin, Iron Oxides (Ci 77499).",
+        "n_loves": "4K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyeliner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lilly-lashes-everyday-faux-mink-lashes-P483672",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 01:31:30",
+        "product_name": "Everyday Faux Mink Lashes",
+        "brand_name": "Lilly Lashes",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Naturale - Flare lash, most complementary to downturned, upturned and hooded eye shapes."
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2546356"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Miami Everyday - Round lash, complementary to all eye shapes"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2546331"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Bare It All - Flare lash, most complementary to almond, monolid and hooded eye shapes."
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2546364"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Blushing - Flare lash, most complementary to downturned, upturned and almond eye shapes."
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2546349"
+            }
+        ],
+        "rating": "width:89.56200000000001%",
+        "product_reviews": "525",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "12.8K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "False Eyelashes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lilly-lashes-everyday-faux-mink-brown-black-undone-P503738",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 01:31:44",
+        "product_name": "Everyday Faux Mink Brown Blended",
+        "brand_name": "Lilly Lashes",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Undressed - flare lash, complementary to all eye shapes"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2626976"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: In The Buff - flare lash, most complementary to monolid & almond eye shapes"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2626984"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Naked - flare lash, complementary to all eye shapes"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2626992"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Undone - flare lash, most complementary to downturned, hooded & almond eye shapes"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2626968"
+            }
+        ],
+        "rating": "width:100%",
+        "product_reviews": "19",
+        "ingredients": "Synthetic Fibers.",
+        "n_loves": "4.3K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "False Eyelashes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lilly-lashes-click-magnetic-value-set-P481826",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 01:31:58",
+        "product_name": "Click Magnetic Value Set",
+        "brand_name": "Lilly Lashes",
+        "options": [],
+        "rating": "width:90%",
+        "product_reviews": "4",
+        "ingredients": "Synthetic Fibers.",
+        "n_loves": "3K",
+        "categories": [
+            "Makeup",
+            "Value & Gift Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/level-up-lash-conditioning-serum-P501247",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 01:32:08",
+        "product_name": "Level Up Lash Conditioning Serum",
+        "brand_name": "Lilly Lashes",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "Size: .11 oz / 3.5 mL",
+                    "SALE"
+                ],
+                "price": [
+                    "$32.50",
+                    "$65.00"
+                ],
+                "sku": "Item 2550440"
+            }
+        ],
+        "rating": "width:78.788%",
+        "product_reviews": "330",
+        "ingredients": "-Biotin and Peptides: Help to strengthen and fortify lashes from root to tip.-Antioxidant and Vitamin Blend: Helps to nourish, protect, and visibly restore lashes.-Fermented Radish Root: Helps to moisturize and condition lashes.Water (Aqua), Glycerin, Butylene Glycol, Panthenol, Sodium Citrate, Leuconostoc / Radish Root Ferment Filtrate, 1,2-Hexanediol, Acetyl Tetrapeptide-3, Alanine, Arbutin, Arginine, Aspartic Acid, Benzoic Acid, Biotin, Calcium Gluconate, Caprylyl Glycol, Chamomilla Recutita (Matricaria) Flower Extract, Dextran, Ethylhexylglycerin, Gluconolactone, Glycine, Hexylene Glycol, Histidine, Hydrolyzed Glycosaminoglycans, Hydroxyethylcellulose, Isoleucine, Magnesium Ascorbyl Phosphate, Myristoyl Pentapeptide-17, Panax Ginseng Root Extract, PCA, Valine, Phenylalanine, Polydextrose, Polysorbate 20, Proline, Propylene Glycol, Serine, Vitis Vinifera (Grape) Seed Extract, Sodium Hyaluronate, Trifolium Pratense (Clover) Flower Extract, Yeast Extract, Sodium PCA, Threonine, Tocopheryl Acetate, Triethanolamine, Sodium Lactate, Phenoxyethanol, Sodium Benzoate, Sodium Metabisulfite.",
+        "n_loves": "3.8K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Mascara"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lilly-lashes-lilly-lashes-lite-faux-mink-lashes-P471256",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 01:32:22",
+        "product_name": "Lilly Lashes Lite Faux Mink Lashes",
+        "brand_name": "Lilly Lashes",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Color: Diamonds - round lash style, most complimentary to round, hooded, upturned & almond eye shapes",
+                    "OUT OF STOCK",
+                    "SALE"
+                ],
+                "price": [
+                    "$13.50",
+                    "$27.00"
+                ],
+                "sku": "Item 2373561"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Color: Miami Lite - round lash style, complimentary to all eye shapes",
+                    "OUT OF STOCK",
+                    "SALE"
+                ],
+                "price": [
+                    "$13.50",
+                    "$27.00"
+                ],
+                "sku": "Item 2373538"
+            }
+        ],
+        "rating": "width:94.49400000000001%",
+        "product_reviews": "1.2K",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "36.5K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "False Eyelashes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/sheer-band-lash-P506491",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 01:32:35",
+        "product_name": "Sheer Band False Eyelashes",
+        "brand_name": "Lilly Lashes",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "NEW",
+                "size": null,
+                "name": [
+                    "Color: Persuasive - flare lash, complementary to all eye shapes, natural fluttery length and volume",
+                    "NEW",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2689776"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "NEW",
+                "size": null,
+                "name": [
+                    "Color: Desirable - flare lash, complementary to all eye shapes, gradual wispy length and volume",
+                    "NEW",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2689768"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "NEW",
+                "size": null,
+                "name": [
+                    "Color: Enticing - half lash, complementary to all eye shapes, gradual wispy length and volume",
+                    "NEW",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2689784"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "NEW",
+                "size": null,
+                "name": [
+                    "Color: Playful - half lash, complementary to all eye shapes, natural fluttery length and volume",
+                    "NEW",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2689792"
+            }
+        ],
+        "rating": "width:94.666%",
+        "product_reviews": "15",
+        "ingredients": "Lashes: Synthetic Fibers.Lash Band: Plastic Yarn Fiber.",
+        "n_loves": "2.9K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "False Eyelashes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/sephora-collection-lilly-lashes-lash-applicator-P456004",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 01:32:49",
+        "product_name": "Lilly Lashes Lash Applicator",
+        "brand_name": "Lilly Lashes",
+        "options": [],
+        "rating": "width:80%",
+        "product_reviews": "4",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "6.1K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "False Eyelashes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lilly-lashes-click-magnetic-lashes-collection-P501299",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 01:33:00",
+        "product_name": "Click Magnetic Faux Mink False Lash Collection",
+        "brand_name": "Lilly Lashes",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "Color: Click Magnetic - 4EVER - a flare lash, most complementary to hooded, monolid and almond eye shapes",
+                    "SALE"
+                ],
+                "price": [
+                    "$27.00",
+                    "$39.00"
+                ],
+                "sku": "Item 2582583"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "Color: Click Magnetic - Loyalty - a round lash, complementary to all eye shapes",
+                    "SALE"
+                ],
+                "price": [
+                    "$27.00",
+                    "$39.00"
+                ],
+                "sku": "Item 2550051"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "Color: Click Magnetic - Miami - a round lash, complementary to all eye shapes",
+                    "SALE"
+                ],
+                "price": [
+                    "$27.00",
+                    "$39.00"
+                ],
+                "sku": "Item 2550044"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "SALE",
+                "size": null,
+                "name": [
+                    "Color: Click Magnetic - Bestie - a flare lash, complementary to all eye shapes",
+                    "SALE"
+                ],
+                "price": [
+                    "$27.00",
+                    "$39.00"
+                ],
+                "sku": "Item 2582567"
+            }
+        ],
+        "rating": "width:86.342%",
+        "product_reviews": "492",
+        "ingredients": "Synthetic Fibers.",
+        "n_loves": "8K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "False Eyelashes"
+        ]
+    }
+]

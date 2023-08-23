@@ -1,0 +1,768 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/lip-buff-prep-scrub-P506750",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:17:32",
+        "product_name": "Lip Buff Prep Scrub",
+        "brand_name": "REFY",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 0.27 oz / 8 mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2686319"
+            }
+        ],
+        "rating": "width:72.858%",
+        "product_reviews": "14",
+        "ingredients": "-Plant-Based Plumping Agent: Visibly plumps and smooths while immediately hydrating lips.-Amino Acids and a Complex of Five Hyaluronic Acids: Leave lips looking and feeling hydrated and naturally fuller.-Aloe Vera Extract: Locks in moisture.Aqua/Water/Eau, Glycerin, Propanediol, Aloe Barbadensis Leaf Juice, Erythritol, Glyceryl Glucoside, Amorphophallus Konjac Root Extract, Agave Tequilana Leaf Extract, Brassica Alba Sprout Extract, Punica Granatum (Pomegranate) Peel Extract, Hyaluronic Acid, Sodium Hyaluronate, Hydrolyzed Glycosaminoglycans, Hydrolyzed Hyaluronic Acid, Sodium Hyaluronate Crosspolymer, 3-O-Ethyl Ascorbic Acid, Maltose, Lactobacillus Ferment Lysate, Leuconostoc/Radish Root Ferment Filtrate, Sodium PCA, Sodium Lactate, Arginine, Aspartic Acid, PCA, Alanine, Glycine, Serine, Valine, Isoleucine, Proline, Threonine, Histidine, Phenylalanine, Sodium Phytate, Xanthan Gum, Sodium Benzoate,Ethylhexylglycerin, Phenoxyethanol.",
+        "n_loves": "11.1K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Lip Balms & Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/refy-beauty-cream-blush-P475156",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:17:45",
+        "product_name": "Cream Blush",
+        "brand_name": "REFY",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.05 oz/ 1.5 g",
+                "name": [
+                    "Color: Citrine - rich burnt orange with warm undertones and a dewy finish"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2493898"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.05 oz / 1.5 g",
+                "name": [
+                    "Color: Peach - a fresh mix of pink and orange with warm undertones"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2620219"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.05 oz/ 1.5 g",
+                "name": [
+                    "Color: Malaya - cool dusty pink with neutral undertones and a dewy finish"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2493906"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.05 oz/ 1.5 g",
+                "name": [
+                    "Color: Rose - fresh rose with neutral undertones and a dewy finish",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2493914"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.05 oz / 1.5 g",
+                "name": [
+                    "Color: Cherry - a warm mix of red and soft purple undertones"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2630366"
+            }
+        ],
+        "rating": "width:83.46600000000001%",
+        "product_reviews": "75",
+        "ingredients": "Octyldodecanol, Silica, Synthetic Beeswax, Bis-Diglyceryl Polyacyladipate-2, Silica Dimethyl Silylate, Cera Microcristallina (Microcrystalline Wax), Phenoxyethanol [+/- May Contain/Peut Contenir: Red 6 (CI 15850), Red 7 Lake (CI 15850), Yellow 6 Lake (CI 15985), Yellow 5 Lake (CI 19140), Iron Oxides (CI 77491, CI 77499), Titanium Dioxide (CI 77891)].",
+        "n_loves": "42.5K",
+        "categories": [
+            "Makeup",
+            "Cheek",
+            "Blush"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/refy-beauty-brow-pomade-P473119",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:18:02",
+        "product_name": "Brow Pomade",
+        "brand_name": "REFY",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size 0.05 oz/ 1.5 g",
+                "name": [
+                    "Color: Light"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2466209"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.05 oz/ 1.5 g",
+                "name": [
+                    "Color: Medium",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2466217"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size 0.05 oz/ 1.5 g",
+                "name": [
+                    "Color: Dark"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2466225"
+            }
+        ],
+        "rating": "width:86.99999999999999%",
+        "product_reviews": "60",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "9.7K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyebrow"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lip-blush-P507174",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:18:16",
+        "product_name": "Lip Blush",
+        "brand_name": "REFY",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "NEW",
+                "size": "Size 0.16 oz / 4.7 g",
+                "name": [
+                    "Color: Bloom - a light, cool pink",
+                    "NEW"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2686251"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "NEW",
+                "size": "Size 0.16 oz / 4.7 g",
+                "name": [
+                    "Color: Wine - a deep red with a hint of purple",
+                    "NEW"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2686293"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "NEW",
+                "size": "Size 0.16 oz / 4.7 g",
+                "name": [
+                    "Color: Orchid - a medium, neutral pink",
+                    "NEW"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2686269"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "NEW",
+                "size": "Size 0.16 oz / 4.7 g",
+                "name": [
+                    "Color: Cinnamon - a medium, burnt orange",
+                    "NEW"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2686285"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "NEW",
+                "size": "Size 0.16 oz / 4.7 g",
+                "name": [
+                    "Color: Canyon - a deep, reddy brown",
+                    "NEW"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2686301"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "NEW",
+                "size": "Size 0.16 oz / 4.7 g",
+                "name": [
+                    "Color: Amber - a light, neutral orange",
+                    "NEW"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2686277"
+            }
+        ],
+        "rating": "width:76.55199999999999%",
+        "product_reviews": "29",
+        "ingredients": "-Coconut Emollient: Moisturizes and nourishes lips.-Tocopheryl Acetate: Leaves lips looking and feeling conditioned.-Patented Blurring Technology: Reduces the look of fine lines.Dimethicone, Synthetic Wax, Trimethylsiloxysilicate, Octyldodecanol, Dimethicone/Vinyl Dimethicone Crosspolymer, Synthetic Fluorphlogopite, Disteardimonium Hectorite, Polyhydroxystearic Acid, Tocopheryl Acetate, [+/- May Contain/Peut Contenir: Red 6 (CI 15850), Red 7 (CI 15850), Yellow 5 Lake (CI 19140), Blue 1 Lake (CI 42090), Iron Oxides (CI 77491, CI 77499), Titanium Dioxide (CI 77891)].",
+        "n_loves": "16.6K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Lipstick"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/refy-beauty-brow-sculpt-P473120",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:18:32",
+        "product_name": "Brow Sculpt Shape and Hold Gel with Lamination Effect",
+        "brand_name": "REFY",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.28 oz/ 8.5 mL"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2466191"
+            }
+        ],
+        "rating": "width:70.43599999999999%",
+        "product_reviews": "987",
+        "ingredients": "-Tocopheryl Acetate: Provides antioxidants and moisturizes. Aqua, Acrylates Copolymer, Paraffin, Glycerin, Butylene Glycol, Cera Microcristallina, Stearic Acid, Dimethicone, Mineral Oil (paraffinum liquidum), Euphorbia Cerifera (candelilla) wax, Cetearyl Alcohol, Cetyl Alcohol, Phenoxyethanol, Copernicia Cerifera (Carnauba) Wax, Polysorbate 80, Triethanolamine,  Xanthan Gum, Tocopheryl Acetate, Hydroxypropylmethylcellulose , Disodium Edta.",
+        "n_loves": "123.6K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyebrow"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/refy-beauty-refy-lip-sculpt-P483125",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:18:45",
+        "product_name": "Lip Sculpt Lip Liner and Setter",
+        "brand_name": "REFY",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size Liner - .01 oz / .32 g Setter - .14 oz / 4 mL",
+                "name": [
+                    "Color: Taupe - light, cool brown"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2554749"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size Liner - .01 oz / .32 g Setter - .14 oz / 4 mL",
+                "name": [
+                    "Color: Blush - light, neutral pink"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2554715"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size Liner - .01 oz / .32 g Setter - .14 oz / 4 mL",
+                "name": [
+                    "Color: Dusk - dark, mahogany pink"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2554731"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size Liner - .01 oz / .32 g Setter - .14 oz / 4 mL",
+                "name": [
+                    "Color: Sepia - dark, chestnut brown"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2554764"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size Liner - .01 oz / .32 g Setter - .14 oz / 4 mL",
+                "name": [
+                    "Color: Rosewood - medium, warm pink"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2554723"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size Liner - .01 oz / .32 g Setter - .14 oz / 4 mL",
+                "name": [
+                    "Color: Fawn - medium, mauve brown"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2554756"
+            }
+        ],
+        "rating": "width:69.58%",
+        "product_reviews": "334",
+        "ingredients": "-Dimethicone: Fills and smooths the appearance of fine lines on the lips.-Trimethylsiloxysilicate: Makes formula long-lasting and water resistant.-Fluorine Oil: Creates a barrier on top of the liner to increase wear time.Liner: Trimethylsiloxysilicate, Dimethicone, Cyclopentasiloxane, Isododecane, Euphorbia Cerifera (Candelilla) Wax, Cyclohexasiloxane, Phenyl Trimethicone, Polyethylene, Ozokerite, Synthetic Fluorphlogopite, Silica, Tocopheryl Acetate, Phenoxyethanol.May Contain: CI 77491 (Iron Oxides), CI 77492 (Iron Oxides), CI 77499 (Iron Oxides), CI 77891 (Titanium Dioxide), CI 77742 (Manganese Violet), CI 15850 (Red 7 Lake).Setter:Polyperfluoromethylisopropyl Ether, Silica Dimethyl Silylate, Methyl Perfluorobutyl Ether.",
+        "n_loves": "128.8K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Lip Liner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/refy-beauty-refy-lip-gloss-P483124",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:19:01",
+        "product_name": "Lip Gloss",
+        "brand_name": "REFY",
+        "options": [
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.44 oz / 13 mL",
+                "name": [
+                    "Color: Clear"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2554772"
+            }
+        ],
+        "rating": "width:87.156%",
+        "product_reviews": "109",
+        "ingredients": "-Hyaluronic Acid: Works to attract and retain moisture to give the appearance of fuller lips.-Jojoba Seed Oil: Supports collagen while nourishing and conditioning lips.-Caprylyl Glycol: Softens the lips and smooths the appearance of fine lines. Polyisobutene, Tridecyl Trimellitate, Octyldodecanol, Silica Dimethyl Silylate, Hydrogenated Microcrystalline Wax, Simmondsia Chinensis (Jojoba) Seed Oil, Synthetic Beeswax, Butyrospermum Parkii (Shea) Butter, Tocopheryl Acetate (Vitamin E), Caprylyl Glycol, Sodium Hyaluronate, Glyceryl Behenate, Limnanthes Alba (Meadowfoam) Seed Oil, Phenoxyethanol.",
+        "n_loves": "64.4K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Lip Gloss"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/refy-beauty-gloss-highlighter-P475158",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:19:13",
+        "product_name": "Gloss Highlighter",
+        "brand_name": "REFY",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.67 oz/ 20 g",
+                "name": [
+                    "Color: Topaz - subtle golden undertones with a glass-like glow finish"
+                ],
+                "price": [
+                    "$35.50"
+                ],
+                "sku": "Item 2473445"
+            }
+        ],
+        "rating": "width:81.188%",
+        "product_reviews": "101",
+        "ingredients": "-VITAOILS PLUS: Deeply nourishes and visibly smooths the epidermis.-dl-\u03b1-Tocopheryl Acetate: Antioxidant vitamin E.Hydrogenated Polydecene, Propylene Glycol Dibenzoate, Hydrogenated Polyisobutene, Paraffinum Liquidum, Isohexadecane, Styrene-Ethylene/Propylene-(Styrene), Synthetic Wax, Sorbitan Sesquioleate, Cetyl PEG/PPG-10/1 Dimethicone, Phenoxyethanol, Fragrance (Parfum), Pentaerythrityl Tetra-di-t-butyl Hydroxyhydrocinnamate, Tocopheryl Acetate, Helianthus Annuus (Sunflower) Seed Oil, Cocos Nucifera (Coconut) Oil, Linum Usitatissimum (Linseed) Seed Oil, Persea Gratissima (Avocado) Oil, Argania Spinosa Kernel Oil, Macadamia Ternifolia Seed Oil, Olea Europaea (Olive) Fruit Oil, Rosmarinus Officinalis (Rosemary) Leaf Extract.May Contain: Mica, Titanium Dioxide, Iron Oxides \u2013 Red, Synthetic Fluorphlogopite.",
+        "n_loves": "37.2K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Highlighter"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/refy-beauty-brow-pencil-P473118",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:19:26",
+        "product_name": "Brow Pencil",
+        "brand_name": "REFY",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size 0.002 oz/ 0.06 g",
+                "name": [
+                    "Color: Light"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2466233"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size 0.002 oz/ 0.06 g",
+                "name": [
+                    "Color: Medium"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2466241"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.002 oz/ 0.06 g",
+                "name": [
+                    "Color: Dark",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2466258"
+            }
+        ],
+        "rating": "width:82.272%",
+        "product_reviews": "88",
+        "ingredients": "Cyclopentasiloxane, Paraffin, Microcrystalline Wax, Isododecane, Ethylhexyl Palmitate, Sorbitan Stearate, Vinyl Dimethicone/Methicone Silsesquioxane Crosspolymer, Silica Dimethyl Silylate, Phenoxyethanol. May Contain: CI 77891 (Titanium Dioxide), CI 77492 (Yellow Iron Oxide), CI 77499 (Black Iron Oxide), CI 77491 (Red Iron Oxide). ",
+        "n_loves": "12.6K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyebrow"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/refy-beauty-refy-lip-collection-P483123",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:19:40",
+        "product_name": "Lip Collection: Lip Liner, Setter, and Lip Gloss",
+        "brand_name": "REFY",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Taupe - light, cool brown"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 2554830"
+            }
+        ],
+        "rating": "width:60.852000000000004%",
+        "product_reviews": "47",
+        "ingredients": "-Dimethicone: Fills and smooths the appearance of fine lines on the lips.-Fluorine Oil: Creates a barrier on top of the liner to increase wear time.-Hyaluronic Acid: Works to attract and retain moisture to give the look of fuller lips.Lip Sculpt: Liner:Trimethylsiloxysilicate, Dimethicone, Cyclopentasiloxane, Isododecane, Euphorbia Cerifera (Candelilla) Wax, Cyclohexasiloxane, Phenyl Trimethicone, Polyethylene, Ozokerite, Synthetic Fluorphlogopite, Silica, Tocopheryl Acetate, Phenoxyethanol. May Contain: CI 77491 (Iron Oxides), CI 77492 (Iron Oxides), CI 77499 (Iron Oxides), CI 77891 (Titanium Dioxide), CI 77742 (Manganese Violet), CI 15850 (Red 7 Lake).Setter: Polyperfluoromethylisopropyl Ether, Silica Dimethyl Silylate, Methyl Perfluorobutyl Ether.Lip Gloss:Polyisobutene, Tridecyl Trimellitate, Octyldodecanol, Silica Dimethyl Silylate, Hydrogenated Microcrystalline Wax, Simmondsia Chinensis (Jojoba) Seed Oil, Synthetic Beeswax, Butyrospermum Parkii (Shea) Butter, Tocopheryl Acetate (Vitamin E), Caprylyl Glycol, Sodium Hyaluronate, Glyceryl Behenate, Limnanthes Alba (Meadowfoam) Seed Oil, Phenoxyethanol.",
+        "n_loves": "25.6K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Lip Sets"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/refy-beauty-refy-3-0-stage-brow-collection-P473174",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:19:52",
+        "product_name": "REFY 3.0 Stage Brow Collection- Sculpt, Pomade & Pencil",
+        "brand_name": "REFY",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Light"
+                ],
+                "price": [
+                    "$74.50"
+                ],
+                "sku": "Item 2466266"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Medium"
+                ],
+                "price": [
+                    "$74.50"
+                ],
+                "sku": "Item 2466274"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Dark"
+                ],
+                "price": [
+                    "$74.50"
+                ],
+                "sku": "Item 2466282"
+            }
+        ],
+        "rating": "width:80.658%",
+        "product_reviews": "213",
+        "ingredients": "-Tocopheryl Acetate: Provides antioxidants and moisturizes. Brow Sculpt: Aqua, Acrylates Copolymer, Paraffin, Glycerin, Butylene Glycol, Cera Microcristallina, Stearic Acid, Dimethicone, Mineral Oil (paraffinum liquidum), Euphorbia Cerifera (candelilla) wax, Cetearyl Alcohol, Cetyl Alcohol, Phenoxyethanol, Copernicia Cerifera (Carnauba) Wax, Polysorbate 80, Triethanolamine, Xanthan Gum, Tocopheryl Acetate, Hydroxypropylmethylcellulose, Disodium Edta.Brow Pomade: Cyclopentasiloxane, Paraffin, Microcrystalline Wax, Isododecane, Ethylhexyl Palmitate, Sorbitan Stearate, Vinyl Dimethicone/Methicone Silsesquioxane Crosspolymer, Silica Dimethyl Silylate, Phenoxyethanol. May Contain: CI 77891 (Titanium Dioxide), CI 77492 (Yellow Iron Oxide), CI 77499 (Black Iron Oxide), CI 77491 (Red Iron Oxide).Brow Pencil: Synthetic Wax, Cera Microcristallina (Microcrystalline Wax), Hydrogenated Palm Oil, Synthetic Beeswax, Theobroma Cacao Seed Butter, Ceresin, Hydrogenated Coconut Oil, Polyisobutene, Hydrogenated Coco-Glycerides, 1,3-Bis-(2,4-Diaminophenoxy) Propane HCl, Copernicia Cerifera (Carnauba) Wax, Polyhydroxystearic Acid, Polyethylene, C10-18 Triglycerides, Glyceryl Behenate, Polyglyceryl-6 Octastearate, Phenoxyethanol, Tocopherol, Dimethicone, May Contain: CI 77492 (Iron Oxides), CI 77499 (Iron Oxides), CI 77491 (Iron Oxides), CI 77019 (Mica), CI 77891 (Titanium Dioxide).",
+        "n_loves": "18.4K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyebrow"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/glow-sculpt-face-primer-P500449",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:20:06",
+        "product_name": "Glow and Sculpt Face Serum Primer with Niacinamide",
+        "brand_name": "REFY",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.4 oz / 40 mL"
+                ],
+                "price": [
+                    "$50.00"
+                ],
+                "sku": "Item 2600617"
+            }
+        ],
+        "rating": "width:76.19%",
+        "product_reviews": "63",
+        "ingredients": "-Niacinamide: Helps to visibly brighten skin and reduce the appearance of redness and blemishes.-Glycerin: Helps to leave the skin feeling hydrated.Aqua/Water/Eau, Glycerin, Butylene Glycol, Glycereth-26, 1,2-Hexanediol, Niacinamide, Camellia Sinensis Seed Oil, Methylpropanediol, Panthenol, Chlorella Vulgaris Extract, Glucose, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Fructooligosaccharides, Fructose, Hydrogenated Lecithin, Sodium Polyacryloyldimethyl Taurate, Yeast Ferment Extract, Tromethamine, Dipotassium Glycyrrhizate, Ethylhexylglycerin, Sodium Phytate, Candida Bombicola/Glucose/Methyl Rapeseedate Ferment, Tocopherol.",
+        "n_loves": "86.9K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Face Primer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/skin-finish-water-based-powder-P500162",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:20:18",
+        "product_name": "Skin Finish Water Based Loose Setting Powder",
+        "brand_name": "REFY",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: 02 - medium dark"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2594687"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: 01 - light medium"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2594679"
+            }
+        ],
+        "rating": "width:71.76400000000001%",
+        "product_reviews": "34",
+        "ingredients": "-Glycerin: Moisturizes and protects the skin barrier.-Silica Silylate: Absorbs oil and sebum to remove unwanted shine.Aqua/Water/Eau, Vinyl Dimethicone/Methicone Silsesquioxane Crosspolymer, Glycerin, Silica Silylate, Phenoxyethanol, Hydroxyacetophenone, Caprylyl Glycol, Triethoxycaprylylsilane [+/- May Contain/Peut Contenir: Iron Oxides (CI 77491, CI 77492, CI 77499)].",
+        "n_loves": "9K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Setting Spray & Powder"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/refy-beauty-duo-face-brush-P475605",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:20:31",
+        "product_name": "Duo Face Brush",
+        "brand_name": "REFY",
+        "options": [],
+        "rating": "width:67.78999999999999%",
+        "product_reviews": "95",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "77.3K",
+        "categories": [
+            "Makeup",
+            "Brushes & Applicators",
+            "Face Brushes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/refy-beauty-brow-tint-P505347",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:20:41",
+        "product_name": "Brow Tint Eyebrow Gel",
+        "brand_name": "REFY",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size .27 oz / 8 g",
+                "name": [
+                    "Color: Soft Brown - soft, light brown with a warm undertone."
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2653939"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size .27 oz / 8 g",
+                "name": [
+                    "Color: Medium Brown - medium, neutral brown with a cool undertone"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2653947"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size .27 oz / 8 g",
+                "name": [
+                    "Color: Deep Brown - deep, dark brown with a warm undertone"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2653954"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size .27 oz / 8 g",
+                "name": [
+                    "Color: Black - black with a cool undertone"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2653962"
+            }
+        ],
+        "rating": "width:73.882%",
+        "product_reviews": "85",
+        "ingredients": "-Peptides-Camellia japonica Flower ExtractAqua /Water/Eau, VP/VA Copolymer, Alcohol, Acrylates Copolymer, Butylene Glycol, Glycerin, Caramel, Phenoxyethanol, PVP, Panthenol, Sodium Hydroxide, Camellia Japonica Flower Extract, Ethylhexylglycerin, Sodium Dehydroacetate, Biotinoyl Tripeptide-1 [+/- May Contain/Peut Contenir: Red 40 (CI 16035), Yellow 5 (CI 19140), Blue 1 (CI 42090)].",
+        "n_loves": "29.6K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyebrow"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/body-glow-serum-P500494",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:20:55",
+        "product_name": "Body Glow Highlighting Serum",
+        "brand_name": "REFY",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 2.37 oz / 70 mL - universal and suitable for all skin tones.",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$58.00"
+                ],
+                "sku": "Item 2603926"
+            }
+        ],
+        "rating": "width:76.666%",
+        "product_reviews": "6",
+        "ingredients": "-Hydrogenated Polydecene: Helps to moisturize the skin.-Tocopherol Acetate: Contains vitamin E and antioxidants.Hydrogenated Polyisobutene, Ethylhexyl Palmitate, Hydrogenated Polydecene, Paraffinum Liquidum, Styrene-Ethylene/Propylene-(Styrene), Synthetic Wax, Cetyl PEG/PPG-10/1 Dimethicone, Phenoxyethanol, Pentaerythrityl Tetra-di-t-butyl Hydroxyhydrocinnamate, Hexadecene, Tocopheryl Acetate, Spent Grain Wax, Helianthus Annuus (Sunflower) Seed Oil, Argania Spinosa Kernel Oil, Cocos Nucifera (Coconut) Oil, Linum Usitatissimum (Linseed) Seed Oil, Butyrospermum Parkii Butter Extract, Persea Gratissima (Avocado) Oil, Macadamia Ternifolia Seed Oil, Olea Europaea (Olive) Fruit Oil, Rosmarinus Officinalis (Rosemary) Leaf Extract, Tocopherol [+/- May Contain/Peut Contenir: Synthetic Fluorphlogopite, Mica (CI 77019), Iron Oxide (CI 77491), Tin Oxide (CI 77861), Titanium Dioxide (CI 77891)].",
+        "n_loves": "12.6K",
+        "categories": [
+            "Bath & Body",
+            "Body Moisturizers",
+            "Body Lotions & Body Oils"
+        ]
+    }
+]

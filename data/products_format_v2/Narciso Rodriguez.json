@@ -1,0 +1,528 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/pure-musc-eau-de-parfum-P441206",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 04:39:19",
+        "product_name": "Pure Musc Eau de Parfum",
+        "brand_name": "Narciso Rodriguez",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.6oz/50mL"
+                ],
+                "price": [
+                    "$137.00"
+                ],
+                "sku": "Item 2173839"
+            }
+        ],
+        "rating": "width:87.5%",
+        "product_reviews": "64",
+        "ingredients": "Alcohol, Fragrance, Water, Benzyl Salicylate, Linalool, Butyl Methoxydibenzoylmethane, Ethylhexyl Methoxycinnamate, Hexyl Cinnamal, Hydroxycitronellal, Cinnamyl Alcohol, Benzyl Alcohol, Limonene, Isoeugenol, Bht, Benzyl Benzoate, Farnesol.",
+        "n_loves": "10.5K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/narciso-eau-de-parfum-cristal-P502086",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 04:39:30",
+        "product_name": "NARCISO Eau de Parfum Cristal",
+        "brand_name": "Narciso Rodriguez",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3 oz / 90 mL",
+                    "ONLY A FEW LEFT",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$165.00"
+                ],
+                "sku": "Item 2615946"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz / 50 mL",
+                    "ONLY A FEW LEFT",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$137.00"
+                ],
+                "sku": "Item 2615938"
+            }
+        ],
+        "rating": "width:100%",
+        "product_reviews": "4",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "1.1K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/narciso-rouge-eau-de-parfum-P437218",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 04:39:43",
+        "product_name": "NARCISO Rouge Eau de Parfum",
+        "brand_name": "Narciso Rodriguez",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.6 oz/ 50 mL Eau de Parfum Spray",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$137.00"
+                ],
+                "sku": "Item 2130847"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3 oz/ 90 mL Eau de Parfum Spray",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$165.00"
+                ],
+                "sku": "Item 2130854"
+            }
+        ],
+        "rating": "width:90%",
+        "product_reviews": "6",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "763",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/narciso-rouge-eau-de-toilette-P450549",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 04:39:56",
+        "product_name": "NARCISO Rouge Eau de Toilette",
+        "brand_name": "Narciso Rodriguez",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.6 oz/ 50 ml",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$102.00"
+                ],
+                "sku": "Item 2283398"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "258",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/for-her-musc-noir-eau-de-parfum-P500050",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 04:40:07",
+        "product_name": "for her Musc Noir Eau de Parfum",
+        "brand_name": "Narciso Rodriguez",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz / 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$137.00"
+                ],
+                "sku": "Item 2576312"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.3 oz / 100 mL eau de parfum spray",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$175.00"
+                ],
+                "sku": "Item 2576304"
+            }
+        ],
+        "rating": "width:96%",
+        "product_reviews": "5",
+        "ingredients": "Alcohol, Parfum (Fragrance), Butylene Glycol, Glycerin, Aqua (Water), Benzyl Salicylate, Butyl Methoxydibenzoylmethane, Ethylhexyl Methoxycinnamate, Coumarin, Bht, Linalool, Hexyl Cinnamal, Hydroxycitronellal, Benzyl Alcohol, Cinnamyl Alcohol, Eugenol, Cinnamal, Amyl Cinnamal, Geraniol, Limonene, Benzyl Benzoate, Ci 14700 (Red 4), Ci 60730 (Ext. Violet 2), Ci 19140 (Yellow 5).",
+        "n_loves": "3K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/for-her-eau-de-parfum-P122345",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 04:40:20",
+        "product_name": "for her Eau de Parfum",
+        "brand_name": "Narciso Rodriguez",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.6 oz/ 50 mL"
+                ],
+                "price": [
+                    "$137.00"
+                ],
+                "sku": "Item 884569"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.3 oz/ 100 mL"
+                ],
+                "price": [
+                    "$175.00"
+                ],
+                "sku": "Item 884544"
+            }
+        ],
+        "rating": "width:88.408%",
+        "product_reviews": "333",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "28.8K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/for-her-body-lotion-P380581",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 04:40:33",
+        "product_name": "for her Body Lotion",
+        "brand_name": "Narciso Rodriguez",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 6.7 oz/ 200 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$68.00"
+                ],
+                "sku": "Item 860908"
+            }
+        ],
+        "rating": "width:82%",
+        "product_reviews": "10",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "1.2K",
+        "categories": [
+            "Bath & Body",
+            "Body Moisturizers",
+            "Body Lotions & Body Oils"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/for-her-eau-de-toilette-P110113",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 04:40:44",
+        "product_name": "for her Eau de Toilette",
+        "brand_name": "Narciso Rodriguez",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.3 oz/ 100 mL"
+                ],
+                "price": [
+                    "$150.00"
+                ],
+                "sku": "Item 860890"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL"
+                ],
+                "price": [
+                    "$75.00"
+                ],
+                "sku": "Item 1410737"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.6 oz/ 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$114.00"
+                ],
+                "sku": "Item 860882"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.25 oz/ 7.5 mL"
+                ],
+                "price": [
+                    "$37.00"
+                ],
+                "sku": "Item 1475904"
+            }
+        ],
+        "rating": "width:90.366%",
+        "product_reviews": "656",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "26.3K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/for-her-mist-P377805",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 04:40:57",
+        "product_name": "for her Hair Mist ",
+        "brand_name": "Narciso Rodriguez",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL"
+                ],
+                "price": [
+                    "$54.00"
+                ],
+                "sku": "Item 946251"
+            }
+        ],
+        "rating": "width:79.23%",
+        "product_reviews": "26",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "2.3K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Body Mist & Hair Mist"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/narcisco-eau-de-parfum-poudree-P411597",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 04:41:09",
+        "product_name": "Narciso Eau de Parfum Poudr\u00e9e",
+        "brand_name": "Narciso Rodriguez",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.6 oz/ 50 mL"
+                ],
+                "price": [
+                    "$137.00"
+                ],
+                "sku": "Item 1810035"
+            }
+        ],
+        "rating": "width:90%",
+        "product_reviews": "14",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "2K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/narciso-rodriguez-for-her-musc-noir-rose-eau-de-parfum-P505448",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 04:41:22",
+        "product_name": "for her Musc Noir Rose Eau de Parfum",
+        "brand_name": "Narciso Rodriguez",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Size: 1.6 oz / 50 mL",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$137.00"
+                ],
+                "sku": "Item 2683944"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 3.3 oz / 100 mL"
+                ],
+                "price": [
+                    "$175.00"
+                ],
+                "sku": "Item 2683951"
+            }
+        ],
+        "rating": "width:95.556%",
+        "product_reviews": "9",
+        "ingredients": "Alcohol, Parfum (Fragrance), Aqua (Water), Benzyl Salicylate, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Hydroxycitronellal, Coumarin, Linalool, Limonene, Citronellol, Hexyl Cinnamal, Alpha-Isomethyl Ionone, Benzyl Alcohol, Cinnamyl Alcohol, Farnesol, Tris(Tetramethylhydroxypiperidinol) Citrate, Eugenol, Geraniol, Cinnamal, Amyl Cinnamal, Citral, Benzyl Benzoate, Ci 14700 (Red 4), Ci 60730 (Ext. Violet 2), Ci 19140 (Yellow 5).",
+        "n_loves": "1.5K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/for-her-fleur-musc-P417961",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 04:41:35",
+        "product_name": "for her Fleur Musc",
+        "brand_name": "Narciso Rodriguez",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.6 oz/ 50 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$137.00"
+                ],
+                "sku": "Item 1914852"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3.3 oz/ 100 mL",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$175.00"
+                ],
+                "sku": "Item 1914845"
+            }
+        ],
+        "rating": "width:92.592%",
+        "product_reviews": "27",
+        "ingredients": "Alcohol, Fragrance, Water, Benzyl Salicylate, Butyl Methoxydibenzoylmethane, Ethylhexyl Methoxycinnamate, Hydroxycitronellal, Limonene, Geraniol, Citronellol, Benzyl Benzoate, Linalool, Farnesol, Cinnamyl Alcohol, Eugenol, Citral, Hexyl Cinnamal, Ci 17200 (Red 33), Ci 19140 (Yellow 5), Ci 60730 (Ext. Violet 2), Bht.",
+        "n_loves": "5.5K",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/narciso-rodriguez-narciso-eau-de-parfum-ambree-P462719",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 04:41:48",
+        "product_name": "NARCISO Eau de Parfum Ambr\u00e9e",
+        "brand_name": "Narciso Rodriguez",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.7 oz/ 50 ml Eau de Parfum",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$137.00"
+                ],
+                "sku": "Item 2383313"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 3 oz/ 90 ml Eau de Parfum",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$165.00"
+                ],
+                "sku": "Item 2383321"
+            }
+        ],
+        "rating": "width:77.142%",
+        "product_reviews": "7",
+        "ingredients": "Alcohol, Parfum (Fragrance), Aqua (Water), Benzyl Salicylate, Linalool, Hexyl Cinnamal, Butyl Methoxydibenzoylmethane, Ethylhexyl Methoxycinnamate, Limonene, Benzyl Alcohol, Citronellol, Coumarin, Geraniol, Hydroxycitronellal, Cinnamyl Alcohol, Benzyl Benzoate, Isoeugenol, Farnesol, Citral, Ci 14700 (Red 4), Ci 19140 (Yellow 5), Bht, Ci 60730 (Ext. Violet 2). ",
+        "n_loves": "863",
+        "categories": [
+            "Fragrance",
+            "Women",
+            "Perfume"
+        ]
+    }
+]

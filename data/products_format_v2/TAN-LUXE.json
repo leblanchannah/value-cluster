@@ -1,0 +1,139 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/tan-luxe-super-glow-hyaluronic-self-tan-serum-P469190",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:27:31",
+        "product_name": "Super Glow Hyaluronic Self-Tan Serum",
+        "brand_name": "TAN-LUXE",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.01 oz/ 30 mL"
+                ],
+                "price": [
+                    "$66.00"
+                ],
+                "sku": "Item 2444875"
+            }
+        ],
+        "rating": "width:84.00000000000001%",
+        "product_reviews": "5",
+        "ingredients": "-Hyaluronic Acid: Delivers hydration to skin. -Cocoa Seed Extract: Works as a shield to protect the skin from daily environmental aggressors and pollutants. -Raspberry Seed Oil: Works as a natural antioxidant, rich in vitamin E.Water, Glycerin, Dihydroxyacetone, Hydrolyzed Soybean Fiber, Hyaluronic Acid, Beta Vulgaris (Beet) Root Extract, Brassica Oleracea Acephala Leaf Extract, Sodium Hyaluronate, Rubus Idaeus (Raspberry) Seed Oil, Cocos Nucifera (Coconut) Oil, Persea Gratissima (Avocado) Oil, Salvia Hispanica Seed Oil, Vaccinium Myrtillus Fruit Extract, Theobroma Cacao (Cocoa) Seed Extract, Aloe Barbadensis (Aloe) Leaf Juice, Tocopheryl Acetate (Vitamin E Acetate), Ascorbic Acid, Retinyl Acetate, Erythrulose, Cyclopentasiloxane, Hydroxyethylcellulose, Polyacrylamide, C13-14 Isoparaffin, Glyceryl Acrylate/Acrylic Acid Copolymer, Dimethicone Crosspolymer, Dimethicone, Pvm/Ma Copolymer, Laureth-7, Laureth-23, Laureth-4, Butylene Glycol, Ethylhexylglycerin, Parfum (Fragrance), Limonene, Geraniol, Hexyl Cinnamal, Benzyl Salicylate, Tetrasodium Edta, Citric Acid, Phenoxyethanol, Triethylene Glycol, Potassium Sorbate, Ci 17200 (D&C Red No. 33). ",
+        "n_loves": "1K",
+        "categories": [
+            "Skincare",
+            "Self Tanners",
+            "For Face"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/tan-luxe-the-face-illuminating-self-tan-drops-light-medium-P469879",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:27:44",
+        "product_name": "THE FACE Illuminating Self-Tan Drops",
+        "brand_name": "TAN-LUXE",
+        "options": [],
+        "rating": "width:80%",
+        "product_reviews": "7",
+        "ingredients": " -Raspberry Seed Oil: Moisturizes and conditions.-Aloe Vera: Hydrates.-Eco-Cert Organic DHA Tanning Active: Provides a natural looking tan.Water, Dihydroxyacetone, Alcohol Denat, (SD Alcohol 40-B), Glycerin, Erythulose, Rubus Idaeus (Raspberry) Seed Oil, Aloe Barbadensis (Aloe) Leaf Juice, Hydrolyzed Silk, Caramel, Tocopheryl Acetate (Vitmain E Acetate), Xanthan Gum, Polysorbate 80, Parfum (Fragrance), Limonene, Geraniol, Hexyl Cinnamal, Benzyl Salicylate, Butylphenyl Methylpropional, Sodium Hydroxide, Benzoic Acid, Dehydroacetic Acid, Phenoxyethanol.",
+        "n_loves": "1.1K",
+        "categories": [
+            "Skincare",
+            "Self Tanners",
+            "For Face"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/tan-luxe-the-body-illuminating-self-tan-drops-light-medium-P469198",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:27:54",
+        "product_name": "THE BODY Illuminating Self-Tan Drops",
+        "brand_name": "TAN-LUXE",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.69 oz/ 50 mL"
+                ],
+                "price": [
+                    "$79.00"
+                ],
+                "sku": "Item 2444842"
+            }
+        ],
+        "rating": "width:76.666%",
+        "product_reviews": "6",
+        "ingredients": " -Raspberry Seed Oil: Moisturizes and conditions.-Aloe Vera: Soothes and moisturizes.-Cellutone Complex: Gives skin a firmer look.Water, Dihydroxyacetone, Alcohol Denat, (SD Alcohol 40-B), Glycerin, Rubus Idaeus (Raspberry) Seed Oil, Hydrolyzed Silk, Aloe Barbadensis (Aloe) Leaf Juice, Polysorbate 80, Erythrulose, Caramel, Xanthan Gum, Fragrance, Limonene, Geraniol, Hexyl Cinnamal, Benzyl Salicylate, Butylphenyl Methylpropional, Lecithin, Caffeine, Tocopheryl Acetate (Vitmain E Acetate), Palmitoyl Carnitine, Sodium Hydroxide, Benzoic Acid, Phenoxyethanol, Dehydroacetic Acid.",
+        "n_loves": "795",
+        "categories": [
+            "Skincare",
+            "Self Tanners",
+            "For Face"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/tan-luxe-the-gradual-illuminating-gradual-tan-lotion-P469201",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:28:07",
+        "product_name": "THE GRADUAL Illuminating Gradual Tan Lotion",
+        "brand_name": "TAN-LUXE",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 8.45 oz/ 250 mL"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2444867"
+            }
+        ],
+        "rating": "width:67.368%",
+        "product_reviews": "19",
+        "ingredients": " -Raspberry Seed Oil: Moisturizes and conditions.-Aloe Vera: Soothes and moisturizes.-Cellutone Complex: Gives the look of firmer skin.Water, Caprylic/Capric Triglyceride, C12-15 Alkyl Benzoate, Propylene Glycol, Dihydroxyacetone, Glyceryl Stearate, PEG-100 Stearate, Cetearyl Alcohol, Dimethicone, Erythrulose, Tocopheryl Acetate (Vitamin E Acetate), Aloe Barbedensis (Aloe) Leaf Juice, Rubus Idaeus (Raspberry) Seed Oil,  Melanin, Xanthan Gum, Benzophenone-3, Benzophenone-4, Hydrolyzed Silk, Lecithin, Caffeine, Palmitoyal Carnitine, Fragrance, Limonene, Geraniol, Hexyl Cinnamal, Benzyl Salicylate, Butylphenyl Methylpropional, Tetrasodium EDTA, Glycerin, Caramel, Benzoic Acid, Phenoxyethanol, Dehydroacetic Acid.",
+        "n_loves": "1.8K",
+        "categories": [
+            "Skincare",
+            "Self Tanners",
+            "For Face"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/tan-luxe-the-face-illuminating-self-tan-drops-medium-dark-P469880",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:28:19",
+        "product_name": "THE FACE Illuminating Self-Tan Drops",
+        "brand_name": "TAN-LUXE",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.01 oz/ 30 mL"
+                ],
+                "price": [
+                    "$68.00"
+                ],
+                "sku": "Item 2444834"
+            }
+        ],
+        "rating": "width:100%",
+        "product_reviews": "3",
+        "ingredients": "-Raspberry Seed Oil: Moisturizes and conditions.-Aloe Vera: Soothes and moisturizes.-Cellutone Complex: Gives skin a firmer look.Water, Dihydroxyacetone, Alcohol Denat, (SD Alcohol 40-B), Glycerin, Rubus Idaeus (Raspberry) Seed Oil, Hydrolyzed Silk, Aloe Barbadensis (Aloe) Leaf Juice, Polysorbate 80, Erythrulose, Caramel, Xanthan Gum, Fragrance, Limonene, Geraniol, Hexyl Cinnamal, Benzyl Salicylate, Butylphenyl Methylpropional, Lecithin, Caffeine, Tocopheryl Acetate (Vitmain E Acetate), Palmitoyl Carnitine, Sodium Hydroxide, Benzoic Acid, Phenoxyethanol, Dehydroacetic Acid.",
+        "n_loves": "835",
+        "categories": [
+            "Skincare",
+            "Self Tanners",
+            "For Face"
+        ]
+    }
+]

@@ -1,0 +1,560 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/singlepass-curl-professional-curling-iron-P502212",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:22:20",
+        "product_name": "SinglePass Curl 0.75\u201d Ceramic Long Barrel Curling and Wave Iron ",
+        "brand_name": "T3",
+        "options": [],
+        "rating": "width:98.432%",
+        "product_reviews": "51",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "2K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Curling Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/t3-soft-curl-compact-diffuser-white-P469540",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:22:30",
+        "product_name": "Fit Diffuser",
+        "brand_name": "T3",
+        "options": [],
+        "rating": "width:53.334%",
+        "product_reviews": "3",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "1.7K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Hair Dryers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/t3-edge-heated-brush-P500152",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:22:40",
+        "product_name": "Edge Heated Smoothing & Styling Brush",
+        "brand_name": "T3",
+        "options": [],
+        "rating": "width:90.99000000000001%",
+        "product_reviews": "202",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "6.1K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Brushes & Combs"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/source-handheld-showerhead-P424208",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:22:51",
+        "product_name": "Source Hand-Held Mineral Water Filter",
+        "brand_name": "T3",
+        "options": [],
+        "rating": "width:61.334%",
+        "product_reviews": "15",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "9.6K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Accessories"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/volumizing-hot-rollers-luxe-P415212",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:23:02",
+        "product_name": "Volumizing Hot Rollers LUXE for Volume, Body, and Shine",
+        "brand_name": "T3",
+        "options": [],
+        "rating": "width:67.80999999999999%",
+        "product_reviews": "105",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "19.8K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Curling Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/t3-switch-kit-wave-trio-interchangeable-curling-iron-with-3-barrels-P505260",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:23:13",
+        "product_name": "Switch Kit Wave Trio Interchangeable Curling Iron with 3 Barrels",
+        "brand_name": "T3",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "LIMITED EDITION",
+                "size": null,
+                "name": [
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$385.00"
+                ],
+                "sku": "Item 2644276"
+            }
+        ],
+        "rating": "width:96.95%",
+        "product_reviews": "59",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "2.5K",
+        "categories": [
+            "Tools & Brushes",
+            "Hair Tools",
+            "Curling Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/t3-switch-kit-curl-trio-interchangeable-curling-iron-with-3-barrels-P505278",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:23:25",
+        "product_name": "Switch Kit Curl Trio Interchangeable Curling Iron with 3 Barrels",
+        "brand_name": "T3",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "LIMITED EDITION",
+                "size": null,
+                "name": [
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$385.00"
+                ],
+                "sku": "Item 2644367"
+            }
+        ],
+        "rating": "width:99.286%",
+        "product_reviews": "56",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "2K",
+        "categories": [
+            "Tools & Brushes",
+            "Hair Tools",
+            "Curling Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/t3-soft-touch-3-diffuser-P500164",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:23:37",
+        "product_name": "Soft Touch 3 Diffuser",
+        "brand_name": "T3",
+        "options": [],
+        "rating": "width:66.666%",
+        "product_reviews": "3",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "1.5K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Hair Dryers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/bodywaver-P422239",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:23:48",
+        "product_name": "BodyWaver 1.75\u201d Professional Ceramic Styling Iron for Waves and Volume (White & Rose Gold)",
+        "brand_name": "T3",
+        "options": [],
+        "rating": "width:66.95599999999999%",
+        "product_reviews": "69",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "11.1K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Curling Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/t3-airebrush-duo-interchangeable-hot-air-blow-dry-brush-P477244",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:23:59",
+        "product_name": "AireBrush Duo Interchangeable Hot Air Blow Dry Brush",
+        "brand_name": "T3",
+        "options": [],
+        "rating": "width:82.802%",
+        "product_reviews": "207",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "18.1K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Blow Dry Brushes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/t3-single-pass-style-max-1-flat-iron-P505726",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:24:10",
+        "product_name": "SinglePass StyleMax 1\" Flat Iron",
+        "brand_name": "T3",
+        "options": [],
+        "rating": "width:94.656%",
+        "product_reviews": "116",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "2.5K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Hair Straighteners & Flat Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/singlepass-wave-1-25-0-75-professional-styling-wand-P428228",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:24:20",
+        "product_name": "SinglePass Wave Professional Tapered Ceramic Styling Wand",
+        "brand_name": "T3",
+        "options": [],
+        "rating": "width:88.83800000000001%",
+        "product_reviews": "43",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "11.7K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Curling Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/singlepass-compact-iron-P282405",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:24:32",
+        "product_name": "SinglePass Compact Travel Styling Flat Iron with Cap (White & Rose Gold)",
+        "brand_name": "T3",
+        "options": [],
+        "rating": "width:84.1%",
+        "product_reviews": "200",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "19.5K",
+        "categories": [
+            "Tools & Brushes",
+            "Hair Tools",
+            "Hair Straighteners & Flat Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/t3-smoothing-comb-attachment-P500157",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:24:44",
+        "product_name": "Smoothing Comb Blow Dryer Attachment",
+        "brand_name": "T3",
+        "options": [],
+        "rating": "width:60%",
+        "product_reviews": "2",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "710",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Hair Dryers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/singlepass-curl-1-professional-curling-iron-P502211",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:24:54",
+        "product_name": "SinglePass Curl 1.5\u201d Ceramic Long Barrel Curling and Wave Iron ",
+        "brand_name": "T3",
+        "options": [],
+        "rating": "width:94.894%",
+        "product_reviews": "47",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "6.7K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Curling Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/t3-afar-diffuser-P482075",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:25:05",
+        "product_name": "Afar Diffuser",
+        "brand_name": "T3",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$35.00"
+                ],
+                "sku": "Item 2579266"
+            }
+        ],
+        "rating": "",
+        "product_reviews": "",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "787",
+        "categories": [
+            "Hair",
+            "Tools"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/t3-featherweight-style-max-hair-dryer-P505674",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:25:19",
+        "product_name": "Featherweight StyleMax Hair Dryer",
+        "brand_name": "T3",
+        "options": [],
+        "rating": "width:97.566%",
+        "product_reviews": "115",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "2.1K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Hair Dryers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/t3-fit-hair-dryer-P469539",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:25:30",
+        "product_name": "Fit Compact Hair Dryer",
+        "brand_name": "T3",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "LIMITED EDITION",
+                "size": null,
+                "name": [
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$199.99"
+                ],
+                "sku": "Item 2443562"
+            }
+        ],
+        "rating": "width:93.72%",
+        "product_reviews": "207",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "9.2K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Hair Dryers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/singlepass-curl-1-25-professional-curling-iron-P428229",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:25:43",
+        "product_name": "SinglePass Curl 1.25\u201d Ceramic Long Barrel Curling and Wave Iron ",
+        "brand_name": "T3",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [],
+                "price": [
+                    "$219.99"
+                ],
+                "sku": "Item 2045755"
+            }
+        ],
+        "rating": "width:74.838%",
+        "product_reviews": "124",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "18.9K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Curling Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/curlwrap-1-25-automatic-rotating-curling-iron-P507801",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:25:56",
+        "product_name": "CurlWrap 1.25\" Automatic Rotating Curling Iron",
+        "brand_name": "T3",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "OUT OF STOCK",
+                    "NEW"
+                ],
+                "price": [
+                    "$249.99"
+                ],
+                "sku": "Item 2705598"
+            }
+        ],
+        "rating": "width:99.048%",
+        "product_reviews": "42",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "35",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Curling Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/t3-t3-smooth-id-P504511",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:26:09",
+        "product_name": "T3 Smooth ID",
+        "brand_name": "T3",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "Color: Graphite",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$340.00"
+                ],
+                "sku": "Item 2654432"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": null,
+                "name": [
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$340.00"
+                ],
+                "sku": "Item 2632289"
+            }
+        ],
+        "rating": "width:32%",
+        "product_reviews": "5",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "99",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Hair Straighteners & Flat Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/singlepass-curl-professional-curling-iron-P502204",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:26:29",
+        "product_name": "SinglePass Curl 0.5\u201d Ceramic Long Barrel Curling and Wave Iron ",
+        "brand_name": "T3",
+        "options": [],
+        "rating": "width:98.18199999999999%",
+        "product_reviews": "44",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "2K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Curling Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/t3-curl-id-1-25-smart-curling-iron-with-interactive-touch-interface-P463355",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:26:44",
+        "product_name": "Curl ID 1.25\u201d Smart Curling Iron with Interactive Touch Interface",
+        "brand_name": "T3",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Size: 1.25 Inches",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$340.00"
+                ],
+                "sku": "Item 2401008"
+            }
+        ],
+        "rating": "width:89.376%",
+        "product_reviews": "64",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "6.4K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Curling Irons"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/hand-held-replacement-filter-P375257",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:26:59",
+        "product_name": "Hand-Held Replacement Filter",
+        "brand_name": "T3",
+        "options": [],
+        "rating": "width:100%",
+        "product_reviews": "3",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "1.4K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Accessories"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/t3-afar-lightweight-travel-size-hair-dryer-P481501",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:27:09",
+        "product_name": "Afar - Lightweight Travel Size Hair Dryer",
+        "brand_name": "T3",
+        "options": [],
+        "rating": "width:96.038%",
+        "product_reviews": "212",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "4.6K",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Hair Dryers"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/t3-lucea-1-5-straightening-styling-iron-P502879",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 11:27:19",
+        "product_name": "Lucea 1.5\u201d Straightening & Styling Iron",
+        "brand_name": "T3",
+        "options": [],
+        "rating": "width:55.00000000000001%",
+        "product_reviews": "4",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "728",
+        "categories": [
+            "Hair",
+            "Tools",
+            "Hair Straighteners & Flat Irons"
+        ]
+    }
+]

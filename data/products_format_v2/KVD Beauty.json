@@ -1,0 +1,3479 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/shade-light-face-contour-palette-refill-P413459",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:21:10",
+        "product_name": "Shade + Light Powder Contour Palette Refill",
+        "brand_name": "KVD Beauty",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.08 oz/ 2.3 g",
+                "name": [
+                    "Color: Lyric - (highlight powder) yellow beige"
+                ],
+                "price": [
+                    "$23.50"
+                ],
+                "sku": "Item 1848548"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.08 oz/ 2.3 g",
+                "name": [
+                    "Color: Levitation - (highlight powder) soft peach"
+                ],
+                "price": [
+                    "$23.50"
+                ],
+                "sku": "Item 1848514"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.16 oz/ 4.5 g",
+                "name": [
+                    "Color: Shadowplay - (contour powder) soft brown"
+                ],
+                "price": [
+                    "$23.50"
+                ],
+                "sku": "Item 1848555"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.16 oz/ 4.5 g",
+                "name": [
+                    "Color: Taupe - (contour powder) cool gray-brown"
+                ],
+                "price": [
+                    "$23.50"
+                ],
+                "sku": "Item 2089936"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.16 oz/ 4.5 g",
+                "name": [
+                    "Color: Sombre - (contour powder) true taupe"
+                ],
+                "price": [
+                    "$23.50"
+                ],
+                "sku": "Item 1848563"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.16 oz/ 4.5 g",
+                "name": [
+                    "Color: Subconscious - (contour powder) deep brown"
+                ],
+                "price": [
+                    "$23.50"
+                ],
+                "sku": "Item 1848571"
+            }
+        ],
+        "rating": "width:87.288%",
+        "product_reviews": "1.2K",
+        "ingredients": "Mica, Zinc Stearate, Dimethicone, Ethylhexyl Palmitate, Silica, Squalane, Polyethylene, Lauroyl Lysine, Glyceryl Caprylate, Sodium Dehydroacetate, Potassium Sorbate, Tocopheryl Acetate, Carthamus Tinctorius (Safflower) Seed Oil, Rosa Canina Flower Extract. May Contain: Titanium Dioxide (Ci 77891), Yellow 5 Lake (Ci 19140), Iron Oxides (Ci 77491, Ci 77492, Ci 77499).",
+        "n_loves": "54.1K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Contour"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/kvd-vegan-beauty-good-apple-lightweight-full-coverage-concealer-P481106",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:21:26",
+        "product_name": "Good Apple Lightweight Full-Coverage Concealer",
+        "brand_name": "KVD Beauty",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Light 103 - for fair skin with cool pink undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517142"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Light 105 - for fair-light skin with warm yellow undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517159"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Light 107 - for light skin with cool pink undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517167"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Light 109 - for light skin with cool-neutral pink undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517175"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Light 111 - for light skin with warm yellow undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517183"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Light 114 - for light skin with warm golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517191"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Light 119 - for light-medium skin with warm peach undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517209"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Light 122 - for light-medium skin with warm pink-peach undertones"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517217"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Medium 126 - for light-medium skin with cool-neutral pink undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517225"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Medium 129 - for light-medium skin with warm golden-peach undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517233"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Medium 131 - for medium skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517241"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Medium 137 - for medium skin with warm peach undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517258"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Medium 141 - for medium skin with warm olive undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517266"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Medium 146 - for medium skin with warm-neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517274"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Medium 149 - for medium-tan skin with cool pink undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517282"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Medium 152 - for medium-tan skin with neutral yellow undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517290"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Tan 158 - for medium-tan skin with cool pink undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517308"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Tan 161 - for medium-tan skin with warm olive undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517316"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Tan 162 - for tan skin with warm golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517324"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Tan 164 - for tan skin with warm peach undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517332"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Tan 167 - for tan skin with warm terra cotta undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517340"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Tan 169 - for tan skin with neutral olive undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517357"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Tan 173 - for tan-deep skin with neutral terra cotta undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517365"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Tan 177 - for tan-deep skin with cool neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517373"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Deep 179 - for tan-deep skin with cool yellow-brown undertones"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517381"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Deep 181 - for tan-deep skin with warm copper undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517399"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Deep 183 - for deep skin with neutral olive undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517407"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Deep 185 - for deep skin with warm chestnut undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517415"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Deep 187 - for deep skin with neutral sienna undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517423"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Deep 191 - for deep skin with warm golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517431"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Deep 195 - for rich-deep skin with warm chestnut undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517449"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.33 oz/ 10mL",
+                "name": [
+                    "Color: Deep 197 - for rich-deep skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.50"
+                ],
+                "sku": "Item 2517456"
+            }
+        ],
+        "rating": "width:84.466%",
+        "product_reviews": "609",
+        "ingredients": "-Raspberry Stem Cells: Provide deep moisturizing benefits for all-day comfort and hydration.-Apple Extract: Is rich in antioxidants to help nourish the delicate eye area. Aqua/Water/Eau, Dimethicone, Caprylyl Methicone, Trimethylsiloxysilicate, Alcohol Denat., Caprylic/Capric Triglyceride, Isododecane, PEG-12 Dimethicone/PPG-20 Crosspolymer, Sorbitan Isostearate, Phenyl Trimethicone, Butylene Glycol, Sodium Potassium Aluminum Silicate, BIS-Hydroxyethoxypropyl Dimethicone/IPDI Copolymer Ethylcarbamate, Caprylyl Dimethicone Ethoxy Glucoside, Pyrus Malus (Apple) Fruit Extract, Rubus Idaeus (Raspberry) Leaf Extract, DI-C12-13 Alkyl Tartrate, Triethoxycaprylylsilane, Phenoxyethanol, Sodium Chloride, Alcohol, Potassium Sorbate, Sodium Dehydroacetate, Silica, Alumina, Dimethicone/Vinyl Dimethicone Crosspolymer, Polyphenylsilsesquioxane, Glycerin, Tocopheryl Acetate, Tocopherol, Bismuth Oxychloride (CI 77163), Iron Oxides (CI 77491, CI 77492, CI 77499), Titanium Dioxide (CI 77891).",
+        "n_loves": "31.2K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Concealer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lock-it-powder-foundation-refills-P447557",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:22:01",
+        "product_name": "Lock-It Powder Foundation Refills",
+        "brand_name": "KVD Beauty",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.31 oz/ 9 g",
+                "name": [
+                    "Color: Tan-Deep 180 - tan-deep acorn",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2187359"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.31 oz/ 9 g",
+                "name": [
+                    "Color: Tan-Deep 185 - tan-deep nutmeg",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2187367"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.31 oz/ 9 g",
+                "name": [
+                    "Color: Deep 195 - deep toffee",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2187383"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.31 oz/ 9 g",
+                "name": [
+                    "Color: Deep 200 - deep chestnut",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2187391"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.31 oz/ 9 g",
+                "name": [
+                    "Color: Deep 205 - deep sycamore",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2187599"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.31 oz/ 9 g",
+                "name": [
+                    "Color: Deep 210 - deep pecan",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2187409"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.31 oz/ 9 g",
+                "name": [
+                    "Color: Rich Deep 215 - rich deep walnut",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2187417"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.31 oz/ 9 g",
+                "name": [
+                    "Color: Rich Deep 220 - rich deep truffle",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2187425"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.31 oz/ 9 g",
+                "name": [
+                    "Color: Rich Deep 225 - rich deep coffee",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2187433"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.31 oz/ 9 g",
+                "name": [
+                    "Color: Rich Deep 230 - rich deep cocoa",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2187441"
+            }
+        ],
+        "rating": "width:84.80000000000001%",
+        "product_reviews": "25",
+        "ingredients": "Talc, Kaolin, Nylon-12, Mica, Magnesium Myristate, Boron Nitride, Isoamyl Laurate, Dimethicone, Barium Sulfate, Zinc Stearate, Phenyl Trimethicone, Polyester-4, 1,2-Hexanediol, Caprylyl Glycol, Dimethiconol, Oryza Sativa (Rice) Hull Powder, Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Titanium Dioxide (Ci 77891).",
+        "n_loves": "5.9K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Foundation"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/kvd-vegan-beauty-good-apple-skin-perfecting-foundation-balm-P469488",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:22:19",
+        "product_name": "Good Apple Lightweight Full-Coverage Cream Foundation Balm",
+        "brand_name": "KVD Beauty",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Light 002 - for very fair skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420198"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Light 004 - for fair skin with warm undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2419919"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Light 006 - for fair skin with cool pink undertones"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2419927"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Light 008 - for fair skin with warm olive undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420206"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Light 010 - for light skin with cool pink undertones"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2419935"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Light 012 - for light skin with neutral undertones"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2419943"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Light 015 - for light skin with warm golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2419950"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Light 018 - for light skin with cool undertones"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2419968"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Light 021 - for light skin with warm undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2419976"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Light 024 - for light skin with warm peach undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420214"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Medium 027 - for light to medium skin with neutral undertones"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2419984"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Medium 030 - for light to medium skin with warm peach undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2419992"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Medium 033 - for light to medium skin with warm golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420008"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Medium 036 - for light to medium skin with warm undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420222"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Medium 039 - for medium skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420016"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Medium 048 - for medium skin with cool undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420032"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Medium 045 - for medium skin with neutral peach undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420230"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Medium 042 - for medium skin with warm undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420024"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Medium 051 - for medium skin with warm undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420248"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Medium 054 - for medium skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420040"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Tan 057 - for medium to tan skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420057"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Tan 060 - for medium to tan skin with neutral golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420065"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Tan 063 - for medium to tan skin with warm undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420255"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Tan 066 - for medium to tan skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420073"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Tan 068 - for tan skin with warm undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420081"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Tan 070 - for tan skin with warm terracotta undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420263"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Tan 072 - for tan to deep skin with neutral bronze undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420099"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Tan 074 - for tan to deep skin with neutral golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420107"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Tan 076 - for tan to deep skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420271"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Tan 078 - for tan to deep skin with warm undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420115"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Deep 080 - for deep skin with warm bronze undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420123"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Deep 082 - for deep skin with cool neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420131"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Deep 084 - for deep skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420149"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Deep 086 - for deep skin with warm terracotta undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420289"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Deep 088 - for deep skin with cool neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420156"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Deep 090 - for deep skin with warm sienna undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420164"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Deep 092 - for deep skin with neutral golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420297"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Deep 094 - for very deep skin with neutral bronze undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420172"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Deep 096 - for very deep skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420305"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.35 oz/ 10 g",
+                "name": [
+                    "Color: Deep 098 - for very deep skin with cool neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$55.50"
+                ],
+                "sku": "Item 2420180"
+            }
+        ],
+        "rating": "width:76.91799999999999%",
+        "product_reviews": "2.5K",
+        "ingredients": "-Apple Extract: Nourishes skin. -Sodium Hyaluronate: Hydrates skin.Triethylhexanoin, Octyldodecanol, Silica, Dimethicone, Dibutyl Lauroyl Glutamide, Octyldodecyl Neopentanoate, Disteardimonium Hectorite, Isostearyl Alcohol, Oleyl Alcohol, Polymethyl Methacrylate, Pyrus Malus (Apple) Fruit Extract, Disodium Stearoyl Glutamate, Mica, Hydrolyzed Sodium Hyaluronate, Polysilicone-11, Aqua/Water/Eau, Butylene Glycol, Caprylyl Glycol, Phenoxyethanol, Aluminum Hydroxide, Carthamus Tinctorius (Safflower) Seed Oil, Hexylene Glycol, Tocopheryl Acetate, Tocopherol, Ascorbic Acid, Decyl Glucoside, Glycerin, Sodium PCA, Sodium Lactate, Arginine, Aspartic Acid, PCA, Saccharomyces/Magnesium Ferment, Glycine, Alanine, Serine, Valine, Saccharomyces/Copper Ferment, Potassium Sorbate, Saccharomyces/Silicon Ferment, Isoleucine, Proline, Threonine, Saccharomyces/Zinc Ferment, Hyaluronic Acid, Saccharomyces/Iron Ferment, Silanetriol, Citric Acid, Sorbic Acid, Histidine, Phenylalanine. May contain/Peut contenir (+/-): Titanium Dioxide (CI 77891), Iron Oxides (CI 77491, CI 77492, CI 77499).",
+        "n_loves": "107.6K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Foundation"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/kvd-vegan-beauty-xo-vinyl-lip-cream-liquid-lipstick-P454032",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:22:58",
+        "product_name": "XO Vinyl Lip Cream Lip Gloss",
+        "brand_name": "KVD Beauty",
+        "options": [
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.091 oz/ 2.7 mL",
+                "name": [
+                    "Color: Tulip - sexy scarlet",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2307841"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.091 oz/ 2.7 mL",
+                "name": [
+                    "Color: Dahlia - deep reddish burgundy",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2307858"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.091 oz/ 2.7 mL",
+                "name": [
+                    "Color: Blossom - nude beige",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2307874"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.091 oz/ 2.7 mL",
+                "name": [
+                    "Color: Carnation - antique rose",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2307882"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.091 oz/ 2.7 mL",
+                "name": [
+                    "Color: Hollyhock - juicy berry",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$27.00"
+                ],
+                "sku": "Item 2420313"
+            }
+        ],
+        "rating": "width:89.30999999999999%",
+        "product_reviews": "464",
+        "ingredients": "Hydrogenated Polyisobutene, Octyldodecanol, Isododecane, Ethylene/Propylene/Styrene Copolymer, Silica Dimethyl Silylate, Butylene/Ethylene/Styrene Copolymer, Aroma/Flavor, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Bht, Red 7 Lake (Ci 15850), Red 6 (Ci 15850), Yellow 5 Lake (Ci 19140), Iron Oxides (Ci 77492).",
+        "n_loves": "28.1K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Lip Gloss"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/kvd-vegan-beauty-epic-curl-big-volume-lash-primer-mascara-duo-P471776",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:23:13",
+        "product_name": "Epic Curl, Big Volume Lash Primer and Mascara Duo",
+        "brand_name": "KVD Beauty",
+        "options": [],
+        "rating": "width:62.858000000000004%",
+        "product_reviews": "14",
+        "ingredients": "Epic Curl Vegan Lash Primer: Aqua/Water/Eau, Hydrogenated Olive Oil Stearyl Esters, Bambusa Arundinacea Stem Extract, Cera Carnauba/Copernicia Cerifera (Carnauba)  Wax/Cire de Carnauba,Oryza Sativa  Cera/Oryza Sativa (Rice) Bran  Wax, Glyceryl  Stearate, Helianthus  Annuus  Seed Cera/Helianthus Annuus (Sunflower) Seed Wax, Bis-Diglyceryl Polyacyladipate-2, Acacia Senegal Gum, Stearic Acid, Propanediol, Palmitic Acid, Aminomethyl Propanol, Hydrolyzed Jojoba Esters, Phenoxyethanol, Sodium Dehydroacetate, Galactoarabinan, Jojoba Esters, Xanthan Gum, Ethylhexylglycerin, Talc, Kaolin, Tocopherol, Ultramarines (CI 77007), Iron Oxides (CI 77499), Ferric Ammonium Ferrocianide (CI 77510).KVD Go Big or Go Home Mascara: Aqua/Water/Eau, Hydrogenated Olive Oil Stearyl Esters, Stearic Acid, Acrylates/Ethylhexyl Acrylate Copolymer, Helianthus Annuus Seed Cera/Helianthus Annuus (Sunflower) Seed Wax, Oryza Sativa Cera/Oryza Sativa (Rice) Bran Wax, Polybutene, Ricinus Communis Seed Oil/Ricinus Communis (Castor) Seed Oil, Polyglyceryl-3 Rice Branate, Propanediol, Glyceryl Stearate, C18-36 Acid Triglyceride, Polyvinyl Stearyl Ether, Aminomethyl Propanediol, Phenoxyethanol, HDI/Trimethylol Hexyllactone Crosspolymer, Methyl Methacrylate Crosspolymer, Sodium Dehydroacetate, Ethylhexylglycerin, Laureth-21, Iron Oxides (CI 77499).",
+        "n_loves": "3.3K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Mascara"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/crush-on-blush-highlighter-blush-duo-P442952",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:23:23",
+        "product_name": "Kitten Mini Crush on Blush - Highlighter + Blush Duo",
+        "brand_name": "KVD Beauty",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": "LIMITED EDITION",
+                "size": null,
+                "name": [
+                    "Size: 0.06 oz & 0.08 oz",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2191815"
+            }
+        ],
+        "rating": "width:86.334%",
+        "product_reviews": "60",
+        "ingredients": "Metal Crush Extreme Highlighter in Gammaray: Mica, Caprylic/Capric Triglyceride, Silica, Microcrystalline Cellulose, Bis-Diglyceryl Polyacyladipate-2, Diisostearyl Malate, Phenyl Trimethicone, Dimethicone, Dimethicone/Vinyl Dimethicone Crosspolymer, Caprylyl Glycol, Ethylhexylglycerin, Tin Oxide, Sodium Dehydroacetate, Calcium Sodium Borosilicate, Synthetic Fluorphlogopite, Calcium Aluminum Borosilicate, Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491, Ci 77492), Ultramarines (Ci 77007). Everlasting Blush in Nova: Talc, Mica, Dimethiconol Stearate, Polymethyl Methacrylate, Caprylic/Capric Triglyceride, Dimethicone, Aluminum Hydroxide, Trimethylsiloxysilicate, Caprylyl Glycol, Phenoxyethanol, Magnesium Myristate, Hexylene Glycol, Titanium Dioxide (Ci 77891), Red 7 Lake (Ci 15850), Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Yellow 5 Lake (Ci 19140).",
+        "n_loves": "12.3K",
+        "categories": [
+            "Makeup",
+            "Cheek",
+            "Cheek Palettes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lock-it-edge-foundation-brush-P409986",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:23:35",
+        "product_name": "Lock-It Edge Foundation Brush",
+        "brand_name": "KVD Beauty",
+        "options": [],
+        "rating": "width:93.44200000000001%",
+        "product_reviews": "366",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "43.1K",
+        "categories": [
+            "Makeup",
+            "Brushes & Applicators",
+            "Face Brushes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/go-big-or-go-home-mascara-mini-P446787",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:23:45",
+        "product_name": "Mini Go Big or Go Home Long-Wear Vegan Volumizing Mascara",
+        "brand_name": "KVD Beauty",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Black"
+                ],
+                "price": [
+                    "$17.00"
+                ],
+                "sku": "Item 2243905"
+            }
+        ],
+        "rating": "width:63.970000000000006%",
+        "product_reviews": "136",
+        "ingredients": "Water, Hydrogenated Olive Oil Stearyl Esters, Stearic Acid, Acrylates/Ethylhexyl Acrylate Copolymer, Helianthus Annuus Seed Cera/Helianthus Annuus (Sunflower) Seed Wax, Oryza Sativa Cera/Oryza Sativa (Rice) Bran Wax, Polybutene, Ricinus Communis Seed Oil/Ricinus Communis (Castor) Seed Oil, Polyglyceryl-3 Rice Branate, Propanediol, Glyceryl Stearate, C18-36 Acid Triglyceride, Polyvinyl Stearyl Ether, Aminomethyl Propanediol, Phenoxyethanol, Hdi/Trimethylol Hexyllactone Crosspolymer, Methyl Methacrylate Crosspolymer, Sodium Dehydroacetate, Ethylhexylglycerin, Laureth-21, Iron Oxides (Ci 77499).",
+        "n_loves": "4.5K",
+        "categories": [
+            "Mini Size",
+            "Makeup"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/kvd-vegan-beauty-everlasting-blush-P454732",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:23:57",
+        "product_name": "Everlasting Blush",
+        "brand_name": "KVD Beauty",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.22 oz/ 6.3 g",
+                "name": [
+                    "Color: Foxglove - dusty rose",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$40.00"
+                ],
+                "sku": "Item 2307940"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.22 oz/ 6.3 g",
+                "name": [
+                    "Color: Peony - soft petal pink"
+                ],
+                "price": [
+                    "$40.00"
+                ],
+                "sku": "Item 2307908"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.22 oz/ 6.3 g",
+                "name": [
+                    "Color: Snapdragon - coco crimson",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$40.00"
+                ],
+                "sku": "Item 2307924"
+            }
+        ],
+        "rating": "width:94.702%",
+        "product_reviews": "487",
+        "ingredients": "Talc, Mica, Dimethiconol Stearate, Caprylic/Capric Triglyceride, Polymethyl Methacrylate, Aluminum Hydroxide, Dimethicone, Trimethylsiloxysilicate, Caprylyl Glycol, Phenoxyethanol, Magnesium Myristate, Hexylene Glycol, Barium Sulfate (Ci 77120), Ultramarines (Ci 77007), Red 7 Lake (Ci 15850), Yellow 5 Lake (Ci 19140).",
+        "n_loves": "32.2K",
+        "categories": [
+            "Makeup",
+            "Cheek",
+            "Blush"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lock-it-blotting-powder-P418800",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:24:11",
+        "product_name": "Lock-It Refillable Mattifying Pressed Finishing Powder",
+        "brand_name": "KVD Beauty",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.28 oz/ 8 g",
+                "name": [
+                    "Color: Fair",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 1914464"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.28 oz/ 8 g",
+                "name": [
+                    "Color: Light"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 1914472"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.28 oz/ 8 g",
+                "name": [
+                    "Color: Medium",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 1914480"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.28 oz/ 8 g",
+                "name": [
+                    "Color: Deep",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 1914498"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.28 oz/ 8 g",
+                "name": [
+                    "Color: Light/Medium"
+                ],
+                "price": [
+                    "$46.00"
+                ],
+                "sku": "Item 2376242"
+            }
+        ],
+        "rating": "width:84.562%",
+        "product_reviews": "342",
+        "ingredients": "Talc, Zea Mays (Corn) Starch, Silica, Pentaerythrityl Tetraisostearate, Octyldodecyl Stearoyl Stearate, Zinc Stearate, Ethylhexylglycerin, Phenoxyethanol, Isopropyl Isostearate, Benzoic Acid, Dehydroacetic Acid, Oryza Sativa (Rice) Starch, Tocopherol, Iron Oxides (Ci 77491, Ci 77492, Ci 77499).",
+        "n_loves": "75.2K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Setting Spray & Powder"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/kvd-vegan-beauty-planet-fanatic-fully-recyclable-eyeshadow-palette-P473318",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:24:25",
+        "product_name": "Planet Fanatic Fully Recyclable Eyeshadow Palette",
+        "brand_name": "KVD Beauty",
+        "options": [],
+        "rating": "width:66.666%",
+        "product_reviews": "9",
+        "ingredients": "Fault Line, Fragment, Tidal Flow: Talc, Mica, Aluminum Starch Octenylsuccinate, Dimethicone, Octyldodecyl Stearoyl Stearate, Zea Mays (Corn) Starch, Zinc Stearate, Polybutene, Isododecane, Triethoxycaprylylsilane, Dehydroacetic Acid, Sorbic Acid, Aluminum Hydroxide. May Contain/Peut Contenir (+/-): Titanium Dioxide (CI 77891), Iron Oxides (CI 77491, CI 77492, CI 77499), Manganese Violet (CI 77742), Ultramarines (CI 77007).Tectonic, Igneous, Strata, Crater: Talc, Mica, Aluminum Starch Octenylsuccinate, Dimethicone, Octyldodecyl Stearoyl Stearate, Zea Mays (Corn) Starch, Zinc Stearate, Polybutene, Isododecane, Triethoxycaprylylsilane, Dehydroacetic Acid, Sorbic Acid. May Contain/Peut Contenir (+/-): Iron Oxides (CI 77491, CI 77492, CI 77499), Manganese Violet (CI 77742), Ultramarines (CI 77007).Dune Shift: Isododecane, Synthetic Fluorphlogopite, Isostearyl Neopentanoate, Mica, Isocetyl Stearate, Silica, Ethylene/Propylene/Styrene Copolymer, Butylene/Ethylene/Styrene Copolymer, Ethylhexylglycerin, Sorbic Acid, Calcium Sodium Borosilicate, Tocopherol, Tin Oxide, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Iron Oxides (CI 77491, CI 77499), Titanium Dioxide (CI 77891).Organism: Isododecane, Isostearyl Neopentanoate, Synthetic Fluorphlogopite, Mica, Isocetyl Stearate, Silica, Ethylene/Propylene/Styrene Copolymer, Butylene/Ethylene/Styrene Copolymer, Ethylhexylglycerin, Calcium Sodium Borosilicate, Sorbic Acid, Tocopherol, Tin Oxide, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Titanium Dioxide (CI 77891), Iron Oxides (CI 77491). Biophilia: Isododecane, Mica, Isostearyl Neopentanoate, Isocetyl Stearate, Silica, Calcium Sodium Borosilicate, Ethylene/Propylene/Styrene Copolymer, Butylene/Ethylene/Styrene Copolymer, Ethylhexylglycerin, Sorbic Acid, Tocopherol, Tin Oxide, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Iron Oxides (CI 77491, CI 77499), Titanium Dioxide (CI 77891), Ferric Ferrocyanide (CI 77510). Solar Wind: Synthetic Fluorphlogopite, Isododecane, Isostearyl Neopentanoate, Isocetyl Stearate, Calcium Sodium Borosilicate, Mica, Silica, Ethylene/Propylene/Styrene Copolymer, Butylene/Ethylene/Styrene Copolymer, Ethylhexylglycerin, Sorbic Acid, Tin Oxide, Tocopherol, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Iron Oxides (CI 77491), Titanium Dioxide (CI 77891).Isotope: Isododecane, Synthetic Fluorphlogopite, Isostearyl Neopentanoate, Isocetyl Stearate, Mica, Silica, Ethylene/Propylene/Styrene Copolymer, Butylene/Ethylene/Styrene Copolymer, Ethylhexylglycerin, Sorbic Acid, Tocopherol, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Titanium Dioxide (CI 77891), Iron Oxides (CI 77491).Biomass: Isododecane, Isostearyl Neopentanoate, Mica, Isocetyl Stearate, Synthetic Fluorphlogopite, Silica, Calcium Aluminum Borosilicate, Ethylene/Propylene/Styrene Copolymer, Butylene/Ethylene/Styrene Copolymer, Ethylhexylglycerin, Sorbic Acid, Tocopherol, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Tin Oxide, Titanium Dioxide (CI 77891), Iron Oxides (CI 77491, CI 77499).Permafrost: Isododecane, Mica, Isostearyl Neopentanoate, Isocetyl Stearate, Silica, Calcium Aluminum Borosilicate, Ethylene/Propylene/Styrene Copolymer, Butylene/Ethylene/Styrene Copolymer, Ethylhexylglycerin, Sorbic Acid, Tocopherol, Tin Oxide, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Titanium Dioxide (CI 77891).",
+        "n_loves": "4.6K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eye Palettes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/kvd-vegan-beauty-modcon-long-wear-hydrating-liquid-gel-contour-P475569",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:24:35",
+        "product_name": "ModCon Long-Wear Hydrating Liquid-Gel Contour",
+        "brand_name": "KVD Beauty",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.57 oz/ 17 mL",
+                "name": [
+                    "Color: Deep - Rich deep brown with cool undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2477750"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.57 oz/ 17 mL",
+                "name": [
+                    "Color: Fair - very light brown with cool undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2477685"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.57 oz/ 17 mL",
+                "name": [
+                    "Color: Light - light golden brown with warm undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2477693"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.57 oz/ 17 mL",
+                "name": [
+                    "Color: Light-Medium - light brown with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2477701"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.57 oz/ 17 mL",
+                "name": [
+                    "Color: Medium - medium brown with cool undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2477719"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.57 oz/ 17 mL",
+                "name": [
+                    "Color: Medium-Tan - medium golden brown with warm undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2477727"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.57 oz/ 17 mL",
+                "name": [
+                    "Color: Tan - medium brick brown with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2477735"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.57 oz/ 17 mL",
+                "name": [
+                    "Color: Tan-Deep - deep brown with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2477743"
+            }
+        ],
+        "rating": "width:70.96199999999999%",
+        "product_reviews": "135",
+        "ingredients": "-Daisy Flower Extract: Hydrates skin.Aqua/Water/Eau, Glycerin, Propanediol, Hydrogenated Starch Hydrolysate, Bellis Perennis (Daisy) Flower Extract, Helichrysum Italicum Extract, Phenoxyethanol, Ethylhexyl Olivate, Amp-Acrylates/Allyl Methacrylate Copolymer, Cetearyl Olivate, Sodium Acrylates Copolymer, Sorbitan Olivate, Polyglyceryl-4 Oleate, Ethylhexylglycerin, Alumina, Magnesium Oxide, Potassium Sorbate, Citric Acid, Tocopherol, Iron Oxides (CI 77491, CI 77492, CI 77499), Titanium Dioxide (CI 77891).",
+        "n_loves": "26.1K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Contour"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lock-it-concealer-creme-P409985",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:24:52",
+        "product_name": "Lock-It Concealer Cr\u00e8me",
+        "brand_name": "KVD Beauty",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 0.22 oz/ 6.5 mL",
+                "name": [
+                    "Color: Deep 37 - Deep auburn with warm undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$18.00",
+                    "$36.00"
+                ],
+                "sku": "Item 1810886"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 0.22 oz/ 6.5 mL",
+                "name": [
+                    "Color: Deep 39 - deep hickory with cool undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$18.00",
+                    "$36.00"
+                ],
+                "sku": "Item 1810894"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 0.22 oz/ 6.5 mL",
+                "name": [
+                    "Color: Medium 23 - medium bisque with cool undertone",
+                    "SALE"
+                ],
+                "price": [
+                    "$18.00",
+                    "$36.00"
+                ],
+                "sku": "Item 1810811"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 0.22 oz/ 6.5 mL",
+                "name": [
+                    "Color: Deep 35 - deep clay with neutral undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$18.00",
+                    "$36.00"
+                ],
+                "sku": "Item 1810878"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 0.22 oz/ 6.5 mL",
+                "name": [
+                    "Color: Deep 31 - deep nutmeg with warm undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$18.00",
+                    "$36.00"
+                ],
+                "sku": "Item 1810852"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 0.22 oz/ 6.5 mL",
+                "name": [
+                    "Color: Deep 33 - deep cider with warm undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$18.00",
+                    "$36.00"
+                ],
+                "sku": "Item 1810860"
+            }
+        ],
+        "rating": "width:85.47%",
+        "product_reviews": "4.7K",
+        "ingredients": "Water, Dimethicone, Butylene Glycol, Trimethylsiloxysilicate, Lauryl Peg-9 Polydimethylsiloxyethyl Dimethicone, Caprylic/Capric Triglyceride, Polymethyl Methacrylate, Pvp, Dimethicone/Vinyl Dimethicone Crosspolymer, Isostearic Acid, Peg-10 Dimethicone, Glycerin, Phenoxyethanol, Aluminum Hydroxide, Disteardimonium Hectorite, Bis-Peg-15 Dimethicone/Ipdi Copolymer, Isopropyl Titanium Triisostearate, Peg-2 Soyamine, Boron Nitride, Hydrogenated Polyisobutene, Sodium Chloride, Vp/Hexadecene Copolymer, Caprylyl Glycol, Mica, Phytantriol, Simethicone, Potassium Sorbate, Tocopheryl Acetate, Betaine, Hexylene Glycol, Disodium Edta, Tocopherol, Methicone, Tremella Fuciformis Sporocarp Extract, Tetrahexyldecyl Ascorbate, Sodium Hyaluronate, Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Bismuth Oxychloride (Ci 77163).",
+        "n_loves": "144K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Concealer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/kvd-vegan-beauty-dazzle-stick-eyeshadow-P464781",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:25:08",
+        "product_name": "Dazzle Vegan Long-Wear Eyeshadow Stick",
+        "brand_name": "KVD Beauty",
+        "options": [
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.123 oz/ 3.5 g",
+                "name": [
+                    "Color: Hail Surge - soft pearl"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2378131"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.123 oz/ 3.5 g",
+                "name": [
+                    "Color: Lightning Strike - bold bronze",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2378123"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.123 oz/ 3.5 g",
+                "name": [
+                    "Color: Flash Storm - dreamy sterling"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2378115"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.123 oz/ 3.5 g",
+                "name": [
+                    "Color: Thundercloud - cool silver"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2378107"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.123 oz/ 3.5 g",
+                "name": [
+                    "Color: Force Field - fiery ruby",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2378099"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.123 oz/ 3.5 g",
+                "name": [
+                    "Color: Electro Bolt - fierce copper",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2378081"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": "LIMITED EDITION",
+                "size": "Size 0.123 oz  / 3.5g",
+                "name": [
+                    "Color: Green Flash - intense jade",
+                    "LIMITED EDITION"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2612141"
+            },
+            {
+                "swatch_group": "Metallic finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.123 oz  / 3.5g",
+                "name": [
+                    "Color: Heat Burst - bold ruby"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2612133"
+            }
+        ],
+        "rating": "width:90.572%",
+        "product_reviews": "140",
+        "ingredients": "Aqua/Water/Eau, Methylpropanediol, Calcium Aluminum Borosilicate, Synthetic Fluorphlogopite, Sodium Stearate, Glycerin, Calcium Titanium Borosilicate, Sorbitan Isostearate, Titanium/Titanium Dioxide, 1,2-Hexanediol, Glyceryl Stearate, Sodium Chloride, PEG-100 Stearate, Caprylyl Glycol, Cera Carnauba/Copernicia Cerifera (Carnauba) Wax/Cire De Carnauba, Tin Oxide, Ceteareth-20, Citric Acid, Ethylhexylglycerin, Dimethicone, Steareth-100, Phenoxyethanol, Hexylene Glycol, Tocopherol, Iron Oxides (CI 77491, CI 77499), Titanium Dioxide (CI 77891).",
+        "n_loves": "32.4K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyeshadow"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/kvd-vegan-beauty-modcon-liquid-gel-blush-P472980",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:25:25",
+        "product_name": "ModCon Liquid-Gel Blush",
+        "brand_name": "KVD Beauty",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.4 oz/ 12 mL",
+                "name": [
+                    "Color: Luminairy - peachy beige",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2451219"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.4 oz/ 12 mL",
+                "name": [
+                    "Color: Dewality - vivid coral",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2451201"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.4 oz/ 12 mL",
+                "name": [
+                    "Color: Glowlita - dusty rose",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2451185"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.4 oz/ 12 mL",
+                "name": [
+                    "Color: Glasscade - vibrant raspberry",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2451193"
+            }
+        ],
+        "rating": "width:62%",
+        "product_reviews": "20",
+        "ingredients": "C15-19 Alkane, Coconut Alkanes, Mica, Hydrogenated Styrene/Isoprene Copolymer, Coco-Caprylate/Caprate, Trimethylsiloxysilicate, Polyphenylsilsesquioxane, Dimethicone, Hoya Lacunosa Flower Extract, Caprylic/Capric Triglyceride, 1,2-Hexanediol, Caprylyl Glycol, Methicone, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate. May Contain/Peut Contenir (+/-): Blue 1 Lake (CI 42090), Iron Oxides (CI 77491, CI 77492), Red 28 Lake (CI 45410), Red 6 (CI 15850), Red 7 Lake (CI 15850), Titanium Dioxide (CI 77891), Yellow 5 Lake (CI 19140).",
+        "n_loves": "4.1K",
+        "categories": [
+            "Makeup",
+            "Cheek",
+            "Blush"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/70-pomade-brow-brush-P430304",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:25:40",
+        "product_name": "#70 Pomade Brow Brush",
+        "brand_name": "KVD Beauty",
+        "options": [],
+        "rating": "width:93.462%",
+        "product_reviews": "1.4K",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "21K",
+        "categories": [
+            "Makeup",
+            "Brushes & Applicators",
+            "Eye Brushes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/kvd-vegan-beauty-everlasting-blush-refills-P472047",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:25:52",
+        "product_name": "Everlasting Blush Refills",
+        "brand_name": "KVD Beauty",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Foxglove - dusty rose",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$23.00"
+                ],
+                "sku": "Item 2451284"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Honeysuckle - peachy beige",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$23.00"
+                ],
+                "sku": "Item 2451235"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Rosebud - dusty mauve-pink",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$23.00"
+                ],
+                "sku": "Item 2451250"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Snapdragon - coco crimson",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$23.00"
+                ],
+                "sku": "Item 2451268"
+            }
+        ],
+        "rating": "width:82.5%",
+        "product_reviews": "8",
+        "ingredients": "Talc, Mica, Dimethiconol Stearate, Polymethyl Methacrylate, Caprylic/Capric Triglyceride, Dimethicone, Aluminum Hydroxide, Trimethylsiloxysilicate, Caprylyl Glycol, Phenoxyethanol, Magnesium Myristate, Hexylene Glycol, Titanium Dioxide (Ci 77891), Red 7 Lake (Ci 15850), Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Yellow 5 Lake (Ci 19140).",
+        "n_loves": "3K",
+        "categories": [
+            "Makeup",
+            "Cheek",
+            "Blush"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/kvd-vegan-beauty-shake-primer-high-impact-invisible-eyeshadow-primer-P460562",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:26:06",
+        "product_name": "Shake Primer High-Impact Invisible Eyeshadow Primer",
+        "brand_name": "KVD Beauty",
+        "options": [],
+        "rating": "width:63.298%",
+        "product_reviews": "97",
+        "ingredients": "Aqua/Water/Eau, Isododecane, Hydrogenated Polycyclopentadiene, Glycerin, Tricaprylin, Phenoxyethanol, Black 2 (Ci 77266), Laureth-20, Butylene Glycol, 1,2-Hexanediol.",
+        "n_loves": "7.4K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eye Primer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/24-hour-super-brow-long-wear-pomade-P430718",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:26:17",
+        "product_name": "Super Pomade Vegan Eyeliner, Shadow & Brow Pigment ",
+        "brand_name": "KVD Beauty",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Taupe - for medium to dark blonde hair"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2026862"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Medium Brown - for light to medium brown hair"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2026888"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Auburn",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2226769"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Walnut - for dark brown to black hair"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2026904"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Graphite - for black hair"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2026912"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: White Out - pure white; for mixing & customizing"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2026938"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Bleach - for a bleached brow look",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2026979"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Daffodil - vibrant yellow",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2026946"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Scarlet - bright cherry red",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2026995"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Satellite Blue - electric blue",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2026961"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Power Green - emerald green",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2026987"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Roxy Purple - bright grape",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2027001"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: Aubergine - deep plum",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2026920"
+            }
+        ],
+        "rating": "width:92.94200000000001%",
+        "product_reviews": "4.1K",
+        "ingredients": "Isododecane, Trimethylsiloxysilicate, Dimethicone, Polyethylene, Kaolin, Silica, Triethoxycaprylylsilane, Phenoxyethanol, Caprylyl Glycol, Disteardimonium Hectorite, Lecithin, Synthetic Fluorphlogopite, Tocopheryl Acetate, Propylene Carbonate, Bht, Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491, Ci 77492, Ci 77499).",
+        "n_loves": "121.6K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyebrow"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/everlasting-love-liquid-lipstick-P384954",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 00:26:37"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/full-sleeve-long-defined-tubing-mascara-P507469",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:26:47",
+        "product_name": "Full Sleeve Long + Defined Tubing Mascara",
+        "brand_name": "KVD Beauty",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "NEW",
+                "size": "Size 0.37 fl oz / 11 mL",
+                "name": [
+                    "Color: Ink Black - blackest black",
+                    "NEW"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2693497"
+            }
+        ],
+        "rating": "width:86.648%",
+        "product_reviews": "367",
+        "ingredients": "-Acacia Senegal Gum: Helps the formula stretch over lashes for length and definition.-Berry Wax: Creates lightweight, velvety volume without weighing your curl down.Aqua/Water/Eau, Cera Carnauba/Copernicia Cerifera (Carnauba) Wax/Cire De Carnauba, Rhus Verniciflua Peel Wax, Polyurethane-35, Butylene Glycol, Polyglyceryl-10 Stearate, Cetearyl Alcohol, Palmitic Acid, Stearic Acid, Acacia Senegal Gum, Kaolin, Helianthus Annuus (Sunflower) Seed Oil, Bambusa Vulgaris Sap Extract, Phenoxyethanol, Potassium Hydroxide, Ethylhexylglycerin, Caprylyl Glycol, Hydroxyethylcellulose, Potassium Sorbate, Sodium Benzoate, Sodium Dehydroacetate, Methylpropanediol, Trimethyl Pentanyl Diisobutyrate, Phenylpropanol, Tocopherol, Disodium Phosphate, Sodium Phosphate, Iron Oxides (CI 77499).",
+        "n_loves": "2.6K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Mascara"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lock-it-tattoo-foundation-P311138",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:26:59",
+        "product_name": "Lock-It Full-Coverage Long-Wear Matte Liquid Foundation",
+        "brand_name": "KVD Beauty",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: Light 40 N - Near-white for mixing & artistry looks",
+                    "SALE"
+                ],
+                "price": [
+                    "$26.50",
+                    "$53.00"
+                ],
+                "sku": "Item 2069441"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: Deep 67 Cool - deep cinnamon with cool undertone",
+                    "SALE"
+                ],
+                "price": [
+                    "$26.50",
+                    "$53.00"
+                ],
+                "sku": "Item 1817584"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: Deep 72 Neutral - deep complexion with pink beige undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$26.50",
+                    "$53.00"
+                ],
+                "sku": "Item 1429398"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: Deep 78 Neutral - deep sycamore with neutral undertone",
+                    "SALE"
+                ],
+                "price": [
+                    "$26.50",
+                    "$53.00"
+                ],
+                "sku": "Item 1817600"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: Deep 79 N - deep pecan with neutral undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$26.50",
+                    "$53.00"
+                ],
+                "sku": "Item 2180636"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: Deep 79 W - deep pecan with warm undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$26.50",
+                    "$53.00"
+                ],
+                "sku": "Item 2180644"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: Deep 80 N - deep coffee with neutral undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$26.50",
+                    "$53.00"
+                ],
+                "sku": "Item 2180651"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: Deep 81 Cool - deep espresso with cool undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$26.50",
+                    "$53.00"
+                ],
+                "sku": "Item 1817618"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: Deep 83 C - rich deep cocoa with cool undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$26.50",
+                    "$53.00"
+                ],
+                "sku": "Item 2180669"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: Deep 85 W - rich deep truffle with warm undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$26.50",
+                    "$53.00"
+                ],
+                "sku": "Item 2180677"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: Deep 87 N - rich deep ebony with neutral undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$26.50",
+                    "$53.00"
+                ],
+                "sku": "Item 2180685"
+            }
+        ],
+        "rating": "width:78.328%",
+        "product_reviews": "14.5K",
+        "ingredients": "Dimethicone, Aqua/Water/Eau, Phenyl Trimethicone, Trimethylsiloxysilicate, Peg/Ppg-18/18 Dimethicone, Aluminum Starch Octenylsuccinate, Silica Dimethicone Silylate, Butylene Glycol, Isononyl Isononanoate, Isododecane, Glycerin, Sodium Chloride, Dimer Dilinoleyl Dimer Dilinoleate, Methicone, Glyceryl Caprylate, Sorbitan Sesquioleate, Calcium Carbonate, Trihydroxystearin, Polysilicone-11, Potassium Sorbate, Dimethicone Crosspolymer, Methylpropanediol, Disodium Edta, Caprylhydroxamic Acid, Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491, Ci 77492).",
+        "n_loves": "329.4K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Foundation"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/kvd-vegan-beauty-kitten-mini-tattoo-eyeliner-P468169",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:27:19",
+        "product_name": "Mini Tattoo Liner Vegan Waterproof Liquid Eyeliner",
+        "brand_name": "KVD Beauty",
+        "options": [
+            {
+                "swatch_group": "Satin finish - Mini size",
+                "flag_label": null,
+                "size": "Size 0.007 fl oz. / 0.2 mL",
+                "name": [
+                    "Color: Mad Max Brown"
+                ],
+                "price": [
+                    "$19.50"
+                ],
+                "sku": "Item 2420321"
+            },
+            {
+                "swatch_group": "Satin finish - Mini size",
+                "flag_label": null,
+                "size": "Size 0.007 fl oz. / 0.2 mL",
+                "name": [
+                    "Color: Trooper Black"
+                ],
+                "price": [
+                    "$19.50"
+                ],
+                "sku": "Item 2352490"
+            }
+        ],
+        "rating": "width:66.208%",
+        "product_reviews": "422",
+        "ingredients": "Water, Ammonium Styrene/Acrylates Copolymer, Butylene Glycol, Alcohol, Beheneth-30, Phenoxyethanol, Acrylates/Octylacrylamide Copolymer, Methylparaben, Polyglyceryl-3 Disiloxane Dimethicone, Propylparaben, Sodium Hydroxide, Disodium EDTA, Black 2 (Ci 77266) (Nano).",
+        "n_loves": "43.3K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyeliner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lock-it-makeup-setting-mist-mini-P422216",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:27:31",
+        "product_name": "Kitten Mini Lock-It Makeup Setting Mist",
+        "brand_name": "KVD Beauty",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: Mini Size - 1 oz/ 30 mL"
+                ],
+                "price": [
+                    "$20.00"
+                ],
+                "sku": "Item 1887876"
+            }
+        ],
+        "rating": "width:81.72200000000001%",
+        "product_reviews": "534",
+        "ingredients": "Water, Pvp, Sd Alcohol 40-B (Alcohol Denat.), Phenoxyethanol, Potassium Sorbate, Sodium Benzoate, Fragrance, Cucumis Sativus (Cucumber) Fruit Extract, Aloe Barbadensis Leaf Juice, Polyhydroxystearic Acid, Ethylhexyl Isononanoate, Isononyl Isononanoate, Sodium Cocamidopropyl Pg-Dimonium Chloride Phosphate, Phenylpropanol, Caprylyl Glycol, Propanediol, Tocopherol.",
+        "n_loves": "12.2K",
+        "categories": [
+            "Mini Size",
+            "Makeup"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lock-it-foundation-mini-P438613",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:27:44",
+        "product_name": "Mini Lock-It Full-Coverage Long-Wear Matte Liquid Foundation",
+        "brand_name": "KVD Beauty",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Mini size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.5 oz/ 15 mL",
+                "name": [
+                    "Color: Deep 79 Warm - deep pecan with warm undertone",
+                    "OUT OF STOCK",
+                    "SALE"
+                ],
+                "price": [
+                    "$12.00",
+                    "$24.00"
+                ],
+                "sku": "Item 2208593"
+            },
+            {
+                "swatch_group": "Matte finish - Mini size",
+                "flag_label": "SALE",
+                "size": "Size 0.5 oz/ 15 mL",
+                "name": [
+                    "Color: Deep 80 Neutral - deep coffee with neutral undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$12.00",
+                    "$24.00"
+                ],
+                "sku": "Item 2208601"
+            },
+            {
+                "swatch_group": "Matte finish - Mini size",
+                "flag_label": "SALE",
+                "size": "Size 0.5 oz/ 15 mL",
+                "name": [
+                    "Color: Deep 83 Cool - rich deep cocoa with cool undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$12.00",
+                    "$24.00"
+                ],
+                "sku": "Item 2208619"
+            },
+            {
+                "swatch_group": "Matte finish - Mini size",
+                "flag_label": "SALE",
+                "size": "Size 0.5 oz/ 15 mL",
+                "name": [
+                    "Color: Deep 85 Warm - rich deep truffle with warm undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$12.00",
+                    "$24.00"
+                ],
+                "sku": "Item 2208627"
+            },
+            {
+                "swatch_group": "Matte finish - Mini size",
+                "flag_label": "SALE",
+                "size": "Size 0.5 oz/ 15 mL",
+                "name": [
+                    "Color: Deep 87 Neutral - rich deep ebony with neutral undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$12.00",
+                    "$24.00"
+                ],
+                "sku": "Item 2208635"
+            }
+        ],
+        "rating": "width:70.37%",
+        "product_reviews": "81",
+        "ingredients": "Dimethicone, Aqua/Water/Eau, Phenyl Trimethicone, Trimethylsiloxysilicate, Peg/Ppg-18/18 Dimethicone, Aluminum Starch Octenylsuccinate, Silica Dimethicone Silylate, Butylene Glycol, Isononyl Isononanoate, Isododecane, Glycerin, Sodium Chloride, Dimer Dilinoleyl Dimer Dilinoleate, Glyceryl Caprylate, Methicone, Sorbitan Sesquioleate, Calcium Carbonate, Trihydroxystearin, Polysilicone-11, Potassium Sorbate, Dimethicone Crosspolymer, Methylpropanediol, Talc, Disodium Edta, Caprylhydroxamic Acid, Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491, Ci 77492, Ci 77499).",
+        "n_loves": "28.5K",
+        "categories": [
+            "Mini Size",
+            "Makeup"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/ink-liner-P385908",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:27:59",
+        "product_name": "Ink Liner Waterproof Felt-Tip Liquid Eyeliner",
+        "brand_name": "KVD Beauty",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size 0.019 oz/ 0.55 mL",
+                "name": [
+                    "Color: Trooper - ultra black"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 1585819"
+            }
+        ],
+        "rating": "width:80.882%",
+        "product_reviews": "3.1K",
+        "ingredients": "Water, Ammonium Styrene/Acrylates Copolymer, Butylene Glycol, Alcohol, Beheneth-30, Phenoxyethanol, Acrylates/Octylacrylamide Copolymer, Methylparaben, Polyglyceryl-3 Disiloxane Dimethicone, Propylparaben, Sodium Hydroxide, Disodium Edta, Black 2 (Ci 77266) (Nano).  ",
+        "n_loves": "95.8K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyeliner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/kvd-vegan-beauty-xo-high-shine-lip-gloss-P469214",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:28:13",
+        "product_name": "XO High Shine Lip Gloss",
+        "brand_name": "KVD Beauty",
+        "options": [
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.091 oz/ 2.7 mL",
+                "name": [
+                    "Color: Camellia - warm beige",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2428480"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.091 oz/ 2.7 mL",
+                "name": [
+                    "Color: Petunia - warm pink",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2428498"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.091 oz/ 2.7 mL",
+                "name": [
+                    "Color: Zinnia - terra cotta pink",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2428548"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.091 oz/ 2.7 mL",
+                "name": [
+                    "Color: Rosa - bright rose",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2428530"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.091 oz/ 2.7 mL",
+                "name": [
+                    "Color: Azalea - ripe berry",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2428514"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.091 oz/ 2.7 mL",
+                "name": [
+                    "Color: Lolita Flora - chestnut rose",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2428472"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.091 oz/ 2.7 mL",
+                "name": [
+                    "Color: Magnolia - true chestnut",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2428506"
+            }
+        ],
+        "rating": "width:86.25%",
+        "product_reviews": "16",
+        "ingredients": "Hydrogenated Polyisobutene, Isododecane, Octyldodecanol, Silica Dimethyl Silylate, Ethylene/Propylene/Styrene Copolymer, Butylene/Ethylene/Styrene Copolymer, Aroma/Flavor, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate. May contain/Peut contenir (+/-): Iron Oxides (CI 77491, CI 77492, CI 77499), Titanium Dioxide (CI 77891), Red 7 Lake (CI 15850), Red 28 Lake (CI 45410), Red 6 (CI 15850), Yellow 6 Lake (CI 15985).   ",
+        "n_loves": "8.7K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Lip Gloss"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/kvd-vegan-beauty-lock-it-pore-refining-primer-P504596",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:28:29",
+        "product_name": "Lock-It Vegan Pore-Refining Hydrating Primer with Rice Water",
+        "brand_name": "KVD Beauty",
+        "options": [],
+        "rating": "width:84.03600000000002%",
+        "product_reviews": "778",
+        "ingredients": "-Green Lentil Extract: Visibly minimizes pores. -Rice Water: Soothes skin. Aqua/Water/Eau, Dimethicone/Vinyl Dimethicone Crosspolymer, Oryza Sativa (Rice) Bran Water, Polyglyceryl-3 Laurate, Carbomer, Glycerin, Isostearyl Hydroxystearate, Phenoxyethanol, Sodium Hydroxide, C12-14 Pareth-12, Lens Esculenta (Lentil) Fruit Extract, Caprylyl Glycol, Ethylhexylglycerin, Algae Extract, Glycine Soja (Soybean) Oil, Sodium Benzoate, Potassium Sorbate, Chlorella Vulgaris/Lupinus Albus Protein Ferment, Tocopherol.",
+        "n_loves": "3K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Face Primer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/shade-light-face-contour-refillable-palette-P413458",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:28:40",
+        "product_name": "Shade + Light Refillable Powder Face Contour Palette",
+        "brand_name": "KVD Beauty",
+        "options": [],
+        "rating": "width:87.42800000000001%",
+        "product_reviews": "1.1K",
+        "ingredients": "Wild Rose Extract, Safflower Seed Oil, and Vitamin E: Help condition skin for a flawless finish.Levitation/Lyric/Lucid:Mica, Zinc Stearate, Dimethicone, Ethylhexyl Palmitate, Silica, Squalane, Polyethylene, Lauroyl Lysine, Glyceryl Caprylate, Sodium Dehydroacetate, Potassium Sorbate, Tocopheryl Acetate, Carthamus Tinctorius (Safflower) Seed Oil, Rosa Canina Flower Extract. May Contain: Titanium Dioxide (Ci 77891), Yellow 5 Lake (Ci 19140), Iron Oxides (Ci 77491, Ci 77492, Ci 77499).Shadowplay:Mica, Zinc Stearate, Silica, Polyethylene, Dimethicone, Ethylhexyl Palmitate, Squalane, Glyceryl Caprylate, Sodium Dehydroacetate, Lauroyl Lysine, Potassium Sorbate, Tocopheryl Acetate, Carthamus Tinctorius (Safflower) Seed Oil, Rosa Canina Flower Extract, Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491, Ci 77492, Ci 77499).Subconscious:Mica, Zinc Stearate, Silica, Polyethylene, Dimethicone, Squalane, Ethylhexyl Palmitate, Glyceryl Caprylate, Lauroyl Lysine, Sodium Dehydroacetate, Tocopheryl Acetate, Potassium Sorbate, Carthamus Tinctorius (Safflower) Seed Oil, Rosa Canina Flower Extract,Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491, Ci 77492, Ci 77499).Sombre:Mica, Zinc Stearate, Silica, Squalane, Polyethylene, Ethylhexyl Palmitate, Dimethicone, Glyceryl Caprylate, Lauroyl Lysine, Sodium Dehydroacetate, Potassium Sorbate, Tocopheryl Acetate, Carthamus Tinctorius (Safflower) Seed Oil, Rosa Canina Flower Extract, Water, Sodium Sulfate, Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Ultramarines (Ci 77007), Manganese Violet (Ci 77742).",
+        "n_loves": "196.3K",
+        "categories": [
+            "Makeup",
+            "Makeup Palettes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/true-portrait-foundation-P449086",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:28:53",
+        "product_name": "True Portrait Medium Coverage Shake Foundation",
+        "brand_name": "KVD Beauty",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 1 oz/ 30mL",
+                "name": [
+                    "Color: Tan 076 - tan-deep with neutral undertone",
+                    "SALE"
+                ],
+                "price": [
+                    "$24.00",
+                    "$49.00"
+                ],
+                "sku": "Item 2246536"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 1 oz/ 30mL",
+                "name": [
+                    "Color: Deep 082 - deep with cool undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$24.00",
+                    "$49.00"
+                ],
+                "sku": "Item 2246569"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 1 oz/ 30mL",
+                "name": [
+                    "Color: Deep 080 - deep peach with cool undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$24.00",
+                    "$49.00"
+                ],
+                "sku": "Item 2246551"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 1 oz/ 30mL",
+                "name": [
+                    "Color: Deep 094 - rich-deep bronze with neutral undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$24.00",
+                    "$49.00"
+                ],
+                "sku": "Item 2246627"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 1 oz/ 30mL",
+                "name": [
+                    "Color: Deep 084 - deep with neutral undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$24.00",
+                    "$49.00"
+                ],
+                "sku": "Item 2246577"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 1 oz/ 30mL",
+                "name": [
+                    "Color: Tan 070 - tan peach with cool undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$24.00",
+                    "$49.00"
+                ],
+                "sku": "Item 2246502"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 1 oz/ 30mL",
+                "name": [
+                    "Color: Deep 098 - rich-deep with neutral undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$24.00",
+                    "$49.00"
+                ],
+                "sku": "Item 2246643"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 1 oz/ 30mL",
+                "name": [
+                    "Color: Deep 086 - deep peach with warm undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$24.00",
+                    "$49.00"
+                ],
+                "sku": "Item 2246585"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 1 oz/ 30mL",
+                "name": [
+                    "Color: Tan 074 - tan with warm undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$24.00",
+                    "$49.00"
+                ],
+                "sku": "Item 2246528"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 1 oz/ 30mL",
+                "name": [
+                    "Color: Tan 068 - tan peach with warm undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$24.00",
+                    "$49.00"
+                ],
+                "sku": "Item 2246494"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 1 oz/ 30mL",
+                "name": [
+                    "Color: Deep 096 - rich-deep golden with neutral undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$24.00",
+                    "$49.00"
+                ],
+                "sku": "Item 2246635"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 1 oz/ 30mL",
+                "name": [
+                    "Color: Tan 078 - tan-deep with warm undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$24.00",
+                    "$49.00"
+                ],
+                "sku": "Item 2246544"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 1 oz/ 30mL",
+                "name": [
+                    "Color: Deep 090 - deep bronze with warm undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$24.00",
+                    "$49.00"
+                ],
+                "sku": "Item 2246601"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 1 oz/ 30mL",
+                "name": [
+                    "Color: Deep 092 - deep golden with neutral undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$24.00",
+                    "$49.00"
+                ],
+                "sku": "Item 2246619"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "SALE",
+                "size": "Size 1 oz/ 30mL",
+                "name": [
+                    "Color: Deep 088 - deep golden with cool undertone",
+                    "SALE",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$24.00",
+                    "$49.00"
+                ],
+                "sku": "Item 2246593"
+            }
+        ],
+        "rating": "width:79.48%",
+        "product_reviews": "1.5K",
+        "ingredients": "Dimethicone, Isododecane, Dicaprylyl Carbonate, Trimethylsiloxysilicate, Polymethylsilsesquioxane, Polymethyl Methacrylate, Vinyl Dimethicone/Methicone Silsesquioxane Crosspolymer, Phenyl Trimethicone, Peg-10 Dimethicone, Ethylhexyl Methoxycinnamate, Stearalkonium Hectorite, Methicone, Phenoxyethanol, Propylene Carbonate, Bht, Talc, Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Titanium Dioxide (Ci 77891).",
+        "n_loves": "34.3K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Foundation"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/everlasting-lip-liner-P418804",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:29:16",
+        "product_name": "Everlasting Lip Liner",
+        "brand_name": "KVD Beauty",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.01 oz/ 0.3 g",
+                "name": [
+                    "Color: Bow N Arrow - fawn nude"
+                ],
+                "price": [
+                    "$29.00"
+                ],
+                "sku": "Item 1914423"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.01 oz/ 0.3 g",
+                "name": [
+                    "Color: Lovecraft - mauve pink nude"
+                ],
+                "price": [
+                    "$29.00"
+                ],
+                "sku": "Item 1914167"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.01 oz/ 0.3 g",
+                "name": [
+                    "Color: Moonflower - terra cotta nude"
+                ],
+                "price": [
+                    "$29.00"
+                ],
+                "sku": "Item 1914225"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.01 oz/ 0.3 g",
+                "name": [
+                    "Color: Outlaw - brick red",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$29.00"
+                ],
+                "sku": "Item 1914274"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.01 oz/ 0.3 g",
+                "name": [
+                    "Color: Vampira - reddish burgundy",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$29.00"
+                ],
+                "sku": "Item 1914316"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.01 oz/ 0.3 g",
+                "name": [
+                    "Color: Queen of Poisons - chestnut rose"
+                ],
+                "price": [
+                    "$29.00"
+                ],
+                "sku": "Item 1914209"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.01 oz/ 0.3 g",
+                "name": [
+                    "Color: Hawkwind - nude sienna"
+                ],
+                "price": [
+                    "$29.00"
+                ],
+                "sku": "Item 1914134"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.01 oz/ 0.3 g",
+                "name": [
+                    "Color: Crucifix - deep chocolate"
+                ],
+                "price": [
+                    "$29.00"
+                ],
+                "sku": "Item 1914241"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.01 oz/ 0.3 g",
+                "name": [
+                    "Color: Skully - raven black"
+                ],
+                "price": [
+                    "$29.00"
+                ],
+                "sku": "Item 1914399"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.01 oz/ 0.3 g",
+                "name": [
+                    "Color: Roxy - bright grape",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$29.00"
+                ],
+                "sku": "Item 1914415"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.01 oz/ 0.3 g",
+                "name": [
+                    "Color: Poe - navy blue",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$29.00"
+                ],
+                "sku": "Item 1914381"
+            }
+        ],
+        "rating": "width:90.99999999999999%",
+        "product_reviews": "1.7K",
+        "ingredients": "Methyl Trimethicone, Polyethylene, Trimethylsiloxysilicate, Octyldodecanol, Synthetic Fluorphlogopite, Ozokerite, Nylon-12, Acrylates/Dimethicone Copolymer, Disteardimonium Hectorite, Propylene Carbonate, Calcium Sodium Borosilicate, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Tin Oxide, Titanium Dioxide (Ci 77891),  Iron Oxides (Ci 77491, Ci 77499), Red 7 Lake (Ci 15850).",
+        "n_loves": "156.5K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Lip Liner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/kvd-vegan-beauty-epic-curl-vegan-lash-primer-P462706",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:29:34",
+        "product_name": "Epic Curl Vegan Lash Primer",
+        "brand_name": "KVD Beauty",
+        "options": [],
+        "rating": "width:60%",
+        "product_reviews": "32",
+        "ingredients": "Aqua/Water/Eau, Hydrogenated Olive Oil Stearyl Esters, Bambusa Arundinacea Stem Extract, Cera, Carnauba/Copernicia, Cerifera (Carnauba) Wax/Cire De Carnauba, Oryza Sativa   Cera/Oryza Sativa (Rice) Bran Wax, Glyceryl Stearate, Helianthus Annuus Seed Cera/Helianthus Annuus (Sunflower) Seed Wax, Bis-Diglyceryl  Polyacyladipate-2, Acacia Senegal Gum, Stearic Acid, Propanediol, Palmitic Acid, Aminomethyl Propanol, Hydrolyzed Jojoba Esters, Phenoxyethanol, Sodium Dehydroacetate, Galactoarabinan, Jojoba  Esters, Xanthan Gum, Ethylhexylglycerin, Talc, Kaolin, Tocopherol, Ultramarines (Ci 77007), Iron Oxides (Ci 77499), Ferric Ammonium Ferrocianide (Ci 77510).",
+        "n_loves": "2.4K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Mascara"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lock-it-setting-powder-brush-P409989",
+        "error": "Product not available",
+        "scrape_timestamp": "08/22/2023, 00:29:45"
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/mini-travel-bag-P443330",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:29:55",
+        "product_name": "Mini Travel Bag",
+        "brand_name": "KVD Beauty",
+        "options": [],
+        "rating": "width:72.308%",
+        "product_reviews": "13",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "4.6K",
+        "categories": [
+            "Makeup",
+            "Accessories",
+            "Makeup & Travel Cases"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lock-it-powder-foundation-P441024",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:30:08",
+        "product_name": "Lock-It Powder Foundation",
+        "brand_name": "KVD Beauty",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.31 oz/ 9.0 g",
+                "name": [
+                    "Color: 220 Rich Deep - rich deep truffle",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2179786"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.31 oz/ 9.0 g",
+                "name": [
+                    "Color: 165 Tan - tan golden",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2179893"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.31 oz/ 9.0 g",
+                "name": [
+                    "Color: 185 Tan Deep - tan-deep nutmeg",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2179851"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.31 oz/ 9.0 g",
+                "name": [
+                    "Color: 190 Tan Deep - tan-deep cinnamon",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2179844"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.31 oz/ 9.0 g",
+                "name": [
+                    "Color: 160 Tan - tan honey",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2179901"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.31 oz/ 9.0 g",
+                "name": [
+                    "Color: 215 Rich Deep - rich deep walnut",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2179794"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.31 oz/ 9.0 g",
+                "name": [
+                    "Color: 180 Tan Deep - tan-deep acorn",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2179869"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.31 oz/ 9.0 g",
+                "name": [
+                    "Color: 225 Rich Deep - rich deep coffee",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2179778"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.31 oz/ 9.0 g",
+                "name": [
+                    "Color: 175 Tan - tan sienna"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2179877"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.31 oz/ 9.0 g",
+                "name": [
+                    "Color: 205 Deep - deep sycamore",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2179810"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.31 oz/ 9.0 g",
+                "name": [
+                    "Color: 230 Rich Deep - rich deep cocoa",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2179760"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.31 oz/ 9.0 g",
+                "name": [
+                    "Color: 210 Deep - deep pecan",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2179802"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.31 oz/ 9.0 g",
+                "name": [
+                    "Color: 170 Tan - tan maple",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2179885"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.31 oz/ 9.0 g",
+                "name": [
+                    "Color: 195 Deep - deep toffee",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2179836"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.31 oz/ 9.0 g",
+                "name": [
+                    "Color: 200 Deep - deep chestnut",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2179828"
+            }
+        ],
+        "rating": "width:79.836%",
+        "product_reviews": "1.2K",
+        "ingredients": "Talc, Kaolin, Nylon-12, Mica, Magnesium Myristate, Boron Nitride, Isoamyl Laurate, Dimethicone, Barium Sulfate, Zinc Stearate, Phenyl Trimethicone, Polyester-4, 1,2-Hexanediol, Caprylyl Glycol, Dimethiconol, Oryza Sativa (Rice) Hull Powder, Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Titanium Dioxide (Ci 77891).",
+        "n_loves": "35.6K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Foundation"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/go-big-or-go-home-mascara-P442770",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 00:30:30",
+        "product_name": "Go Big or Go Home Long-Wear Vegan Volumizing Mascara",
+        "brand_name": "KVD Beauty",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size 10 g/ 0.33 oz",
+                "name": [
+                    "Color: Trooper Black - true black"
+                ],
+                "price": [
+                    "$33.00"
+                ],
+                "sku": "Item 2214849"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: Black"
+                ],
+                "price": [
+                    "$17.00"
+                ],
+                "sku": "Item 2243905"
+            }
+        ],
+        "rating": "width:73.256%",
+        "product_reviews": "1.9K",
+        "ingredients": "Water, Hydrogenated Olive Oil Stearyl Esters, Stearic Acid, Acrylates/Ethylhexyl Acrylate Copolymer, Helianthus Annuus Seed Cera/Helianthus Annuus (Sunflower) Seed Wax, Oryza Sativa Cera/Oryza Sativa (Rice) Bran Wax, Polybutene, Ricinus Communis Seed Oil/Ricinus Communis (Castor) Seed Oil, Polyglyceryl-3 Rice Branate, Propanediol, Glyceryl Stearate, C18-36 Acid Triglyceride, Polyvinyl Stearyl Ether, Aminomethyl Propanediol, Phenoxyethanol, Hdi/Trimethylol Hexyllactone Crosspolymer, Methyl Methacrylate Crosspolymer, Sodium Dehydroacetate, Ethylhexylglycerin, Laureth-21, Iron Oxides (Ci 77499).",
+        "n_loves": "16.5K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Mascara"
+        ]
+    }
+]

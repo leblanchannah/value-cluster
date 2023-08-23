@@ -1,0 +1,1605 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/saie-dew-blush-liquid-cheek-blush-P469825",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:35:44",
+        "product_name": "Dew Blush Liquid Cheek Blush",
+        "brand_name": "Saie",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.40 oz / 12 ml",
+                "name": [
+                    "Color: Peachy - light peach pink"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2437770"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.40 oz / 12 ml",
+                "name": [
+                    "Color: Rosy - warm rose"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2437788"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.40 oz / 12 ml",
+                "name": [
+                    "Color: Poppy - bright coral"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2437796"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.40 oz / 12 ml",
+                "name": [
+                    "Color: Dreamy - cool berry"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2437804"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.40 oz / 12 ml",
+                "name": [
+                    "Color: Spicy - a warm terracotta"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2564730"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.40 oz / 12 ml",
+                "name": [
+                    "Color: Chilly - a cool-toned mauve"
+                ],
+                "price": [
+                    "$32.00"
+                ],
+                "sku": "Item 2564722"
+            }
+        ],
+        "rating": "width:87.258%",
+        "product_reviews": "835",
+        "ingredients": "- Mulberry: Known to help brighten skin and fade pigmentation.- Elderberry: Fights free-radical and environmental damage.- Evening Primrose: Helps moisturize and soothe dry and irritated skin.Isocetyl Stearoyl Stearate, Glycerin, Tribehenin, Sambucus Nigra (Elderberry) Fruit Extract, Mica, Glyceryl Stearate, Glycyrrhiza Glabra (Licorice) Root Extract, Silica, Morus Alba (White Mulberry) Root Extract, Symphytum Officinale (Comfrey) Leaf Extract, Oenothera Biennis (Evening Primrose) Root Extract. [+/- May Contain/ Peut Contenir: Titanium Dioxide Ci77891, Iron Oxides (Ci77492, Ci77491, Ci77499), Yellow 6 Lake, Red 7 Lake, Red 22 Lake, Ferric Ferrocyanide]\u00a0Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "292K",
+        "categories": [
+            "Makeup",
+            "Cheek",
+            "Blush"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/saie-brow-butter-styling-volumizing-eyebrow-gel-P468208",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:36:00",
+        "product_name": "Brow Butter Styling and Volumizing Eyebrow Gel",
+        "brand_name": "Saie",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.04 oz/ 1.3 g",
+                "name": [
+                    "Color: Medium Brown"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2414118"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.04 oz/ 1.3 g",
+                "name": [
+                    "Color: Deep Brown",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2414126"
+            }
+        ],
+        "rating": "width:68.092%",
+        "product_reviews": "304",
+        "ingredients": "-Cacao Seed Butter from C\u00f4te d\u2019Ivoire and Ghana: An emollient that conditions skin.-Responsibly Sourced Jojoba from Arizona: A naturally derived moisturizer with vitamins A, D, and E plus antioxidants and omegas.-Candelilla Wax: A nutrient-rich ingredient that acts as an emollient and moisture barrier.Isohexadecane, Coconut Alkanes, Mica, Disteardimonium Hectorite, Glyceryl Hydrogenated Rosinate, Dextrin Palmitate, Beeswax / Cera Alba / Cire D'abeille, Euphorbia Cerifera (Candelilla) Wax (Candelilla Cera / Cire De Candelilla), Bis-Diglyceryl Polyacyladipate-2, Oryza Sativa (Rice) Bran Wax, Propylene Carbonate, Sucrose Tetrastearate Triacetate, Copernicia Cerifera (Carnauba) Wax / Cera Carnauba / Cire De Carnauba, Polyglyceryl-2 Isostearate/Dimer Dilinoleate Copolymer, Silica, Jojoba Esters, Butyrospermum Parkii (Shea) Butter, Polylactic Acid, Coco-Caprylate/Caprate, Glyceryl Caprylate, Glyceryl Undecylenate, Theobroma Cacao (Cocoa) Seed Butter, Butylene Glycol, Water / Aqua / Eau, Dextran, Acetyl Tetrapeptide-3, Trifolium Pratense (Clover) Flower Extract. [+/- May Contain/ Peut Contenir: Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Titanium Dioxide (Ci 77891)].Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "14.8K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyebrow"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/saie-mini-mascara-101-lengthening-lifting-P478730",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:36:13",
+        "product_name": "Mini Mascara 101 Lengthening and Lifting",
+        "brand_name": "Saie",
+        "options": [
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": "Size 0.17 oz / 5 g",
+                "name": [
+                    "Color: Black"
+                ],
+                "price": [
+                    "$21.00"
+                ],
+                "sku": "Item 2492841"
+            }
+        ],
+        "rating": "width:85.542%",
+        "product_reviews": "83",
+        "ingredients": "-Beeswax: Allows the mascara to coat, lengthen, and stiffen (but not harden) lashes.-Shea Butter: Moisturizing and nourishing, it also creates a silky, smooth texture.-Hydra-Mineral Complex: Rich in minerals for strengthening.Water/Aqua/Eau, Beeswax/Cera Alba/Cire D'abeille, Butyrospermum Parkii (Shea) Butter, Polyglyceryl-6 Distearate, Dimer Dilinoleyl Dimer Dilinoleate, Glycerin, Copernicia Cerifera (Carnauba) Wax/Cera Carnauba/Cire De Carnauba, Polyglyceryl-10 Myristate, Cetyl Alcohol, Glyceryl Caprylate, Leuconostoc/Radish Root Ferment Filtrate, Zea Mays (Corn) Starch, Xanthan Gum, Arginine, Phenethyl Alcohol, Agropyron Repens Root Extract, Potassium Sorbate, Sodium Benzoate, Iron Oxides (Ci 77499).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "12.1K",
+        "categories": [
+            "Mini Size",
+            "Makeup"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/saie-sun-melt-natural-cream-bronzer-P472997",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:36:25",
+        "product_name": "Sun Melt Natural Cream Bronzer",
+        "brand_name": "Saie",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 mL",
+                "name": [
+                    "Color: Fair Bronze - a neutral shade for fair to fair-light skin tones"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2638146"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: Light Bronze - a peach shade for light skin tones"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2460467"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: Medium Bronze - a warm golden shade for light to medium skin tones"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2460459"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: Tan Bronze - a neutral shade for medium to tan skin tones"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2638138"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: Deep Bronze - a warm red shade for deep skin tones"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2460442"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: Dark Bronze - a dark skin tones with cooler undertones "
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2482552"
+            }
+        ],
+        "rating": "width:89.28800000000001%",
+        "product_reviews": "661",
+        "ingredients": "-Colloidal Oatmeal: Soothes, smooths, and moisturizes skin.-Grapeseed Oil: Is rich in protective antioxidants and nourishing vitamin E.-Elderberry Extract: Visibly brightens and protects skin with high levels of vitamin C. C15-19 Alkane, Jojoba Esters, Ricinus Communis (Castor) Seed Oil, Tribehenin, Colloidal Oatmeal, Glycerin, Beeswax/Cera Alba/Cire D'abeille, Vitis Vinifera (Grape) Seed Oil, Hydrogenated Castor Oil, Silica, Bentonite, Sambucus Nigra (Elderberry) Fruit Extract, Copernicia Cerifera (Carnauba) Wax/Cera Carnauba/Cire De Carnauba, Mica (CI 77019), Fragrance, May Contain: Titanium Dioxide (CI 77891), Iron Oxide (CI 77492, CI 77491, CI 77499), Tin Oxide.  Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "164.6K",
+        "categories": [
+            "Makeup",
+            "Cheek",
+            "Bronzer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/saie-hydrabeam-brightening-hydrating-under-eye-concealer-P483685",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:36:42",
+        "product_name": "Hydrabeam Brightening + Hydrating Creamy Under Eye Concealer",
+        "brand_name": "Saie",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.2 oz / 6 mL",
+                "name": [
+                    "Color: HB HALF - for very light skin tones with neutral undertones"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2638112"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.20 oz / 6 ml",
+                "name": [
+                    "Color: HB ONE - For very light skin tones with pink undertones"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2578953"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.2 oz / 6 mL",
+                "name": [
+                    "Color: HB ONE + HALF - for light skin tones with neutral undertones"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2638104"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.20 oz / 6 ml",
+                "name": [
+                    "Color: HB TWO - For light to medium skin tones with golden undertones"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2578946"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.20 oz / 6 ml",
+                "name": [
+                    "Color: HB THREE - For lightmedium to medium skin tones with golden undertones"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2578938"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.2 oz / 6 mL",
+                "name": [
+                    "Color: HB THREE + HALF - for medium skin tones with golden beige undertones"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2638096"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.20 oz / 6 ml",
+                "name": [
+                    "Color: HB FOUR - For medium skin tones with red undertones"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2578920"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.20 oz / 6 ml",
+                "name": [
+                    "Color: HB FIVE - For medium to tan skin tones with golden undertones"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2578912"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.2 oz / 6 mL",
+                "name": [
+                    "Color: HB FIVE + HALF - for medium to tan skin tones with neutral undertones"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2638088"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.20 oz / 6 ml",
+                "name": [
+                    "Color: HB SIX - For deep skin tones with golden undertones"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2578904"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.20 oz / 6 ml",
+                "name": [
+                    "Color: HB SEVEN - For deep skin tones with red undertones"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2511616"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.2 oz / 6 mL",
+                "name": [
+                    "Color: HB SEVEN + HALF - for deep to rich skin tones with neutral olive undertones"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2638120"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.20 oz / 6 ml",
+                "name": [
+                    "Color: HB EIGHT - For rich skin tones with neutral undertones"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2578896"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.20 oz / 6 ml",
+                "name": [
+                    "Color: HB NINE - For rich skin tones with red undertones"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2511608"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.2 oz / 6 mL",
+                "name": [
+                    "Color: HB TEN - for rich skin tones with golden neutral undertones"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2658110"
+            }
+        ],
+        "rating": "width:82.72%",
+        "product_reviews": "713",
+        "ingredients": "-Olive-Derived Squalane and Plant-Derived Glycerin: Lock in moisture and leave skin quenched and visibly glowing.-Tomato Extract: Visibly brightens, plumps, and evens skin tone. -Cucumber Extract: Soothes with ascorbic and lactic acids and protects with antioxidants.Isocetyl Stearoyl Stearate, Glycerin, Glyceryl Stearate, Tribehenin, Sambucus Nigra (Elderberry) Fruit Extract, Silica, Glycyrrhiza Glabra (Licorice) Root Extract, Simmondsia Chinensis (Jojoba) Seed Oil, Squalane, Capryloyl Glycerin/Sebacic Acid Copolymer, Mica, Solanum Lycopersicum (Tomato) Fruit Extract, Cucumis Sativus (Cucumber) Fruit Extract, Xylitylglucoside, Anhydroxylitol, Xylitol, Oryza Sativa (Rice) Starch. [+/- May Contain/ Peut Contenir: Titanium Dioxide (CI77891), Iron Oxides (CI 77491, CI 77492, CI 77499)].Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "76.1K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Under-Eye Concealer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/saie-glowy-super-gel-lightweight-dewy-highlighter-P468206",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:37:05",
+        "product_name": "Glowy Super Gel Lightweight Dewy Highlighter",
+        "brand_name": "Saie",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.0 oz/ 30 mL",
+                "name": [
+                    "Color: Starglow - universal champagne"
+                ],
+                "price": [
+                    "$36.00"
+                ],
+                "sku": "Item 2414027"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.0 oz/ 30 mL",
+                "name": [
+                    "Color: Sunglow - warm golden bronze"
+                ],
+                "price": [
+                    "$36.00"
+                ],
+                "sku": "Item 2414035"
+            },
+            {
+                "swatch_group": "Radiant finish - Mini size",
+                "flag_label": null,
+                "size": "Size 0.5 oz/ 16 mL",
+                "name": [
+                    "Color: Starglow - universal champagne"
+                ],
+                "price": [
+                    "$21.00"
+                ],
+                "sku": "Item 2414175"
+            },
+            {
+                "swatch_group": "Radiant finish - Mini size",
+                "flag_label": null,
+                "size": "Size 0.5 oz / 15 mL",
+                "name": [
+                    "Color: Sunglow - warm golden bronze"
+                ],
+                "price": [
+                    "$21.00"
+                ],
+                "sku": "Item 2679066"
+            }
+        ],
+        "rating": "width:88.07199999999999%",
+        "product_reviews": "1.1K",
+        "ingredients": "-Plant-Derived Glycerin: A powerful humectant to help increase skin\u2019s natural moisture level.-Vitamin C: Known to brighten skin\u2019s appearance.-Rose Hip Seed Oil: Ultra rich in antioxidants to help visibly brighten and moisturize skin.STARGLOW: Water / Aqua / Eau, Caprylic/capric Triglyceride, Propanediol, Glycerin, Mica, Hydroxyethyl Acrylate/sodium Acryloyldimethyl Taurate Copolymer, Squalane, Caprylyl Glycol, Phenethyl Alcohol, Ethylhexylglycerin, Polysorbate 60, Ascorbyl Tetraisopalmitate, Carica Papaya (Papaya) Seed Oil, Rosa Canina Fruit Oil, Lactic Acid, Titanium Dioxide (CI 77891), Iron Oxides (CI 77491). SUNGLOW: Water / Aqua / Eau, Caprylic/capric Triglyceride, Propanediol, Glycerin, Mica, Sodium Acrylate/sodium Acryloyldimethyl Taurate Copolymer, Caprylyl Glycol, Isohexadecane, Phenethyl Alcohol, Ethylhexylglycerin, Polysorbate 80, Ascorbyl Tetraisopalmitate, Carica Papaya (Papaya) Seed Oil, Rosa Canina Fruit Oil, Sorbitan Oleate, Lactic Acid, Tin Oxide, Titanium Dioxide (CI 77891), Iron Oxides (CI 77491, CI 77499).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "214.8K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Highlighter"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/saie-slip-tint-dewy-tinted-moisturizer-P478316",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:37:20",
+        "product_name": "Slip Tint Dewy Tinted Moisturizer",
+        "brand_name": "Saie",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.35 oz/ 40 mL",
+                "name": [
+                    "Color: One - for very light skintones with pink undertones"
+                ],
+                "price": [
+                    "$47.00"
+                ],
+                "sku": "Item 2499457"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.35 oz/ 40 mL",
+                "name": [
+                    "Color: Two - for very light skintones with peach undertones"
+                ],
+                "price": [
+                    "$47.00"
+                ],
+                "sku": "Item 2499465"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.35 oz/ 40 mL",
+                "name": [
+                    "Color: Three - for light to medium skintones with peach undertones"
+                ],
+                "price": [
+                    "$47.00"
+                ],
+                "sku": "Item 2499473"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.35 oz/ 40 mL",
+                "name": [
+                    "Color: Three + Half - for light to medium skintones with golden undertones"
+                ],
+                "price": [
+                    "$47.00"
+                ],
+                "sku": "Item 2499481"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.35 oz/ 40 mL",
+                "name": [
+                    "Color: Four - for light to medium skintones with red undertones"
+                ],
+                "price": [
+                    "$47.00"
+                ],
+                "sku": "Item 2499499"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.35 oz/ 40 mL",
+                "name": [
+                    "Color: Four + Half - for medium skintones with golden undertones"
+                ],
+                "price": [
+                    "$47.00"
+                ],
+                "sku": "Item 2499507"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1.35 oz/ 40 mL",
+                "name": [
+                    "Color: Five - for medium skintones with peach undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$47.00"
+                ],
+                "sku": "Item 2499515"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1.35 oz/ 40 mL",
+                "name": [
+                    "Color: Five + Half - for medium skintones with red undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$47.00"
+                ],
+                "sku": "Item 2499523"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1.35 oz/ 40 mL",
+                "name": [
+                    "Color: Six - for medium to tan skintones with golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$47.00"
+                ],
+                "sku": "Item 2499531"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1.35 oz/ 40 mL",
+                "name": [
+                    "Color: Seven - for medium to tan skintones with olive undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$47.00"
+                ],
+                "sku": "Item 2499549"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.35 oz/ 40 mL",
+                "name": [
+                    "Color: Eight - for deep skintones with peach undertones"
+                ],
+                "price": [
+                    "$47.00"
+                ],
+                "sku": "Item 2499556"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1.35 oz/ 40 mL",
+                "name": [
+                    "Color: Nine - for deep skintones with red undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$47.00"
+                ],
+                "sku": "Item 2499564"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.35 oz/ 40 mL",
+                "name": [
+                    "Color: Nine + Half - for rich skintones with deep red undertones"
+                ],
+                "price": [
+                    "$47.00"
+                ],
+                "sku": "Item 2524387"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1.35 oz/ 40 mL",
+                "name": [
+                    "Color: Ten - for rich skintones with neutral undertones"
+                ],
+                "price": [
+                    "$47.00"
+                ],
+                "sku": "Item 2499572"
+            }
+        ],
+        "rating": "width:75.958%",
+        "product_reviews": "188",
+        "ingredients": "-Hyaluronic Acid: Attracts water and retains moisture in skin.-Licorice Root Extract: Visibly brightens skin.-Pansy Flower: A potent antioxidant that fights free-radical damage and works with hyaluronic acid to lock in moisture.Water, Coco-Caprylate/Caprate, Zinc Oxide (15%), Vitis Vinifera (Grape) Seed Oil, C15-19 Alkane, Isocetyl Stearoyl Stearate, Argania Spinosa Kernel Oil, Tocopheryl Acetate, Sodium Hyaluronate Crosspolymer, Jojoba Esters, Tribehenin, Beeswax, Glyceryl Stearate, Leuconostoc/Radish Root Ferment Filtrate, Glycerin, Lactobacillus, Acacia Senegal Gum, Xanthan Gum, Viola Tricolor Extract, Bisabolol, Glycyrrhiza Glabra (Licorice) Root Extract, Sodium Hyaluronate, Aloe Barbadensis Leaf Extract, Cocos Nucifera (Coconut) Fruit Extract. May Contain: Titanium Dioxide, Iron Oxides, Mica.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "16.3K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Tinted Moisturizer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/saie-airset-radiant-loose-setting-powder-P480188",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:37:40",
+        "product_name": "Airset Radiant Loose Setting Powder",
+        "brand_name": "Saie",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.14 oz/ 4 g",
+                "name": [
+                    "Color: Translucent - for fair to light medium skin tones"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2513018"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.14 oz/ 4 g",
+                "name": [
+                    "Color: Translucent Medium - for light medium to medium tan skin tones"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2513026"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.14 oz/ 4 g",
+                "name": [
+                    "Color: Translucent Deep - for deep skin tones"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2513034"
+            }
+        ],
+        "rating": "width:88.30799999999999%",
+        "product_reviews": "325",
+        "ingredients": "-Squalane: A hydrator that\u00a0keeps moisture locked in so skin appears\u00a0plump for longer.-Ultra-fine Silica: Provides a velvety soft touch and silky glide for a smooth appearance.\u00a0-Ethically Sourced Mica: Provides added luminosity.Synthetic Fluorphlogopite, Silica, Cetearyl Ethylhexanoate, Squalane, Polysorbate 20, 1,2-Hexanediol, Caprylyl Glycol, Ethylhexylglycerin, Gellan Gum. [+/- May Contain/ Peut Contenir: Mica, Iron Oxides (Ci 7749, Ci 77492, Ci 77499), Titanium Dioxide (Ci 77891)].Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "47K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Setting Spray & Powder"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lip-blur-soft-matte-hydrating-lipstick-P501451",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:37:54",
+        "product_name": "Lip Blur Soft-Matte Hydrating Lipstick with Hyaluronic Acid",
+        "brand_name": "Saie",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.07 oz / 2 g",
+                "name": [
+                    "Color: Modern - rosy nude"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2609824"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.07 oz / 2 g",
+                "name": [
+                    "Color: Surreal - raspberry"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2609782"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.07 oz / 2 g",
+                "name": [
+                    "Color: Classic - blue-red"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2609774"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.07 oz / 2 g",
+                "name": [
+                    "Color: Nouveau - mid-tone brown"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2609816"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.07 oz / 2 g",
+                "name": [
+                    "Color: Pop - bright berry"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2609790"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.07 oz / 2 g",
+                "name": [
+                    "Color: Dada - burnt terracotta"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2609808"
+            }
+        ],
+        "rating": "width:91.38%",
+        "product_reviews": "297",
+        "ingredients": "-Hyaluronic Acid: Helps to attract water and retain moisture for more plump-looking, hydrated lips.-Olive Oil: Nourishes and moisturizes for soft, smooth lips.-Berry Fruit Wax: Provides a blurred, soft-focus effect to lips.Octyldodecanol, Candelilla Cera (Euphorbia Cerifera (Candelilla) Wax), Copernicia Cerifera Cera (Copernicia Cerifera (Carnauba) Wax), Ricinus Communis Seed Oil Ricinus Communis (Castor) Seed Oil, Helianthus Annuus Seed Cera (Helianthus Annuus (Sunflower) Seed Wax), Hydrogenated Coco-Glycerides, Jojoba Esters, Hectorite, Undecane, Olea Europaea Oil Unsaponifiables (Olea Europaea (Olive) Oil Unsaponifiables), Silica, Tridecane, Shorea Robusta Resin, Rhus Verniciflua Peel Cera (Rhus Verniciflua Peel Wax), Polyglycerin-3, Acacia Decurrens Flower Cera (Acacia Decurrens Flower Wax), Sodium Hyaluronate (+/-) May Contain: Ci 15985 (Yellow 6 Lake), Ci 77891 (Titanium Dioxide), Ci 77491 (Iron Oxides), Ci 15850 (Red 7 Lake), Ci 77492 (Iron Oxides), Ci 77499 (Iron Oxides).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "42.2K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Lipstick"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/saie-the-glow-sculpt-P505541",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:38:10",
+        "product_name": "Glow Sculpt Multi-Use Cream Highlighting Blush",
+        "brand_name": "Saie",
+        "options": [
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.20 oz / 5.8 g",
+                "name": [
+                    "Color: Quartzglow - warm bronze"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2679447"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.20 oz / 5.8 g",
+                "name": [
+                    "Color: Pinkglow - cool pink"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2679462"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.20 oz / 5.8 g",
+                "name": [
+                    "Color: Mauveglow - cool toned mauve"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2679454"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.20 oz / 5.8 g",
+                "name": [
+                    "Color: Peachglow - warm pinky peach"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2679470"
+            },
+            {
+                "swatch_group": "Shimmer finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.20 oz / 5.8 g",
+                "name": [
+                    "Color: Bronzeglow - rich red bronze"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2679488"
+            },
+            {
+                "swatch_group": "Shimmer finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.20 oz / 5.8 g",
+                "name": [
+                    "Color: Quartzglow Refill - warm bronze"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2679496"
+            },
+            {
+                "swatch_group": "Shimmer finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.20 oz / 5.8 g",
+                "name": [
+                    "Color: Pinkglow Refill - cool pink"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2679512"
+            },
+            {
+                "swatch_group": "Shimmer finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.20 oz / 5.8 g",
+                "name": [
+                    "Color: Mauveglow Refill - cool toned mauve"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2679504"
+            },
+            {
+                "swatch_group": "Shimmer finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.20 oz / 5.8 g",
+                "name": [
+                    "Color: Peachglow Refill - warm pinky peach"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2679520"
+            },
+            {
+                "swatch_group": "Shimmer finish - Refill size",
+                "flag_label": null,
+                "size": "Size 0.20 oz / 5.8 g",
+                "name": [
+                    "Color: Bronzeglow Refill - rich red bronze"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2679538"
+            }
+        ],
+        "rating": "width:92.296%",
+        "product_reviews": "270",
+        "ingredients": "-Kukui Oil: Moisturizes, soothes, and nurtures skin.-Hyaluronic Acid: Locks in moisture for hydrated skin.-Finely milled particles of mica create a radiant, lifted effect without glitter. Caprylic/Capric Triglyceride, Octyldodecanol, Simmondsia Chinensis Seed Oil (Simmondsia Chinensis (Jojoba) Seed Oil, Mica, Calcium Sodium Borosilicate, Synthetic Fluorphlogopite, Synthetic Beeswax, Helianthus Annuus Seed Cera (Helianthus Annuus (Sunflower) Seed Wax, Tin Oxide, Aleurites Moluccana Seed Oil (Aleurites Moluccanus (Kukui) Seed Oil, Passiflora Edulis Seed Oil, (Passiflora Edulis (Maracuja) Seed Oil, Ethylhexyl Palmitate, Helianthus Annuus Seed Oil (Helianthus Annuus (Sunflower) Seed Oil, Victoria Amazonica Flower Extract, Trihydroxystearin, Sodium Hyaluronate, Glucomannan. [+/- May Contain/ Peut Contenir: Ci 77891 (Titanium Dioxide), Ci 15850 (Red 6 Lake), Ci 77491 (Iron Oxides), Ci 77492 (Iron Oxides), Ci 77499 (Iron Oxides), Ci 77510 (Ferric Ferrocyanide)].Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "39.8K",
+        "categories": [
+            "Makeup",
+            "Cheek",
+            "Blush"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/saie-glowy-super-skin-lightweight-hydrobounce-serum-foundation-P504907",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:38:29",
+        "product_name": "Glowy Super Skin Lightweight Hydrobounce\u2122  Serum Foundation ",
+        "brand_name": "Saie",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 1 - very light skin tones with neutral undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637478"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 2 - very light skin tones with warm undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637460"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 3 - very light skin tones with peach undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637452"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 4 - very light skin tones with cool undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637445"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 5 - light skin tones with warm undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637437"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 6 - light skin tones with peach undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637429"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 7 - light skin tones with neutral undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637411"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 8 - light skin tones with warm undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637403"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 9 - light skin tones with golden undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637395"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 10 - light to medium skin tones with neutral undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637387"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 11 - light to medium skin tones with peach undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637379"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 12 - light to medium skin tones with cool undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637361"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 13 - medium skin tones with golden undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637353"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 14 - medium skin tones with peach undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637346"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 15 - medium skin tones with olive undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637338"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 16 - medium skin tones with warm undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637320"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 17 - medium to medium/tan skin tones with warm undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637312"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 18 - medium to medium/tan skin tones with neutral undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637304"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 19 - medium to medium/tan skin tones with golden undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637296"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 20 - medium to medium/tan skin tones with cool undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637288"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 21 - medium to medium/tan skin tones with golden undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637270"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 22 - medium/tan skin tones with olive undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637262"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 23 - medium/tan skin tones with warm undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637254"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 24 - medium/tan skin tones with cool undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637247"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 25 - medium/tan skin tones with golden undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637239"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 26 - medium/tan skin tones with peach undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637221"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 27 - medium/tan to deep skin tones with olive undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637213"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 28 - medium/tan to deep skin tones with cool undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637205"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 29 - deep skin tones with neutral undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637197"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 30 - deep skin tones with cool undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637189"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 31 - deep skin tones with warm undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637502"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 32 - deep skin tones with olive undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637494"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 33 - rich skin tones with cool undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637486"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 34 - rich skin tones with warm undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637759"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 35 - rich skin tones with neutral undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637742"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz / 30 ml",
+                "name": [
+                    "Color: 36 - rich skin tones with cool undertones"
+                ],
+                "price": [
+                    "$52.00"
+                ],
+                "sku": "Item 2637734"
+            }
+        ],
+        "rating": "width:78.764%",
+        "product_reviews": "599",
+        "ingredients": "-Hydrobounce\u2122 Complex (Cross-Linked HA, Non-Equilibrium HA, Polyglutamic Acid, Rice Bran Peptides): Hydrates, moisturizes, and brightens and plumps the appearance of skin.-Sugar-Derived Squalane: Lightweight mega-moisturizer that locks hydration into skin.-Polyglutamic Acid: Delivers immediate and long-term plumping benefits to the skin.Althaea Officinalis Root Extract, Ascorbyl Palmitate, Caprylhydroxamic Acid, Dicaprylyl Carbonate, Dicaprylyl Ether, Glycerin, Glyceryl Caprylate, Magnesium Stearate, Mica, Neopentyl Glycol Diheptanoate, Oryza Sativa (Rice) Bran Extract, Phyllanthus Emblica Fruit Extract, Polyester-7, Polyglutamic Acid, Polyglycerin - 6, Polyglyceryl-6 Polyhydroxystearate, Polyglyceryl-6 Polyricinoleate, Potassium Sorbate, Sodium Benzoate, Sodium Chloride, Sodium Hyaluronate, Squalane, Stearic Acid, Titanium Dioxide (Ci 77891), Tocopherols, Triethoxycaprylylsilane, Trihydroxystearin, Trioctyldodecyl Citrate, Water (Aqua), Iron Oxides (Ci 77491)Iron Oxides (Ci 77492), Iron Oxides (Ci 77499), Iron Oxides (Ci 77499).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "97.6K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Foundation"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/saie-mini-glowy-super-gel-lightweight-dewy-highlighter-P468207",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:39:08",
+        "product_name": "Mini Glowy Super Gel Lightweight Dewy Highlighter",
+        "brand_name": "Saie",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Mini size",
+                "flag_label": null,
+                "size": "Size 0.5 oz/ 16 mL",
+                "name": [
+                    "Color: Starglow - universal champagne"
+                ],
+                "price": [
+                    "$21.00"
+                ],
+                "sku": "Item 2414175"
+            },
+            {
+                "swatch_group": "Radiant finish - Mini size",
+                "flag_label": null,
+                "size": "Size 0.5 oz / 15 mL",
+                "name": [
+                    "Color: Sunglow - warm golden bronze"
+                ],
+                "price": [
+                    "$21.00"
+                ],
+                "sku": "Item 2679066"
+            }
+        ],
+        "rating": "width:82.622%",
+        "product_reviews": "671",
+        "ingredients": "-Plant-derived Glycerin: A powerful humectant that increases skin\u2019s moisture level.-Vitamin C: Brightens and refines the appearance of skin.              -Rosehip Seed Oil: Ultra-rich in antioxidants that visibly brighten and moisturize skin.Water / Aqua / Eau, Caprylic/capric Triglyceride, Propanediol, Glycerin, Mica, Hydroxyethyl Acrylate/sodium Acryloyldimethyl Taurate Copolymer, Squalane, Caprylyl Glycol, Phenethyl Alcohol, Ethylhexylglycerin, Polysorbate 60, Ascorbyl Tetraisopalmitate, Carica Papaya (Papaya) Seed Oil, Rosa Canina Fruit Oil, Lactic Acid, Titanium Dioxide (CI 77891), Iron Oxides (CI 77491).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "186.1K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Highlighter"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/saie-the-fluffy-setting-powder-brush-P480189",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:39:21",
+        "product_name": "The Fluffy Setting Powder Brush",
+        "brand_name": "Saie",
+        "options": [],
+        "rating": "width:94.354%",
+        "product_reviews": "209",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "27.1K",
+        "categories": [
+            "Makeup",
+            "Brushes & Applicators",
+            "Face Brushes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/saie-the-big-buffing-bronzer-brush-P473327",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:39:34",
+        "product_name": "The Big Buffing Bronzer Brush",
+        "brand_name": "Saie",
+        "options": [],
+        "rating": "width:97.618%",
+        "product_reviews": "361",
+        "ingredients": "Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "86.7K",
+        "categories": [
+            "Makeup",
+            "Brushes & Applicators",
+            "Face Brushes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/saie-mascara-101-lengthening-lifting-P468204",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:39:43",
+        "product_name": "Mascara 101 Lengthening and Lifting",
+        "brand_name": "Saie",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.31 oz/ 10 g"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2414019"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.31 oz / 10 g - rich warm brown"
+                ],
+                "price": [
+                    "$34.00"
+                ],
+                "sku": "Item 2686715"
+            },
+            {
+                "swatch_group": "Mini size",
+                "flag_label": null,
+                "size": "Size 0.17 oz / 5 g",
+                "name": [
+                    "Size: Black"
+                ],
+                "price": [
+                    "$21.00"
+                ],
+                "sku": "Item 2492841"
+            }
+        ],
+        "rating": "width:87.262%",
+        "product_reviews": "493",
+        "ingredients": "-Beeswax: Allows the mascara to coat, lengthen, and stiffen (but not harden) lashes.-Shea Butter: Moisturizing and nourishing, it also creates a silky, smooth texture.-Hydra-Mineral Complex: Rich in minerals for strengthening.Water/Aqua/Eau, Beeswax/Cera Alba/Cire D'abeille, Butyrospermum Parkii (Shea) Butter, Polyglyceryl-6 Distearate, Dimer Dilinoleyl Dimer Dilinoleate, Glycerin, Copernicia Cerifera (Carnauba) Wax / Cera Carnauba/Cire De Carnauba, Polyglyceryl-10 Myristate, Cetyl Alcohol, Glyceryl Caprylate, Leuconostoc/Radish Root Ferment Filtrate, Zea Mays (Corn) Starch, Xanthan Gum, Arginine, Phenethyl Alcohol, Agropyron Repens Root Extract, Potassium Sorbate, Sodium Benzoate, Iron Oxides (Ci 77499).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "28.8K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Mascara"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/the-double-multitasking-complexion-brush-P506013",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:39:58",
+        "product_name": "The Double-Ended Sculpting Brush",
+        "brand_name": "Saie",
+        "options": [],
+        "rating": "width:94.42399999999999%",
+        "product_reviews": "208",
+        "ingredients": "Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "9.2K",
+        "categories": [
+            "Makeup",
+            "Brushes & Applicators",
+            "Face Brushes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/the-base-foundation-brush-P504884",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 08:40:08",
+        "product_name": "The Base Foundation Brush",
+        "brand_name": "Saie",
+        "options": [],
+        "rating": "width:97.11399999999999%",
+        "product_reviews": "305",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "33.9K",
+        "categories": [
+            "Makeup",
+            "Brushes & Applicators",
+            "Face Brushes"
+        ]
+    }
+]

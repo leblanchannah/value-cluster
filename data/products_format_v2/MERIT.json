@@ -1,0 +1,1083 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/merit-brow-1980-volumizing-eyebrow-pomade-gel-P468695",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:32:50",
+        "product_name": "Brow 1980 Volumizing Eyebrow Pomade Gel",
+        "brand_name": "MERIT",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size 0.08 oz/ 2.4 g",
+                "name": [
+                    "Color: Blonde - blonde with cool undertones"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2426674"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size 0.08 oz/ 2.4 g",
+                "name": [
+                    "Color: Brown - light to medium cool brown"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2426682"
+            },
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size 0.08 oz/ 2.4 g",
+                "name": [
+                    "Color: Black Brown - dark brown/black with warm undertones"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2426690"
+            }
+        ],
+        "rating": "width:82.91600000000001%",
+        "product_reviews": "240",
+        "ingredients": "Aqua (Water, Eau), Mica, Cera Carnauba (Copernicia Cerifera (Carnauba) Wax, Cire de Carnauba), Polyisobutene, Propanediol, Glyceryl Stearate, Polyacrylate-21, Kaolin, Palmitic Acid, Oleic Acid, Stearic Acid, Synthetic Beeswax, Panthenol, Caprylyl Glycol, Tocopheryl Acetate, Myristic Acid, Hydroxyethylcellulose, Nylon-6, Butylene Glycol, Trideceth-6 Phosphate, Hexylene Glycol, Lauroyl Lysine, Dimethicone, Dipropylene Glycol, Triethoxycaprylylsilane, Glyceryl Caprylate, Silica, Quartz, Potassium Sorbate, Phenoxyethanol, Chloroxylenol, CI 77491/77492/77499 (Iron Oxides).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "22.6K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyebrow"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/bronze-balm-sheer-sculpting-bronzer-P501766",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:33:04",
+        "product_name": "Bronze Balm Sheer Sculpting Bronzer",
+        "brand_name": "MERIT",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.44 oz / 12 mL",
+                "name": [
+                    "Color: Quince - fair skin"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2609725"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.44 oz / 12 mL",
+                "name": [
+                    "Color: Clay - light skin"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2609733"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.44 oz / 12 mL",
+                "name": [
+                    "Color: Seine - medium skin"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2609741"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.44 oz / 12 mL",
+                "name": [
+                    "Color: Leo - medium-deep skin"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2609758"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.44 oz / 12 mL",
+                "name": [
+                    "Color: Monarch - deep skin"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2609766"
+            }
+        ],
+        "rating": "width:90.71199999999999%",
+        "product_reviews": "534",
+        "ingredients": "-Microfine Pigments: Add a touch of color without covering up your skin\u2019s natural texture. -Fatty Acids: Condition skin and lock in moisture.Octyldodecyl Myristate, Isononyl Isononanoate, Pentaerythrityl Tetraisostearate, Synthetic Wax, Diisostearyl Malate, Synthetic Fluorphlogopite, Silica, Bis-Diglyceryl Polyacyladipate-2, Diisostearoyl Polyglyceryl-3 Dimer Dilinoleate, Caprylic/Capric Glycerides, Caprylic/Capric Triglyceride, Sorbitan Isostearate, Microcrystalline Wax, Ethylene/Propylene Copolymer, Lecithin, Triethoxycaprylylsilane, Methicone, Water, BHT. May Contain (+/-): Iron Oxide Yellow (CI 77492), Iron Oxide Red (CI 77491), Iron Oxide Black (CI 77499).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "146.2K",
+        "categories": [
+            "Makeup",
+            "Cheek",
+            "Bronzer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/merit-brush-no-1-tapered-blending-brush-P468697",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:33:19",
+        "product_name": "Brush No. 1 Tapered Blending Brush",
+        "brand_name": "MERIT",
+        "options": [],
+        "rating": "width:91.19999999999999%",
+        "product_reviews": "225",
+        "ingredients": "Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "57.4K",
+        "categories": [
+            "Makeup",
+            "Brushes & Applicators",
+            "Face Brushes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/merit-signature-lip-lightweight-lipstick-P481403",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:33:29",
+        "product_name": "Signature Lip Lightweight Lipstick",
+        "brand_name": "MERIT",
+        "options": [
+            {
+                "swatch_group": "Satin finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.10 oz/ 3 g",
+                "name": [
+                    "Color: 1990 - deep brown"
+                ],
+                "price": [
+                    "$33.00"
+                ],
+                "sku": "Item 2546232"
+            },
+            {
+                "swatch_group": "Satin finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.10 oz/ 3 g",
+                "name": [
+                    "Color: Baby - neutral pink"
+                ],
+                "price": [
+                    "$33.00"
+                ],
+                "sku": "Item 2512762"
+            },
+            {
+                "swatch_group": "Satin finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.10 oz/ 3 g",
+                "name": [
+                    "Color: Slip - warm neutral"
+                ],
+                "price": [
+                    "$33.00"
+                ],
+                "sku": "Item 2512770"
+            },
+            {
+                "swatch_group": "Satin finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.10 oz/ 3 g",
+                "name": [
+                    "Color: L'avenue - berry brown"
+                ],
+                "price": [
+                    "$33.00"
+                ],
+                "sku": "Item 2512747"
+            },
+            {
+                "swatch_group": "Satin finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.10 oz/ 3 g",
+                "name": [
+                    "Color: Millennial - classic pink"
+                ],
+                "price": [
+                    "$33.00"
+                ],
+                "sku": "Item 2512754"
+            },
+            {
+                "swatch_group": "Satin finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.10 oz/ 3 g",
+                "name": [
+                    "Color: Cabo - soft orange red"
+                ],
+                "price": [
+                    "$33.00"
+                ],
+                "sku": "Item 2512721"
+            },
+            {
+                "swatch_group": "Satin finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.10 oz/ 3 g",
+                "name": [
+                    "Color: Tiger - brick red"
+                ],
+                "price": [
+                    "$33.00"
+                ],
+                "sku": "Item 2512739"
+            },
+            {
+                "swatch_group": "Satin finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.10 oz/ 3 g",
+                "name": [
+                    "Color: Fashion - soft berry"
+                ],
+                "price": [
+                    "$33.00"
+                ],
+                "sku": "Item 2512713"
+            }
+        ],
+        "rating": "width:88.528%",
+        "product_reviews": "666",
+        "ingredients": "-Squalane and Sunflower Seed Oil: Lock in long-lasting moisture. -Papaya Fruit Extract: Soothes lips. -Raspberry Oil: Moisturizes and adds a soft aroma. Ricinus Communis (Castor) Seed Oil, Isostearyl Isostearate, Caprylic/Capric Triglyceride, Dimer Dilinoleyl Dimer Dilinoleate, Tribehenin, C10-18 Triglycerides, Polyethylene, Bis-Diglyceryl Polyacyladipate-2, Helianthus Annuus Seed Cera [Helianthus Annuus (Sunflower) Seed Wax], Copernicia Cerifera Cera [(Carnauba) Wax], Carica Papaya (Papaya) Fruit Extract, Helianthus Annuus (Sunflower) Seed Oil, Ascorbyl Palmitate, Tocopherol, Beta-Sitosterol, Squalene, Phenoxyethanol, Tropolone, Aroma (Flavor). May Contain (+/-): CI 77891 (Titanium Dioxide), CI 77491 (Iron Oxides), CI 77492 (Iron Oxides), CI 77499 (Iron Oxides), CI 77742 (Manganese Violet), CI 42090 (Blue 1 Lake), CI 19140 (Yellow 5 Lake), CI 15850 (Red 7 Lake), CI 15850 (Red 6).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "143.5K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Lipstick"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/shade-slick-gelee-sheer-tinted-lip-oil-P505330",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:33:46",
+        "product_name": "Shade Slick Gel\u00e9e Sheer Tinted Lip Oil",
+        "brand_name": "MERIT",
+        "options": [
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz / 7 ml",
+                "name": [
+                    "Color: Les Deux - sheer pink"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2675478"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz / 7 ml",
+                "name": [
+                    "Color: Jet\u00e9 - sheer natural"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2675486"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz / 7 ml",
+                "name": [
+                    "Color: Maraschino - sheer red"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2675494"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz / 7 ml",
+                "name": [
+                    "Color: Mapleton - sheer brown"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2675502"
+            }
+        ],
+        "rating": "width:88.406%",
+        "product_reviews": "521",
+        "ingredients": "-Plant-Derived Squalene: Moisturizes lips and restores suppleness.-Quinoa Seed Oil: Supports barrier function to protect against environmental aggressors.Hydrogenated Polydecene, Polybutene, Octyldodecanol, PentaerythritylTetraethylhexanoate, Hydrogenated Polyisobutene, Ethylene/Propylene/StyreneCopolymer, Squalane, Chenopodium Quinoa Seed Oil, Bis\u2010Diglyceryl Polyacyladipate\u20102, Tocopheryl Acetate, Butylene/Ethylene/Styrene Copolymer, Pentaerythrityl Tetra\u2010di\u2010t\u2010butyl Hydroxyhydrocinnamate, Sorbitan Oleate, May Contain (+/-): Red 27, Red 7 Lake (CI 15850), Red 33 Lake (CI 17200), Iron Oxides (CI 77491), Yellow 6 Lake (CI 15985:1), Titanium Dioxide (CI 77891), Iron Oxide (CI 77492), Yellow 5 Lake (CI 19140), Red 6 Lake (CI 15850), Iron Oxides (Black, CI 77499), Blue 1 Lake (CI 42090).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "84.5K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Lip Balms & Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/merit-day-glow-highlighting-balm-P468696",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:33:59",
+        "product_name": "Day Glow Dewy Highlighting Balm",
+        "brand_name": "MERIT",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.7 oz  / 5 g",
+                "name": [
+                    "Color: Bounce - rose gold"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2426773"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.7 oz  / 5 g",
+                "name": [
+                    "Color: Citrine - soft gold"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2567287"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.7 oz  / 5 g",
+                "name": [
+                    "Color: Cava - champagne"
+                ],
+                "price": [
+                    "$42.00"
+                ],
+                "sku": "Item 2426765"
+            }
+        ],
+        "rating": "width:85.71%",
+        "product_reviews": "592",
+        "ingredients": "-Plant-based Squalane: Locks in hydration, conditions skin, and supports visible elasticity.-Olive Fruit Oil: Nourishes skin with monounsaturated fatty acids and vitamin E. -Phytosterol and Amino Acid Blend: Minimize moisture loss and promote healthy skin barrier function.Squalane, Olea Europaea (Olive) Fruit Oil, 2- Octyldodecanol, Mica, Polyglyceryl-10 Pentaisostearate, Hydrogenated Polyisobutene, Phytosteryl/Octyldodecyl Lauroyl Glutamate, Dibutyl Lauroyl Glutamide, Dibutyl Ethylhexanoyl Glutamide, Tocopherol, Glyceryl Dibehenate, Tribehenin, Glyceryl Behenate, Silica, Tin Oxide, CI 77891 (Titanium Dioxide), CI 77491 (Iron Oxides).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list):Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20184 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "90K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Highlighter"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/merit-clean-lash-lengthening-mascara-P468692",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:34:12",
+        "product_name": "Clean Lash Lengthening Tubing Mascara",
+        "brand_name": "MERIT",
+        "options": [],
+        "rating": "width:81.73400000000001%",
+        "product_reviews": "346",
+        "ingredients": "-Proprietary Tubing Film-Formers: Define, separate, and lift without clumping.-Rice Bran Wax: Adds structure and length.-Fatty Acids and Olive Oil Esters: Nourish and condition.Water, Acrylates/Ethylhexyl Acrylate Copolymer, Acrylates Copolymer, Iron Oxides (CI 77499), Oryza Sativa (rice) Bran Wax, Hydrogenated Olive Oil Stearyl Esters, Stearic Acid, Euphorbia Cerifera (Candelilla) Wax, Copernicia Cerifera (Carnauba) Wax, Acacia Senegal Gum, PVP (Polyvinylpyrrolidone), Tromethamine, Glycerin, Alcohol, Steareth-20, Cetearyl Alcohol, Hydroxyethylcellulose, Simethicone, Steareth-2, Phenoxyethanol, Panthenol, Sodium Dehydroacetate, Ethylhexylglycerin, Ethyl Hexanediol, Sodium Benzoate, Benzyl AlcoholClean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list):  Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "30.5K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Mascara"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/merit-great-skin-instant-glow-serum-with-niacinamide-hyaluronic-acid-P502966",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:34:23",
+        "product_name": "Great Skin Instant Glow Serum with Niacinamide and Hyaluronic Acid",
+        "brand_name": "MERIT",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1.69 oz / 50 ml"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2512788"
+            }
+        ],
+        "rating": "width:88.24799999999999%",
+        "product_reviews": "645",
+        "ingredients": "-Hyaluronic Acid: Targets multiple layers of skin to lock in hydration for all day moisture.-Niacinamide: Helps to visibly brighten skin and refines texture for a smooth, visibly glowing complexion.-Cacao Seed Extract: Caffeine-rich antioxidant helps to stimulate blood flow for a plump effect.Water, Propanediol, Caprylic/Capric Triglyceride, Isononyl Isononanoate, 1,2-Hexanediol, Niacinamide, Sodium Hyaluronate, Sodium Hyaluronate Crosspolymer, Hydrolyzed Sodium Hyaluronate, Sodium Acetylated Hyaluronate, Coptis Japonica Root Extract, Theobroma Cacao (Cocoa) Seed Extract, Tocopherol, Butylene Glycol, Pentylene Glycol, Ethylhexylglycerin, Citric Acid, Sodium Citrate, Dextrin, Trisodium Ethylenediamine Disuccinate.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "89.7K",
+        "categories": [
+            "Skincare",
+            "Treatments",
+            "Face Serums"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/solo-shadow-soft-matte-cream-single-eyeshadow-P506671",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:34:35",
+        "product_name": "Solo Shadow Cream-to-Powder Soft Matte Eyeshadow ",
+        "brand_name": "MERIT",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "NEW",
+                "size": "Size 1.58 oz / 44.8 g",
+                "name": [
+                    "Color: Studio - cool taupe",
+                    "NEW"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2692325"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "NEW",
+                "size": "Size 1.58 oz / 44.8 g",
+                "name": [
+                    "Color: Vachetta - warm beige",
+                    "NEW"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2692333"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "NEW",
+                "size": "Size 1.58 oz / 44.8 g",
+                "name": [
+                    "Color: Midcentury - warm brown",
+                    "NEW"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2692341"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "NEW",
+                "size": "Size 1.58 oz / 44.8 g",
+                "name": [
+                    "Color: Brun - deep brown",
+                    "NEW"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2692358"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "NEW",
+                "size": "Size 1.58 oz / 44.8 g",
+                "name": [
+                    "Color: Social - soft mauve",
+                    "NEW"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2692374"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "NEW",
+                "size": "Size 1.58 oz / 44.8 g",
+                "name": [
+                    "Color: Viper - warm green",
+                    "NEW"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2692382"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "NEW",
+                "size": "Size 1.58 oz / 44.8 g",
+                "name": [
+                    "Color: Nelson - soft gray",
+                    "NEW"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2692366"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "NEW",
+                "size": "Size 1.58 oz / 44.8 g",
+                "name": [
+                    "Color: Midnight - classic navy",
+                    "NEW"
+                ],
+                "price": [
+                    "$32.50"
+                ],
+                "sku": "Item 2692390"
+            }
+        ],
+        "rating": "width:96.76%",
+        "product_reviews": "358",
+        "ingredients": "-Chamomile and Calendula Extracts: Soothe the eye area.-Magnolia Bark Extract: Smooths the appearance of skin.-Peptides: Reduce the appearance of fine lines.Isododecane, Dimethicone, Trimethylsiloxysilicate, Hydrogenated Polycyclopentadiene, Synthetic Wax, Helianthus Annuus Seed Cera [Helianthus Annuus (Sunflower) Seed Wax], Silica,Chamomilla Recutita (Matricaria) Flower Extract, Calendula Officinalis Flower Extract, Helianthus Annuus (Sunflower) Seed Oil, Caprylic/Capric Triglyceride, Disteardimonium Hectorite, SH-Polypeptide-123, Ascorbyl Palmitate, Tocopherol, Dimethicone/Vinyl Dimethicone Crosspolymer, Polyhydroxystearic Acid, Synthetic Fluorphlogopite, Calcium Aluminum Borosilicate,Calcium Sodium Borosilicate, Magnolia Officinalis Bark Extract, Tin Oxide.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "2.3K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Eyeshadow"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/merit-flush-balm-cream-blush-P468693",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:34:52",
+        "product_name": "Flush Balm Cream Blush",
+        "brand_name": "MERIT",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.31 oz/ 9 g",
+                "name": [
+                    "Color: Terracotta - warm cr\u00e8me"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2414464"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.31 oz/ 9 g",
+                "name": [
+                    "Color: Beverly Hills - soft peach"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2414472"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.31 oz/ 9 g",
+                "name": [
+                    "Color: Cheeky - cool pink"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2414480"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.31 oz/ 9 g",
+                "name": [
+                    "Color: Mood - soft burgundy"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2414506"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.31 oz / 9 g",
+                "name": [
+                    "Color: Fox - warm taupe"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2636850"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.31 oz / 9 g",
+                "name": [
+                    "Color: Persimmon - soft orange red"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2636827"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.31 oz / 9 g",
+                "name": [
+                    "Color: Apres - soft berry"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2636843"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.31 oz / 9 g",
+                "name": [
+                    "Color: Stockholm - baby pink"
+                ],
+                "price": [
+                    "$39.00"
+                ],
+                "sku": "Item 2636835"
+            }
+        ],
+        "rating": "width:88.994%",
+        "product_reviews": "1.2K",
+        "ingredients": "-Vitamin E: Nourishes and conditions skin.Octyldodecanol, Hydrogenated Polyisobutene, Hydrogenated Poly (C6-14 Olefin), Polyethylene, Silica, Diisostearyl Malate, Synthetic Fluorphlogopite, Synthetic Wax, Sorbitan Isostearate, Cera Microcristallina (Microcrystalline Wax, Cire Microcristalline), Tocopherol, Ethylene/Propylene Copolymer, Methicone, Triethoxycaprylylsilane, BHT, CI 77891 (Titanium Dioxide), CI 77491/77492/77499 (Iron Oxides), CI 15850 (Red 7 Lake).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "290.9K",
+        "categories": [
+            "Makeup",
+            "Cheek",
+            "Blush"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/merit-shade-slick-tinted-lip-oil-P468691",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:35:11",
+        "product_name": "Shade Slick Classics Tinted Lip Oil",
+        "brand_name": "MERIT",
+        "options": [
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz/ 7 mL",
+                "name": [
+                    "Color: Bel Air - warm clear"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2489573"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz/ 7 mL",
+                "name": [
+                    "Color: Au Naturel - warm blush"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2426724"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz/ 7 mL",
+                "name": [
+                    "Color: Marrakech - soft peach"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2426732"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz/ 7 mL",
+                "name": [
+                    "Color: Pink Beet - cool pink"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2426740"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz/ 7 mL",
+                "name": [
+                    "Color: Taupe - neutral brown"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2489599"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz/ 7 mL",
+                "name": [
+                    "Color: Cara Cara - soft red orange"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2489581"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz/ 7 mL",
+                "name": [
+                    "Color: Sangria - deep berry"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2426757"
+            },
+            {
+                "swatch_group": "High Shine finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.23 oz/ 7 mL",
+                "name": [
+                    "Color: Falcon - deep brown",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$31.00"
+                ],
+                "sku": "Item 2489607"
+            }
+        ],
+        "rating": "width:87.502%",
+        "product_reviews": "1.1K",
+        "ingredients": "Bel Air: Caprylic/Capric Triglyceride, Hydrogenated Polyisobutene, Ceresin, Silica Dimethyl Silylate, Octyldodecanol, Vitis Vinifera (Grape) Seed Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Rosa Canina Fruit Oil, Shea Butter Ethyl Esters, Ethylcellulose, Isostearyl Alcohol, Hydrogenated Dilinoleyl Alcohol, Nylon-12, Pentaerythrityl Tetra-di-t-butyl Hydroxyhydrocinnamate, Citric Acid, CI 77491/77492/77499 (Iron Oxides), CI 42090 (Blue 1 Lake), CI 77891 (Titanium Dioxide) Au Naturel: Caprylic/Capric Triglyceride, Hydrogenated Polyisobutene, Ceresin, Silica Dimethyl Silylate, Octyldodecanol, Vitis Vinifera (Grape) Seed Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Rosa Canina Fruit Oil, Shea Butter Ethyl Esters, Ethylcellulose, Isostearyl Alcohol, Hydrogenated Dilinoleyl Alcohol, Nylon-12, Pentaerythrityl Tetra-di-t-butyl Hydroxyhydrocinnamate, Citric Acid, CI 77491/77492/77499 (Iron Oxides), CI 42090 (Blue 1 Lake), CI 77891 (Titanium Dioxide) Pink Beet: Caprylic/Capric Triglyceride, Hydrogenated Polyisobutene, Ceresin, Silica Dimethyl Silylate, Octyldodecanol, Vitis Vinifera (Grape) Seed Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Rosa Canina Fruit Oil, Shea Butter Ethyl Esters, Ethylcellulose, Isostearyl Alcohol, Hydrogenated Dilinoleyl Alcohol, Nylon-12, Pentaerythrityl Tetra-di-t-butyl Hydroxyhydrocinnamate, Citric Acid, CI 77491/77499 (Iron Oxides), CI 77891 (Titanium Dioxide), CI 15850 (Red 7 Lake), CI 42090 (Blue 1 Lake) Marrakech: Caprylic/Capric Triglyceride, Hydrogenated Polyisobutene, Ceresin, Silica Dimethyl Silylate, Octyldodecanol, Vitis Vinifera (Grape) Seed Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Rosa Canina Fruit Oil, Shea Butter Ethyl Esters, Ethylcellulose, Isostearyl Alcohol, Hydrogenated Dilinoleyl Alcohol, Nylon-12, Pentaerythrityl Tetra-di-t-butyl Hydroxyhydrocinnamate, Citric Acid, CI 77491/77492/77499 (Iron Oxides), CI 42090 (Blue 1 Lake), CI 77891 (Titanium Dioxide), CI 73360 (Red 30 Lake) Taupe: Caprylic/Capric Triglyceride, Hydrogenated Polyisobutene, Ceresin, Silica Dimethyl Silylate, Octyldodecanol, Vitis Vinifera (Grape) Seed Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Rosa Canina Fruit Oil, Shea Butter Ethyl Esters, Ethylcellulose, Isostearyl Alcohol, Hydrogenated Dilinoleyl Alcohol, Nylon-12, Pentaerythrityl Tetra-di-t-butyl Hydroxyhydrocinnamate, Citric Acid, CI 77491/77492/77499 (Iron Oxides), CI 42090 (Blue 1 Lake), CI 77891 (Titanium Dioxide) Cara Cara: Caprylic/Capric Triglyceride, Hydrogenated Polyisobutene, Ceresin, Silica Dimethyl Silylate, Octyldodecanol, Vitis Vinifera (Grape) Seed Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Rosa Canina Fruit Oil, Shea Butter Ethyl Esters, Ethylcellulose, Isostearyl Alcohol, Hydrogenated Dilinoleyl Alcohol, Nylon-12, Pentaerythrityl Tetra-di-t-butyl Hydroxyhydrocinnamate, Citric Acid, CI 77491/77492/77499 (Iron Oxides), CI 42090 (Blue 1 Lake), CI 77891 (Titanium Dioxide) Sangria: Caprylic/Capric Triglyceride, Hydrogenated Polyisobutene, Ceresin, Silica Dimethyl Silylate, Octyldodecanol, Vitis Vinifera (Grape) Seed Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Rosa Canina Fruit Oil, Shea Butter Ethyl Esters, Ethylcellulose, Isostearyl Alcohol, Hydrogenated Dilinoleyl Alcohol, Nylon-12, Pentaerythrityl Tetra-di-t-butyl Hydroxyhydrocinnamate, Citric Acid, CI 77491/77492/77499 (Iron Oxides), CI 42090 (Blue 1 Lake), CI 15850 (Red 7 Lake), CI 17200 (Red 33 Lake) Falcon: Caprylic/Capric Triglyceride, Hydrogenated Polyisobutene, Ceresin, Silica Dimethyl Silylate, Octyldodecanol, Vitis Vinifera (Grape) Seed Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Rosa Canina Fruit Oil, Shea Butter Ethyl Esters, Ethylcellulose, Isostearyl Alcohol, Hydrogenated Dilinoleyl Alcohol, Nylon-12, Pentaerythrityl Tetra-di-t-butyl Hydroxyhydrocinnamate, Citric Acid, CI 77491/77492/77499 (Iron Oxides), CI 42090 (Blue 1 Lake), CI 77891 (Titanium Dioxide)Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "202.5K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Lip Balms & Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/eyeshadow-brush-brush-no-2-P507794",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:35:28",
+        "product_name": "Brush No. 2 Double Sided Eyeshadow Brush",
+        "brand_name": "MERIT",
+        "options": [],
+        "rating": "width:97.446%",
+        "product_reviews": "368",
+        "ingredients": "Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "428",
+        "categories": [
+            "Makeup",
+            "Brushes & Applicators",
+            "Eye Brushes"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/merit-the-minimalist-perfecting-complexion-foundation-concealer-stick-P468694",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 03:35:38",
+        "product_name": "The Minimalist Perfecting Complexion Foundation and Concealer Stick",
+        "brand_name": "MERIT",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.13 oz/ 3.7 g",
+                "name": [
+                    "Color: Umber - deep with cool undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2426658"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz / 6.5 g",
+                "name": [
+                    "Color: Camel - medium with golden undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2569051"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz / 6.5 g",
+                "name": [
+                    "Color: Sand - medium with yellow undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2569044"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz / 6.5 g",
+                "name": [
+                    "Color: Bisque - medium with neutral undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2569036"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz / 6.5 g",
+                "name": [
+                    "Color: Ochre - light medium with warm undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2569028"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz / 6.5 g",
+                "name": [
+                    "Color: Ecru - light with peach undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2569010"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz / 6.5 g",
+                "name": [
+                    "Color: Dune - light with cool undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2569002"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz / 6.5 g",
+                "name": [
+                    "Color: Linen - light with neutral undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2568996"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.13 oz/ 3.7 g",
+                "name": [
+                    "Color: Amber - deep tan with caramel undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2426591"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz / 6.5 g",
+                "name": [
+                    "Color: Cream - fair with warm undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2568988"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz / 6.5 g",
+                "name": [
+                    "Color: Silk - fair with neutral undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2568970"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz / 6.5 g",
+                "name": [
+                    "Color: Bone - fair with cool undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2568293"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz / 6.5 g",
+                "name": [
+                    "Color: Umber - deep with cool undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2569143"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz / 6.5 g",
+                "name": [
+                    "Color: Cacao - deep with red undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2569135"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz / 6.5 g",
+                "name": [
+                    "Color: Sepia - deep with yellow undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2569150"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz / 6.5 g",
+                "name": [
+                    "Color: Tiger Eye - deep with neutral undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2569127"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz / 6.5 g",
+                "name": [
+                    "Color: Chestnut - deep tan with red undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2569119"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz / 6.5 g",
+                "name": [
+                    "Color: Sienna - deep tan with peach undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2569101"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz / 6.5 g",
+                "name": [
+                    "Color: Amber - deep tan with caramel undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2569093"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz / 6.5 g",
+                "name": [
+                    "Color: Buff - tan with neutral undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2569085"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz / 6.5 g",
+                "name": [
+                    "Color: Khaki - medium tan with golden undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2569077"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz / 6.5 g",
+                "name": [
+                    "Color: Suede - medium tan with peach undertones"
+                ],
+                "price": [
+                    "$49.00"
+                ],
+                "sku": "Item 2569069"
+            }
+        ],
+        "rating": "width:80.77400000000002%",
+        "product_reviews": "1.2K",
+        "ingredients": "-Fatty Acids: Condition skin and lock in moisture.-Sea Daffodil Extract: Diminishes the appearance of pigmentation and dark spots.Hydrogenated Polydecene, Caprylic/Capric Triglyceride, Octyldodecanol, Silica, Polyethylene, Dipentaerythrityl Hexahydroxystearate/Hexastearate/Hexarosinate, Hydrogenated Polyisobutene, Cera Carnauba (Copernicia Cerifera (Carnauba) Wax, Cire de Carnauba), Synthetic Wax, Triethoxycaprylylsilane, Cera Microcristallina (Microcrystalline Wax, Cire Microcristalline), Sorbitan Isostearate, Pancratium Maritimum Extract, Tocopheryl Acetate, Dimethicone, Caprylyl Glycol, Propylene Carbonate, Ethylhexylglycerin, 1,2-Hexanediol, Stearalkonium Hectorite, Glycerin, Aqua (Water, Eau), Mica,  BHT, CI 77491/77492/77499 (Iron Oxides), CI 77891 (Titanium Dioxide).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "206K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Foundation"
+        ]
+    }
+]

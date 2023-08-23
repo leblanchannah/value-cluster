@@ -1,0 +1,1583 @@
+[
+    {
+        "url": "https://www.sephora.com/ca/en/product/lys-beauty-secure-skin-gripping-serum-primer-P468381",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 02:02:40",
+        "product_name": "Secure Skin Gripping Serum Primer",
+        "brand_name": "LYS Beauty",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 1 oz/ 30 mL"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2435352"
+            }
+        ],
+        "rating": "width:74.344%",
+        "product_reviews": "99",
+        "ingredients": "-Niacinamide: Reduces the appearance of pores and addresses excess shine.-AHA Fruit Blend: Visibly smooths and evens skin texture.-Grapefruit Extract: Rich in vitamin C, it brightens the look of dark spots and hyperpigmentation.Aqua/Water/Eau, Niacinamide, Pvp, Hydroxypropyl Starch, Glycerin, Polyacrylate Crosspolymer-6, Vaccinium Myrtillus (Bilberry) Fruit Extract, Saccharum Officinarum Extract, Citrus Aurantium Dulcis (Orange) Fruit Extract, Citrus Limon (Lemon) Fruit Extract, Acer Saccharum Extract, Zingiber Officinale (Ginger) Root Extract, Citrus Grandis (Grapefruit) Seed Extract, Xanthan Gum, Phenoxyethanol, Ethylhexylglycerin.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "9.6K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Face Primer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lys-beauty-speak-love-lip-liner-pencil-P503895",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 02:02:52",
+        "product_name": "Speak Love Lip Liner Pencil",
+        "brand_name": "LYS Beauty",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size .014 oz / .04 g",
+                "name": [
+                    "Color: Devoted - Deep Dark Brown",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$20.00"
+                ],
+                "sku": "Item 2655041"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size .014 oz / .04 g",
+                "name": [
+                    "Color: Soulful - Cool Golden Brown"
+                ],
+                "price": [
+                    "$20.00"
+                ],
+                "sku": "Item 2655017"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size .014 oz / .04 g",
+                "name": [
+                    "Color: Driven - Terracotta Mauve"
+                ],
+                "price": [
+                    "$20.00"
+                ],
+                "sku": "Item 2655025"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size .014 oz / .04 g",
+                "name": [
+                    "Color: Intentional - Peachy Brown"
+                ],
+                "price": [
+                    "$20.00"
+                ],
+                "sku": "Item 2655058"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size .014 oz / .04 g",
+                "name": [
+                    "Color: Romantic - Classic Red"
+                ],
+                "price": [
+                    "$20.00"
+                ],
+                "sku": "Item 2655066"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size .014 oz / .04 g",
+                "name": [
+                    "Color: Lavish - honey beige",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$20.00"
+                ],
+                "sku": "Item 2655009"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size .014 oz / .04 g",
+                "name": [
+                    "Color: Rise Above - Deep Berry"
+                ],
+                "price": [
+                    "$20.00"
+                ],
+                "sku": "Item 2655033"
+            }
+        ],
+        "rating": "width:95.5%",
+        "product_reviews": "40",
+        "ingredients": "-Castor Oil: A nurturing blend that helps hydrate and condition lips.-Candelilla: Helps prevent moisture loss for dry, chapped lips.-Hyaluronic Acid: Infuses lips with intensive, long-lasting hydration.Euphorbia Cerifera (Candelilla) Wax, Caprylic/Capric Triglyceride, Synthetic Japan Wax, Ricinus Communis (Castor) Seed Oil, Pentaerythrityl Tetracocoate, Tridecyl Trimellitate, Bis-Diglyceryl Polyacyladipate-2, Mica, Boron Nitride, Caprylyl Glycol, Ethylhexylglycerin. May Contain [+/-]: Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Titanium Dioxide (Ci 77891), Blue 1 Lake (Ci 42090), Red 6 Lake (Ci 15850), Red 7 Lake (15850).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "16.9K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Lip Liner"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lys-beauty-aim-high-pressed-highlighter-powder-P477199",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 02:03:08",
+        "product_name": "Aim High Pressed Highlighter Powder",
+        "brand_name": "LYS Beauty",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "OUT OF STOCK",
+                "size": "Size 0.23 oz/ 6.5 g",
+                "name": [
+                    "Color: Fearless - warm bronze",
+                    "OUT OF STOCK"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2503761"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz/ 6.5 g",
+                "name": [
+                    "Color: Genuine - rose gold"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2503753"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz/ 6.5 g",
+                "name": [
+                    "Color: Brave - champagne"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2503746"
+            }
+        ],
+        "rating": "width:86.182%",
+        "product_reviews": "55",
+        "ingredients": "-Niacinamide: Helps reduce appearance of pores and limit excess shine.-Mangifera indica (Mango) Fruit Extract: Antioxidant benefits that help to soothe and visibly replenish skin.-Sodium Hyaluronate: Rich in vitamin A to visibly revitalize the look of skin.Mica, Synthetic Fluorphlogopite, Octyldodecyl Stearoyl Stearate, Bis-Diglyceryl Polyacyladipate-2, Pentaerythrityl Tetraisostearate, Mangifera indica (Mango) Seed Butter, Niacinamide, Sodium Hyaluronate, Camellia Sinensis (Green Tea) Leaf Extract, Ethylhexylglycerin, Propylene Glycol, Aqua/Water/Eau, Phenoxyethanol, Tin Oxide. May Contain [+/-]: Iron Oxides (Ci 77491, Ci 77499), Fd&C Yellow 5 Lake (Ci 19140), Titanium Dioxide (Ci 77891).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "15K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Highlighter"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lys-beauty-no-limits-matte-bronzer-P468383",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 02:03:21",
+        "product_name": "No Limits Matte Bronzer",
+        "brand_name": "LYS Beauty",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz/ 6.5 g",
+                "name": [
+                    "Color: Worthy - deep"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2435469"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz/ 6.5 g",
+                "name": [
+                    "Color: Strength - dark"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2435451"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz/ 6.5 g",
+                "name": [
+                    "Color: Courage - tan"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2435444"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz/ 6.5 g",
+                "name": [
+                    "Color: Harmony - medium"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2435436"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz/ 6.5 g",
+                "name": [
+                    "Color: Motivate - light"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2435428"
+            }
+        ],
+        "rating": "width:90.98%",
+        "product_reviews": "153",
+        "ingredients": "-Niacinamide: Reduces the appearance of pores and limits excess shine.-Green Tea Extract: Provides antioxidant benefits that soothe and replenish skin.-Sodium Hyaluronate: Helps retain skin moisture and visibly plump fine lines.Mica, Oryza Sativa (Rice) Starch, Boron Nitride, Magnesium Stearate, Triethylhexanoin, Octyldodecanol, Isononylisononanoate, Bis-Diglyceryl Polyacyladipate-2, Camellia Sinensis (Green Tea) Leaf Extract, Niacinamide, Sodium Hyaluronate, Phenoxyethanol, Caprylyl Glycol, Aqua/Water/Eau, Propylene Glycol. May Contain [+/-]: Iron Oxides (Ci 77491, Ci77492, Ci 77499), Titanium Dioxide (Ci 77891), Ultramarines (Ci 77007), Red 6 (Ci 15850).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "39.6K",
+        "categories": [
+            "Makeup",
+            "Cheek",
+            "Bronzer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lys-beauty-aim-high-multi-use-liquid-highlighter-P476884",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 02:03:36",
+        "product_name": "Aim High Multi-Use Liquid Highlighter",
+        "brand_name": "LYS Beauty",
+        "options": [
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.60 oz/ 18 mL",
+                "name": [
+                    "Color: Fearless - warm bronze",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2503795"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.60 oz/ 18 mL",
+                "name": [
+                    "Color: Genuine - rose gold"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2503787"
+            },
+            {
+                "swatch_group": "Radiant finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.60 oz/ 18 mL",
+                "name": [
+                    "Color: Brave - champagne"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2503779"
+            }
+        ],
+        "rating": "width:91.07600000000001%",
+        "product_reviews": "65",
+        "ingredients": "-Myrciaria dubia Fruit Extract: Helps brighten the look of uneven skin tone and dark spots.-Mangifera indica (Mango) Fruit Extract: Antioxidant benefits that help to soothe and replenish skin.-Sodium Hyaluronate: Rich in vitamin A to visibly revitalize the look of skin.Aqua/Water/Eau, Propanediol, Mica, Glycerin, Myrciaria dubia Fruit Extract, Polyacrylate Crosspolymer-6, Hydrolyzed Vegetable Protein, Mangifera indica (Mango) Fruit Extract, Sodium Hyaluronate, Tocopherol, Ethylhexylglycerin, Phenoxyethanol, Tin Oxide. May Contain [+/-]: Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "8.4K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Highlighter"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lys-beauty-speak-love-lipstick-collection-P503938",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 02:03:49",
+        "product_name": "Speak Love Moisture Matte Lipstick\t\t\t",
+        "brand_name": "LYS Beauty",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size .05 oz / 1.5 g",
+                "name": [
+                    "Color: Dreamer - honey nude"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2654960"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size .05 oz / 1.5 g",
+                "name": [
+                    "Color: Sincere - soft pink nude"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2654937"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size .05 oz / 1.5 g",
+                "name": [
+                    "Color: Moody - Warm Mauve"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2654986"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size .05 oz / 1.5 g",
+                "name": [
+                    "Color: Joyful - Peachy Coral"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2654978"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size .05 oz / 1.5 g",
+                "name": [
+                    "Color: Rich AF - Classic Red"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2654994"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size .05 oz / 1.5 g",
+                "name": [
+                    "Color: Desired - Reddish Brown"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2654952"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size .05 oz / 1.5 g",
+                "name": [
+                    "Color: Optimistic - Berry Rose"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2654945"
+            }
+        ],
+        "rating": "width:91.082%",
+        "product_reviews": "74",
+        "ingredients": "-Chia Seed Oil: Deeply nurturing oil to help hydrate and condition chapped lips.-Hyaluronic Acid: Infuses lips with intensive, long-lasting hydration.-Maxi Lip: Visibly plumps and reduces the appearance of fine lines and wrinkles.Triisotridecyl Trimellitate, C12-15 Alkyl Benzoate, Octyldodecanol, Polyglyceryl-2 Isostearate/Dimer Dilinoleate Copolymer, Pentaerythrityl Tetraisostearate, Ethylhexyl Palmitate, Silica, Di-C20-40 Alkyl Dimer Dilinoleate, Ceresin, Synthetic Wax, Tocopheryl Acetate (Vitamin E), Helianthus Annuus (Sunflower) Seed Oil, Vitis Vinifera (Grape) Seed Oil, Salvia Hispanica Seed Oil, Tocopherol, Palmitoyl Tripeptide-1 , Sodium Hyaluronate, Phenoxyethanol, Caprylyl Glycol, Ethylhexylglycerin, Tribehenin, Sorbitan Isostearate, Trihydroxystearin, Glucomannan, Triethoxycaprylylsilane, Aluminum Hydroxide. May Contain [+/-]: Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Red 6 Lake (Ci 15850), D&C Red 7 Calcium Lake (Ci 15850).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "18.8K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Lipstick"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lys-beauty-triple-fix-serum-foundation-P468380",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 02:04:04",
+        "product_name": "Triple Fix Serum Foundation",
+        "brand_name": "LYS Beauty",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: DPG7 - deep golden espresso - rich brown skin with golden undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435816"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: DPN7 - deep espresso - rich brown skin with neutral undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435808"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: DPP6 - espresso - rich brown skin with pink undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435790"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: DPG5 - truffle - rich brown skin with golden undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435782"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: DPP4 - coffee blush - rich brown skin with pink undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435774"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: DPN4 - coffee - rich brown skin with neutral undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435766"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: DPP1 - mocha blush - dark brown skin with pink undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435758"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: DPN1 - mocha neutral - dark brown skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435741"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: DPG1 - mocha - dark brown skin with golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435733"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: DG7 - cocoa - dark brown skin with golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435725"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: DG6 - dark golden almond - dark brown skin with golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435717"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: DN6 - dark almond - dark brown skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435709"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: DP5 - hazelnut blush - dark brown skin with pink undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435691"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: DN5 - hazelnut - dark brown skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435683"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: DG3 - golden caramel - brown skin with golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435675"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: DN3 - caramel - brown skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435667"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: TG7 - tan sand - tan/olive skin with golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435659"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: TG6 - golden honey - tan/olive skin with golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435642"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: TN6 - honey - tan/olive skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435634"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: TG5 - golden beige - tan/olive skin with golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435626"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: TP3 - oak blush - tan skin with pink undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435618"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: TN3 - oak - tan skin with neutral undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435600"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: TG1 - latte - light tan skin with golden undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435592"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: MG5 - golden almond - golden medium skin with golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435584"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: MN5 - almond - medium skin with neutral undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435576"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: MP3 - buff - light blush medium skin with pink undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435568"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: MN3 - neutral buff - light medium skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435550"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: MG2 - bisque - light golden medium skin with golden undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435543"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: MN1 - ivory beige - light medium skin with neutral undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435535"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: LG6 - light golden nude - light skin with golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435527"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: LN6 - light nude - light skin with neutral undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435519"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: LP4 - vanilla - fair skin with pink undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435501"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: LG3 - bone golden - very fair skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435493"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: LN3 - bone blush - very fair skin with neutral undertones"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435485"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 1 oz/ 30 mL",
+                "name": [
+                    "Color: LG1 - porcelain - very fair skin with golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2435477"
+            }
+        ],
+        "rating": "width:85.784%",
+        "product_reviews": "695",
+        "ingredients": "-Ashwagandha (Indian Ginseng): A powerful herb that combats skin stress and visible signs of aging.-Turmeric: Provides antioxidant protection and visibly brightens, evens, and soothes skin.-Hyaluronic Acid: Infuses the skin with intensive hydration.Aqua/Water/Eau, Coco-Caprylate, Glycerin, Persea Gratissima (Avocado) Oil, Polyglyceryl-2 Dipolyhydroxystearate, Capryloyl Glycerin/Sebacic Acid Copolymer, Caprylic/Capric Triglyceride, Hydrogenated Rapeseed Oil, Polyglyceryl-3 Diisostearate, Sodium Chloride, Silica, Simmondsia Chinensis (Jojoba) Seed Oil, Ethylhexyl Palmitate, Tocopherol, Curcuma Longa (Turmeric) Root Extract, Panax Quinquefolius (Ginseng) Root Extract, Vitis Vinifera (Grape) Seed Extract, Withania Somnifera (Ashwagandha) Root Extract, Sodium Hyaluronate, Evodia Rutaecarpa Fruit Extract, Stearalkonium Hectorite, Propylene Carbonate, Triethoxycaprylylsilane, Propanediol, Phenoxyethanol, Sodium Dehydroacetate, Ethylhexylglycerin. May Contain [+/-]: Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491, Ci 77492, Ci 77499).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "71.5K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Foundation"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/skin-loyalty-setting-spray-P507320",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 02:04:38",
+        "product_name": "LYS Beauty Skin Loyalty Setting Spray",
+        "brand_name": "LYS Beauty",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": "NEW",
+                "size": null,
+                "name": [
+                    "Size: 3.38 oz / 100 ml",
+                    "NEW"
+                ],
+                "price": [
+                    "$30.00"
+                ],
+                "sku": "Item 2564318"
+            }
+        ],
+        "rating": "width:97.894%",
+        "product_reviews": "95",
+        "ingredients": "-Cucumber Extract: Hydrates and replenishes while balancing the look of uneven skin tone.-Green Tea Extract: Soothes and hydrates while reducing the appearance of redness and irritation. -Aloe Leaf Juice: Rich in vitamins A, B, C, and E to visibly soothe and calm irritated skin.Aqua/Water/Eau, Glycerin, Aloe Barbadensis Leaf Juice Powder, Camellia Sinensis (Green Tea) Leaf Extract, Cucumis Sativus (Cucumber) Fruit Extract, Citric Acid, Lithium Magnesium Sodium Silicate, Ethylhexylglycerin, Sodium Phytate, Phenoxyethanol, Hydroxypropyl Starch.Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "6.1K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Setting Spray & Powder"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lys-beauty-triple-fix-setting-powder-P468382",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 02:04:50",
+        "product_name": "Triple Fix Setting Powder",
+        "brand_name": "LYS Beauty",
+        "options": [
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.23 oz/ 6.5 g",
+                "name": [
+                    "Color: Loyalty - dark/deep - for dark to very deep skin tones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2437523"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.23 oz/ 6.5 g",
+                "name": [
+                    "Color: Faithful - dark - for dark skin tones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2564250"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.23 oz/ 6.5 g",
+                "name": [
+                    "Color: Independent - tan - for tan skin tones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2564243"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz/ 6.5 g",
+                "name": [
+                    "Color: Ambition - medium/tan - for medium to tan skin tones"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2437515"
+            },
+            {
+                "swatch_group": "Matte finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz/ 6.5 g",
+                "name": [
+                    "Color: Brilliance - banana - for olive, golden, and yellow undertones"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2437531"
+            }
+        ],
+        "rating": "width:84.00000000000001%",
+        "product_reviews": "105",
+        "ingredients": " -Niacinamide: Reduces appearance of pores and limits excess shine.-Green Tea Extract: Antioxidant benefits soothe and replenish skin.-Sodium Hyaluronate: Retains skin\u2018s moisture and visibly plumps the appearance of fine lines.   Synthetic Fluorphlogopite, Mica, Oryza Sativa (Rice) Starch, Magnesium Stearate, Ethylhexyl Palmitate, Boron Nitride, Cetearyl Ethylhexanoate, Bis-Diglycerylpolyacyladipate-2, Sodium Hyaluronate, Camellia Sinensis (Green Tea) Leaf Extract, Niacinamide, Phenoxyethanol, Caprylyl Glycol, Aqua/Water/Eau, Propylene Glycol. May Contain [+/-]: Yellow 5 Lake (Ci 19140), Iron Oxides (Ci 77491, Ci 77492, Ci 77499).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "35K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Setting Spray & Powder"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lys-beauty-higher-standard-satin-matte-cream-blush-P468384",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 02:05:05",
+        "product_name": "Higher Standard Satin Matte Cream Blush",
+        "brand_name": "LYS Beauty",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.23 oz/ 6.5 g",
+                "name": [
+                    "Color: Empower - deep berry plum",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$24.00"
+                ],
+                "sku": "Item 2435402"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.23 oz/ 6.5 g",
+                "name": [
+                    "Color: Inspire - baked coral",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$24.00"
+                ],
+                "sku": "Item 2435394"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz/ 6.5 g",
+                "name": [
+                    "Color: Passion - fuchsia pink"
+                ],
+                "price": [
+                    "$24.00"
+                ],
+                "sku": "Item 2435410"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz/ 6.5 g",
+                "name": [
+                    "Color: Confident - pink cinnamon spice"
+                ],
+                "price": [
+                    "$24.00"
+                ],
+                "sku": "Item 2435386"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz/ 6.5 g",
+                "name": [
+                    "Color: Self Love - rosey mauve"
+                ],
+                "price": [
+                    "$24.00"
+                ],
+                "sku": "Item 2435360"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz/ 6.5 g",
+                "name": [
+                    "Color: Kindness - soft peachy nude"
+                ],
+                "price": [
+                    "$24.00"
+                ],
+                "sku": "Item 2435378"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz/ 6.5 g",
+                "name": [
+                    "Color: Humble - cool soft pink"
+                ],
+                "price": [
+                    "$24.00"
+                ],
+                "sku": "Item 2559581"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size 0.23 oz/ 6.5 g",
+                "name": [
+                    "Color: Classy - coral peach"
+                ],
+                "price": [
+                    "$24.00"
+                ],
+                "sku": "Item 2559599"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": "Size 0.23 oz/ 6.5 g",
+                "name": [
+                    "Color: Epic - tangerine red",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$24.00"
+                ],
+                "sku": "Item 2559607"
+            }
+        ],
+        "rating": "width:94.412%",
+        "product_reviews": "408",
+        "ingredients": "Unknown Ingredients",
+        "n_loves": "105.5K",
+        "categories": [
+            "Makeup",
+            "Cheek",
+            "Blush"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lys-beauty-triple-fix-brightening-concealer-P480618",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 02:05:24",
+        "product_name": "Triple Fix Brightening Concealer",
+        "brand_name": "LYS Beauty",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: DPG5 - truffle rich brown skin with golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2549467"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: DPN4 - coffee rich brown skin with neutral undertones"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2549459"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: DPP1 - mocha blush dark brown skin with pink undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2549442"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: DPN1 - mocha neutral dark brown skin with neutral undertones"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2549434"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: DPG1 - mocha dark brown skin with golden undertones"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2549426"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: DG6 - dark golden almond dark brown skin with golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2511756"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: DN5 - hazelnut dark brown skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2511764"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: DN3 - caramel brown skin with neutral undertones"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2511772"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: DG3 - golden caramel brown skin with golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2511780"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: TG7 - tan sand tan/olive skin with golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2511798"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: TN6 - honey tan/olive skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2511806"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: TG5 - golden beige tan/olive skin with golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2511814"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: TN3 - oak tan skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2511822"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: TG1 - latte light tan skin with golden undertones"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2511830"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: MG5 - golden almond golden medium skin with golden undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2511848"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: MN5 - almond medium skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2511855"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: MP3 - buff light blush medium skin with pink undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2511863"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: MN3 - neutral buff light medium skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2511871"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: MG2 - bisque light golden medium skin with golden undertones"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2511889"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": "ONLY A FEW LEFT",
+                "size": null,
+                "name": [
+                    "Color: MN1 - ivory beige light medium skin with neutral undertones",
+                    "ONLY A FEW LEFT"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2511897"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: LN6 - light nude light skin with neutral undertones"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2511905"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: LP4 - vanilla fair skin with pink undertones"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2511913"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: LG3 - bone golden very fair skin with neutral undertones"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2511921"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: LN3 - bone blush very fair skin with neutral undertones"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2511939"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Color: LG1 - porcelain very fair skin with golden undertones"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2511947"
+            }
+        ],
+        "rating": "width:87.15400000000001%",
+        "product_reviews": "274",
+        "ingredients": "-Ashwagandha (Indian Ginseng): Acts as a powerful herb to help combat skin stress and visible signs of aging. -Turmeric: Provides antioxidant protection, brightens, and helps even and soothe skin.-Hyaluronic Acid: Hydrates. Aqua/Water/Eau, Isododecane, Isohexadecane, C13-15 Alkane, Silica, Ethylhexyl Stearate, Diisostearyl Malate, Butylene Glycol, Polyglyceryl-3 Diisostearate, Tri(Polyglyceryl-3/Lauryl) Hydrogenated Trilinoleate, Quaternium-90 Bentonite, Sorbitan Sesquioleate, Hydrogenated Castor Oil, Sodium Chloride, Niacinamide, Triethyl Citrate, Lecithin, Polyhydroxystearic Acid, Tocopheryl Acetate (Vitamin E), Sodium Hyaluronate, Curcuma Longa Root Oil, Squalane, Carthamus Tinctorius (Safflower) Seed Oil, Helianthus Annuus (Sunflower) Seed Oil, Citrullus Vulgaris (Watermellon) Fruit Extract, Withania Somnifera (Ashwagandha) Root Extract, Hydrogenated Olive Oil Unsaponifiables, Isopropyl Myristate, Ethylhexyl Palmitate, Isostearic Acid, Polyglyceryl\u20103 Polyricinoleate, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Caprylyl Glycol, Phenoxyethanol. May Contain [+/-]: Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491, Ci 77492, Ci 77499).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "42.5K",
+        "categories": [
+            "Makeup",
+            "Face",
+            "Concealer"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lys-beauty-speak-love-glossy-lip-treatment-oil-P468385",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 02:05:52",
+        "product_name": "Speak Love Glossy Lip Treatment Oil",
+        "brand_name": "LYS Beauty",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": null,
+                "name": [
+                    "Size: 0.4 oz/ 12 mL"
+                ],
+                "price": [
+                    "$16.00"
+                ],
+                "sku": "Item 2437549"
+            }
+        ],
+        "rating": "width:90.464%",
+        "product_reviews": "237",
+        "ingredients": "-Sunflower, Carrot, Sweet Almond, and Macadamia Nut Oils: Nourishing blend for lasting hydration.-Cold-Pressed Chia Seed Oil: Hydrates and volumizes the look of lips.-Vitamin E: Soothes dry lips.Polybutene, Ocyldodecanol, Tridecyl Trimellitate, Hydrogenated Polyisobutene, Diisostearyl Malate, Silica Silylate, Polyglyceryl-3 Diisostearate, Polyethylene, Ethylene/Propylene/Styrene Copolymer, Butylene/Ethylene/Styrene Copolymer, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Glycine Soja (Soybean) Oil, Daucus Carota Sativa (Carrot) Root Extract, Beta-Carotene, Tocopherol, Salvia Hispanica (Chia) Seed Oil, Tocopherol, Macadamia Ternifolia Seed Oil, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Helianthus Annuus (Sunflower) Seed Oil, Hybrid Helianthus Annuus (High Oleic Sunflower) Seed Oil, Phenoxyethanol, Tocopheryl Acetate (Vitamin E), Flavor (Aroma), Red 7 Lake (Ci 15850), Yellow 6 Lake (Ci 15985).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category \u2013 this is not an exhaustive list): \nAcrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytulolene (BHT) under 0.1% , Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Parrafin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos) , Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1, 4, Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1\u20194 Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%)",
+        "n_loves": "27.5K",
+        "categories": [
+            "Makeup",
+            "Lip",
+            "Lip Balms & Treatments"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/lash-confidence-mascara-P505874",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 02:06:04",
+        "product_name": "Lash Confidence Curling & Lengthening Clean Mascara",
+        "brand_name": "LYS Beauty",
+        "options": [
+            {
+                "swatch_group": "Standard size",
+                "flag_label": null,
+                "size": "Size 0.26 oz / 7.5 g",
+                "name": [
+                    "Color: Influential - Black"
+                ],
+                "price": [
+                    "$25.00"
+                ],
+                "sku": "Item 2657682"
+            }
+        ],
+        "rating": "width:84.21799999999999%",
+        "product_reviews": "128",
+        "ingredients": "-Date Fruit Extract: Retains moisture for softer, more flexible lash hairs.-Saffron Flower Extract: Strengthens lashes and prevents premature hair loss.-Avocado Oil: Is rich in antioxidants that condition and strengthen lashesAqua/Water/Eau, Isododecane, Synthetic Beeswax, Trimethylsiloxysilicate, Palmitic Acid, Copernicia Cerifera (Carnauba) Wax, Euphorbia Cerifera (Candelilla) Wax Extract, Polyglyceryl-6 Distearate, Synthetic Fluorphlogopite, Stearic Acid, Arginine, Butylene Glycol, 1,2-Hexanediol, Biotin, Persea Gratissima (Avocado) Oil, Cocos Nucifera (Coconut) Oil, Phoenix Dactylifera (Date) Fruit Extract, Crocus Sativus (Saffron) Flower Extract, Sorbitan Isostearate, Hydroxyethylcellulose, Caprylyl Glycol, Caprylic/Capric Triglyceride, Ethylhexylglycerin, Ricinus Communis (Castor) Seed Oil, Iron Oxides (CI 77499).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "6.7K",
+        "categories": [
+            "Makeup",
+            "Eye",
+            "Mascara"
+        ]
+    },
+    {
+        "url": "https://www.sephora.com/ca/en/product/no-limits-cream-bronzer-stick-P500123",
+        "error": "",
+        "scrape_timestamp": "08/22/2023, 02:06:16",
+        "product_name": "No Limits Cream Bronzer and Contour Stick",
+        "brand_name": "LYS Beauty",
+        "options": [
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size .25 oz / 7.1 g",
+                "name": [
+                    "Color: Strength - dark"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2564292"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size .25 oz / 7.1 g",
+                "name": [
+                    "Color: Courage - tan"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2564284"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size .25 oz / 7.1 g",
+                "name": [
+                    "Color: Harmony - medium"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2564276"
+            },
+            {
+                "swatch_group": "Natural finish - Standard size",
+                "flag_label": null,
+                "size": "Size .25 oz / 7.1 g",
+                "name": [
+                    "Color: Motivate - light"
+                ],
+                "price": [
+                    "$26.00"
+                ],
+                "sku": "Item 2564268"
+            }
+        ],
+        "rating": "width:88.172%",
+        "product_reviews": "257",
+        "ingredients": "-Niacinamide: Reduces the appearance of pores and limits excess shine.-Green Tea Extract: Contains antioxidant benefits that soothe and replenish skin.-Sodium Hyaluronate: Helps skin retain moisture and visibly plumps to improve the look of fine lines. Ethylhexyl Palmitate, Isononyl Isononanoate, Diisostearyl Malate, Synthetic Wax, Ceresin, Polyisobutene, Silica, Phenoxyethanol, Tocopheryl Acetate, Caprylic/Capric Triglyceride, Camellia Sinensis Leaf Extract, Carthamus Tinctorius (Safflower) Seed Oil, Citrullus Vulgaris (Watermelon) Fruit Extract, Trihydroxystearin, Sodium Hyaluronate, Glucomannan, Rosa Rubiginosa (Rosehip) Seed Oil. May Contain (+/-): Red Iron Oxide (Ci 77491), Yellow Iron Oxide (Ci 77492), Titanium Dioxide (Ci 77891), Black Iron Oxide (Ci 77499).Clean at Sephora products are formulated without the following banned or restricted ingredients (please see Clean at Sephora landing page for full list of specific restrictions and allowances by category\u2014this is not an exhaustive list): Acrylates, Aluminum Salts, Animal Musks/Fats/Oils, Benzophenones and related compounds, Butoxyethanol, Butylated hydroxyanisole (BHA), Butylated hydroxytoluene (BHT) under 0.1%, Carbon Black or Black 2, Coal Tar, Ethanolamines, Formaldehyde and Formaldehyde Releasing Agents, Hydroquinone, Lead and Lead Acetate, Mercury + Mercury Compounds (Thimerisol), Methoxyethanol, Methyl Cellosolve, Methylchloroisothiazolinone and Methylisothiazolinone, Mineral Oil, Nanomaterials (restrictions for specific nanomaterials only), Oxybenzone, Parabens, Petrolatum and Paraffin (USP grade only), Phenoxyethanol under 1%, Phthalates, Plastic Microbeads, Polyacrylamide & Acrylamide, Resorcinol, Retinyl Palmitate, Styrene, Sulfates, Talc (no detection of asbestos), Toluene, Triclosan and Triclocarban, Undisclosed Synthetic Fragrance (under 1% and formulated without Acetaldehyde, Acetone, Acetonitrile, Benzalkonium chloride, BPA, EDTA, Methylene chloride, PTFE, PFOA), 1,4-Dioxane (ingredients must comply with impurity thresholds), Octinoxate, PFAS compounds, Nitromusks and Polycyclic Musks, Ethoxylated Ingredients (including PEGS or polyethylene glycol must meet contamination limits for 1,4-Dioxane and ethylene oxide), Cyclic Silicones, EDTA and derivatives (allowed if no technical substitute under 0.2%).",
+        "n_loves": "102.4K",
+        "categories": [
+            "Makeup",
+            "Cheek",
+            "Bronzer"
+        ]
+    }
+]
