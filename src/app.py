@@ -12,7 +12,18 @@ app = Dash(__name__)
 
 
 PLOT_TEMPLATE_THEME = 'simple_white'
-MARKER_COLOURS = px.colors.qualitative.Bold
+MARKER_COLOURS = px.colors.qualitative.Pastel
+
+# MARKER_COLOURS = ["#995d81","#c2706d","#eb8258",
+#                   "#eea052","#f1bd4c","#f6f740",
+#                   "#e7ea55","#d8dc6a","#9fb386","#6689a1"]
+
+# MARKER_COLOURS = ["#6C1886","#ae71c4","#d183c9","#482a51","#e8a2cc","#fec0ce","#8b5fbf","#cf8797","#a04e60",'#8D46A3']
+MARKER_COLOURS = ["#ff001a","#6e098d","#8b5fbf","#2b1930","#d183c9","#FFBEE5","#e84bb1","#8e0827","#8d46a3","#c61083"]
+
+
+
+
 print(MARKER_COLOURS)
 
 # product data, aggregated to single row per product  
@@ -29,36 +40,35 @@ app = Dash(
 
 # 
 sidebar_text = html.P([
-        html.A("GitHub Repo", href="https://github.com/leblanchannah/value-cluster"),
+        html.Br(),
+        html.A("GitHub Repo", href="https://github.com/leblanchannah/value-cluster", style={'color':'#E84BB1'}),
         html.Br(),
         """
             This dashboard is inspired by the "Sephora Minis Math" TikTok by
         """,
-        html.A("@michaelamakeup02's", href="https://www.tiktok.com/@michaelamakeup92/video/7237211338618047787"),
-        html.Br(),
-        """
-            Last data update, 22/08/2023
-        """
+        html.A("@michaelamakeup02's", href="https://www.tiktok.com/@michaelamakeup92/video/7237211338618047787", style={'color':'#E84BB1'}),
+        # """
+        #     Last data update, 22/08/2023
+        # """
 ], style={'font-size':14})
 
 # Drop down used to sort slope plot
 sorting_dropdown = dcc.Dropdown(
                         options=[
-                            {'label':'Mini to full unit price ratio','value':'ratio_mini_lt_full'},
-                            {'label':'Full to mini unit price ratio','value':'ratio_full_lt_mini'},
-                            {'label':'Best value mini sizes','value':'unit_price_mini'},
-                            {'label':'Best value full sizes','value':'unit_price_full'},
+                            {'label':'Unit Price Ratio, Mini Value','value':'ratio_mini_lt_full'},
+                            {'label':'Unit Price Ratio, Standard Value','value':'ratio_full_lt_mini'},
+                            {'label':'Best Value Mini Products','value':'unit_price_mini'},
+                            {'label':'Best Value Standard Products','value':'unit_price_full'},
                         ],
                         value='unit_price_mini',
                         id='sorting_dropdown',
-                        style=dict(width='100%')
+                        optionHeight=55,
                     )
 
 # Drop down used to filter both slope and scatter plots by brand
 brand_filter_global = dcc.Dropdown(
                         options = [x for x in df.brand_name.unique()],
                         id='brand_dropdown',
-                        style=dict(width='100%')
                     )
 
 # Drop down used to filter both slope and scatter plots by product category
@@ -66,7 +76,6 @@ product_category_l0_global = dcc.Dropdown(
                                 options = [x for x in df.lvl_0_cat.unique() if x!=' ' and x!='Mini Size' and x!='Men'],
                                 value='Skincare',
                                 id='category_l0_dropdown',
-                                style=dict(width='100%')
                             )
 
 
@@ -76,31 +85,23 @@ def price_min_max_filter(df, price_col):
     max_price = int(df[price_col].max())
     return html.Div(
         children = [
-            html.Div([
                 dcc.Dropdown(
                     options = [{'label':f'$ {x:.2f}', 'value':x} for x in range(0, 200, 10)],
                     placeholder='Minimum',
                     searchable=False,
                     clearable=True,
                     id='min_price_dropdown'
-                )],
-                style={"width": "100%"},
-            ),
+                ),
             # need more space here
-            html.Div([
                 dcc.Dropdown(
                     options = [{'label': f'$ {x:.2f}', 'value': x} for x in range(1500, 0, -100)],
                     placeholder='Maximum',
                     searchable=False,
                     clearable=True,
                     id='max_price_dropdown'
-                )],
-                
-                style={"width": "100%"}
-            )
+                )
         ],
-        id='price_filters',
-        # style=dict(display='flex')
+        id='price_filters'
     )
 
 
@@ -125,7 +126,7 @@ def single_product_info_box(df, data):
     l2_type = (df['lvl_2_cat']==data['lvl_2_cat']) 
     num_cheaper_products = df[unit_price & l2_type].shape[0]
     return [
-        html.H4('Selected Product Details'),
+        html.H4(['Selected Product Details'],style={'color':'#643A71'}),
         f"Product: {data['product_name']}, {data['swatch_group']}",
         html.Br(),
         f"Brand: {data['brand_name']}",
@@ -194,7 +195,7 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distr
             x=unit_price_col,
             color='value',
             template=PLOT_TEMPLATE_THEME,
-            color_discrete_sequence=['rgb(242, 183, 1)','rgb(207, 28, 144)'],
+            color_discrete_sequence=["#8B5fBF","#6E098D"],#,"#ae71c4","#d183c9","#e8a2cc","#fec0ce","#cf8797","#a04e60"]],
             height=250,
             title=title,
             labels={'unit_price': "Unit Price ($/oz.)", "value":"Unit Price Distribution"}
@@ -257,7 +258,7 @@ def product_unit_price_v_size_scatter(df, title='Explore Products By Size And Pr
                     title=title,
                     template=PLOT_TEMPLATE_THEME,
                     # order_by='swatch_group',
-                    color_discrete_sequence=MARKER_COLOURS,
+                    color_discrete_sequence=["#2b1930","#8b5fbf","#e84BB1","#FF001A"],
                     hover_data=['brand_name', 'product_name', 'index'],
                     labels={ # replaces default labels by column name
                         'amount_adj': "Product Size (oz.)",  'price': "Price ($)", "swatch_group": "Product Size"
@@ -296,6 +297,12 @@ def product_unit_price_v_size_scatter(df, title='Explore Products By Size And Pr
 def update_unit_price_slope_plot(sort_val, category_val, brand_val, min_price_dropdown, max_price_dropdown):
     df_filtered = df.copy()
     title = f'Unit Price Comparison Of{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Products'
+    sorting = {
+        'ratio_mini_lt_full':'Mini Products<br>By Unit Price Ratio',
+        'ratio_full_lt_mini':'Full Products<br>By Unit Price Ratio',
+        'unit_price_mini':'Best Value<br>Mini Products',
+        'unit_price_full':'Best Value<br>Standard Products'
+    }
     if category_val:
         df_filtered = df_filtered[df_filtered['lvl_0_cat']==category_val]
     if brand_val:
@@ -304,10 +311,12 @@ def update_unit_price_slope_plot(sort_val, category_val, brand_val, min_price_dr
         df_filtered = df_filtered[df_filtered['price']>=min_price_dropdown]
     if max_price_dropdown:
         df_filtered = df_filtered[df_filtered['price']<max_price_dropdown]
-    return unit_price_slope_plot(get_unit_price_comparison_data(df_filtered, sort_val), title)
+
+    legend_title = f'Top 10 {sorting[sort_val]}'
+    return unit_price_slope_plot(get_unit_price_comparison_data(df_filtered, sort_val), title, legend_title=legend_title)
 
 
-def unit_price_slope_plot(df, title="Unit Price Comparison Of Products"):
+def unit_price_slope_plot(df, title="Unit Price Comparison Of Products", legend_title='Top 10 Products'):
     '''
     Returns:
         plotly figure
@@ -346,7 +355,7 @@ def unit_price_slope_plot(df, title="Unit Price Comparison Of Products"):
             range=[-0.3, 2 - 0.7]
         ),
         legend=dict(
-            title="Top 10 Products",
+            title=legend_title,
             font_size=10,
             yanchor='top'
         ),
@@ -357,7 +366,7 @@ def unit_price_slope_plot(df, title="Unit Price Comparison Of Products"):
     # map line index to brand+category label
     legend_name_map = {row['prod_rank']:row['display_name'] for index, row in df.iterrows()}
     fig.for_each_trace(lambda t: t.update(name = legend_name_map[int(t.name)]))
-    fig.update_traces(line=dict(width=6))
+    fig.update_traces(line=dict(width=8), marker=dict(size=8))
     return fig 
 
 
@@ -410,23 +419,23 @@ app.layout = dbc.Container([
         dbc.Row([
             # side panel col, with title, description etc 
             dbc.Col([
-                dbc.Card([
-                    dbc.CardHeader(html.H4("PricePerPigment")),
+                dbc.Card([ # or census
+                    dbc.CardHeader(html.H4(["Sephora Value Canvas"],style={'color':'#643A71'})),
                     dbc.CardBody([
                         html.P([
                             '''
                                 The unit prices of products at Sephora are not readily available without web scraping. 
                                 This tool facilitates a comparison between products available in both mini and full sizes by analyzing their unit price ratios.
                             '''], style={'font-size':14}),
-                        html.H5("Sort By:"),
+                        html.H5(["Sort By:"], style={'color':'#643A71', 'font-size':18}),
                         sorting_dropdown,
                         html.Br(),
-                        html.H5("Filter:"),
-                        html.B("Product Category"),
+                        html.H5(["Filter:"], style={'color':'#643A71', 'font-size':18}),
+                        html.B("Product Category", style={'color':'#643A71', 'font-size':16}),
                         product_category_l0_global,
-                        html.B("Brand"),
+                        html.B("Brand", style={'color':'#643A71', 'font-size':16}),
                         brand_filter_global,
-                        html.B("Product Price"),
+                        html.B("Product Price", style={'color':'#643A71','font-size':16}),
                         price_min_max_filter(df, 'price'),
                         sidebar_text,
                     ])
@@ -460,8 +469,7 @@ app.layout = dbc.Container([
                             ])
                         )
                     ], width=6),
-                ]),
-                html.Br(),
+                ], style={'margin-bottom':'2%'}),
                 dbc.Row([
                     dbc.Col([
                          dbc.Card(
@@ -493,15 +501,17 @@ app.layout = dbc.Container([
                                                 {"name": 'Unit Price ($/oz.)', "id": 'unit_price', 'type':'numeric', 'format':dash_table.Format.Format(precision=2, scheme=dash_table.Format.Scheme.fixed)}
                                             ],
                                             page_size=5,
+                                            # style_as_list_view=True,
                                             style_cell={
                                                 'textAlign': 'left',
-                                                # 'padding': '1px',
                                                 'fontSize':12,
                                                 'overflow': 'hidden',
                                                 'textOverflow': 'ellipsis',
+                                                'backgroundColor':'lavender',
+                                                'lineColor':'black'
                                             },
                                             style_header={
-                                                'backgroundColor': 'white',
+                                                'backgroundColor': 'lavender',
                                                 'fontWeight': 'bold'
                                             },
                                             style_data={
@@ -517,10 +527,9 @@ app.layout = dbc.Container([
                             ]))
                     ],width=12)
 
-                ])
+                ], style={'margin-bottom':'1%', 'margin-top':'1.5%'})
             ], width=10),
-        ]),
-
+        ], style={"margin-top": "1%", 'margin-bottom':'1%'}),
 ], 
 fluid=True,
 className="dbc bg-light"
