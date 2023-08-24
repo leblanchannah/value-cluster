@@ -16,6 +16,8 @@ MARKER_COLOURS = ["#ff001a","#6e098d","#8b5fbf","#2b1930","#d183c9","#FFBEE5","#
 
 # product data, aggregated to single row per product  
 df = pd.read_csv('../data/agg_prod_data.csv')
+# volume errors
+df = df[~df['index'].isin([4879, 3506, 6904, 6286, 4186, 6286, 5649, 2000, 5641, 6282, 6268])]
 
 # Initialize the Dash app
 app = Dash(
@@ -25,7 +27,8 @@ app = Dash(
     suppress_callback_exceptions=True,
     meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
 )
-
+app.css.append_css({'external_url':'reset.css'})
+# app._favicon = ("path_to_folder/your_icon.ico")
 # 
 sidebar_text = html.P([
         html.Br(),
@@ -134,7 +137,7 @@ def single_product_info_box(df, data):
         html.Br(),
         f"Size: {data['amount_adj']} {data['unit_a']}", 
         html.Br(),
-        f"There are {num_cheaper_products} {data['lvl_2_cat'].lower()} at Sephora with unit price less than ${data['unit_price']:.2f} /{data['unit_a']}."
+        f"Found {num_cheaper_products} products at Sephora in {data['lvl_2_cat'].lower()} category with unit price < ${data['unit_price']:.2f} /{data['unit_a']}."
     ]
 
 
@@ -204,7 +207,7 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distr
             color='value',
             template=PLOT_TEMPLATE_THEME,
             color_discrete_sequence=["#8B5fBF","#6E098D"],#,"#ae71c4","#d183c9","#e8a2cc","#fec0ce","#cf8797","#a04e60"]],
-            height=250,
+            height=350,
             title=title,
             labels={'unit_price': "Unit Price ($/oz.)", "value":"Unit Price Distribution"}
         )
@@ -224,7 +227,7 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distr
         )
     )
     fig.update_traces(
-        showlegend=False
+        showlegend=True
     )
     return fig
 
@@ -292,7 +295,7 @@ def product_unit_price_v_size_scatter(df, title='Explore Products By Size And Pr
                                         hovertemplate = t.hovertemplate.replace(t.name, newnames[t.name])
                                         )
                     )
-    fig.update_traces(marker=dict(size=10,opacity=0.8))
+    fig.update_traces(marker=dict(size=8,opacity=0.9))
     return fig
 
 @callback(
@@ -306,8 +309,8 @@ def update_unit_price_slope_plot(sort_val, category_val, brand_val, min_price_dr
     df_filtered = df.copy()
     title = f'Unit Price Comparison Of{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Products'
     sorting = {
-        'ratio_mini_lt_full':'Mini Products<br>By Unit Price Ratio',
-        'ratio_full_lt_mini':'Full Products<br>By Unit Price Ratio',
+        'ratio_mini_lt_full':'Mini Size Products<br>By Unit Price Ratio',
+        'ratio_full_lt_mini':'Standard Size Products<br>By Unit Price Ratio',
         'unit_price_mini':'Best Value<br>Mini Products',
         'unit_price_full':'Best Value<br>Standard Products'
     }
@@ -374,7 +377,7 @@ def unit_price_slope_plot(df, title="Unit Price Comparison Of Products", legend_
     # map line index to brand+category label
     legend_name_map = {row['prod_rank']:row['display_name'] for index, row in df.iterrows()}
     fig.for_each_trace(lambda t: t.update(name = legend_name_map[int(t.name)]))
-    fig.update_traces(line=dict(width=8), marker=dict(size=8))
+    fig.update_traces(line=dict(width=7), marker=dict(size=12))
     return fig 
 
 
@@ -424,31 +427,44 @@ def get_unit_price_comparison_data(df, sorting_value='ratio_mini_lt_full'):
 
 ###### App 
 app.layout = dbc.Container([
+    html.Br(),
         dbc.Row([
+            
             # side panel col, with title, description etc 
             dbc.Col([
                 dbc.Card([ # or census
                     dbc.CardHeader(html.H4(["Sephora Value Canvas"],style={'color':'#643A71'})),
-                    dbc.CardBody([
+                    dbc.CardBody(children=[
                         html.P([
                             '''
                                 The unit prices of products at Sephora are not readily available without web scraping. 
                                 This tool facilitates a comparison between products available in both mini and full sizes by analyzing their unit price ratios.
                             '''], style={'font-size':14}),
+                        dcc.Markdown('$$\\small{ValueR=}\\normalsize{\\frac{MiniUnitPrice}{StandardUnitPrice}}$$', mathjax=True, style={'width':'%80'}),
+                        html.P([
+                            '''
+                            If a product pair has a ratio value of 4, the mini size is 4x more expensive per ounce than the standard size.
+                            '''
+                        ], style={'font-size':14}),
                         html.H5(["Sort By:"], style={'color':'#643A71', 'font-size':18}),
                         sorting_dropdown,
                         html.Br(),
                         html.H5(["Filter:"], style={'color':'#643A71', 'font-size':18}),
                         html.B("Product Category", style={'color':'#643A71', 'font-size':16}),
                         product_category_l0_global,
+                        html.Br(),
                         html.B("Brand", style={'color':'#643A71', 'font-size':16}),
                         brand_filter_global,
+                        html.Br(),
                         html.B("Product Price", style={'color':'#643A71','font-size':16}),
                         price_min_max_filter(df, 'price'),
                         sidebar_text,
-                    ])
+                        html.P(['''
+                        Data last updated on 22/08/2023.
+                        '''], style={'font-size':14})
+                    ], style={'width':'%100'})
             ])
-            ], width=2),
+            ], xs=2,sm=2,md=2,lg=2),
             # data viz col
             dbc.Col([
                 dbc.Row([
@@ -477,7 +493,7 @@ app.layout = dbc.Container([
                             ])
                         )
                     ], width=6),
-                ], style={'margin-bottom':'2%'}),
+                ]), #style={'margin-bottom':'2%'}),
                 dbc.Row([
                     dbc.Col([
                          dbc.Card(
@@ -492,7 +508,7 @@ app.layout = dbc.Container([
                                         html.H4(['Selected Product'],style={'color':'#643A71'}),
                                         html.Div(
                                             product_dropdown,
-                                            style={'width':'90%', 'margin-bottom':'1%'}
+                                            style={'width':'90%', 'margin-bottom':'3%'}
                                         ),
                                         html.Div(
                                             "",
@@ -506,8 +522,7 @@ app.layout = dbc.Container([
                                             figure=unit_price_histogram(df[df['lvl_2_cat']=='Mascaras'], 310, 'unit_price'),
                                             config={
                                                 'displayModeBar': False
-                                            }
-                                        )
+                                            })
                                     ], width=4),
                                     dbc.Col([
                                         html.H5(["Value Recommendations"]),
@@ -519,7 +534,7 @@ app.layout = dbc.Container([
                                                 {"name": 'Product', "id": 'product_name'},
                                                 {"name": 'Unit Price ($/oz.)', "id": 'unit_price', 'type':'numeric', 'format':dash_table.Format.Format(precision=2, scheme=dash_table.Format.Scheme.fixed)}
                                             ],
-                                            page_size=5,
+                                            page_size=7,
                                             style_cell={
                                                 'font-family':'sans-serif',
                                                 'textAlign': 'left',
@@ -548,10 +563,11 @@ app.layout = dbc.Container([
 
                 ], style={'margin-bottom':'1%', 'margin-top':'1.5%'})
             ], width=10),
-        ], style={"margin-top": "1%", 'margin-bottom':'1%'}),
+        ]), #style={"margin-top": "1%", 'margin-bottom':'1%'}),
 ], 
 fluid=True,
-className="dbc bg-light"
+className="dbc bg-light",
+style={'height':'100vh'}
 )
 
 # Run the app
