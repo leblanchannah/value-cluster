@@ -40,6 +40,17 @@ sidebar_text = html.P([
         # """
 ], style={'font-size':14})
 
+
+# select single product
+product_options = [{'label':x.product_name+' '+x.brand_name+' '+x.swatch_group,'value':x.index} for x in df[['product_name','brand_name','index','swatch_group']].itertuples()]
+product_dropdown = dcc.Dropdown(
+                        options=product_options,
+                        placeholder='Translucent Loose Setting Powder Laura Mercier standard size',
+                        value=16,
+                        id='product_dropdown',
+                        optionHeight=55,
+                    )
+
 # Drop down used to sort slope plot
 sorting_dropdown = dcc.Dropdown(
                         options=[
@@ -114,7 +125,7 @@ def single_product_info_box(df, data):
     l2_type = (df['lvl_2_cat']==data['lvl_2_cat']) 
     num_cheaper_products = df[unit_price & l2_type].shape[0]
     return [
-        html.H4(['Selected Product Details'],style={'color':'#643A71'}),
+        html.H5(['Details']),#,style={'color':'#643A71'}),
         f"Product: {data['product_name']}, {data['swatch_group']}",
         html.Br(),
         f"Brand: {data['brand_name']}",
@@ -132,8 +143,9 @@ def single_product_info_box(df, data):
     Output('unit_price_hist_plot', 'figure'),
     Output('cheaper_product_table','data'),
     Input('scatter_products', 'clickData'),
-    Input('size_line_plot', 'clickData'))
-def update_product_details(scatter_click_value, slope_click_value):
+    Input('size_line_plot', 'clickData'),
+    Input('product_dropdown','value'))
+def update_product_details(scatter_click_value, slope_click_value, product_value):
     '''
         When a data point is clicked on the slope pair plot OR the product scatter plot, the product details section is updated
         to show information on the selected product. 
@@ -152,14 +164,22 @@ def update_product_details(scatter_click_value, slope_click_value):
     # sequential clicks show data in both scatter value and slope value - making it difficult to tell what is most recent
     # ctx triggered gives most recent and all the same data under customdata key
     click_data = ctx.triggered[0]
+    print(ctx.triggered)
+
     if click_data['value'] is not None:
+        if 'prop_id' in click_data.keys() and click_data['prop_id']=='product_dropdown.value':
+            product_row_id = click_data['value']
+        else:
         # either scatterplot or slope plot has been clicked
         # index must always be last item in custom_data, regardless of what plot it came from 
-        product_row_id = click_data['value']['points'][0]['customdata'][-1]
+            product_row_id = click_data['value']['points'][0]['customdata'][-1]
+    # if product_value is not None:
+    #     print(product_value)
+    #     product_row_id = product_value
     else:
         product_row_id = 2843
     data = get_single_product_data(df, product_row_id)
-    
+    print(data)
     df_filtered_hist = df[df['lvl_2_cat']==data['lvl_2_cat']]
     title = f'Unit Price Distribution, {data["lvl_2_cat"].title()}'
     fig = unit_price_histogram(df_filtered_hist, data['unit_price'], 'unit_price', title=title)
@@ -461,9 +481,19 @@ app.layout = dbc.Container([
                 dbc.Row([
                     dbc.Col([
                          dbc.Card(
-                            dbc.CardBody([
+                            dbc.CardBody([ # title for bottom section
+                                #  dbc.Row([
+                                #     dbc.Col([
+                                        
+                                #     ], width=12)
+                                # ]),
                                 dbc.Row([
                                     dbc.Col([
+                                        html.H4(['Selected Product'],style={'color':'#643A71'}),
+                                        html.Div(
+                                            product_dropdown,
+                                            style={'width':'90%', 'margin-bottom':'1%'}
+                                        ),
                                         html.Div(
                                             "",
                                             id='product_details_text',
@@ -480,6 +510,7 @@ app.layout = dbc.Container([
                                         )
                                     ], width=4),
                                     dbc.Col([
+                                        html.H5(["Value Recommendations"]),
                                         dash_table.DataTable(
                                             id='cheaper_product_table',
                                             data=df.sort_values(by='unit_price', ascending=True)[['brand_name','product_name','unit_price']].to_dict("records"),
