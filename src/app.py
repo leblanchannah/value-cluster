@@ -10,21 +10,9 @@ import plotly.express as px
 
 app = Dash(__name__)
 
-
 PLOT_TEMPLATE_THEME = 'simple_white'
-MARKER_COLOURS = px.colors.qualitative.Pastel
 
-# MARKER_COLOURS = ["#995d81","#c2706d","#eb8258",
-#                   "#eea052","#f1bd4c","#f6f740",
-#                   "#e7ea55","#d8dc6a","#9fb386","#6689a1"]
-
-# MARKER_COLOURS = ["#6C1886","#ae71c4","#d183c9","#482a51","#e8a2cc","#fec0ce","#8b5fbf","#cf8797","#a04e60",'#8D46A3']
 MARKER_COLOURS = ["#ff001a","#6e098d","#8b5fbf","#2b1930","#d183c9","#FFBEE5","#e84bb1","#8e0827","#8d46a3","#c61083"]
-
-
-
-
-print(MARKER_COLOURS)
 
 # product data, aggregated to single row per product  
 df = pd.read_csv('../data/agg_prod_data.csv')
@@ -60,7 +48,7 @@ sorting_dropdown = dcc.Dropdown(
                             {'label':'Best Value Mini Products','value':'unit_price_mini'},
                             {'label':'Best Value Standard Products','value':'unit_price_full'},
                         ],
-                        value='unit_price_mini',
+                        value='ratio_full_lt_mini',
                         id='sorting_dropdown',
                         optionHeight=55,
                     )
@@ -74,7 +62,7 @@ brand_filter_global = dcc.Dropdown(
 # Drop down used to filter both slope and scatter plots by product category
 product_category_l0_global = dcc.Dropdown(
                                 options = [x for x in df.lvl_0_cat.unique() if x!=' ' and x!='Mini Size' and x!='Men'],
-                                value='Skincare',
+                                value='Makeup',
                                 id='category_l0_dropdown',
                             )
 
@@ -501,8 +489,8 @@ app.layout = dbc.Container([
                                                 {"name": 'Unit Price ($/oz.)', "id": 'unit_price', 'type':'numeric', 'format':dash_table.Format.Format(precision=2, scheme=dash_table.Format.Scheme.fixed)}
                                             ],
                                             page_size=5,
-                                            # style_as_list_view=True,
                                             style_cell={
+                                                'font-family':'sans-serif',
                                                 'textAlign': 'left',
                                                 'fontSize':12,
                                                 'overflow': 'hidden',
