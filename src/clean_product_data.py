@@ -158,7 +158,7 @@ def clean_product_details(value):
 
 def main():
 
-    df_products = read_data("../data/products/*")
+    df_products = read_data("../data/products_format_v2/*")
 
     # some links available in brand product grid pages are not available 
     df_products = df_products[(df_products['product_name'].notnull()) & (df_products['categories'].notnull())]
@@ -186,12 +186,13 @@ def main():
     # categories from bread crumbs, starts with list of 3 categorical values
     # fill value is '   ', list of 3 empty spaces
     df_products['lvl_0_cat'], df_products['lvl_1_cat'], df_products['lvl_2_cat'] = df_products['categories'].str
-    df_products['lvl_2_cat'] = df_products['lvl_2_cat'].fillna("")
+    df_products.loc[df_products['lvl_1_cat'].isnull(),'lvl_1_cat'] = df_products['lvl_0_cat']
+    df_products.loc[df_products['lvl_2_cat'].isnull(),'lvl_2_cat'] = df_products['lvl_1_cat']
     not_important_for_analysis = ['Accessories','Value & Gift Sets','Beauty Tools','High Tech Tools',
                                 'Wellness','Hair Tools','Tools', 'Brushes & Applicators', 'Other Needs']
     df_products = df_products[~df_products['lvl_1_cat'].isin(not_important_for_analysis)]
     
-    df_products[['url_path','product_id']] = df_products['url_path'].str.split("-P", expand=True)
+    df_products[['url_path','product_id']] = df_products['url'].str.split("-P", expand=True)
 
     df_products = df_products[(df_products['size'].notnull()) | (df_products['name'].astype(bool))]
     df_products = df_products[(df_products['size'].notnull()) | (df_products['name'].notnull())]
