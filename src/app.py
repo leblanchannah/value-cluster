@@ -184,7 +184,7 @@ def update_product_details(scatter_click_value, slope_click_value, product_value
     data = get_single_product_data(df, product_row_id)
     print(data)
     df_filtered_hist = df[df['lvl_2_cat']==data['lvl_2_cat']]
-    title = f'Unit Price Distribution, {data["lvl_2_cat"].title()}'
+    title = f'Unit Price of {data["lvl_2_cat"].title()} Category'
     fig = unit_price_histogram(df_filtered_hist, data['unit_price'], 'unit_price', title=title)
     
     text = single_product_info_box(df, data)
@@ -198,18 +198,26 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distr
     '''
     https://stackoverflow.com/questions/71778342/highlight-one-specific-bar-in-plotly-bar-chart-python
     '''
-    data['value'] = ''
-    data.loc[data[unit_price_col]<position, 'value'] = 'Cheaper than selected product'
+
+    m_rows = data.shape[0]
+    if m_rows==0:
+        m_rows=1
+    data['value'] = 'expensive'
+    data.loc[data[unit_price_col]<position, 'value'] = 'cheaper'
+    cheaper_products = data[data['value']=='cheaper'].shape[0]
+    pct_cheaper = round((cheaper_products/m_rows)*100, 2)
+    
+    # title += f'<br>{pct_cheaper}% of products have cheaper unit price than selected'
 
     fig = px.histogram(
             data,
             x=unit_price_col,
             color='value',
             template=PLOT_TEMPLATE_THEME,
-            color_discrete_sequence=["#8B5fBF","#6E098D"],#,"#ae71c4","#d183c9","#e8a2cc","#fec0ce","#cf8797","#a04e60"]],
+            color_discrete_sequence=["#C61083","#8B5FBF"],
             height=350,
             title=title,
-            labels={'unit_price': "Unit Price ($/oz.)", "value":"Unit Price Distribution"}
+            labels={'unit_price': "Unit Price ($/oz.)", "value":""}
         )
     fig.update_layout(
         margin=dict(l=20, r=20, t=40, b=20),
@@ -226,9 +234,20 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distr
             xanchor='right'
         )
     )
+
     fig.update_traces(
         showlegend=True
     )
+
+    newnames = {
+        'cheaper':f'{pct_cheaper}% of products are better value per unit',
+        'expensive': f'{round(100-pct_cheaper,2)}% of products are more expensive per unit',
+    }
+    fig.for_each_trace(lambda t: t.update(name = newnames[t.name],
+                                        legendgroup = newnames[t.name],
+                                        hovertemplate = t.hovertemplate.replace(t.name, newnames[t.name])
+                                        )
+                    )
     return fig
 
 
@@ -443,7 +462,7 @@ app.layout = dbc.Container([
                         dcc.Markdown('$$\\small{ValueR=}\\normalsize{\\frac{MiniUnitPrice}{StandardUnitPrice}}$$', mathjax=True, style={'width':'%80'}),
                         html.P([
                             '''
-                            If a product pair has a ratio value of 4, the mini size is 4x more expensive per ounce than the standard size.
+                            A product pair ratio value of 4 means the mini size is 4x more expensive per ounce than the standard size.
                             '''
                         ], style={'font-size':14}),
                         html.H5(["Sort By:"], style={'color':'#643A71', 'font-size':18}),
@@ -525,7 +544,7 @@ app.layout = dbc.Container([
                                             })
                                     ], width=4),
                                     dbc.Col([
-                                        html.H5(["Value Recommendations"]),
+                                        html.H5(["Product Recommendations"]),
                                         dash_table.DataTable(
                                             id='cheaper_product_table',
                                             data=df.sort_values(by='unit_price', ascending=True)[['brand_name','product_name','unit_price']].to_dict("records"),
