@@ -28,6 +28,9 @@ app = Dash(
     meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
 )
 
+
+############# FIGURES ############# 
+
 sidebar_text = html.P([
         html.Br(),
         html.A("GitHub Repo", href="https://github.com/leblanchannah/value-cluster", style={'color':'#E84BB1'}),
@@ -206,7 +209,6 @@ def get_single_product_data(df, row_id, index_col='index'):
 
 ##### Plotly figures and callbacks
 def product_unit_price_v_size_scatter(df, title='Explore Products By Size And Price'):
-    
     fig = px.scatter(
                     df,
                     x='amount_adj',
@@ -348,7 +350,7 @@ SIDEBAR_STYLE = {
     "top": 0,
     "left": 0,
     "bottom": 0,
-    "background-color": "#f8f9fa",
+    "background-color": "#fcf5fc"#"#f8f9fa",
 }
 ###### App 
 app.layout = dbc.Container([
@@ -485,7 +487,7 @@ app.layout = dbc.Container([
                     'margin-right':'2%',
                     'background-color':'white'
                     })
-            ], width=10, style={'background-color':'black'}),
+            ], width=10, style={'background-color':'white'}),
         ]),
 ], 
 fluid=True,
