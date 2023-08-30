@@ -220,7 +220,7 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distr
             labels={'unit_price': "Unit Price ($/oz.)", "value":""}
         )
     fig.update_layout(
-        margin=dict(l=20, r=20, t=40, b=20),
+        margin=dict(l=20, r=20, t=30, b=20),
         yaxis=dict(
             autorange=True,
         ),
@@ -287,7 +287,7 @@ def product_unit_price_v_size_scatter(df, title='Explore Products By Size And Pr
                     color='swatch_group',
                     title=title,
                     template=PLOT_TEMPLATE_THEME,
-                    # order_by='swatch_group',
+                    height=400,
                     color_discrete_sequence=["#2b1930","#8b5fbf","#e84BB1","#FF001A"],
                     hover_data=['brand_name', 'product_name', 'index'],
                     labels={ # replaces default labels by column name
@@ -300,7 +300,7 @@ def product_unit_price_v_size_scatter(df, title='Explore Products By Size And Pr
             yanchor='top',
             xanchor='right'
         ),
-        margin=dict(l=80, r=20, t=50, b=20),
+        margin=dict(l=80, r=20, t=30, b=20),
     )
 
     newnames = {
@@ -356,6 +356,7 @@ def unit_price_slope_plot(df, title="Unit Price Comparison Of Products", legend_
                 y="value",
                 x="variable",
                 color="prod_rank",
+                height=400,
                 title=title,
                 template=PLOT_TEMPLATE_THEME,
                 color_discrete_sequence=MARKER_COLOURS,
@@ -371,7 +372,7 @@ def unit_price_slope_plot(df, title="Unit Price Comparison Of Products", legend_
                 markers=True
     )
     fig.update_layout(
-        margin=dict(l=80, r=20, t=50, b=20),
+        margin=dict(l=80, r=20, t=30, b=20),
         autosize=True,
         yaxis = dict(
             title='Unit Price ($/oz.)'
@@ -444,46 +445,48 @@ def get_unit_price_comparison_data(df, sorting_value='ratio_mini_lt_full'):
     df_compare['display_name'] = df_compare['brand_name']+",<br>"+df_compare['lvl_2_cat']
     return df_compare
 
+SIDEBAR_STYLE = {
+    "top": 0,
+    "left": 0,
+    "bottom": 0,
+    "background-color": "#f8f9fa",
+}
 ###### App 
 app.layout = dbc.Container([
-    html.Br(),
         dbc.Row([
             
             # side panel col, with title, description etc 
             dbc.Col([
-                dbc.Card([ # or census
-                    dbc.CardHeader(html.H4(["Sephora Value Canvas"],style={'color':'#643A71'})),
-                    dbc.CardBody(children=[
-                        html.P([
-                            '''
-                                The unit prices of products at Sephora are not readily available without web scraping. 
-                                This tool facilitates a comparison between products available in both mini and full sizes by analyzing their unit price ratios.
-                            '''], style={'font-size':14}),
-                        dcc.Markdown('$$\\small{ValueR=}\\normalsize{\\frac{MiniUnitPrice}{StandardUnitPrice}}$$', mathjax=True, style={'width':'%80'}),
-                        html.P([
-                            '''
-                            A product pair ratio value of 4 means the mini size is 4x more expensive per ounce than the standard size.
-                            '''
-                        ], style={'font-size':14}),
-                        html.H5(["Sort By:"], style={'color':'#643A71', 'font-size':18}),
-                        sorting_dropdown,
-                        html.Br(),
-                        html.H5(["Filter:"], style={'color':'#643A71', 'font-size':18}),
-                        html.B("Product Category", style={'color':'#643A71', 'font-size':16}),
-                        product_category_l0_global,
-                        html.Br(),
-                        html.B("Brand", style={'color':'#643A71', 'font-size':16}),
-                        brand_filter_global,
-                        html.Br(),
-                        html.B("Product Price", style={'color':'#643A71','font-size':16}),
-                        price_min_max_filter(df, 'price'),
-                        sidebar_text,
-                        html.P(['''
-                        Data last updated on 22/08/2023.
-                        '''], style={'font-size':14})
-                    ], style={'width':'%100'})
-            ])
-            ], xs=2,sm=2,md=2,lg=2),
+                html.H1(["Sephora Value Canvas"], style={'color':'#643A71','font-size':28, 'text-align':'center'}),
+                html.P([
+                    '''
+                        The unit prices of products at Sephora are not readily available without web scraping. 
+                        This tool facilitates a comparison between products available in both mini and full sizes by analyzing their unit price ratios.
+                    '''], style={'font-size':14}),
+                dcc.Markdown('$$\\small{ValueR=}\\normalsize{\\frac{MiniUnitPrice}{StandardUnitPrice}}$$', mathjax=True, style={'width':'%80'}),
+                html.P([
+                    '''
+                    A product pair ratio value of 4 means the mini size is 4x more expensive per ounce than the standard size.
+                    '''
+                ], style={'font-size':14}),
+                html.H5(["Sort By:"], style={'color':'#643A71', 'font-size':18}),
+                sorting_dropdown,
+                html.Br(),
+                html.H5(["Filter:"], style={'color':'#643A71', 'font-size':18}),
+                html.B("Product Category", style={'color':'#643A71', 'font-size':16}),
+                product_category_l0_global,
+                html.Br(),
+                html.B("Brand", style={'color':'#643A71', 'font-size':16}),
+                brand_filter_global,
+                html.Br(),
+                html.B("Product Price", style={'color':'#643A71','font-size':16}),
+                price_min_max_filter(df, 'price'),
+                sidebar_text,
+                html.P(['''
+                Data last updated on 22/08/2023.
+                '''], style={'font-size':14})
+
+            ], width=2, style=SIDEBAR_STYLE),
             # data viz col
             dbc.Col([
                 dbc.Row([
@@ -496,7 +499,8 @@ app.layout = dbc.Container([
                                     figure=unit_price_slope_plot(get_unit_price_comparison_data(df)),
                                     config={
                                         'displayModeBar': False
-                                    }
+                                    },
+                                    style={'height': '100%'}
                                 )
                             ])
                         )
@@ -506,7 +510,8 @@ app.layout = dbc.Container([
                             dbc.CardBody([
                                 dcc.Graph(
                                     id='scatter_products',
-                                    figure=product_unit_price_v_size_scatter(df)
+                                    figure=product_unit_price_v_size_scatter(df),
+                                    style={'height': '100%'}
                                 )
 
                             ])
@@ -540,8 +545,10 @@ app.layout = dbc.Container([
                                             id='unit_price_hist_plot',
                                             figure=unit_price_histogram(df[df['lvl_2_cat']=='Mascaras'], 310, 'unit_price'),
                                             config={
+                                                'responsive':True,
                                                 'displayModeBar': False
-                                            })
+                                            }, 
+                                            style={'height': '100%'})
                                     ], width=4),
                                     dbc.Col([
                                         html.H5(["Product Recommendations"]),
@@ -560,7 +567,7 @@ app.layout = dbc.Container([
                                                 'fontSize':12,
                                                 'overflow': 'hidden',
                                                 'textOverflow': 'ellipsis',
-                                                'backgroundColor':'lavender',
+                                                'backgroundColor':'#f8f9fa',
                                                 'lineColor':'black'
                                             },
                                             style_header={
@@ -580,9 +587,9 @@ app.layout = dbc.Container([
                             ]))
                     ],width=12)
 
-                ], style={'margin-bottom':'1%', 'margin-top':'1.5%'})
+                ], style={'margin-top':'1%'})
             ], width=10),
-        ]), #style={"margin-top": "1%", 'margin-bottom':'1%'}),
+        ]),# , style={"margin-top": "0.5%", 'margin-bottom':'1%'}),
 ], 
 fluid=True,
 className="dbc bg-light",
