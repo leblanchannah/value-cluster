@@ -27,9 +27,7 @@ app = Dash(
     suppress_callback_exceptions=True,
     meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
 )
-app.css.append_css({'external_url':'reset.css'})
-# app._favicon = ("path_to_folder/your_icon.ico")
-# 
+
 sidebar_text = html.P([
         html.Br(),
         html.A("GitHub Repo", href="https://github.com/leblanchannah/value-cluster", style={'color':'#E84BB1'}),
@@ -141,59 +139,6 @@ def single_product_info_box(df, data):
     ]
 
 
-@callback(
-    Output('product_details_text', 'children'),
-    Output('unit_price_hist_plot', 'figure'),
-    Output('cheaper_product_table','data'),
-    Input('scatter_products', 'clickData'),
-    Input('size_line_plot', 'clickData'),
-    Input('product_dropdown','value'))
-def update_product_details(scatter_click_value, slope_click_value, product_value):
-    '''
-        When a data point is clicked on the slope pair plot OR the product scatter plot, the product details section is updated
-        to show information on the selected product. 
-        Args:
-            scatter_click_value - callback info
-            slope_click_value - callback info
-                although callback info is provided, it is easier for me to use callback context -> ctx when determining what was
-                most recently clicked on the dashboard. 
-        Returns:
-            Tuple of updates 
-            - updates div children (id=product_details_text) with text describing produce selected, along with recommendation 
-            - updates histogram figure (id=unit_price_hist_plot) with unit prices of products in same l2 category as selected product
-            - updates table data (id=cheaper_product_table) with better value products than the selected product
-
-    '''
-    # sequential clicks show data in both scatter value and slope value - making it difficult to tell what is most recent
-    # ctx triggered gives most recent and all the same data under customdata key
-    click_data = ctx.triggered[0]
-    print(ctx.triggered)
-
-    if click_data['value'] is not None:
-        if 'prop_id' in click_data.keys() and click_data['prop_id']=='product_dropdown.value':
-            product_row_id = click_data['value']
-        else:
-        # either scatterplot or slope plot has been clicked
-        # index must always be last item in custom_data, regardless of what plot it came from 
-            product_row_id = click_data['value']['points'][0]['customdata'][-1]
-    # if product_value is not None:
-    #     print(product_value)
-    #     product_row_id = product_value
-    else:
-        product_row_id = 2843
-    data = get_single_product_data(df, product_row_id)
-    print(data)
-    df_filtered_hist = df[df['lvl_2_cat']==data['lvl_2_cat']]
-    title = f'Unit Price of {data["lvl_2_cat"].title()} Category'
-    fig = unit_price_histogram(df_filtered_hist, data['unit_price'], 'unit_price', title=title)
-    
-    text = single_product_info_box(df, data)
-
-    df_filtered_table = df_filtered_hist[df_filtered_hist['unit_price']<data['unit_price']]
-    table = df_filtered_table.sort_values(by='unit_price', ascending=True)[['brand_name','product_name','unit_price']].to_dict("records")
-    return  text, fig, table
-
-
 def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distribution'):
     '''
     https://stackoverflow.com/questions/71778342/highlight-one-specific-bar-in-plotly-bar-chart-python
@@ -220,7 +165,7 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distr
             labels={'unit_price': "Unit Price ($/oz.)", "value":""}
         )
     fig.update_layout(
-        margin=dict(l=20, r=20, t=30, b=20),
+        margin=dict(l=50, r=50, t=50, b=0, pad=0),
         yaxis=dict(
             autorange=True,
         ),
@@ -240,8 +185,8 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distr
     )
 
     newnames = {
-        'cheaper':f'{pct_cheaper}% of products are better value per unit',
-        'expensive': f'{round(100-pct_cheaper,2)}% of products are more expensive per unit',
+        'cheaper':f'{pct_cheaper}% - better value per<br>unit than selected',
+        'expensive': f'{round(100-pct_cheaper,2)}% - more expensive per<br>unit than selected',
     }
     fig.for_each_trace(lambda t: t.update(name = newnames[t.name],
                                         legendgroup = newnames[t.name],
@@ -256,25 +201,7 @@ def get_single_product_data(df, row_id, index_col='index'):
     return df[df[index_col]==row_id].to_dict('records')[0]
 
 
-@callback(
-    Output('scatter_products', 'figure'),
-    Input('category_l0_dropdown', 'value'),
-    Input('brand_dropdown', 'value'),
-    Input('min_price_dropdown', 'value'),
-    Input('max_price_dropdown', 'value'))
-def update_product_scatter(category_val, brand_val, min_price_dropdown, max_price_dropdown):
-    triggered_id = ctx.triggered_id 
-    df_filtered = df.copy()
-    title = f'Explore{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Products By Size And Price'
-    if category_val:
-        df_filtered = df_filtered[df_filtered['lvl_0_cat']==category_val]
-    if brand_val:
-        df_filtered = df_filtered[df_filtered['brand_name']==brand_val]
-    if min_price_dropdown:
-        df_filtered = df_filtered[df_filtered['price']>=min_price_dropdown]
-    if max_price_dropdown:
-        df_filtered = df_filtered[df_filtered['price']<max_price_dropdown]
-    return product_unit_price_v_size_scatter(df_filtered, title)
+
 
 
 ##### Plotly figures and callbacks
@@ -300,7 +227,7 @@ def product_unit_price_v_size_scatter(df, title='Explore Products By Size And Pr
             yanchor='top',
             xanchor='right'
         ),
-        margin=dict(l=80, r=20, t=30, b=20),
+        margin=dict(l=50, r=20, t=50, b=50)
     )
 
     newnames = {
@@ -316,35 +243,6 @@ def product_unit_price_v_size_scatter(df, title='Explore Products By Size And Pr
                     )
     fig.update_traces(marker=dict(size=8,opacity=0.9))
     return fig
-
-@callback(
-    Output('size_line_plot', 'figure'),
-    Input('sorting_dropdown', 'value'),
-    Input('category_l0_dropdown', 'value'),
-    Input('brand_dropdown', 'value'),
-    Input('min_price_dropdown', 'value'),
-    Input('max_price_dropdown', 'value'))
-def update_unit_price_slope_plot(sort_val, category_val, brand_val, min_price_dropdown, max_price_dropdown):
-    df_filtered = df.copy()
-    title = f'Unit Price Comparison Of{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Products'
-    sorting = {
-        'ratio_mini_lt_full':'Mini Size Products<br>By Unit Price Ratio',
-        'ratio_full_lt_mini':'Standard Size Products<br>By Unit Price Ratio',
-        'unit_price_mini':'Best Value<br>Mini Products',
-        'unit_price_full':'Best Value<br>Standard Products'
-    }
-    if category_val:
-        df_filtered = df_filtered[df_filtered['lvl_0_cat']==category_val]
-    if brand_val:
-        df_filtered = df_filtered[df_filtered['brand_name']==brand_val]
-    if min_price_dropdown:
-        df_filtered = df_filtered[df_filtered['price']>=min_price_dropdown]
-    if max_price_dropdown:
-        df_filtered = df_filtered[df_filtered['price']<max_price_dropdown]
-
-    legend_title = f'Top 10 {sorting[sort_val]}'
-    return unit_price_slope_plot(get_unit_price_comparison_data(df_filtered, sort_val), title, legend_title=legend_title)
-
 
 def unit_price_slope_plot(df, title="Unit Price Comparison Of Products", legend_title='Top 10 Products'):
     '''
@@ -372,7 +270,7 @@ def unit_price_slope_plot(df, title="Unit Price Comparison Of Products", legend_
                 markers=True
     )
     fig.update_layout(
-        margin=dict(l=80, r=20, t=30, b=20),
+        margin=dict(l=50, r=20, t=50, b=50),
         autosize=True,
         yaxis = dict(
             title='Unit Price ($/oz.)'
@@ -383,7 +281,8 @@ def unit_price_slope_plot(df, title="Unit Price Comparison Of Products", legend_
             tickmode='array',
             tickvals=['unit_price_mini', 'unit_price_standard'],
             ticktext=['Mini','Standard'],
-            range=[-0.3, 2 - 0.7]
+            range=[-0.3, 2 - 0.7],
+            # showline=False,
         ),
         legend=dict(
             title=legend_title,
@@ -492,109 +391,210 @@ app.layout = dbc.Container([
                 dbc.Row([
                     # slope plot (mini vs standard)
                     dbc.Col([
-                        dbc.Card(
-                            dbc.CardBody([
-                                dcc.Graph(
-                                    id='size_line_plot',
-                                    figure=unit_price_slope_plot(get_unit_price_comparison_data(df)),
-                                    config={
-                                        'displayModeBar': False
-                                    },
-                                    style={'height': '100%'}
-                                )
-                            ])
+                        dcc.Graph(
+                            id='size_line_plot',
+                            figure=unit_price_slope_plot(get_unit_price_comparison_data(df)),
+                            config={
+                                'displayModeBar': False
+                            },
+                            style = {
+                                'height': '100%',
+                                'width': '100%'
+                            }
                         )
                     ], width=6),
                     dbc.Col([
-                        dbc.Card(
-                            dbc.CardBody([
-                                dcc.Graph(
-                                    id='scatter_products',
-                                    figure=product_unit_price_v_size_scatter(df),
-                                    style={'height': '100%'}
-                                )
-
-                            ])
+                        dcc.Graph(
+                            id='scatter_products',
+                            figure=product_unit_price_v_size_scatter(df),
+                            style = {
+                                'height': '100%',
+                                'width': '100%'
+                            }
                         )
                     ], width=6),
-                ]), #style={'margin-bottom':'2%'}),
+                ], style={
+                    'margin-top':'1%',
+                    'margin-left':'1%',
+                    'margin-right':'1%'
+                    }
+                    ), 
                 dbc.Row([
                     dbc.Col([
-                         dbc.Card(
-                            dbc.CardBody([ # title for bottom section
-                                #  dbc.Row([
-                                #     dbc.Col([
-                                        
-                                #     ], width=12)
-                                # ]),
-                                dbc.Row([
-                                    dbc.Col([
-                                        html.H4(['Selected Product'],style={'color':'#643A71'}),
-                                        html.Div(
-                                            product_dropdown,
-                                            style={'width':'90%', 'margin-bottom':'3%'}
-                                        ),
-                                        html.Div(
-                                            "",
-                                            id='product_details_text',
-                                            style={'font-size':14}
-                                        )
-                                    ], width=3),
-                                    dbc.Col([
-                                        dcc.Graph(
-                                            id='unit_price_hist_plot',
-                                            figure=unit_price_histogram(df[df['lvl_2_cat']=='Mascaras'], 310, 'unit_price'),
-                                            config={
-                                                'responsive':True,
-                                                'displayModeBar': False
-                                            }, 
-                                            style={'height': '100%'})
-                                    ], width=4),
-                                    dbc.Col([
-                                        html.H5(["Product Recommendations"]),
-                                        dash_table.DataTable(
-                                            id='cheaper_product_table',
-                                            data=df.sort_values(by='unit_price', ascending=True)[['brand_name','product_name','unit_price']].to_dict("records"),
-                                            columns=[
-                                                {"name": 'Brand', "id": 'brand_name'},
-                                                {"name": 'Product', "id": 'product_name'},
-                                                {"name": 'Unit Price ($/oz.)', "id": 'unit_price', 'type':'numeric', 'format':dash_table.Format.Format(precision=2, scheme=dash_table.Format.Scheme.fixed)}
-                                            ],
-                                            page_size=7,
-                                            style_cell={
-                                                'font-family':'sans-serif',
-                                                'textAlign': 'left',
-                                                'fontSize':12,
-                                                'overflow': 'hidden',
-                                                'textOverflow': 'ellipsis',
-                                                'backgroundColor':'#f8f9fa',
-                                                'lineColor':'black'
-                                            },
-                                            style_header={
-                                                'backgroundColor': 'lavender',
-                                                'fontWeight': 'bold'
-                                            },
-                                            style_data={
-                                                'whiteSpace': 'normal',
-                                                'height': 'auto',
-                                                'lineHeight': '15px'
-                                            },
-                                            style_table={
-                                                "overflowX": "auto"
-                                            })
-                                    ], width=5),
-                                ])
-                            ]))
+                        dbc.Row([
+                            dbc.Col([
+                                html.H4(['Selected Product'],style={'color':'#643A71'}),
+                                html.Div(
+                                    product_dropdown,
+                                    style={'width':'90%', 'margin-bottom':'3%'}
+                                ),
+                                html.Div(
+                                    "",
+                                    id='product_details_text',
+                                    style={'font-size':14}
+                                )
+                            ], width=3),
+                            dbc.Col([
+                                dcc.Graph(
+                                    id='unit_price_hist_plot',
+                                    figure=unit_price_histogram(df[df['lvl_2_cat']=='Mascaras'], 310, 'unit_price'),
+                                    config={
+                                        'responsive':True,
+                                        'displayModeBar': False
+                                    }, 
+                                    style={'height': '100%'})
+                            ], width=4),
+                            dbc.Col([
+                                html.H5(["Product Recommendations"]),
+                                dash_table.DataTable(
+                                    id='cheaper_product_table',
+                                    data=df.sort_values(by='unit_price', ascending=True)[['brand_name','product_name','unit_price']].to_dict("records"),
+                                    columns=[
+                                        {"name": 'Brand', "id": 'brand_name'},
+                                        {"name": 'Product', "id": 'product_name'},
+                                        {"name": 'Unit Price ($/oz.)', "id": 'unit_price', 'type':'numeric', 'format':dash_table.Format.Format(precision=2, scheme=dash_table.Format.Scheme.fixed)}
+                                    ],
+                                    page_size=7,
+                                    style_cell={
+                                        'font-family':'sans-serif',
+                                        'textAlign': 'left',
+                                        'fontSize':12,
+                                        'overflow': 'hidden',
+                                        'textOverflow': 'ellipsis',
+                                        'backgroundColor':'#f8f9fa',
+                                        'lineColor':'black'
+                                    },
+                                    style_header={
+                                        'backgroundColor': 'lavender',
+                                        'fontWeight': 'bold'
+                                    },
+                                    style_data={
+                                        'whiteSpace': 'normal',
+                                        'height': 'auto',
+                                        'lineHeight': '15px'
+                                    },
+                                    style_table={
+                                        "overflowX": "auto"
+                                    })
+                            ], width=5),
+                        ])
                     ],width=12)
-
-                ], style={'margin-top':'1%'})
-            ], width=10),
-        ]),# , style={"margin-top": "0.5%", 'margin-bottom':'1%'}),
+                ], style={
+                    'margin-top':'1%',
+                    'margin-left':'2%',
+                    'margin-right':'2%',
+                    'background-color':'white'
+                    })
+            ], width=10, style={'background-color':'black'}),
+        ]),
 ], 
 fluid=True,
-className="dbc bg-light",
 style={'height':'100vh'}
 )
+
+############# CALLBACKS ############# 
+
+@callback(
+    Output('scatter_products', 'figure'),
+    Input('category_l0_dropdown', 'value'),
+    Input('brand_dropdown', 'value'),
+    Input('min_price_dropdown', 'value'),
+    Input('max_price_dropdown', 'value'))
+def update_product_scatter(category_val, brand_val, min_price_dropdown, max_price_dropdown):
+    triggered_id = ctx.triggered_id 
+    df_filtered = df.copy()
+    title = f'Explore{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Products By Size And Price'
+    if category_val:
+        df_filtered = df_filtered[df_filtered['lvl_0_cat']==category_val]
+    if brand_val:
+        df_filtered = df_filtered[df_filtered['brand_name']==brand_val]
+    if min_price_dropdown:
+        df_filtered = df_filtered[df_filtered['price']>=min_price_dropdown]
+    if max_price_dropdown:
+        df_filtered = df_filtered[df_filtered['price']<max_price_dropdown]
+    return product_unit_price_v_size_scatter(df_filtered, title)
+
+
+@callback(
+    Output('size_line_plot', 'figure'),
+    Input('sorting_dropdown', 'value'),
+    Input('category_l0_dropdown', 'value'),
+    Input('brand_dropdown', 'value'),
+    Input('min_price_dropdown', 'value'),
+    Input('max_price_dropdown', 'value'))
+def update_unit_price_slope_plot(sort_val, category_val, brand_val, min_price_dropdown, max_price_dropdown):
+    df_filtered = df.copy()
+    title = f'Unit Price Comparison Of{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Products'
+    sorting = {
+        'ratio_mini_lt_full':'Mini Size Products<br>By Unit Price Ratio',
+        'ratio_full_lt_mini':'Standard Size Products<br>By Unit Price Ratio',
+        'unit_price_mini':'Best Value<br>Mini Products',
+        'unit_price_full':'Best Value<br>Standard Products'
+    }
+    if category_val:
+        df_filtered = df_filtered[df_filtered['lvl_0_cat']==category_val]
+    if brand_val:
+        df_filtered = df_filtered[df_filtered['brand_name']==brand_val]
+    if min_price_dropdown:
+        df_filtered = df_filtered[df_filtered['price']>=min_price_dropdown]
+    if max_price_dropdown:
+        df_filtered = df_filtered[df_filtered['price']<max_price_dropdown]
+
+    legend_title = f'Top 10 {sorting[sort_val]}'
+    return unit_price_slope_plot(get_unit_price_comparison_data(df_filtered, sort_val), title, legend_title=legend_title)
+
+
+@callback(
+    Output('product_details_text', 'children'),
+    Output('unit_price_hist_plot', 'figure'),
+    Output('cheaper_product_table','data'),
+    Input('scatter_products', 'clickData'),
+    Input('size_line_plot', 'clickData'),
+    Input('product_dropdown','value'))
+def update_product_details(scatter_click_value, slope_click_value, product_value):
+    '''
+        When a data point is clicked on the slope pair plot OR the product scatter plot, the product details section is updated
+        to show information on the selected product. 
+        Args:
+            scatter_click_value - callback info
+            slope_click_value - callback info
+                although callback info is provided, it is easier for me to use callback context -> ctx when determining what was
+                most recently clicked on the dashboard. 
+        Returns:
+            Tuple of updates 
+            - updates div children (id=product_details_text) with text describing produce selected, along with recommendation 
+            - updates histogram figure (id=unit_price_hist_plot) with unit prices of products in same l2 category as selected product
+            - updates table data (id=cheaper_product_table) with better value products than the selected product
+
+    '''
+    # sequential clicks show data in both scatter value and slope value - making it difficult to tell what is most recent
+    # ctx triggered gives most recent and all the same data under customdata key
+    click_data = ctx.triggered[0]
+
+    if click_data['value'] is not None:
+        if 'prop_id' in click_data.keys() and click_data['prop_id']=='product_dropdown.value':
+            product_row_id = click_data['value']
+        else:
+        # either scatterplot or slope plot has been clicked
+        # index must always be last item in custom_data, regardless of what plot it came from 
+            product_row_id = click_data['value']['points'][0]['customdata'][-1]
+    # if product_value is not None:
+    #     print(product_value)
+    #     product_row_id = product_value
+    else:
+        product_row_id = 2843
+    data = get_single_product_data(df, product_row_id)
+
+    df_filtered_hist = df[df['lvl_2_cat']==data['lvl_2_cat']]
+    title = f'Unit Price of {data["lvl_2_cat"].title()} Category'
+    fig = unit_price_histogram(df_filtered_hist, data['unit_price'], 'unit_price', title=title)
+    
+    text = single_product_info_box(df, data)
+
+    df_filtered_table = df_filtered_hist[df_filtered_hist['unit_price']<data['unit_price']]
+    table = df_filtered_table.sort_values(by='unit_price', ascending=True)[['brand_name','product_name','unit_price']].to_dict("records")
+    return  text, fig, table
+
 
 # Run the app
 if __name__ == '__main__':
