@@ -10,7 +10,7 @@ MARKER_COLOURS = ["#ff001a","#6e098d","#8b5fbf","#2b1930","#d183c9","#FFBEE5","#
 font_sizes = {
     'legend_title':12,
     'legend_item':10,
-    'plot_title':18,
+    'plot_title':16,
     'axis_label':14,
     'h1_title':26,
     'sidebar_text':14
@@ -310,6 +310,7 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distr
             color='value',
             template=PLOT_TEMPLATE_THEME,
             color_discrete_sequence=["#C61083","#8B5FBF"],
+            #["#ff001a","#6e098d","#8b5fbf","#2b1930","#d183c9","#FFBEE5","#e84bb1","#8e0827","#8d46a3","#c61083"]
             height=350,
             title=title,
             labels={'unit_price': "Unit Price ($/oz.)", "value":""}
@@ -353,7 +354,7 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distr
     return fig
 
 
-def unit_price_slope_plot(df, title="Unit Price Comparison Of Products", legend_title='Top 10 Products'):
+def unit_price_slope_plot(df, title="Unit Price Comparison Of Products", legend_title='Products'):
     '''
     Compares unit price of standard-mini product pairs in dataset
     This plot data and title are updated by callbacks from sorting, category, brand and price dropdowns 
@@ -433,7 +434,8 @@ app.layout = dbc.Container([
                                 style={
                                     'color':'#B1298D',
                                     'font-size':font_sizes['h1_title'],
-                                    'text-align':'center'
+                                    'text-align':'center',
+                                    'paddingTop':'1rem',
                                 }),
                         ], width=12)
                     ]
@@ -474,7 +476,6 @@ app.layout = dbc.Container([
                         ], width=8)
                     ],
                     align='center',
-                    style={'margin_bottom':'5px'},
                 ),
                 dbc.Row(
                     id='filter_title',
@@ -581,12 +582,12 @@ app.layout = dbc.Container([
                                 html.H4(['Selected Product'],style={'color':'#B1298D', 'font-size':'20px'}),
                                 html.Div(
                                     product_dropdown,
-                                    style={'width':'90%'}
+                                    style={'width':'90%', 'paddingTop':'1rem'},
                                 ),
                                 html.Div(
                                     "",
                                     id='product_details_text',
-                                    style={'font-size':font_sizes['sidebar_text']}
+                                    style={'font-size':font_sizes['sidebar_text'], 'paddingTop':'1rem'},
                                 )
                             ], width=2),
                             dbc.Col([
@@ -614,7 +615,7 @@ app.layout = dbc.Container([
                                         {"name": 'Unit Price ($/oz.)', "id": 'unit_price', 'type':'numeric', 'format':dash_table.Format.Format(precision=2, scheme=dash_table.Format.Scheme.fixed)},
                                         {"name": 'Rating', 'id':'rating', 'type':'numeric', 'format':dash_table.Format.Format(precision=1, scheme=dash_table.Format.Scheme.fixed)}
                                     ],
-                                    page_size=7,
+                                    page_size=8,
                                     style_cell={
                                         'font-family':'sans-serif',
                                         'textAlign': 'left',
@@ -692,12 +693,12 @@ def update_unit_price_slope_plot(sort_val, category_val, brand_val, min_price_dr
     Returns:
     '''
     df_filtered = df.copy()
-    title = f'Unit Price Comparison Of{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Products'
+    title = f'Top 10{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Products '
     sorting = {
-        'ratio_mini_lt_full':'Mini Size Products<br>By Unit Price Ratio',
-        'ratio_full_lt_mini':'Standard Size Products<br>By Unit Price Ratio',
-        'unit_price_mini':'Best Value<br>Mini Products',
-        'unit_price_full':'Best Value<br>Standard Products'
+        'ratio_mini_lt_full':'Sorted By<br>Mini To Standard Size Unit Price Ratio',
+        'ratio_full_lt_mini':'Sorted By<br>Standard to Mini Size Unit Price Ratio',
+        'unit_price_mini':'Sorted By<br>Mini Unit Price',
+        'unit_price_full':'Sorted By<br>Standard Unit Price'
     }
     if category_val:
         df_filtered = df_filtered[df_filtered['lvl_0_cat']==category_val]
@@ -708,8 +709,9 @@ def update_unit_price_slope_plot(sort_val, category_val, brand_val, min_price_dr
     if max_price_dropdown:
         df_filtered = df_filtered[df_filtered['price']<max_price_dropdown]
 
-    legend_title = f'Top 10 {sorting[sort_val]}'
-    return unit_price_slope_plot(get_unit_price_comparison_data(df_filtered, sort_val), title, legend_title=legend_title)
+
+    title = title + sorting[sort_val]
+    return unit_price_slope_plot(get_unit_price_comparison_data(df_filtered, sort_val), title, legend_title="Products")
 
 
 @callback(
