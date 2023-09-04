@@ -25,7 +25,7 @@ SIDEBAR_STYLE = {
 
 ####### DATA 
 # product data, aggregated to single row per product - need to move this to separate file or use plotly data store  
-df = pd.read_csv('../data/agg_prod_data.csv')
+df = pd.read_csv('/home/leblanchannah/value-cluster/data/agg_prod_data.csv')
 # volume errors
 df = df[~df['index'].isin([4879, 3506, 6904, 6286, 4186, 6286, 5649, 2000, 5641, 6282, 6268])]
 
@@ -779,4 +779,4 @@ def update_product_details(scatter_click_value, slope_click_value, product_value
 
 # Run the app
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
