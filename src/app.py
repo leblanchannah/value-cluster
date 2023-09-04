@@ -6,7 +6,11 @@ import plotly.express as px
 font_sizes = {
     'legend_title':12,
     'legend_item':10,
-    'plot_title':16
+    'plot_title':16,
+    'axis_label':10,
+    'h1_title':26,
+    'sidebar_text':14
+
 }
 # plot title size
 # plot axis label size 
@@ -34,19 +38,14 @@ app = Dash(
 
 ############# FIGURES ############# 
 
-sidebar_text = html.P([
-        html.Br(),
-        html.A("GitHub Repo", href="https://github.com/leblanchannah/value-cluster", style={'color':'#E84BB1'}),
-        html.Br(),
-        """
-            This dashboard is inspired by the "Sephora Minis Math" TikTok by
-        """,
-        html.A("@michaelamakeup02's", href="https://www.tiktok.com/@michaelamakeup92/video/7237211338618047787", style={'color':'#E84BB1'}),
-        # """
-        #     Last data update, 22/08/2023
-        # """
-], style={'font-size':14})
+github_link = html.A("GitHub Repo", href="https://github.com/leblanchannah/value-cluster", style={'color':'#E84BB1'})
 
+credit_link = html.P([
+    'This dashboard is inspired by the "Sephora Minis Math" TikTok by',
+    html.A("@michaelamakeup02's", href="https://www.tiktok.com/@michaelamakeup92/video/7237211338618047787", style={'color':'#E84BB1'}),
+])
+
+data_update =  html.P(["Data last updated on 22/08/2023."], style={'font-size':14})
 
 # select single product
 product_options = [{'label':x.product_name+' '+x.brand_name+' '+x.swatch_group,'value':x.index} for x in df[['product_name','brand_name','index','swatch_group']].itertuples()]
@@ -84,36 +83,46 @@ product_category_l0_global = dcc.Dropdown(
                                 id='category_l0_dropdown',
                             )
 
-
-def price_min_max_filter(df, price_col):
+def min_price_filter():
     '''
     '''
-    max_price = int(df[price_col].max())
-    return html.Div(
-        children = [
-                dcc.Dropdown(
+    return dcc.Dropdown(
                     options = [{'label':f'$ {x:.2f}', 'value':x} for x in range(0, 200, 10)],
                     placeholder='Minimum',
                     searchable=False,
                     clearable=True,
                     id='min_price_dropdown',
                     style={'width':'100%'}
-                ),
-            # need more space here
-                html.Br(),
+                )
 
-                dcc.Dropdown(
+def max_price_filter(df, price_col):
+    '''
+    '''
+    max_price = int(df[price_col].max())
+    return dcc.Dropdown(
                     options = [{'label': f'$ {x:.2f}', 'value': x} for x in range(1500, 0, -100)],
                     placeholder='Maximum',
                     searchable=False,
                     clearable=True,
                     id='max_price_dropdown',
-                    style={'width': '100%'}
-                )
-        ],
-        id='price_filters', 
-        style={"display": "flex", "flexWrap": "wrap"}
-    )
+                    style={'width': '100%'})
+
+# def price_min_max_filter(df, price_col):
+#     '''
+#     '''
+   
+#     return html.Div(
+#         children = [
+                
+#             # need more space here
+#                 html.Br(),
+
+                
+#                 )
+#         ],
+#         id='price_filters', 
+#         style={"display": "flex", "flexWrap": "wrap"}
+#     )
 
 
 def single_product_info_box(df, data):
@@ -184,6 +193,9 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distr
         xaxis=dict(
             autorange=True
         ),
+        font=dict(
+            size=font_sizes['plot_title']
+        ),
         autosize=True,
         legend=dict(
             yanchor='top',
@@ -240,6 +252,9 @@ def product_unit_price_v_size_scatter(df, title='Explore Products By Size And Pr
             xanchor='right',
             title_font_size=font_sizes['legend_title'],
             font_size=font_sizes['legend_item'],
+        ),
+        font=dict(
+            size=font_sizes['plot_title']
         ),
         margin=dict(l=50, r=20, t=50, b=50)
     )
@@ -304,6 +319,9 @@ def unit_price_slope_plot(df, title="Unit Price Comparison Of Products", legend_
             title_font_size=font_sizes['legend_title'],
             font_size=font_sizes['legend_item'],
             yanchor='top'
+        ),
+        font=dict(
+            size=font_sizes['plot_title']
         ),
         hoverlabel = dict(
         # option to change text in hoverlabel
@@ -371,34 +389,100 @@ app.layout = dbc.Container([
         dbc.Row([
             # side panel col, with title, description etc 
             dbc.Col([
-                html.H1(["Sephora Value Canvas"], style={'color':'#643A71','font-size':28, 'text-align':'center'}),
-                html.P([
-                    '''
-                        The unit prices of products at Sephora are not readily available without web scraping. 
-                        This tool facilitates a comparison between products available in both mini and full sizes by analyzing their unit price ratios.
-                    '''], style={'font-size':14}),
-                dcc.Markdown('$$\\small{ValueR=}\\normalsize{\\frac{MiniUnitPrice}{StandardUnitPrice}}$$', mathjax=True, style={'width':'%80'}),
-                html.P([
-                    '''
-                    A product pair ratio value of 4 means the mini size is 4x more expensive per ounce than the standard size.
-                    '''
-                ], style={'font-size':14}),
-                html.H5(["Sort By:"], style={'color':'#643A71', 'font-size':18}),
-                sorting_dropdown,
-                html.Br(),
-                html.H5(["Filter:"], style={'color':'#643A71', 'font-size':18}),
-                html.B("Product Category", style={'color':'#643A71', 'font-size':16}),
-                product_category_l0_global,
-                html.B("Brand", style={'color':'#643A71', 'font-size':16}),
-                brand_filter_global,
-                html.B("Product Price", style={'color':'#643A71','font-size':16}),
-                price_min_max_filter(df, 'price'),
-                sidebar_text,
-                html.P(['''
-                Data last updated on 22/08/2023.
-                '''], style={'font-size':14})
-
-            ], width=2, style=SIDEBAR_STYLE),
+                dbc.Row([
+                    dbc.Col([
+                        html.H1([
+                            "Sephora Value Canvas"
+                            ],
+                            style={
+                                'color':'#643A71',
+                                'font-size':font_sizes['h1_title'],
+                                'text-align':'center'
+                            }),
+                    ], width=12)
+                ], id='app_title'),
+                dbc.Row([
+                    dbc.Col([
+                        html.P([
+                            '''
+                            The unit prices of products at Sephora are not readily available without web scraping. 
+                            This tool facilitates a comparison between products available in both mini and full sizes by analyzing their unit price ratios.
+                            '''],
+                            style={'font-size':font_sizes['sidebar_text']}
+                            ),
+                            dcc.Markdown(
+                                '$$\\small{ValueR=}\\normalsize{\\frac{MiniUnitPrice}{StandardUnitPrice}}$$',
+                                mathjax=True,
+                                style={'width':'%80'}
+                            ),
+                            html.P([
+                                '''
+                                A product pair ratio value of 4 means the mini size is 4x more expensive per ounce than the standard size.
+                                '''],
+                                style={'font-size':font_sizes['sidebar_text']}
+                            ),
+                    ], width=12)
+                ], id='abstract'),
+                dbc.Row([
+                    dbc.Col([
+                        html.Label("Sort:", style={'color':'#643A71'}),
+                    ], width=4),
+                    dbc.Col([
+                        sorting_dropdown
+                    ], width=8)
+                ],
+                align='center',
+                style={'margin_bottom':'5px'},
+                id='sorting_section'),
+                dbc.Row([
+                    dbc.Col([
+                        
+                    ], width=12)
+                ], id='filter_title'),
+                dbc.Row([
+                    dbc.Col([
+                        html.Label("Category:", style={'color':'#643A71'}),
+                    ], width=4),
+                    dbc.Col([
+                        product_category_l0_global
+                    ], width=8)
+                ],
+                align='center',
+                style={'margin_bottom':'5px'},
+                id="product_category_filter"),
+                dbc.Row([
+                    dbc.Col([
+                        html.Label("Brand:", style={'color':'#643A71'}),
+                    ], width=4),
+                    dbc.Col([
+                        brand_filter_global
+                    ], width=8),
+                ], 
+                align='center',
+                style={'margin_bottom':'5px'},
+                id='brand_filter'),
+                dbc.Row([
+                    dbc.Col([
+                        html.Label("Price:", style={'color':'#643A71'}),
+                    ], width=4),
+                    dbc.Col([
+                        min_price_filter()
+                    ], width=4),
+                    dbc.Col([
+                        max_price_filter(df, 'price')
+                    ], width=4)
+                ],
+                align='center',
+                style={'margin_bottom':'5px'},
+                id='price_filters'),
+                dbc.Row([
+                    dbc.Col([
+                        credit_link,
+                        github_link,
+                        data_update
+                    ])
+                ], id='footnotes')
+            ], width=2) style=SIDEBAR_STYLE),
             # data viz col
             dbc.Col([
                 dbc.Row([
@@ -458,7 +542,7 @@ app.layout = dbc.Container([
                                     style={'height': '100%'})
                             ], width=4),
                             dbc.Col([
-                                html.H5(["Product Recommendations"]),
+                                html.H5(["Product Recommendations"]),#, style={'fontsize':font_sizes['plot_title']}),
                                 dash_table.DataTable(
                                     id='cheaper_product_table',
                                     data=df.sort_values(by='unit_price', ascending=True)[['brand_name','product_name','unit_price','rating']].to_dict("records"),
