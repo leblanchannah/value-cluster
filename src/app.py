@@ -112,8 +112,8 @@ data_update =  html.P(["Data last updated on 22/08/2023."])
 product_options = [{'label':x.product_name+' '+x.brand_name+' '+x.swatch_group,'value':x.index} for x in df[['product_name','brand_name','index','swatch_group']].itertuples()]
 product_dropdown = dcc.Dropdown(
                         options=product_options,
-                        placeholder='Translucent Loose Setting Powder Laura Mercier standard size',
-                        value=16,
+                        placeholder='Dior Forever Loose Cushion Powder',
+                        value=4168,
                         id='product_dropdown',
                         optionHeight=70,
                     )
@@ -378,9 +378,9 @@ def unit_price_slope_plot(df, title="Unit Price Comparison Of Products", legend_
                 hover_data={
                     "brand_name":True,
                     "product_name":True,
-                    "amount_adj_mini":True,
-                    "amount_adj_standard":True,
-                    "mini_to_standard_ratio":True,
+                    "amount_adj_mini":':.2f',
+                    "amount_adj_standard":':.2f',
+                    "mini_to_standard_ratio":':.2f',
                     "prod_rank":False,
                     "index":True
                 },
@@ -763,7 +763,7 @@ def update_product_details(scatter_click_value, slope_click_value, product_value
         # index must always be last item in custom_data, regardless of what plot it came from 
             product_row_id = click_data['value']['points'][0]['customdata'][-1]
     else:
-        product_row_id = 2843
+        product_row_id = 4168
     data = get_single_product_data(df, product_row_id)
 
     df_filtered_hist = df[df['lvl_2_cat']==data['lvl_2_cat']]
