@@ -148,7 +148,7 @@ def single_product_info_box(df, data):
         html.Br(),
         f"Size: {data['amount_adj']} {data['unit_a']}", 
         html.Br(),
-        f"Found {num_cheaper_products} products at Sephora in {data['lvl_2_cat'].lower()} category with unit price < ${data['unit_price']:.2f} /{data['unit_a']}."
+        f"🚨 Found {num_cheaper_products} products at Sephora in {data['lvl_2_cat'].lower()} category with unit price < ${data['unit_price']:.2f} /{data['unit_a']}."
     ]
 
 
@@ -460,7 +460,7 @@ app.layout = dbc.Container([
                                 html.P([
                                     '''
                                     Interpretation: A unit price ratio value of 4 means the mini size is 4x more expensive per ounce than its standard size counterpart.
-                                    
+
                                     '''],
                                     style={'font-size':font_sizes['sidebar_text']}
                                 ),
