@@ -3,6 +3,10 @@ import dash_bootstrap_components as dbc
 import pandas as pd
 import plotly.express as px
 
+
+# styling elements - need to move these to separate CSS eventually. 
+PLOT_TEMPLATE_THEME = 'simple_white'
+MARKER_COLOURS = ["#ff001a","#6e098d","#8b5fbf","#2b1930","#d183c9","#FFBEE5","#e84bb1","#8e0827","#8d46a3","#c61083"]
 font_sizes = {
     'legend_title':12,
     'legend_item':10,
@@ -10,23 +14,16 @@ font_sizes = {
     'axis_label':10,
     'h1_title':26,
     'sidebar_text':14
-
 }
-# plot title size
-# plot axis label size 
 
-app = Dash(__name__)
-
-PLOT_TEMPLATE_THEME = 'simple_white'
-
-MARKER_COLOURS = ["#ff001a","#6e098d","#8b5fbf","#2b1930","#d183c9","#FFBEE5","#e84bb1","#8e0827","#8d46a3","#c61083"]
-
-# product data, aggregated to single row per product  
+# product data, aggregated to single row per product - need to move this to separate file or use plotly data store  
 df = pd.read_csv('../data/agg_prod_data.csv')
 # volume errors
 df = df[~df['index'].isin([4879, 3506, 6904, 6286, 4186, 6286, 5649, 2000, 5641, 6282, 6268])]
 
 # Initialize the Dash app
+app = Dash(__name__)
+
 app = Dash(
     __name__,
     external_stylesheets=[dbc.themes.FLATLY],
@@ -35,27 +32,7 @@ app = Dash(
     meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
 )
 
-
-############# FIGURES ############# 
-
-github_link = html.A("GitHub Repo", href="https://github.com/leblanchannah/value-cluster", style={'color':'#E84BB1'})
-
-credit_link = html.P([
-    'This dashboard is inspired by the "Sephora Minis Math" TikTok by',
-    html.A("@michaelamakeup02's", href="https://www.tiktok.com/@michaelamakeup92/video/7237211338618047787", style={'color':'#E84BB1'}),
-])
-
-data_update =  html.P(["Data last updated on 22/08/2023."], style={'font-size':14})
-
-# select single product
-product_options = [{'label':x.product_name+' '+x.brand_name+' '+x.swatch_group,'value':x.index} for x in df[['product_name','brand_name','index','swatch_group']].itertuples()]
-product_dropdown = dcc.Dropdown(
-                        options=product_options,
-                        placeholder='Translucent Loose Setting Powder Laura Mercier standard size',
-                        value=16,
-                        id='product_dropdown',
-                        optionHeight=55,
-                    )
+# Sidebar elements 
 
 # Drop down used to sort slope plot
 sorting_dropdown = dcc.Dropdown(
@@ -70,23 +47,23 @@ sorting_dropdown = dcc.Dropdown(
                         optionHeight=55,
                     )
 
+
 # Drop down used to filter both slope and scatter plots by brand
 brand_filter_global = dcc.Dropdown(
-                        options = [x for x in df.brand_name.unique()],
-                        id='brand_dropdown',
+                            options = [x for x in df.brand_name.unique()],
+                            id='brand_dropdown'
                     )
+
 
 # Drop down used to filter both slope and scatter plots by product category
 product_category_l0_global = dcc.Dropdown(
-                                options = [x for x in df.lvl_0_cat.unique() if x!=' ' and x!='Mini Size' and x!='Men'],
-                                value='Makeup',
-                                id='category_l0_dropdown',
+                                    options = [x for x in df.lvl_0_cat.unique() if x!=' ' and x!='Mini Size' and x!='Men'],
+                                    value='Makeup',
+                                    id='category_l0_dropdown',
                             )
 
-def min_price_filter():
-    '''
-    '''
-    return dcc.Dropdown(
+
+min_price_filter = dcc.Dropdown(
                     options = [{'label':f'$ {x:.2f}', 'value':x} for x in range(0, 200, 10)],
                     placeholder='Minimum',
                     searchable=False,
@@ -95,8 +72,10 @@ def min_price_filter():
                     style={'width':'100%'}
                 )
 
+
 def max_price_filter(df, price_col):
     '''
+        dynamic max price dropdown filter uses maximum product price in the dataset 
     '''
     max_price = int(df[price_col].max())
     return dcc.Dropdown(
@@ -107,22 +86,28 @@ def max_price_filter(df, price_col):
                     id='max_price_dropdown',
                     style={'width': '100%'})
 
-# def price_min_max_filter(df, price_col):
-#     '''
-#     '''
-   
-#     return html.Div(
-#         children = [
-                
-#             # need more space here
-#                 html.Br(),
 
-                
-#                 )
-#         ],
-#         id='price_filters', 
-#         style={"display": "flex", "flexWrap": "wrap"}
-#     )
+github_link = html.A("GitHub Repo", href="https://github.com/leblanchannah/value-cluster", style={'color':'#E84BB1'})
+
+
+credit_link = html.P([
+    'This dashboard is inspired by the "Sephora Minis Math" TikTok by',
+    html.A("@michaelamakeup02's", href="https://www.tiktok.com/@michaelamakeup92/video/7237211338618047787", style={'color':'#E84BB1'}),
+])
+
+
+data_update =  html.P(["Data last updated on 22/08/2023."], style={'font-size':14})
+
+
+# select single product - used in selected product section 
+product_options = [{'label':x.product_name+' '+x.brand_name+' '+x.swatch_group,'value':x.index} for x in df[['product_name','brand_name','index','swatch_group']].itertuples()]
+product_dropdown = dcc.Dropdown(
+                        options=product_options,
+                        placeholder='Translucent Loose Setting Powder Laura Mercier standard size',
+                        value=16,
+                        id='product_dropdown',
+                        optionHeight=55,
+                    )
 
 
 def single_product_info_box(df, data):
@@ -146,7 +131,7 @@ def single_product_info_box(df, data):
     l2_type = (df['lvl_2_cat']==data['lvl_2_cat']) 
     num_cheaper_products = df[unit_price & l2_type].shape[0]
     return [
-        html.H5(['Details']),#,style={'color':'#643A71'}),
+        html.H5(['Details']),
         f"Product: {data['product_name']}, {data['swatch_group']}",
         html.Br(),
         f"Brand: {data['brand_name']}",
@@ -448,7 +433,7 @@ app.layout = dbc.Container([
                     ], width=8)
                 ],
                 align='center',
-                style={'margin_bottom':'5px'},
+                style={'paddingTop':'1rem'},
                 id="product_category_filter"),
                 dbc.Row([
                     dbc.Col([
@@ -459,30 +444,31 @@ app.layout = dbc.Container([
                     ], width=8),
                 ], 
                 align='center',
-                style={'margin_bottom':'5px'},
+                style={'paddingTop':'1rem'},
                 id='brand_filter'),
                 dbc.Row([
                     dbc.Col([
                         html.Label("Price:", style={'color':'#643A71'}),
                     ], width=4),
                     dbc.Col([
-                        min_price_filter()
+                        min_price_filter
                     ], width=4),
                     dbc.Col([
                         max_price_filter(df, 'price')
                     ], width=4)
                 ],
                 align='center',
-                style={'margin_bottom':'5px'},
+                style={'paddingTop':'1rem'},
                 id='price_filters'),
                 dbc.Row([
                     dbc.Col([
+                        html.Br(),
                         credit_link,
                         github_link,
                         data_update
                     ])
                 ], id='footnotes')
-            ], width=2) style=SIDEBAR_STYLE),
+            ], width=2, style=SIDEBAR_STYLE),
             # data viz col
             dbc.Col([
                 dbc.Row([
