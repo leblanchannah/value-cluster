@@ -35,6 +35,7 @@ app = Dash(__name__)
 
 app = Dash(
     __name__,
+    external_stylesheets=[dbc.themes.BOOTSTRAP],
     title='Sephora Product Analysis',
     suppress_callback_exceptions=True,
     meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
@@ -222,7 +223,8 @@ def get_unit_price_comparison_data(df, sorting_value='ratio_mini_lt_full'):
     df_compare = df_compare.merge(df, 
                     on=['product_id','brand_name','product_name'],
                     how='left')
-    df_compare['display_name'] = df_compare['brand_name']+",<br>"+df_compare['lvl_2_cat']
+    df_compare['pretty_ratio'] = df_compare['mini_to_standard_ratio'].round(2).astype(str)
+    df_compare['display_name'] = df_compare['brand_name']+",<br>"+df_compare['lvl_2_cat']+" ("+df_compare['pretty_ratio']+")"
     return df_compare
 
 
@@ -353,7 +355,7 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distr
     return fig
 
 
-def unit_price_slope_plot(df, title="Unit Price Comparison Of Products", legend_title='Products'):
+def unit_price_slope_plot(df, title="Unit Price Comparison Of Products", legend_title='Product, Unit Price Ratio'):
     '''
     Compares unit price of standard-mini product pairs in dataset
     This plot data and title are updated by callbacks from sorting, category, brand and price dropdowns 
@@ -446,7 +448,7 @@ app.layout = dbc.Container([
                             html.P([
                                 '''
                                 The unit prices of products at Sephora are not readily available without web scraping. 
-                                This tool facilitates a comparison between products available in both mini and full sizes by analyzing their unit price ratios.
+                                This tool facilitates a comparison between products available in both mini and standard sizes by analyzing their unit price ratios.
                                 '''],
                                 style={'font-size':font_sizes['sidebar_text']}
                                 ),
@@ -457,7 +459,8 @@ app.layout = dbc.Container([
                                 ),
                                 html.P([
                                     '''
-                                    A product pair ratio value of 4 means the mini size is 4x more expensive per ounce than the standard size.
+                                    Interpretation: A unit price ratio value of 4 means the mini size is 4x more expensive per ounce than its standard size counterpart.
+                                    
                                     '''],
                                     style={'font-size':font_sizes['sidebar_text']}
                                 ),
@@ -706,10 +709,10 @@ def update_unit_price_slope_plot(sort_val, category_val, brand_val, min_price_dr
     df_filtered = df.copy()
     title = f'Top 10{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Products '
     sorting = {
-        'ratio_mini_lt_full':'Sorted By<br>Mini To Standard Size Unit Price Ratio',
-        'ratio_full_lt_mini':'Sorted By<br>Standard to Mini Size Unit Price Ratio',
-        'unit_price_mini':'Sorted By<br>Mini Unit Price',
-        'unit_price_full':'Sorted By<br>Standard Unit Price'
+        'ratio_mini_lt_full':'Sorted By<br>Increasing Unit Price Ratio',
+        'ratio_full_lt_mini':'Sorted By<br>Decreasing Unit Price Ratio ',
+        'unit_price_mini':'Sorted By<br>Increasing Mini Unit Price',
+        'unit_price_full':'Sorted By<br>Descreasing Standard Unit Price'
     }
     if category_val:
         df_filtered = df_filtered[df_filtered['lvl_0_cat']==category_val]
@@ -722,7 +725,7 @@ def update_unit_price_slope_plot(sort_val, category_val, brand_val, min_price_dr
 
 
     title = title + sorting[sort_val]
-    return unit_price_slope_plot(get_unit_price_comparison_data(df_filtered, sort_val), title, legend_title="Products")
+    return unit_price_slope_plot(get_unit_price_comparison_data(df_filtered, sort_val), title, legend_title="Product, Unit Price Ratio")
 
 
 @callback(
