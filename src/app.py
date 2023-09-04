@@ -447,8 +447,7 @@ app.layout = dbc.Container([
                         dbc.Col([
                             html.P([
                                 '''
-                                The unit prices of products at Sephora are not readily available without web scraping. 
-                                This tool facilitates a comparison between products available in both mini and standard sizes by analyzing their unit price ratios.
+                                This tool facilitates a comparison between products available in both mini and standard sizes by analyzing their unit price ratios using data scraped from Sephora's website.
                                 '''],
                                 style={'font-size':font_sizes['sidebar_text']}
                                 ),
