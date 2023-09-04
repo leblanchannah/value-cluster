@@ -16,6 +16,13 @@ font_sizes = {
     'sidebar_text':14
 }
 
+SIDEBAR_STYLE = {
+    "top": 0,
+    "left": 0,
+    "bottom": 0,
+    "background-color": "#F8E1F2"
+}
+
 ####### DATA 
 # product data, aggregated to single row per product - need to move this to separate file or use plotly data store  
 df = pd.read_csv('../data/agg_prod_data.csv')
@@ -28,7 +35,6 @@ app = Dash(__name__)
 
 app = Dash(
     __name__,
-    external_stylesheets=[dbc.themes.FLATLY],
     title='Sephora Product Analysis',
     suppress_callback_exceptions=True,
     meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
@@ -89,16 +95,16 @@ def max_price_filter(df, price_col):
                     style={'width': '100%'})
 
 
-github_link = html.A("GitHub Repo", href="https://github.com/leblanchannah/value-cluster", style={'color':'#E84BB1'})
+github_link = html.A("GitHub Repo", href="https://github.com/leblanchannah/value-cluster", style={'color':'#D13CAA'})
 
 
 credit_link = html.P([
     'This dashboard is inspired by the "Sephora Minis Math" TikTok by ',
-    html.A("@michaelamakeup92", href="https://www.tiktok.com/@michaelamakeup92/video/7237211338618047787", style={'color':'#E84BB1'}),
+    html.A("@michaelamakeup92", href="https://www.tiktok.com/@michaelamakeup92/video/7237211338618047787", style={'color':'#D13CAA'}),
 ])
 
 
-data_update =  html.P(["Data last updated on 22/08/2023."], style={'font-size':14})
+data_update =  html.P(["Data last updated on 22/08/2023."])
 
 
 # select single product - used in selected product section 
@@ -414,13 +420,6 @@ def unit_price_slope_plot(df, title="Unit Price Comparison Of Products", legend_
     fig.update_traces(line=dict(width=5), marker=dict(size=10))
     return fig 
 
-
-SIDEBAR_STYLE = {
-    "top": 0,
-    "left": 0,
-    "bottom": 0,
-    "background-color": "#fcf5fc"
-}
 ###### App 
 app.layout = dbc.Container([
         dbc.Row([
@@ -432,7 +431,7 @@ app.layout = dbc.Container([
                         dbc.Col([
                             html.H1("Sephora Value Canvas",
                                 style={
-                                    'color':'#643A71',
+                                    'color':'#B1298D',
                                     'font-size':font_sizes['h1_title'],
                                     'text-align':'center'
                                 }),
@@ -534,7 +533,7 @@ app.layout = dbc.Container([
                             credit_link,
                             github_link,
                             data_update
-                        ])
+                        ], style={'font-size':font_sizes['sidebar_text']})
                     ]
                 )
             ], width=2, style=SIDEBAR_STYLE),
@@ -553,7 +552,8 @@ app.layout = dbc.Container([
                                 },
                                 style = {
                                     'height': '100%',
-                                    'width': '95%'
+                                    'width': '100%',
+                                    # "border":"1px black solid"
                                 }
                             )
                         ], width=6),
@@ -563,7 +563,7 @@ app.layout = dbc.Container([
                                 figure=product_unit_price_v_size_scatter(df),
                                 style = {
                                     'height': '100%',
-                                    'width': '95%'
+                                    'width': '100%'
                                 }
                             )
                         ], width=6),
@@ -578,7 +578,7 @@ app.layout = dbc.Container([
                     dbc.Col([
                         dbc.Row([
                             dbc.Col([
-                                html.H4(['Selected Product'],style={'color':'#643A71'}),
+                                html.H4(['Selected Product'],style={'color':'#B1298D', 'font-size':'20px'}),
                                 html.Div(
                                     product_dropdown,
                                     style={'width':'90%'}
@@ -621,11 +621,11 @@ app.layout = dbc.Container([
                                         'fontSize':12,
                                         'overflow': 'hidden',
                                         'textOverflow': 'ellipsis',
-                                        'backgroundColor':'#f8f9fa',
+                                        'backgroundColor':'white',
                                         'lineColor':'black'
                                     },
                                     style_header={
-                                        'backgroundColor': 'lavender',
+                                        'backgroundColor': '#F8E1F2',
                                         'fontWeight': 'bold'
                                     },
                                     style_data={
@@ -641,8 +641,8 @@ app.layout = dbc.Container([
                     ],width=12)
                 ], style={
                     'margin-top':'1%',
-                    'margin-left':'2%',
-                    'margin-right':'2%',
+                    'margin-left':'1%',
+                    'margin-right':'1%',
                     'background-color':'white'
                     })
             ], width=10, style={'background-color':'white'}),
