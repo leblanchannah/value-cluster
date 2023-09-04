@@ -10,8 +10,8 @@ MARKER_COLOURS = ["#ff001a","#6e098d","#8b5fbf","#2b1930","#d183c9","#FFBEE5","#
 font_sizes = {
     'legend_title':12,
     'legend_item':10,
-    'plot_title':16,
-    'axis_label':10,
+    'plot_title':18,
+    'axis_label':14,
     'h1_title':26,
     'sidebar_text':14
 }
@@ -132,7 +132,7 @@ def single_product_info_box(df, data):
     l2_type = (df['lvl_2_cat']==data['lvl_2_cat']) 
     num_cheaper_products = df[unit_price & l2_type].shape[0]
     return [
-        html.H5(['Details']),
+        html.H5(['Details'], style={'font-size':font_sizes['plot_title']}),
         f"Product: {data['product_name']}, {data['swatch_group']}",
         html.Br(),
         f"Brand: {data['brand_name']}",
@@ -244,6 +244,7 @@ def product_unit_price_v_size_scatter(df, title='Explore Products By Size And Pr
                     hover_data=['brand_name', 'product_name', 'index'],
                     labels={'amount_adj': "Product Size (oz.)",  'price': "Price ($)", "swatch_group": "Product Size"}
     )
+
     fig.update_layout(
         autosize=True,
         legend=dict(
@@ -252,11 +253,12 @@ def product_unit_price_v_size_scatter(df, title='Explore Products By Size And Pr
             title_font_size=font_sizes['legend_title'],
             font_size=font_sizes['legend_item'],
         ),
-        font=dict(
-            size=font_sizes['plot_title']
-        ),
-        margin=dict(l=50, r=20, t=50, b=50)
+        margin=dict(l=50, r=20, t=50, b=50),
+        title_font_size=font_sizes['plot_title']
     )
+
+    fig.update_xaxes(title_font_size=font_sizes['axis_label'])
+    fig.update_yaxes(title_font_size=font_sizes['axis_label'])
 
     legend_item_names = {
         'standard size':'Standard',
@@ -306,6 +308,7 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distr
             title=title,
             labels={'unit_price': "Unit Price ($/oz.)", "value":""}
         )
+    
     fig.update_layout(
         margin=dict(l=50, r=50, t=50, b=0, pad=0),
         yaxis=dict(
@@ -315,9 +318,7 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distr
         xaxis=dict(
             autorange=True
         ),
-        font=dict(
-            size=font_sizes['plot_title']
-        ),
+        title_font_size=font_sizes['plot_title'],
         autosize=True,
         legend=dict(
             yanchor='top',
@@ -326,6 +327,10 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distr
             font_size=font_sizes['legend_item'],
         )
     )
+
+    fig.update_xaxes(title_font_size=font_sizes['axis_label'])
+    fig.update_yaxes(title_font_size=font_sizes['axis_label'])
+
     # need to use update traces to change plotly legend item names 
     fig.update_traces(
         showlegend=True
@@ -373,6 +378,7 @@ def unit_price_slope_plot(df, title="Unit Price Comparison Of Products", legend_
                 },
                 markers=True
     )
+
     fig.update_layout(
         margin=dict(l=50, r=20, t=50, b=50),
         autosize=True,
@@ -394,12 +400,14 @@ def unit_price_slope_plot(df, title="Unit Price Comparison Of Products", legend_
             font_size=font_sizes['legend_item'],
             yanchor='top'
         ),
-        font=dict(
-            size=font_sizes['plot_title']
-        ),
+        title_font_size=font_sizes['plot_title'],
         hoverlabel = dict(
         )
     )
+
+    fig.update_xaxes(title_font_size=font_sizes['axis_label'])
+    fig.update_yaxes(title_font_size=font_sizes['axis_label'])
+
     # map line index to brand+category label
     legend_name_map = {row['prod_rank']:row['display_name'] for index, row in df.iterrows()}
     fig.for_each_trace(lambda t: t.update(name = legend_name_map[int(t.name)]))
@@ -548,7 +556,7 @@ app.layout = dbc.Container([
                                     'width': '95%'
                                 }
                             )
-                        ], width=7),
+                        ], width=6),
                         dbc.Col([
                             dcc.Graph(
                                 id='scatter_products',
@@ -558,7 +566,7 @@ app.layout = dbc.Container([
                                     'width': '95%'
                                 }
                             )
-                        ], width=5),
+                        ], width=6),
                     ],
                     style={
                         'paddingTop':'1%',
@@ -592,7 +600,11 @@ app.layout = dbc.Container([
                                     style={'height': '100%'})
                             ], width=4),
                             dbc.Col([
-                                html.H5(["Product Recommendations"]),
+                                html.H5(
+                                    children=["Product Recommendations"],
+                                    style={
+                                        'font-size':font_sizes['plot_title']
+                                    }),
                                 dash_table.DataTable(
                                     id='cheaper_product_table',
                                     data=df.sort_values(by='unit_price', ascending=True)[['brand_name','product_name','unit_price','rating']].to_dict("records"),
