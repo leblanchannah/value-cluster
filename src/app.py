@@ -419,100 +419,117 @@ app.layout = dbc.Container([
         dbc.Row([
             # side panel col, with title, description etc 
             dbc.Col([
-                dbc.Row([
-                    dbc.Col([
-                        html.H1([
-                            "Sephora Value Canvas"
-                            ],
-                            style={
-                                'color':'#643A71',
-                                'font-size':font_sizes['h1_title'],
-                                'text-align':'center'
-                            }),
-                    ], width=12)
-                ], id='app_title'),
-                dbc.Row([
-                    dbc.Col([
-                        html.P([
-                            '''
-                            The unit prices of products at Sephora are not readily available without web scraping. 
-                            This tool facilitates a comparison between products available in both mini and full sizes by analyzing their unit price ratios.
-                            '''],
-                            style={'font-size':font_sizes['sidebar_text']}
-                            ),
-                            dcc.Markdown(
-                                '$$\\small{ValueR=}\\normalsize{\\frac{MiniUnitPrice}{StandardUnitPrice}}$$',
-                                mathjax=True,
-                                style={'width':'%80'}
-                            ),
+                dbc.Row(
+                    id='app_title',
+                    children=[
+                        dbc.Col([
+                            html.H1("Sephora Value Canvas",
+                                style={
+                                    'color':'#643A71',
+                                    'font-size':font_sizes['h1_title'],
+                                    'text-align':'center'
+                                }),
+                        ], width=12)
+                    ]
+                ),
+                dbc.Row(
+                    id='abstract',
+                    children=[
+                        dbc.Col([
                             html.P([
                                 '''
-                                A product pair ratio value of 4 means the mini size is 4x more expensive per ounce than the standard size.
+                                The unit prices of products at Sephora are not readily available without web scraping. 
+                                This tool facilitates a comparison between products available in both mini and full sizes by analyzing their unit price ratios.
                                 '''],
                                 style={'font-size':font_sizes['sidebar_text']}
-                            ),
-                    ], width=12)
-                ], id='abstract'),
-                dbc.Row([
-                    dbc.Col([
-                        html.Label("Sort:", style={'color':'#643A71'}),
-                    ], width=4),
-                    dbc.Col([
-                        sorting_dropdown
-                    ], width=8)
-                ],
-                align='center',
-                style={'margin_bottom':'5px'},
-                id='sorting_section'),
-                dbc.Row([
-                    dbc.Col([
-                        
-                    ], width=12)
-                ], id='filter_title'),
-                dbc.Row([
-                    dbc.Col([
-                        html.Label("Category:", style={'color':'#643A71'}),
-                    ], width=4),
-                    dbc.Col([
-                        product_category_l0_global
-                    ], width=8)
-                ],
-                align='center',
-                style={'paddingTop':'1rem'},
-                id="product_category_filter"),
-                dbc.Row([
-                    dbc.Col([
-                        html.Label("Brand:", style={'color':'#643A71'}),
-                    ], width=4),
-                    dbc.Col([
-                        brand_filter_global
-                    ], width=8),
-                ], 
-                align='center',
-                style={'paddingTop':'1rem'},
-                id='brand_filter'),
-                dbc.Row([
-                    dbc.Col([
-                        html.Label("Price:", style={'color':'#643A71'}),
-                    ], width=4),
-                    dbc.Col([
-                        min_price_filter
-                    ], width=4),
-                    dbc.Col([
-                        max_price_filter(df, 'price')
-                    ], width=4)
-                ],
+                                ),
+                                dcc.Markdown(
+                                    '$$\\small{ValueR=}\\normalsize{\\frac{MiniUnitPrice}{StandardUnitPrice}}$$',
+                                    mathjax=True,
+                                    style={'width':'%80'}
+                                ),
+                                html.P([
+                                    '''
+                                    A product pair ratio value of 4 means the mini size is 4x more expensive per ounce than the standard size.
+                                    '''],
+                                    style={'font-size':font_sizes['sidebar_text']}
+                                ),
+                        ], width=12)
+                    ]
+                ),
+                dbc.Row(
+                    id='sorting_section',
+                    children=[
+                        dbc.Col([
+                            html.Label("Sort:", style={'color':'#643A71'}),
+                        ], width=4),
+                        dbc.Col([
+                            sorting_dropdown
+                        ], width=8)
+                    ],
+                    align='center',
+                    style={'margin_bottom':'5px'},
+                ),
+                dbc.Row(
+                    id='filter_title',
+                    children=[
+                        dbc.Col([     
+                        ], width=12)
+                    ]
+                ),
+                dbc.Row(
+                    id="product_category_filter",
+                    children=[
+                        dbc.Col([
+                            html.Label("Category:", style={'color':'#643A71'}),
+                        ], width=4),
+                        dbc.Col([
+                            product_category_l0_global
+                        ], width=8)
+                    ],
                 align='center',
                 style={'paddingTop':'1rem'},
-                id='price_filters'),
-                dbc.Row([
-                    dbc.Col([
-                        html.Br(),
-                        credit_link,
-                        github_link,
-                        data_update
-                    ])
-                ], id='footnotes')
+                ),
+                dbc.Row(
+                    id='brand_filter',
+                    children=[
+                        dbc.Col([
+                            html.Label("Brand:", style={'color':'#643A71'}),
+                        ], width=4),
+                        dbc.Col([
+                            brand_filter_global
+                        ], width=8),
+                    ], 
+                    align='center',
+                    style={'paddingTop':'1rem'},
+                ),
+                dbc.Row(
+                    id='price_filters',
+                    children=[
+                        dbc.Col([
+                            html.Label("Price:", style={'color':'#643A71'}),
+                        ], width=4),
+                        dbc.Col([
+                            min_price_filter
+                        ], width=4),
+                        dbc.Col([
+                            max_price_filter(df, 'price')
+                        ], width=4)
+                    ],
+                    align='center',
+                    style={'paddingTop':'1rem'},
+                ),
+                dbc.Row(
+                    id='footnotes',
+                    children=[
+                        dbc.Col([
+                            html.Br(),
+                            credit_link,
+                            github_link,
+                            data_update
+                        ])
+                    ]
+                )
             ], width=2, style=SIDEBAR_STYLE),
             # data viz col
             dbc.Col([
