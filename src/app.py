@@ -127,7 +127,6 @@ def single_product_info_box(df, data):
         data - dictionary of data describing product selected
     Returns:
     '''
-    # identify number of products with lower unit price within the same product category
     # note: sephora product categories came from breadcrumbs on product pages, l2 is most specific level 
     unit_price = (df['unit_price']<data['unit_price']) 
     l2_type = (df['lvl_2_cat']==data['lvl_2_cat']) 
@@ -153,14 +152,14 @@ def get_single_product_data(df, row_id, index_col='index'):
         row_id - product id  
         index_col - col to search for id in 
     Returns:
-        single row from db corresponding to selected product 
+        single row from db corresponding to selected product as dictionary
     '''
-    # must return single row of data as dictionary
     return df[df[index_col]==row_id].to_dict('records')[0]
 
 
-
 def basic_df_sort(df, col, asc=True, limit=10):
+    '''
+    '''
     return df.sort_values(by=col, ascending=asc).head(limit)
 
 
@@ -412,7 +411,7 @@ SIDEBAR_STYLE = {
     "top": 0,
     "left": 0,
     "bottom": 0,
-    "background-color": "#fcf5fc"#"#f8f9fa",
+    "background-color": "#fcf5fc"
 }
 ###### App 
 app.layout = dbc.Container([
@@ -533,37 +532,40 @@ app.layout = dbc.Container([
             ], width=2, style=SIDEBAR_STYLE),
             # data viz col
             dbc.Col([
-                dbc.Row([
-                    # slope plot (mini vs standard)
-                    dbc.Col([
-                        dcc.Graph(
-                            id='size_line_plot',
-                            figure=unit_price_slope_plot(get_unit_price_comparison_data(df)),
-                            config={
-                                'displayModeBar': False
-                            },
-                            style = {
-                                'height': '100%',
-                                'width': '95%'
-                            }
-                        )
-                    ], width=7),
-                    dbc.Col([
-                        dcc.Graph(
-                            id='scatter_products',
-                            figure=product_unit_price_v_size_scatter(df),
-                            style = {
-                                'height': '100%',
-                                'width': '95%'
-                            }
-                        )
-                    ], width=5),
-                ], style={
-                    'margin-top':'1%',
-                    'margin-left':'1%',
-                    'margin-right':'1%'
+                dbc.Row(
+                    id='data_vis_all_products',
+                    children=[
+                        # slope plot (mini vs standard)
+                        dbc.Col([
+                            dcc.Graph(
+                                id='size_line_plot',
+                                figure=unit_price_slope_plot(get_unit_price_comparison_data(df)),
+                                config={
+                                    'displayModeBar': False
+                                },
+                                style = {
+                                    'height': '100%',
+                                    'width': '95%'
+                                }
+                            )
+                        ], width=7),
+                        dbc.Col([
+                            dcc.Graph(
+                                id='scatter_products',
+                                figure=product_unit_price_v_size_scatter(df),
+                                style = {
+                                    'height': '100%',
+                                    'width': '95%'
+                                }
+                            )
+                        ], width=5),
+                    ],
+                    style={
+                        'paddingTop':'1%',
+                        'paddingLeft':'1%',
+                        'paddingRight':'1%'
                     }
-                    ), 
+                ), 
                 dbc.Row([
                     dbc.Col([
                         dbc.Row([
@@ -571,12 +573,12 @@ app.layout = dbc.Container([
                                 html.H4(['Selected Product'],style={'color':'#643A71'}),
                                 html.Div(
                                     product_dropdown,
-                                    style={'width':'90%', 'margin-bottom':'3%'}
+                                    style={'width':'90%'}
                                 ),
                                 html.Div(
                                     "",
                                     id='product_details_text',
-                                    style={'font-size':14}
+                                    style={'font-size':font_sizes['sidebar_text']}
                                 )
                             ], width=2),
                             dbc.Col([
@@ -590,7 +592,7 @@ app.layout = dbc.Container([
                                     style={'height': '100%'})
                             ], width=4),
                             dbc.Col([
-                                html.H5(["Product Recommendations"]),#, style={'fontsize':font_sizes['plot_title']}),
+                                html.H5(["Product Recommendations"]),
                                 dash_table.DataTable(
                                     id='cheaper_product_table',
                                     data=df.sort_values(by='unit_price', ascending=True)[['brand_name','product_name','unit_price','rating']].to_dict("records"),
@@ -647,6 +649,10 @@ style={'height':'100vh'}
     Input('min_price_dropdown', 'value'),
     Input('max_price_dropdown', 'value'))
 def update_product_scatter(category_val, brand_val, min_price_dropdown, max_price_dropdown):
+    '''
+    Args:
+    Returns:
+    '''
     triggered_id = ctx.triggered_id 
     df_filtered = df.copy()
     title = f'Explore{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Products By Size And Price'
@@ -669,6 +675,10 @@ def update_product_scatter(category_val, brand_val, min_price_dropdown, max_pric
     Input('min_price_dropdown', 'value'),
     Input('max_price_dropdown', 'value'))
 def update_unit_price_slope_plot(sort_val, category_val, brand_val, min_price_dropdown, max_price_dropdown):
+    '''
+    Args:
+    Returns:
+    '''
     df_filtered = df.copy()
     title = f'Unit Price Comparison Of{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Products'
     sorting = {
@@ -699,18 +709,18 @@ def update_unit_price_slope_plot(sort_val, category_val, brand_val, min_price_dr
     Input('product_dropdown','value'))
 def update_product_details(scatter_click_value, slope_click_value, product_value):
     '''
-        When a data point is clicked on the slope pair plot OR the product scatter plot, the product details section is updated
-        to show information on the selected product. 
-        Args:
-            scatter_click_value - callback info
-            slope_click_value - callback info
-                although callback info is provided, it is easier for me to use callback context -> ctx when determining what was
-                most recently clicked on the dashboard. 
-        Returns:
-            Tuple of updates 
-            - updates div children (id=product_details_text) with text describing produce selected, along with recommendation 
-            - updates histogram figure (id=unit_price_hist_plot) with unit prices of products in same l2 category as selected product
-            - updates table data (id=cheaper_product_table) with better value products than the selected product
+    When a data point is clicked on the slope pair plot OR the product scatter plot, the product details section is updated
+    to show information on the selected product. 
+    Args:
+        scatter_click_value - callback info
+        slope_click_value - callback info
+            although callback info is provided, it is easier for me to use callback context -> ctx when determining what was
+            most recently clicked on the dashboard. 
+    Returns:
+        Tuple of updates 
+        - updates div children (id=product_details_text) with text describing produce selected, along with recommendation 
+        - updates histogram figure (id=unit_price_hist_plot) with unit prices of products in same l2 category as selected product
+        - updates table data (id=cheaper_product_table) with better value products than the selected product
 
     '''
     # sequential clicks show data in both scatter value and slope value - making it difficult to tell what is most recent
@@ -724,9 +734,6 @@ def update_product_details(scatter_click_value, slope_click_value, product_value
         # either scatterplot or slope plot has been clicked
         # index must always be last item in custom_data, regardless of what plot it came from 
             product_row_id = click_data['value']['points'][0]['customdata'][-1]
-    # if product_value is not None:
-    #     print(product_value)
-    #     product_row_id = product_value
     else:
         product_row_id = 2843
     data = get_single_product_data(df, product_row_id)
