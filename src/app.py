@@ -16,10 +16,12 @@ font_sizes = {
     'sidebar_text':14
 }
 
+####### DATA 
 # product data, aggregated to single row per product - need to move this to separate file or use plotly data store  
 df = pd.read_csv('../data/agg_prod_data.csv')
 # volume errors
 df = df[~df['index'].isin([4879, 3506, 6904, 6286, 4186, 6286, 5649, 2000, 5641, 6282, 6268])]
+
 
 # Initialize the Dash app
 app = Dash(__name__)
@@ -91,7 +93,7 @@ github_link = html.A("GitHub Repo", href="https://github.com/leblanchannah/value
 
 
 credit_link = html.P([
-    'This dashboard is inspired by the "Sephora Minis Math" TikTok by',
+    'This dashboard is inspired by the "Sephora Minis Math" TikTok by ',
     html.A("@michaelamakeup02's", href="https://www.tiktok.com/@michaelamakeup92/video/7237211338618047787", style={'color':'#E84BB1'}),
 ])
 
@@ -112,18 +114,18 @@ product_dropdown = dcc.Dropdown(
 
 def single_product_info_box(df, data):
     ''' 
-        Product details box outlines features for a product selected on the slope plot or scatter plot.
-        Example text returned 
-            Product: prep + prime highlighter, standard size
-            Brand: mac cosmetics
-            Price: $37.0
-            Size: 0.12 oz
+    Product details box outlines features for a product selected on the slope plot or scatter plot.
+    Example text returned 
+        Product: prep + prime highlighter, standard size
+        Brand: mac cosmetics
+        Price: $37.0
+        Size: 0.12 oz
 
-            There are 79 highlighter products at Sephora with unit price less than 308.33 $/oz
-        Args:
-            df - product dataset as pd dataframe
-            data - dictionary of data describing product selected
-        Returns:
+        There are 79 highlighter products at Sephora with unit price less than 308.33 $/oz
+    Args:
+        df - product dataset as pd dataframe
+        data - dictionary of data describing product selected
+    Returns:
     '''
     # identify number of products with lower unit price within the same product category
     # note: sephora product categories came from breadcrumbs on product pages, l2 is most specific level 
@@ -144,11 +146,149 @@ def single_product_info_box(df, data):
     ]
 
 
+def get_single_product_data(df, row_id, index_col='index'):
+    '''
+    Args:
+        df - data
+        row_id - product id  
+        index_col - col to search for id in 
+    Returns:
+        single row from db corresponding to selected product 
+    '''
+    # must return single row of data as dictionary
+    return df[df[index_col]==row_id].to_dict('records')[0]
+
+
+
+def basic_df_sort(df, col, asc=True, limit=10):
+    return df.sort_values(by=col, ascending=asc).head(limit)
+
+
+def sort_product_comparison_data(df, dropdown_value, limit=10):
+    '''
+    Sorting dropdown focused on sorting data using unit price values and rations 
+    Args:
+        df - data
+        dropdown_value - string value from dropdown options
+    Returns:
+        dataframe sorted based on selection in sorting dropdown in sidebar
+        # of entries returned based on limit - 10 is suggested bc lineplot can look busy 
+    '''
+    if dropdown_value=='ratio_mini_lt_full':
+        # products where the mini unit price is cheaper than full
+        return basic_df_sort(df, 'mini_to_standard_ratio', asc=True, limit=limit)
+    elif dropdown_value=='ratio_full_lt_mini':
+        # products where the full unit price is cheaper than mini
+        return basic_df_sort(df, 'mini_to_standard_ratio', asc=False, limit=limit)
+    elif dropdown_value=='unit_price_mini':
+        # cheapest minis by product price
+        return basic_df_sort(df, 'unit_price_mini', asc=True, limit=limit)
+    elif dropdown_value=='unit_price_full':
+        # cheapest full sized products by unit price
+        return basic_df_sort(df, 'unit_price_standard', asc=True, limit=limit)
+    else:
+        return df
+    
+
+def get_unit_price_comparison_data(df, sorting_value='ratio_mini_lt_full'):
+    '''
+    Preprocessing required to compare mini and standard size products with one another 
+    Args:
+    Returns:
+    '''
+    # for each product, compare all mini size to standard using cross join
+    df_compare = df[df['swatch_group']=='mini size'].merge(
+        df[df['swatch_group']=='standard size'],
+        on=['product_id','product_name','brand_name'],
+        suffixes=('_mini','_standard')
+    )
+    # only calculate ratio in one direction 
+    df_compare = df_compare[df_compare['amount_adj_mini']<df_compare['amount_adj_standard']]
+    # if ratio < 1, mini is better value per oz, if ratio > 1, standard is better value
+    df_compare['mini_to_standard_ratio'] = df_compare['unit_price_mini'] / df_compare['unit_price_standard']
+    df_compare = df_compare.reset_index().rename(columns={'index':'prod_rank'})
+
+    df_compare = sort_product_comparison_data(df_compare, sorting_value)
+
+    df_compare = df_compare.melt(['product_id','brand_name','product_name',
+                                'prod_rank','amount_adj_mini', 'amount_adj_standard',
+                                'mini_to_standard_ratio'])
+    df_compare = df_compare[df_compare['variable'].isin(['unit_price_mini','unit_price_standard'])]
+    df_compare = df_compare.merge(df, 
+                    on=['product_id','brand_name','product_name'],
+                    how='left')
+    df_compare['display_name'] = df_compare['brand_name']+",<br>"+df_compare['lvl_2_cat']
+    return df_compare
+
+
+##### FIGURES
+def product_unit_price_v_size_scatter(df, title='Explore Products By Size And Price'):
+    '''
+    Exploratory scatter plot that shows product size V product price, despite misleading function name....
+    Product swatchgroup category is used in legend - standard, mini, value, refill
+    This plot is linked to callbacks from category, brand and price filters 
+    Args:
+        df - data
+        title - title of plot, will be expanded depending on selected filters using callbacks
+    Returns:
+        plotly express figure
+    '''
+    fig = px.scatter(
+                    df,
+                    x='amount_adj',
+                    y='price',
+                    color='swatch_group',
+                    title=title,
+                    template=PLOT_TEMPLATE_THEME,
+                    height=420,
+                    color_discrete_sequence=["#2b1930","#8b5fbf","#e84BB1","#FF001A"],
+                    hover_data=['brand_name', 'product_name', 'index'],
+                    labels={'amount_adj': "Product Size (oz.)",  'price': "Price ($)", "swatch_group": "Product Size"}
+    )
+    fig.update_layout(
+        autosize=True,
+        legend=dict(
+            yanchor='top',
+            xanchor='right',
+            title_font_size=font_sizes['legend_title'],
+            font_size=font_sizes['legend_item'],
+        ),
+        font=dict(
+            size=font_sizes['plot_title']
+        ),
+        margin=dict(l=50, r=20, t=50, b=50)
+    )
+
+    legend_item_names = {
+        'standard size':'Standard',
+        'mini size': 'Mini',
+        'refill size':'Refill',
+        'value size':'Value'
+    }
+    fig.for_each_trace(lambda t: t.update(name = legend_item_names[t.name],
+                                        legendgroup = legend_item_names[t.name],
+                                        hovertemplate = t.hovertemplate.replace(t.name, legend_item_names[t.name])
+                                        )
+                    )
+    fig.update_traces(marker=dict(size=8,opacity=0.9))
+    return fig
+
+
 def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distribution'):
     '''
-    https://stackoverflow.com/questions/71778342/highlight-one-specific-bar-in-plotly-bar-chart-python
+    Unit price histogram shows distribution of unit prices for selected product category
+    and shows the area of distribution where products are better value than the selected product using different bin colours
+        https://stackoverflow.com/questions/71778342/highlight-one-specific-bar-in-plotly-bar-chart-python
+    This plot and its title are updated when selected product dropdown is used 
+    Args:
+        data - product dataframe input
+        position - id of selected product in dataframe
+        unit_price_col - name of unit price col in dataframe
+        title - title for plot, product category will be appended to this 
+    Returns:
+        plotly express figure
     '''
-
+    # adding new column to dataframe to label cheaper products 
     m_rows = data.shape[0]
     if m_rows==0:
         m_rows=1
@@ -157,8 +297,6 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distr
     cheaper_products = data[data['value']=='cheaper'].shape[0]
     pct_cheaper = round((cheaper_products/m_rows)*100, 2)
     
-    # title += f'<br>{pct_cheaper}% of products have cheaper unit price than selected'
-
     fig = px.histogram(
             data,
             x=unit_price_col,
@@ -189,86 +327,38 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distr
             font_size=font_sizes['legend_item'],
         )
     )
-
+    # need to use update traces to change plotly legend item names 
     fig.update_traces(
         showlegend=True
     )
-
-    newnames = {
+    legend_labels = {
         'cheaper':f'{pct_cheaper}% - better value per<br>unit than selected',
         'expensive': f'{round(100-pct_cheaper,2)}% - more expensive per<br>unit than selected',
     }
-    fig.for_each_trace(lambda t: t.update(name = newnames[t.name],
-                                        legendgroup = newnames[t.name],
-                                        hovertemplate = t.hovertemplate.replace(t.name, newnames[t.name])
+    fig.for_each_trace(lambda t: t.update(name = legend_labels[t.name],
+                                        legendgroup = legend_labels[t.name],
+                                        hovertemplate = t.hovertemplate.replace(t.name, legend_labels[t.name])
                                         )
                     )
     return fig
 
-
-def get_single_product_data(df, row_id, index_col='index'):
-    # must return single row of data as dictionary
-    return df[df[index_col]==row_id].to_dict('records')[0]
-
-
-
-
-
-##### Plotly figures and callbacks
-def product_unit_price_v_size_scatter(df, title='Explore Products By Size And Price'):
-    fig = px.scatter(
-                    df,
-                    x='amount_adj',
-                    y='price',
-                    color='swatch_group',
-                    title=title,
-                    template=PLOT_TEMPLATE_THEME,
-                    height=420,
-                    color_discrete_sequence=["#2b1930","#8b5fbf","#e84BB1","#FF001A"],
-                    hover_data=['brand_name', 'product_name', 'index'],
-                    labels={ # replaces default labels by column name
-                        'amount_adj': "Product Size (oz.)",  'price': "Price ($)", "swatch_group": "Product Size"
-                    }
-    )
-    fig.update_layout(
-        autosize=True,
-        legend=dict(
-            yanchor='top',
-            xanchor='right',
-            title_font_size=font_sizes['legend_title'],
-            font_size=font_sizes['legend_item'],
-        ),
-        font=dict(
-            size=font_sizes['plot_title']
-        ),
-        margin=dict(l=50, r=20, t=50, b=50)
-    )
-
-    newnames = {
-        'standard size':'Standard',
-        'mini size': 'Mini',
-        'refill size':'Refill',
-        'value size':'Value'
-    }
-    fig.for_each_trace(lambda t: t.update(name = newnames[t.name],
-                                        legendgroup = newnames[t.name],
-                                        hovertemplate = t.hovertemplate.replace(t.name, newnames[t.name])
-                                        )
-                    )
-    fig.update_traces(marker=dict(size=8,opacity=0.9))
-    return fig
 
 def unit_price_slope_plot(df, title="Unit Price Comparison Of Products", legend_title='Top 10 Products'):
     '''
+    Compares unit price of standard-mini product pairs in dataset
+    This plot data and title are updated by callbacks from sorting, category, brand and price dropdowns 
+    Args:
+        df - data
+        title - title of plot 
+        legend_title - 
     Returns:
-        plotly figure
+        plotly express figure
     '''
     fig = px.line(
                 df,
                 y="value",
                 x="variable",
                 color="prod_rank",
-                # text='mini_to_standard_ratio',
                 height=420,
                 title=title,
                 template=PLOT_TEMPLATE_THEME,
@@ -296,8 +386,8 @@ def unit_price_slope_plot(df, title="Unit Price Comparison Of Products", legend_
             tickmode='array',
             tickvals=['unit_price_mini', 'unit_price_standard'],
             ticktext=['Mini','Standard'],
+            # really difficult to get categorical axis spacing right
             range=[-0.2, 2 - 0.7],
-            # showline=False,
         ),
         legend=dict(
             title=legend_title,
@@ -309,7 +399,6 @@ def unit_price_slope_plot(df, title="Unit Price Comparison Of Products", legend_
             size=font_sizes['plot_title']
         ),
         hoverlabel = dict(
-        # option to change text in hoverlabel
         )
     )
     # map line index to brand+category label
@@ -318,50 +407,6 @@ def unit_price_slope_plot(df, title="Unit Price Comparison Of Products", legend_
     fig.update_traces(line=dict(width=5), marker=dict(size=10))
     return fig 
 
-
-def basic_df_sort(df, col, asc=True, limit=10):
-    return df.sort_values(by=col, ascending=asc).head(limit)
-
-
-def sort_product_comparison_data(df, dropdown_value, limit=10):
-    '''
-    '''
-    if dropdown_value=='ratio_mini_lt_full':
-        return basic_df_sort(df, 'mini_to_standard_ratio', asc=True, limit=limit)
-    elif dropdown_value=='ratio_full_lt_mini':
-        return basic_df_sort(df, 'mini_to_standard_ratio', asc=False, limit=limit)
-    elif dropdown_value=='unit_price_mini':
-        return basic_df_sort(df, 'unit_price_mini', asc=True, limit=limit)
-    elif dropdown_value=='unit_price_full':
-        return basic_df_sort(df, 'unit_price_standard', asc=True, limit=limit)
-    else:
-        return df
-    
-
-def get_unit_price_comparison_data(df, sorting_value='ratio_mini_lt_full'):
-    # for each product, compare all mini size to standard using cross join
-    df_compare = df[df['swatch_group']=='mini size'].merge(
-        df[df['swatch_group']=='standard size'],
-        on=['product_id','product_name','brand_name'],
-        suffixes=('_mini','_standard')
-    )
-    # only calculate ratio in one direction 
-    df_compare = df_compare[df_compare['amount_adj_mini']<df_compare['amount_adj_standard']]
-    # if ratio < 1, mini is better value per oz, if ratio > 1, standard is better value
-    df_compare['mini_to_standard_ratio'] = df_compare['unit_price_mini'] / df_compare['unit_price_standard']
-    df_compare = df_compare.reset_index().rename(columns={'index':'prod_rank'})
-
-    df_compare = sort_product_comparison_data(df_compare, sorting_value)
-
-    df_compare = df_compare.melt(['product_id','brand_name','product_name',
-                                'prod_rank','amount_adj_mini', 'amount_adj_standard',
-                                'mini_to_standard_ratio'])
-    df_compare = df_compare[df_compare['variable'].isin(['unit_price_mini','unit_price_standard'])]
-    df_compare = df_compare.merge(df, 
-                    on=['product_id','brand_name','product_name'],
-                    how='left')
-    df_compare['display_name'] = df_compare['brand_name']+",<br>"+df_compare['lvl_2_cat']
-    return df_compare
 
 SIDEBAR_STYLE = {
     "top": 0,
