@@ -114,7 +114,7 @@ product_dropdown = dcc.Dropdown(
                         placeholder='Translucent Loose Setting Powder Laura Mercier standard size',
                         value=16,
                         id='product_dropdown',
-                        optionHeight=55,
+                        optionHeight=70,
                     )
 
 
@@ -309,9 +309,8 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distr
             x=unit_price_col,
             color='value',
             template=PLOT_TEMPLATE_THEME,
-            color_discrete_sequence=["#C61083","#8B5FBF"],
-            #["#ff001a","#6e098d","#8b5fbf","#2b1930","#d183c9","#FFBEE5","#e84bb1","#8e0827","#8d46a3","#c61083"]
-            height=350,
+            color_discrete_sequence=["#e84bb1","#FFBEE5",],
+            height=320,
             title=title,
             labels={'unit_price': "Unit Price ($/oz.)", "value":""}
         )
@@ -577,17 +576,29 @@ app.layout = dbc.Container([
                 ), 
                 dbc.Row([
                     dbc.Col([
+                        dbc.Row(
+                            id='single_product_selection',
+                            children=[
+                                dbc.Col([
+                                    html.Label(['Selected Product'],style={'color':'#B1298D', 'font-size':'20px'}),
+                                    
+                                ], width=2),
+                                dbc.Col([
+                                    product_dropdown,
+                                ], width=3),
+                                dbc.Col([], width=7)
+                            ],
+                            style={
+                                'align':'center'
+
+                            }
+                        ), 
                         dbc.Row([
                             dbc.Col([
-                                html.H4(['Selected Product'],style={'color':'#B1298D', 'font-size':'20px'}),
-                                html.Div(
-                                    product_dropdown,
-                                    style={'width':'90%', 'paddingTop':'1rem'},
-                                ),
                                 html.Div(
                                     "",
                                     id='product_details_text',
-                                    style={'font-size':font_sizes['sidebar_text'], 'paddingTop':'1rem'},
+                                    style={'font-size':font_sizes['sidebar_text']},
                                 )
                             ], width=2),
                             dbc.Col([
