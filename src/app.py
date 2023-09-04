@@ -46,14 +46,14 @@ app = Dash(
 # Drop down used to sort slope plot
 sorting_dropdown = dcc.Dropdown(
                         options=[
-                            {'label':'Unit Price Ratio, Mini Value','value':'ratio_mini_lt_full'},
-                            {'label':'Unit Price Ratio, Standard Value','value':'ratio_full_lt_mini'},
+                            {'label':'Increasing Unit Price Ratio','value':'ratio_mini_lt_full'},
+                            {'label':'Decreasing Unit Price Ratie','value':'ratio_full_lt_mini'},
                             {'label':'Best Value Mini Products','value':'unit_price_mini'},
                             {'label':'Best Value Standard Products','value':'unit_price_full'},
                         ],
                         value='ratio_full_lt_mini',
                         id='sorting_dropdown',
-                        optionHeight=55,
+                        optionHeight=70,
                     )
 
 
@@ -520,10 +520,10 @@ app.layout = dbc.Container([
                         ], width=4),
                         dbc.Col([
                             min_price_filter
-                        ], width=4),
+                        ], width=4, style={'paddingRight':'0.1rem'}),
                         dbc.Col([
                             max_price_filter(df, 'price')
-                        ], width=4)
+                        ], width=4, style={'paddingLeft':'0.1rem'})
                     ],
                     align='center',
                     style={'paddingTop':'1rem'},
@@ -711,8 +711,8 @@ def update_unit_price_slope_plot(sort_val, category_val, brand_val, min_price_dr
     sorting = {
         'ratio_mini_lt_full':'Sorted By<br>Increasing Unit Price Ratio',
         'ratio_full_lt_mini':'Sorted By<br>Decreasing Unit Price Ratio ',
-        'unit_price_mini':'Sorted By<br>Increasing Mini Unit Price',
-        'unit_price_full':'Sorted By<br>Descreasing Standard Unit Price'
+        'unit_price_mini':'Sorted By<br>Best Value Mini Unit Price',
+        'unit_price_full':'Sorted By<br>Best Value Standard Unit Price'
     }
     if category_val:
         df_filtered = df_filtered[df_filtered['lvl_0_cat']==category_val]
