@@ -312,7 +312,7 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distr
             color='value',
             template=PLOT_TEMPLATE_THEME,
             color_discrete_sequence=["#e84bb1","#FFBEE5",],
-            height=320,
+            height=310,
             title=title,
             labels={'unit_price': "Unit Price ($/oz.)", "value":""}
         )
