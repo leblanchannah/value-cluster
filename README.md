@@ -1,4 +1,4 @@
-# Sephora Product Price Comparison Dashboard
+# Sephora Value Canvas
 
 [Sephora Value Canvas Dashboard](https://leblanchannah.pythonanywhere.com/)
 
