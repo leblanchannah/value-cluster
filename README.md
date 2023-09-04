@@ -8,12 +8,12 @@ Welcome to the Sephora Product Price Comparison Dashboard! This project was crea
 
 The primary goal of this dashboard is to help users make informed purchasing decisions by providing insights into product unit prices. Sephora offers products in various sizes, and the unit prices can vary significantly. This dashboard not only compares the prices of different products but also highlights cost-effective options by identifying products with lower unit prices.
 
-This project was inspired by the "Sephora Minis Math" TikTok by [@michaelamakeup02](https://www.tiktok.com/@michaelamakeup92/video/7237211338618047787")
+This project was inspired by the ["Sephora Minis Math"](https://www.tiktok.com/@michaelamakeup92/video/7237211338618047787") TikTok by @michaelamakeup92
 
 
 ## Features
 
-- **Data Scraper:** This project includes a Python and Selenium web scraper that allows you to extract product data from the Sephora website. You can easily customize the scraper to collect specific information for analysis.
+- **Data Scraper:** This project includes a Python and Selenium web scraper that allows you to extract product data from the Sephora website. You can easily customize the scraper to collect specific information for analysis. Data collected on August 22nd, 2023 is provided in the repo.
 
 - **Data Cleaning:** Once the data is collected, it goes through a comprehensive data cleaning process to ensure accuracy and consistency.
 

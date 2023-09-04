@@ -94,7 +94,7 @@ github_link = html.A("GitHub Repo", href="https://github.com/leblanchannah/value
 
 credit_link = html.P([
     'This dashboard is inspired by the "Sephora Minis Math" TikTok by ',
-    html.A("@michaelamakeup02's", href="https://www.tiktok.com/@michaelamakeup92/video/7237211338618047787", style={'color':'#E84BB1'}),
+    html.A("@michaelamakeup92", href="https://www.tiktok.com/@michaelamakeup92/video/7237211338618047787", style={'color':'#E84BB1'}),
 ])
 
 
