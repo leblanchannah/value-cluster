@@ -12,7 +12,7 @@ font_sizes = {
     'legend_item':10,
     'plot_title':16,
     'axis_label':14,
-    'h1_title':26,
+    'h1_title':'1rem',
     'sidebar_text':14
 }
 
@@ -538,9 +538,15 @@ app.layout = dbc.Container([
                         ], style={'font-size':font_sizes['sidebar_text']})
                     ]
                 )
-            ], width=2, style=SIDEBAR_STYLE),
+            ],
+            xs=dict(order=1, size=12),
+            sm=dict(order=1, size=2),
+            style=SIDEBAR_STYLE),
             # data viz col
-            dbc.Col([
+            dbc.Col(
+                xs=dict(order=2, size=12),
+                sm=dict(order=2, size=10),
+                children=[
                 dbc.Row(
                     id='data_vis_all_products',
                     children=[
@@ -558,7 +564,10 @@ app.layout = dbc.Container([
                                     # "border":"1px black solid"
                                 }
                             )
-                        ], width=6),
+                        ],
+                        xs=dict(order=3, size=12),
+                        sm=dict(order=3, size=6),
+                        ),
                         dbc.Col([
                             dcc.Graph(
                                 id='scatter_products',
@@ -568,7 +577,10 @@ app.layout = dbc.Container([
                                     'width': '100%'
                                 }
                             )
-                        ], width=6),
+                        ],
+                        xs=dict(order=4, size=12),
+                        sm=dict(order=4, size=6)
+                        ),
                     ],
                     style={
                         'paddingTop':'1%',
@@ -663,7 +675,6 @@ app.layout = dbc.Container([
         ]),
 ], 
 fluid=True,
-# style={'height':'100vh'}
 )
 
 ############# CALLBACKS ############# 
@@ -778,4 +789,4 @@ def update_product_details(scatter_click_value, slope_click_value, product_value
 
 # Run the app
 if __name__ == '__main__':
-    app.run_server(debug=False)
+    app.run_server(debug=True)
