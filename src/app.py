@@ -25,7 +25,7 @@ SIDEBAR_STYLE = {
 
 ####### DATA 
 # product data, aggregated to single row per product - need to move this to separate file or use plotly data store  
-df = pd.read_csv('/home/leblanchannah/value-cluster/data/agg_prod_data.csv')
+df = pd.read_csv('../data/agg_prod_data.csv')
 # volume errors
 df = df[~df['index'].isin([4879, 3506, 6904, 6286, 4186, 6286, 5649, 2000, 5641, 6282, 6268])]
 
@@ -38,7 +38,7 @@ app = Dash(
     external_stylesheets=[dbc.themes.BOOTSTRAP],
     title='Sephora Product Analysis',
     suppress_callback_exceptions=True,
-    meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
+    meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=1.2"}],
 )
 
 # Sidebar elements 
@@ -663,7 +663,7 @@ app.layout = dbc.Container([
         ]),
 ], 
 fluid=True,
-style={'height':'100vh'}
+# style={'height':'100vh'}
 )
 
 ############# CALLBACKS ############# 
