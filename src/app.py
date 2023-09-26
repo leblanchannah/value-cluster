@@ -589,17 +589,24 @@ app.layout = dbc.Container([
                     }
                 ), 
                 dbc.Row([
-                    dbc.Col([
+                    dbc.Col(
+                        xs=dict(order=5, size=12),
+                        sm=dict(order=5, size=12),
+                        children=[
                         dbc.Row(
                             id='single_product_selection',
                             children=[
                                 dbc.Col([
                                     html.Label(['Selected Product'],style={'color':'#B1298D', 'font-size':'20px'}),
                                     
-                                ], width=2),
+                                ],
+                                xs=dict(order=6, size=12),
+                                sm=dict(order=6, size=2)),
                                 dbc.Col([
                                     product_dropdown,
-                                ], width=3),
+                                ], 
+                                xs=dict(order=7, size=12),
+                                sm=dict(order=7, size=3)),
                                 dbc.Col([], width=7)
                             ],
                             style={
@@ -614,7 +621,9 @@ app.layout = dbc.Container([
                                     id='product_details_text',
                                     style={'font-size':font_sizes['sidebar_text']},
                                 )
-                            ], width=2),
+                            ], 
+                            xs=dict(order=8, size=12),
+                            sm=dict(order=8, size=2)),
                             dbc.Col([
                                 dcc.Graph(
                                     id='unit_price_hist_plot',
@@ -624,7 +633,9 @@ app.layout = dbc.Container([
                                         'displayModeBar': False
                                     }, 
                                     style={'height': '100%'})
-                            ], width=4),
+                            ], 
+                            xs=dict(order=9, size=12),
+                            sm=dict(order=9, size=4)),
                             dbc.Col([
                                 html.H5(
                                     children=["Product Recommendations"],
@@ -662,7 +673,9 @@ app.layout = dbc.Container([
                                     style_table={
                                         "overflowX": "auto"
                                     })
-                            ], width=6),
+                            ],
+                            xs=dict(order=10, size=12),
+                            sm=dict(order=10, size=6)),
                         ])
                     ],width=12)
                 ], style={
