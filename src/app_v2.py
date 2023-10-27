@@ -42,6 +42,8 @@ app = Dash(
 PLOT_TEMPLATE_THEME = 'simple_white'
 COLOUR_SCALE='plotly3_r'
 
+
+
 # FORM components
 product_category_l0_dropdown = dbc.Select(
     id='product_category_l0_dropdown',
@@ -244,7 +246,7 @@ def joint_slope_scatter(df_product_pairs, df_base):
                 thickness=25,
                 bordercolor='white',
                 outlinecolor='white',
-                x=1,
+                x=-0.2,
                 xref="container",
             ),
             colorscale=COLOUR_SCALE,
@@ -262,8 +264,6 @@ def joint_slope_scatter(df_product_pairs, df_base):
     fig.update_yaxes(title_text="Price ($)", row=1, col=2)
 
     return fig
-
-
 
 
 
@@ -403,5 +403,37 @@ app.layout = dbc.Container([
 fluid=True
 )
 
+############# CALLBACKS ############# 
+
+#need to add sorting option
+# and update to plot titles  
+@callback(
+    Output('slope_scatter_joint','figure'),
+    Input('product_category_l0_dropdown', 'value'),
+    Input('brand_dropdown', 'value'),
+    Input('max_price_filter', 'value'),
+)
+def update_joint_plot(category_val, brand_val, max_price_val):
+    triggered_id = ctx.triggered_id
+    df_filter_pairs = df_compare.copy()
+    df_filter_products = df.copy()
+
+    # need to update titles 
+    # title = f'Explore{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Products By Size And Price'
+    
+    if category_val:
+        df_filter_pairs = df_filter_pairs[df_filter_pairs['lvl_0_cat_standard']==category_val]
+        df_filter_products = df_filter_products[df_filter_products['lvl_0_cat']==category_val]
+
+    if brand_val:
+        df_filter_pairs = df_filter_pairs[df_filter_pairs['brand_name']==brand_val]
+        df_filter_products = df_filter_products[df_filter_products['brand_name']==brand_val]
+
+    if max_price_val:
+        df_filter_pairs = df_filter_pairs[df_filter_pairs['price_standard']<max_price_val]
+        df_filter_products = df_filter_products[df_filter_products['price']<max_price_val]
+
+    return joint_slope_scatter(df_filter_pairs, df_filter_products)
+        
 if __name__ == '__main__':
     app.run_server(debug=True)
