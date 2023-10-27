@@ -1,11 +1,34 @@
 from dash import Dash, html, dcc, Input, Output, callback, ctx, dash_table
+import plotly.subplots as sp
 import dash_bootstrap_components as dbc
 import pandas as pd
+import numpy as np
+from PIL import ImageColor
+import plotly.colors
 import plotly.express as px
+import plotly.graph_objects as go
+
 
 
 df = pd.read_csv('../data/agg_prod_data.csv')
-# df_ratios = pd.read_csv('')
+df_compare = df[df['swatch_group']=='mini size'].merge(
+    df[df['swatch_group']=='standard size'],
+    on=['product_id','product_name','brand_name'],
+    suffixes=('_mini','_standard'))
+
+df_compare = df_compare[df_compare['amount_adj_mini']<df_compare['amount_adj_standard']]
+# if ratio < 1, mini is better value per oz, if ratio > 1, standard is better value
+df_compare['mini_to_standard_ratio'] = df_compare['unit_price_mini'] / df_compare['unit_price_standard']
+df_compare = df_compare.reset_index().rename(columns={'index':'prod_rank'})
+
+
+df = df.merge(
+    df_compare[['product_id','product_name','brand_name','mini_to_standard_ratio']],
+    on=['product_id','product_name','brand_name'],
+    how='left')
+
+df.loc[df['swatch_group'].isin(['value size','refill size']), 'mini_to_standard_ratio'] = np.nan
+
 
 # Initialize the Dash app
 app = Dash(__name__)
@@ -17,6 +40,7 @@ app = Dash(
 )
 
 PLOT_TEMPLATE_THEME = 'simple_white'
+COLOUR_SCALE='plotly3_r'
 
 # FORM components
 product_category_l0_dropdown = dbc.Select(
@@ -28,7 +52,6 @@ product_category_l0_dropdown = dbc.Select(
 brand_dropdown = dbc.Select(
     id='brand_dropdown',
     options=[x for x in df.brand_name.unique()]
-
 )
 
 ratio_sorting_dropdown = dbc.Select(
@@ -36,14 +59,12 @@ ratio_sorting_dropdown = dbc.Select(
     options=[]
 )
 
-
 product_options = [{'label':x.product_name+' '+x.brand_name+' '+x.swatch_group,'value':x.index} for x in df[['product_name','brand_name','index','swatch_group']].itertuples()]
 product_info_dropdown = dbc.Select(
     id='product_info_dropdown',
     options=product_options,
     placeholder='Dior Forever Loose Cushion Powder',
     value=4168,
-    # optionHeight=70,
 )
 
 max_price_filter = dbc.Input(
@@ -53,6 +74,145 @@ max_price_filter = dbc.Input(
     max=2000,
     step=5
 )
+
+def get_color(colorscale_name, loc):
+    from _plotly_utils.basevalidators import ColorscaleValidator
+    # first parameter: Name of the property being validated
+    # second parameter: a string, doesn't really matter in our use case
+    cv = ColorscaleValidator("colorscale", "")
+    # colorscale will be a list of lists: [[loc1, "rgb1"], [loc2, "rgb2"], ...] 
+    colorscale = cv.validate_coerce(colorscale_name)
+    
+    if hasattr(loc, "__iter__"):
+        return [get_continuous_color(colorscale, x) for x in loc]
+    return get_continuous_color(colorscale, loc)
+        
+# This function allows you to retrieve colors from a continuous color scale
+# by providing the name of the color scale, and the normalized location between 0 and 1
+# Reference: https://stackoverflow.com/questions/62710057/access-color-from-plotly-color-scale
+
+def get_continuous_color(colorscale, intermed):
+    """
+    Plotly continuous colorscales assign colors to the range [0, 1]. This function computes the intermediate
+    color for any value in that range.
+
+    Plotly doesn't make the colorscales directly accessible in a common format.
+    Some are ready to use:
+    
+        colorscale = plotly.colors.PLOTLY_SCALES["Greens"]
+
+    Others are just swatches that need to be constructed into a colorscale:
+
+        viridis_colors, scale = plotly.colors.convert_colors_to_same_type(plotly.colors.sequential.Viridis)
+        colorscale = plotly.colors.make_colorscale(viridis_colors, scale=scale)
+
+    :param colorscale: A plotly continuous colorscale defined with RGB string colors.
+    :param intermed: value in the range [0, 1]
+    :return: color in rgb string format
+    :rtype: str
+    """
+    if len(colorscale) < 1:
+        raise ValueError("colorscale must have at least one color")
+
+    hex_to_rgb = lambda c: "rgb" + str(ImageColor.getcolor(c, "RGB"))
+
+    if intermed <= 0 or len(colorscale) == 1:
+        c = colorscale[0][1]
+        return c if c[0] != "#" else hex_to_rgb(c)
+    if intermed >= 1:
+        c = colorscale[-1][1]
+        return c if c[0] != "#" else hex_to_rgb(c)
+
+    for cutoff, color in colorscale:
+        if intermed > cutoff:
+            low_cutoff, low_color = cutoff, color
+        else:
+            high_cutoff, high_color = cutoff, color
+            break
+
+    if (low_color[0] == "#") or (high_color[0] == "#"):
+        # some color scale names (such as cividis) returns:
+        # [[loc1, "hex1"], [loc2, "hex2"], ...]
+        low_color = hex_to_rgb(low_color)
+        high_color = hex_to_rgb(high_color)
+
+    return plotly.colors.find_intermediate_color(
+        lowcolor=low_color,
+        highcolor=high_color,
+        intermed=((intermed - low_cutoff) / (high_cutoff - low_cutoff)),
+        colortype="rgb",
+    )
+
+
+def normalize_colour_value(data_point, all_values):
+    """
+    Normalizes data point values for use with colour bar. 
+    """
+    return (data_point - min(all_values)) / (max(all_values) - min(all_values))
+
+
+def joint_slope_scatter(df_product_pairs, df_base):
+
+    slope_plot_title = "Unit Price Comparison Of Products"
+    scatter_plot_title = "Explore Products By Size And Price"
+
+    fig = sp.make_subplots(rows=1, cols=2, column_widths=[0.4, 0.6],
+        subplot_titles=(slope_plot_title, scatter_plot_title))
+
+    # slope plot - compare unit prices of related products
+    tooltip_hover_template = '{}<br>{}<br>Size: {} oz.<br>Price: ${}<br>Category: {}<br>Mini-to-Standard Ratio: {:.2f}' 
+    for i, row in df_product_pairs.iterrows():
+
+        colour_val_normed = normalize_colour_value(row['mini_to_standard_ratio'], df_product_pairs['mini_to_standard_ratio'])
+
+        pair_line_trace = go.Scatter(
+            x=['Mini', 'Standard'],
+            y=[row['unit_price_mini'], row['unit_price_standard']],
+            mode='markers+lines',
+            marker=dict(
+                color=get_color(COLOUR_SCALE, colour_val_normed),
+                colorscale=COLOUR_SCALE,
+                showscale=False,
+                cmin=min(df_product_pairs['mini_to_standard_ratio']),
+                cmax=max(df_product_pairs['mini_to_standard_ratio']),
+            ),  
+            line=dict(
+                width=5
+            ),
+            showlegend = False,
+            hovertemplate = 'Unit Price: %{y:.2f}$/oz. <br>%{text}',  
+            # each line is made of two markers, text = [marker_mini, marker_standard]
+            text=[tooltip_hover_template.format(row['product_name'], row['brand_name'], row['amount_a_mini'], row['price_mini'], row['lvl_2_cat_mini'], row['mini_to_standard_ratio']),
+                  tooltip_hover_template.format(row['product_name'], row['brand_name'], row['amount_a_standard'], row['price_standard'], row['lvl_2_cat_standard'], row['mini_to_standard_ratio'])],
+        )
+
+        fig.add_trace(pair_line_trace, row=1, col=1)
+
+    fig.add_vline(x=0, opacity=0.1, fillcolor="grey", line_width=1, layer='below', row=1, col=1)
+    fig.add_vline(x=1, opacity=0.1, fillcolor="grey", line_width=1, layer='below', row=1, col=1)
+
+    fig.update_layout(
+        xaxis=dict(
+            title='Product Size',
+            type='category',
+            tickmode='array',
+            # really difficult to get categorical axis spacing right
+            range=[-0.2, 2 - 0.7],
+            linecolor='white', #rgb(204, 204, 204
+        ),
+        yaxis=dict(
+            title='Unit Price ($/oz.)',
+            showgrid=False,
+            zeroline=True,
+            showline=False,
+            showticklabels=True,
+        ),
+        showlegend=False,
+        plot_bgcolor='white',
+    )
+    
+    return fig
+
 
 
 
@@ -97,7 +257,6 @@ app.layout = dbc.Container([
                         dbc.InputGroup([
                             dbc.InputGroupText("Max Price"),
                             max_price_filter
-
                         ])
                     ],
                     width=3
@@ -117,7 +276,10 @@ app.layout = dbc.Container([
             # figure with 2 subplots 
             dbc.Row([
                 dbc.Col([
-                    dcc.Graph()
+                    dcc.Graph(
+                        id='slope_scatter_joint',
+                        figure=joint_slope_scatter(df_compare[50:70], df)
+                    )
                 ], width=12)
             ]),
         ], width=12),
@@ -127,9 +289,16 @@ app.layout = dbc.Container([
         dbc.Col([
             # filters
             dbc.Row([
-                dbc.Col([
-
-                ], width=12)
+                dbc.Col(
+                    id='product_info_filter',
+                    children=[
+                        dbc.InputGroup([
+                            dbc.InputGroupText("Select Product"),
+                            product_info_dropdown
+                        ])
+                    ],
+                    width=3
+                )
             ]),
             dbc.Row([
                 # product details
