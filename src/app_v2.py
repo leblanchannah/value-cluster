@@ -210,7 +210,57 @@ def joint_slope_scatter(df_product_pairs, df_base):
         showlegend=False,
         plot_bgcolor='white',
     )
+
+    # right side - scatter plot
+    marker_shapes = {'mini size':'circle', 'standard size':'square', 'refill size':'diamond', 'value size':'cross'}
     
+    # grey markers, no mini-to-standard ratio
+    df_no_ratio = df_base[df_base['mini_to_standard_ratio'].isna()]
+
+    background_scatter = go.Scatter(
+        x=df_no_ratio['amount_a'],
+        y=df_no_ratio['price'],
+        mode="markers",
+        marker=dict(
+            color=['grey' for x in range(df_no_ratio.shape[0])],
+            symbol=[marker_shapes[row['swatch_group']] for i, row in df_no_ratio.iterrows()],
+        ),
+        opacity=0.6,
+        hovertemplate='Size: %{x}oz.<br>Price: $%{y}, %{text}',
+        text=[tooltip_hover_template.format(row['product_name'], row['brand_name'], row['amount_a'], row['price'], row['lvl_2_cat'], row['mini_to_standard_ratio']) for i, row in df_no_ratio.iterrows()]
+    )
+
+    fig.add_trace(background_scatter, row=1, col=2)
+
+    df_w_ratio = df_base[df_base['mini_to_standard_ratio'].notnull()]
+    scatter_highlight = go.Scatter(
+        x=df_w_ratio['amount_a'],
+        y=df_w_ratio['price'],
+        mode="markers",
+        marker=dict(
+            color=df_w_ratio['mini_to_standard_ratio'],
+            colorbar=dict(
+                title="Mini-to-Standard <br>Unit Price Ratio",
+                thickness=25,
+                bordercolor='white',
+                outlinecolor='white',
+                x=1,
+                xref="container",
+            ),
+            colorscale=COLOUR_SCALE,
+            cmin=min(df_base['mini_to_standard_ratio']),
+            cmax=max(df_base['mini_to_standard_ratio']),
+            symbol=[marker_shapes[x['swatch_group']] for i, x in df_w_ratio.iterrows()]
+        ),
+        hovertemplate='Size: %{x}oz.<br>Price: $%{y}, %{text}',
+        text=[tooltip_hover_template.format(row['product_name'], row['brand_name'], row['amount_a'], row['price'], row['lvl_2_cat'], row['mini_to_standard_ratio']) for i, row in df_w_ratio.iterrows()],
+    )
+
+    fig.add_trace(scatter_highlight, row=1, col=2)
+    
+    fig.update_xaxes(title_text="Size (oz.)", row=1, col=2)
+    fig.update_yaxes(title_text="Price ($)", row=1, col=2)
+
     return fig
 
 
