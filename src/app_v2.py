@@ -45,36 +45,36 @@ COLOUR_SCALE='plotly3_r'
 
 
 # FORM components
-product_category_l0_dropdown = dbc.Select(
+product_category_l0_dropdown = dcc.Dropdown(
     id='product_category_l0_dropdown',
     options = [x for x in df.lvl_0_cat.unique() if x!=' ' and x!='Mini Size' and x!='Men'],
-    value='Makeup'
+    value='Makeup',
 )
 
-brand_dropdown = dbc.Select(
+brand_dropdown = dcc.Dropdown(
     id='brand_dropdown',
-    options=[x for x in df.brand_name.unique()]
+    options=[x for x in df.brand_name.unique()],
 )
 
-ratio_sorting_dropdown = dbc.Select(
+ratio_sorting_dropdown = dcc.Dropdown(
     id='ratio_sorting_dropdown',
-    options=[]
+    options=[],
 )
 
 product_options = [{'label':x.product_name+' '+x.brand_name+' '+x.swatch_group,'value':x.index} for x in df[['product_name','brand_name','index','swatch_group']].itertuples()]
-product_info_dropdown = dbc.Select(
+product_info_dropdown = dcc.Dropdown(
     id='product_info_dropdown',
     options=product_options,
     placeholder='Dior Forever Loose Cushion Powder',
     value=4168,
 )
 
-max_price_filter = dbc.Input(
+max_price_filter =  dcc.Input(
     id='max_price_filter',
     type='number',
     min=0,
     max=2000,
-    step=5
+    step=5,
 )
 
 def get_color(colorscale_name, loc):
@@ -282,10 +282,16 @@ app.layout = dbc.Container([
                 dbc.Col(
                     id='product_category_filter',
                     children=[
-                        dbc.InputGroup([
-                            dbc.InputGroupText("Product Type"),
-                            product_category_l0_dropdown
-                        ])
+                        dbc.Row([
+                            dbc.Col([
+                                html.Label("Product Type"),
+                            ]),
+                            dbc.Col([
+                                product_category_l0_dropdown
+                            ])
+                        ], style={
+                            'border': '1px solid black',
+                            'align':'center'})
                     ],
                     width=3
                 ),
@@ -293,10 +299,10 @@ app.layout = dbc.Container([
                 dbc.Col(
                     id='brand_filter',
                     children=[
-                        dbc.InputGroup([
-                            dbc.InputGroupText("Brand"),
-                            brand_dropdown
-                        ])
+                        dbc.Row([
+                            dbc.Col([html.Label("Brand")]),
+                            dbc.Col([brand_dropdown])
+                        ], style={'border': '1px solid black'})
                     ],
                     width=3
                 ),
@@ -304,10 +310,10 @@ app.layout = dbc.Container([
                 dbc.Col(
                     id='price_filter',
                     children=[
-                        dbc.InputGroup([
-                            dbc.InputGroupText("Max Price"),
-                            max_price_filter
-                        ])
+                        dbc.Row([
+                            dbc.Col([html.Label("Max Price")]),
+                            dbc.Col([max_price_filter])
+                        ], style={'border': '1px solid black'})
                     ],
                     width=3
                 ),
@@ -315,10 +321,10 @@ app.layout = dbc.Container([
                 dbc.Col(
                     id='ratio_sorting',
                     children=[
-                        dbc.InputGroup([
-                            dbc.InputGroupText("Sort By"),
-                            ratio_sorting_dropdown
-                        ]),
+                        dbc.Row([
+                            dbc.Col([html.Label("Sort By")]),
+                            dbc.Col([ratio_sorting_dropdown])
+                        ], style={'border': '1px solid black'}),
                     ],
                     width=3
                 ),
@@ -342,10 +348,10 @@ app.layout = dbc.Container([
                 dbc.Col(
                     id='product_info_filter',
                     children=[
-                        dbc.InputGroup([
-                            dbc.InputGroupText("Select Product"),
-                            product_info_dropdown
-                        ])
+                        dbc.Row([
+                            dbc.Col([html.Label("Select Product"),]),
+                            dbc.Col([product_info_dropdown])
+                        ], style={'border': '1px solid black'})
                     ],
                     width=3
                 )
