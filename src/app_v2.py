@@ -48,7 +48,7 @@ app = Dash(
     title='Sephora Product Analysis'
 )
 
-PLOT_TEMPLATE_THEME = 'simple_white'
+PLOT_TEMPLATE_THEME = 'plotly_white'
 COLOUR_SCALE='plotly3_r'
 
 product_data_table = dash_table.DataTable(
@@ -90,12 +90,13 @@ product_data_table = dash_table.DataTable(
 product_category_l0_dropdown = dcc.Dropdown(
     id='product_category_l0_dropdown',
     options = [x for x in df.lvl_0_cat.unique() if x!=' ' and x!='Mini Size' and x!='Men'],
-    value='Makeup',
+    value='Fragrance',
 )
 
 brand_dropdown = dcc.Dropdown(
     id='brand_dropdown',
     options=[x for x in df.brand_name.unique()],
+    value='TOM FORD'
 )
 
 ratio_sorting_dropdown = dcc.Dropdown(
@@ -186,6 +187,8 @@ def get_continuous_color(colorscale, intermed):
         intermed=((intermed - low_cutoff) / (high_cutoff - low_cutoff)),
         colortype="rgb",
     )
+
+
 
 
 def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distribution'):
@@ -313,7 +316,7 @@ def joint_slope_scatter(df_product_pairs, df_base):
             type='category',
             tickmode='array',
             # really difficult to get categorical axis spacing right
-            range=[-0.2, 2 - 0.7],
+            range=[-0.2, 1.1],
             linecolor='white', #rgb(204, 204, 204
         ),
         yaxis=dict(
@@ -332,18 +335,20 @@ def joint_slope_scatter(df_product_pairs, df_base):
     
     # grey markers, no mini-to-standard ratio
     df_no_ratio = df_base[df_base['mini_to_standard_ratio'].isna()]
+    tooltip_hover_template = '{}<br>{}<br>Size: {} oz.<br>Price: ${}<br>Unit Price: {:.2f}$/oz.<br>Category: {}<br>Size Category: {}<br>Mini-to-Standard Ratio: {:.2f}' 
 
     background_scatter = go.Scatter(
         x=df_no_ratio['amount_a'],
         y=df_no_ratio['price'],
         mode="markers",
         marker=dict(
+            size=10,
             color=['grey' for x in range(df_no_ratio.shape[0])],
             symbol=[marker_shapes[row['swatch_group']] for i, row in df_no_ratio.iterrows()],
         ),
         opacity=0.6,
-        hovertemplate='Size: %{x}oz.<br>Price: $%{y}, %{text}',
-        text=[tooltip_hover_template.format(row['product_name'], row['brand_name'], row['amount_a'], row['price'], row['lvl_2_cat'], row['mini_to_standard_ratio']) for i, row in df_no_ratio.iterrows()]
+        hovertemplate='%{text}',
+        text=[tooltip_hover_template.format(row['product_name'], row['brand_name'], row['amount_a'], row['price'], row['unit_price'], row['lvl_2_cat'], row['swatch_group'], row['mini_to_standard_ratio']) for i, row in df_no_ratio.iterrows()]
     )
 
     fig.add_trace(background_scatter, row=1, col=2)
@@ -354,6 +359,7 @@ def joint_slope_scatter(df_product_pairs, df_base):
         y=df_w_ratio['price'],
         mode="markers",
         marker=dict(
+            size=10,
             color=df_w_ratio['mini_to_standard_ratio'],
             colorbar=dict(
                 title="Mini-to-Standard <br>Unit Price Ratio",
@@ -368,14 +374,18 @@ def joint_slope_scatter(df_product_pairs, df_base):
             cmax=max(df_base['mini_to_standard_ratio']),
             symbol=[marker_shapes[x['swatch_group']] for i, x in df_w_ratio.iterrows()]
         ),
-        hovertemplate='Size: %{x}oz.<br>Price: $%{y}, %{text}',
-        text=[tooltip_hover_template.format(row['product_name'], row['brand_name'], row['amount_a'], row['price'], row['lvl_2_cat'], row['mini_to_standard_ratio']) for i, row in df_w_ratio.iterrows()],
+        hovertemplate="%{text}",
+        text=[tooltip_hover_template.format(row['product_name'], row['brand_name'], row['amount_a'], row['price'], row['unit_price'], row['lvl_2_cat'], row['swatch_group'],row['mini_to_standard_ratio']) for i, row in df_w_ratio.iterrows()],
     )
 
     fig.add_trace(scatter_highlight, row=1, col=2)
     
     fig.update_xaxes(title_text="Size (oz.)", row=1, col=2)
     fig.update_yaxes(title_text="Price ($)", row=1, col=2)
+    fig.update_layout(
+        hovermode="closest",
+        template=PLOT_TEMPLATE_THEME,
+    )
 
     return fig
 
@@ -473,7 +483,7 @@ app.layout = dbc.Container([
                             id='product_details_text',
                             children=[""]
                         )
-                ], width=4),
+                ], width=4, style={'backgroundColor': '#F8E1F2'}),
                 # unit price histogram
                 dbc.Col([
                     dcc.Graph( 
