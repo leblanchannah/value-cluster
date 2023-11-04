@@ -42,6 +42,39 @@ app = Dash(
 PLOT_TEMPLATE_THEME = 'simple_white'
 COLOUR_SCALE='plotly3_r'
 
+product_data_table = dash_table.DataTable(
+    id='cheaper_product_table',
+    data=df.sort_values(by='unit_price', ascending=True)[['brand_name','product_name','unit_price','rating']].to_dict("records"),
+    columns=[
+        {"name": 'Brand', "id": 'brand_name'},
+        {"name": 'Product', "id": 'product_name'},
+        {"name": 'Unit Price ($/oz.)', "id": 'unit_price', 'type':'numeric', 'format':dash_table.Format.Format(precision=2, scheme=dash_table.Format.Scheme.fixed)},
+        {"name": 'Rating', 'id':'rating', 'type':'numeric', 'format':dash_table.Format.Format(precision=1, scheme=dash_table.Format.Scheme.fixed)}
+    ],
+    page_size=8,
+    style_cell={
+        'font-family':'sans-serif',
+        'textAlign': 'left',
+        'fontSize':12,
+        'overflow': 'hidden',
+        'textOverflow': 'ellipsis',
+        'backgroundColor':'white',
+        'lineColor':'black'
+    },
+    style_header={
+        'backgroundColor': '#F8E1F2',
+        'fontWeight': 'bold'
+    },
+    style_data={
+        'whiteSpace': 'normal',
+        'height': 'auto',
+        'lineHeight': '15px'
+    },
+    style_table={
+        "overflowX": "auto"
+    }
+)
+
 
 
 # FORM components
@@ -328,7 +361,7 @@ app.layout = dbc.Container([
                     ],
                     width=3
                 ),
-            ]),
+            ], style={'backgroundColor': '#F8E1F2'}),
             # figure with 2 subplots 
             dbc.Row([
                 dbc.Col([
@@ -343,11 +376,9 @@ app.layout = dbc.Container([
     # product details 
     dbc.Row([
         dbc.Col([
-            # filters
             dbc.Row([
-                dbc.Col(
-                    id='product_info_filter',
-                    children=[
+                # product details
+                dbc.Col([
                         dbc.Row([
                             dbc.Col(
                                 [html.Label("Select Product")],
@@ -357,14 +388,6 @@ app.layout = dbc.Container([
                                 width=9
                             )
                         ], style={'border': '1px solid black'})
-                    ],
-                    width=3
-                )
-            ]),
-            dbc.Row([
-                # product details
-                dbc.Col([
-
                 ], width=4),
                 # unit price histogram
                 dbc.Col([
@@ -372,38 +395,8 @@ app.layout = dbc.Container([
                 ], width=4),
                 # product table
                 dbc.Col([
-                    dash_table.DataTable(
-                        id='product_options',
-                        data=None,
-                        columns=[
-                            {"name": 'Brand', "id": 'brand_name'},
-                            {"name": 'Product', "id": 'product_name'},
-                            {"name": 'Unit Price ($/oz.)', "id": 'unit_price', 'type':'numeric', 'format':dash_table.Format.Format(precision=2, scheme=dash_table.Format.Scheme.fixed)},
-                            {"name": 'Rating', 'id':'rating', 'type':'numeric', 'format':dash_table.Format.Format(precision=1, scheme=dash_table.Format.Scheme.fixed)}
-                        ],
-                        page_size=8,
-                        style_cell={
-                            'font-family':'sans-serif',
-                            'textAlign': 'left',
-                            'fontSize':12,
-                            'overflow': 'hidden',
-                            'textOverflow': 'ellipsis',
-                            'backgroundColor':'white',
-                            'lineColor':'black'
-                        },
-                        style_header={
-                            'backgroundColor': '#F8E1F2',
-                            'fontWeight': 'bold'
-                        },
-                        style_data={
-                            'whiteSpace': 'normal',
-                            'height': 'auto',
-                            'lineHeight': '15px'
-                        },
-                        style_table={
-                            "overflowX": "auto"
-                        }
-                    )
+                    html.H5(['Product Recommendations']),
+                    product_data_table
                 ], width=4)
 
             ])
