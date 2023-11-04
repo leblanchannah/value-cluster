@@ -285,10 +285,10 @@ app.layout = dbc.Container([
                         dbc.Row([
                             dbc.Col([
                                 html.Label("Product Type"),
-                            ]),
+                            ], width=5),
                             dbc.Col([
                                 product_category_l0_dropdown
-                            ])
+                            ], width=7)
                         ], style={
                             'border': '1px solid black',
                             'align':'center'})
@@ -300,19 +300,8 @@ app.layout = dbc.Container([
                     id='brand_filter',
                     children=[
                         dbc.Row([
-                            dbc.Col([html.Label("Brand")]),
-                            dbc.Col([brand_dropdown])
-                        ], style={'border': '1px solid black'})
-                    ],
-                    width=3
-                ),
-                # Price filter
-                dbc.Col(
-                    id='price_filter',
-                    children=[
-                        dbc.Row([
-                            dbc.Col([html.Label("Max Price")]),
-                            dbc.Col([max_price_filter])
+                            dbc.Col([html.Label("Brand")], width=4),
+                            dbc.Col([brand_dropdown], width=8)
                         ], style={'border': '1px solid black'})
                     ],
                     width=3
@@ -322,9 +311,20 @@ app.layout = dbc.Container([
                     id='ratio_sorting',
                     children=[
                         dbc.Row([
-                            dbc.Col([html.Label("Sort By")]),
-                            dbc.Col([ratio_sorting_dropdown])
+                            dbc.Col([html.Label("Sort By")], width=4),
+                            dbc.Col([ratio_sorting_dropdown], width=8)
                         ], style={'border': '1px solid black'}),
+                    ],
+                    width=3
+                ),
+                # Price filter
+                dbc.Col(
+                    id='price_filter',
+                    children=[
+                        dbc.Row([
+                            dbc.Col([html.Label("Max Price")], width=4),
+                            dbc.Col([max_price_filter], width=8)
+                        ], style={'border': '1px solid black'})
                     ],
                     width=3
                 ),
@@ -349,8 +349,13 @@ app.layout = dbc.Container([
                     id='product_info_filter',
                     children=[
                         dbc.Row([
-                            dbc.Col([html.Label("Select Product"),]),
-                            dbc.Col([product_info_dropdown])
+                            dbc.Col(
+                                [html.Label("Select Product")],
+                                width=3),
+                            dbc.Col(
+                                [product_info_dropdown],
+                                width=9
+                            )
                         ], style={'border': '1px solid black'})
                     ],
                     width=3
