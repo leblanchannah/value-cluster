@@ -9,6 +9,15 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 
+font_sizes = {
+    'legend_title':12,
+    'legend_item':10,
+    'plot_title':16,
+    'axis_label':14,
+    'h1_title':'1rem',
+    'sidebar_text':14
+}
+
 
 df = pd.read_csv('../data/agg_prod_data.csv')
 df_compare = df[df['swatch_group']=='mini size'].merge(
@@ -177,6 +186,78 @@ def get_continuous_color(colorscale, intermed):
         intermed=((intermed - low_cutoff) / (high_cutoff - low_cutoff)),
         colortype="rgb",
     )
+
+
+def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distribution'):
+    '''
+    Unit price histogram shows distribution of unit prices for selected product category
+    and shows the area of distribution where products are better value than the selected product using different bin colours
+        https://stackoverflow.com/questions/71778342/highlight-one-specific-bar-in-plotly-bar-chart-python
+    This plot and its title are updated when selected product dropdown is used 
+    Args:
+        data - product dataframe input
+        position - id of selected product in dataframe
+        unit_price_col - name of unit price col in dataframe
+        title - title for plot, product category will be appended to this 
+    Returns:
+        plotly express figure
+    '''
+    # adding new column to dataframe to label cheaper products 
+    m_rows = data.shape[0]
+    if m_rows==0:
+        m_rows=1
+    data['value'] = 'expensive'
+    data.loc[data[unit_price_col]<position, 'value'] = 'cheaper'
+    cheaper_products = data[data['value']=='cheaper'].shape[0]
+    pct_cheaper = round((cheaper_products/m_rows)*100, 2)
+    
+    fig = px.histogram(
+            data,
+            x=unit_price_col,
+            color='value',
+            template=PLOT_TEMPLATE_THEME,
+            color_discrete_sequence=["#e84bb1","#FFBEE5",],
+            height=310,
+            title=title,
+            labels={'unit_price': "Unit Price ($/oz.)", "value":""}
+        )
+    
+    fig.update_layout(
+        margin=dict(l=50, r=50, t=50, b=0, pad=0),
+        yaxis=dict(
+            autorange=True,
+        ),
+        yaxis_title="Product Count",
+        xaxis=dict(
+            autorange=True
+        ),
+        title_font_size=font_sizes['plot_title'],
+        autosize=True,
+        legend=dict(
+            yanchor='top',
+            xanchor='right',
+            title_font_size=font_sizes['legend_title'],
+            font_size=font_sizes['legend_item'],
+        )
+    )
+
+    fig.update_xaxes(title_font_size=font_sizes['axis_label'])
+    fig.update_yaxes(title_font_size=font_sizes['axis_label'])
+
+    # need to use update traces to change plotly legend item names 
+    fig.update_traces(
+        showlegend=True
+    )
+    legend_labels = {
+        'cheaper':f'{pct_cheaper}% - better value per<br>unit than selected',
+        'expensive': f'{round(100-pct_cheaper,2)}% - more expensive per<br>unit than selected',
+    }
+    fig.for_each_trace(lambda t: t.update(name = legend_labels[t.name],
+                                        legendgroup = legend_labels[t.name],
+                                        hovertemplate = t.hovertemplate.replace(t.name, legend_labels[t.name])
+                                        )
+                    )
+    return fig
 
 
 def normalize_colour_value(data_point, all_values):
@@ -386,12 +467,24 @@ app.layout = dbc.Container([
                             dbc.Col(
                                 [product_info_dropdown],
                                 width=9
-                            )
-                        ], style={'border': '1px solid black'})
+                            ), 
+                        ], style={'border': '1px solid black'}),
+                        dbc.Row(
+                            id='product_details_text',
+                            children=[""]
+                        )
                 ], width=4),
                 # unit price histogram
                 dbc.Col([
-                    dcc.Graph()
+                    dcc.Graph( 
+                        id='unit_price_hist_plot',
+                        figure=unit_price_histogram(df[df['lvl_2_cat']=='Mascaras'], 310, 'unit_price'),
+                        config={
+                            'responsive':True,
+                            'displayModeBar': False
+                        }, 
+                        style={'height': '100%'}
+                    )
                 ], width=4),
                 # product table
                 dbc.Col([
