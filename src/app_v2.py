@@ -439,7 +439,9 @@ def joint_slope_scatter(df_product_pairs, df_base):
     fig.update_yaxes(title_text="Price ($)", row=1, col=2)
     fig.update_layout(
         hovermode="closest",
+        height=380,
         template=PLOT_TEMPLATE_THEME,
+        margin=dict(l=20, r=20, t=40, b=20),
     )
 
     return fig
@@ -454,46 +456,41 @@ app.layout = dbc.Container([
             dbc.Card(
                 id='title',
                 children=[html.H1("Product Value Comparison")],
-                body=True
+                body=True,
+                style={'text-align': 'center'}
             )
         ], width=4),
         dbc.Col([
-            dbc.Card([
+            dbc.Card(children=[
                 dbc.Row([
                     dbc.Col(
                         id='product_category_filter',
                         children=[
-                            dbc.Row([
-                                dbc.Col([html.Label("Product Type")], className='filter-dropdown'),
-                                dbc.Col([product_category_l0_dropdown], className='filter-dropdown')
-                            ])
+                            html.Label("Product Type"),
+                            product_category_l0_dropdown
                         ],
                     ),
                     dbc.Col(
                         id='brand_filter',
                         children=[
-                            dbc.Row([
-                                dbc.Col([html.Label("Brand")]),
-                                dbc.Col([brand_dropdown])
-                            ])
+                            html.Label("Brand"),
+                            brand_dropdown
                         ],
                     ),
+
                     dbc.Col(
                         id='ratio_sorting',
                         children=[
-                            dbc.Row([
-                                dbc.Col([html.Label("Sort By")]),
-                                dbc.Col([ratio_sorting_dropdown])
-                            ]),
+                            html.Label("Sort Product Pairs By"),
+                            ratio_sorting_dropdown
                         ],
                     ),
                     dbc.Col(
                         id='price_filter',
                         children=[
-                            dbc.Row([
-                                dbc.Col([html.Label("Max Price")]),
-                                dbc.Col([max_price_filter])
-                            ])
+                            html.Label("Maximum Price"),
+                            html.Br(),
+                            max_price_filter
                         ],
                     ),
                 ])
@@ -518,19 +515,17 @@ app.layout = dbc.Container([
                 dbc.Row([
                     dbc.Col([
                         dbc.Row([
-                            dbc.Col(
-                                children=[html.Label("Selected Product")],
-                                width='auto'
-                            ),
-                            dbc.Col(
-                                children=[product_info_dropdown],
-                                width='auto'
-                            )
+                            html.H3(["Selected Product"]),
+                            product_info_dropdown,
                         ]),
                         dbc.Row([
 
                         ])
-                    ]),
+                    ], width=3),
+                    dbc.Col([
+                        html.H3(['Product Recommendations']),
+                        product_data_table
+                    ], width=6),
                     dbc.Col([
                         dcc.Graph( 
                             id='unit_price_hist_plot',
@@ -540,11 +535,8 @@ app.layout = dbc.Container([
                                 'displayModeBar': False
                             }, 
                         )
-                    ]),
-                    dbc.Col([
-                        html.H5(['Product Recommendations']),
-                        product_data_table
-                    ]),
+                    ], width=3),
+
                 ])
             ], body=True)
         ])
