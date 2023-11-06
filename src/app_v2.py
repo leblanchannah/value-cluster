@@ -451,22 +451,23 @@ app.layout = dbc.Container([
     # title and filters
     dbc.Row([
         dbc.Col([
+            dbc.Card(
+                id='title',
+                children=[html.H1("Product Value Comparison")],
+                body=True
+            )
+        ], width=4),
+        dbc.Col([
             dbc.Card([
                 dbc.Row([
-                    dbc.Col(
-                        id='title',
-                        children=[html.H1("Value Comparison")],
-                        width='auto'
-                    ),
                     dbc.Col(
                         id='product_category_filter',
                         children=[
                             dbc.Row([
-                                dbc.Col([html.Label("Product Type")]),
-                                dbc.Col([product_category_l0_dropdown], width=7)
+                                dbc.Col([html.Label("Product Type")], className='filter-dropdown'),
+                                dbc.Col([product_category_l0_dropdown], className='filter-dropdown')
                             ])
                         ],
-                        width="auto"
                     ),
                     dbc.Col(
                         id='brand_filter',
@@ -476,7 +477,6 @@ app.layout = dbc.Container([
                                 dbc.Col([brand_dropdown])
                             ])
                         ],
-                        width="auto"
                     ),
                     dbc.Col(
                         id='ratio_sorting',
@@ -486,7 +486,6 @@ app.layout = dbc.Container([
                                 dbc.Col([ratio_sorting_dropdown])
                             ]),
                         ],
-                        width="auto"
                     ),
                     dbc.Col(
                         id='price_filter',
@@ -496,11 +495,10 @@ app.layout = dbc.Container([
                                 dbc.Col([max_price_filter])
                             ])
                         ],
-                        width="auto"
                     ),
                 ])
             ], body=True)
-        ])
+        ], width=8)
     ]),
     # product comparison plots
     dbc.Row([
