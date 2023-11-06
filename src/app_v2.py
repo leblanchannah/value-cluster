@@ -52,11 +52,6 @@ theme = {
     "header_margin":"0px 0px 15px 0px",
     "header_padding":"0px",
     "text":"#606060",
-    "report_font_family":"Computer Modern",
-    "report_font_size":"12px",
-    "report_background_page":"white",
-    "report_background_content":"#FAFBFC",
-    "report_text":"black"
 }
 
 from dash import Dash, html, dcc, Input, Output, callback, ctx, dash_table
@@ -451,107 +446,93 @@ def joint_slope_scatter(df_product_pairs, df_base):
 
 
 
-app.layout = dbc.Container([
 
-    # unit price comparison
+app.layout = dbc.Container([
+    # title and filters
     dbc.Row([
         dbc.Col([
-            # filters 
-            dbc.Card([    
-                dbc.Row([  
-                    #title
+            dbc.Card([
+                dbc.Row([
                     dbc.Col(
                         id='title',
                         children=[html.H1("Value Comparison")],
-                        width="auto"
+                        width='auto'
                     ),
-                    # Product type filter          
                     dbc.Col(
                         id='product_category_filter',
                         children=[
                             dbc.Row([
-                                dbc.Col([
-                                    html.Label("Product Type"),
-                                ], width=5),
-                                dbc.Col([
-                                    product_category_l0_dropdown
-                                ], width=7)
-                            ], style={
-                                'border': '1px solid black',
-                                'align':'center'})
+                                dbc.Col([html.Label("Product Type")]),
+                                dbc.Col([product_category_l0_dropdown], width=7)
+                            ])
                         ],
                         width="auto"
                     ),
-                    # Brand filter
                     dbc.Col(
                         id='brand_filter',
                         children=[
                             dbc.Row([
-                                dbc.Col([html.Label("Brand")], width=4),
-                                dbc.Col([brand_dropdown], width=8)
-                            ], style={'border': '1px solid black'})
+                                dbc.Col([html.Label("Brand")]),
+                                dbc.Col([brand_dropdown])
+                            ])
                         ],
                         width="auto"
                     ),
-                    # Ratio selection 
                     dbc.Col(
                         id='ratio_sorting',
                         children=[
                             dbc.Row([
-                                dbc.Col([html.Label("Sort By")], width=4),
-                                dbc.Col([ratio_sorting_dropdown], width=8)
-                            ], style={'border': '1px solid black'}),
+                                dbc.Col([html.Label("Sort By")]),
+                                dbc.Col([ratio_sorting_dropdown])
+                            ]),
                         ],
                         width="auto"
                     ),
-                    # Price filter
                     dbc.Col(
                         id='price_filter',
                         children=[
                             dbc.Row([
-                                dbc.Col([html.Label("Max Price")], width=4),
-                                dbc.Col([max_price_filter], width=8)
-                            ], style={'border': '1px solid black'})
+                                dbc.Col([html.Label("Max Price")]),
+                                dbc.Col([max_price_filter])
+                            ])
                         ],
                         width="auto"
-                    ),  ])
-                ] )
-          ,
-            # figure with 2 subplots
-        dbc.Card([  
-            dbc.Row([
-                dbc.Col([
-                    dcc.Graph(
-                        id='slope_scatter_joint',
-                        figure=joint_slope_scatter(df_compare[50:70], df)
-                    )
-                ], width=12)
-            ])
-        ], body=True),
-        ], width=12),
+                    ),
+                ])
+            ], body=True)
+        ])
     ]),
-    # product details
-    dbc.Card([  
-        dbc.Row([
-            dbc.Col([
+    # product comparison plots
+    dbc.Row([
+        dbc.Col([
+            dbc.Card([
+                dcc.Graph(
+                    id='slope_scatter_joint',
+                    figure=joint_slope_scatter(df_compare[50:70], df)
+                )
+            ], body=True)
+        ])
+    ]),
+    # selected product info
+    dbc.Row([
+        dbc.Col([
+            dbc.Card([
                 dbc.Row([
-                    # product details
                     dbc.Col([
-                            dbc.Row([
-                                dbc.Col(
-                                    [html.Label("Select Product")],
-                                    width=3),
-                                dbc.Col(
-                                    [product_info_dropdown],
-                                    width=9
-                                ), 
-                            ], style={'border': '1px solid black'}),
-                            dbc.Row(
-                                id='product_details_text',
-                                children=[""]
+                        dbc.Row([
+                            dbc.Col(
+                                children=[html.Label("Selected Product")],
+                                width='auto'
+                            ),
+                            dbc.Col(
+                                children=[product_info_dropdown],
+                                width='auto'
                             )
-                    ], width=4, style={}),
-                    # unit price histogram
+                        ]),
+                        dbc.Row([
+
+                        ])
+                    ]),
                     dbc.Col([
                         dcc.Graph( 
                             id='unit_price_hist_plot',
@@ -560,24 +541,19 @@ app.layout = dbc.Container([
                                 'responsive':True,
                                 'displayModeBar': False
                             }, 
-                            style={'height': '100%'}
                         )
-                    ], width=4),
-                    # product table
+                    ]),
                     dbc.Col([
                         html.H5(['Product Recommendations']),
                         product_data_table
-                    ], width=4)
-
+                    ]),
                 ])
-            ], width=12)
+            ], body=True)
+        ])
+    ])
+],fluid=True)
 
-
-        ]),], body=True)
-],
-fluid=True
-)
-
+    
 ############# CALLBACKS ############# 
 
 #need to add sorting option
