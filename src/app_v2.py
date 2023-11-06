@@ -310,7 +310,11 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distr
         font_color="#606060",
         title_font_family="Poppins",
         title_font_color="#606060",
-        legend_title_font_color="#606060"
+        legend_title_font_color="#606060",
+        hoverlabel=dict(
+            font_family="Poppins"
+        )
+
     )
 
     fig.update_xaxes(title_font_size=font_sizes['axis_label'])
@@ -397,6 +401,7 @@ def joint_slope_scatter(df_product_pairs, df_base):
         ),
         showlegend=False,
         plot_bgcolor='white',
+        
     )
 
     # right side - scatter plot
@@ -453,6 +458,9 @@ def joint_slope_scatter(df_product_pairs, df_base):
     fig.update_yaxes(title_text="Price ($)", row=1, col=2)
     fig.update_layout(
         hovermode="closest",
+        hoverlabel=dict(
+            font_family="Poppins"
+        ),
         height=380,
         template=PLOT_TEMPLATE_THEME,
         margin=dict(l=20, r=20, t=40, b=20),
@@ -461,6 +469,7 @@ def joint_slope_scatter(df_product_pairs, df_base):
         title_font_family="Poppins",
         title_font_color="#606060",
         legend_title_font_color="#606060"
+
     )
 
     return fig
