@@ -1,5 +1,9 @@
 
-
+dropdown_style = {
+        'font-family': 'Poppins',
+        'text':'#606060',
+        'border-color':'#e2e2e2',
+    }
 
 theme = {
     "accent":"#d14f96",
@@ -118,9 +122,9 @@ product_data_table = dash_table.DataTable(
     ],
     page_size=8,
     style_cell={
-        'font-family':'sans-serif',
+        'font-family':'Poppins',
         'textAlign': 'left',
-        'fontSize':12,
+        'fontSize':14,
         'overflow': 'hidden',
         'textOverflow': 'ellipsis',
         'backgroundColor':'white',
@@ -146,17 +150,20 @@ product_category_l0_dropdown = dcc.Dropdown(
     id='product_category_l0_dropdown',
     options = [x for x in df.lvl_0_cat.unique() if x!=' ' and x!='Mini Size' and x!='Men'],
     value='Fragrance',
+    style=dropdown_style
 )
 
 brand_dropdown = dcc.Dropdown(
     id='brand_dropdown',
     options=[x for x in df.brand_name.unique()],
-    value='TOM FORD'
+    value='TOM FORD',
+    style=dropdown_style
 )
 
 ratio_sorting_dropdown = dcc.Dropdown(
     id='ratio_sorting_dropdown',
     options=[],
+    style=dropdown_style
 )
 
 product_options = [{'label':x.product_name+' '+x.brand_name+' '+x.swatch_group,'value':x.index} for x in df[['product_name','brand_name','index','swatch_group']].itertuples()]
@@ -165,6 +172,7 @@ product_info_dropdown = dcc.Dropdown(
     options=product_options,
     placeholder='Dior Forever Loose Cushion Powder',
     value=4168,
+    style=dropdown_style
 )
 
 max_price_filter =  dcc.Input(
@@ -173,6 +181,7 @@ max_price_filter =  dcc.Input(
     min=0,
     max=2000,
     step=5,
+    # style=dropdown_style
 )
 
 def get_color(colorscale_name, loc):
@@ -296,7 +305,12 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distr
             xanchor='right',
             title_font_size=font_sizes['legend_title'],
             font_size=font_sizes['legend_item'],
-        )
+        ),
+        font_family="Poppins",
+        font_color="#606060",
+        title_font_family="Poppins",
+        title_font_color="#606060",
+        legend_title_font_color="#606060"
     )
 
     fig.update_xaxes(title_font_size=font_sizes['axis_label'])
@@ -442,6 +456,11 @@ def joint_slope_scatter(df_product_pairs, df_base):
         height=380,
         template=PLOT_TEMPLATE_THEME,
         margin=dict(l=20, r=20, t=40, b=20),
+        font_family="Poppins",
+        font_color="#606060",
+        title_font_family="Poppins",
+        title_font_color="#606060",
+        legend_title_font_color="#606060"
     )
 
     return fig

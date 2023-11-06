@@ -3,12 +3,27 @@ body{
     text:#606060;
 }
 
-h1, h5{
+h1{
     font-family: Poppins;
+    font-size:36px;
     text:#606060;
 }
 
+h3{
+    font-family: Poppins;
+    text:#606060;
+    font-size:24px;
+}
+
 label{
+    font-family: Poppins;
+    text:#606060;
+    font-size:18px;
+    margin-right: 0;
+    padding: 0;
+}
+
+.dropdown{
     font-family: Poppins;
     text:#606060;
 }
@@ -16,8 +31,9 @@ label{
 .card{
     background-color:#F2F2F2;
     box-shadow: 0px 0px 0px rgba(0,0,0,0);
-    margin:15px;
-    padding:5px;
+    padding:0px;
+    margin:10px;
     border: 1px solid #e2e2e2;
     outline: 0px solid #e2e2e2;
 }
+
