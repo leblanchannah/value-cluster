@@ -1,3 +1,64 @@
+
+
+
+theme = {
+    "accent":"#d14f96",
+    "accent_negative":"#ff9f9f",
+    "accent_positive":"#4ab2ff",
+    "background_content":"#F2F2F2",
+    "background_page":"#F9F9F9",
+    "border":"#e2e2e2",
+    "breakpoint_font":"1200px",
+    "breakpoint_stack_blocks":"700px",
+
+    "colorway":[
+         "#d14f96",
+         "#4c78a8",
+         "#f58518",
+         "#e45756",
+         "#72b7b2",
+         "#54a24b",
+         "#eeca3b",
+         "#ff9da6",
+         "#9d755d",
+         "#bab0ac"
+    ],
+    "colorscale":[
+         "#fff7f3",
+         "#fde0dd",
+         "#fcc5c0",
+         "#fa9fb5",
+         "#f768a1",
+         "#dd3497",
+         "#ae017e",
+         "#7a0177",
+         "#49006a"
+    ],
+    "font_family":"Poppins",
+    "font_size":"17px",
+    "font_size_smaller_screen":"15px",
+    "font_family_header":"Poppins",
+    "font_size_header":"24px",
+    "font_family_headings":"Poppins",
+    "font_headings_size":None,
+    "header_border":{
+         "width":"0px",
+         "style":"solid",
+         "color":"#e2e2e2",
+         "radius":"0px"
+    },
+    "header_background_color":"#F2F2F2",
+    "header_box_shadow":"none",
+    "header_margin":"0px 0px 15px 0px",
+    "header_padding":"0px",
+    "text":"#606060",
+    "report_font_family":"Computer Modern",
+    "report_font_size":"12px",
+    "report_background_page":"white",
+    "report_background_content":"#FAFBFC",
+    "report_text":"black"
+}
+
 from dash import Dash, html, dcc, Input, Output, callback, ctx, dash_table
 import plotly.subplots as sp
 import dash_bootstrap_components as dbc
@@ -49,7 +110,7 @@ app = Dash(
 )
 
 PLOT_TEMPLATE_THEME = 'plotly_white'
-COLOUR_SCALE='plotly3_r'
+COLOUR_SCALE='RdPu'
 
 product_data_table = dash_table.DataTable(
     id='cheaper_product_table',
@@ -71,7 +132,6 @@ product_data_table = dash_table.DataTable(
         'lineColor':'black'
     },
     style_header={
-        'backgroundColor': '#F8E1F2',
         'fontWeight': 'bold'
     },
     style_data={
@@ -392,68 +452,73 @@ def joint_slope_scatter(df_product_pairs, df_base):
 
 
 app.layout = dbc.Container([
-    # title
-    dbc.Row([
-        dbc.Col([
-        ], width=12)
-    ]),
+
     # unit price comparison
     dbc.Row([
         dbc.Col([
             # filters 
-            dbc.Row([
-                # Product type filter
-                dbc.Col(
-                    id='product_category_filter',
-                    children=[
-                        dbc.Row([
-                            dbc.Col([
-                                html.Label("Product Type"),
-                            ], width=5),
-                            dbc.Col([
-                                product_category_l0_dropdown
-                            ], width=7)
-                        ], style={
-                            'border': '1px solid black',
-                            'align':'center'})
-                    ],
-                    width=3
-                ),
-                # Brand filter
-                dbc.Col(
-                    id='brand_filter',
-                    children=[
-                        dbc.Row([
-                            dbc.Col([html.Label("Brand")], width=4),
-                            dbc.Col([brand_dropdown], width=8)
-                        ], style={'border': '1px solid black'})
-                    ],
-                    width=3
-                ),
-                # Ratio selection 
-                dbc.Col(
-                    id='ratio_sorting',
-                    children=[
-                        dbc.Row([
-                            dbc.Col([html.Label("Sort By")], width=4),
-                            dbc.Col([ratio_sorting_dropdown], width=8)
-                        ], style={'border': '1px solid black'}),
-                    ],
-                    width=3
-                ),
-                # Price filter
-                dbc.Col(
-                    id='price_filter',
-                    children=[
-                        dbc.Row([
-                            dbc.Col([html.Label("Max Price")], width=4),
-                            dbc.Col([max_price_filter], width=8)
-                        ], style={'border': '1px solid black'})
-                    ],
-                    width=3
-                ),
-            ], style={'backgroundColor': '#F8E1F2'}),
-            # figure with 2 subplots 
+            dbc.Card([    
+                dbc.Row([  
+                    #title
+                    dbc.Col(
+                        id='title',
+                        children=[html.H1("Value Comparison")],
+                        width="auto"
+                    ),
+                    # Product type filter          
+                    dbc.Col(
+                        id='product_category_filter',
+                        children=[
+                            dbc.Row([
+                                dbc.Col([
+                                    html.Label("Product Type"),
+                                ], width=5),
+                                dbc.Col([
+                                    product_category_l0_dropdown
+                                ], width=7)
+                            ], style={
+                                'border': '1px solid black',
+                                'align':'center'})
+                        ],
+                        width="auto"
+                    ),
+                    # Brand filter
+                    dbc.Col(
+                        id='brand_filter',
+                        children=[
+                            dbc.Row([
+                                dbc.Col([html.Label("Brand")], width=4),
+                                dbc.Col([brand_dropdown], width=8)
+                            ], style={'border': '1px solid black'})
+                        ],
+                        width="auto"
+                    ),
+                    # Ratio selection 
+                    dbc.Col(
+                        id='ratio_sorting',
+                        children=[
+                            dbc.Row([
+                                dbc.Col([html.Label("Sort By")], width=4),
+                                dbc.Col([ratio_sorting_dropdown], width=8)
+                            ], style={'border': '1px solid black'}),
+                        ],
+                        width="auto"
+                    ),
+                    # Price filter
+                    dbc.Col(
+                        id='price_filter',
+                        children=[
+                            dbc.Row([
+                                dbc.Col([html.Label("Max Price")], width=4),
+                                dbc.Col([max_price_filter], width=8)
+                            ], style={'border': '1px solid black'})
+                        ],
+                        width="auto"
+                    ),  ])
+                ] )
+          ,
+            # figure with 2 subplots
+        dbc.Card([  
             dbc.Row([
                 dbc.Col([
                     dcc.Graph(
@@ -461,51 +526,54 @@ app.layout = dbc.Container([
                         figure=joint_slope_scatter(df_compare[50:70], df)
                     )
                 ], width=12)
-            ]),
+            ])
+        ], body=True),
         ], width=12),
     ]),
-    # product details 
-    dbc.Row([
-        dbc.Col([
-            dbc.Row([
-                # product details
-                dbc.Col([
-                        dbc.Row([
-                            dbc.Col(
-                                [html.Label("Select Product")],
-                                width=3),
-                            dbc.Col(
-                                [product_info_dropdown],
-                                width=9
-                            ), 
-                        ], style={'border': '1px solid black'}),
-                        dbc.Row(
-                            id='product_details_text',
-                            children=[""]
+    # product details
+    dbc.Card([  
+        dbc.Row([
+            dbc.Col([
+                dbc.Row([
+                    # product details
+                    dbc.Col([
+                            dbc.Row([
+                                dbc.Col(
+                                    [html.Label("Select Product")],
+                                    width=3),
+                                dbc.Col(
+                                    [product_info_dropdown],
+                                    width=9
+                                ), 
+                            ], style={'border': '1px solid black'}),
+                            dbc.Row(
+                                id='product_details_text',
+                                children=[""]
+                            )
+                    ], width=4, style={}),
+                    # unit price histogram
+                    dbc.Col([
+                        dcc.Graph( 
+                            id='unit_price_hist_plot',
+                            figure=unit_price_histogram(df[df['lvl_2_cat']=='Mascaras'], 310, 'unit_price'),
+                            config={
+                                'responsive':True,
+                                'displayModeBar': False
+                            }, 
+                            style={'height': '100%'}
                         )
-                ], width=4, style={'backgroundColor': '#F8E1F2'}),
-                # unit price histogram
-                dbc.Col([
-                    dcc.Graph( 
-                        id='unit_price_hist_plot',
-                        figure=unit_price_histogram(df[df['lvl_2_cat']=='Mascaras'], 310, 'unit_price'),
-                        config={
-                            'responsive':True,
-                            'displayModeBar': False
-                        }, 
-                        style={'height': '100%'}
-                    )
-                ], width=4),
-                # product table
-                dbc.Col([
-                    html.H5(['Product Recommendations']),
-                    product_data_table
-                ], width=4)
+                    ], width=4),
+                    # product table
+                    dbc.Col([
+                        html.H5(['Product Recommendations']),
+                        product_data_table
+                    ], width=4)
 
-            ])
-        ], width=12)
+                ])
+            ], width=12)
 
-    ]),
+
+        ]),], body=True)
 ],
 fluid=True
 )
