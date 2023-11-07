@@ -127,13 +127,16 @@ product_data_table = dash_table.DataTable(
         'fontSize':14,
         'overflow': 'hidden',
         'textOverflow': 'ellipsis',
-        'backgroundColor':'white',
-        'lineColor':'black'
+        'backgroundColor':'#F9F9F9',
+
     },
     style_header={
-        'fontWeight': 'bold'
+        'fontWeight': 'bold',
+        'border':'1px solid #d14f96',
+        'backgroundColor':'white'
     },
     style_data={
+        'border':'1px solid #d14f96',
         'whiteSpace': 'normal',
         'height': 'auto',
         'lineHeight': '15px'
@@ -468,7 +471,9 @@ def joint_slope_scatter(df_product_pairs, df_base):
         font_color="#606060",
         title_font_family="Poppins",
         title_font_color="#606060",
-        legend_title_font_color="#606060"
+        legend_title_font_color="#606060",
+        plot_bgcolor='#F9F9F9',
+        paper_bgcolor='#F9F9F9'
 
     )
 
@@ -483,9 +488,9 @@ app.layout = dbc.Container([
         dbc.Col([
             dbc.Card(
                 id='title',
-                children=[html.H1("Product Value Comparison")],
+                children=[html.H1("Product Value Canvas")],
                 body=True,
-                style={'text-align': 'center'}
+                # style={'text-align': 'center'}
             )
         ], width=4),
         dbc.Col([
@@ -531,7 +536,7 @@ app.layout = dbc.Container([
             dbc.Card([
                 dcc.Graph(
                     id='slope_scatter_joint',
-                    figure=joint_slope_scatter(df_compare[50:70], df)
+                    figure=joint_slope_scatter(df_compare[50:70], df),
                 )
             ], body=True)
         ])
