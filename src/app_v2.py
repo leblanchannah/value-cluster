@@ -3,6 +3,7 @@ dropdown_style = {
         'font-family': 'Poppins',
         'text':'#606060',
         'border-color':'#e2e2e2',
+        'font-size':'12px',
     }
 
 theme = {
@@ -346,10 +347,8 @@ def normalize_colour_value(data_point, all_values):
     return (data_point - min(all_values)) / (max(all_values) - min(all_values))
 
 
-def joint_slope_scatter(df_product_pairs, df_base):
+def joint_slope_scatter(df_product_pairs, df_base, slope_plot_title, scatter_plot_title):
 
-    slope_plot_title = "Unit Price Comparison Of Products"
-    scatter_plot_title = "Explore Products By Size And Price"
 
     fig = sp.make_subplots(rows=1, cols=2, column_widths=[0.4, 0.6],
         subplot_titles=(slope_plot_title, scatter_plot_title))
@@ -514,7 +513,7 @@ app.layout = dbc.Container([
                     dbc.Col(
                         id='ratio_sorting',
                         children=[
-                            html.Label("Sort Product Pairs By"),
+                            html.Label("Sort Product Pairs"),
                             ratio_sorting_dropdown
                         ],
                     ),
@@ -536,7 +535,7 @@ app.layout = dbc.Container([
             dbc.Card([
                 dcc.Graph(
                     id='slope_scatter_joint',
-                    figure=joint_slope_scatter(df_compare[50:70], df),
+                    figure=joint_slope_scatter(df_compare[50:70], df, "Unit Price Comparison Of Products", "Explore Products By Size And Price"),
                 )
             ], body=True)
         ])
@@ -592,9 +591,6 @@ def update_joint_plot(category_val, brand_val, max_price_val):
     df_filter_pairs = df_compare.copy()
     df_filter_products = df.copy()
 
-    # need to update titles 
-    # title = f'Explore{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Products By Size And Price'
-    
     if category_val:
         df_filter_pairs = df_filter_pairs[df_filter_pairs['lvl_0_cat_standard']==category_val]
         df_filter_products = df_filter_products[df_filter_products['lvl_0_cat']==category_val]
@@ -607,7 +603,13 @@ def update_joint_plot(category_val, brand_val, max_price_val):
         df_filter_pairs = df_filter_pairs[df_filter_pairs['price_standard']<max_price_val]
         df_filter_products = df_filter_products[df_filter_products['price']<max_price_val]
 
-    return joint_slope_scatter(df_filter_pairs, df_filter_products)
+    # need to update titles 
+    # pairplot_title = f'Top 10{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Products '
+    pair_title = f'Unit Price Comparison of{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Products '
+    scatter_title = f'Explore{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Products By Size And Price'
+
+    
+    return joint_slope_scatter(df_filter_pairs, df_filter_products, pair_title, scatter_title)
         
 if __name__ == '__main__':
     app.run_server(debug=True)

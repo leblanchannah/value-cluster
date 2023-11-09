@@ -22,7 +22,7 @@ h3{
 label{
     font-family: 'Poppins', sans-serif;
     text:#606060;
-    font-size:16px;
+    font-size:14px;
     margin-right: 0;
     padding: 0;
 }
@@ -36,7 +36,7 @@ label{
     background-color:#F9F9F9;
     box-shadow: 0px 0px 0px rgba(0,0,0,0);
     padding:0px;
-    margin:10px;
+    margin:8px;
     border: 1px solid #e2e2e2;
     outline: 0px solid #e2e2e2;
     border-radius: 0px;
