@@ -81,6 +81,9 @@ font_sizes = {
 
 
 df = pd.read_csv('../data/agg_prod_data.csv')
+
+df['link'] = "["+df['product_name']+"]("+df["url"]+")"
+
 df_compare = df[df['swatch_group']=='mini size'].merge(
     df[df['swatch_group']=='standard size'],
     on=['product_id','product_name','brand_name'],
@@ -101,7 +104,6 @@ df.loc[df['swatch_group'].isin(['value size','refill size']), 'mini_to_standard_
 
 
 # Initialize the Dash app
-app = Dash(__name__)
 
 app = Dash(
     __name__,
@@ -114,13 +116,14 @@ COLOUR_SCALE='RdPu'
 
 product_data_table = dash_table.DataTable(
     id='cheaper_product_table',
-    data=df.sort_values(by='unit_price', ascending=True)[['brand_name','product_name','unit_price','rating']].to_dict("records"),
+    data=df.sort_values(by='unit_price', ascending=True)[['brand_name','link','unit_price','rating']].to_dict("records"),
     columns=[
         {"name": 'Brand', "id": 'brand_name'},
-        {"name": 'Product', "id": 'product_name'},
+        {"name": 'Product', "id": 'link', 'presentation':'markdown'},
         {"name": 'Unit Price ($/oz.)', "id": 'unit_price', 'type':'numeric', 'format':dash_table.Format.Format(precision=2, scheme=dash_table.Format.Scheme.fixed)},
         {"name": 'Rating', 'id':'rating', 'type':'numeric', 'format':dash_table.Format.Format(precision=1, scheme=dash_table.Format.Scheme.fixed)}
     ],
+    sort_action="native",
     page_size=8,
     style_cell={
         'font-family':'Poppins',
@@ -603,8 +606,6 @@ def update_joint_plot(category_val, brand_val, max_price_val):
         df_filter_pairs = df_filter_pairs[df_filter_pairs['price_standard']<max_price_val]
         df_filter_products = df_filter_products[df_filter_products['price']<max_price_val]
 
-    # need to update titles 
-    # pairplot_title = f'Top 10{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Products '
     pair_title = f'Unit Price Comparison of{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Products '
     scatter_title = f'Explore{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Products By Size And Price'
 

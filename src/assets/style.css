@@ -27,10 +27,16 @@ label{
     padding: 0;
 }
 
-/* .dropdown{
-    font-family: Poppins;
-    text:#606060;
-} */
+a:link {
+    color: #d14f96;
+}
+a:visited {
+    color: #ff9f9f;
+}
+
+a:active {
+    color: #4ab2ff;
+}
 
 .card{
     background-color:#F9F9F9;

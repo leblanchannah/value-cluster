@@ -273,7 +273,8 @@ def main():
         'sku':'unique',
         'amount_b':'first',
         'unit_b':'first',
-        'product_multiplier':'first'
+        'product_multiplier':'first',
+        'url':'first'
     })
 
     df['amount_adj'] = df['amount_a'] * df['product_multiplier'].astype('float')
