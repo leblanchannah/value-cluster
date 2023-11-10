@@ -581,6 +581,16 @@ app.layout = dbc.Container([
     
 ############# CALLBACKS ############# 
 
+@app.callback(
+        Output('brand_dropdown', 'options'),
+        Input('product_category_l0_dropdown', 'value')
+)
+def set_brand_options(product_category):
+    # dynamic dropdown, only allows user to select brands with products in selected category
+    candidate_brands = df[df['lvl_0_cat']==product_category].groupby('brand_name', as_index=False)['index'].count()
+    brand_options = candidate_brands[candidate_brands['index']>0]['brand_name'].values
+    return brand_options
+
 #need to add sorting option
 # and update to plot titles  
 @callback(
@@ -590,7 +600,6 @@ app.layout = dbc.Container([
     Input('max_price_filter', 'value'),
 )
 def update_joint_plot(category_val, brand_val, max_price_val):
-    triggered_id = ctx.triggered_id
     df_filter_pairs = df_compare.copy()
     df_filter_products = df.copy()
 
