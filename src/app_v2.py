@@ -625,16 +625,36 @@ def get_single_product_data(df, row_id, index_col='index'):
     '''
     return df[df[index_col]==row_id].to_dict('records')[0]
 
+
+
     
 ############# CALLBACKS ############# 
+@app.callback(
+        Output('cheaper_product_table','data'),
+        Input('product_info_dropdown','value')
+)
+def update_table_data(product_value):
+    data = get_single_product_data(df, product_value)
+    cheaper_product = (df['unit_price']<data['unit_price'])
+    same_category = (df['lvl_2_cat']==data['lvl_2_cat'])
+    df_filtered_table = df[cheaper_product & same_category]
+    table_cols = ['brand_name','link','unit_price','rating']
+    table = df_filtered_table.sort_values(by='unit_price', ascending=True)[table_cols].to_dict("records")
+    return table
+
+
+
 @app.callback(
         Output('selected_product_info', 'children'),
         Input('product_info_dropdown','value')
 )
 def update_product_details(product_value):
     data = get_single_product_data(df, product_value)
-    return single_product_info_box(df, data)
+    product_info_text = single_product_info_box(df, data)
+    return product_info_text
 
+
+# def filter_data_table(df, data, required_cols)
 
 @app.callback(
         Output('brand_dropdown', 'options'),
@@ -644,6 +664,7 @@ def set_brand_options(product_category):
     # dynamic dropdown, only allows user to select brands with products in selected category
     candidate_brands = df[df['lvl_0_cat']==product_category].groupby('brand_name', as_index=False)['index'].count()
     brand_options = candidate_brands[candidate_brands['index']>0]['brand_name'].values
+    
     return brand_options
 
 
