@@ -19,11 +19,25 @@ h3{
     font-size:24px;
 }
 
+p{
+    font-family: 'Poppins', sans-serif;
+    text:#606060;
+    font-size:14px;
+}
+
+
+h5{
+    font-family: 'Poppins', sans-serif;
+    text:#606060;
+    font-size:16px;
+}
+
 label{
     font-family: 'Poppins', sans-serif;
     text:#606060;
     font-size:14px;
     margin-right: 0;
+    margin-top: 0;
     padding: 0;
 }
 

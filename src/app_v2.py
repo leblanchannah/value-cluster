@@ -131,7 +131,7 @@ product_data_table = dash_table.DataTable(
         'fontSize':14,
         'overflow': 'hidden',
         'textOverflow': 'ellipsis',
-        'backgroundColor':'#F9F9F9',
+        'backgroundColor':'white',
 
     },
     style_header={
@@ -290,7 +290,7 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distr
             x=unit_price_col,
             color='value',
             template=PLOT_TEMPLATE_THEME,
-            color_discrete_sequence=["#e84bb1","#FFBEE5",],
+            color_discrete_sequence=["#d14f96","#FFBEE5",],
             height=310,
             title=title,
             labels={'unit_price': "Unit Price ($/oz.)", "value":""}
@@ -551,25 +551,31 @@ app.layout = dbc.Container([
                         dbc.Row([
                             html.H3(["Selected Product"]),
                             product_info_dropdown,
+                            html.Br(),
+                            html.Br()
                         ]),
                         dbc.Row([
-                            html.Div(id='selected_product_info')
+                            dcc.Graph( 
+                                id='unit_price_hist_plot',
+                                config={
+                                    'responsive':True,
+                                    'displayModeBar': False
+                                }, 
+                            )
                         ])
+                    ], width=4),
+                    dbc.Col([
+                        # html.Br(),
+                        # html.Br(),
+                        # html.Br(),
+                        html.Div(id='selected_product_info',
+                                style={'background-color':'white', 'margin-top':'35px'})
+                        
                     ], width=2),
                     dbc.Col([
                         html.H3(['Product Recommendations']),
                         product_data_table
                     ], width=6),
-                    dbc.Col([
-                        dcc.Graph( 
-                            id='unit_price_hist_plot',
-                            figure=unit_price_histogram(df[df['lvl_2_cat']=='Mascaras'], 310, 'unit_price'),
-                            config={
-                                'responsive':True,
-                                'displayModeBar': False
-                            }, 
-                        )
-                    ], width=4),
 
                 ])
             ], body=True)
@@ -598,7 +604,6 @@ def single_product_info_box(df, data):
     l2_type = (df['lvl_2_cat']==data['lvl_2_cat']) 
     num_cheaper_products = df[unit_price & l2_type].shape[0]
     return [
-        html.Br(),
         html.B("Product: "),
         html.Span(f"{data['product_name']}, {data['swatch_group']}"),
         html.Br(),
@@ -630,6 +635,23 @@ def get_single_product_data(df, row_id, index_col='index'):
     
 ############# CALLBACKS ############# 
 @app.callback(
+        Output('unit_price_hist_plot','figure'),
+        Input('product_info_dropdown','value')
+)
+def update_histogram_figure(product_value):
+    data = get_single_product_data(df, product_value)
+    category = data['lvl_2_cat']
+    title = f'Unit Price Distribution Of {category} Category'    
+    fig = unit_price_histogram(
+        df[df['lvl_2_cat']==category],
+        data['unit_price'],
+        'unit_price',
+        title=title
+    )
+    return fig
+
+
+@app.callback(
         Output('cheaper_product_table','data'),
         Input('product_info_dropdown','value')
 )
@@ -654,7 +676,6 @@ def update_product_details(product_value):
     return product_info_text
 
 
-# def filter_data_table(df, data, required_cols)
 
 @app.callback(
         Output('brand_dropdown', 'options'),
