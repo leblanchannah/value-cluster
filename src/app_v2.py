@@ -182,7 +182,7 @@ product_info_dropdown = dcc.Dropdown(
     style=dropdown_style
 )
 
-max_price_filter =  dcc.Input(
+max_price_filter = dcc.Input(
     id='max_price_filter',
     type='number',
     min=0,
@@ -554,7 +554,7 @@ app.layout = dbc.Container([
                             product_info_dropdown,
                         ]),
                         dbc.Row([
-
+                            html.Div(id='selected_product_info')
                         ])
                     ], width=3),
                     dbc.Col([
@@ -578,8 +578,62 @@ app.layout = dbc.Container([
     ])
 ],fluid=True)
 
+
+def single_product_info_box(df, data):
+    ''' 
+    Product details box outlines features for a product selected on the slope plot or scatter plot.
+    Example text returned 
+        Product: prep + prime highlighter, standard size
+        Brand: mac cosmetics
+        Price: $37.0
+        Size: 0.12 oz
+
+        There are 79 highlighter products at Sephora with unit price less than 308.33 $/oz
+    Args:
+        df - product dataset as pd dataframe
+        data - dictionary of data describing product selected
+    Returns:
+    '''
+    # note: sephora product categories came from breadcrumbs on product pages, l2 is most specific level 
+    unit_price = (df['unit_price']<data['unit_price']) 
+    l2_type = (df['lvl_2_cat']==data['lvl_2_cat']) 
+    num_cheaper_products = df[unit_price & l2_type].shape[0]
+    return [
+        html.Br(),
+        html.H5(['Details']),
+        f"Product: {data['product_name']}, {data['swatch_group']}",
+        html.Br(),
+        f"Brand: {data['brand_name']}",
+        html.Br(),
+        f"Price: ${data['price']}",
+        html.Br(),
+        f"Size: {data['amount_adj']} {data['unit_a']}", 
+        html.Br(),
+        f"🚨 Found {num_cheaper_products} products at Sephora in {data['lvl_2_cat'].lower()} category with unit price < ${data['unit_price']:.2f} /{data['unit_a']}."
+    ]
+
+def get_single_product_data(df, row_id, index_col='index'):
+    '''
+    Args:
+        df - data
+        row_id - product id  
+        index_col - col to search for id in 
+    Returns:
+        single row from db corresponding to selected product as dictionary
+    '''
+    return df[df[index_col]==row_id].to_dict('records')[0]
+
     
 ############# CALLBACKS ############# 
+@app.callback(
+        Output('selected_product_info', 'children'),
+        Input('product_info_dropdown','value')
+)
+def update_product_details(product_value):
+    click_data = ctx.triggered[0]
+    data = get_single_product_data(df, product_value)
+    return single_product_info_box(df, data)
+
 
 @app.callback(
         Output('brand_dropdown', 'options'),
@@ -591,8 +645,9 @@ def set_brand_options(product_category):
     brand_options = candidate_brands[candidate_brands['index']>0]['brand_name'].values
     return brand_options
 
+
+
 #need to add sorting option
-# and update to plot titles  
 @callback(
     Output('slope_scatter_joint','figure'),
     Input('product_category_l0_dropdown', 'value'),
