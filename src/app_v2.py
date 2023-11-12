@@ -556,7 +556,7 @@ app.layout = dbc.Container([
                         dbc.Row([
                             html.Div(id='selected_product_info')
                         ])
-                    ], width=3),
+                    ], width=2),
                     dbc.Col([
                         html.H3(['Product Recommendations']),
                         product_data_table
@@ -570,7 +570,7 @@ app.layout = dbc.Container([
                                 'displayModeBar': False
                             }, 
                         )
-                    ], width=3),
+                    ], width=4),
 
                 ])
             ], body=True)
@@ -600,16 +600,19 @@ def single_product_info_box(df, data):
     num_cheaper_products = df[unit_price & l2_type].shape[0]
     return [
         html.Br(),
-        html.H5(['Details']),
-        f"Product: {data['product_name']}, {data['swatch_group']}",
+        html.B("Product: "),
+        html.Span(f"{data['product_name']}, {data['swatch_group']}"),
         html.Br(),
-        f"Brand: {data['brand_name']}",
+        html.B("Brand: "),
+        html.Span(f"{data['brand_name']}"),
         html.Br(),
-        f"Price: ${data['price']}",
+        html.B("Price: "),
+        html.Span(f"${data['price']}"),
         html.Br(),
-        f"Size: {data['amount_adj']} {data['unit_a']}", 
+        html.B("Size: "),
+        html.Span(f"{data['amount_adj']} {data['unit_a']}"),
         html.Br(),
-        f"🚨 Found {num_cheaper_products} products at Sephora in {data['lvl_2_cat'].lower()} category with unit price < ${data['unit_price']:.2f} /{data['unit_a']}."
+        html.Span(f"🚨 Found {num_cheaper_products} products at Sephora in {data['lvl_2_cat'].lower()} category with unit price < ${data['unit_price']:.2f} /{data['unit_a']}.")
     ]
 
 def get_single_product_data(df, row_id, index_col='index'):
@@ -630,7 +633,6 @@ def get_single_product_data(df, row_id, index_col='index'):
         Input('product_info_dropdown','value')
 )
 def update_product_details(product_value):
-    click_data = ctx.triggered[0]
     data = get_single_product_data(df, product_value)
     return single_product_info_box(df, data)
 
