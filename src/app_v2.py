@@ -538,7 +538,6 @@ app.layout = dbc.Container([
             dbc.Card([
                 dcc.Graph(
                     id='slope_scatter_joint',
-                    figure=joint_slope_scatter(df_compare[50:70], df, "Unit Price Comparison Of Products", "Explore Products By Size And Price"),
                 )
             ], body=True)
         ])
@@ -672,7 +671,7 @@ def update_joint_plot(category_val, brand_val, max_price_val):
         df_filter_pairs = df_filter_pairs[df_filter_pairs['price_standard']<max_price_val]
         df_filter_products = df_filter_products[df_filter_products['price']<max_price_val]
 
-    pair_title = f'Unit Price Comparison of{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Products '
+    pair_title = f'Unit Price Comparison Of{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Products '
     scatter_title = f'Explore{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Products By Size And Price'
 
     
