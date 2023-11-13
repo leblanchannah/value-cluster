@@ -626,10 +626,16 @@ def get_single_product_data(df, row_id, index_col='index'):
 ############# CALLBACKS ############# 
 @app.callback(
         Output('unit_price_hist_plot','figure'),
-        Input('product_info_dropdown','value')
+        Input('product_info_dropdown','value'),
+        Input('slope_scatter_joint','clickData')
 )
-def update_histogram_figure(product_value):
-    data = get_single_product_data(df, product_value)
+def update_histogram_figure(product_value, click_data_plot):
+    click_data = ctx.triggered[0]
+    if click_data['prop_id']=='product_info_dropdown.value' or click_data_plot is None:
+        data = get_single_product_data(df, product_value)
+    else:
+        product_value = int(click_data['value']['points'][0]['text'].split("Product ID: ")[-1])
+        data = get_single_product_data(df, product_value)
     category = data['lvl_2_cat']
     title = f'{category} Unit Price Distribution'    
     fig = unit_price_histogram(
