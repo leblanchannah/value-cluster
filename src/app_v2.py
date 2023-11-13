@@ -13,50 +13,6 @@ theme = {
     "background_content":"#F2F2F2",
     "background_page":"#F9F9F9",
     "border":"#e2e2e2",
-    "breakpoint_font":"1200px",
-    "breakpoint_stack_blocks":"700px",
-
-    "colorway":[
-         "#d14f96",
-         "#4c78a8",
-         "#f58518",
-         "#e45756",
-         "#72b7b2",
-         "#54a24b",
-         "#eeca3b",
-         "#ff9da6",
-         "#9d755d",
-         "#bab0ac"
-    ],
-    "colorscale":[
-         "#fff7f3",
-         "#fde0dd",
-         "#fcc5c0",
-         "#fa9fb5",
-         "#f768a1",
-         "#dd3497",
-         "#ae017e",
-         "#7a0177",
-         "#49006a"
-    ],
-    "font_family":"Poppins",
-    "font_size":"17px",
-    "font_size_smaller_screen":"15px",
-    "font_family_header":"Poppins",
-    "font_size_header":"24px",
-    "font_family_headings":"Poppins",
-    "font_headings_size":None,
-    "header_border":{
-         "width":"0px",
-         "style":"solid",
-         "color":"#e2e2e2",
-         "radius":"0px"
-    },
-    "header_background_color":"#F2F2F2",
-    "header_box_shadow":"none",
-    "header_margin":"0px 0px 15px 0px",
-    "header_padding":"0px",
-    "text":"#606060",
 }
 
 from dash import Dash, html, dcc, Input, Output, callback, ctx, dash_table
@@ -69,15 +25,6 @@ import plotly.colors
 import plotly.express as px
 import plotly.graph_objects as go
 
-
-font_sizes = {
-    'legend_title':12,
-    'legend_item':10,
-    'plot_title':16,
-    'axis_label':14,
-    'h1_title':'1rem',
-    'sidebar_text':14
-}
 
 
 df = pd.read_csv('../data/agg_prod_data.csv')
@@ -110,7 +57,7 @@ app = Dash(
 )
 
 PLOT_TEMPLATE_THEME = 'plotly_white'
-COLOUR_SCALE='RdPu'
+COLOUR_SCALE='Plotly3'
 
 product_data_table = dash_table.DataTable(
     id='cheaper_product_table',
@@ -302,8 +249,7 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distr
         legend=dict(
             yanchor='top',
             xanchor='right',
-            title_font_size=font_sizes['legend_title'],
-            font_size=font_sizes['legend_item'],
+
         ),
         font_family="Poppins",
         font_color="#606060",
