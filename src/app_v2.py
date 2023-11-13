@@ -625,17 +625,22 @@ def get_single_product_data(df, row_id, index_col='index'):
     
 ############# CALLBACKS ############# 
 @app.callback(
-        Output('unit_price_hist_plot','figure'),
-        Input('product_info_dropdown','value'),
-        Input('slope_scatter_joint','clickData')
+        Output('product_info_dropdown','value'),
+        Input('slope_scatter_joint','clickData'),
+        prevent_initial_call=True
 )
-def update_histogram_figure(product_value, click_data_plot):
+def select_product_chain(scatter_click_data):
     click_data = ctx.triggered[0]
-    if click_data['prop_id']=='product_info_dropdown.value' or click_data_plot is None:
-        data = get_single_product_data(df, product_value)
-    else:
-        product_value = int(click_data['value']['points'][0]['text'].split("Product ID: ")[-1])
-        data = get_single_product_data(df, product_value)
+    product_value = int(click_data['value']['points'][0]['text'].split("Product ID: ")[-1])
+    return product_value
+
+
+@app.callback(
+        Output('unit_price_hist_plot','figure'),
+        Input('product_info_dropdown','value')
+)
+def update_histogram_figure(product_value):
+    data = get_single_product_data(df, product_value)
     category = data['lvl_2_cat']
     title = f'{category} Unit Price Distribution'    
     fig = unit_price_histogram(
@@ -649,16 +654,10 @@ def update_histogram_figure(product_value, click_data_plot):
 
 @app.callback(
         Output('cheaper_product_table','data'),
-        Input('product_info_dropdown','value'),
-        Input('slope_scatter_joint','clickData')
+        Input('product_info_dropdown','value')
 )
-def update_table_data(product_value, click_data_plot):
-    click_data = ctx.triggered[0]
-    if click_data['prop_id']=='product_info_dropdown.value' or click_data_plot is None:
-        data = get_single_product_data(df, product_value)
-    else:
-        product_value = int(click_data['value']['points'][0]['text'].split("Product ID: ")[-1])
-        data = get_single_product_data(df, product_value)
+def update_table_data(product_value):
+    data = get_single_product_data(df, product_value)
     cheaper_product = (df['unit_price']<data['unit_price'])
     same_category = (df['lvl_2_cat']==data['lvl_2_cat'])
     df_filtered_table = df[cheaper_product & same_category]
@@ -670,15 +669,9 @@ def update_table_data(product_value, click_data_plot):
 @app.callback(
         Output('selected_product_info', 'children'),
         Input('product_info_dropdown','value'),
-        Input('slope_scatter_joint','clickData')
 )
-def update_product_details(product_value, click_data_plot):
-    click_data = ctx.triggered[0]
-    if click_data['prop_id']=='product_info_dropdown.value' or click_data_plot is None:
-        data = get_single_product_data(df, product_value)
-    else:
-        product_value = int(click_data['value']['points'][0]['text'].split("Product ID: ")[-1])
-        data = get_single_product_data(df, product_value)
+def update_product_details(product_value):
+    data = get_single_product_data(df, product_value)
     product_info_text = single_product_info_box(df, data)
     return product_info_text
 
