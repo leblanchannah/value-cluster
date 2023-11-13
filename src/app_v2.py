@@ -643,17 +643,22 @@ def update_histogram_figure(product_value):
 
 @app.callback(
         Output('cheaper_product_table','data'),
-        Input('product_info_dropdown','value')
+        Input('product_info_dropdown','value'),
+        Input('slope_scatter_joint','clickData')
 )
-def update_table_data(product_value):
-    data = get_single_product_data(df, product_value)
+def update_table_data(product_value, click_data_plot):
+    click_data = ctx.triggered[0]
+    if click_data['prop_id']=='product_info_dropdown.value' or click_data_plot is None:
+        data = get_single_product_data(df, product_value)
+    else:
+        product_value = int(click_data['value']['points'][0]['text'].split("Product ID: ")[-1])
+        data = get_single_product_data(df, product_value)
     cheaper_product = (df['unit_price']<data['unit_price'])
     same_category = (df['lvl_2_cat']==data['lvl_2_cat'])
     df_filtered_table = df[cheaper_product & same_category]
     table_cols = ['brand_name','link','unit_price','rating']
     table = df_filtered_table.sort_values(by='unit_price', ascending=True)[table_cols].to_dict("records")
     return table
-
 
 
 @app.callback(
