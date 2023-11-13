@@ -476,16 +476,17 @@ def joint_slope_scatter(df_product_pairs, df_base, slope_plot_title, scatter_plo
 app.layout = dbc.Container([
     # title and filters
     dbc.Row([
-        dbc.Col([
-            dbc.Card(
-                id='title',
-                children=[html.H1("Product Value Canvas")],
-                body=True,
-            )
-        ], width=4),
+        # dbc.Col([
+        #     dbc.Card(
+        #         id='title',
+        #         children=[html.H1("Product Value Canvas")],
+        #         body=True,
+        #     )
+        # ], width=4),
         dbc.Col([
             dbc.Card(children=[
                 dbc.Row([
+                    dbc.Col([html.H1("Product Value Canvas")], width=4),
                     dbc.Col(
                         id='product_category_filter',
                         children=[
@@ -516,9 +517,9 @@ app.layout = dbc.Container([
                             max_price_filter
                         ],
                     ),
-                ])
+                ], justify="center", align="center")
             ], body=True)
-        ], width=8)
+        ], width=12)
     ]),
     # product comparison plots
     dbc.Row([
