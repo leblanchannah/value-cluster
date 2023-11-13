@@ -102,9 +102,6 @@ df = df.merge(
 
 df.loc[df['swatch_group'].isin(['value size','refill size']), 'mini_to_standard_ratio'] = np.nan
 
-
-# Initialize the Dash app
-
 app = Dash(
     __name__,
     external_stylesheets=[dbc.themes.BOOTSTRAP],
@@ -187,8 +184,7 @@ max_price_filter = dcc.Input(
     type='number',
     min=0,
     max=2000,
-    step=5,
-    # style=dropdown_style
+    step=5
 )
 
 def get_color(colorscale_name, loc):
@@ -297,15 +293,10 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distr
         )
     
     fig.update_layout(
-        margin=dict(l=50, r=50, t=50, b=0, pad=0),
-        yaxis=dict(
-            autorange=True,
-        ),
         yaxis_title="Product Count",
         xaxis=dict(
             autorange=True
         ),
-        title_font_size=font_sizes['plot_title'],
         autosize=True,
         legend=dict(
             yanchor='top',
@@ -320,13 +311,12 @@ def unit_price_histogram(data, position, unit_price_col, title='Unit Price Distr
         legend_title_font_color="#606060",
         hoverlabel=dict(
             font_family="Poppins"
-        )
-
+        ),
+        template=PLOT_TEMPLATE_THEME,
+        margin=dict(l=20, r=20, t=40, b=20),
+        plot_bgcolor='#F9F9F9',
+        paper_bgcolor='#F9F9F9'
     )
-
-    fig.update_xaxes(title_font_size=font_sizes['axis_label'])
-    fig.update_yaxes(title_font_size=font_sizes['axis_label'])
-
     # need to use update traces to change plotly legend item names 
     fig.update_traces(
         showlegend=True
@@ -405,7 +395,6 @@ def joint_slope_scatter(df_product_pairs, df_base, slope_plot_title, scatter_plo
             showticklabels=True,
         ),
         showlegend=False,
-        plot_bgcolor='white',
         
     )
 
@@ -492,7 +481,6 @@ app.layout = dbc.Container([
                 id='title',
                 children=[html.H1("Product Value Canvas")],
                 body=True,
-                # style={'text-align': 'center'}
             )
         ], width=4),
         dbc.Col([
@@ -560,16 +548,14 @@ app.layout = dbc.Container([
                                 config={
                                     'responsive':True,
                                     'displayModeBar': False
-                                }, 
+                                },
+                             
                             )
                         ])
                     ], width=4),
                     dbc.Col([
-                        # html.Br(),
-                        # html.Br(),
-                        # html.Br(),
                         html.Div(id='selected_product_info',
-                                style={'background-color':'white', 'margin-top':'35px'})
+                                style={'margin-top':'35px'})
                         
                     ], width=2),
                     dbc.Col([
@@ -604,7 +590,8 @@ def single_product_info_box(df, data):
     l2_type = (df['lvl_2_cat']==data['lvl_2_cat']) 
     num_cheaper_products = df[unit_price & l2_type].shape[0]
     return [
-        html.B("Product: "),
+        html.B("Product Details"),
+        html.Br(),
         html.Span(f"{data['product_name']}, {data['swatch_group']}"),
         html.Br(),
         html.B("Brand: "),
@@ -641,7 +628,7 @@ def get_single_product_data(df, row_id, index_col='index'):
 def update_histogram_figure(product_value):
     data = get_single_product_data(df, product_value)
     category = data['lvl_2_cat']
-    title = f'Unit Price Distribution Of {category} Category'    
+    title = f'{category} Unit Price Distribution'    
     fig = unit_price_histogram(
         df[df['lvl_2_cat']==category],
         data['unit_price'],
