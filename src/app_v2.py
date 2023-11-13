@@ -100,6 +100,7 @@ df = df.merge(
     on=['product_id','product_name','brand_name'],
     how='left')
 
+
 df.loc[df['swatch_group'].isin(['value size','refill size']), 'mini_to_standard_ratio'] = np.nan
 
 app = Dash(
@@ -347,7 +348,7 @@ def joint_slope_scatter(df_product_pairs, df_base, slope_plot_title, scatter_plo
         subplot_titles=(slope_plot_title, scatter_plot_title))
 
     # slope plot - compare unit prices of related products
-    tooltip_hover_template = '{}<br>{}<br>Size: {} oz.<br>Price: ${}<br>Category: {}<br>Mini-to-Standard Ratio: {:.2f}' 
+    tooltip_hover_template = '{}<br>{}<br>Size: {} oz.<br>Price: ${}<br>Category: {}<br>Mini-to-Standard Ratio: {:.2f}<br>Product ID: {}' 
     for i, row in df_product_pairs.iterrows():
 
         colour_val_normed = normalize_colour_value(row['mini_to_standard_ratio'], df_product_pairs['mini_to_standard_ratio'])
@@ -369,8 +370,12 @@ def joint_slope_scatter(df_product_pairs, df_base, slope_plot_title, scatter_plo
             showlegend = False,
             hovertemplate = 'Unit Price: %{y:.2f}$/oz. <br>%{text}',  
             # each line is made of two markers, text = [marker_mini, marker_standard]
-            text=[tooltip_hover_template.format(row['product_name'], row['brand_name'], row['amount_a_mini'], row['price_mini'], row['lvl_2_cat_mini'], row['mini_to_standard_ratio']),
-                  tooltip_hover_template.format(row['product_name'], row['brand_name'], row['amount_a_standard'], row['price_standard'], row['lvl_2_cat_standard'], row['mini_to_standard_ratio'])],
+            text=[tooltip_hover_template.format(row['product_name'], row['brand_name'], row['amount_a_mini'],
+                                                row['price_mini'], row['lvl_2_cat_mini'], row['mini_to_standard_ratio'],
+                                                row['index_mini']),
+                  tooltip_hover_template.format(row['product_name'], row['brand_name'], row['amount_a_standard'], 
+                                                row['price_standard'], row['lvl_2_cat_standard'], row['mini_to_standard_ratio'],
+                                                row['index_standard'])],
         )
 
         fig.add_trace(pair_line_trace, row=1, col=1)
@@ -403,7 +408,7 @@ def joint_slope_scatter(df_product_pairs, df_base, slope_plot_title, scatter_plo
     
     # grey markers, no mini-to-standard ratio
     df_no_ratio = df_base[df_base['mini_to_standard_ratio'].isna()]
-    tooltip_hover_template = '{}<br>{}<br>Size: {} oz.<br>Price: ${}<br>Unit Price: {:.2f}$/oz.<br>Category: {}<br>Size Category: {}<br>Mini-to-Standard Ratio: {:.2f}' 
+    tooltip_hover_template = '{}<br>{}<br>Size: {} oz.<br>Price: ${}<br>Unit Price: {:.2f}$/oz.<br>Category: {}<br>Size Category: {}<br>Mini-to-Standard Ratio: {:.2f}<br>Product ID: {}' 
 
     background_scatter = go.Scatter(
         x=df_no_ratio['amount_a'],
@@ -416,7 +421,9 @@ def joint_slope_scatter(df_product_pairs, df_base, slope_plot_title, scatter_plo
         ),
         opacity=0.6,
         hovertemplate='%{text}',
-        text=[tooltip_hover_template.format(row['product_name'], row['brand_name'], row['amount_a'], row['price'], row['unit_price'], row['lvl_2_cat'], row['swatch_group'], row['mini_to_standard_ratio']) for i, row in df_no_ratio.iterrows()]
+        text=[tooltip_hover_template.format(row['product_name'], row['brand_name'], row['amount_a'], row['price'],
+                                            row['unit_price'], row['lvl_2_cat'], row['swatch_group'],
+                                            row['mini_to_standard_ratio'], row['index']) for i, row in df_no_ratio.iterrows()]
     )
 
     fig.add_trace(background_scatter, row=1, col=2)
@@ -443,7 +450,9 @@ def joint_slope_scatter(df_product_pairs, df_base, slope_plot_title, scatter_plo
             symbol=[marker_shapes[x['swatch_group']] for i, x in df_w_ratio.iterrows()]
         ),
         hovertemplate="%{text}",
-        text=[tooltip_hover_template.format(row['product_name'], row['brand_name'], row['amount_a'], row['price'], row['unit_price'], row['lvl_2_cat'], row['swatch_group'],row['mini_to_standard_ratio']) for i, row in df_w_ratio.iterrows()],
+        text=[tooltip_hover_template.format(row['product_name'], row['brand_name'], row['amount_a'],
+                                            row['price'], row['unit_price'], row['lvl_2_cat'],
+                                            row['swatch_group'],row['mini_to_standard_ratio'], row['index']) for i, row in df_w_ratio.iterrows()],
     )
 
     fig.add_trace(scatter_highlight, row=1, col=2)
@@ -476,13 +485,6 @@ def joint_slope_scatter(df_product_pairs, df_base, slope_plot_title, scatter_plo
 app.layout = dbc.Container([
     # title and filters
     dbc.Row([
-        # dbc.Col([
-        #     dbc.Card(
-        #         id='title',
-        #         children=[html.H1("Product Value Canvas")],
-        #         body=True,
-        #     )
-        # ], width=4),
         dbc.Col([
             dbc.Card(children=[
                 dbc.Row([
@@ -656,10 +658,16 @@ def update_table_data(product_value):
 
 @app.callback(
         Output('selected_product_info', 'children'),
-        Input('product_info_dropdown','value')
+        Input('product_info_dropdown','value'),
+        Input('slope_scatter_joint','clickData')
 )
-def update_product_details(product_value):
-    data = get_single_product_data(df, product_value)
+def update_product_details(product_value, click_data_plot):
+    click_data = ctx.triggered[0]
+    if click_data['prop_id']=='product_info_dropdown.value' or click_data_plot is None:
+        data = get_single_product_data(df, product_value)
+    else:
+        product_value = int(click_data['value']['points'][0]['text'].split("Product ID: ")[-1])
+        data = get_single_product_data(df, product_value)
     product_info_text = single_product_info_box(df, data)
     return product_info_text
 
