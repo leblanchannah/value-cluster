@@ -121,12 +121,12 @@ info_modal = html.Div([
                 abstract,
                 ratio_eq, 
                 ratio_interpretation,
-                github_link,
                 credit_link,
-                data_update
+                data_update,
+                github_link
             ]),
             dbc.ModalFooter(
-                dbc.Button("Close", id='close-info-modal', className='ms-auto', n_clicks=0)
+                dbc.Button("Close", id='close-info-modal', n_clicks=0)
             )
         ],
         id="info-modal",
