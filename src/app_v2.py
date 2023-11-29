@@ -15,7 +15,7 @@ theme = {
     "border":"#e2e2e2",
 }
 
-from dash import Dash, html, dcc, Input, Output, callback, ctx, dash_table
+from dash import Dash, html, dcc, Input, Output, callback, ctx, dash_table, State
 import plotly.subplots as sp
 import dash_bootstrap_components as dbc
 import pandas as pd
@@ -95,6 +95,22 @@ product_data_table = dash_table.DataTable(
     }
 )
 
+
+info_button = dbc.Button("More Info", id="open-info-modal", n_clicks=0)
+
+info_modal = html.Div([
+    dbc.Modal(
+        [
+            dbc.ModalHeader(dbc.ModalTitle("Header")),
+            dbc.ModalBody("Hello World"),
+            dbc.ModalFooter(
+                dbc.Button("Close", id='close-info-modal', className='ms-auto', n_clicks=0)
+            )
+        ],
+        id="info-modal",
+        is_open=False,
+    ),
+])
 
 
 # FORM components
@@ -465,6 +481,13 @@ app.layout = dbc.Container([
                             max_price_filter
                         ],
                     ),
+                    dbc.Col(
+                        id='info_navigation',
+                        children=[
+                            info_button,
+                            info_modal
+                        ]
+                    ),
                 ], justify="center", align="center")
             ], body=True)
         ], width=12)
@@ -570,6 +593,19 @@ def get_single_product_data(df, row_id, index_col='index'):
 
     
 ############# CALLBACKS ############# 
+
+
+@app.callback(
+    Output("info-modal", "is_open"),
+    [Input("open-info-modal", "n_clicks"), Input("close-info-modal", "n_clicks")],
+    [State("info-modal", "is_open")],
+)
+def toggle_modal(n1, n2, is_open):
+    if n1 or n2:
+        return not is_open
+    return is_open
+
+
 @app.callback(
         Output('product_info_dropdown','value'),
         Input('slope_scatter_joint','clickData'),
