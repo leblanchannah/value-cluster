@@ -95,14 +95,36 @@ product_data_table = dash_table.DataTable(
     }
 )
 
-
+abstract = html.P(["This tool facilitates a comparison between products available in both mini and standard sizes by analyzing their unit price ratios using data scraped from Sephora's website."])
+ratio_eq = dcc.Markdown(
+                '$$\\small{ValueR=}\\normalsize{\\frac{MiniUnitPrice}{StandardUnitPrice}}$$',
+                mathjax=True,
+                style={'width':'%80'}
+            )
+ratio_interpretation = html.P(["Interpretation: A unit price ratio value of 4 means the mini size is 4x more expensive per ounce than its standard size counterpart."])
 info_button = dbc.Button("More Info", id="open-info-modal", n_clicks=0)
+
+github_link = html.A("GitHub Repo", href="https://github.com/leblanchannah/value-cluster", style={'color':'#D13CAA'})
+
+credit_link = html.P([
+    'This dashboard is inspired by the "Sephora Minis Math" TikTok by ',
+    html.A("@michaelamakeup92", href="https://www.tiktok.com/@michaelamakeup92/video/7237211338618047787", style={'color':'#D13CAA'}),
+])
+
+data_update =  html.P(["Data last updated on 22/08/2023."])
 
 info_modal = html.Div([
     dbc.Modal(
         [
             dbc.ModalHeader(dbc.ModalTitle("Header")),
-            dbc.ModalBody("Hello World"),
+            dbc.ModalBody([
+                abstract,
+                ratio_eq, 
+                ratio_interpretation,
+                github_link,
+                credit_link,
+                data_update
+            ]),
             dbc.ModalFooter(
                 dbc.Button("Close", id='close-info-modal', className='ms-auto', n_clicks=0)
             )
