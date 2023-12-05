@@ -57,7 +57,7 @@ app = Dash(
 )
 
 PLOT_TEMPLATE_THEME = 'plotly_white'
-COLOUR_SCALE='Plotly3'
+COLOUR_SCALE='Magenta_r'
 
 product_data_table = dash_table.DataTable(
     id='cheaper_product_table',
@@ -81,11 +81,11 @@ product_data_table = dash_table.DataTable(
     },
     style_header={
         'fontWeight': 'bold',
-        'border':'1px solid #d14f96',
+        'border':'1px solid #7a3672',
         'backgroundColor':'white'
     },
     style_data={
-        'border':'1px solid #d14f96',
+        'border':'1px solid #7a3672',
         'whiteSpace': 'normal',
         'height': 'auto',
         'lineHeight': '15px'

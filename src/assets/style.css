@@ -8,7 +8,7 @@ h1{
     font-family: 'Poppins', sans-serif;
     font-weight:600;
     font-size:30px;
-    color:#d14f96;
+    color:#7a3672;
     padding-left:0;
 }
 
@@ -41,7 +41,7 @@ label{
 }
 
 a:link {
-    color: #d14f96;
+    color: #7a3672;
 }
 a:visited {
     color: #ff9f9f;
@@ -61,3 +61,17 @@ a:active {
     border-radius: 0px;
 }
 
+.btn-primary {
+    background-color: #7a3672; 
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: #4ab2ff;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #4ab2ff;
+  }
