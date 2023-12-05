@@ -168,9 +168,10 @@ product_info_dropdown = dcc.Dropdown(
 max_price_filter = dcc.Input(
     id='max_price_filter',
     type='number',
-    min=0,
+    min=10,
     max=2000,
-    step=5
+    step=5,
+    value=500,
 )
 
 def get_color(colorscale_name, loc):
