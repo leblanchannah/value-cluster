@@ -152,7 +152,17 @@ brand_dropdown = dcc.Dropdown(
 
 ratio_sorting_dropdown = dcc.Dropdown(
     id='ratio_sorting_dropdown',
-    options=[],
+    options=[
+        {
+            'label':'Increasing unit price ratio',
+            'value':'asc'
+        },
+        {
+            'label':'Decreasing unit price ratio',
+            'value':'desc'
+        },
+    ],
+    value='asc',
     style=dropdown_style
 )
 
@@ -375,7 +385,7 @@ def joint_slope_scatter(df_product_pairs, df_base, slope_plot_title, scatter_plo
             tickmode='array',
             # really difficult to get categorical axis spacing right
             range=[-0.2, 1.1],
-            linecolor='white', #rgb(204, 204, 204
+            linecolor='white',
         ),
         yaxis=dict(
             title='Unit Price ($/oz.)',
@@ -426,7 +436,7 @@ def joint_slope_scatter(df_product_pairs, df_base, slope_plot_title, scatter_plo
                 thickness=25,
                 bordercolor='white',
                 outlinecolor='white',
-                x=-0.2,
+                x=-0.15,
                 xref="container",
             ),
             colorscale=COLOUR_SCALE,
@@ -451,14 +461,18 @@ def joint_slope_scatter(df_product_pairs, df_base, slope_plot_title, scatter_plo
         ),
         height=380,
         template=PLOT_TEMPLATE_THEME,
-        margin=dict(l=20, r=20, t=40, b=20),
+        margin=dict(l=20, r=20, t=50, b=20),
         font_family="Poppins",
         font_color="#606060",
-        title_font_family="Poppins",
-        title_font_color="#606060",
         legend_title_font_color="#606060",
         plot_bgcolor='#F9F9F9',
-        paper_bgcolor='#F9F9F9'
+        paper_bgcolor='#F9F9F9',
+        title=dict(
+            font_family="Poppins",
+            font_color="#606060",
+            xanchor='center',
+            yanchor='top'
+        )
 
     )
 
@@ -701,8 +715,9 @@ def set_brand_options(product_category):
     Input('product_category_l0_dropdown', 'value'),
     Input('brand_dropdown', 'value'),
     Input('max_price_filter', 'value'),
+    Input('ratio_sorting_dropdown','value')
 )
-def update_joint_plot(category_val, brand_val, max_price_val):
+def update_joint_plot(category_val, brand_val, max_price_val, sort_val):
     df_filter_pairs = df_compare.copy()
     df_filter_products = df.copy()
 
@@ -718,8 +733,20 @@ def update_joint_plot(category_val, brand_val, max_price_val):
         df_filter_pairs = df_filter_pairs[df_filter_pairs['price_standard']<max_price_val]
         df_filter_products = df_filter_products[df_filter_products['price']<max_price_val]
 
-    pair_title = f'Unit Price Comparison Of{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Products '
-    scatter_title = f'Explore{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Products By Size And Price'
+    if sort_val:
+        if sort_val=='asc':
+            df_filter_pairs = df_filter_pairs.sort_values(by='mini_to_standard_ratio', ascending=True).head(20)
+            sort_direction = "Increasing"
+        else:
+            df_filter_pairs = df_filter_pairs.sort_values(by='mini_to_standard_ratio', ascending=False).head(20)
+            sort_direction = "Decreasing"
+
+    n_pairs = df_filter_pairs.shape[0]
+
+    
+
+    pair_title = f'''Comparison Of{" Top "+str(n_pairs) if sort_val else ""}{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Product Pairs <br>{"Sorted By "+sort_direction+" Unit Price Ratio" if sort_val else ""}'''
+    scatter_title = f'Explore All{" "+brand_val.title() if brand_val else ""}{" "+category_val.title() if category_val else ""} Products By Size And Price'
 
     
     return joint_slope_scatter(df_filter_pairs, df_filter_products, pair_title, scatter_title)
