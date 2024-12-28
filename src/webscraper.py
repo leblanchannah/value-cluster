@@ -17,7 +17,7 @@ BASE_URL = 'https://www.sephora.com'
 CRAWL_DELAY=5
 SCROLL_PAUSE_TIME = 0.2
 CLICK_DELAY = 0.2
-DRIVER_PATH = '../../../chromedriver_mac64/chromedriver'
+DRIVER_PATH = '../../../chrome-mac-x64/chromedriver'
 DATA_DIR = "data/"
 
 options = Options()
@@ -29,6 +29,25 @@ options.add_experimental_option("excludeSwitches", ["enable-automation"])
 options.add_experimental_option('useAutomationExtension', False)
 user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36'
 options.add_argument('user-agent={0}'.format(user_agent))
+
+
+class BrandListScraper:
+    def __init__(self, driver, base_url):
+        self.driver = driver
+        self.base_url = base_url
+
+    def get_brand_urls(self):
+        """Scrapes the main brand list to extract brand URLs."""
+        brand_data = []
+        self.driver.get(f"{self.base_url}")
+        soup = BeautifulSoup(driver.page_source, 'html.parser')
+        for brand_link in soup.findAll('a', attrs={"data-at": "brand_link"}):
+            brand = {
+                'name': brand_link.span.text,
+                'link': brand_link.get('href') 
+            }
+            brand_data.append(brand)
+        return brand_data
 
 
 def parse_url_info(url):
@@ -228,7 +247,7 @@ def get_product_page(product_url):
     product["error"] = ""
     product['scrape_timestamp'] = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
     # get class names of buttons and grab prices with selenium 
-    driver = webdriver.Chrome(options=options, executable_path=DRIVER_PATH)
+    driver = webdriver.Chrome(options=options)# executable_path=DRIVER_PATH)
     driver.get(url)
     soup = BeautifulSoup(driver.page_source, 'html.parser')
     try:
@@ -261,7 +280,7 @@ def get_brand_products(url):
     """
     brand_info = {}
     product_urls = []
-    with webdriver.Chrome(options=options, executable_path=DRIVER_PATH) as driver:
+    with webdriver.Chrome(options=options) as driver:
         driver.get(url)
         soup = BeautifulSoup(driver.page_source, 'html.parser')
         try:
@@ -319,7 +338,7 @@ def get_brand_list(url):
     Returns:
     """
     brand_data = []
-    with webdriver.Chrome(options=options, executable_path=DRIVER_PATH) as driver:
+    with webdriver.Chrome(options=options) as driver:
         driver.get(url)
         soup = BeautifulSoup(driver.page_source, 'html.parser')
         driver.quit()
@@ -333,6 +352,7 @@ def get_brand_list(url):
 
 def main():
     start_time = time.time()
+
 
     brands = get_brand_list('https://www.sephora.com/ca/en/brands-list')
     # save brand list
@@ -387,4 +407,11 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # main()
+
+
+    brand_list_url = 'https://www.sephora.com/ca/en/brands-list'
+    with webdriver.Chrome(options=options) as driver:
+        brands = BrandListScraper(driver, brand_list_url)
+        brand_urls = brands.get_brand_urls()
+        print(brand_urls)
