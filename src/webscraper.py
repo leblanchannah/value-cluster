@@ -1,17 +1,14 @@
 from bs4 import BeautifulSoup
-from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
-from urllib.parse import urlsplit, parse_qs, urlparse
+from urllib.parse import parse_qs, urlparse
 import requests
-import pandas as pd
 from datetime import datetime
 from typing import List, Tuple, Dict
-import time
 import json
 import re
+import time
 import sqlite3
-
 import logging
 logger = logging.getLogger(__name__)
 
@@ -31,6 +28,105 @@ options.add_experimental_option("excludeSwitches", ["enable-automation"])
 options.add_experimental_option('useAutomationExtension', False)
 user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36'
 options.add_argument('user-agent={0}'.format(user_agent))
+
+
+def create_product_details_table(db_file):
+
+
+    try:
+        conn = sqlite3.connect(db_file)
+        cursor = conn.cursor()
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS product_details (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                target_url TEXT,
+                product_id TEXT,
+                loves_count INTEGER,
+                rating REAL,
+                reviews INTEGER,
+                brand_id INTEGER,
+                category_root_id TEXT,
+                category_root_name TEXT,
+                category_root_url TEXT,
+                category_child_id TEXT,
+                category_child_name TEXT,
+                category_child_url TEXT,
+                category_grandchild_id TEXT,
+                category_grandchild_name TEXT,
+                category_grandchild_url TEXT,
+                sku_id TEXT,
+                brand_name TEXT,
+                display_name TEXT,
+                ingredients TEXT,
+                limited_edition BOOLEAN,
+                first_access BOOLEAN,
+                limited_time_offer BOOLEAN,
+                new_product BOOLEAN,
+                online_only BOOLEAN,
+                few_left BOOLEAN,
+                out_of_stock BOOLEAN,
+                price TEXT,
+                max_purchase_quantity INTEGER,
+                size TEXT,
+                type TEXT,
+                url TEXT,
+                variation_description TEXT,
+                variation_type TEXT,
+                variation_value TEXT,
+                returnable BOOLEAN,
+                finish_refinement TEXT,
+                size_refinement TEXT,
+                record_created TIMESTAMP
+            )
+        """)
+        conn.commit()
+    except sqlite3.Error as e:
+        print(f"SQLite error: {e}")
+    finally:
+        if conn:
+            conn.close()
+
+def insert_product_details(db_file:str, products: List):
+    try:
+        conn = sqlite3.connect(db_file)
+        cursor = conn.cursor()
+
+        for product in products:
+
+            data = list(product.values())
+            data.append(datetime.now())
+            data = tuple(data)
+            print(f"data len {len(data)}")
+            print(data)
+            cursor.execute(
+                """
+                INSERT INTO product_details (
+                    target_url, product_id, loves_count, rating, reviews, brand_id, 
+                    category_root_id, category_root_name, category_root_url, 
+                    category_child_id, category_child_name, category_child_url, 
+                    category_grandchild_id, category_grandchild_name, category_grandchild_url, 
+                    sku_id, brand_name, display_name, ingredients, limited_edition, 
+                    first_access, limited_time_offer, new_product, online_only, 
+                    few_left, out_of_stock, price, max_purchase_quantity, size, type, 
+                    url, variation_description, variation_type, variation_value, 
+                    returnable, finish_refinement, size_refinement, record_created
+                ) VALUES (
+                    ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 
+                    ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
+                )""", data)
+
+        conn.commit()
+        print(f"{len(products)} records inserted into 'product_details'.")
+
+    except sqlite3.Error as e:
+        print(f"SQLite error: {e}")
+    
+    finally:
+        # Close the connection
+        if conn:
+            conn.close()
+
+
 
 def create_product_table(db_file):
     try:
@@ -206,8 +302,6 @@ class BrandListScraper:
             brand_data.append(brand)
         return brand_data
 
-
-
 class ProductScraper:
 
     def __init__(self, driver):
@@ -217,13 +311,13 @@ class ProductScraper:
     def get_product_data_api(product_id):
 
         base_url = "https://www.sephora.com/api/v3/catalog/products/"
-        request_url = f"{product_id}?addCurrentSkuToProductChildSkus=true&includeRegionsMap=true&showContent=true&includeConfigurableSku=true&countryCode=CA&removePersonalizedData=true&includeReviewFilters=true&includeReviewImages=false&includeRnR=true&loc=en-CA&ch=rwd&sentiments=6"
+        request_url = f"{base_url}{product_id}?addCurrentSkuToProductChildSkus=true&includeRegionsMap=true&showContent=true&includeConfigurableSku=true&countryCode=CA&removePersonalizedData=true&includeReviewFilters=true&includeReviewImages=false&includeRnR=true&loc=en-CA&ch=rwd&sentiments=6"
         session = requests.Session()
         headers = {
             'User-Agent': 'Mozilla/5.0'
         }
         cookies = {'cookie_name': 'cookie_value'}
-        session.get('https://www.sephora.com', headers=headers, cookies=cookies)
+        session.get(BASE_URL, headers=headers, cookies=cookies)
 
         headers = {
             'Content-Type': 'application/json',
@@ -231,6 +325,72 @@ class ProductScraper:
         }
         response = session.get(request_url, headers=headers)
         return response.json()
+    
+    @staticmethod
+    def map_product_response_to_record(data):
+        product_details = {
+            'sku_id':data['skuId'], # str
+            'brand_name':data['brandName'], # str
+            'display_name':data['displayName'], # str
+            'ingredients':data['ingredientDesc'], # str
+            'limited_edition':data['isLimitedEdition'], # bool
+            'first_access':data['isFirstAccess'], # bool
+            'limited_time_offer':data['isLimitedTimeOffer'],# bool
+            'new_product':data['isNew'],# bool
+            'online_only':data['isOnlineOnly'],# bool
+            'few_left':data['isOnlyFewLeft'],# bool
+            'out_of_stock':data['isOutOfStock'],# bool
+            'price':data['listPrice'], # str
+            'max_purchase_quantity':data['maxPurchaseQuantity'], # int
+            'size':data['size'], # str
+            'type':data['type'], # str
+            'url':data['url'],# str
+            'variation_description':data['variationDesc'],# str
+            'variation_type':data['variationType'],# str
+            'variation_value':data['variationValue'],# str
+            'returnable':data['isReturnable'], #bool
+            'finish_refinement':"", # str
+            'size_refinement':"" # str
+        }
+
+        if 'finishRefinements' in data['refinements'].keys():
+            product_details['finish_refinement'] = ' '.join(data['refinements']['finishRefinements'])
+
+        if 'sizeRefinements' in data['refinements'].keys():
+            product_details['size_refinement'] = ' '.join(data['refinements']['sizeRefinements'])
+
+        return product_details
+
+    @staticmethod
+    def compress_product_data(data):
+        product_variations = []
+        parent_sku = {
+            'target_url':data['targetUrl'],
+            'product_id':data['productId'],
+            'loves_count':data['productDetails']['lovesCount'],
+            'rating':data['productDetails']['rating'],
+            'reviews':data['productDetails']['reviews'],
+            'brand_id':data['productDetails']['brand']['brandId'],
+            'category_root_id':data['parentCategory']['categoryId'],
+            'category_root_name':data['parentCategory']['displayName'],
+            'category_root_url':data['parentCategory']['url'],
+            'category_child_id':data['parentCategory']['parentCategory']['categoryId'],
+            'category_child_name':data['parentCategory']['parentCategory']['displayName'],
+            'category_child_url':data['parentCategory']['parentCategory']['url'],
+            'category_grandchild_id':data['parentCategory']['parentCategory']['parentCategory']['categoryId'],
+            'category_grandchild_name':data['parentCategory']['parentCategory']['parentCategory']['displayName'],
+            'category_grandchild_url':data['parentCategory']['parentCategory']['parentCategory']['url'],
+        }
+
+        product_details = ProductScraper.map_product_response_to_record(data['currentSku'])
+        product_variations.append({**parent_sku, **product_details})
+
+        for child_sku in data['regularChildSkus']:
+            product_details = ProductScraper.map_product_response_to_record(child_sku)
+            product_variations.append({**parent_sku, **product_details})
+
+        return product_variations
+
 
     def get_product_data_scrape(self, url):
         #TODO not tested since update to using api for product details
@@ -247,9 +407,9 @@ class ProductScraper:
         else:
             product["product_name"] = self._get_product_name(soup)
             product["brand_name"] = self._get_brand_name(soup)
-            product["options"] = self._get_product_buttons(self.driver)
+            product["options"] = self._get_product_buttons()
             product["rating"], product["product_reviews"] = self._get_rating_data(soup)
-            product["ingredients"] = get_ingredients(soup)
+            product["ingredients"] = self._get_ingredients(soup)
             product["n_loves"] = self._get_num_loves(soup)
             product["categories"] = self._get_breadcrumb_categories(soup)
         return product
@@ -401,3 +561,11 @@ if __name__ == "__main__":
     product_data_sample = ProductScraper.get_product_data_api(product_code)
     with open('../data/product_sample_multiple_skus.json', 'w') as f:
         json.dump(product_data_sample, f)
+
+    create_product_details_table(DB_FILE)
+    insert_product_details(DB_FILE, ProductScraper.compress_product_data(product_data_sample))
+
+    # import pandas as pd
+    # data = pd.DataFrame(ProductScraper.compress_product_data(product_data_sample))
+    # print(data.columns)
+    # data.to_csv('../data/product_details_sample.csv')
