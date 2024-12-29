@@ -2,7 +2,8 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
-from urllib.parse import urlsplit, parse_qs
+from urllib.parse import urlsplit, parse_qs, urlparse
+
 import pandas as pd
 from datetime import datetime
 from typing import List, Tuple, Dict
@@ -41,6 +42,8 @@ def create_product_table(db_file):
             product_id INTEGER PRIMARY KEY AUTOINCREMENT,
             brand_id INTEGER,
             product_url TEXT,
+            sku TEXT,
+            product_code TEXT,
             record_created TIMESTAMP,
             FOREIGN KEY (brand_id) REFERENCES Brands(brand_id)
         )
@@ -55,15 +58,19 @@ def create_product_table(db_file):
             conn.close()
 
 def insert_brand_products(db_file, brand_id, product_urls):
+
     try:
         conn = sqlite3.connect(db_file)
         cursor = conn.cursor()
 
         for url in product_urls:
+
+            sku = BrandPageScraper.extract_url_sku(url)
+            product_code = BrandPageScraper.extract_url_product_code(url)
             cursor.execute("""
-                INSERT INTO products (brand_id, product_url, record_created)
-                VALUES (?, ?, ?)
-                """, (brand_id, url, datetime.now()))
+                INSERT INTO products (brand_id, product_url, sku, product_code, record_created)
+                VALUES (?, ?, ?, ?, ?)
+                """, (brand_id, url, sku, product_code, datetime.now()))
         conn.commit()
         print(f"{len(product_urls)} records inserted into 'products'.")
 
@@ -164,6 +171,21 @@ class BrandPageScraper:
             return True
         except:
             return False
+        
+    @staticmethod
+    def extract_url_sku(product_url):
+        parsed_url = urlparse(product_url)
+        query_params = parse_qs(parsed_url.query)
+        sku = query_params.get("skuId", [None])[0]  # Default to None if not found
+        return sku
+
+    @staticmethod
+    def extract_url_product_code(product_url):
+        # Step 1: Parse the URL to get query parameters
+        parsed_url = urlparse(product_url)
+        match = re.search(r"-([A-Z0-9]+)$", parsed_url.path)
+        product_code = match.group(1) if match else None
+        return product_code
 
     
 class BrandListScraper:
@@ -183,6 +205,18 @@ class BrandListScraper:
             }
             brand_data.append(brand)
         return brand_data
+
+
+
+class ProductScraper:
+
+    def __init__(self, driver):
+        self.driver = driver
+
+    def get_product_data(self, product_url):
+        pass
+
+
 
 
 def parse_url_info(url):
@@ -207,22 +241,6 @@ def drop_duplicate_product_urls(brand_data: pd.DataFrame):
     brand_data['url_path'], brand_data['sku'], brand_data['url_params'] = brand_data['products'].apply(parse_url_info).str
     brand_data = brand_data.drop_duplicates(subset=['name','link','url_path', 'sku'], keep='last')
     return brand_data
-    
-
-def scroll_webpage(driver, y_height, scroll_amt=1000):
-    """
-    """
-    new_height = y_height+scroll_amt
-    driver.execute_script("window.scrollTo(0, "+str(new_height)+");")
-    time.sleep(SCROLL_PAUSE_TIME)
-    return new_height
-
-
-def get_lazy_products_on_grid(driver):
-    """
-    """
-    lazy_products = driver.find_elements_by_xpath('//div[contains(@data-comp,"LazyLoad")]/a')
-    return [prod.get_attribute('href') for prod in lazy_products]
     
 
 def get_sku(soup) -> str:
@@ -368,7 +386,6 @@ def get_product_buttons(driver, click_delay=CLICK_DELAY) -> Dict:
             product_options.append(product_info)
     return product_options
 
-
 def get_product_page(product_url):
     """
     need to update this go just take single product url
@@ -407,62 +424,6 @@ def get_product_page(product_url):
     return product 
 
 
-def main():
-    start_time = time.time()
-
-
-    brands = get_brand_list('https://www.sephora.com/ca/en/brands-list')
-    # save brand list
-    with open("../data/brand_list.json", "w") as outfile:
-        outfile.write(json.dumps(brands, indent=4))
-
-    n_brands = len(brands)
-    # get products links for each brand 
-    for i, brand in enumerate(brands):
-        time.sleep(5)
-        if i%10==0:
-            print(f'{i}/{n_brands} brand pages scraped')
-            print("--- %s seconds ---" % (time.time() - start_time))
-        print(BASE_URL+brand['link'])
-        brand['all_urls'], brand['products'] = get_brand_products(BASE_URL+brand['link'])
-        brand['n_products'] = len(brand['products'])
-        brand['scrape_timestamp'] = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
-
-
-        with open("../data/brand_product_links2.json", "w") as outfile:
-            outfile.write(json.dumps(brands, indent=4))
-
-        brand_products = []
-        print(brand)
-        for url in brand['products'].values():
-            product_data = get_product_page(url)
-            brand_products.append(product_data)
-        print(brand_products)
-        break
-    print("--- %s seconds ---" % (time.time() - start_time))
-    fname = '../data/products_format_v2/'+"tower-28".replace("/","")+".json"
-    print("Saving ", fname)
-    with open(fname, "w") as outfile:
-        outfile.write(json.dumps(brand_products, indent=4))
-
-    with open('../data/brand_product_links.json', 'r') as f:
-        data = json.load(f)
-    for i, brand in enumerate(data):
-        print(f"Brand # {i+1}")
-        print(brand['name'])
-        brand_products = []
-        total_products = len(brand['products'])
-        for j, url in enumerate(brand['products'].values()):
-            print(f"Product # {j+1} / {total_products}")
-            product_data = get_product_page(url)
-            brand_products.append(product_data)
-        fname = '../data/products_format_v2/'+brand["name"].replace("/","")+".json"
-        print("Saving ", fname)
-        with open(fname, "w") as outfile:
-            outfile.write(json.dumps(brand_products, indent=4))
-        print("--- %s seconds ---" % (time.time() - start_time))
-
-
 if __name__ == "__main__":
 
     # brand_urls = []
@@ -483,9 +444,18 @@ if __name__ == "__main__":
 
         # brand = brand_urls[0]['brand_url']
         product_urls = brand_page.get_product_urls(f"https://www.sephora.com/ca/en/brand/bondi-boost")
-        [print(x) for x in product_urls]
-        print(len(product_urls))
 
         create_product_table(DB_FILE)
         brand_id = 1 # replace w key from brnad table
         insert_brand_products(DB_FILE, brand_id, product_urls)
+
+    example_product = "https://www.sephora.com/ca/en/product/bondi-boost-rapid-repair-bond-builder-leave-in-hair-for-damaged-hair-P513096?skuId=2791291&icid2=products%20grid:p513096:product"
+    # sku from url
+    # product id from url 
+
+
+    print(BrandPageScraper.extract_url_sku(example_product))
+    print(BrandPageScraper.extract_url_product_code(example_product))
+
+
+    # https://www.sephora.com/api/v3/users/profiles/current/product/P513096?skipAddToRecentlyViewed=false&preferedSku=2791291&countryCode=CA&loc=en-CA&cb=1735438884
