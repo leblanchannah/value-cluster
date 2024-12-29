@@ -85,9 +85,44 @@ def insert_brands_data(db_file, data):
             conn.close()
 
 
+class BrandPageScraper:
+    def __init__(self, driver):
+        self.driver = driver
 
+    def get_product_urls(self, brand_url):
+        self.driver.get(brand_url)
+        product_urls = set()
+        y_height = 0
+        while True:
+            current_height = driver.execute_script("return document.body.scrollHeight")
+            product_urls.update(self._extract_visible_product_urls())
+            scrolled_height = self._scroll_down(y_height)
+            if not self._click_show_more_button() and current_height<=scrolled_height:
+                break
+            y_height = scrolled_height
+        return list(product_urls)
 
+    def _extract_visible_product_urls(self):
+        # Locate all product links
+        product_tiles = self.driver.find_elements(By.XPATH, '//a[contains(@href, "/ca/en/product/")]')
+        return [tile.get_attribute('href') for tile in product_tiles]
+    
+    def _scroll_down(self, y_height, scroll_amount=1000):
+        new_height = y_height + scroll_amount
+        self.driver.execute_script(f"window.scrollTo(0, {new_height});")
+        time.sleep(SCROLL_PAUSE_TIME)
+        return new_height
 
+    def _click_show_more_button(self):
+        try:
+            button = self.driver.find_element(By.XPATH, '//button[text()="Show More Products"]')
+            button.click()
+            time.sleep(CLICK_DELAY)
+            return True
+        except:
+            return False
+
+    
 class BrandListScraper:
     def __init__(self, driver, base_url):
         self.driver = driver
@@ -388,25 +423,6 @@ def get_brand_products(url):
     return product_urls, parsed_urls
 
 
-def get_brand_list(url):
-    """ collecting brand names and links from brand list page
-    url -> "https://www.sephora.com/ca/en/brands-list"
-    Args:
-    Returns:
-    """
-    brand_data = []
-    with webdriver.Chrome(options=options) as driver:
-        driver.get(url)
-        soup = BeautifulSoup(driver.page_source, 'html.parser')
-        driver.quit()
-        for brand_link in soup.findAll('a', attrs={"data-at": "brand_link"}):
-            brand = {}
-            brand['name'] = brand_link.span.text
-            brand['link'] = brand_link.get('href') 
-            brand_data.append(brand)
-    return brand_data
-
-
 def main():
     start_time = time.time()
 
@@ -465,17 +481,23 @@ def main():
 
 if __name__ == "__main__":
 
-    brand_urls = []
-    brand_list_url = 'https://www.sephora.com/ca/en/brands-list'
+    # brand_urls = []
+    # brand_list_url = 'https://www.sephora.com/ca/en/brands-list'
+    # with webdriver.Chrome(options=options) as driver:
+    #     brands = BrandListScraper(driver, brand_list_url)
+    #     brand_urls = brands.get_brand_urls()
+    #     print(brand_urls)
+
+    # DB_FILE = "../data/db/products.db"
+
+    # # Execute functions
+    # create_brands_table(DB_FILE)
+    # insert_brands_data(DB_FILE, brand_urls)
+
     with webdriver.Chrome(options=options) as driver:
-        brands = BrandListScraper(driver, brand_list_url)
-        brand_urls = brands.get_brand_urls()
-        print(brand_urls)
-    
+        brand_page = BrandPageScraper(driver)
 
-    # Database file
-    DB_FILE = "../data/db/products.db"
-
-    # Execute functions
-    create_brands_table(DB_FILE)
-    insert_brands_data(DB_FILE, brand_urls)
+        # brand = brand_urls[0]['brand_url']
+        product_urls = brand_page.get_product_urls(f"https://www.sephora.com/ca/en/brand/bondi-boost")
+        [print(x) for x in product_urls]
+        print(len(product_urls))
