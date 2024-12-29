@@ -9,6 +9,7 @@ from typing import List, Tuple, Dict
 import time
 import json
 import re
+import sqlite3
 
 import logging
 logger = logging.getLogger(__name__)
@@ -31,6 +32,62 @@ user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Ge
 options.add_argument('user-agent={0}'.format(user_agent))
 
 
+# Function to create the 'brands' table
+def create_brands_table(db_file):
+    try:
+        # Connect to SQLite database
+        conn = sqlite3.connect(db_file)
+        cursor = conn.cursor()
+        
+        # Create the 'brands' table
+        cursor.execute("""
+        CREATE TABLE IF NOT EXISTS brands (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            brand_name CHAR NOT NULL,
+            brand_url CHAR NOT NULL,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
+        """)
+        print("Table 'brands' created successfully.")
+    
+    except sqlite3.Error as e:
+        print(f"SQLite error: {e}")
+    
+    finally:
+        # Close the connection
+        if conn:
+            conn.close()
+
+# Function to insert data into the 'brands' table
+def insert_brands_data(db_file, data):
+    try:
+        # Connect to SQLite database
+        conn = sqlite3.connect(db_file)
+        cursor = conn.cursor()
+        
+        # Insert data into the 'brands' table
+        for brand in data:
+            cursor.execute("""
+            INSERT INTO brands (brand_name, brand_url)
+            VALUES (?, ?)
+            """, (brand["brand_name"], brand["brand_url"]))
+        
+        # Commit the transaction
+        conn.commit()
+        print(f"{len(data)} records inserted into 'brands'.")
+    
+    except sqlite3.Error as e:
+        print(f"SQLite error: {e}")
+    
+    finally:
+        # Close the connection
+        if conn:
+            conn.close()
+
+
+
+
+
 class BrandListScraper:
     def __init__(self, driver, base_url):
         self.driver = driver
@@ -43,8 +100,8 @@ class BrandListScraper:
         soup = BeautifulSoup(driver.page_source, 'html.parser')
         for brand_link in soup.findAll('a', attrs={"data-at": "brand_link"}):
             brand = {
-                'name': brand_link.span.text,
-                'link': brand_link.get('href') 
+                'brand_name': brand_link.span.text,
+                'brand_url': brand_link.get('href') 
             }
             brand_data.append(brand)
         return brand_data
@@ -407,11 +464,18 @@ def main():
 
 
 if __name__ == "__main__":
-    # main()
 
-
+    brand_urls = []
     brand_list_url = 'https://www.sephora.com/ca/en/brands-list'
     with webdriver.Chrome(options=options) as driver:
         brands = BrandListScraper(driver, brand_list_url)
         brand_urls = brands.get_brand_urls()
         print(brand_urls)
+    
+
+    # Database file
+    DB_FILE = "../data/db/products.db"
+
+    # Execute functions
+    create_brands_table(DB_FILE)
+    insert_brands_data(DB_FILE, brand_urls)
