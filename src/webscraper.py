@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from urllib.parse import urlsplit, parse_qs, urlparse
-
+import requests
 import pandas as pd
 from datetime import datetime
 from typing import List, Tuple, Dict
@@ -144,7 +144,7 @@ class BrandPageScraper:
         product_urls = set()
         y_height = 0
         while True:
-            current_height = driver.execute_script("return document.body.scrollHeight")
+            current_height = self.driver.execute_script("return document.body.scrollHeight")
             product_urls.update(self._extract_visible_product_urls())
             scrolled_height = self._scroll_down(y_height)
             if not self._click_show_more_button() and current_height<=scrolled_height:
@@ -210,11 +210,24 @@ class BrandListScraper:
 
 class ProductScraper:
 
-    def __init__(self, driver):
-        self.driver = driver
+    @staticmethod
+    def get_product_data_api(product_id):
 
-    def get_product_data(self, product_url):
-        pass
+        base_url = "https://www.sephora.com/api/v3/catalog/products/"
+        request_url = f"{product_id}?addCurrentSkuToProductChildSkus=true&includeRegionsMap=true&showContent=true&includeConfigurableSku=true&countryCode=CA&removePersonalizedData=true&includeReviewFilters=true&includeReviewImages=false&includeRnR=true&loc=en-CA&ch=rwd&sentiments=6"
+        session = requests.Session()
+        headers = {
+            'User-Agent': 'Mozilla/5.0'
+        }
+        cookies = {'cookie_name': 'cookie_value'}
+        session.get('https://www.sephora.com', headers=headers, cookies=cookies)
+
+        headers = {
+            'Content-Type': 'application/json',
+            'User-Agent': 'Mozilla/5.0'
+        }
+        response = session.get(request_url, headers=headers)
+        return response.json()
 
 
 
@@ -439,23 +452,20 @@ if __name__ == "__main__":
     # create_brands_table(DB_FILE)
     # insert_brands_data(DB_FILE, brand_urls)
 
-    with webdriver.Chrome(options=options) as driver:
-        brand_page = BrandPageScraper(driver)
+    # with webdriver.Chrome(options=options) as driver:
+    #     brand_page = BrandPageScraper(driver)
 
-        # brand = brand_urls[0]['brand_url']
-        product_urls = brand_page.get_product_urls(f"https://www.sephora.com/ca/en/brand/bondi-boost")
+    #     # brand = brand_urls[0]['brand_url']
+    #     product_urls = brand_page.get_product_urls(f"https://www.sephora.com/ca/en/brand/bondi-boost")
 
-        create_product_table(DB_FILE)
-        brand_id = 1 # replace w key from brnad table
-        insert_brand_products(DB_FILE, brand_id, product_urls)
+    #     create_product_table(DB_FILE)
+    #     brand_id = 1 # replace w key from brnad table
+    #     insert_brand_products(DB_FILE, brand_id, product_urls)
 
     example_product = "https://www.sephora.com/ca/en/product/bondi-boost-rapid-repair-bond-builder-leave-in-hair-for-damaged-hair-P513096?skuId=2791291&icid2=products%20grid:p513096:product"
-    # sku from url
-    # product id from url 
 
-
-    print(BrandPageScraper.extract_url_sku(example_product))
-    print(BrandPageScraper.extract_url_product_code(example_product))
-
-
-    # https://www.sephora.com/api/v3/users/profiles/current/product/P513096?skipAddToRecentlyViewed=false&preferedSku=2791291&countryCode=CA&loc=en-CA&cb=1735438884
+    sku = BrandPageScraper.extract_url_sku(example_product)
+    product_code = 'P384963'
+    product_data_sample = ProductScraper.get_product_data_api(product_code)
+    with open('../data/product_sample_multiple_skus.json', 'w') as f:
+        json.dump(product_data_sample, f)
