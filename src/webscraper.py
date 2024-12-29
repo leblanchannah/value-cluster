@@ -31,6 +31,50 @@ options.add_experimental_option('useAutomationExtension', False)
 user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36'
 options.add_argument('user-agent={0}'.format(user_agent))
 
+def create_product_table(db_file):
+    try:
+        # Connect to SQLite database
+        conn = sqlite3.connect(db_file)
+        cursor = conn.cursor()
+        cursor.execute("""
+        CREATE TABLE IF NOT EXISTS products (
+            product_id INTEGER PRIMARY KEY AUTOINCREMENT,
+            brand_id INTEGER,
+            product_url TEXT,
+            record_created TIMESTAMP,
+            FOREIGN KEY (brand_id) REFERENCES Brands(brand_id)
+        )
+        """)
+        conn.commit()
+    except sqlite3.Error as e:
+        print(f"SQLite error: {e}")
+    
+    finally:
+        # Close the connection
+        if conn:
+            conn.close()
+
+def insert_brand_products(db_file, brand_id, product_urls):
+    try:
+        conn = sqlite3.connect(db_file)
+        cursor = conn.cursor()
+
+        for url in product_urls:
+            cursor.execute("""
+                INSERT INTO products (brand_id, product_url, record_created)
+                VALUES (?, ?, ?)
+                """, (brand_id, url, datetime.now()))
+        conn.commit()
+        print(f"{len(product_urls)} records inserted into 'products'.")
+
+
+    except sqlite3.Error as e:
+        print(f"SQLite error: {e}")
+    
+    finally:
+        # Close the connection
+        if conn:
+            conn.close()
 
 # Function to create the 'brands' table
 def create_brands_table(db_file):
@@ -61,7 +105,6 @@ def create_brands_table(db_file):
 # Function to insert data into the 'brands' table
 def insert_brands_data(db_file, data):
     try:
-        # Connect to SQLite database
         conn = sqlite3.connect(db_file)
         cursor = conn.cursor()
         
@@ -364,65 +407,6 @@ def get_product_page(product_url):
     return product 
 
 
-def get_brand_products(url):
-    """
-    Brand pages display products in a grid. Products past initial load of data are loaded by scrolling down the page.
-    Once "show more" button is found, click to load more products in page. Product links are added to a set. 
-    TO DO -> product URLS can be parsed here to remove duplicate products 
-    """
-    brand_info = {}
-    product_urls = []
-    with webdriver.Chrome(options=options) as driver:
-        driver.get(url)
-        soup = BeautifulSoup(driver.page_source, 'html.parser')
-        try:
-            expected_n_products = soup.find("p", attrs={'data-at':'number_of_products'}).getText()
-            print(f'Brand has {expected_n_products} products.')
-        except Exception as e:
-            logger.error(f"An error occurred: {e}")
-
-        #https://stackoverflow.com/questions/20986631/how-can-i-scroll-a-web-page-using-selenium-webdriver-in-python
-        # Initially tried to scroll to bottom of page but this did not load products.
-        # at top of webpage
-        y_height=0
-        # initial products on grid when page is opened
-        regex = re.compile('ProductTile')
-        products_on_load = [x.a for x in soup.find_all("div", attrs={"data-comp":regex})]
-        try:
-            product_urls.extend([prod.get('href') for prod in products_on_load])
-        except Exception as e:
-                logger.error(f"An error occurred: {e}")
-
-        # while there is still page left to scroll and "see more" buttons to click
-        while True:
-            product_urls.extend(get_lazy_products_on_grid(driver))
-            
-            y_height = scroll_webpage(driver, y_height)
-            # Calculate new scroll height and compare with last scroll height
-            new_height = driver.execute_script("return document.body.scrollHeight")
-            if new_height<y_height:
-                try:
-                    # End of page if 'show more' button exists
-                    driver.find_element(By.XPATH, '//button[text()="Show More Products"]').click()
-                    print("SHOWING MORE PRODUCTS")
-                except Exception as e:
-                    logger.error(f"An error occurred: {e}")
-                    # End of page
-                    product_urls.extend(get_lazy_products_on_grid(driver))
-                    break
-        driver.quit()
-
-    parsed_urls = {}
-    for url in set(product_urls):
-        parsed_url = parse_url_info(url)
-        #"sku:url"
-        if parsed_url[0] not in parsed_urls.values():
-            parsed_urls[parsed_url[1]] = parsed_url[0]
-    
-    print('Found '+ str(len(parsed_urls)))
-    return product_urls, parsed_urls
-
-
 def main():
     start_time = time.time()
 
@@ -488,7 +472,7 @@ if __name__ == "__main__":
     #     brand_urls = brands.get_brand_urls()
     #     print(brand_urls)
 
-    # DB_FILE = "../data/db/products.db"
+    DB_FILE = "../data/db/products.db"
 
     # # Execute functions
     # create_brands_table(DB_FILE)
@@ -501,3 +485,7 @@ if __name__ == "__main__":
         product_urls = brand_page.get_product_urls(f"https://www.sephora.com/ca/en/brand/bondi-boost")
         [print(x) for x in product_urls]
         print(len(product_urls))
+
+        create_product_table(DB_FILE)
+        brand_id = 1 # replace w key from brnad table
+        insert_brand_products(DB_FILE, brand_id, product_urls)
