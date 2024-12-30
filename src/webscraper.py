@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
+from selenium import webdriver
 from urllib.parse import parse_qs, urlparse
 import requests
 from datetime import datetime
@@ -30,8 +31,8 @@ user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Ge
 options.add_argument('user-agent={0}'.format(user_agent))
 
 
-def create_product_details_table(db_file):
 
+def create_product_details_table(db_file):
 
     try:
         conn = sqlite3.connect(db_file)
@@ -44,7 +45,7 @@ def create_product_details_table(db_file):
                 loves_count INTEGER,
                 rating REAL,
                 reviews INTEGER,
-                brand_id INTEGER,
+                brand_source_id INTEGER,
                 category_root_id TEXT,
                 category_root_name TEXT,
                 category_root_url TEXT,
@@ -76,7 +77,8 @@ def create_product_details_table(db_file):
                 returnable BOOLEAN,
                 finish_refinement TEXT,
                 size_refinement TEXT,
-                record_created TIMESTAMP
+                record_created TIMESTAMP,
+                FOREIGN KEY (product_id) REFERENCES products(product_code)
             )
         """)
         conn.commit()
@@ -101,7 +103,7 @@ def insert_product_details(db_file:str, products: List):
             cursor.execute(
                 """
                 INSERT INTO product_details (
-                    target_url, product_id, loves_count, rating, reviews, brand_id, 
+                    target_url, product_id, loves_count, rating, reviews, brand_source_id, 
                     category_root_id, category_root_name, category_root_url, 
                     category_child_id, category_child_name, category_child_url, 
                     category_grandchild_id, category_grandchild_name, category_grandchild_url, 
@@ -141,7 +143,7 @@ def create_product_table(db_file):
             sku TEXT,
             product_code TEXT,
             record_created TIMESTAMP,
-            FOREIGN KEY (brand_id) REFERENCES Brands(brand_id)
+            FOREIGN KEY (brand_id) REFERENCES brands(brand_id)
         )
         """)
         conn.commit()
@@ -531,39 +533,45 @@ class ProductScraper:
 
 if __name__ == "__main__":
 
-    # brand_urls = []
-    # brand_list_url = 'https://www.sephora.com/ca/en/brands-list'
-    # with webdriver.Chrome(options=options) as driver:
-    #     brands = BrandListScraper(driver, brand_list_url)
-    #     brand_urls = brands.get_brand_urls()
-    #     print(brand_urls)
+    brand_urls = []
+    brand_list_url = 'https://www.sephora.com/ca/en/brands-list'
+    with webdriver.Chrome(options=options) as driver:
+        brands = BrandListScraper(driver, brand_list_url)
+        brand_urls = brands.get_brand_urls()
 
     DB_FILE = "../data/db/products.db"
+    create_brands_table(DB_FILE)
+    insert_brands_data(DB_FILE, brand_urls)
+    create_product_table(DB_FILE)
+    for brand in brand_urls:
+        time.sleep(5)
+        with webdriver.Chrome(options=options) as driver:
+            brand_page = BrandPageScraper(driver)
+            product_urls = brand_page.get_product_urls(brand['brand_url'])
 
-    # # Execute functions
-    # create_brands_table(DB_FILE)
-    # insert_brands_data(DB_FILE, brand_urls)
+            try:
+                conn = sqlite3.connect(DB_FILE)
+                cursor = conn.cursor()
+                cursor.execute("""SELECT id FROM brands where brand_url=?""", (brand['brand_url'],))
+                brand_id = cursor.fetchone()
+            except sqlite3.Error as e:
+                print(f"SQLite error: {e}")
+            finally:
+                if conn:
+                    conn.close()
 
-    # with webdriver.Chrome(options=options) as driver:
-    #     brand_page = BrandPageScraper(driver)
+                insert_brand_products(DB_FILE, brand_id, product_urls)
 
-    #     # brand = brand_urls[0]['brand_url']
-    #     product_urls = brand_page.get_product_urls(f"https://www.sephora.com/ca/en/brand/bondi-boost")
+    # example_product = "https://www.sephora.com/ca/en/product/bondi-boost-rapid-repair-bond-builder-leave-in-hair-for-damaged-hair-P513096?skuId=2791291&icid2=products%20grid:p513096:product"
 
-    #     create_product_table(DB_FILE)
-    #     brand_id = 1 # replace w key from brnad table
-    #     insert_brand_products(DB_FILE, brand_id, product_urls)
+    # sku = BrandPageScraper.extract_url_sku(example_product)
+    # product_code = 'P384963'
+    # product_data_sample = ProductScraper.get_product_data_api(product_code)
+    # with open('../data/product_sample_multiple_skus.json', 'w') as f:
+    #     json.dump(product_data_sample, f)
 
-    example_product = "https://www.sephora.com/ca/en/product/bondi-boost-rapid-repair-bond-builder-leave-in-hair-for-damaged-hair-P513096?skuId=2791291&icid2=products%20grid:p513096:product"
-
-    sku = BrandPageScraper.extract_url_sku(example_product)
-    product_code = 'P384963'
-    product_data_sample = ProductScraper.get_product_data_api(product_code)
-    with open('../data/product_sample_multiple_skus.json', 'w') as f:
-        json.dump(product_data_sample, f)
-
-    create_product_details_table(DB_FILE)
-    insert_product_details(DB_FILE, ProductScraper.compress_product_data(product_data_sample))
+    # create_product_details_table(DB_FILE)
+    # insert_product_details(DB_FILE, ProductScraper.compress_product_data(product_data_sample))
 
     # import pandas as pd
     # data = pd.DataFrame(ProductScraper.compress_product_data(product_data_sample))
