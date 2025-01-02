@@ -52,64 +52,6 @@ def execute_sql_query(db_file: str, sql_query: str):
         if conn:
             conn.close()
 
-
-
-def create_product_details_table(db_file):
-
-    try:
-        conn = sqlite3.connect(db_file)
-        cursor = conn.cursor()
-        cursor.execute("""
-            CREATE TABLE IF NOT EXISTS product_details (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                target_url TEXT,
-                product_id TEXT,
-                loves_count INTEGER,
-                rating REAL,
-                reviews INTEGER,
-                brand_source_id INTEGER,
-                category_root_id TEXT,
-                category_root_name TEXT,
-                category_root_url TEXT,
-                category_child_id TEXT,
-                category_child_name TEXT,
-                category_child_url TEXT,
-                category_grandchild_id TEXT,
-                category_grandchild_name TEXT,
-                category_grandchild_url TEXT,
-                sku_id TEXT,
-                brand_name TEXT,
-                display_name TEXT,
-                ingredients TEXT,
-                limited_edition BOOLEAN,
-                first_access BOOLEAN,
-                limited_time_offer BOOLEAN,
-                new_product BOOLEAN,
-                online_only BOOLEAN,
-                few_left BOOLEAN,
-                out_of_stock BOOLEAN,
-                price TEXT,
-                max_purchase_quantity INTEGER,
-                size TEXT,
-                type TEXT,
-                url TEXT,
-                variation_description TEXT,
-                variation_type TEXT,
-                variation_value TEXT,
-                returnable BOOLEAN,
-                finish_refinement TEXT,
-                size_refinement TEXT,
-                record_created TIMESTAMP,
-                FOREIGN KEY (product_id) REFERENCES products(product_code)
-            )
-        """)
-        conn.commit()
-    except sqlite3.Error as e:
-        print(f"SQLite error: {e}")
-    finally:
-        if conn:
-            conn.close()
-
 def insert_product_details_batch(db_file:str, products: List[Dict]):
     try:
         conn = sqlite3.connect(db_file)
@@ -192,32 +134,6 @@ def insert_product_details_batch(db_file:str, products: List[Dict]):
             conn.close()
 
 
-
-def create_product_table(db_file):
-    try:
-        # Connect to SQLite database
-        conn = sqlite3.connect(db_file)
-        cursor = conn.cursor()
-        cursor.execute("""
-        CREATE TABLE IF NOT EXISTS products (
-            product_id INTEGER PRIMARY KEY AUTOINCREMENT,
-            brand_id INTEGER,
-            product_url TEXT,
-            sku TEXT,
-            product_code TEXT,
-            record_created TIMESTAMP,
-            FOREIGN KEY (brand_id) REFERENCES brands(brand_id)
-        )
-        """)
-        conn.commit()
-    except sqlite3.Error as e:
-        print(f"SQLite error: {e}")
-    
-    finally:
-        # Close the connection
-        if conn:
-            conn.close()
-
 def insert_brand_products_batch(db_file: str, brand_id: int, product_urls: List[str]):
     try:
         conn = sqlite3.connect(db_file)
@@ -243,33 +159,6 @@ def insert_brand_products_batch(db_file: str, brand_id: int, product_urls: List[
         if conn:
             conn.close()
 
-
-
-# Function to create the 'brands' table
-def create_brands_table(db_file):
-    try:
-        # Connect to SQLite database
-        conn = sqlite3.connect(db_file)
-        cursor = conn.cursor()
-        
-        # Create the 'brands' table
-        cursor.execute("""
-        CREATE TABLE IF NOT EXISTS brands (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            brand_name CHAR NOT NULL,
-            brand_url CHAR NOT NULL,
-            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-        )
-        """)
-        print("Table 'brands' created successfully.")
-    
-    except sqlite3.Error as e:
-        print(f"SQLite error: {e}")
-    
-    finally:
-        # Close the connection
-        if conn:
-            conn.close()
 
 # Function to insert data into the 'brands' table
 def insert_brands_data(db_file, data):
