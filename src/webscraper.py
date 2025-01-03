@@ -153,7 +153,7 @@ class ProductScraper:
             'sku_id':data['skuId'], # str
             'brand_name':data['brandName'], # str
             'display_name':data['displayName'], # str
-            'ingredients':data['ingredientDesc'], # str
+            'ingredients':data.get('ingredientDesc',""), # str
             'limited_edition':data['isLimitedEdition'], # bool
             'first_access':data['isFirstAccess'], # bool
             'limited_time_offer':data['isLimitedTimeOffer'],# bool
@@ -195,14 +195,18 @@ class ProductScraper:
         parent_sku = {
             'target_url':data.get('targetUrl',""),
             'product_code':data.get('productId',""),
-            'loves_count':data.get('productDetails').get('lovesCount',-1),
-            'rating':data.get('productDetails').get('rating', -1),
-            'reviews':data.get('productDetails').get('reviews',-1),
-            'brand_id':data['productDetails']['brand']['brandId'],
-            'category_root_id':ProductScraper.compress_categories(data['parentCategory'], 'categoryId'),
-            'category_root_name':ProductScraper.compress_categories(data['parentCategory'], 'displayName'),
-            'category_root_url':ProductScraper.compress_categories(data['parentCategory'], 'targetUrl')
+            'loves_count':data.get('productDetails', {}).get('lovesCount',-1),
+            'rating':data.get('productDetails', {}).get('rating', -1),
+            'reviews':data.get('productDetails', {}).get('reviews',-1),
+            'brand_id':data.get('productDetails',{}).get('brand',{}).get('brandId',""),
+            'category_root_id':"",
+            'category_root_name':"",
+            'category_root_url':""
         }
+        if 'parentCategory' in data.keys():
+            parent_sku['category_root_id']=ProductScraper.compress_categories(data['parentCategory'], 'categoryId')
+            parent_sku['category_root_name']=ProductScraper.compress_categories(data['parentCategory'], 'displayName')
+            parent_sku['category_root_url']=ProductScraper.compress_categories(data['parentCategory'], 'targetUrl')
 
         product_details = ProductScraper.map_product_response_to_record(data['currentSku'])
         product_variations.append({**parent_sku, **product_details})
@@ -223,7 +227,7 @@ class ProductScraper:
         try:
             h1 = soup.h1.text
         except Exception as e:
-            print(f"An error occurred: {e}")
+            logging.error(f"An error occurred: {e}")
             return product
         if h1=='Sorry, this product is not available.' or h1=='Sorry! The page you’re looking for cannot be found.' or h1=="Search Results":
             product['error'] = "Product not available"  
@@ -329,8 +333,8 @@ class ProductScraper:
                 try:
                     button.click()
                 except Exception as e:
-                    print(f"An error occurred: {e}")
-                    print('reached non-clickable web element')
+                    logging.error(f"An error occurred: {e}")
+
                     return product_options
                 product_info = {}
                 product_info['swatch_group'] = swatch_grp.find_element(By.TAG_NAME, "p").text
@@ -338,12 +342,12 @@ class ProductScraper:
                 try:
                     product_info['size'] = self.driver.find_element(By.XPATH, "//span[@data-at='sku_size_label']").text
                 except Exception as e:
-                    print(f"An error occurred: {e}")
+                    logging.error(f"An error occurred: {e}")
                     product_info['size'] = None
                 try:
                     product_info['name'] = [x.text for x in self.driver.find_elements_by_xpath("//div[@data-at='sku_name_label']//span")]
                 except Exception as e:
-                    print(f"An error occurred: {e}")
+                    logging.error(f"An error occurred: {e}")
                     product_info['name'] = None
                 # if item is on sale, there will be two b tags, first is sale, second is original price
                 product_info['price'] = [b.text for b in self.driver.find_elements(By.XPATH, "//p[@data-comp='Price ']//b")]
@@ -356,7 +360,7 @@ if __name__ == "__main__":
 
     DB_FILE = "../data/db/products.db"
 
-    # # create tables 
+    # create tables 
     # execute_sql_query(DB_FILE, create_brands_table_query, 'brands')
     # execute_sql_query(DB_FILE, create_products_table_query, 'products')
     execute_sql_query(DB_FILE, create_product_details_table_query, 'product_details')
@@ -367,18 +371,17 @@ if __name__ == "__main__":
     #     brands = BrandListScraper(driver, brand_list_url)
     #     brand_urls = brands.get_brand_urls()
 
+    conn = None
 
     # insert_brands_data_batch(DB_FILE, brand_urls, "brands")
-    # for brand in brand_urls[0:3]:
+    # for brand in brand_urls:
     #     time.sleep(5)
     #     with webdriver.Chrome(options=options) as driver:
     #         brand_page = BrandPageScraper(driver)
     #         try:
     #             product_urls = brand_page.get_product_urls(brand['brand_url'])
     #         except selenium.common.exceptions.InvalidArgumentException as e:
-    #             print(f"{e}")
-    #             print(brand)
-    #             print(brand['brand_url'])
+    #             logging.error(f"{e}")
     #             continue
 
 
@@ -388,7 +391,7 @@ if __name__ == "__main__":
     #             cursor.execute("""SELECT id FROM brands where brand_url=?""", (brand['brand_url'],))
     #             brand_id = cursor.fetchone()[0]
     #         except sqlite3.Error as e:
-    #             print(f"SQLite error: {e}")
+    #             logging.error(f"SQLite error: {e}")
     #         finally:
     #             if conn:
     #                 conn.close()
@@ -396,12 +399,8 @@ if __name__ == "__main__":
     #                 (brand_id, url, BrandPageScraper.extract_url_sku(url), BrandPageScraper.extract_url_product_code(url))
     #                 for url in product_urls
     #             ]
-    #             insert_brand_products_batch(DB_FILE, brand_id, batch_data, "products")
+    #             insert_brand_products(DB_FILE, brand_id, batch_data, "products")
 
-    # example_product = "https://www.sephora.com/ca/en/product/bondi-boost-rapid-repair-bond-builder-leave-in-hair-for-damaged-hair-P513096?skuId=2791291&icid2=products%20grid:p513096:product"
-
-    # sku = BrandPageScraper.extract_url_sku(example_product)
-    # product_code = 'P384963'
 
     try:
         conn = sqlite3.connect(DB_FILE)
@@ -410,23 +409,17 @@ if __name__ == "__main__":
         found_products = cursor.fetchall()    
 
     except sqlite3.Error as e:
-        print(f"SQLite error: {e}")
+        logging.error(f"SQLite error: {e}")
     finally:
         if conn:
             conn.close()
         
         for product_code in found_products:
+            time.sleep(4)
             product_data = ProductScraper.get_product_data_api(product_code[0])
-            # logging.info(product_data)
-            insert_product_details(DB_FILE, ProductScraper.compress_product_data(product_data), 'product_details')
-
-
-    # product_data_sample = ProductScraper.get_product_data_api(product_code)
-    # # with open('../data/product_sample_multiple_skus.json', 'w') as f:
-    # #     json.dump(product_data_sample, f)
-
-
-    # import pandas as pd
-    # data = pd.DataFrame(ProductScraper.compress_product_data(product_data_sample))
-    # print(data.columns)
-    # data.to_csv('../data/product_details_sample.csv')
+            logging.info(f"GET data for {product_data}")
+            try:
+                insert_product_details(DB_FILE, ProductScraper.compress_product_data(product_data), 'product_details')
+            except KeyError as e:
+                logging.error(f"{e}")
+                continue
