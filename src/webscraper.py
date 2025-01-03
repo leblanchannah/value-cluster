@@ -12,6 +12,9 @@ import re
 import time
 import sqlite3
 import logging
+from db_util import (execute_sql_query, insert_product_details_batch, insert_brand_products_batch, insert_brands_data_batch,
+                    create_brands_table_query, create_products_table_query, create_product_details_table_query)
+
 logger = logging.getLogger(__name__)
 
 BASE_URL = 'https://www.sephora.com'
@@ -22,168 +25,25 @@ DRIVER_PATH = '../../../chrome-mac-x64/chromedriver'
 DATA_DIR = "data/"
 
 options = Options()
-options.headless = True
-options.add_argument("--window-size=1920,1200")
-options.add_argument('--disable-gpu')
-options.add_argument('--no-sandbox')
+options.add_argument("--headless")
+options.add_argument("--disable-gpu")
+options.add_argument("--no-sandbox")
+options.add_argument("--disable-dev-shm-usage")
 options.add_experimental_option("excludeSwitches", ["enable-automation"])
 options.add_experimental_option('useAutomationExtension', False)
 user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36'
 options.add_argument('user-agent={0}'.format(user_agent))
+driver = webdriver.Chrome(options=options)
 
-
-def execute_sql_query(db_file: str, sql_query: str):
-    """
-    Executes a given SQL query on the specified SQLite database.
-
-    Args:
-        db_file (str): Path to the SQLite database file.
-        sql_query (str): The SQL query to execute.
-    """
-    try:
-        conn = sqlite3.connect(db_file)
-        cursor = conn.cursor()
-        cursor.execute(sql_query)
-        conn.commit()
-        print("SQL query executed successfully.")
-    except sqlite3.Error as e:
-        print(f"SQLite error: {e}")
-    finally:
-        if conn:
-            conn.close()
-
-def insert_product_details_batch(db_file:str, products: List[Dict]):
-    try:
-        conn = sqlite3.connect(db_file)
-        cursor = conn.cursor()
-
-        batch_data = [
-            (
-                product.get("target_url"),
-                product.get("product_id"),
-                product.get("loves_count"),
-                product.get("rating"),
-                product.get("reviews"),
-                product.get("brand_source_id"),
-                product.get("category_root_id"),
-                product.get("category_root_name"),
-                product.get("category_root_url"),
-                product.get("category_child_id"),
-                product.get("category_child_name"),
-                product.get("category_child_url"),
-                product.get("category_grandchild_id"),
-                product.get("category_grandchild_name"),
-                product.get("category_grandchild_url"),
-                product.get("sku_id"),
-                product.get("brand_name"),
-                product.get("display_name"),
-                product.get("ingredients"),
-                product.get("limited_edition"),
-                product.get("first_access"),
-                product.get("limited_time_offer"),
-                product.get("new_product"),
-                product.get("online_only"),
-                product.get("few_left"),
-                product.get("out_of_stock"),
-                product.get("price"),
-                product.get("max_purchase_quantity"),
-                product.get("size"),
-                product.get("type"),
-                product.get("url"),
-                product.get("variation_description"),
-                product.get("variation_type"),
-                product.get("variation_value"),
-                product.get("returnable"),
-                product.get("finish_refinement"),
-                product.get("size_refinement"),
-                datetime.now()
-            )
-            for product in products
-        ]
-
-        cursor.executemany(
-            """
-            INSERT INTO product_details (
-                target_url, product_id, loves_count, rating, reviews, brand_source_id,
-                category_root_id, category_root_name, category_root_url,
-                category_child_id, category_child_name, category_child_url,
-                category_grandchild_id, category_grandchild_name, category_grandchild_url,
-                sku_id, brand_name, display_name, ingredients, limited_edition,
-                first_access, limited_time_offer, new_product, online_only,
-                few_left, out_of_stock, price, max_purchase_quantity, size, type,
-                url, variation_description, variation_type, variation_value,
-                returnable, finish_refinement, size_refinement, record_created
-            ) VALUES (
-                ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,
-                ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
-            )
-            """,
-            batch_data
-        )
-
-        conn.commit()
-        print(f"{len(products)} records inserted into 'product_details'.")
-
-
-    except sqlite3.Error as e:
-        print(f"SQLite error: {e}")
-    
-    finally:
-        # Close the connection
-        if conn:
-            conn.close()
-
-
-def insert_brand_products_batch(db_file: str, brand_id: int, product_urls: List[str]):
-    try:
-        conn = sqlite3.connect(db_file)
-        cursor = conn.cursor()
-        batch_data = [
-            (brand_id, url, BrandPageScraper.extract_url_sku(url), BrandPageScraper.extract_url_product_code(url), datetime.now())
-            for url in product_urls
-        ]
-        cursor.executemany(
-            """
-            INSERT INTO products (brand_id, product_url, sku, product_code, record_created)
-            VALUES (?, ?, ?, ?, ?)
-            """,
-            batch_data
-        )
-
-        conn.commit()
-        print(f"{len(product_urls)} records inserted into 'products'.")
-    except sqlite3.Error as e:
-        print(f"SQLite error: {e}")
-
-    finally:
-        if conn:
-            conn.close()
-
-
-# Function to insert data into the 'brands' table
-def insert_brands_data(db_file, data):
-    try:
-        conn = sqlite3.connect(db_file)
-        cursor = conn.cursor()
-        
-        # Insert data into the 'brands' table
-        for brand in data:
-            cursor.execute("""
-            INSERT INTO brands (brand_name, brand_url)
-            VALUES (?, ?)
-            """, (brand["brand_name"], brand["brand_url"]))
-        
-        # Commit the transaction
-        conn.commit()
-        print(f"{len(data)} records inserted into 'brands'.")
-    
-    except sqlite3.Error as e:
-        print(f"SQLite error: {e}")
-    
-    finally:
-        # Close the connection
-        if conn:
-            conn.close()
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,  # Set to DEBUG for more detailed logs
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler("db_operations.log"),  # Logs to a file
+        logging.StreamHandler()  # Logs to the console
+    ]
+)
 
 
 class BrandPageScraper:
@@ -191,16 +51,22 @@ class BrandPageScraper:
         self.driver = driver
 
     def get_product_urls(self, brand_url):
-        self.driver.get(brand_url)
+        url = f"{BASE_URL}{brand_url}"
+        logging.info(f"Scraping brand page {url}")
+        self.driver.get(url)
+
         product_urls = set()
         y_height = 0
         while True:
+            logging.info("Finding products on brand page...")
+            logging.info(product_urls)
             current_height = self.driver.execute_script("return document.body.scrollHeight")
             product_urls.update(self._extract_visible_product_urls())
             scrolled_height = self._scroll_down(y_height)
             if not self._click_show_more_button() and current_height<=scrolled_height:
                 break
             y_height = scrolled_height
+            
         return list(product_urls)
 
     def _extract_visible_product_urls(self):
@@ -489,74 +355,9 @@ if __name__ == "__main__":
     DB_FILE = "../data/db/products.db"
 
     # create tables 
-    create_brands_table_query = """
-    CREATE TABLE IF NOT EXISTS brands (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        brand_name CHAR NOT NULL,
-        brand_url CHAR NOT NULL,
-        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-    )
-    """
-
-    create_products_table_query = """
-    CREATE TABLE IF NOT EXISTS products (
-        product_id INTEGER PRIMARY KEY AUTOINCREMENT,
-        brand_id INTEGER,
-        product_url TEXT,
-        sku TEXT,
-        product_code TEXT,
-        record_created TIMESTAMP,
-        FOREIGN KEY (brand_id) REFERENCES brands(id)
-    )
-    """
-
-    create_product_details_table_query = """
-    CREATE TABLE IF NOT EXISTS product_details (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        target_url TEXT,
-        product_id TEXT,
-        loves_count INTEGER,
-        rating REAL,
-        reviews INTEGER,
-        brand_source_id INTEGER,
-        category_root_id TEXT,
-        category_root_name TEXT,
-        category_root_url TEXT,
-        category_child_id TEXT,
-        category_child_name TEXT,
-        category_child_url TEXT,
-        category_grandchild_id TEXT,
-        category_grandchild_name TEXT,
-        category_grandchild_url TEXT,
-        sku_id TEXT,
-        brand_name TEXT,
-        display_name TEXT,
-        ingredients TEXT,
-        limited_edition BOOLEAN,
-        first_access BOOLEAN,
-        limited_time_offer BOOLEAN,
-        new_product BOOLEAN,
-        online_only BOOLEAN,
-        few_left BOOLEAN,
-        out_of_stock BOOLEAN,
-        price TEXT,
-        max_purchase_quantity INTEGER,
-        size TEXT,
-        type TEXT,
-        url TEXT,
-        variation_description TEXT,
-        variation_type TEXT,
-        variation_value TEXT,
-        returnable BOOLEAN,
-        finish_refinement TEXT,
-        size_refinement TEXT,
-        record_created TIMESTAMP
-    )
-    """
-
-    execute_sql_query(DB_FILE, create_brands_table_query)
-    execute_sql_query(DB_FILE, create_products_table_query)
-    execute_sql_query(DB_FILE, create_product_details_table_query)
+    execute_sql_query(DB_FILE, create_brands_table_query, 'brands')
+    execute_sql_query(DB_FILE, create_products_table_query, 'products')
+    execute_sql_query(DB_FILE, create_product_details_table_query, 'product_details')
 
     brand_urls = []
     brand_list_url = 'https://www.sephora.com/ca/en/brands-list'
@@ -565,15 +366,16 @@ if __name__ == "__main__":
         brand_urls = brands.get_brand_urls()
 
 
-    insert_brands_data(DB_FILE, brand_urls)
-    for brand in brand_urls:
+    insert_brands_data_batch(DB_FILE, brand_urls, "brands")
+    for brand in brand_urls[0:3]:
         time.sleep(5)
         with webdriver.Chrome(options=options) as driver:
             brand_page = BrandPageScraper(driver)
             try:
                 product_urls = brand_page.get_product_urls(brand['brand_url'])
             except selenium.common.exceptions.InvalidArgumentException as e:
-                print(f"SQLite error: {e}")
+                print(f"{e}")
+                print(brand)
                 print(brand['brand_url'])
                 continue
 
@@ -582,14 +384,17 @@ if __name__ == "__main__":
                 conn = sqlite3.connect(DB_FILE)
                 cursor = conn.cursor()
                 cursor.execute("""SELECT id FROM brands where brand_url=?""", (brand['brand_url'],))
-                brand_id = cursor.fetchone()
+                brand_id = cursor.fetchone()[0]
             except sqlite3.Error as e:
                 print(f"SQLite error: {e}")
             finally:
                 if conn:
                     conn.close()
-
-                insert_brand_products_batch(DB_FILE, brand_id, product_urls)
+                batch_data = [
+                    (brand_id, url, BrandPageScraper.extract_url_sku(url), BrandPageScraper.extract_url_product_code(url))
+                    for url in product_urls
+                ]
+                insert_brand_products_batch(DB_FILE, brand_id, batch_data, "products")
 
     # example_product = "https://www.sephora.com/ca/en/product/bondi-boost-rapid-repair-bond-builder-leave-in-hair-for-damaged-hair-P513096?skuId=2791291&icid2=products%20grid:p513096:product"
 
