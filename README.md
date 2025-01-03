@@ -1,4 +1,10 @@
-# Sephora Value Canvas
+# Data Vis Challenge - 30 days of plots
+## Day 1 
+![scatter plot mascara pricing](figures/scatter_mascara_pricing.png)
+
+
+
+# Sephora Value Canvas - Data Visualization Society Project 
 
 [Sephora Value Canvas Dashboard](https://leblanchannah.pythonanywhere.com/)
 
