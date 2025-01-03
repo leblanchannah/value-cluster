@@ -18,17 +18,44 @@ def parse_parent_code_from_url(url):
     return params.get('parentProduct', [None])
 
 
+def clean_missing_zero_sizes(size_string):
+    """
+    Adds a leading zero to decimal numbers missing it in the input string.
+    Example: '.28oz' -> '0.28oz'
+    """
+    # Regular expression to find decimals missing leading zeros
+    corrected_string = re.sub(r'(?<!\d)\.(\d+)', r'0.\1', size_string)
+    return corrected_string
+
+# Updated size parsing function
 def parse_size_data(entry):
-    size_pattern = r'(\d+(?:\.\d+)?)\s*(oz|ml|g|lb|kg|l)'
+    # Preprocess to fix missing zeros
+    entry = clean_missing_zero_sizes(entry)
+    
+    # Define patterns
+    size_pattern = r'(\d+(?:\.\d+)?)\s*(oz|ml|g|lb|kg)'
     description_pattern = r'^(.*?)-'
 
+    # Extract sizes and units
     sizes = re.findall(size_pattern, entry)
     description = re.search(description_pattern, entry)
-    
+
     return {
         "sizes": sizes,  # List of all (value, unit) pairs
         "description": description.group(1).strip() if description else None
     }
+
+# def parse_size_data(entry):
+#     size_pattern = r'(\d+(?:\.\d+)?)\s*(oz|ml|g|lb|kg|l)'
+#     description_pattern = r'^(.*?)-'
+
+#     sizes = re.findall(size_pattern, entry)
+#     description = re.search(description_pattern, entry)
+    
+#     return {
+#         "sizes": sizes,  # List of all (value, unit) pairs
+#         "description": description.group(1).strip() if description else None
+#     }
 
 
 def split_sizes(size_list):
@@ -96,6 +123,9 @@ if __name__ == "__main__":
     print(f"found (g) {df[df['unit_g'].notnull()].shape[0]}")
     print(f"found (ml) {df[df['unit_ml'].notnull()].shape[0]}")
     print(f"found (oz) {df[df['unit_oz'].notnull()].shape[0]}")
+
+    conversion_oz_ml = 29.574
+    df.loc[(df['unit_ml'].isna()) & (df['unit_oz'].notnull()), 'unit_ml'] = df['unit_oz']*conversion_oz_ml
 
     df['value_CAD_oz'] = df['price'] / df['unit_oz'] 
     df['value_CAD_ml'] = df['price'] / df['unit_ml'] 
