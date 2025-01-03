@@ -12,7 +12,7 @@ import re
 import time
 import sqlite3
 import logging
-from db_util import (execute_sql_query, insert_product_details_batch, insert_brand_products_batch, insert_brands_data_batch,
+from db_util import (execute_sql_query, insert_product_details, insert_brand_products, insert_brands_data_batch,
                     create_brands_table_query, create_products_table_query, create_product_details_table_query)
 
 logger = logging.getLogger(__name__)
@@ -163,52 +163,54 @@ class ProductScraper:
             'out_of_stock':data['isOutOfStock'],# bool
             'price':data['listPrice'], # str
             'max_purchase_quantity':data['maxPurchaseQuantity'], # int
-            'size':data['size'], # str
+            'size':data.get('size', ""), # str
             'type':data['type'], # str
             'url':data['url'],# str
-            'variation_description':data['variationDesc'],# str
-            'variation_type':data['variationType'],# str
-            'variation_value':data['variationValue'],# str
+            'variation_type':data.get('variationType',""),# str
+            'variation_value':data.get('variationValue',""),# str
             'returnable':data['isReturnable'], #bool
             'finish_refinement':"", # str
             'size_refinement':"" # str
         }
+        if 'refinements' in data.keys():
+            if 'finishRefinements' in data['refinements'].keys():
+                product_details['finish_refinement'] = ' '.join(data['refinements']['finishRefinements'])
 
-        if 'finishRefinements' in data['refinements'].keys():
-            product_details['finish_refinement'] = ' '.join(data['refinements']['finishRefinements'])
-
-        if 'sizeRefinements' in data['refinements'].keys():
-            product_details['size_refinement'] = ' '.join(data['refinements']['sizeRefinements'])
+            if 'sizeRefinements' in data['refinements'].keys():
+                product_details['size_refinement'] = ' '.join(data['refinements']['sizeRefinements'])
 
         return product_details
+    
+    @staticmethod
+    def compress_categories(data, col):
+        if col not in data.keys():
+            return ""
+        if "parentCategory" not in data.keys():
+            return data[col]
+        return data[col]+" --- "+ProductScraper.compress_categories(data['parentCategory'], col)
 
     @staticmethod
     def compress_product_data(data):
         product_variations = []
         parent_sku = {
-            'target_url':data['targetUrl'],
-            'product_id':data['productId'],
-            'loves_count':data['productDetails']['lovesCount'],
-            'rating':data['productDetails']['rating'],
-            'reviews':data['productDetails']['reviews'],
+            'target_url':data.get('targetUrl',""),
+            'product_code':data.get('productId',""),
+            'loves_count':data.get('productDetails').get('lovesCount',-1),
+            'rating':data.get('productDetails').get('rating', -1),
+            'reviews':data.get('productDetails').get('reviews',-1),
             'brand_id':data['productDetails']['brand']['brandId'],
-            'category_root_id':data['parentCategory']['categoryId'],
-            'category_root_name':data['parentCategory']['displayName'],
-            'category_root_url':data['parentCategory']['url'],
-            'category_child_id':data['parentCategory']['parentCategory']['categoryId'],
-            'category_child_name':data['parentCategory']['parentCategory']['displayName'],
-            'category_child_url':data['parentCategory']['parentCategory']['url'],
-            'category_grandchild_id':data['parentCategory']['parentCategory']['parentCategory']['categoryId'],
-            'category_grandchild_name':data['parentCategory']['parentCategory']['parentCategory']['displayName'],
-            'category_grandchild_url':data['parentCategory']['parentCategory']['parentCategory']['url'],
+            'category_root_id':ProductScraper.compress_categories(data['parentCategory'], 'categoryId'),
+            'category_root_name':ProductScraper.compress_categories(data['parentCategory'], 'displayName'),
+            'category_root_url':ProductScraper.compress_categories(data['parentCategory'], 'targetUrl')
         }
 
         product_details = ProductScraper.map_product_response_to_record(data['currentSku'])
         product_variations.append({**parent_sku, **product_details})
 
-        for child_sku in data['regularChildSkus']:
-            product_details = ProductScraper.map_product_response_to_record(child_sku)
-            product_variations.append({**parent_sku, **product_details})
+        if 'regularChildSkus' in data.keys():
+            for child_sku in data['regularChildSkus']:
+                product_details = ProductScraper.map_product_response_to_record(child_sku)
+                product_variations.append({**parent_sku, **product_details})
 
         return product_variations
 
@@ -354,57 +356,75 @@ if __name__ == "__main__":
 
     DB_FILE = "../data/db/products.db"
 
-    # create tables 
-    execute_sql_query(DB_FILE, create_brands_table_query, 'brands')
-    execute_sql_query(DB_FILE, create_products_table_query, 'products')
+    # # create tables 
+    # execute_sql_query(DB_FILE, create_brands_table_query, 'brands')
+    # execute_sql_query(DB_FILE, create_products_table_query, 'products')
     execute_sql_query(DB_FILE, create_product_details_table_query, 'product_details')
 
-    brand_urls = []
-    brand_list_url = 'https://www.sephora.com/ca/en/brands-list'
-    with webdriver.Chrome(options=options) as driver:
-        brands = BrandListScraper(driver, brand_list_url)
-        brand_urls = brands.get_brand_urls()
+    # brand_urls = []
+    # brand_list_url = 'https://www.sephora.com/ca/en/brands-list'
+    # with webdriver.Chrome(options=options) as driver:
+    #     brands = BrandListScraper(driver, brand_list_url)
+    #     brand_urls = brands.get_brand_urls()
 
 
-    insert_brands_data_batch(DB_FILE, brand_urls, "brands")
-    for brand in brand_urls[0:3]:
-        time.sleep(5)
-        with webdriver.Chrome(options=options) as driver:
-            brand_page = BrandPageScraper(driver)
-            try:
-                product_urls = brand_page.get_product_urls(brand['brand_url'])
-            except selenium.common.exceptions.InvalidArgumentException as e:
-                print(f"{e}")
-                print(brand)
-                print(brand['brand_url'])
-                continue
+    # insert_brands_data_batch(DB_FILE, brand_urls, "brands")
+    # for brand in brand_urls[0:3]:
+    #     time.sleep(5)
+    #     with webdriver.Chrome(options=options) as driver:
+    #         brand_page = BrandPageScraper(driver)
+    #         try:
+    #             product_urls = brand_page.get_product_urls(brand['brand_url'])
+    #         except selenium.common.exceptions.InvalidArgumentException as e:
+    #             print(f"{e}")
+    #             print(brand)
+    #             print(brand['brand_url'])
+    #             continue
 
 
-            try:
-                conn = sqlite3.connect(DB_FILE)
-                cursor = conn.cursor()
-                cursor.execute("""SELECT id FROM brands where brand_url=?""", (brand['brand_url'],))
-                brand_id = cursor.fetchone()[0]
-            except sqlite3.Error as e:
-                print(f"SQLite error: {e}")
-            finally:
-                if conn:
-                    conn.close()
-                batch_data = [
-                    (brand_id, url, BrandPageScraper.extract_url_sku(url), BrandPageScraper.extract_url_product_code(url))
-                    for url in product_urls
-                ]
-                insert_brand_products_batch(DB_FILE, brand_id, batch_data, "products")
+    #         try:
+    #             conn = sqlite3.connect(DB_FILE)
+    #             cursor = conn.cursor()
+    #             cursor.execute("""SELECT id FROM brands where brand_url=?""", (brand['brand_url'],))
+    #             brand_id = cursor.fetchone()[0]
+    #         except sqlite3.Error as e:
+    #             print(f"SQLite error: {e}")
+    #         finally:
+    #             if conn:
+    #                 conn.close()
+    #             batch_data = [
+    #                 (brand_id, url, BrandPageScraper.extract_url_sku(url), BrandPageScraper.extract_url_product_code(url))
+    #                 for url in product_urls
+    #             ]
+    #             insert_brand_products_batch(DB_FILE, brand_id, batch_data, "products")
 
     # example_product = "https://www.sephora.com/ca/en/product/bondi-boost-rapid-repair-bond-builder-leave-in-hair-for-damaged-hair-P513096?skuId=2791291&icid2=products%20grid:p513096:product"
 
     # sku = BrandPageScraper.extract_url_sku(example_product)
     # product_code = 'P384963'
-    # product_data_sample = ProductScraper.get_product_data_api(product_code)
-    # with open('../data/product_sample_multiple_skus.json', 'w') as f:
-    #     json.dump(product_data_sample, f)
 
-    # insert_product_details(DB_FILE, ProductScraper.compress_product_data(product_data_sample))
+    try:
+        conn = sqlite3.connect(DB_FILE)
+        cursor = conn.cursor()
+        cursor.execute("""SELECT product_code FROM products""")
+        found_products = cursor.fetchall()    
+
+    except sqlite3.Error as e:
+        print(f"SQLite error: {e}")
+    finally:
+        if conn:
+            conn.close()
+        
+        for product_code in found_products:
+            product_data = ProductScraper.get_product_data_api(product_code[0])
+            # logging.info(product_data)
+            insert_product_details(DB_FILE, ProductScraper.compress_product_data(product_data), 'product_details')
+
+
+    # product_data_sample = ProductScraper.get_product_data_api(product_code)
+    # # with open('../data/product_sample_multiple_skus.json', 'w') as f:
+    # #     json.dump(product_data_sample, f)
+
 
     # import pandas as pd
     # data = pd.DataFrame(ProductScraper.compress_product_data(product_data_sample))

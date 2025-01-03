@@ -44,16 +44,32 @@ def execute_sql_query(db_file: str, sql_query: str, table_name: str):
             logging.info(f"Database connection closed for table: {table_name or 'unknown'}")
 
 
-def insert_product_details_batch(db_file:str, products: List[Dict], table_name: str):
+def insert_product_details(db_file:str, products: List[Dict], table_name: str):
     try:
         logging.info(f"Connecting to database: {db_file}")
         conn = sqlite3.connect(db_file)
         cursor = conn.cursor()
-
-        batch_data = [
-            (
+        sql_query = """
+            INSERT INTO product_details (
+                target_url, product_code, loves_count, rating, reviews, brand_source_id,
+                category_root_id, category_root_name, category_root_url,
+                sku_id, brand_name, display_name, ingredients, limited_edition,
+                first_access, limited_time_offer, new_product, online_only,
+                few_left, out_of_stock, price, max_purchase_quantity, size, type,
+                url, variation_type, variation_value,
+                returnable, finish_refinement, size_refinement
+            ) VALUES (
+                ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,
+                ?, ?, ?, ?, ?, ?, ?, ?, ?
+            )
+            """
+        logging.info(f"Executing SQL query for table: {table_name or 'unknown'}")
+        logging.debug(f"SQL Query: {sql_query}")
+        
+        for product in products:
+            row = (
                 product.get("target_url"),
-                product.get("product_id"),
+                product.get("product_code"),
                 product.get("loves_count"),
                 product.get("rating"),
                 product.get("reviews"),
@@ -61,12 +77,6 @@ def insert_product_details_batch(db_file:str, products: List[Dict], table_name: 
                 product.get("category_root_id"),
                 product.get("category_root_name"),
                 product.get("category_root_url"),
-                product.get("category_child_id"),
-                product.get("category_child_name"),
-                product.get("category_child_url"),
-                product.get("category_grandchild_id"),
-                product.get("category_grandchild_name"),
-                product.get("category_grandchild_url"),
                 product.get("sku_id"),
                 product.get("brand_name"),
                 product.get("display_name"),
@@ -83,46 +93,24 @@ def insert_product_details_batch(db_file:str, products: List[Dict], table_name: 
                 product.get("size"),
                 product.get("type"),
                 product.get("url"),
-                product.get("variation_description"),
                 product.get("variation_type"),
                 product.get("variation_value"),
                 product.get("returnable"),
                 product.get("finish_refinement"),
                 product.get("size_refinement")
             )
-            for product in products
-        ]
 
-        sql_query = """
-            INSERT INTO product_details (
-                target_url, product_id, loves_count, rating, reviews, brand_source_id,
-                category_root_id, category_root_name, category_root_url,
-                category_child_id, category_child_name, category_child_url,
-                category_grandchild_id, category_grandchild_name, category_grandchild_url,
-                sku_id, brand_name, display_name, ingredients, limited_edition,
-                first_access, limited_time_offer, new_product, online_only,
-                few_left, out_of_stock, price, max_purchase_quantity, size, type,
-                url, variation_description, variation_type, variation_value,
-                returnable, finish_refinement, size_refinement, record_created
-            ) VALUES (
-                ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,
-                ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
-            )
-            """
-
-        logging.info(f"Executing SQL query for table: {table_name or 'unknown'}")
-        logging.debug(f"SQL Query: {sql_query}")
-
-        cursor.executemany(sql_query, batch_data)
-        conn.commit()
-
-        logging.info(f"""SQL query executed successfully for table: {table_name or 'unknown'},
-                    {len(products)} rows inserted""")
+            try:
+                cursor.execute(sql_query, row)
+                conn.commit()
+                logging.info(f"Row inserted successfully: {row}")
+            except sqlite3.Error as row_error:
+                conn.rollback()
+                logging.error(f"Error inserting row: {row}. SQLite error: {row_error}")
 
     except sqlite3.Error as e:
         logging.error(f"SQLite error occurred for table {table_name or 'unknown'}: {e}")
-        raise 
-    
+        conn.rollback()
     finally:
         if conn:
             conn.close()
@@ -130,7 +118,7 @@ def insert_product_details_batch(db_file:str, products: List[Dict], table_name: 
 
 
 
-def insert_brand_products_batch(db_file: str, brand_id: int, batch_data: List[str], table_name: str):
+def insert_brand_products(db_file: str, brand_id: int, batch_data: List[str], table_name: str):
         logging.info(f"Connecting to database: {db_file}")
         conn = sqlite3.connect(db_file, timeout=10)
         cursor = conn.cursor()
@@ -213,7 +201,7 @@ create_product_details_table_query = """
 CREATE TABLE IF NOT EXISTS product_details (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     target_url TEXT,
-    product_id TEXT,
+    product_code TEXT,
     loves_count INTEGER,
     rating REAL,
     reviews INTEGER,
@@ -221,12 +209,6 @@ CREATE TABLE IF NOT EXISTS product_details (
     category_root_id TEXT,
     category_root_name TEXT,
     category_root_url TEXT,
-    category_child_id TEXT,
-    category_child_name TEXT,
-    category_child_url TEXT,
-    category_grandchild_id TEXT,
-    category_grandchild_name TEXT,
-    category_grandchild_url TEXT,
     sku_id TEXT,
     brand_name TEXT,
     display_name TEXT,
@@ -243,12 +225,13 @@ CREATE TABLE IF NOT EXISTS product_details (
     size TEXT,
     type TEXT,
     url TEXT,
-    variation_description TEXT,
     variation_type TEXT,
     variation_value TEXT,
     returnable BOOLEAN,
     finish_refinement TEXT,
     size_refinement TEXT,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (product_code) REFERENCES products(product_code)
+
 )
 """
