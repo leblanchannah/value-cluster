@@ -199,14 +199,14 @@ class ProductScraper:
             'rating':data.get('productDetails', {}).get('rating', -1),
             'reviews':data.get('productDetails', {}).get('reviews',-1),
             'brand_id':data.get('productDetails',{}).get('brand',{}).get('brandId',""),
-            'category_root_id':"",
-            'category_root_name':"",
-            'category_root_url':""
+            'category_id':"",
+            'category_name':"",
+            'category_url':""
         }
         if 'parentCategory' in data.keys():
-            parent_sku['category_root_id']=ProductScraper.compress_categories(data['parentCategory'], 'categoryId')
-            parent_sku['category_root_name']=ProductScraper.compress_categories(data['parentCategory'], 'displayName')
-            parent_sku['category_root_url']=ProductScraper.compress_categories(data['parentCategory'], 'targetUrl')
+            parent_sku['category_id']=ProductScraper.compress_categories(data['parentCategory'], 'categoryId')
+            parent_sku['category_name']=ProductScraper.compress_categories(data['parentCategory'], 'displayName')
+            parent_sku['category_url']=ProductScraper.compress_categories(data['parentCategory'], 'targetUrl')
 
         product_details = ProductScraper.map_product_response_to_record(data['currentSku'])
         product_variations.append({**parent_sku, **product_details})
