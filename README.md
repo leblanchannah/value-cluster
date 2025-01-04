@@ -2,7 +2,8 @@
 ## Day 1 
 ![scatter plot mascara pricing](figures/scatter_mascara_pricing.png)
 
-
+## Day 2
+![scatter plot mascara pricing](figures/scatter_mascara_mini_standard.png)
 
 # Sephora Value Canvas - Data Visualization Society Project 
 
