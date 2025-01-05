@@ -11,6 +11,7 @@ import json
 import re
 import time
 import sqlite3
+import os
 import logging
 from db_util import (execute_query, insert_product_details, insert_brand_products, insert_brands_data,
                     create_brands_table_query, create_products_table_query, create_product_details_table_query)
@@ -196,7 +197,9 @@ class ProductScraper:
             if response.status_code != 200:
                 logging.error("Failed to download image!")
             else:
-                with open(f"{path}{fname}", 'wb') as file:
+                fname = f"{path}{fname}"
+                os.makedirs(os.path.dirname(fname), exist_ok=True)
+                with open(fname, 'wb') as file:
                     file.write(response.content)
                     logging.info("Image downloaded successfully!")
 
