@@ -90,20 +90,22 @@ def insert_product_details(db_file:str, products: List[Dict], table_name: str):
     """
     sql_query = """
         INSERT INTO product_details (
-            target_url, product_code, loves_count, rating, reviews, brand_source_id,
+            target_url, full_product_url, product_code, loves_count, rating, reviews, brand_source_id,
             category_id, category_name, category_url,
             sku_id, brand_name, display_name, ingredients, limited_edition,
             first_access, limited_time_offer, new_product, online_only,
             few_left, out_of_stock, price, max_purchase_quantity, size, type,
             url, variation_type, variation_value,
-            returnable, finish_refinement, size_refinement
+            returnable, finish_refinement, size_refinement, short_description, long_description,
+            suggested_usage
         ) VALUES (
             ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,
-            ?, ?, ?, ?, ?, ?, ?, ?, ?
+            ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
         )
         """
     batch_data = [(
             product.get("target_url"),
+            product.get("full_product_url"),
             product.get("product_code"),
             product.get("loves_count"),
             product.get("rating"),
@@ -132,7 +134,10 @@ def insert_product_details(db_file:str, products: List[Dict], table_name: str):
             product.get("variation_value"),
             product.get("returnable"),
             product.get("finish_refinement"),
-            product.get("size_refinement")
+            product.get("size_refinement"),
+            product.get("short_description"),
+            product.get("long_description"),
+            product.get("suggested_usage") 
         ) for product in products]
     
     insert_batch(db_file, sql_query, batch_data)
@@ -192,6 +197,7 @@ create_product_details_table_query = """
 CREATE TABLE IF NOT EXISTS product_details (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     target_url TEXT,
+    full_product_url TEXT,
     product_code TEXT,
     loves_count INTEGER,
     rating REAL,
@@ -221,6 +227,9 @@ CREATE TABLE IF NOT EXISTS product_details (
     returnable BOOLEAN,
     finish_refinement TEXT,
     size_refinement TEXT,
+    short_description TEXT, 
+    long_description TEXT,
+    suggested_usage TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (product_code) REFERENCES products(product_code)
 )

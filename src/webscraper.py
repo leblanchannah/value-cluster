@@ -12,7 +12,7 @@ import re
 import time
 import sqlite3
 import logging
-from db_util import (execute_sql_query, insert_product_details, insert_brand_products, insert_brands_data_batch,
+from db_util import (execute_query, insert_product_details, insert_brand_products, insert_brands_data,
                     create_brands_table_query, create_products_table_query, create_product_details_table_query)
 
 logger = logging.getLogger(__name__)
@@ -152,7 +152,6 @@ class ProductScraper:
         product_details = {
             'sku_id':data['skuId'], # str
             'brand_name':data['brandName'], # str
-            'display_name':data['displayName'], # str
             'ingredients':data.get('ingredientDesc',""), # str
             'limited_edition':data['isLimitedEdition'], # bool
             'first_access':data['isFirstAccess'], # bool
@@ -192,13 +191,19 @@ class ProductScraper:
     @staticmethod
     def compress_product_data(data):
         product_variations = []
+        product_details = data.get('productDetails',{})
         parent_sku = {
             'target_url':data.get('targetUrl',""),
+            'full_product_url':data.get('fullSiteProductUrl',""),
             'product_code':data.get('productId',""),
-            'loves_count':data.get('productDetails', {}).get('lovesCount',-1),
-            'rating':data.get('productDetails', {}).get('rating', -1),
-            'reviews':data.get('productDetails', {}).get('reviews',-1),
-            'brand_id':data.get('productDetails',{}).get('brand',{}).get('brandId',""),
+            'display_name':product_details.get('displayName',""),
+            'loves_count':product_details.get('lovesCount',-1),
+            'rating':product_details.get('rating', -1),
+            'reviews':product_details.get('reviews',-1),
+            'brand_id':product_details.get('brand',{}).get('brandId',""),
+            'short_description':product_details.get('shortDescription',""),
+            'long_description':product_details.get('longDescription',""),
+            'suggested_usage':product_details.get('suggestedUsage',""),
             'category_id':"",
             'category_name':"",
             'category_url':""
@@ -363,7 +368,7 @@ if __name__ == "__main__":
     # create tables 
     # execute_sql_query(DB_FILE, create_brands_table_query, 'brands')
     # execute_sql_query(DB_FILE, create_products_table_query, 'products')
-    execute_sql_query(DB_FILE, create_product_details_table_query, 'product_details')
+    # execute_query(DB_FILE, create_product_details_table_query, 'product_details')
 
     # brand_urls = []
     # brand_list_url = 'https://www.sephora.com/ca/en/brands-list'
@@ -414,12 +419,15 @@ if __name__ == "__main__":
         if conn:
             conn.close()
         
-        for product_code in found_products:
+        for product_code in found_products[134]:
+            print
             time.sleep(4)
-            product_data = ProductScraper.get_product_data_api(product_code[0])
+            product_data = ProductScraper.get_product_data_api(product_code)
             logging.info(f"GET data for {product_data}")
-            try:
-                insert_product_details(DB_FILE, ProductScraper.compress_product_data(product_data), 'product_details')
-            except KeyError as e:
-                logging.error(f"{e}")
-                continue
+            with open('../data/product_sample.json', 'w') as file:
+                json.dump(product_data, file)
+            # try:
+            #     insert_product_details(DB_FILE, ProductScraper.compress_product_data(product_data), 'product_details')
+            # except KeyError as e:
+            #     logging.error(f"{e}")
+            #     continue
