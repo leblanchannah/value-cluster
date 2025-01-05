@@ -110,7 +110,7 @@ def insert_product_details(db_file:str, products: List[Dict], table_name: str):
             product.get("loves_count"),
             product.get("rating"),
             product.get("reviews"),
-            product.get("brand_source_id"),
+            product.get("brand_id"),
             product.get("category_id"),
             product.get("category_name"),
             product.get("category_url"),

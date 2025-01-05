@@ -189,7 +189,20 @@ class ProductScraper:
         return data[col]+" --- "+ProductScraper.compress_categories(data['parentCategory'], col)
 
     @staticmethod
-    def compress_product_data(data):
+    def get_product_swatch(data, path, fname):
+        sku_images = data.get("skuImages",{})
+        if sku_images.get('image250'):
+            response = requests.get(sku_images.get('image250'))
+            if response.status_code != 200:
+                logging.error("Failed to download image!")
+            else:
+                with open(f"{path}{fname}", 'wb') as file:
+                    file.write(response.content)
+                    logging.info("Image downloaded successfully!")
+
+
+    @staticmethod
+    def compress_product_data(data, save_swatch=False):
         product_variations = []
         product_details = data.get('productDetails',{})
         parent_sku = {
@@ -221,6 +234,10 @@ class ProductScraper:
                 product_details = ProductScraper.map_product_response_to_record(child_sku)
                 product_variations.append({**parent_sku, **product_details})
 
+        if save_swatch:
+            path = f"data/swatches/{parent_sku['brand_id']}/{parent_sku['product_code']}/"
+            fname = f"{data['currentSku'].get('skuId')}.jpg"
+            ProductScraper.get_product_swatch(data['currentSku'], path, fname)
         return product_variations
 
 
