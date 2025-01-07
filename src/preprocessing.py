@@ -45,18 +45,6 @@ def parse_size_data(entry):
         "description": description.group(1).strip() if description else None
     }
 
-# def parse_size_data(entry):
-#     size_pattern = r'(\d+(?:\.\d+)?)\s*(oz|ml|g|lb|kg|l)'
-#     description_pattern = r'^(.*?)-'
-
-#     sizes = re.findall(size_pattern, entry)
-#     description = re.search(description_pattern, entry)
-    
-#     return {
-#         "sizes": sizes,  # List of all (value, unit) pairs
-#         "description": description.group(1).strip() if description else None
-#     }
-
 
 def split_sizes(size_list):
     "flatten tuple lists of sizes and units into separate cols"

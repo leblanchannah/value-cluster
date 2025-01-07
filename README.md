@@ -5,6 +5,13 @@
 ## Day 2
 ![scatter plot mascara pricing](figures/scatter_mascara_mini_standard.png)
 
+## Day 3
+![scatter plot mascara pricing](figures/scatter_all_products_loves_price_rating.png)
+
+
+## Day 4
+![scatter plot mascara pricing](figures/spider_plot_brand_profiles.png)
+
 # Sephora Value Canvas - Data Visualization Society Project 
 
 [Sephora Value Canvas Dashboard](https://leblanchannah.pythonanywhere.com/)

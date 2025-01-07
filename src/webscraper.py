@@ -383,48 +383,48 @@ class ProductScraper:
 
 if __name__ == "__main__":
 
-    DB_FILE = "../data/db/products.db"
+    DB_FILE = "data/db/products.db"
 
     # create tables 
-    # execute_sql_query(DB_FILE, create_brands_table_query, 'brands')
-    # execute_sql_query(DB_FILE, create_products_table_query, 'products')
-    # execute_query(DB_FILE, create_product_details_table_query, 'product_details')
+    execute_query(DB_FILE, create_brands_table_query, 'brands')
+    execute_query(DB_FILE, create_products_table_query, 'products')
+    execute_query(DB_FILE, create_product_details_table_query, 'product_details')
 
-    # brand_urls = []
-    # brand_list_url = 'https://www.sephora.com/ca/en/brands-list'
-    # with webdriver.Chrome(options=options) as driver:
-    #     brands = BrandListScraper(driver, brand_list_url)
-    #     brand_urls = brands.get_brand_urls()
+    brand_urls = []
+    brand_list_url = 'https://www.sephora.com/ca/en/brands-list'
+    with webdriver.Chrome(options=options) as driver:
+        brands = BrandListScraper(driver, brand_list_url)
+        brand_urls = brands.get_brand_urls()
 
     conn = None
 
-    # insert_brands_data_batch(DB_FILE, brand_urls, "brands")
-    # for brand in brand_urls:
-    #     time.sleep(5)
-    #     with webdriver.Chrome(options=options) as driver:
-    #         brand_page = BrandPageScraper(driver)
-    #         try:
-    #             product_urls = brand_page.get_product_urls(brand['brand_url'])
-    #         except selenium.common.exceptions.InvalidArgumentException as e:
-    #             logging.error(f"{e}")
-    #             continue
+    insert_brands_data(DB_FILE, brand_urls, "brands")
+    for brand in brand_urls:
+        time.sleep(5)
+        with webdriver.Chrome(options=options) as driver:
+            brand_page = BrandPageScraper(driver)
+            try:
+                product_urls = brand_page.get_product_urls(brand['brand_url'])
+            except selenium.common.exceptions.InvalidArgumentException as e:
+                logging.error(f"{e}")
+                continue
 
 
-    #         try:
-    #             conn = sqlite3.connect(DB_FILE)
-    #             cursor = conn.cursor()
-    #             cursor.execute("""SELECT id FROM brands where brand_url=?""", (brand['brand_url'],))
-    #             brand_id = cursor.fetchone()[0]
-    #         except sqlite3.Error as e:
-    #             logging.error(f"SQLite error: {e}")
-    #         finally:
-    #             if conn:
-    #                 conn.close()
-    #             batch_data = [
-    #                 (brand_id, url, BrandPageScraper.extract_url_sku(url), BrandPageScraper.extract_url_product_code(url))
-    #                 for url in product_urls
-    #             ]
-    #             insert_brand_products(DB_FILE, brand_id, batch_data, "products")
+            try:
+                conn = sqlite3.connect(DB_FILE)
+                cursor = conn.cursor()
+                cursor.execute("""SELECT id FROM brands where brand_url=?""", (brand['brand_url'],))
+                brand_id = cursor.fetchone()[0]
+            except sqlite3.Error as e:
+                logging.error(f"SQLite error: {e}")
+            finally:
+                if conn:
+                    conn.close()
+                batch_data = [
+                    (brand_id, url, BrandPageScraper.extract_url_sku(url), BrandPageScraper.extract_url_product_code(url))
+                    for url in product_urls
+                ]
+                insert_brand_products(DB_FILE, brand_id, batch_data, "products")
 
 
     try:
@@ -439,15 +439,14 @@ if __name__ == "__main__":
         if conn:
             conn.close()
         
-        for product_code in found_products[134]:
-            print
+        for product_code in found_products:
             time.sleep(4)
             product_data = ProductScraper.get_product_data_api(product_code)
             logging.info(f"GET data for {product_data}")
-            with open('../data/product_sample.json', 'w') as file:
-                json.dump(product_data, file)
-            # try:
-            #     insert_product_details(DB_FILE, ProductScraper.compress_product_data(product_data), 'product_details')
-            # except KeyError as e:
-            #     logging.error(f"{e}")
-            #     continue
+            # with open('../data/product_sample.json', 'w') as file:
+            #     json.dump(product_data, file)
+            try:
+                insert_product_details(DB_FILE, ProductScraper.compress_product_data(product_data), 'product_details')
+            except KeyError as e:
+                logging.error(f"{e}")
+                continue
