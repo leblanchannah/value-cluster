@@ -15,6 +15,9 @@
 ## Day 5
 ![scatter plot mascara pricing](figures/brat_box_whisker.png)
 
+## Day 6 
+![scatter plot mascara pricing](figures/PCA_brands.png)
+
 # Sephora Value Canvas - Data Visualization Society Project 
 
 [Sephora Value Canvas Dashboard](https://leblanchannah.pythonanywhere.com/)
