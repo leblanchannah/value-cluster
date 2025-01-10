@@ -18,6 +18,9 @@
 ## Day 6 
 ![scatter plot mascara pricing](figures/PCA_brands.png)
 
+## Day 7 
+![scatter plot mascara pricing](figures/bayesian_rating_score_scatter.png)
+
 # Sephora Value Canvas - Data Visualization Society Project 
 
 [Sephora Value Canvas Dashboard](https://leblanchannah.pythonanywhere.com/)
