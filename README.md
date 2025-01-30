@@ -1,25 +1,3 @@
-# Data Vis Challenge - 30 days of plots
-## Day 1 
-![scatter plot mascara pricing](figures/scatter_mascara_pricing.png)
-
-## Day 2
-![scatter plot mascara pricing](figures/scatter_mascara_mini_standard.png)
-
-## Day 3
-![scatter plot mascara pricing](figures/scatter_all_products_loves_price_rating.png)
-
-
-## Day 4
-![scatter plot mascara pricing](figures/spider_plot_brand_profiles.png)
-
-## Day 5
-![scatter plot mascara pricing](figures/brat_box_whisker.png)
-
-## Day 6 
-![scatter plot mascara pricing](figures/PCA_brands.png)
-
-## Day 7 
-![scatter plot mascara pricing](figures/bayesian_rating_score_scatter.png)
 
 # Sephora Value Canvas - Data Visualization Society Project 
 

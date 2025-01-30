@@ -386,10 +386,11 @@ if __name__ == "__main__":
     DB_FILE = "data/db/products.db"
 
     # create tables 
-    execute_query(DB_FILE, create_brands_table_query, 'brands')
-    execute_query(DB_FILE, create_products_table_query, 'products')
-    execute_query(DB_FILE, create_product_details_table_query, 'product_details')
+    execute_query(DB_FILE, create_brands_table_query)
+    execute_query(DB_FILE, create_products_table_query)
+    execute_query(DB_FILE, create_product_details_table_query)
 
+    # scrape brand names and urls from /brands-list
     brand_urls = []
     brand_list_url = 'https://www.sephora.com/ca/en/brands-list'
     with webdriver.Chrome(options=options) as driver:
@@ -397,8 +398,9 @@ if __name__ == "__main__":
         brand_urls = brands.get_brand_urls()
 
     conn = None
-
     insert_brands_data(DB_FILE, brand_urls, "brands")
+
+    # scrape products from brand pages and insert into products table
     for brand in brand_urls:
         time.sleep(5)
         with webdriver.Chrome(options=options) as driver:
@@ -408,7 +410,6 @@ if __name__ == "__main__":
             except selenium.common.exceptions.InvalidArgumentException as e:
                 logging.error(f"{e}")
                 continue
-
 
             try:
                 conn = sqlite3.connect(DB_FILE)
@@ -426,7 +427,7 @@ if __name__ == "__main__":
                 ]
                 insert_brand_products(DB_FILE, brand_id, batch_data, "products")
 
-
+    # use API to get product information based on products collected in previous scraping step 
     try:
         conn = sqlite3.connect(DB_FILE)
         cursor = conn.cursor()
@@ -446,7 +447,7 @@ if __name__ == "__main__":
             # with open('../data/product_sample.json', 'w') as file:
             #     json.dump(product_data, file)
             try:
-                insert_product_details(DB_FILE, ProductScraper.compress_product_data(product_data), 'product_details')
+                insert_product_details(DB_FILE, ProductScraper.compress_product_data(product_data, save_swatch=True), 'product_details')
             except KeyError as e:
                 logging.error(f"{e}")
                 continue

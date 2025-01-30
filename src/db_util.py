@@ -35,9 +35,8 @@ def get_db_connection(db_file: str):
     try:
         logger.info(f"Connecting to database: {db_file}")
         conn = sqlite3.connect(db_file, timeout=10)
-        yield conn
+        return conn
     finally:
-        conn.close()
         logger.info(f"Database connection closed.")
 
 
@@ -69,6 +68,7 @@ def insert_batch(db_file: str, sql_query: str, batch_data: List[Tuple]):
         sql_query (str): _description_
         batch_data (List[Tuple]): _description_
     """
+    logger.info(batch_data)
     try:
         with get_db_connection(db_file) as conn:
             cursor = conn.cursor()
@@ -156,7 +156,8 @@ def insert_brand_products(db_file: str, brand_id: int, data: List[str], table_na
         INSERT INTO products (brand_id, product_url, sku, product_code)
         VALUES (?, ?, ?, ?)
     """
-    insert_batch(db_file, sql_query, [(brand_id, *data) for data in data])
+    # insert_batch(db_file, sql_query, [(brand_id, *data) for data in data])
+    insert_batch(db_file, sql_query, [(data) for data in data])
 
 
 # Function to insert data into the 'brands' table
