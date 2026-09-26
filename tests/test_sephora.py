@@ -346,3 +346,49 @@ def test_real_product_page_every_shade_and_size():
     assert "Mini" in by_sku["2031813"]["size"]
     assert {r["display_name"] for r in rows} == {"BADgal BANG! Volumizing 36-Hour Longwear Mascara"}
     assert {r["currency"] for r in rows} == {"CAD"}
+
+
+def test_brand_filter_accepts_display_or_url_name(tmp_path):
+    with db_util.connect(tmp_path / "t.db") as conn:
+        db_util.upsert_brands(
+            conn,
+            [{"brand_name": "Benefit Cosmetics", "brand_url": "/ca/en/brand/benefit-cosmetics"}],
+        )
+        assert len(db_util.get_brands(conn, "benefit cosmetics")) == 1
+        assert len(db_util.get_brands(conn, "Benefit-Cosmetics")) == 1
+        assert db_util.get_brands(conn, "benefit") == []
+
+
+def test_cli_seed_loads_products_from_csv(tmp_path, monkeypatch, capsys):
+    monkeypatch.chdir(tmp_path)
+    db = tmp_path / "t.db"
+    csv = tmp_path / "old.csv"
+    csv.write_text(
+        "product_code,brand_name,target_url,price\n"
+        "P427517,Benefit Cosmetics,/product/bad-gal-bang-mascara-P427517,39\n"
+        "P427517,Benefit Cosmetics,/product/bad-gal-bang-mascara-P427517,22\n"
+        "P1,Gone Brand,/product/gone-P1,10\n"
+    )
+    with db_util.connect(db) as conn:
+        db_util.upsert_brands(
+            conn,
+            [{"brand_name": "Benefit Cosmetics", "brand_url": "/ca/en/brand/benefit-cosmetics"}],
+        )
+    main(["scrape", "seed", "--db", str(db), "--csv", str(csv)])
+    out = capsys.readouterr().out
+    assert "products loaded" in out and ": 2 from 2 brands" in out
+    assert "Gone Brand" in out
+    with db_util.connect(db) as conn:
+        assert db_util.get_products(conn, "benefit-cosmetics") == [
+            ("P427517", "/product/bad-gal-bang-mascara-P427517")
+        ]
+        assert len(db_util.get_products(conn)) == 2
+
+
+def test_cli_details_without_products_does_not_open_a_run(tmp_path, monkeypatch):
+    monkeypatch.chdir(tmp_path)
+    db = tmp_path / "t.db"
+    with pytest.raises(SystemExit):
+        main(["scrape", "details", "--db", str(db)])
+    with db_util.connect(db) as conn:
+        assert conn.execute("SELECT count(*) FROM scrape_runs").fetchone()[0] == 0

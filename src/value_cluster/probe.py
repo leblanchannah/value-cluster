@@ -8,7 +8,7 @@ Run from the repo root:
 
 It makes a handful of requests (a few seconds apart), prints a summary to paste
 back into the Claude session, and saves the responses (gzipped) under
-tests/fixtures/sephora/ so parsers and tests can be built from real data.
+data/probe/ (ignored by git) so parsers and tests can be built from real data.
 
 What it checks:
 - requests: brands list and product pages, looking for product JSON embedded in the HTML
@@ -41,8 +41,9 @@ HEADERS = {
 # Sephora picks the country from the IP unless these are set.
 LOCALE_COOKIES = {"site_locale": "ca", "site_language": "en"}
 DELAY_SECONDS = 4
-# Always the repo's tests/fixtures, whatever directory the probe is run from.
-FIXTURE_DIR = Path(__file__).resolve().parents[2] / "tests" / "fixtures" / "sephora"
+# data/probe/ in the repo (ignored by git), whatever directory the probe is run from.
+# Copy a file into tests/fixtures/sephora/ only when it is needed for a test.
+FIXTURE_DIR = Path(__file__).resolve().parents[2] / "data" / "probe"
 SAMPLE_BRAND = "/brand/benefit-cosmetics"
 
 

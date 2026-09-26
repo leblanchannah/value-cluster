@@ -50,12 +50,13 @@ docs/ROADMAP.md      code review findings and modernization plan
 Sephora blocks requests from cloud servers, so run this on your own computer. The scraper waits 5 seconds between pages and stops if Sephora refuses several requests in a row. Data goes to `data/db/products.db` (SQLite, not committed).
 
 ```bash
-uv run value-cluster scrape brands                            # brands-list page -> brands table
-uv run value-cluster scrape products --brand "Benefit Cosmetics"   # one brand's products
-uv run value-cluster scrape products                          # every brand (uses Chrome if needed)
-uv run value-cluster scrape details --limit 20                # product pages -> one row per SKU
-uv run value-cluster scrape details                           # resumes the unfinished run
+uv run value-cluster scrape brands            # brands-list page -> brands table
+uv run value-cluster scrape seed              # product list from data/preprocessed_data.csv
+uv run value-cluster scrape details --limit 20   # product pages -> one row per SKU
+uv run value-cluster scrape details           # resumes the unfinished run
 ```
+
+Brand pages are currently refused by Sephora's bot protection, so `seed` loads the product list from the January 2025 data instead (5,342 products). `scrape products --brand benefit-cosmetics` lists a brand's products from its page when that page is available. `--brand` takes the display name or the URL name.
 
 Each `details` run gets a `run_id`, so later scrapes can be compared with earlier ones. Add `--save-raw` to keep each product's JSON in `data/raw/`, and `--headed` to watch Chrome when it's used. `scrape.log` has the details of each request.
 

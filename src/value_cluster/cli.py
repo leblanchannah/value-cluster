@@ -2,6 +2,7 @@
 
 Stages, in order:
     brands    brands-list page -> brands table
+    seed      product codes from the January 2025 CSV -> products table (no requests)
     products  each brand page -> products table (Selenium fallback if needed)
     details   each product page -> product_details rows for a scrape run (one per SKU)
 
@@ -84,9 +85,46 @@ def scrape_products(args: argparse.Namespace, client: SephoraClient) -> None:
     print(f"products saved: {total} from {len(brands)} brands")
 
 
+def scrape_seed(args: argparse.Namespace, client: SephoraClient) -> None:
+    """Load product codes and page links from an earlier scrape's CSV (no requests).
+
+    Brand pages are refused by Sephora's bot protection, but product pages load, so
+    the January 2025 product list is the starting point. Run ``scrape brands`` first
+    so products are linked to brands (unmatched brands are kept without a link).
+    """
+    import pandas as pd
+
+    df = pd.read_csv(args.csv, usecols=["product_code", "brand_name", "target_url"])
+    df = df.dropna(subset=["product_code", "target_url"]).drop_duplicates("product_code")
+    with db_util.connect(args.db) as conn:
+        brand_ids = {name.lower(): brand_id for brand_id, name, _ in db_util.get_brands(conn)}
+        unmatched: set[str] = set()
+        for brand_name, group in df.groupby("brand_name", dropna=False):
+            name = str(brand_name) if pd.notna(brand_name) else ""
+            brand_id = brand_ids.get(name.lower())
+            if brand_id is None:
+                unmatched.add(name)
+            products = [
+                {"product_code": code, "product_url": url}
+                for code, url in zip(group["product_code"], group["target_url"], strict=True)
+            ]
+            db_util.upsert_products(conn, brand_id, products)
+    print(f"products loaded from {args.csv}: {len(df)} from {df['brand_name'].nunique()} brands")
+    if not brand_ids:
+        print("No brands in the database yet; run `value-cluster scrape brands` to link them.")
+    elif unmatched:
+        print(f"{len(unmatched)} brands not on today's brands list (kept without a brand link):")
+        print("  " + ", ".join(sorted(unmatched)))
+
+
 def scrape_details(args: argparse.Namespace, client: SephoraClient) -> None:
     with db_util.connect(args.db) as conn:
         products = db_util.get_products(conn, args.brand, None)
+        if not products:
+            sys.exit(
+                "No products found. Run `value-cluster scrape seed` (products from the "
+                "January 2025 CSV) or `value-cluster scrape products` first (check --brand)."
+            )
         run_id = None if args.new_run else db_util.latest_open_run(conn, "details")
         if run_id is None:
             run_id = db_util.start_run(conn, "details", COUNTRY)
@@ -94,8 +132,6 @@ def scrape_details(args: argparse.Namespace, client: SephoraClient) -> None:
         else:
             done = db_util.fetched_product_codes(conn, run_id)
             print(f"resuming run {run_id}: {len(done)} products already fetched")
-    if not products:
-        sys.exit("No products found. Run `value-cluster scrape products` first (check --brand).")
 
     todo = [(code, url) for code, url in products if code not in done]
     if args.limit:
@@ -167,9 +203,17 @@ def build_parser() -> argparse.ArgumentParser:
     commands = parser.add_subparsers(dest="command", required=True)
 
     scrape = commands.add_parser("scrape", help="scrape Sephora Canada")
-    scrape.add_argument("stage", choices=["brands", "products", "details"])
+    scrape.add_argument("stage", choices=["brands", "seed", "products", "details"])
+    scrape.add_argument(
+        "--csv",
+        type=Path,
+        default=Path("data/preprocessed_data.csv"),
+        help="seed: CSV with product_code, brand_name, target_url columns",
+    )
     scrape.add_argument("--db", type=Path, default=db_util.DEFAULT_DB, help="SQLite file")
-    scrape.add_argument("--brand", help="only this brand (exact name, any case)")
+    scrape.add_argument(
+        "--brand", help='only this brand: "Benefit Cosmetics" or benefit-cosmetics (any case)'
+    )
     scrape.add_argument(
         "--limit", type=int, help="max brands (products stage) or product pages (details stage)"
     )
@@ -201,7 +245,12 @@ def main(argv: list[str] | None = None) -> None:
         handlers=[logging.StreamHandler(), logging.FileHandler("scrape.log")],
     )
     client = SephoraClient(delay=args.delay)
-    stages = {"brands": scrape_brands, "products": scrape_products, "details": scrape_details}
+    stages = {
+        "brands": scrape_brands,
+        "seed": scrape_seed,
+        "products": scrape_products,
+        "details": scrape_details,
+    }
     try:
         stages[args.stage](args, client)
     except (BlockedError, NotCanadaError) as e:

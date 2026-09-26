@@ -10,6 +10,9 @@ from contextlib import contextmanager
 from pathlib import Path
 
 DEFAULT_DB = Path("data/db/products.db")
+BRAND_MATCH = (
+    "(lower({table}.brand_name) = lower(?) OR {table}.brand_url = '/ca/en/brand/' || lower(?))"
+)
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS scrape_runs (
@@ -195,16 +198,20 @@ def upsert_brands(conn: sqlite3.Connection, brands: list[dict]) -> int:
 
 
 def get_brands(conn: sqlite3.Connection, name: str | None = None) -> list[tuple[int, str, str]]:
-    """``(id, brand_name, brand_url)`` rows, optionally filtered by case-insensitive name."""
+    """``(id, brand_name, brand_url)`` rows, optionally for one brand.
+
+    ``name`` matches the display name ("Benefit Cosmetics") or the URL name
+    ("benefit-cosmetics"), ignoring case.
+    """
     query = "SELECT id, brand_name, brand_url FROM brands"
     params: tuple = ()
     if name:
-        query += " WHERE lower(brand_name) = lower(?)"
-        params = (name,)
+        query += f" WHERE {BRAND_MATCH.format(table='brands')}"
+        params = (name, name)
     return conn.execute(query + " ORDER BY brand_name", params).fetchall()
 
 
-def upsert_products(conn: sqlite3.Connection, brand_id: int, products: list[dict]) -> int:
+def upsert_products(conn: sqlite3.Connection, brand_id: int | None, products: list[dict]) -> int:
     """Insert ``{"product_code", "product_url"}`` dicts for a brand; existing codes are kept."""
     conn.executemany(
         """INSERT INTO products (brand_id, product_url, product_code)
@@ -226,8 +233,8 @@ def get_products(
     )
     params: list = []
     if brand:
-        query += " WHERE lower(b.brand_name) = lower(?)"
-        params.append(brand)
+        query += f" WHERE {BRAND_MATCH.format(table='b')}"
+        params.extend([brand, brand])
     query += " ORDER BY p.product_id"
     if limit:
         query += " LIMIT ?"
