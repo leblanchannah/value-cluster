@@ -43,6 +43,18 @@ CREATE TABLE IF NOT EXISTS products (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+-- Every product page checked in a run, including ones with no product data
+-- (discontinued products usually still return a page, just without the product).
+CREATE TABLE IF NOT EXISTS product_fetches (
+    run_id INTEGER NOT NULL REFERENCES scrape_runs(id),
+    product_code TEXT NOT NULL,
+    status TEXT NOT NULL,  -- ok | no_data | not_found
+    final_url TEXT,
+    title TEXT,
+    fetched_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (run_id, product_code)
+);
+
 CREATE TABLE IF NOT EXISTS product_details (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     run_id INTEGER NOT NULL REFERENCES scrape_runs(id),
@@ -243,10 +255,37 @@ def get_products(
 
 
 def fetched_product_codes(conn: sqlite3.Connection, run_id: int) -> set[str]:
+    """Products already checked in a run (with or without product data)."""
     rows = conn.execute(
-        "SELECT DISTINCT product_code FROM product_details WHERE run_id = ?", (run_id,)
+        "SELECT product_code FROM product_fetches WHERE run_id = ? "
+        "UNION SELECT product_code FROM product_details WHERE run_id = ?",
+        (run_id, run_id),
     ).fetchall()
     return {row[0] for row in rows}
+
+
+def record_fetch(
+    conn: sqlite3.Connection,
+    run_id: int,
+    product_code: str,
+    status: str,
+    final_url: str | None = None,
+    title: str | None = None,
+) -> None:
+    conn.execute(
+        "INSERT OR REPLACE INTO product_fetches (run_id, product_code, status, final_url, title) "
+        "VALUES (?, ?, ?, ?, ?)",
+        (run_id, product_code, status, final_url, title),
+    )
+    conn.commit()
+
+
+def fetch_status_counts(conn: sqlite3.Connection, run_id: int) -> dict[str, int]:
+    rows = conn.execute(
+        "SELECT status, count(*) FROM product_fetches WHERE run_id = ? GROUP BY status",
+        (run_id,),
+    ).fetchall()
+    return dict(rows)
 
 
 def insert_product_details(conn: sqlite3.Connection, run_id: int, records: list[dict]) -> int:

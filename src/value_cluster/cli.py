@@ -11,6 +11,7 @@ Each stage is safe to re-run. ``details`` resumes the latest unfinished run unle
 """
 
 import argparse
+import gzip
 import logging
 import sys
 from contextlib import ExitStack
@@ -26,6 +27,7 @@ from value_cluster.sephora import (
     SephoraClient,
     parse_brand_products,
     parse_brands,
+    page_title,
     parse_product_page,
     product_page_path,
     save_raw,
@@ -144,20 +146,33 @@ def scrape_details(args: argparse.Namespace, client: SephoraClient) -> None:
     rows_saved = 0
     missing: list[str] = []
     notes = ""
+    no_data_dir = Path("data/probe/no_data")
     try:
         for i, (code, url) in enumerate(todo, 1):
             response = client.get(product_page_path(code, url))
             if response is None:
-                continue
+                if client.last_status == 404:
+                    with db_util.connect(args.db) as conn:
+                        db_util.record_fetch(conn, run_id, code, "not_found")
+                continue  # blocked or network error: retried on the next run
             product, rows = parse_product_page(response.text)
+            title = page_title(response.text)
             if not rows:
                 missing.append(code)
-                logger.warning("no product data found on the page for %s", code)
+                logger.warning(
+                    "no product data for %s (landed on %s, title %r)", code, response.url, title
+                )
+                if len(missing) <= 5:  # keep a few pages to check what Sephora served
+                    no_data_dir.mkdir(parents=True, exist_ok=True)
+                    (no_data_dir / f"{code}.html.gz").write_bytes(gzip.compress(response.content))
+                with db_util.connect(args.db) as conn:
+                    db_util.record_fetch(conn, run_id, code, "no_data", response.url, title)
                 continue
             if raw_dir and product:
                 save_raw(product, raw_dir)
             with db_util.connect(args.db) as conn:
                 rows_saved += db_util.insert_product_details(conn, run_id, rows)
+                db_util.record_fetch(conn, run_id, code, "ok", response.url, title)
             if i % 25 == 0 or i == len(todo):
                 print(f"  {i}/{len(todo)} products, {rows_saved} SKU rows")
     except (BlockedError, NotCanadaError) as e:
@@ -190,9 +205,43 @@ def scrape_details(args: argparse.Namespace, client: SephoraClient) -> None:
             f"not_found={stats.not_found} errors={stats.errors} no_data={len(missing)} "
             f"sku_rows={rows_saved}"
         )
-        print(f"products fetched in this run so far: {fetched}/{len(products)}")
+        with db_util.connect(args.db) as conn:
+            counts = db_util.fetch_status_counts(conn, run_id)
+        print(f"products checked in this run so far: {fetched}/{len(products)} {counts}")
         for row in sample:
             print(f"  {row}")
+
+
+def export(args: argparse.Namespace) -> None:
+    """Write a run's SKU rows and page checks to gzipped CSVs that can be committed."""
+    import pandas as pd
+
+    with db_util.connect(args.db) as conn:
+        run = conn.execute(
+            "SELECT id, date(started_at) FROM scrape_runs WHERE stage = 'details' "
+            + ("AND id = ? " if args.run else "")
+            + "ORDER BY id DESC LIMIT 1",
+            (args.run,) if args.run else (),
+        ).fetchone()
+        if run is None:
+            sys.exit("No details run found to export.")
+        run_id, started = run
+        details = pd.read_sql_query(
+            "SELECT * FROM product_details WHERE run_id = ? ORDER BY product_code, sku_id",
+            conn,
+            params=(run_id,),
+        )
+        fetches = pd.read_sql_query(
+            "SELECT * FROM product_fetches WHERE run_id = ? ORDER BY product_code",
+            conn,
+            params=(run_id,),
+        )
+    args.out_dir.mkdir(parents=True, exist_ok=True)
+    stem = f"sephora_ca_{started}_run{run_id}"
+    for name, frame in [("skus", details), ("pages", fetches)]:
+        path = args.out_dir / f"{stem}_{name}.csv.gz"
+        frame.to_csv(path, index=False, compression="gzip")
+        print(f"wrote {path} ({len(frame)} rows)")
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -201,6 +250,11 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument("-v", "--verbose", action="store_true", help="debug logging")
     commands = parser.add_subparsers(dest="command", required=True)
+
+    export_cmd = commands.add_parser("export", help="write a scrape run to data/snapshots/")
+    export_cmd.add_argument("--db", type=Path, default=db_util.DEFAULT_DB, help="SQLite file")
+    export_cmd.add_argument("--run", type=int, help="run id (default: latest details run)")
+    export_cmd.add_argument("--out-dir", type=Path, default=Path("data/snapshots"))
 
     scrape = commands.add_parser("scrape", help="scrape Sephora Canada")
     scrape.add_argument("stage", choices=["brands", "seed", "products", "details"])
@@ -244,6 +298,9 @@ def main(argv: list[str] | None = None) -> None:
         format="%(asctime)s %(levelname)s %(message)s",
         handlers=[logging.StreamHandler(), logging.FileHandler("scrape.log")],
     )
+    if args.command == "export":
+        export(args)
+        return
     client = SephoraClient(delay=args.delay)
     stages = {
         "brands": scrape_brands,

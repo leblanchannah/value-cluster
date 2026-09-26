@@ -73,6 +73,7 @@ class SephoraClient:
     session: requests.Session = field(default_factory=requests.Session)
     stats: FetchStats = field(default_factory=FetchStats)
     sleep: Any = time.sleep
+    last_status: int | None = field(default=None, init=False)
     _last_request: float = field(default=0.0, init=False)
     _consecutive_blocks: int = field(default=0, init=False)
 
@@ -85,12 +86,14 @@ class SephoraClient:
         url = path_or_url if path_or_url.startswith("http") else f"{BASE_URL}{path_or_url}"
         wait = self.delay * (2**self._consecutive_blocks)
         self._pause(min(wait, self.max_backoff))
+        self.last_status = None
         try:
             response = self.session.get(url, timeout=self.timeout)
         except requests.RequestException as e:
             logger.warning("request failed for %s: %s", url, e)
             self.stats.errors += 1
             return None
+        self.last_status = response.status_code
 
         if is_blocked(response):
             self.stats.blocked += 1
@@ -134,6 +137,11 @@ class SephoraClient:
         if self._last_request and elapsed < seconds:
             self.sleep(seconds - elapsed)
         self._last_request = time.monotonic()
+
+
+def page_title(html: str) -> str | None:
+    match = re.search(r"<title[^>]*>(.*?)</title>", html, re.IGNORECASE | re.DOTALL)
+    return " ".join(match.group(1).split()) if match else None
 
 
 def is_blocked(response: requests.Response) -> bool:

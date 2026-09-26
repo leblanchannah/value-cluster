@@ -392,3 +392,57 @@ def test_cli_details_without_products_does_not_open_a_run(tmp_path, monkeypatch)
         main(["scrape", "details", "--db", str(db)])
     with db_util.connect(db) as conn:
         assert conn.execute("SELECT count(*) FROM scrape_runs").fetchone()[0] == 0
+
+
+def test_cli_details_records_every_page_resumes_and_exports(tmp_path, monkeypatch, capsys):
+    monkeypatch.chdir(tmp_path)
+    db = tmp_path / "t.db"
+    with db_util.connect(db) as conn:
+        db_util.upsert_products(
+            conn,
+            None,
+            [
+                {"product_code": "P427517", "product_url": "/product/bad-gal-bang-mascara-P427517"},
+                {"product_code": "P2", "product_url": "/product/discontinued-P2"},
+                {"product_code": "P3", "product_url": "/product/gone-P3"},
+            ],
+        )
+
+    no_data = response(200, "<html><title>Search Results | Sephora</title></html>")
+    no_data.url = "https://www.sephora.com/ca/en/search?keyword=discontinued"
+    pages = {
+        "/ca/en/product/bad-gal-bang-mascara-P427517": response(
+            200, page({"page": {"product": make_product()}})
+        ),
+        "/ca/en/product/discontinued-P2": no_data,
+        "/ca/en/product/gone-P3": response(404, "gone"),
+    }
+    calls = []
+
+    def fake_get(self, path):
+        calls.append(path)
+        r = pages[path]
+        self.last_status = r.status_code
+        return r if r.ok else None
+
+    monkeypatch.setattr(SephoraClient, "get", fake_get)
+    main(["scrape", "details", "--db", str(db), "--delay", "0"])
+    out = capsys.readouterr().out
+    assert "{'no_data': 1, 'not_found': 1, 'ok': 1}" in out
+    assert (tmp_path / "data/probe/no_data/P2.html.gz").exists()
+    with db_util.connect(db) as conn:
+        fetch = conn.execute(
+            "SELECT status, final_url, title FROM product_fetches WHERE product_code = 'P2'"
+        ).fetchone()
+        run_finished = conn.execute("SELECT finished_at FROM scrape_runs").fetchone()[0]
+    assert fetch == ("no_data", no_data.url, "Search Results | Sephora")
+    assert run_finished is not None  # every product was checked
+
+    calls.clear()
+    main(["scrape", "details", "--db", str(db), "--delay", "0"])  # new run: fetches again
+    assert len(calls) == 3
+
+    main(["export", "--db", str(db), "--run", "1"])
+    out = capsys.readouterr().out
+    assert "_run1_skus.csv.gz (5 rows)" in out
+    assert "_run1_pages.csv.gz (3 rows)" in out
