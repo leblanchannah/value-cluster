@@ -8,14 +8,21 @@ Run from the repo root:
 It makes a handful of requests (a few seconds apart), prints a summary to paste
 back into the Claude session, and saves the responses (gzipped) under
 tests/fixtures/sephora/ so parsers and tests can be built from real data.
+
+What it checks:
+- requests: brands list and product pages, looking for product JSON embedded in the HTML
+- selenium: brands list, one brand page's product links, and the product API
+  called with fetch() from inside the browser (the plain API call gets a 403)
 """
 
 import argparse
 import gzip
+import json
 import time
 from pathlib import Path
 
 import requests
+from bs4 import BeautifulSoup
 
 BASE_URL = "https://www.sephora.com"
 LOCALE_PATH = "/ca/en"
@@ -66,39 +73,71 @@ def describe(label: str, response: requests.Response) -> None:
         print(f"cookies:      {cookies}")
 
 
+def report_embedded_json(html: str) -> dict | None:
+    """Print the JSON <script> tags in a page and return the linkStore data if present."""
+    soup = BeautifulSoup(html, "html.parser")
+    scripts = soup.find_all("script", attrs={"type": lambda t: bool(t) and "json" in t})
+    print(f"json scripts: {[(tag.get('id'), len(tag.get_text())) for tag in scripts]}")
+    link_store = soup.find("script", id="linkStore")
+    if link_store is None:
+        return None
+    try:
+        return json.loads(link_store.get_text())
+    except ValueError:
+        print("linkStore:    present but not valid JSON")
+        return None
+
+
+def report_product(data: dict) -> None:
+    """Print the fields the scraper needs from product data (API or embedded JSON)."""
+    sku = data.get("currentSku", {})
+    print(f"display name: {data.get('productDetails', {}).get('displayName')}")
+    print(f"list price:   {sku.get('listPrice')}  size: {sku.get('size')}")
+    print(f"child skus:   {len(data.get('regularChildSkus', []))}")
+
+
+def find_product(data: object) -> dict | None:
+    """Find the product object (the dict with a currentSku) anywhere in nested page JSON."""
+    if isinstance(data, dict):
+        if "currentSku" in data and "productDetails" in data:
+            return data
+        children = data.values()
+    elif isinstance(data, list):
+        children = data
+    else:
+        return None
+    for child in children:
+        found = find_product(child)
+        if found is not None:
+            return found
+    return None
+
+
 def probe_requests() -> None:
     session = requests.Session()
     session.headers.update(HEADERS)
     session.cookies.update(LOCALE_COOKIES)
 
-    home = session.get(f"{BASE_URL}{LOCALE_PATH}/", timeout=30)
-    describe("homepage", home)
-    time.sleep(DELAY_SECONDS)
-
     brands = session.get(f"{BASE_URL}{LOCALE_PATH}/brands-list", timeout=30)
-    describe("brands list", brands)
-    brand_links = brands.text.count('data-at="brand_link"')
-    print(f"brand links:  {brand_links}")
+    describe("brands list (requests)", brands)
     if brands.ok:
+        link_store = report_embedded_json(brands.text)
+        print(f"linkStore:    {'found' if link_store else 'not found'}")
         print(f"saved:        {save('brands_list.html', brands.content)}")
 
     for product_code in SAMPLE_PRODUCTS:
         time.sleep(DELAY_SECONDS)
-        response = session.get(
-            f"{BASE_URL}/api/v3/catalog/products/{product_code}", params=API_PARAMS, timeout=30
-        )
-        describe(f"product API {product_code}", response)
-        try:
-            data = response.json()
-        except ValueError:
-            print("json:         not JSON (probably a bot-protection page)")
+        response = session.get(f"{BASE_URL}{LOCALE_PATH}/product/{product_code}", timeout=30)
+        describe(f"product page {product_code} (requests)", response)
+        if not response.ok:
             print(f"body start:   {response.text[:200]!r}")
             continue
-        sku = data.get("currentSku", {})
-        print(f"display name: {data.get('productDetails', {}).get('displayName')}")
-        print(f"list price:   {sku.get('listPrice')}  size: {sku.get('size')}")
-        print(f"child skus:   {len(data.get('regularChildSkus', []))}")
-        print(f"saved:        {save(f'product_{product_code}.json', response.content)}")
+        print(f"saved:        {save(f'product_page_{product_code}.html', response.content)}")
+        product = find_product(report_embedded_json(response.text))
+        if product is None:
+            print("product json: not found in page")
+        else:
+            report_product(product)
 
 
 def probe_selenium() -> None:
@@ -109,16 +148,53 @@ def probe_selenium() -> None:
     options = Options()
     options.add_argument("--headless=new")
     options.add_argument(f"user-agent={HEADERS['User-Agent']}")
-    print("\n== selenium brands list")
     with webdriver.Chrome(options=options) as driver:
+        print("\n== brands list (selenium)")
         driver.get(f"{BASE_URL}{LOCALE_PATH}/brands-list")
         time.sleep(DELAY_SECONDS)
         links = driver.find_elements(By.XPATH, '//a[@data-at="brand_link"]')
-        print(f"title:        {driver.title}")
         print(f"brand links:  {len(links)}")
-        if links:
-            print(f"first link:   {links[0].get_attribute('href')}")
-        print(f"country cookie: {driver.get_cookie('current_country')}")
+        print(f"country:      {(driver.get_cookie('current_country') or {}).get('value')}")
+        brand_url = links[0].get_attribute("href") if links else None
+
+        if brand_url:
+            print(f"\n== brand page (selenium) {brand_url}")
+            time.sleep(DELAY_SECONDS)
+            driver.get(brand_url)
+            time.sleep(DELAY_SECONDS)
+            products = driver.find_elements(By.XPATH, '//a[contains(@href, "/ca/en/product/")]')
+            hrefs = sorted({href for a in products if (href := a.get_attribute("href"))})
+            print(f"product links (before scrolling): {len(hrefs)}")
+            if hrefs:
+                print(f"first link:   {hrefs[0]}")
+
+        for product_code in SAMPLE_PRODUCTS:
+            print(f"\n== product API {product_code} (fetch inside selenium)")
+            time.sleep(DELAY_SECONDS)
+            url = (
+                requests.Request(
+                    "GET", f"{BASE_URL}/api/v3/catalog/products/{product_code}", params=API_PARAMS
+                )
+                .prepare()
+                .url
+            )
+            result = driver.execute_async_script(
+                """
+                const done = arguments[arguments.length - 1];
+                fetch(arguments[0], {credentials: "include"})
+                  .then(r => r.text().then(body => done({status: r.status, body})))
+                  .catch(e => done({status: -1, body: String(e)}));
+                """,
+                url,
+            )
+            print(f"status:       {result['status']}")
+            try:
+                data = json.loads(result["body"])
+            except ValueError:
+                print(f"body start:   {result['body'][:200]!r}")
+                continue
+            report_product(data)
+            print(f"saved:        {save(f'product_{product_code}.json', result['body'].encode())}")
 
 
 def main() -> None:
