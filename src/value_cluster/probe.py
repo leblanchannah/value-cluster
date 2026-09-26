@@ -4,6 +4,7 @@ Run from the repo root:
 
     uv run python -m value_cluster.probe              # plain HTTP requests only
     uv run python -m value_cluster.probe --selenium   # also try headless Chrome
+    uv run python -m value_cluster.probe --selenium-only --headed   # Chrome only, visible window
 
 It makes a handful of requests (a few seconds apart), prints a summary to paste
 back into the Claude session, and saves the responses (gzipped) under
@@ -11,8 +12,8 @@ tests/fixtures/sephora/ so parsers and tests can be built from real data.
 
 What it checks:
 - requests: brands list and product pages, looking for product JSON embedded in the HTML
-- selenium: brands list, one brand page's product links, and the product API
-  called with fetch() from inside the browser (the plain API call gets a 403)
+- selenium: brands list, one brand page's product links, and product pages
+  loaded in Chrome, looking for the same embedded product JSON
 """
 
 import argparse
@@ -28,19 +29,6 @@ BASE_URL = "https://www.sephora.com"
 LOCALE_PATH = "/ca/en"
 # Products that exist in the January 2025 snapshot (data/preprocessed_data.csv).
 SAMPLE_PRODUCTS = ["P513304", "P427517"]
-API_PARAMS = {
-    "addCurrentSkuToProductChildSkus": "true",
-    "includeRegionsMap": "true",
-    "showContent": "true",
-    "includeConfigurableSku": "true",
-    "countryCode": "CA",
-    "removePersonalizedData": "true",
-    "includeReviewFilters": "true",
-    "includeReviewImages": "false",
-    "includeRnR": "true",
-    "loc": "en-CA",
-    "ch": "rwd",
-}
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
@@ -140,14 +128,18 @@ def probe_requests() -> None:
             report_product(product)
 
 
-def probe_selenium() -> None:
+def is_blocked(title: str, html: str) -> bool:
+    return "Access Denied" in title or "<H1>Access Denied</H1>" in html
+
+
+def probe_selenium(headed: bool) -> None:
     from selenium import webdriver
     from selenium.webdriver.chrome.options import Options
     from selenium.webdriver.common.by import By
 
     options = Options()
-    options.add_argument("--headless=new")
-    options.add_argument(f"user-agent={HEADERS['User-Agent']}")
+    if not headed:
+        options.add_argument("--headless=new")
     with webdriver.Chrome(options=options) as driver:
         print("\n== brands list (selenium)")
         driver.get(f"{BASE_URL}{LOCALE_PATH}/brands-list")
@@ -162,50 +154,52 @@ def probe_selenium() -> None:
             time.sleep(DELAY_SECONDS)
             driver.get(brand_url)
             time.sleep(DELAY_SECONDS)
-            products = driver.find_elements(By.XPATH, '//a[contains(@href, "/ca/en/product/")]')
+            print(f"title:        {driver.title}")
+            print(f"blocked:      {is_blocked(driver.title, driver.page_source)}")
+            for _ in range(3):  # let lazy-loaded product tiles render
+                driver.execute_script("window.scrollBy(0, 1500);")
+                time.sleep(1)
+            products = driver.find_elements(By.XPATH, '//a[contains(@href, "/product/")]')
             hrefs = sorted({href for a in products if (href := a.get_attribute("href"))})
-            print(f"product links (before scrolling): {len(hrefs)}")
-            if hrefs:
-                print(f"first link:   {hrefs[0]}")
+            print(f"product links: {len(hrefs)}")
+            for href in hrefs[:3]:
+                print(f"  {href}")
+            print(f"saved:        {save('brand_page.html', driver.page_source.encode())}")
 
         for product_code in SAMPLE_PRODUCTS:
-            print(f"\n== product API {product_code} (fetch inside selenium)")
+            print(f"\n== product page {product_code} (selenium)")
             time.sleep(DELAY_SECONDS)
-            url = (
-                requests.Request(
-                    "GET", f"{BASE_URL}/api/v3/catalog/products/{product_code}", params=API_PARAMS
-                )
-                .prepare()
-                .url
-            )
-            result = driver.execute_async_script(
-                """
-                const done = arguments[arguments.length - 1];
-                fetch(arguments[0], {credentials: "include"})
-                  .then(r => r.text().then(body => done({status: r.status, body})))
-                  .catch(e => done({status: -1, body: String(e)}));
-                """,
-                url,
-            )
-            print(f"status:       {result['status']}")
-            try:
-                data = json.loads(result["body"])
-            except ValueError:
-                print(f"body start:   {result['body'][:200]!r}")
+            driver.get(f"{BASE_URL}{LOCALE_PATH}/product/{product_code}")
+            time.sleep(DELAY_SECONDS)
+            html = driver.page_source
+            print(f"title:        {driver.title}")
+            if is_blocked(driver.title, html):
+                print("blocked:      True")
                 continue
-            report_product(data)
-            print(f"saved:        {save(f'product_{product_code}.json', result['body'].encode())}")
+            print(f"saved:        {save(f'product_page_{product_code}.html', html.encode())}")
+            product = find_product(report_embedded_json(html))
+            if product is None:
+                print("product json: not found in page")
+            else:
+                report_product(product)
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(
         description="Check what Sephora Canada returns to this machine."
     )
-    parser.add_argument("--selenium", action="store_true", help="also try headless Chrome")
+    parser.add_argument("--selenium", action="store_true", help="also try Chrome via Selenium")
+    parser.add_argument(
+        "--selenium-only", action="store_true", help="skip the plain requests checks"
+    )
+    parser.add_argument(
+        "--headed", action="store_true", help="show the Chrome window instead of running headless"
+    )
     args = parser.parse_args()
-    probe_requests()
-    if args.selenium:
-        probe_selenium()
+    if not args.selenium_only:
+        probe_requests()
+    if args.selenium or args.selenium_only:
+        probe_selenium(headed=args.headed)
     print("\nDone. Paste everything above into the Claude session.")
 
 
