@@ -25,6 +25,8 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
+from value_cluster.sephora import find_product
+
 BASE_URL = "https://www.sephora.com"
 LOCALE_PATH = "/ca/en"
 # Products that exist in the January 2025 snapshot (data/preprocessed_data.csv).
@@ -82,23 +84,6 @@ def report_product(data: dict) -> None:
     print(f"display name: {data.get('productDetails', {}).get('displayName')}")
     print(f"list price:   {sku.get('listPrice')}  size: {sku.get('size')}")
     print(f"child skus:   {len(data.get('regularChildSkus', []))}")
-
-
-def find_product(data: object) -> dict | None:
-    """Find the product object (the dict with a currentSku) anywhere in nested page JSON."""
-    if isinstance(data, dict):
-        if "currentSku" in data and "productDetails" in data:
-            return data
-        children = data.values()
-    elif isinstance(data, list):
-        children = data
-    else:
-        return None
-    for child in children:
-        found = find_product(child)
-        if found is not None:
-            return found
-    return None
 
 
 def probe_requests() -> None:

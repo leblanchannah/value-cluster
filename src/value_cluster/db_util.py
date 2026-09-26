@@ -1,211 +1,57 @@
-import logging
+"""SQLite storage for scraped Sephora data.
+
+Every ``details`` scrape is a row in ``scrape_runs``; ``product_details`` rows carry the
+``run_id`` so later scrapes can be compared with earlier ones (price history).
+"""
+
 import sqlite3
+from collections.abc import Iterator
+from contextlib import contextmanager
+from pathlib import Path
 
-# TODO backup db before insert
-# TODO error logs
-# CREATE TABLE IF NOT EXISTS error_logs (
-#     id INTEGER PRIMARY KEY AUTOINCREMENT,
-#     row_data TEXT,
-#     error_message TEXT,
-#     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-# );
+DEFAULT_DB = Path("data/db/products.db")
 
-# TODO Integrate email or webhook notifications to alert of: Successful runs. Issues like failed rows or missing tables.
+SCHEMA = """
+CREATE TABLE IF NOT EXISTS scrape_runs (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    stage TEXT NOT NULL,
+    country TEXT NOT NULL,
+    started_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    finished_at TIMESTAMP,
+    ok INTEGER,
+    blocked INTEGER,
+    not_found INTEGER,
+    errors INTEGER,
+    notes TEXT
+);
 
-
-logging.basicConfig(
-    level=logging.INFO,  # Set to DEBUG for more detailed logs
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[
-        logging.FileHandler("db_operations.log"),  # Logs to a file
-        logging.StreamHandler(),  # Logs to the console
-    ],
-)
-
-logger = logging.getLogger(__name__)
-
-
-def get_db_connection(db_file: str):
-    """Context manager for SQLite database connection.
-
-    Yields:
-        conn: sqlite3 database connection
-    """
-    try:
-        logger.info(f"Connecting to database: {db_file}")
-        conn = sqlite3.connect(db_file, timeout=10)
-        return conn
-    finally:
-        logger.info("Database connection closed.")
-
-
-def execute_query(db_file: str, sql_query: str, params: tuple = ()):
-    """Executes a single SQL query.
-
-    Args:
-        db_file (str): _description_
-        sql_query (str): _description_
-        params (Tuple, optional): _description_. Defaults to ().
-    """
-    try:
-        with get_db_connection(db_file) as conn:
-            cursor = conn.cursor()
-            logger.debug(f"Executing query: {sql_query} | Params: {params}")
-            cursor.execute(sql_query, params)
-            conn.commit()
-            logger.info("SQL query executed successfully.")
-    except sqlite3.Error as e:
-        logger.error(f"SQLite error: {e}")
-        raise
-
-
-def insert_batch(db_file: str, sql_query: str, batch_data: list[tuple]):
-    """Executes a batch insert into the database.
-
-    Args:
-        db_file (str): _description_
-        sql_query (str): _description_
-        batch_data (List[Tuple]): _description_
-    """
-    logger.info(batch_data)
-    try:
-        with get_db_connection(db_file) as conn:
-            cursor = conn.cursor()
-            logger.debug(f"Executing batch insert: {sql_query} | Batch size: {len(batch_data)}")
-            cursor.executemany(sql_query, batch_data)
-            conn.commit()
-            logger.info(f"Batch insert successful. {len(batch_data)} rows inserted.")
-    except sqlite3.Error as e:
-        logger.error(f"Batch insert error: {e}")
-        raise
-
-
-def insert_product_details(db_file: str, products: list[dict], table_name: str):
-    """
-    Args:
-        db_file: (str)
-        products: (List[Dict])
-        table_name: str
-    """
-    sql_query = """
-        INSERT INTO product_details (
-            target_url, full_product_url, product_code, loves_count, rating, reviews, brand_source_id,
-            category_id, category_name, category_url,
-            sku_id, brand_name, display_name, ingredients, limited_edition,
-            first_access, limited_time_offer, new_product, online_only,
-            few_left, out_of_stock, price, max_purchase_quantity, size, type,
-            url, variation_type, variation_value,
-            returnable, finish_refinement, size_refinement, short_description, long_description,
-            suggested_usage
-        ) VALUES (
-            ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,
-            ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
-        )
-        """
-    batch_data = [
-        (
-            product.get("target_url"),
-            product.get("full_product_url"),
-            product.get("product_code"),
-            product.get("loves_count"),
-            product.get("rating"),
-            product.get("reviews"),
-            product.get("brand_id"),
-            product.get("category_id"),
-            product.get("category_name"),
-            product.get("category_url"),
-            product.get("sku_id"),
-            product.get("brand_name"),
-            product.get("display_name"),
-            product.get("ingredients"),
-            product.get("limited_edition"),
-            product.get("first_access"),
-            product.get("limited_time_offer"),
-            product.get("new_product"),
-            product.get("online_only"),
-            product.get("few_left"),
-            product.get("out_of_stock"),
-            product.get("price"),
-            product.get("max_purchase_quantity"),
-            product.get("size"),
-            product.get("type"),
-            product.get("url"),
-            product.get("variation_type"),
-            product.get("variation_value"),
-            product.get("returnable"),
-            product.get("finish_refinement"),
-            product.get("size_refinement"),
-            product.get("short_description"),
-            product.get("long_description"),
-            product.get("suggested_usage"),
-        )
-        for product in products
-    ]
-
-    insert_batch(db_file, sql_query, batch_data)
-
-
-def insert_brand_products(db_file: str, brand_id: int, data: list[tuple], table_name: str):
-    """Inserts brand products into the database scraped from brand pages.
-    Product urls used in downstream API calls to get product details.
-    Args:
-        db_file: (str)
-        data: (list[tuple]) rows of (brand_id, product_url, sku, product_code)
-        table_name: str
-    """
-
-    sql_query = """
-        INSERT INTO products (brand_id, product_url, sku, product_code)
-        VALUES (?, ?, ?, ?)
-    """
-    # insert_batch(db_file, sql_query, [(brand_id, *data) for data in data])
-    insert_batch(db_file, sql_query, [(data) for data in data])
-
-
-# Function to insert data into the 'brands' table
-def insert_brands_data(db_file: str, data: list, table_name: str):
-    """Inserts brand data into the database.
-    Args:
-        db_file: (str)
-        data: (List[Dict])
-        table_name: str
-    """
-    sql_query = """INSERT INTO brands (brand_name, brand_url) VALUES (?, ?)"""
-    batch_data = [(brand["brand_name"], brand["brand_url"]) for brand in data]
-    insert_batch(db_file, sql_query, batch_data)
-
-
-create_brands_table_query = """
 CREATE TABLE IF NOT EXISTS brands (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    brand_name CHAR NOT NULL,
-    brand_url CHAR NOT NULL,
+    brand_name TEXT NOT NULL,
+    brand_url TEXT NOT NULL UNIQUE,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-)
-"""
+);
 
-create_products_table_query = """
 CREATE TABLE IF NOT EXISTS products (
     product_id INTEGER PRIMARY KEY AUTOINCREMENT,
-    brand_id INTEGER,
+    brand_id INTEGER REFERENCES brands(id),
     product_url TEXT,
-    sku TEXT,
-    product_code TEXT,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (brand_id) REFERENCES brands(id)
-)
-"""
+    product_code TEXT NOT NULL UNIQUE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
 
-create_product_details_table_query = """
 CREATE TABLE IF NOT EXISTS product_details (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
+    run_id INTEGER NOT NULL REFERENCES scrape_runs(id),
+    country TEXT,
+    currency TEXT,
     target_url TEXT,
     full_product_url TEXT,
     product_code TEXT,
     loves_count INTEGER,
     rating REAL,
     reviews INTEGER,
-    brand_source_id INTEGER,
+    brand_source_id TEXT,
     category_id TEXT,
     category_name TEXT,
     category_url TEXT,
@@ -221,6 +67,7 @@ CREATE TABLE IF NOT EXISTS product_details (
     few_left BOOLEAN,
     out_of_stock BOOLEAN,
     price TEXT,
+    sale_price TEXT,
     max_purchase_quantity INTEGER,
     size TEXT,
     type TEXT,
@@ -234,6 +81,173 @@ CREATE TABLE IF NOT EXISTS product_details (
     long_description TEXT,
     suggested_usage TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (product_code) REFERENCES products(product_code)
-)
+    UNIQUE (run_id, sku_id)
+);
 """
+
+# product_details column -> key in the records built by sephora.product_records()
+DETAIL_COLUMNS = {
+    "country": "country",
+    "currency": "currency",
+    "target_url": "target_url",
+    "full_product_url": "full_product_url",
+    "product_code": "product_code",
+    "loves_count": "loves_count",
+    "rating": "rating",
+    "reviews": "reviews",
+    "brand_source_id": "brand_id",
+    "category_id": "category_id",
+    "category_name": "category_name",
+    "category_url": "category_url",
+    "sku_id": "sku_id",
+    "brand_name": "brand_name",
+    "display_name": "display_name",
+    "ingredients": "ingredients",
+    "limited_edition": "limited_edition",
+    "first_access": "first_access",
+    "limited_time_offer": "limited_time_offer",
+    "new_product": "new_product",
+    "online_only": "online_only",
+    "few_left": "few_left",
+    "out_of_stock": "out_of_stock",
+    "price": "price",
+    "sale_price": "sale_price",
+    "max_purchase_quantity": "max_purchase_quantity",
+    "size": "size",
+    "type": "type",
+    "url": "url",
+    "variation_type": "variation_type",
+    "variation_value": "variation_value",
+    "returnable": "returnable",
+    "finish_refinement": "finish_refinement",
+    "size_refinement": "size_refinement",
+    "short_description": "short_description",
+    "long_description": "long_description",
+    "suggested_usage": "suggested_usage",
+}
+
+
+@contextmanager
+def connect(db_file: str | Path = DEFAULT_DB) -> Iterator[sqlite3.Connection]:
+    """Open the database (creating tables if needed), commit on success, always close."""
+    Path(db_file).parent.mkdir(parents=True, exist_ok=True)
+    conn = sqlite3.connect(db_file, timeout=10)
+    conn.execute("PRAGMA foreign_keys = ON")
+    try:
+        conn.executescript(SCHEMA)
+        yield conn
+        conn.commit()
+    except Exception:
+        conn.rollback()
+        raise
+    finally:
+        conn.close()
+
+
+def start_run(conn: sqlite3.Connection, stage: str, country: str) -> int:
+    cursor = conn.execute(
+        "INSERT INTO scrape_runs (stage, country) VALUES (?, ?)", (stage, country)
+    )
+    conn.commit()
+    run_id = cursor.lastrowid
+    assert run_id is not None
+    return run_id
+
+
+def finish_run(
+    conn: sqlite3.Connection,
+    run_id: int,
+    *,
+    ok: int,
+    blocked: int,
+    not_found: int,
+    errors: int,
+    notes: str = "",
+) -> None:
+    conn.execute(
+        """UPDATE scrape_runs
+           SET finished_at = CURRENT_TIMESTAMP, ok = ?, blocked = ?, not_found = ?,
+               errors = ?, notes = ?
+           WHERE id = ?""",
+        (ok, blocked, not_found, errors, notes, run_id),
+    )
+    conn.commit()
+
+
+def latest_open_run(conn: sqlite3.Connection, stage: str) -> int | None:
+    """The most recent unfinished run for a stage, so an interrupted scrape can resume."""
+    row = conn.execute(
+        "SELECT id FROM scrape_runs WHERE stage = ? AND finished_at IS NULL "
+        "ORDER BY id DESC LIMIT 1",
+        (stage,),
+    ).fetchone()
+    return row[0] if row else None
+
+
+def upsert_brands(conn: sqlite3.Connection, brands: list[dict]) -> int:
+    conn.executemany(
+        """INSERT INTO brands (brand_name, brand_url) VALUES (:brand_name, :brand_url)
+           ON CONFLICT (brand_url) DO UPDATE SET brand_name = excluded.brand_name""",
+        brands,
+    )
+    conn.commit()
+    return len(brands)
+
+
+def get_brands(conn: sqlite3.Connection, name: str | None = None) -> list[tuple[int, str, str]]:
+    """``(id, brand_name, brand_url)`` rows, optionally filtered by case-insensitive name."""
+    query = "SELECT id, brand_name, brand_url FROM brands"
+    params: tuple = ()
+    if name:
+        query += " WHERE lower(brand_name) = lower(?)"
+        params = (name,)
+    return conn.execute(query + " ORDER BY brand_name", params).fetchall()
+
+
+def upsert_products(conn: sqlite3.Connection, brand_id: int, products: list[dict]) -> int:
+    """Insert ``{"product_code", "product_url"}`` dicts for a brand; existing codes are kept."""
+    conn.executemany(
+        """INSERT INTO products (brand_id, product_url, product_code)
+           VALUES (?, ?, ?)
+           ON CONFLICT (product_code) DO UPDATE SET product_url = excluded.product_url""",
+        [(brand_id, p["product_url"], p["product_code"]) for p in products],
+    )
+    conn.commit()
+    return len(products)
+
+
+def get_products(
+    conn: sqlite3.Connection, brand: str | None = None, limit: int | None = None
+) -> list[tuple[str, str]]:
+    """``(product_code, product_url)`` rows, optionally for one brand and/or limited."""
+    query = (
+        "SELECT p.product_code, p.product_url FROM products p "
+        "LEFT JOIN brands b ON b.id = p.brand_id"
+    )
+    params: list = []
+    if brand:
+        query += " WHERE lower(b.brand_name) = lower(?)"
+        params.append(brand)
+    query += " ORDER BY p.product_id"
+    if limit:
+        query += " LIMIT ?"
+        params.append(limit)
+    return conn.execute(query, params).fetchall()
+
+
+def fetched_product_codes(conn: sqlite3.Connection, run_id: int) -> set[str]:
+    rows = conn.execute(
+        "SELECT DISTINCT product_code FROM product_details WHERE run_id = ?", (run_id,)
+    ).fetchall()
+    return {row[0] for row in rows}
+
+
+def insert_product_details(conn: sqlite3.Connection, run_id: int, records: list[dict]) -> int:
+    columns = ["run_id", *DETAIL_COLUMNS]
+    placeholders = ", ".join("?" for _ in columns)
+    conn.executemany(
+        f"INSERT OR REPLACE INTO product_details ({', '.join(columns)}) VALUES ({placeholders})",
+        [(run_id, *(r.get(key) for key in DETAIL_COLUMNS.values())) for r in records],
+    )
+    conn.commit()
+    return len(records)
