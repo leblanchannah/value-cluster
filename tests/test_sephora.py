@@ -1,4 +1,6 @@
+import gzip
 import json
+from pathlib import Path
 
 import pytest
 import requests
@@ -303,3 +305,44 @@ def test_cli_details_stage_end_to_end(tmp_path, monkeypatch, capsys):
     with db_util.connect(db) as conn:
         prices = conn.execute("SELECT DISTINCT price, currency FROM product_details").fetchall()
     assert prices == [("$39.00", "CAD")]
+
+
+# --- real pages saved by the probe (tests/fixtures/sephora) -----------------------------
+
+FIXTURES = Path(__file__).parent / "fixtures" / "sephora"
+
+
+def fixture_html(name: str) -> str:
+    return gzip.decompress((FIXTURES / f"{name}.html.gz").read_bytes()).decode()
+
+
+def test_real_brands_list_has_all_brands():
+    brands = parse_brands(fixture_html("brands_list"))
+    assert len(brands) == 272
+    assert {
+        "brand_name": "Benefit Cosmetics",
+        "brand_url": "/ca/en/brand/benefit-cosmetics",
+    } in brands
+    # Sub-pages linked from the menu (e.g. /brand/sephora-collection/skincare) are not brands.
+    assert all(b["brand_url"].count("/") == 4 for b in brands)
+
+
+def test_real_product_page_single_sku():
+    product, rows = parse_product_page(fixture_html("product_page_P513304"))
+    assert product is not None
+    assert [(r["sku_id"], r["price"], r["size"]) for r in rows] == [
+        ("2797074", "$51.00", "8.4 oz / 250 ml")
+    ]
+    assert rows[0]["brand_name"] == "AAVRANI"
+    assert rows[0]["category_name"] == "Shampoo --- Shampoo & Conditioner --- Hair"
+
+
+def test_real_product_page_every_shade_and_size():
+    _, rows = parse_product_page(fixture_html("product_page_P427517"))
+    by_sku = {r["sku_id"]: r for r in rows}
+    assert len(rows) == 5
+    assert by_sku["2031649"]["price"] == "$39.00"
+    assert by_sku["2031813"]["price"] == "$22.00"  # the mini
+    assert "Mini" in by_sku["2031813"]["size"]
+    assert {r["display_name"] for r in rows} == {"BADgal BANG! Volumizing 36-Hour Longwear Mascara"}
+    assert {r["currency"] for r in rows} == {"CAD"}

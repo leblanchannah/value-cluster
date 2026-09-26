@@ -25,7 +25,7 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
-from value_cluster.sephora import find_product
+from value_cluster.sephora import find_product, iter_dicts, parse_brand_products, parse_brands
 
 BASE_URL = "https://www.sephora.com"
 LOCALE_PATH = "/ca/en"
@@ -41,7 +41,9 @@ HEADERS = {
 # Sephora picks the country from the IP unless these are set.
 LOCALE_COOKIES = {"site_locale": "ca", "site_language": "en"}
 DELAY_SECONDS = 4
-FIXTURE_DIR = Path("tests/fixtures/sephora")
+# Always the repo's tests/fixtures, whatever directory the probe is run from.
+FIXTURE_DIR = Path(__file__).resolve().parents[2] / "tests" / "fixtures" / "sephora"
+SAMPLE_BRAND = "/brand/benefit-cosmetics"
 
 
 def save(name: str, content: bytes) -> Path:
@@ -96,7 +98,30 @@ def probe_requests() -> None:
     if brands.ok:
         link_store = report_embedded_json(brands.text)
         print(f"linkStore:    {'found' if link_store else 'not found'}")
+        print(f"brands found: {len(parse_brands(brands.text))}")
         print(f"saved:        {save('brands_list.html', brands.content)}")
+
+    # A brand page, and its second page, to see how products and paging are listed.
+    for suffix, name in [("", "brand_page"), ("?currentPage=2", "brand_page_2")]:
+        time.sleep(DELAY_SECONDS)
+        response = session.get(f"{BASE_URL}{LOCALE_PATH}{SAMPLE_BRAND}{suffix}", timeout=30)
+        describe(f"brand page{suffix} (requests)", response)
+        if not response.ok:
+            print(f"body start:   {response.text[:200]!r}")
+            continue
+        print(f"saved:        {save(f'{name}.html', response.content)}")
+        link_store = report_embedded_json(response.text)
+        products = parse_brand_products(response.text)
+        print(f"products found: {len(products)}")
+        for product in products[:3]:
+            print(f"  {product}")
+        counts = {
+            key: value
+            for item in iter_dicts(link_store)
+            for key, value in item.items()
+            if "total" in key.lower() and isinstance(value, int)
+        }
+        print(f"total-ish fields: {counts}")
 
     for product_code in SAMPLE_PRODUCTS:
         time.sleep(DELAY_SECONDS)

@@ -280,7 +280,7 @@ def save_raw(product: dict, raw_dir: Path) -> Path:
 
 BRAND_PATH_RE = re.compile(r"^(?:https?://www\.sephora\.com)?(?:/ca/en)?(/brand/[\w\-]+)/?$")
 URL_KEYS = ("targetUrl", "url", "brandUrl", "link")
-NAME_KEYS = ("displayName", "brandName", "name", "title")
+NAME_KEYS = ("shortName", "displayName", "brandName", "name", "title")
 
 
 def normalize_brand_url(url: str) -> str | None:
