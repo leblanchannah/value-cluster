@@ -1,7 +1,5 @@
 import pytest
-import sys
-sys.path.insert(0,'../src')
-from clean_product_data import (parse_volume_string, pre_parse_product_size_clean, split_product_multiplier,
+from value_cluster.parsing import (parse_volume_string, pre_parse_product_size_clean, split_product_multiplier,
                                 shorthand_numeric_conversion, clean_product_rating, split_sale_and_full_price,
                                 strip_non_numeric)
 

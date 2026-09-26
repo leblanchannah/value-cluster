@@ -13,7 +13,7 @@ import time
 import sqlite3
 import os
 import logging
-from db_util import (execute_query, insert_product_details, insert_brand_products, insert_brands_data,
+from value_cluster.db_util import (execute_query, insert_product_details, insert_brand_products, insert_brands_data,
                     create_brands_table_query, create_products_table_query, create_product_details_table_query)
 
 logger = logging.getLogger(__name__)
