@@ -1,3 +1,19 @@
-.ipynb_checkpoints/
-db/
+# Python
 __pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+
+# Tooling caches
+.ruff_cache/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Local data and secrets
+db/
+data/db/
+data/raw/
+*.log
+.env

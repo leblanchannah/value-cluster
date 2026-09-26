@@ -1,8 +1,7 @@
-from typing import List, Dict, Tuple
-import sqlite3
 import logging
+import sqlite3
 
-# TODO backup db before insert 
+# TODO backup db before insert
 # TODO error logs
 # CREATE TABLE IF NOT EXISTS error_logs (
 #     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -16,11 +15,11 @@ import logging
 
 logging.basicConfig(
     level=logging.INFO,  # Set to DEBUG for more detailed logs
-    format='%(asctime)s - %(levelname)s - %(message)s',
+    format="%(asctime)s - %(levelname)s - %(message)s",
     handlers=[
         logging.FileHandler("db_operations.log"),  # Logs to a file
-        logging.StreamHandler()  # Logs to the console
-    ]
+        logging.StreamHandler(),  # Logs to the console
+    ],
 )
 
 logger = logging.getLogger(__name__)
@@ -37,10 +36,10 @@ def get_db_connection(db_file: str):
         conn = sqlite3.connect(db_file, timeout=10)
         return conn
     finally:
-        logger.info(f"Database connection closed.")
+        logger.info("Database connection closed.")
 
 
-def execute_query(db_file: str, sql_query: str, params: Tuple = ()):
+def execute_query(db_file: str, sql_query: str, params: tuple = ()):
     """Executes a single SQL query.
 
     Args:
@@ -60,7 +59,7 @@ def execute_query(db_file: str, sql_query: str, params: Tuple = ()):
         raise
 
 
-def insert_batch(db_file: str, sql_query: str, batch_data: List[Tuple]):
+def insert_batch(db_file: str, sql_query: str, batch_data: list[tuple]):
     """Executes a batch insert into the database.
 
     Args:
@@ -81,7 +80,7 @@ def insert_batch(db_file: str, sql_query: str, batch_data: List[Tuple]):
         raise
 
 
-def insert_product_details(db_file:str, products: List[Dict], table_name: str):
+def insert_product_details(db_file: str, products: list[dict], table_name: str):
     """
     Args:
         db_file: (str)
@@ -103,7 +102,8 @@ def insert_product_details(db_file:str, products: List[Dict], table_name: str):
             ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
         )
         """
-    batch_data = [(
+    batch_data = [
+        (
             product.get("target_url"),
             product.get("full_product_url"),
             product.get("product_code"),
@@ -137,18 +137,20 @@ def insert_product_details(db_file:str, products: List[Dict], table_name: str):
             product.get("size_refinement"),
             product.get("short_description"),
             product.get("long_description"),
-            product.get("suggested_usage") 
-        ) for product in products]
-    
+            product.get("suggested_usage"),
+        )
+        for product in products
+    ]
+
     insert_batch(db_file, sql_query, batch_data)
 
 
-def insert_brand_products(db_file: str, brand_id: int, data: List[str], table_name: str):
+def insert_brand_products(db_file: str, brand_id: int, data: list[tuple], table_name: str):
     """Inserts brand products into the database scraped from brand pages.
     Product urls used in downstream API calls to get product details.
     Args:
         db_file: (str)
-        data: (List[Dict])
+        data: (list[tuple]) rows of (brand_id, product_url, sku, product_code)
         table_name: str
     """
 
@@ -161,7 +163,7 @@ def insert_brand_products(db_file: str, brand_id: int, data: List[str], table_na
 
 
 # Function to insert data into the 'brands' table
-def insert_brands_data(db_file: str, data: List, table_name:str):
+def insert_brands_data(db_file: str, data: list, table_name: str):
     """Inserts brand data into the database.
     Args:
         db_file: (str)
@@ -228,7 +230,7 @@ CREATE TABLE IF NOT EXISTS product_details (
     returnable BOOLEAN,
     finish_refinement TEXT,
     size_refinement TEXT,
-    short_description TEXT, 
+    short_description TEXT,
     long_description TEXT,
     suggested_usage TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
