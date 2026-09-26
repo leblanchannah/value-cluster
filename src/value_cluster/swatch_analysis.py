@@ -3,8 +3,10 @@ import glob
 from PIL import Image
 import matplotlib.pyplot as plt
 
+
 def swatch_avg(img):
-    return np.array([[np.round(np.average(img, axis = (0,1)))]], dtype=np.int16)
+    return np.array([[np.round(np.average(img, axis=(0, 1)))]], dtype=np.int16)
+
 
 def unique_pixels(img):
     flattened_img = np.vstack(img)
@@ -13,8 +15,8 @@ def unique_pixels(img):
 
 
 if __name__ == "__main__":
-    imarray = (np.random.rand(100,100,3) * 255).astype('uint8')
-    test_img = Image.fromarray(imarray).convert('RGBA')
+    imarray = (np.random.rand(100, 100, 3) * 255).astype("uint8")
+    test_img = Image.fromarray(imarray).convert("RGBA")
 
     print(len(unique_pixels(imarray)))
     imgplot = plt.imshow(test_img)
@@ -23,7 +25,7 @@ if __name__ == "__main__":
     imgplot = plt.imshow(swatch_avg(test_img))
     plt.show()
 
-    swatch_dir = '../data/swatches/'
+    swatch_dir = "../data/swatches/"
     for swatch in glob.glob(f"{swatch_dir}*"):
         print(swatch)
         img = np.asarray(Image.open(swatch))
