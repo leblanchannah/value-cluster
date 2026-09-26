@@ -33,8 +33,8 @@ LOCALE_PATH = "/ca/en"
 SAMPLE_PRODUCTS = ["P513304", "P427517"]
 HEADERS = {
     "User-Agent": (
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+    "Mozilla/5.0 (X11; Linux x86_64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36"
     ),
     "Accept-Language": "en-CA,en;q=0.9",
 }
