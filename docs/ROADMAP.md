@@ -6,8 +6,8 @@ Each phase is its own branch and pull request.
 
 | Phase | Status |
 | --- | --- |
-| 1. Tooling: pyproject/uv, ruff, ty, pre-commit, CI, package layout | In review |
-| 2. Scraper fixes (Sephora Canada) | Not started |
+| 1. Tooling: pyproject/uv, ruff, ty, pre-commit, CI, package layout | Done |
+| 2. Scraper fixes (Sephora Canada) | In review |
 | 3. Postgres schema and migrations | Not started |
 | 4. Automation and hosting | Not started |
 | 5. Analysis and blog | Not started |
@@ -38,6 +38,13 @@ Fixed in Phase 1: `clean_product_data.py` imported a function that doesn't exist
 - **Legacy dashboard.** The Dash apps in `legacy/dash_app` read `agg_prod_data.csv`, which isn't in the repo, and call `app.run_server`, which Dash 3 removed.
 
 ## Phase 2: Scraper fixes (Sephora Canada)
+
+**What we found (September 2026):** Sephora's bot protection (Akamai) now returns 403 for the product API, including when it's called from inside Selenium, and for every request from cloud servers. From a home connection, plain requests can load the brands list and product pages, although product pages have also been refused at times. Product pages embed the full product JSON in `<script id="linkStore">`, including every shade and size as a child SKU with its own price, so no swatch clicking is needed. The scraper uses those pages, goes slowly, and stops when blocked. It doesn't try to get around the bot protection.
+
+**Done in this phase:** `sephora.py` (client and parsers), `browser.py` (Selenium scroll fallback), `cli.py`, and a new SQLite schema with scrape runs, UNIQUE constraints and upserts. The old `webscraper.py` was removed, which fixes bugs 1, 2, and 7–12 above.
+
+The original plan for this phase:
+
 
 - Fix bugs 1, 2, and 8–12 above.
 - Add a CLI, for example `uv run value-cluster scrape brands|products|details --limit N --brand NAME`.

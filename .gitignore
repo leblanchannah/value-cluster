@@ -15,5 +15,6 @@ htmlcov/
 db/
 data/db/
 data/raw/
+data/probe/
 *.log
 .env
