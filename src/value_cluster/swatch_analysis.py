@@ -1,7 +1,8 @@
-import numpy as np
 import glob
-from PIL import Image
+
 import matplotlib.pyplot as plt
+import numpy as np
+from PIL import Image
 
 
 def swatch_avg(img):

@@ -52,7 +52,7 @@ def pre_parse_product_size_clean(input_string):
 
 
 def parse_volume_string(input_string):
-    """
+    r"""
     volume formatted like "misc string amount_a unit_a \ amount_b unit_b misc text"
     """
     if not input_string:
@@ -86,7 +86,7 @@ def split_product_multiplier(input_string):
         return [None, input_string]
     input_string = input_string.split(" x", 1)
     if len(input_string) == 1:
-        input_string = [None] + input_string
+        input_string = [None, *input_string]
     return input_string
 
 

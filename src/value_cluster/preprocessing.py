@@ -1,8 +1,9 @@
-import sqlite3
-import pandas as pd
-from urllib.parse import urlparse, parse_qs
 import re
+import sqlite3
+from urllib.parse import parse_qs, urlparse
+
 import numpy as np
+import pandas as pd
 
 
 def clean_compressed_product_hierarchy(df, col, delimiter=" --- ", code_prefix_to_strip="cat"):
@@ -92,8 +93,12 @@ if __name__ == "__main__":
     max_pairs = df_size["sizes"].apply(len).max()  # Determine the maximum number of size-unit pairs
 
     for i in range(max_pairs):
-        df_size[f"size_{i + 1}"] = df_size["sizes"].apply(lambda x: x[i][0] if i < len(x) else None)
-        df_size[f"unit_{i + 1}"] = df_size["sizes"].apply(lambda x: x[i][1] if i < len(x) else None)
+        df_size[f"size_{i + 1}"] = df_size["sizes"].apply(
+            lambda x, i=i: x[i][0] if i < len(x) else None
+        )
+        df_size[f"unit_{i + 1}"] = df_size["sizes"].apply(
+            lambda x, i=i: x[i][1] if i < len(x) else None
+        )
 
     # Drop the original "sizes" column if needed
     df_size.drop(columns=["sizes"], inplace=True)

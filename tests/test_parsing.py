@@ -1,10 +1,11 @@
 import pytest
+
 from value_cluster.parsing import (
+    clean_product_rating,
     parse_volume_string,
     pre_parse_product_size_clean,
-    split_product_multiplier,
     shorthand_numeric_conversion,
-    clean_product_rating,
+    split_product_multiplier,
     split_sale_and_full_price,
     strip_non_numeric,
 )

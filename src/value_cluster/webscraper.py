@@ -1,26 +1,25 @@
-from bs4 import BeautifulSoup
-from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.options import Options
-from selenium import webdriver
-from urllib.parse import parse_qs, urlparse
-import requests
-import selenium
-from datetime import datetime
-from typing import List, Tuple, Dict
-import json
-import re
-import time
-import sqlite3
-import os
 import logging
+import os
+import re
+import sqlite3
+import time
+from urllib.parse import parse_qs, urlparse
+
+import requests
+from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.common.exceptions import InvalidArgumentException
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+
 from value_cluster.db_util import (
+    create_brands_table_query,
+    create_product_details_table_query,
+    create_products_table_query,
     execute_query,
-    insert_product_details,
     insert_brand_products,
     insert_brands_data,
-    create_brands_table_query,
-    create_products_table_query,
-    create_product_details_table_query,
+    insert_product_details,
 )
 
 logger = logging.getLogger(__name__)
@@ -40,7 +39,7 @@ options.add_argument("--disable-dev-shm-usage")
 options.add_experimental_option("excludeSwitches", ["enable-automation"])
 options.add_experimental_option("useAutomationExtension", False)
 user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36"
-options.add_argument("user-agent={0}".format(user_agent))
+options.add_argument(f"user-agent={user_agent}")
 driver = webdriver.Chrome(options=options)
 
 # Configure logging
@@ -96,7 +95,7 @@ class BrandPageScraper:
             button.click()
             time.sleep(CLICK_DELAY)
             return True
-        except:
+        except Exception:
             return False
 
     @staticmethod
@@ -125,8 +124,12 @@ class BrandListScraper:
         brand_data = []
         self.driver.get(f"{self.base_url}")
         soup = BeautifulSoup(driver.page_source, "html.parser")
-        for brand_link in soup.findAll("a", attrs={"data-at": "brand_link"}):
-            brand = {"brand_name": brand_link.span.text, "brand_url": brand_link.get("href")}
+        for brand_link in soup.find_all("a", attrs={"data-at": "brand_link"}):
+            # TODO(roadmap: scraper phase): crashes if a brand link has no <span>
+            brand = {
+                "brand_name": brand_link.span.text,  # ty: ignore[unresolved-attribute]
+                "brand_url": brand_link.get("href"),
+            }
             brand_data.append(brand)
         return brand_data
 
@@ -173,13 +176,13 @@ class ProductScraper:
             "finish_refinement": "",  # str
             "size_refinement": "",  # str
         }
-        if "refinements" in data.keys():
-            if "finishRefinements" in data["refinements"].keys():
+        if "refinements" in data:
+            if "finishRefinements" in data["refinements"]:
                 product_details["finish_refinement"] = " ".join(
                     data["refinements"]["finishRefinements"]
                 )
 
-            if "sizeRefinements" in data["refinements"].keys():
+            if "sizeRefinements" in data["refinements"]:
                 product_details["size_refinement"] = " ".join(
                     data["refinements"]["sizeRefinements"]
                 )
@@ -188,9 +191,9 @@ class ProductScraper:
 
     @staticmethod
     def compress_categories(data, col):
-        if col not in data.keys():
+        if col not in data:
             return ""
-        if "parentCategory" not in data.keys():
+        if "parentCategory" not in data:
             return data[col]
         return data[col] + " --- " + ProductScraper.compress_categories(data["parentCategory"], col)
 
@@ -228,7 +231,7 @@ class ProductScraper:
             "category_name": "",
             "category_url": "",
         }
-        if "parentCategory" in data.keys():
+        if "parentCategory" in data:
             parent_sku["category_id"] = ProductScraper.compress_categories(
                 data["parentCategory"], "categoryId"
             )
@@ -242,7 +245,7 @@ class ProductScraper:
         product_details = ProductScraper.map_product_response_to_record(data["currentSku"])
         product_variations.append({**parent_sku, **product_details})
 
-        if "regularChildSkus" in data.keys():
+        if "regularChildSkus" in data:
             for child_sku in data["regularChildSkus"]:
                 product_details = ProductScraper.map_product_response_to_record(child_sku)
                 product_variations.append({**parent_sku, **product_details})
@@ -259,13 +262,13 @@ class ProductScraper:
         self.driver.get(url)
         soup = BeautifulSoup(self.driver.page_source, "html.parser")
         try:
-            h1 = soup.h1.text
+            h1 = soup.h1.text  # ty: ignore[unresolved-attribute]
         except Exception as e:
             logging.error(f"An error occurred: {e}")
             return product
         if (
             h1 == "Sorry, this product is not available."
-            or h1 == "Sorry! The page you’re looking for cannot be found."
+            or h1 == "Sorry! The page you’re looking for cannot be found."  # noqa: RUF001
             or h1 == "Search Results"
         ):
             product["error"] = "Product not available"
@@ -273,7 +276,8 @@ class ProductScraper:
             product["product_name"] = self._get_product_name(soup)
             product["brand_name"] = self._get_brand_name(soup)
             product["options"] = self._get_product_buttons()
-            product["rating"], product["product_reviews"] = self._get_rating_data(soup)
+            # TODO(roadmap: scraper phase): _get_rating_data can return None; dead HTML path
+            product["rating"], product["product_reviews"] = self._get_rating_data(soup)  # ty: ignore[not-iterable]
             product["ingredients"] = self._get_ingredients(soup)
             product["n_loves"] = self._get_num_loves(soup)
             product["categories"] = self._get_breadcrumb_categories(soup)
@@ -289,7 +293,7 @@ class ProductScraper:
         if sku_element:
             return sku_element.text.strip()
 
-    def _get_breadcrumb_categories(self, soup) -> List:
+    def _get_breadcrumb_categories(self, soup) -> list:
         # TODO not tested since update to using api for product details
         """
         Returns list of categorical values used to describe product in header of product page
@@ -302,7 +306,7 @@ class ProductScraper:
             ).findAll("li")
         ]
 
-    def _get_brand_name(self, soup) -> str:
+    def _get_brand_name(self, soup) -> str | None:
         # TODO not tested since update to using api for product details
         """
         Returns product brand name from product page
@@ -311,7 +315,7 @@ class ProductScraper:
         if a_tag:
             return a_tag.text
 
-    def _get_product_name(self, soup) -> str:
+    def _get_product_name(self, soup) -> str | None:
         # TODO not tested since update to using api for product details
         """
         Returns product name as written on product page
@@ -320,7 +324,7 @@ class ProductScraper:
         if span_tag:
             return span_tag.text
 
-    def _get_num_loves(self, soup) -> str:
+    def _get_num_loves(self, soup) -> str | None:
         # TODO not tested since update to using api for product details
         """
         Returns number of 'love' votes for product
@@ -330,13 +334,13 @@ class ProductScraper:
         if span_tag:
             return span_tag.text
 
-    def _get_product_flag_label(self) -> str:
+    def _get_product_flag_label(self) -> str | None:
         # TODO not tested since update to using api for product details
         flag_label = self.driver.find_element(By.XPATH, "//span[@data-at='product_flag_label']")
         if flag_label:
             return flag_label.text
 
-    def _get_ingredients(self, soup) -> str:
+    def _get_ingredients(self, soup) -> str | None:
         # TODO not tested since update to using api for product details
         """
         Returns full ingredient list as a blob of text
@@ -345,7 +349,7 @@ class ProductScraper:
         if div_ig:
             return div_ig.text
 
-    def _get_rating_data(self, soup) -> Tuple[str, str]:
+    def _get_rating_data(self, soup) -> tuple[str, str] | None:
         # TODO not tested since update to using api for product details
         """
         Sephora product page displays a 1-5 bar histogram of votes but it is difficult to retrieve the histogram data
@@ -358,7 +362,7 @@ class ProductScraper:
             num_reviews = rr_container.text
             return star_rating, num_reviews
 
-    def _get_product_buttons(self, click_delay=CLICK_DELAY) -> Dict:
+    def _get_product_buttons(self, click_delay=CLICK_DELAY) -> list[dict]:
         # TODO not tested since update to using api for product details
         """
         Products can have size and colour variations on product pages. Each product option available must be clicked
@@ -436,7 +440,7 @@ if __name__ == "__main__":
             brand_page = BrandPageScraper(driver)
             try:
                 product_urls = brand_page.get_product_urls(brand["brand_url"])
-            except selenium.common.exceptions.InvalidArgumentException as e:
+            except InvalidArgumentException as e:
                 logging.error(f"{e}")
                 continue
 
