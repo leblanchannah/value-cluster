@@ -1,5 +1,4 @@
-
-# Sephora Value Canvas - Data Visualization Society Project 
+# Sephora Value Canvas - Data Visualization Society Project
 
 [Sephora Value Canvas Dashboard](https://leblanchannah.pythonanywhere.com/)
 
@@ -14,11 +13,11 @@ This project was inspired by the ["Sephora Minis Math"](https://www.tiktok.com/@
 
 ## Features
 
-- **Data Scraper:** This project includes a Python and Selenium web scraper that allows you to extract product data from the Sephora website. You can easily customize the scraper to collect specific information for analysis. Data collected on August 22nd, 2023 is provided in the repo.
+- **Data Scraper:** This project includes a Python and Selenium web scraper that allows you to extract product data from the Sephora website. You can easily customize the scraper to collect specific information for analysis. Data collected from Sephora Canada (sephora.com/ca, prices in CAD) in January 2025 is provided in `data/preprocessed_data.csv`.
 
 - **Data Cleaning:** Once the data is collected, it goes through a comprehensive data cleaning process to ensure accuracy and consistency.
 
-- **Plotly Dash Dashboard:** The heart of this project is the interactive Plotly Dash dashboard that provides various visualizations and tools for product price comparison.
+- **Plotly Dash Dashboard:** The heart of the original 2023 project is the interactive Plotly Dash dashboard that provides various visualizations and tools for product price comparison. Its code is kept in `legacy/dash_app/` (see `legacy/README.md`).
 
 - **Product Price Comparison:** The dashboard allows users to compare the unit prices of different products. It highlights products with multiple size options, enabling users to identify the most cost-effective choice.
 
@@ -33,6 +32,36 @@ The dashboard provides an intuitive interface for users to:
 - Explore unit prices for different product sizes.
 - Receive recommendations for cost-effective products.
 
+
+## Project layout
+
+```
+src/value_cluster/   scraper, SQLite helpers, preprocessing, parsing helpers
+tests/               pytest tests
+notebooks/           exploratory analysis and figures
+data/                January 2025 preprocessed data and sample swatches
+figures/             exported charts
+legacy/              frozen 2023 code (Dash apps, v1 cleaning pipeline)
+docs/ROADMAP.md      code review findings and modernization plan
+```
+
+## Development
+
+This project uses [uv](https://docs.astral.sh/uv/) to manage Python and dependencies.
+
+```bash
+uv sync                          # create .venv with runtime + dev dependencies
+uv sync --group notebook         # add Jupyter, plotly, scikit-learn, etc.
+uv run pre-commit install        # run ruff, ty and file checks on every commit
+
+uv run pytest                    # tests
+uv run ruff check                # lint
+uv run ruff format               # format
+uv run ty check                  # type check
+uv run pre-commit run --all-files
+```
+
+CI (GitHub Actions) runs ruff, ty and pytest on every pull request.
 
 ## Contact
 
