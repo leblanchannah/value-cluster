@@ -40,7 +40,8 @@ CREATE TABLE IF NOT EXISTS products (
     brand_id INTEGER REFERENCES brands(id),
     product_url TEXT,
     product_code TEXT NOT NULL UNIQUE,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    sitemap_seen_at TIMESTAMP  -- when the product was last listed in Sephora's sitemap
 );
 
 -- Every product page checked in a run, including ones with no product data
@@ -150,6 +151,7 @@ def connect(db_file: str | Path = DEFAULT_DB) -> Iterator[sqlite3.Connection]:
     conn.execute("PRAGMA foreign_keys = ON")
     try:
         conn.executescript(SCHEMA)
+        _add_missing_columns(conn)
         yield conn
         conn.commit()
     except Exception:
@@ -157,6 +159,29 @@ def connect(db_file: str | Path = DEFAULT_DB) -> Iterator[sqlite3.Connection]:
         raise
     finally:
         conn.close()
+
+
+def _add_missing_columns(conn: sqlite3.Connection) -> None:
+    """Bring databases created by an older version of this schema up to date."""
+    columns = {row[1] for row in conn.execute("PRAGMA table_info(products)")}
+    if "sitemap_seen_at" not in columns:
+        conn.execute("ALTER TABLE products ADD COLUMN sitemap_seen_at TIMESTAMP")
+
+
+def mark_in_sitemap(conn: sqlite3.Connection, product_codes: list[str], seen_at: str) -> None:
+    """Stamp the products listed in a sitemap; all get the same ``seen_at`` per sitemap load."""
+    conn.executemany(
+        "UPDATE products SET sitemap_seen_at = ? WHERE product_code = ?",
+        [(seen_at, code) for code in product_codes],
+    )
+    conn.commit()
+
+
+def has_sitemap(conn: sqlite3.Connection) -> bool:
+    return (
+        conn.execute("SELECT 1 FROM products WHERE sitemap_seen_at IS NOT NULL LIMIT 1").fetchone()
+        is not None
+    )
 
 
 def start_run(conn: sqlite3.Connection, stage: str, country: str) -> int:
@@ -236,17 +261,28 @@ def upsert_products(conn: sqlite3.Connection, brand_id: int | None, products: li
 
 
 def get_products(
-    conn: sqlite3.Connection, brand: str | None = None, limit: int | None = None
+    conn: sqlite3.Connection,
+    brand: str | None = None,
+    limit: int | None = None,
+    sitemap_only: bool = False,
 ) -> list[tuple[str, str]]:
-    """``(product_code, product_url)`` rows, optionally for one brand and/or limited."""
+    """``(product_code, product_url)`` rows, optionally for one brand and/or limited.
+
+    ``sitemap_only`` keeps products listed in the most recently loaded sitemap.
+    """
     query = (
         "SELECT p.product_code, p.product_url FROM products p "
         "LEFT JOIN brands b ON b.id = p.brand_id"
     )
+    conditions: list[str] = []
     params: list = []
     if brand:
-        query += f" WHERE {BRAND_MATCH.format(table='b')}"
+        conditions.append(BRAND_MATCH.format(table="b"))
         params.extend([brand, brand])
+    if sitemap_only:
+        conditions.append("p.sitemap_seen_at = (SELECT max(sitemap_seen_at) FROM products)")
+    if conditions:
+        query += " WHERE " + " AND ".join(conditions)
     query += " ORDER BY p.product_id"
     if limit:
         query += " LIMIT ?"
