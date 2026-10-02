@@ -17,6 +17,7 @@ from value_cluster.sephora import (
     parse_brand_products,
     parse_brands,
     parse_product_page,
+    parse_sitemap,
     product_code_from_url,
     product_page_path,
     product_records,
@@ -446,3 +447,77 @@ def test_cli_details_records_every_page_resumes_and_exports(tmp_path, monkeypatc
     out = capsys.readouterr().out
     assert "_run1_skus.csv.gz (5 rows)" in out
     assert "_run1_pages.csv.gz (3 rows)" in out
+
+
+# --- sitemaps --------------------------------------------------------------------------
+
+URLSET = b"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://www.sephora.com/product/bad-gal-bang-mascara-P427517</loc>
+    <xhtml:link rel="alternate" hreflang="en-CA"
+      href="https://www.sephora.com/ca/en/product/bad-gal-bang-mascara-P427517"/></url>
+  <url><loc>https://www.sephora.com/product/aavrani-jelly-shampoo-P513304</loc></url>
+  <url><loc>https://www.sephora.com/product/bad-gal-bang-mascara-P427517?skuId=2031649</loc></url>
+  <url><loc>https://www.sephora.com/shop/makeup-cosmetics</loc></url>
+</urlset>"""
+
+
+def test_parse_sitemap_urlset():
+    sitemap = parse_sitemap(URLSET)
+    assert sitemap.sitemaps == []
+    assert sitemap.products == [
+        {
+            "product_code": "P427517",
+            "product_url": "https://www.sephora.com/product/bad-gal-bang-mascara-P427517",
+        },
+        {
+            "product_code": "P513304",
+            "product_url": "https://www.sephora.com/product/aavrani-jelly-shampoo-P513304",
+        },
+    ]
+    assert product_page_path("P427517", sitemap.products[0]["product_url"]) == (
+        "/ca/en/product/bad-gal-bang-mascara-P427517"
+    )
+
+
+def test_parse_sitemap_index_and_gzip():
+    index = b"""<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+      <sitemap><loc>https://www.sephora.com/products-sitemap_1.xml.gz</loc></sitemap>
+      <sitemap><loc>https://www.sephora.com/products-sitemap_2.xml.gz</loc></sitemap>
+    </sitemapindex>"""
+    parsed = parse_sitemap(gzip.compress(index))
+    assert parsed.sitemaps == [
+        "https://www.sephora.com/products-sitemap_1.xml.gz",
+        "https://www.sephora.com/products-sitemap_2.xml.gz",
+    ]
+    assert parsed.products == []
+    assert len(parse_sitemap(gzip.compress(URLSET)).products) == 2
+
+
+def test_cli_sitemap_from_saved_files(tmp_path, monkeypatch, capsys):
+    monkeypatch.chdir(tmp_path)
+    db = tmp_path / "t.db"
+    child = tmp_path / "products-1.xml.gz"
+    child.write_bytes(gzip.compress(URLSET))
+    index = tmp_path / "products-sitemap.xml"
+    index.write_text(
+        '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+        f"<sitemap><loc>{child}</loc></sitemap></sitemapindex>"
+    )
+    with db_util.connect(db) as conn:
+        db_util.upsert_brands(
+            conn, [{"brand_name": "AAVRANI", "brand_url": "/ca/en/brand/aavrani"}]
+        )
+        ((brand_id, _, _),) = db_util.get_brands(conn)
+        db_util.upsert_products(
+            conn, brand_id, [{"product_code": "P513304", "product_url": "/product/old-P513304"}]
+        )
+
+    main(["scrape", "sitemap", "--db", str(db), "--sitemap", str(index)])
+    out = capsys.readouterr().out
+    assert "products in sitemap: 2 (1 new, 1 already known)" in out
+    with db_util.connect(db) as conn:
+        # the known product keeps its brand link
+        assert [code for code, _ in db_util.get_products(conn, "aavrani")] == ["P513304"]
+        assert len(db_util.get_products(conn)) == 2

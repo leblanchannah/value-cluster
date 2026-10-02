@@ -51,13 +51,14 @@ Sephora blocks requests from cloud servers, so run this on your own computer. Th
 
 ```bash
 uv run value-cluster scrape brands            # brands-list page -> brands table
+uv run value-cluster scrape sitemap           # every product in Sephora's product sitemap
 uv run value-cluster scrape seed              # product list from data/preprocessed_data.csv
 uv run value-cluster scrape details --limit 20   # product pages -> one row per SKU
 uv run value-cluster scrape details           # resumes the unfinished run
 uv run value-cluster export                   # latest run -> data/snapshots/*.csv.gz to commit
 ```
 
-Brand pages are currently refused by Sephora's bot protection, so `seed` loads the product list from the January 2025 data instead (5,342 products). `scrape products --brand benefit-cosmetics` lists a brand's products from its page when that page is available. `--brand` takes the display name or the URL name.
+Brand pages are currently refused by Sephora's bot protection, so products are found another way. `sitemap` reads Sephora's product sitemap (`products-sitemap.xml`), which lists every product currently on the site, including ones added since January 2025. `seed` adds the January 2025 products (5,342), so discontinued ones are checked too. If the script can't fetch the sitemap, save it from your browser and pass the file: `--sitemap ~/Downloads/products-sitemap.xml`. `scrape products --brand benefit-cosmetics` lists a brand's products from its page when that page is available. `--brand` takes the display name or the URL name.
 
 Every product page checked is recorded in `product_fetches` with a status: `ok`, `no_data` (the page loaded but had no product, usually because it was discontinued), or `not_found`. Blocked pages aren't recorded, so they're retried on the next run. A few `no_data` pages are saved in `data/probe/no_data/` so you can check what Sephora showed.
 

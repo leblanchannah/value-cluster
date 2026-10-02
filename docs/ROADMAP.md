@@ -43,6 +43,8 @@ Fixed in Phase 1: `clean_product_data.py` imported a function that doesn't exist
 
 **Done in this phase:** `sephora.py` (client and parsers), `browser.py` (Selenium scroll fallback), `cli.py`, and a new SQLite schema with scrape runs, UNIQUE constraints and upserts. The old `webscraper.py` was removed, which fixes bugs 1, 2, and 7–12 above.
 
+**Update (October 2026):** Sephora's product sitemap (`/products-sitemap.xml`) lists every current product, so `value-cluster scrape sitemap` finds products without brand pages.
+
 The original plan for this phase:
 
 

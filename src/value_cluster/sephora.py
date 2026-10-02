@@ -339,3 +339,43 @@ def product_page_path(product_code: str, product_url: str | None = None) -> str:
             path = f"{LOCALE_PATH}{path}"
         return path
     return f"{LOCALE_PATH}/product/{product_code}"
+
+
+# --- sitemaps --------------------------------------------------------------------------
+
+SITEMAP_URL = f"{BASE_URL}/products-sitemap.xml"
+
+
+@dataclass
+class Sitemap:
+    """A parsed sitemap: child sitemap URLs (for an index) and/or product page URLs."""
+
+    sitemaps: list[str] = field(default_factory=list)
+    products: list[dict] = field(default_factory=list)
+
+
+def parse_sitemap(content: bytes) -> Sitemap:
+    """Parse a ``<sitemapindex>`` or ``<urlset>`` (optionally gzipped) into product links.
+
+    Product codes come from each ``<loc>`` URL; URLs without a ``P123`` code are skipped.
+    """
+    from xml.etree import ElementTree
+
+    if content[:2] == b"\x1f\x8b":
+        content = gzip.decompress(content)
+    root = ElementTree.fromstring(content)
+    result = Sitemap()
+    products: dict[str, str] = {}
+    is_index = root.tag.rsplit("}", 1)[-1] == "sitemapindex"
+    for element in root.iter():
+        if element.tag.rsplit("}", 1)[-1] != "loc" or not element.text:
+            continue
+        url = element.text.strip()
+        if is_index:
+            result.sitemaps.append(url)
+            continue
+        code = product_code_from_url(url) if "/product/" in url else None
+        if code:
+            products.setdefault(code, url)
+    result.products = [{"product_code": c, "product_url": u} for c, u in sorted(products.items())]
+    return result

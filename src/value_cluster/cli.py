@@ -2,6 +2,7 @@
 
 Stages, in order:
     brands    brands-list page -> brands table
+    sitemap   Sephora's product sitemap -> products table (every product currently listed)
     seed      product codes from the January 2025 CSV -> products table (no requests)
     products  each brand page -> products table (Selenium fallback if needed)
     details   each product page -> product_details rows for a scrape run (one per SKU)
@@ -22,6 +23,7 @@ from value_cluster import db_util
 from value_cluster.sephora import (
     COUNTRY,
     LOCALE_PATH,
+    SITEMAP_URL,
     BlockedError,
     NotCanadaError,
     SephoraClient,
@@ -29,6 +31,7 @@ from value_cluster.sephora import (
     parse_brand_products,
     parse_brands,
     parse_product_page,
+    parse_sitemap,
     product_page_path,
     save_raw,
 )
@@ -85,6 +88,38 @@ def scrape_products(args: argparse.Namespace, client: SephoraClient) -> None:
             total += len(products)
             print(f"{brand_name}: {len(products)} products")
     print(f"products saved: {total} from {len(brands)} brands")
+
+
+def scrape_sitemap(args: argparse.Namespace, client: SephoraClient) -> None:
+    """Add every product listed in Sephora's product sitemap (or a saved copy of it)."""
+    source = str(args.sitemap)
+    queue, seen, found = [source], set(), {}
+    while queue:
+        location = queue.pop(0)
+        if location in seen:
+            continue
+        seen.add(location)
+        if location.startswith("http"):
+            response = client.get(location)
+            if response is None:
+                print(f"could not fetch {location} (status {client.last_status})")
+                continue
+            content = response.content
+        else:
+            content = Path(location).read_bytes()
+        sitemap = parse_sitemap(content)
+        queue.extend(sitemap.sitemaps)
+        for product in sitemap.products:
+            found.setdefault(product["product_code"], product)
+        print(
+            f"{location}: {len(sitemap.products)} products, {len(sitemap.sitemaps)} child sitemaps"
+        )
+
+    with db_util.connect(args.db) as conn:
+        known = {code for code, _ in db_util.get_products(conn)}
+        db_util.upsert_products(conn, None, list(found.values()))
+    new = len(set(found) - known)
+    print(f"products in sitemap: {len(found)} ({new} new, {len(found) - new} already known)")
 
 
 def scrape_seed(args: argparse.Namespace, client: SephoraClient) -> None:
@@ -257,7 +292,12 @@ def build_parser() -> argparse.ArgumentParser:
     export_cmd.add_argument("--out-dir", type=Path, default=Path("data/snapshots"))
 
     scrape = commands.add_parser("scrape", help="scrape Sephora Canada")
-    scrape.add_argument("stage", choices=["brands", "seed", "products", "details"])
+    scrape.add_argument("stage", choices=["brands", "sitemap", "seed", "products", "details"])
+    scrape.add_argument(
+        "--sitemap",
+        default=SITEMAP_URL,
+        help="sitemap: URL or saved file (default: Sephora's product sitemap)",
+    )
     scrape.add_argument(
         "--csv",
         type=Path,
@@ -304,6 +344,7 @@ def main(argv: list[str] | None = None) -> None:
     client = SephoraClient(delay=args.delay)
     stages = {
         "brands": scrape_brands,
+        "sitemap": scrape_sitemap,
         "seed": scrape_seed,
         "products": scrape_products,
         "details": scrape_details,
