@@ -18,3 +18,5 @@ data/raw/
 data/probe/
 *.log
 .env
+
+.DS_Store
