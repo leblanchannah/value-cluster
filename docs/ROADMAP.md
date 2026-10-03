@@ -29,7 +29,7 @@ Each phase is its own branch and pull request.
 11. **Dead HTML-scraping code.** About 140 lines of `ProductScraper._get_*` methods are marked "not tested", and one calls `find_elements_by_xpath`, which Selenium 4 removed.
 12. **Logging and paths.** Logging is configured at import time in two modules and writes `db_operations.log` to whatever the current directory is. Paths depend on the current directory and disagree (`data/db/products.db` vs `../data/db/products.db`).
 
-Fixed in Phase 1: `clean_product_data.py` imported a function that doesn't exist (`drop_duplicate_product_urls`), so the tests couldn't run. It now lives in `legacy/`, and its helpers and tests are in `value_cluster.parsing` / `tests/test_parsing.py`.
+Fixed in Phase 1: `clean_product_data.py` imported a function that doesn't exist (`drop_duplicate_product_urls`), so the tests couldn't run. It now lives in `legacy/`, and its helpers and tests are in `shelf_life.parsing` / `tests/test_parsing.py`.
 
 ### Housekeeping
 
@@ -43,13 +43,13 @@ Fixed in Phase 1: `clean_product_data.py` imported a function that doesn't exist
 
 **Done in this phase:** `sephora.py` (client and parsers), `browser.py` (Selenium scroll fallback), `cli.py`, and a new SQLite schema with scrape runs, UNIQUE constraints and upserts. The old `webscraper.py` was removed, which fixes bugs 1, 2, and 7–12 above.
 
-**Update (October 2026):** Sephora's product sitemap (`/products-sitemap.xml`) lists every current product, so `value-cluster scrape sitemap` finds products without brand pages.
+**Update (October 2026):** Sephora's product sitemap (`/products-sitemap.xml`) lists every current product, so `shelf-life scrape sitemap` finds products without brand pages.
 
 The original plan for this phase:
 
 
 - Fix bugs 1, 2, and 8–12 above.
-- Add a CLI, for example `uv run value-cluster scrape brands|products|details --limit N --brand NAME`.
+- Add a CLI, for example `uv run shelf-life scrape brands|products|details --limit N --brand NAME`.
 - Default to Canada with `--country CA`: use `/ca/en` URLs, set the locale cookies and API params, and check each response's locale/currency. Store `country` and `currency` with every price.
 - Reuse one `requests` session with timeouts and retries with backoff. Keep a crawl delay of at least 4 s and respect `robots.txt`.
 - Save raw API responses (gzipped JSON), so data can be re-parsed without scraping again.

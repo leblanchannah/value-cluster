@@ -1,4 +1,4 @@
-"""Command line entry point: ``uv run value-cluster scrape brands|products|details``.
+"""Command line entry point: ``uv run shelf-life scrape brands|products|details``.
 
 Stages, in order:
     brands    brands-list page -> brands table
@@ -19,8 +19,8 @@ from contextlib import ExitStack
 from datetime import UTC, date, datetime
 from pathlib import Path
 
-from value_cluster import db_util
-from value_cluster.sephora import (
+from shelf_life import db_util
+from shelf_life.sephora import (
     COUNTRY,
     LOCALE_PATH,
     SITEMAP_URL,
@@ -36,7 +36,7 @@ from value_cluster.sephora import (
     save_raw,
 )
 
-logger = logging.getLogger("value_cluster")
+logger = logging.getLogger("shelf_life")
 
 
 def scrape_brands(args: argparse.Namespace, client: SephoraClient) -> None:
@@ -44,7 +44,7 @@ def scrape_brands(args: argparse.Namespace, client: SephoraClient) -> None:
     brands = parse_brands(response.text) if response else []
     if not brands and args.browser != "never":
         logger.info("no brands in the page HTML; rendering it in Chrome")
-        from value_cluster.browser import chrome
+        from shelf_life.browser import chrome
 
         with chrome(headed=args.headed) as driver:
             driver.get(f"https://www.sephora.com{LOCALE_PATH}/brands-list")
@@ -60,7 +60,7 @@ def scrape_products(args: argparse.Namespace, client: SephoraClient) -> None:
     with db_util.connect(args.db) as conn:
         brands = db_util.get_brands(conn, args.brand)
     if not brands:
-        sys.exit("No brands found. Run `value-cluster scrape brands` first (check --brand).")
+        sys.exit("No brands found. Run `shelf-life scrape brands` first (check --brand).")
     if args.limit:
         brands = brands[: args.limit]
 
@@ -73,7 +73,7 @@ def scrape_products(args: argparse.Namespace, client: SephoraClient) -> None:
                 response = client.get(brand_url)
                 products = parse_brand_products(response.text) if response else []
             if not products and args.browser != "never":
-                from value_cluster.browser import chrome, scroll_brand_products
+                from shelf_life.browser import chrome, scroll_brand_products
 
                 if driver is None:
                     driver = stack.enter_context(chrome(headed=args.headed))
@@ -150,7 +150,7 @@ def scrape_seed(args: argparse.Namespace, client: SephoraClient) -> None:
             db_util.upsert_products(conn, brand_id, products)
     print(f"products loaded from {args.csv}: {len(df)} from {df['brand_name'].nunique()} brands")
     if not brand_ids:
-        print("No brands in the database yet; run `value-cluster scrape brands` to link them.")
+        print("No brands in the database yet; run `shelf-life scrape brands` to link them.")
     elif unmatched:
         print(f"{len(unmatched)} brands not on today's brands list (kept without a brand link):")
         print("  " + ", ".join(sorted(unmatched)))
@@ -164,8 +164,8 @@ def scrape_details(args: argparse.Namespace, client: SephoraClient) -> None:
             print("checking products in the latest sitemap (--all-products to include older ones)")
         if not products:
             sys.exit(
-                "No products found. Run `value-cluster scrape seed` (products from the "
-                "January 2025 CSV) or `value-cluster scrape products` first (check --brand)."
+                "No products found. Run `shelf-life scrape seed` (products from the "
+                "January 2025 CSV) or `shelf-life scrape products` first (check --brand)."
             )
         run_id = None if args.new_run else db_util.latest_open_run(conn, "details")
         if run_id is None:
@@ -287,7 +287,7 @@ def export(args: argparse.Namespace) -> None:
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        prog="value-cluster", description="Scrape and analyze Sephora Canada pricing."
+        prog="shelf-life", description="Scrape and analyze Sephora Canada pricing."
     )
     parser.add_argument("-v", "--verbose", action="store_true", help="debug logging")
     commands = parser.add_subparsers(dest="command", required=True)

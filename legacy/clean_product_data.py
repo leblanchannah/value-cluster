@@ -2,7 +2,7 @@ import glob
 import json
 import pandas as pd
 import re
-from value_cluster.parsing import (
+from shelf_life.parsing import (
     clean_product_rating,
     parse_single_volume,
     parse_volume_string,

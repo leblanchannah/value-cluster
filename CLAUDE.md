@@ -1,12 +1,12 @@
-# value-cluster
+# shelf-life
 
 Scrapes Sephora Canada (sephora.com/ca, CAD prices), cleans the data, and analyzes pricing for blog posts. `docs/ROADMAP.md` has the review findings and phased plan. Each phase gets its own branch and PR.
 
 ## Layout
-- `src/value_cluster/`:
+- `src/shelf_life/`:
   - `sephora.py`: requests client (slow, backs off and stops when blocked) and parsers for the JSON Sephora embeds in pages (`<script id="linkStore">`)
   - `browser.py`: Selenium fallback that scrolls brand pages
-  - `cli.py`: `value-cluster scrape brands|products|details`
+  - `cli.py`: `shelf-life scrape brands|products|details`
   - `db_util.py`: SQLite schema (`scrape_runs`, `brands`, `products`, `product_details`)
   - `preprocessing.py`: 2025 cleaning pipeline
   - `parsing.py`: pure size/price helpers
@@ -21,7 +21,7 @@ Scrapes Sephora Canada (sephora.com/ca, CAD prices), cleans the data, and analyz
 - `uv run ruff check` and `uv run ruff format`
 - `uv run ty check`
 - `uv run pre-commit run --all-files` runs everything CI checks
-- `uv run value-cluster scrape details --limit 20` (run locally only)
+- `uv run shelf-life scrape details --limit 20` (run locally only)
 
 ## Notes
 - Sephora's bot protection (Akamai) blocks the product API and all requests from cloud IPs, so scraping only works from Hannah's own machine. Never add ways around it (stealth plugins, faked fingerprints, proxies). The client stops after repeated 403s on purpose.

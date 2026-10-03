@@ -1,5 +1,5 @@
 [project]
-name = "value-cluster"
+name = "shelf-life"
 version = "0.2.0"
 description = "Scrape, clean, and analyze Sephora Canada product pricing."
 readme = "README.md"
@@ -16,7 +16,7 @@ dependencies = [
 ]
 
 [project.scripts]
-value-cluster = "value_cluster.cli:main"
+shelf-life = "shelf_life.cli:main"
 
 [dependency-groups]
 dev = [

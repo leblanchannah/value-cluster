@@ -13,7 +13,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
-from value_cluster.sephora import BASE_URL, product_code_from_url
+from shelf_life.sephora import BASE_URL, product_code_from_url
 
 
 @contextmanager

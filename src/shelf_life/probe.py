@@ -2,9 +2,9 @@
 
 Run from the repo root:
 
-    uv run python -m value_cluster.probe              # plain HTTP requests only
-    uv run python -m value_cluster.probe --selenium   # also try headless Chrome
-    uv run python -m value_cluster.probe --selenium-only --headed   # Chrome only, visible window
+    uv run python -m shelf_life.probe              # plain HTTP requests only
+    uv run python -m shelf_life.probe --selenium   # also try headless Chrome
+    uv run python -m shelf_life.probe --selenium-only --headed   # Chrome only, visible window
 
 It makes a handful of requests (a few seconds apart), prints a summary to paste
 back into the Claude session, and saves the responses (gzipped) under
@@ -25,7 +25,7 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
-from value_cluster.sephora import find_product, iter_dicts, parse_brand_products, parse_brands
+from shelf_life.sephora import find_product, iter_dicts, parse_brand_products, parse_brands
 
 BASE_URL = "https://www.sephora.com"
 LOCALE_PATH = "/ca/en"

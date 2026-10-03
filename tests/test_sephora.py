@@ -5,9 +5,9 @@ from pathlib import Path
 import pytest
 import requests
 
-from value_cluster import db_util
-from value_cluster.cli import main
-from value_cluster.sephora import (
+from shelf_life import db_util
+from shelf_life.cli import main
+from shelf_life.sephora import (
     BlockedError,
     NotCanadaError,
     SephoraClient,
