@@ -521,3 +521,51 @@ def test_cli_sitemap_from_saved_files(tmp_path, monkeypatch, capsys):
         # the known product keeps its brand link
         assert [code for code, _ in db_util.get_products(conn, "aavrani")] == ["P513304"]
         assert len(db_util.get_products(conn)) == 2
+
+
+def test_details_checks_only_latest_sitemap_products(tmp_path, monkeypatch, capsys):
+    monkeypatch.chdir(tmp_path)
+    db = tmp_path / "t.db"
+    sitemap = tmp_path / "products-sitemap.xml"
+    sitemap.write_bytes(URLSET)  # lists P427517 and P513304
+    with db_util.connect(db) as conn:
+        db_util.upsert_products(
+            conn, None, [{"product_code": "P1", "product_url": "/product/old-jan-2025-P1"}]
+        )
+    main(["scrape", "sitemap", "--db", str(db), "--sitemap", str(sitemap)])
+
+    checked = []
+
+    def fake_get(self, path):
+        checked.append(path)
+        self.last_status = 404
+        return None
+
+    monkeypatch.setattr(SephoraClient, "get", fake_get)
+    main(["scrape", "details", "--db", str(db), "--delay", "0"])
+    assert sorted(checked) == [
+        "/ca/en/product/aavrani-jelly-shampoo-P513304",
+        "/ca/en/product/bad-gal-bang-mascara-P427517",
+    ]
+    assert "products checked in this run so far: 2/2" in capsys.readouterr().out
+
+    checked.clear()
+    main(["scrape", "details", "--db", str(db), "--delay", "0", "--new-run", "--all-products"])
+    assert len(checked) == 3
+
+
+def test_old_database_gets_sitemap_column(tmp_path):
+    db = tmp_path / "old.db"
+    import sqlite3
+
+    conn = sqlite3.connect(db)
+    conn.execute(
+        "CREATE TABLE products (product_id INTEGER PRIMARY KEY AUTOINCREMENT, brand_id INTEGER,"
+        " product_url TEXT, product_code TEXT NOT NULL UNIQUE, created_at TIMESTAMP)"
+    )
+    conn.execute("INSERT INTO products (product_url, product_code) VALUES ('/product/x-P1', 'P1')")
+    conn.commit()
+    conn.close()
+    with db_util.connect(db) as conn:
+        assert not db_util.has_sitemap(conn)
+        assert db_util.get_products(conn) == [("P1", "/product/x-P1")]

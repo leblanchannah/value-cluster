@@ -16,7 +16,7 @@ import gzip
 import logging
 import sys
 from contextlib import ExitStack
-from datetime import date
+from datetime import UTC, date, datetime
 from pathlib import Path
 
 from value_cluster import db_util
@@ -118,6 +118,8 @@ def scrape_sitemap(args: argparse.Namespace, client: SephoraClient) -> None:
     with db_util.connect(args.db) as conn:
         known = {code for code, _ in db_util.get_products(conn)}
         db_util.upsert_products(conn, None, list(found.values()))
+        seen_at = datetime.now(UTC).isoformat(timespec="seconds")
+        db_util.mark_in_sitemap(conn, list(found), seen_at)
     new = len(set(found) - known)
     print(f"products in sitemap: {len(found)} ({new} new, {len(found) - new} already known)")
 
@@ -156,7 +158,10 @@ def scrape_seed(args: argparse.Namespace, client: SephoraClient) -> None:
 
 def scrape_details(args: argparse.Namespace, client: SephoraClient) -> None:
     with db_util.connect(args.db) as conn:
-        products = db_util.get_products(conn, args.brand, None)
+        sitemap_only = not args.all_products and db_util.has_sitemap(conn)
+        products = db_util.get_products(conn, args.brand, None, sitemap_only=sitemap_only)
+        if sitemap_only:
+            print("checking products in the latest sitemap (--all-products to include older ones)")
         if not products:
             sys.exit(
                 "No products found. Run `value-cluster scrape seed` (products from the "
@@ -219,7 +224,8 @@ def scrape_details(args: argparse.Namespace, client: SephoraClient) -> None:
     finally:
         stats = client.stats
         with db_util.connect(args.db) as conn:
-            fetched = len(db_util.fetched_product_codes(conn, run_id))
+            # only count the products this run is meant to check
+            fetched = len(db_util.fetched_product_codes(conn, run_id) & {c for c, _ in products})
             if fetched >= len(products) or args.finish:
                 db_util.finish_run(
                     conn,
@@ -322,6 +328,11 @@ def build_parser() -> argparse.ArgumentParser:
     )
     scrape.add_argument("--headed", action="store_true", help="show the Chrome window")
     scrape.add_argument("--new-run", action="store_true", help="details: start a new run")
+    scrape.add_argument(
+        "--all-products",
+        action="store_true",
+        help="details: also check products that aren't in the latest sitemap",
+    )
     scrape.add_argument(
         "--finish", action="store_true", help="details: mark the run finished even if partial"
     )
