@@ -4,8 +4,10 @@ Stages, in order:
     brands    brands-list page -> brands table
     sitemap   Sephora's product sitemap -> products table (every product currently listed)
     seed      product codes from the January 2025 CSV -> products table (no requests)
-    products  each brand page -> products table (Selenium fallback if needed)
+    products  each brand page -> products table
     details   each product page -> product_details rows for a scrape run (one per SKU)
+
+``shelf-life preprocess`` then turns a details run into a cleaned CSV for analysis.
 
 Each stage is safe to re-run. ``details`` resumes the latest unfinished run unless
 ``--new-run`` is given.
@@ -14,8 +16,8 @@ Each stage is safe to re-run. ``details`` resumes the latest unfinished run unle
 import argparse
 import gzip
 import logging
+import sqlite3
 import sys
-from contextlib import ExitStack
 from datetime import UTC, date, datetime
 from pathlib import Path
 
@@ -42,13 +44,6 @@ logger = logging.getLogger("shelf_life")
 def scrape_brands(args: argparse.Namespace, client: SephoraClient) -> None:
     response = client.get(f"{LOCALE_PATH}/brands-list")
     brands = parse_brands(response.text) if response else []
-    if not brands and args.browser != "never":
-        logger.info("no brands in the page HTML; rendering it in Chrome")
-        from shelf_life.browser import chrome
-
-        with chrome(headed=args.headed) as driver:
-            driver.get(f"https://www.sephora.com{LOCALE_PATH}/brands-list")
-            brands = parse_brands(driver.page_source)
     with db_util.connect(args.db) as conn:
         db_util.upsert_brands(conn, brands)
     print(f"brands saved: {len(brands)}")
@@ -65,28 +60,13 @@ def scrape_products(args: argparse.Namespace, client: SephoraClient) -> None:
         brands = brands[: args.limit]
 
     total = 0
-    with ExitStack() as stack:
-        driver = None
-        for brand_id, brand_name, brand_url in brands:
-            products = []
-            if args.browser != "always":
-                response = client.get(brand_url)
-                products = parse_brand_products(response.text) if response else []
-            if not products and args.browser != "never":
-                from shelf_life.browser import chrome, scroll_brand_products
-
-                if driver is None:
-                    driver = stack.enter_context(chrome(headed=args.headed))
-                client.wait()
-                found = scroll_brand_products(driver, brand_url)
-                if found is None:
-                    print(f"{brand_name}: blocked in Chrome, skipping")
-                    continue
-                products = found
-            with db_util.connect(args.db) as conn:
-                db_util.upsert_products(conn, brand_id, products)
-            total += len(products)
-            print(f"{brand_name}: {len(products)} products")
+    for brand_id, brand_name, brand_url in brands:
+        response = client.get(brand_url)
+        products = parse_brand_products(response.text) if response else []
+        with db_util.connect(args.db) as conn:
+            db_util.upsert_products(conn, brand_id, products)
+        total += len(products)
+        print(f"{brand_name}: {len(products)} products")
     print(f"products saved: {total} from {len(brands)} brands")
 
 
@@ -253,20 +233,25 @@ def scrape_details(args: argparse.Namespace, client: SephoraClient) -> None:
             print(f"  {row}")
 
 
+def _details_run(conn: sqlite3.Connection, run: int | None) -> tuple[int, str]:
+    """``(run_id, start date)`` for a details run (the latest one when ``run`` is None)."""
+    row = conn.execute(
+        "SELECT id, date(started_at) FROM scrape_runs WHERE stage = 'details' "
+        + ("AND id = ? " if run else "")
+        + "ORDER BY id DESC LIMIT 1",
+        (run,) if run else (),
+    ).fetchone()
+    if row is None:
+        sys.exit("No details run found.")
+    return row
+
+
 def export(args: argparse.Namespace) -> None:
     """Write a run's SKU rows and page checks to gzipped CSVs that can be committed."""
     import pandas as pd
 
     with db_util.connect(args.db) as conn:
-        run = conn.execute(
-            "SELECT id, date(started_at) FROM scrape_runs WHERE stage = 'details' "
-            + ("AND id = ? " if args.run else "")
-            + "ORDER BY id DESC LIMIT 1",
-            (args.run,) if args.run else (),
-        ).fetchone()
-        if run is None:
-            sys.exit("No details run found to export.")
-        run_id, started = run
+        run_id, started = _details_run(conn, args.run)
         details = pd.read_sql_query(
             "SELECT * FROM product_details WHERE run_id = ? ORDER BY product_code, sku_id",
             conn,
@@ -285,6 +270,31 @@ def export(args: argparse.Namespace) -> None:
         print(f"wrote {path} ({len(frame)} rows)")
 
 
+def preprocess(args: argparse.Namespace) -> None:
+    """Clean a details run (or a ``*_skus.csv.gz`` snapshot) into an analysis CSV."""
+    import pandas as pd
+
+    from shelf_life.preprocessing import preprocess as clean
+
+    if args.snapshot:
+        details = pd.read_csv(args.snapshot, keep_default_na=False, na_values=[""])
+        stem = args.snapshot.name.removesuffix(".csv.gz").removesuffix("_skus")
+    else:
+        with db_util.connect(args.db) as conn:
+            run_id, started = _details_run(conn, args.run)
+            details = pd.read_sql_query(
+                "SELECT * FROM product_details WHERE run_id = ?", conn, params=(run_id,)
+            )
+        stem = f"sephora_ca_{started}_run{run_id}"
+    df = clean(details)
+    args.out_dir.mkdir(parents=True, exist_ok=True)
+    path = args.out_dir / f"{stem}_clean.csv"
+    df.to_csv(path, index=False)
+    print(
+        f"wrote {path} ({len(df)} rows, {df['size_phase'].eq('unknown').sum()} without size units)"
+    )
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="shelf-life", description="Scrape and analyze Sephora Canada pricing."
@@ -296,6 +306,12 @@ def build_parser() -> argparse.ArgumentParser:
     export_cmd.add_argument("--db", type=Path, default=db_util.DEFAULT_DB, help="SQLite file")
     export_cmd.add_argument("--run", type=int, help="run id (default: latest details run)")
     export_cmd.add_argument("--out-dir", type=Path, default=Path("data/snapshots"))
+
+    prep = commands.add_parser("preprocess", help="clean a scrape run for analysis")
+    prep.add_argument("--db", type=Path, default=db_util.DEFAULT_DB, help="SQLite file")
+    prep.add_argument("--run", type=int, help="run id (default: latest details run)")
+    prep.add_argument("--snapshot", type=Path, help="read a *_skus.csv.gz export instead of the db")
+    prep.add_argument("--out-dir", type=Path, default=Path("data/processed"))
 
     scrape = commands.add_parser("scrape", help="scrape Sephora Canada")
     scrape.add_argument("stage", choices=["brands", "sitemap", "seed", "products", "details"])
@@ -320,13 +336,6 @@ def build_parser() -> argparse.ArgumentParser:
     scrape.add_argument(
         "--delay", type=float, default=5.0, help="seconds between requests (default 5)"
     )
-    scrape.add_argument(
-        "--browser",
-        choices=["auto", "never", "always"],
-        default="auto",
-        help="use Chrome when a page has no data without JavaScript (default auto)",
-    )
-    scrape.add_argument("--headed", action="store_true", help="show the Chrome window")
     scrape.add_argument("--new-run", action="store_true", help="details: start a new run")
     scrape.add_argument(
         "--all-products",
@@ -351,6 +360,9 @@ def main(argv: list[str] | None = None) -> None:
     )
     if args.command == "export":
         export(args)
+        return
+    if args.command == "preprocess":
+        preprocess(args)
         return
     client = SephoraClient(delay=args.delay)
     stages = {

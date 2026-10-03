@@ -5,12 +5,10 @@ Scrapes Sephora Canada (sephora.com/ca, CAD prices), cleans the data, and analyz
 ## Layout
 - `src/shelf_life/`:
   - `sephora.py`: requests client (slow, backs off and stops when blocked) and parsers for the JSON Sephora embeds in pages (`<script id="linkStore">`)
-  - `browser.py`: Selenium fallback that scrolls brand pages
-  - `cli.py`: `shelf-life scrape brands|products|details`
+  - `cli.py`: `shelf-life scrape brands|sitemap|seed|products|details`, `export`, `preprocess`
   - `db_util.py`: SQLite schema (`scrape_runs`, `brands`, `products`, `product_details`)
-  - `preprocessing.py`: 2025 cleaning pipeline
-  - `parsing.py`: pure size/price helpers
-  - `probe.py`: diagnostic for what Sephora returns to a machine
+  - `preprocessing.py`: `product_details` rows -> analysis table (numeric prices/sizes, category levels, unit prices)
+  - `parsing.py`: pure `parse_price` / `parse_size` helpers
 - `tests/`: pytest
 - `notebooks/`: analysis notebook, reads `../data/preprocessed_data.csv`
 - `legacy/`: frozen 2023 code (Dash apps, v1 pipeline). Excluded from ruff, ty, and pre-commit. Don't modify it unless asked.
