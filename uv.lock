@@ -2759,6 +2759,79 @@ wheels = [
 ]
 
 [[package]]
+name = "shelf-life"
+version = "0.2.0"
+source = { editable = "." }
+dependencies = [
+    { name = "beautifulsoup4" },
+    { name = "matplotlib" },
+    { name = "numpy" },
+    { name = "pandas" },
+    { name = "pillow" },
+    { name = "requests" },
+    { name = "selenium" },
+]
+
+[package.dev-dependencies]
+dashboard = [
+    { name = "dash" },
+    { name = "dash-bootstrap-components" },
+    { name = "plotly" },
+]
+dev = [
+    { name = "pandas-stubs" },
+    { name = "pre-commit" },
+    { name = "pytest" },
+    { name = "pytest-cov" },
+    { name = "ruff" },
+    { name = "ty" },
+    { name = "types-requests" },
+]
+notebook = [
+    { name = "ipykernel" },
+    { name = "jupyterlab" },
+    { name = "kaleido" },
+    { name = "plotly" },
+    { name = "scikit-learn" },
+    { name = "seaborn" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "beautifulsoup4", specifier = ">=4.12" },
+    { name = "matplotlib", specifier = ">=3.8" },
+    { name = "numpy", specifier = ">=1.26" },
+    { name = "pandas", specifier = ">=2.2" },
+    { name = "pillow", specifier = ">=10.0" },
+    { name = "requests", specifier = ">=2.31" },
+    { name = "selenium", specifier = ">=4.20" },
+]
+
+[package.metadata.requires-dev]
+dashboard = [
+    { name = "dash", specifier = ">=2.18" },
+    { name = "dash-bootstrap-components", specifier = ">=1.6" },
+    { name = "plotly", specifier = ">=5.24" },
+]
+dev = [
+    { name = "pandas-stubs", specifier = ">=2.2" },
+    { name = "pre-commit", specifier = ">=4.0" },
+    { name = "pytest", specifier = ">=8.0" },
+    { name = "pytest-cov", specifier = ">=5.0" },
+    { name = "ruff", specifier = ">=0.15" },
+    { name = "ty", specifier = ">=0.0.84" },
+    { name = "types-requests", specifier = ">=2.31" },
+]
+notebook = [
+    { name = "ipykernel", specifier = ">=6.29" },
+    { name = "jupyterlab", specifier = ">=4.2" },
+    { name = "kaleido", specifier = ">=1.0" },
+    { name = "plotly", specifier = ">=5.24" },
+    { name = "scikit-learn", specifier = ">=1.5" },
+    { name = "seaborn", specifier = ">=0.13" },
+]
+
+[[package]]
 name = "simplejson"
 version = "4.1.2"
 source = { registry = "https://pypi.org/simple" }
@@ -3041,79 +3114,6 @@ wheels = [
 [package.optional-dependencies]
 socks = [
     { name = "pysocks" },
-]
-
-[[package]]
-name = "value-cluster"
-version = "0.2.0"
-source = { editable = "." }
-dependencies = [
-    { name = "beautifulsoup4" },
-    { name = "matplotlib" },
-    { name = "numpy" },
-    { name = "pandas" },
-    { name = "pillow" },
-    { name = "requests" },
-    { name = "selenium" },
-]
-
-[package.dev-dependencies]
-dashboard = [
-    { name = "dash" },
-    { name = "dash-bootstrap-components" },
-    { name = "plotly" },
-]
-dev = [
-    { name = "pandas-stubs" },
-    { name = "pre-commit" },
-    { name = "pytest" },
-    { name = "pytest-cov" },
-    { name = "ruff" },
-    { name = "ty" },
-    { name = "types-requests" },
-]
-notebook = [
-    { name = "ipykernel" },
-    { name = "jupyterlab" },
-    { name = "kaleido" },
-    { name = "plotly" },
-    { name = "scikit-learn" },
-    { name = "seaborn" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "beautifulsoup4", specifier = ">=4.12" },
-    { name = "matplotlib", specifier = ">=3.8" },
-    { name = "numpy", specifier = ">=1.26" },
-    { name = "pandas", specifier = ">=2.2" },
-    { name = "pillow", specifier = ">=10.0" },
-    { name = "requests", specifier = ">=2.31" },
-    { name = "selenium", specifier = ">=4.20" },
-]
-
-[package.metadata.requires-dev]
-dashboard = [
-    { name = "dash", specifier = ">=2.18" },
-    { name = "dash-bootstrap-components", specifier = ">=1.6" },
-    { name = "plotly", specifier = ">=5.24" },
-]
-dev = [
-    { name = "pandas-stubs", specifier = ">=2.2" },
-    { name = "pre-commit", specifier = ">=4.0" },
-    { name = "pytest", specifier = ">=8.0" },
-    { name = "pytest-cov", specifier = ">=5.0" },
-    { name = "ruff", specifier = ">=0.15" },
-    { name = "ty", specifier = ">=0.0.84" },
-    { name = "types-requests", specifier = ">=2.31" },
-]
-notebook = [
-    { name = "ipykernel", specifier = ">=6.29" },
-    { name = "jupyterlab", specifier = ">=4.2" },
-    { name = "kaleido", specifier = ">=1.0" },
-    { name = "plotly", specifier = ">=5.24" },
-    { name = "scikit-learn", specifier = ">=1.5" },
-    { name = "seaborn", specifier = ">=0.13" },
 ]
 
 [[package]]

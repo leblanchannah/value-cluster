@@ -1,6 +1,6 @@
 import pytest
 
-from value_cluster.parsing import (
+from shelf_life.parsing import (
     clean_product_rating,
     parse_volume_string,
     pre_parse_product_size_clean,
