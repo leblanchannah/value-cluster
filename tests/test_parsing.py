@@ -2,6 +2,7 @@ import pytest
 
 from shelf_life.parsing import (
     clean_product_rating,
+    parse_size,
     parse_volume_string,
     pre_parse_product_size_clean,
     shorthand_numeric_conversion,
@@ -138,3 +139,43 @@ def test_split_sale_and_full_price(prices_as_list, prices_to_split):
 )
 def test_strip_non_numeric(input_str, output_str):
     assert strip_non_numeric(input_str) == output_str
+
+
+def _vols(*pairs):
+    return [{"value": value, "unit": unit} for value, unit in pairs]
+
+
+@pytest.mark.parametrize(
+    "size_value, phase, volumes, additional_info",
+    [
+        ("0.32 oz / 9 g", "solid", _vols((0.32, "oz"), (9, "g")), None),
+        (".1 / 3g", "solid", _vols((0.1, None), (3, "g")), None),
+        (".27 oz/8 mL", "both", _vols((0.27, "oz"), (8, "mL")), None),
+        ("1.7 oz/ 50 mL", "both", _vols((1.7, "oz"), (50, "mL")), None),
+        ("1.01 oz/ 30 ml", "both", _vols((1.01, "oz"), (30, "mL")), None),
+        ("5 oz/150 ml Refill", "both", _vols((5, "oz"), (150, "mL")), "Refill"),
+        ("0.003 oz / fillsizesequence:1", "solid", _vols((0.003, "oz")), "fillsizesequence:1"),
+        ("0.15 oz / 4.5 mL", "both", _vols((0.15, "oz"), (4.5, "mL")), None),
+        ("0.002 / 0.08g", "solid", _vols((0.002, None), (0.08, "g")), None),
+        ("0.003 oz / 0.1 g", "solid", _vols((0.003, "oz"), (0.1, "g")), None),
+        ("0.14 oz/ 4.1 g", "solid", _vols((0.14, "oz"), (4.1, "g")), None),
+        ("0.22 oz / 6.3 g", "solid", _vols((0.22, "oz"), (6.3, "g")), None),
+        ("0.2 oz", "solid", _vols((0.2, "oz")), None),
+        ("0.003 oz/ 0.085 g", "solid", _vols((0.003, "oz"), (0.085, "g")), None),
+        ("1.69 oz / 50 mL", "both", _vols((1.69, "oz"), (50, "mL")), None),
+        ("1.0 oz/30 mL", "both", _vols((1.0, "oz"), (30, "mL")), None),
+        ("0.007 oz/ 0.2 g", "solid", _vols((0.007, "oz"), (0.2, "g")), None),
+        ("0.4 oz/ 12 mL", "both", _vols((0.4, "oz"), (12, "mL")), None),
+        ("0.001 Oz. / fillsizesequence:1", "solid", _vols((0.001, "oz")), "fillsizesequence:1"),
+        ("1.6/50", "unknown", _vols((1.6, None), (50, None)), None),
+        (".2 / 6g", "solid", _vols((0.2, None), (6, "g")), None),
+        ("0.03 oz/ 2 x 0.8 g", "solid", _vols((0.03, "oz"), (0.8, "g")), "x2"),
+        ("", "unknown", [], None),
+    ],
+)
+def test_parse_size(size_value, phase, volumes, additional_info):
+    assert parse_size(size_value) == {
+        "phase": phase,
+        "parsed_volumes": volumes,
+        "additional_info": additional_info,
+    }
